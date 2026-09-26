@@ -21,6 +21,12 @@ _CAMEL_SRC = os.path.abspath(
         "submodules", "camel-cua", "camel-prompt-injection-main", "src",
     )
 )
+if not os.path.isdir(_CAMEL_SRC):
+    raise ImportError(
+        "CamelAgent needs the CaMeL pipeline checkout, which this repository does not "
+        f"ship. Expected it at {_CAMEL_SRC!r}. See 'Optional baselines' in the README; "
+        "every other agent runs without it."
+    )
 if _CAMEL_SRC not in sys.path:
     sys.path.insert(0, _CAMEL_SRC)
 

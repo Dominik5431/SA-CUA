@@ -24,8 +24,6 @@ defended agents and the baseline they are measured against:
 | `SA-Agent` | Capability-scoped dual-LLM agent. A trusted planner (P-LLM) that never observes raw screen content delegates capability-scoped sub-tasks to a quarantined executor (Q-VLM). Adds zone-based screen taint labels, a pre-execution policy gate, a typed endorsement channel, and hybrid web/terminal tools. |
 | `FidesAgent` | Fides-style defense: the `no_exposure` variant redacts tool outputs into variable references so the planner sees tokens, not content, plus a cross-model consistency check. |
 | `CamelAgent` | The [CaMeLCUA](https://arxiv.org/abs/2601.09923) pipeline: control-flow integrity via isolation between a planner P-LLM  and a Q-VLM. |
-| `UCMAgent` | Untrusted Content Masking ([arXiv:2607.05277](https://arxiv.org/abs/2607.05277)): masks untrusted DOM via CDP *before* every screenshot, so the text is never in the pixels; a quarantined model answers typed (`bool`/`int`/`float`/`enum`/`date`) questions over individual masked elements. |
-| `HybridAgent`, `QwenAgent`, `ClaudeCUAAgent`, `HumanAgent` | Utility agents (hybrid prompt, Qwen, Anthropic CUA, and a human-in-the-loop driver). |
 
 ### Endorsement benchmark
 
@@ -58,11 +56,31 @@ uv sync
 source .venv/bin/activate
 ```
 
-Git submodules are used for the CaMeL pipeline and example data:
+### 1b. Example data
+
+The OSWorld example-data archives are distributed separately rather than as a git submodule, because
+the anonymized host serves files over HTTP but not over the git protocol. Fetch and unpack them into
+the path the generators expect:
 
 ```bash
-git submodule update --init --recursive
+mkdir -p submodules/OSWorld_examples_data
+curl -L https://anonymous.4open.science/api/repo/OSWorld_examples_data/zip -o /tmp/osworld_examples_data.zip
+unzip /tmp/osworld_examples_data.zip -d submodules/OSWorld_examples_data
 ```
+
+Only the generators under `evaluation_examples/generate_thunderbird_examples/` read these archives.
+The task configs they produce are already committed, so evaluation runs do **not** need this step.
+
+### 1c. Optional baselines
+
+Two comparison baselines import code from checkouts this repository does not ship. Place them at the
+paths below to enable them; everything else — SA-Agent, the prompt agents, and every evaluation
+suite — runs without them.
+
+| Baseline | Expected location | Enables |
+| --- | --- | --- |
+| CaMeL (`--agent_type CamelAgent`) | `submodules/camel-cua/camel-prompt-injection-main/` | the CaMeL rows in `results.py` |
+| UCM masking (`at-spi/ucm_baseline/`, the `ucm` metric) | `$UCM_REPO`, default `../untrusted-content-masking` | the UCM baseline comparison |
 
 ### 2. Hybrid sandbox
 
@@ -178,25 +196,6 @@ python run.py \
   --result_dir ./results \
 ```
 
-### `UCMAgent`
-
-```bash
-python run.py \
-  --agent_type UCMAgent \
-  --provider_name docker \
-  --observation_type screenshot \
-  --action_space pyautogui \
-  --model "anthropic | claude-sonnet-4-6" \
-  --test_all_meta_path evaluation_examples/test_all_reddit.json \
-  --test_config_base_dir evaluation_examples \
-  --result_dir ./results
-```
-
-UCM needs the model served with tool-calling enabled (e.g. vLLM
-`--enable-auto-tool-choice --tool-call-parser hermes`). Relevant flags: `--ucm_model`,
-`--ucm_qllm_model`, `--ucm_allow_unsolvable`, `--ucm_site {reddit,owncloud,rocketchat}`,
-`--ucm_reveal {default,all,mask}`. See `mm_agents/ucm_agent/README.md`.
-
 ### Endorsement benchmark
 
 ```bash
@@ -224,9 +223,9 @@ adv/                          per-platform adversarial injection scripts (Reddit
 desktop_env/                  Modified environment from RedTeamCUA
 ucm_sites/                    UCM utility suite: 10 self-hosted sites + scoring
 at-spi/                       AT-SPI accessibility-tree captures used for screen labeling / masking
-submodules/
-   OSWorld_examples_data/
-   camel-cua/                 Modified version of CamelCUA ()     
+submodules/                   not shipped; populated by the user (see Setup 1b / 1c)
+   OSWorld_examples_data/     example-data archives for the Thunderbird generators
+   camel-cua/                 CaMeL pipeline, for the optional CamelAgent baseline
 ```
 
 ---
