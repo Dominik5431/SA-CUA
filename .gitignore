@@ -232,3 +232,8 @@ at-spi/_pre_rework_20260826/
 at-spi/_pre_*/
 at-spi/labels/_archive/
 .env.*
+
+# Vendored CaMeL pipeline: checked in verbatim for the optional CamelAgent baseline.
+# The generic rules above (**/data/**/*, .env.*, .python-version) would otherwise strip
+# its benchmark suite configs and env-var documentation.
+!submodules/camel-cua/**

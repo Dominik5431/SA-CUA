@@ -71,16 +71,16 @@ unzip /tmp/osworld_examples_data.zip -d submodules/OSWorld_examples_data
 Only the generators under `evaluation_examples/generate_thunderbird_examples/` read these archives.
 The task configs they produce are already committed, so evaluation runs do **not** need this step.
 
-### 1c. Optional baselines
+### 1c. Optional baseline: UCM
 
-Two comparison baselines import code from checkouts this repository does not ship. Place them at the
-paths below to enable them; everything else — SA-Agent, the prompt agents, and every evaluation
-suite — runs without them.
+The CaMeL pipeline (`--agent_type CamelAgent`) is vendored under
+`submodules/camel-cua/camel-prompt-injection-main/` and needs no extra setup.
 
-| Baseline | Expected location | Enables |
-| --- | --- | --- |
-| CaMeL (`--agent_type CamelAgent`) | `submodules/camel-cua/camel-prompt-injection-main/` | the CaMeL rows in `results.py` |
-| UCM masking (`at-spi/ucm_baseline/`, the `ucm` metric) | `$UCM_REPO`, default `../untrusted-content-masking` | the UCM baseline comparison |
+The UCM masking baseline is the one comparison this repository does not ship. It imports its
+sanitizer and proposal loop from an upstream checkout, read from `$UCM_REPO` (default
+`../untrusted-content-masking`), and is used by `at-spi/ucm_baseline/` and the `ucm` metric. Without
+it those two entry points are unavailable; everything else — SA-Agent, the prompt agents, CaMeL, and
+every evaluation suite — runs regardless.
 
 ### 2. Hybrid sandbox
 
@@ -223,9 +223,9 @@ adv/                          per-platform adversarial injection scripts (Reddit
 desktop_env/                  Modified environment from RedTeamCUA
 ucm_sites/                    UCM utility suite: 10 self-hosted sites + scoring
 at-spi/                       AT-SPI accessibility-tree captures used for screen labeling / masking
-submodules/                   not shipped; populated by the user (see Setup 1b / 1c)
-   OSWorld_examples_data/     example-data archives for the Thunderbird generators
-   camel-cua/                 CaMeL pipeline, for the optional CamelAgent baseline
+submodules/
+   camel-cua/                 vendored CaMeL pipeline (Apache-2.0), for the CamelAgent baseline
+   OSWorld_examples_data/     not shipped; fetched by the user (see Setup 1b)
 ```
 
 ---
@@ -243,4 +243,6 @@ This project is licensed under the Apache License 2.0 (see [`LICENSE`](LICENSE))
 - [RedTeamCUA / OSWorld License (Apache 2.0)](https://github.com/xlang-ai/OSWorld/blob/main/LICENSE)
 - [WebArena License (Apache 2.0)](https://github.com/web-arena-x/webarena/blob/main/LICENSE)
 - [TheAgentCompany License (MIT)](https://github.com/TheAgentCompany/TheAgentCompany/blob/main/LICENSE)
+- CaMeL (Apache 2.0) — vendored under `submodules/camel-cua/`, redistributed with its original
+  [`LICENSE`](submodules/camel-cua/camel-prompt-injection-main/LICENSE)
 
