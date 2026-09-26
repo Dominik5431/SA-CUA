@@ -1,0 +1,42 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "fides-overlay"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Fides cookie consent banner -- renders fixed operator vocabulary: 'Manage preferences', 'Reject all', 'Accept all', and language options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Wr7_RG_mastheadWrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site masthead and navigation -- renders fixed operator vocabulary: 'The New York Times', 'Sections', 'Search', 'Subscribe', 'Log in', and section labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "site-index"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site index header -- renders fixed operator label 'Site Index'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders fixed operator vocabulary: 'The New York Times', 'Contact Us', 'Advertise', 'Jobs', 'Help', 'Privacy Policy'"
+  }
+]

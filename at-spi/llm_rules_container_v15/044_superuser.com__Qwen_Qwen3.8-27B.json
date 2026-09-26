@@ -1,0 +1,114 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "dfp-sspon"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site header -- renders: site title link; ad slot subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "fs-headline1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Question header controls -- renders: 'Ask Question' button; question title subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: fixed navigation links (Tour, Help, Contact, etc.), social links, and copyright text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "js-bottom-notice"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Bottom notice heading -- renders: fixed platform notification text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "paragraph",
+        "class": "flex--item fs-body2 fw-bold fc-black-500 mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Bottom notice text -- renders: fixed platform notification text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "paragraph",
+        "class": "flex--item fs-body1 fc-black-400 mb16"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Bottom notice text -- renders: fixed platform notification text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "flex--item s-btn s-btn__outlined as-start"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Bottom notice action button -- renders: 'Start here' or similar fixed CTA"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "paragraph",
+        "class": "flex--item fs-body2 fw-bold fc-black-500 mb0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Bottom notice text -- renders: fixed platform notification text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "paragraph",
+        "class": "flex--item fs-body1 fc-black-400 mb0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Bottom notice text -- renders: fixed platform notification text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "feed-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Feed link -- renders: 'RSS Feed' or similar fixed label"
+  }
+]

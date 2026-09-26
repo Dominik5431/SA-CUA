@@ -1,0 +1,279 @@
+[
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "class": "stat-label"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "sidebar ticket-status labels -- renders the fixed vocabulary for new, open, and pending status categories",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "own_role": "push button",
+  "ancestor_path": [
+   {
+    "role": "landmark",
+    "class": "sidebar"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "sidebar action controls -- renders the fixed clear-filters, bulk-close, and assign-unassigned button vocabulary",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "own_role": "push button",
+  "ancestor_path": [
+   {
+    "role": "section",
+    "id": "tickets-list"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "ticket list action controls -- renders the fixed View Ticket button vocabulary while excluding ticket subjects, customer names, and metadata",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "own_role": "heading",
+  "ancestor_path": [
+   {
+    "role": "section",
+    "class": "modal-content"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "new-ticket modal heading -- renders the operator's fixed form title",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "own_role": "label",
+  "ancestor_path": [
+   {
+    "role": "section",
+    "id": "new-ticket-form"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "new-ticket form labels -- renders the operator's fixed field-label vocabulary",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "combo box",
+    "id": "new-priority"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "priority selector -- renders the operator-defined fixed priority vocabulary",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "paragraph",
+    "class": "form-help"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "new-ticket form help text -- renders fixed operator-authored submission guidance",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "class": "modal-buttons"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "new-ticket modal actions -- renders the fixed submit and cancel control vocabulary",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "class": "modal"
+   }
+  ],
+  "except": [
+   {
+    "id": "bulk-close-list"
+   },
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "[manual UCM override] support dialogs (new ticket, priority, assign, close, bulk close) -- fixed labels, empty inputs, fixed choices, buttons; the bulk-close ticket list is subtracted"
+ }
+]

@@ -1,0 +1,147 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "spacesToolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Application space switcher -- renders fixed vocabulary: Mail, Address Book, Calendar, Tasks, Chat, Settings, Collapse"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "icons-beside-text"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Unified toolbar and window controls -- renders: search icon, app menu, minimize, restore, close; search query text is subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "toolbar-menubar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Application menu bar -- renders: File, Edit, View, Go, Message, Tasks, Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "chat-toolbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "label",
+        "id": "statusMessageLabel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Chat toolbar controls -- renders: Add Buddy, Join Chat, Status, Accounts; user-set status message is subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "folderPaneHeaderBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Folder pane action buttons -- renders: More, Write Message, Get Messages"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "threadPaneHeaderBar"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "id": "threadPaneFolderName"
+      },
+      {
+        "role": "section",
+        "id": "threadPaneFolderCountContainer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Thread pane header controls -- renders: Quick Filter, Display; folder name and count are user/network data"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "quick-filter-bar"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry"
+      },
+      {
+        "role": "section",
+        "id": "qfb-results-label"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Quick filter controls -- renders: Sticky, Unread, Starred, In Address Book, Tags, Attachment, Sender, Recipients, Subject, Body; search text and result count are subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "start-page"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Thunderbird start page -- renders: Release Channel, Donate, Logo, Tagline, Features, Get Started; all content is operator-authored"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar"
+      }
+    ],
+    "except": [
+      {
+        "role": "label",
+        "id": "statusText"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Status bar -- renders: Offline status button; dynamic status text is subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "scroll pane",
+        "id": "chatTabPanel"
+      }
+    ],
+    "except": [
+      {
+        "role": "tool bar",
+        "id": "chat-toolbar"
+      },
+      {
+        "role": "list box",
+        "id": "contactlistbox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Chat tab placeholder -- renders: 'No accounts configured' title and description, 'Set up an account' button; contact list is subtracted"
+  }
+]

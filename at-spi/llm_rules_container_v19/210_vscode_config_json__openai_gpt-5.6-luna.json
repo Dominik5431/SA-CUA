@@ -1,0 +1,84 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "page tab list",
+        "class": "actions-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Activity Bar navigation -- renders the fixed view vocabulary Explorer/Search/Source Control/Run and Extensions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-action-bar vertical"
+      },
+      {
+        "role": "tool bar",
+        "class": "actions-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Accounts and Manage controls -- renders the fixed Accounts and Settings interface vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "class": "highlight-toggled"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Editor toolbar -- renders the fixed Split Editor and More Actions commands"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "page tab",
+        "class": "tab-actions-right"
+      },
+      {
+        "role": "tool bar",
+        "class": "actions-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Editor tab action toolbar -- renders the fixed Close command"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "codicon-breadcrumb-separator"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Breadcrumb separators -- renders the fixed separator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar",
+        "class": "ElectronMenuBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Application menu bar -- renders the fixed File/Edit/Selection/View/Go/Run/Terminal/Help vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "notification-list-item"
+      },
+      {
+        "role": "tool bar",
+        "class": "actions-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Notification dismissal toolbar -- renders the fixed notification-clear control"
+  }
+]

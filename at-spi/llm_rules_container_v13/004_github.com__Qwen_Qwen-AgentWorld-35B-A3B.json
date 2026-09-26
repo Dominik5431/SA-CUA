@@ -1,0 +1,83 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "MarketingHeader-module__root__Tk7n3 HeaderMktg header-logged-out"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar and marketing header -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-repo-nav js-sidenav-container-pjax js-responsive-underlinenav overflow-hidden UnderlineNav px-3 tmp-px-3 px-md-4 tmp-px-md-4 px-lg-5 tmp-px-lg-5"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository navigation tabs -- code, issues, pull requests, etc., operator-defined navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "subnav-search width-full d-flex ml-0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issues search box -- operator's own interface control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "Button--primary Button--medium Button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "new issue/pull request button -- operator's own interface control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "table-list-header-toggle states flex-auto pl-0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issues state toggles (all/open/closed) -- operator-defined state taxonomy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "pagination"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- operator-defined navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "issues-index-tip",
+        "class": "tmp-mt-3 text-center color-fg-muted"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issues page tip -- operator-authored help copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "footer f6 color-fg-muted color-border-subtle tmp-pt-7 tmp-pb-6 p-responsive"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- platform's own interface throughout"
+  }
+]

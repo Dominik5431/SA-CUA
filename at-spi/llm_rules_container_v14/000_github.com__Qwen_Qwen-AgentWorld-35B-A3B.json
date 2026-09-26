@@ -1,0 +1,92 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "MarketingHeader-module__root__Tk7n3 HeaderMktg header-logged-out"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "marketing site header navigation -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-skip-to-content"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip to content link -- platform's own interface control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-repo-nav js-sidenav-container-pjax js-responsive-underlinenav overflow-hidden UnderlineNav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository navigation tabs -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "FileResultsList-module__FilesSearchBox__ivVkc"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file search box -- platform's own interface control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "DirectoryContent-module__OverviewHeaderRow__hOrKy"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file directory table headers -- platform-defined column labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "SidebarSection-module__sectionHeading__TG36m"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar section headings -- platform's own interface labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "SidebarLanguages-module__languageList__R3aIa"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar languages list -- operator-defined taxonomy terms for programming languages"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- platform's own interface and links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "OverviewRepoFiles-module__UnderlineNav__QbWWv"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file view navigation tabs -- platform's own interface"
+  }
+]

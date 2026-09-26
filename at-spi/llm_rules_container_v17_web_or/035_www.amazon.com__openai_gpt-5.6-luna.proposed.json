@@ -1,0 +1,177 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "nav-logo-sprites",
+        "class": "nav-logo-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site logo link -- renders the fixed Amazon home control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "searchDropdownBox",
+        "class": "nav-search-dropdown"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search scope selector -- renders the fixed set of Amazon search categories"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-search-label-id",
+        "class": "nav-search-label"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search scope label -- renders the fixed label for the search-category selector"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-search-submit-text",
+        "class": "nav-search-submit-text"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search submission control -- renders the fixed search action and its fixed interface label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "nav-search-submit-button",
+        "class": "nav-input"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search submit control -- renders the fixed search action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "nav-orders",
+        "class": "nav-a"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "orders navigation control -- renders the fixed orders link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "nav-hamburger-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main navigation toggle -- renders the fixed menu control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-xshop",
+        "class": "nav-progressive-content"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "primary shopping navigation -- renders fixed Amazon navigation links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-cart-text-container",
+        "class": "nav-progressive-attribute"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cart navigation label -- renders the fixed cart interface label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "s-result-sort-select",
+        "class": "a-native-dropdown"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "results sort selector -- renders the fixed set of sorting controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "a-size-medium-plus"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search-module section headings -- renders fixed platform labels for result and featured-product modules"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "ax-atc"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "add-to-cart widget -- renders the fixed add-to-cart control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "mvt-review-star-mini-popover"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "product rating popover control -- renders the fixed control for opening rating details"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "puis-sponsored-label-text"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sponsored-content disclosure control -- renders the fixed platform control identifying sponsored placement"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-pagination-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "results pagination -- renders fixed previous, numbered-page, next, disabled, and ellipsis controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooter"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "icp-container-desktop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Amazon footer -- renders fixed footer navigation, legal copy, service descriptions, and back-to-top controls; locale and currency selector subtree is excluded"
+  }
+]

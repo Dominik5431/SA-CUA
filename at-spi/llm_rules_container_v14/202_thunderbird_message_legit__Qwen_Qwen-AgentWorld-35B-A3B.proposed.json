@@ -1,0 +1,138 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "spacesToolbar",
+        "class": "spaces-toolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "spaces navigation toolbar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "unifiedToolbarContainer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "unified toolbar and titlebar controls -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "toolbar-menubar",
+        "class": "chromeclass-menubar themeable-full"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main menu bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "chat-toolbar",
+        "class": "inline-toolbar chromeclass-toolbar themeable-full"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "chat toolbar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "folderPaneHeaderBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "folder pane header controls -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "list-header-bar-container-end"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "thread pane header controls -- quick filter and display buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "threadPaneFolderCountContainer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "thread pane folder count -- operator-defined computed value"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "header-view-toolbox",
+        "class": "header-buttons-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message header action buttons -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "dateLabel",
+        "class": "message-header-datetime"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message header date label -- operator-defined timestamp"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "status bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "id": "noAccountTitle",
+        "class": "im-placeholder-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "chat no account placeholder title -- operator-defined interface label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "id": "noAccountDesc",
+        "class": "im-placeholder-desc"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "chat no account placeholder description -- operator-defined interface label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "openIMAccountWizardButton"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "chat open IM account wizard button -- account control"
+  }
+]

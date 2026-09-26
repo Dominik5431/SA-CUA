@@ -1,0 +1,66 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar",
+        "class": "ElectronMenuBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Native application menu bar -- renders fixed operator vocabulary: File/Edit/Selection/View/Go/Run/Terminal/Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-action-bar vertical"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Activity bar and status bar icons -- renders fixed operator vocabulary: Explorer, Search, Source Control, Run, Extensions, Accounts, Settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "workbench.parts.statusbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Status bar -- renders fixed operator vocabulary for editor state: remote kind, problem counts, forwarded ports, notifications, language mode, EOL, encoding, indentation, selection, screen reader mode"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-aria-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Accessibility container -- renders fixed operator vocabulary for screen reader alerts and status"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "notifications-toasts visible"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Notification toasts -- renders fixed operator vocabulary for system messages and actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "tabs-and-actions-container tabs-border-bottom"
+      },
+      {
+        "role": "tool bar",
+        "class": "actions-container highlight-toggled"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Editor tab action toolbar -- renders fixed operator vocabulary: Open Preview, Split Horizontal, More Actions"
+  }
+]

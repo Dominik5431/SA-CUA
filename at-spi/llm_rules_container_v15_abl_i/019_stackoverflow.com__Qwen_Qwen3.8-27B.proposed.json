@@ -1,0 +1,110 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: Skip to main content, Stack Overflow, Questions, Search, Help, Stack Exchange, Log in, Sign up"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: Stack Overflow, Questions, Tags, Users, Companies, About, Help, Legal, Privacy Policy, Terms of Service, Cookie Settings, Stack Exchange, Technology, Culture, Business, Life, Science, Professional, Creative, API, Advertise, Mobile, More, Copyright"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Left sidebar navigation -- renders: Home, Questions, Ask AI, Tags, Users, Companies, Collectives, Stack Overflow for Teams, Try it for free, Learn more"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "tag-headline-container"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "dfp-tag"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Tag page header -- renders: python, tag description, Ask Question, Filter"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mainbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "questions"
+      },
+      {
+        "role": "section",
+        "id": "tag-headline-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main bar controls -- renders: 123,456 questions, Newest, Active, Votes, Filter"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "dfp-tsb"
+      },
+      {
+        "role": "section",
+        "id": "dfp-msb"
+      },
+      {
+        "role": "section",
+        "id": "dfp-bsb"
+      },
+      {
+        "role": "section",
+        "id": "hot-network-questions"
+      },
+      {
+        "role": "landmark",
+        "class": "js-sofa-sidebar-promo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar widgets -- renders: Related, Stack Exchange, Meta, RSS feed"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-report-ad-button-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Ad report button -- renders: Report this ad"
+  }
+]

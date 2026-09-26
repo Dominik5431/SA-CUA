@@ -1,0 +1,52 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "MarketingHeader-module__root__Tk7n3 HeaderMktg header-logged-out"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "marketing header navigation and auth controls -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repository-details-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository action buttons and social counters -- watch, fork, star buttons and computed counts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-repo-nav js-sidenav-container-pjax js-responsive-underlinenav overflow-hidden UnderlineNav px-3 tmp-px-3 px-md-4 tmp-px-md-4 px-lg-5 tmp-px-lg-5"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository navigation tabs -- code, issues, pull requests, actions, projects, wiki, security and quality, insights"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "FilteredListPageLayout-module__FilterBar__yw_Ew"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issues filter bar -- search input and clear/submit controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "_r_7_-list-view-metadata"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "list view metadata -- open/closed tabs, filter buttons, and sorting dropdown controls"
+  }
+]

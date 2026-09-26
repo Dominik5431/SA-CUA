@@ -1,0 +1,82 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders: Booking.com logo, language/currency, sign in, register, and fixed service tabs (Stays, Flights, Flight+Hotel, Car rentals, Attractions, Airport taxis)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "TravellerFooter_root--variant-full"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: fixed navigation links (Support, Partners, etc.), legal links, and language/currency controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "f8d8d99a17"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search bar controls -- renders: fixed labels (Where to?, Check-in, Check-out, Guests) and search button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "fff1944c52"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "breadcrumb navigation -- renders: fixed site sections (Home, Stays, [City])"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "ce1108eff4"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sort control -- renders: fixed sort options (Top reviewed, Price, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "b99b6ef58f b34f2cc03f"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "filter toggle -- renders: fixed label (Filters)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "ad68e1f7ce"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view switcher -- renders: fixed view options (List, Grid)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "a297f43545"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "results count -- renders: fixed format (X properties found)"
+  }
+]

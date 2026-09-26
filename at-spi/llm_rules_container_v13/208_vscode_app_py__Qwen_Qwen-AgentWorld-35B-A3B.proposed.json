@@ -1,0 +1,33 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-action-bar vertical"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Activity Bar navigation -- platform's own interface icons for explorer, search, source control, run, extensions, accounts, settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar",
+        "id": "workbench.parts.statusbar",
+        "class": "part statusbar status-border-top"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Status Bar -- platform's own interface controls for host, problems, ports, notifications, editor mode, eol, encoding, indentation, selection, screen reader mode"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "class": "actions-container highlight-toggled"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Editor tab actions -- platform's own interface controls for split horizontal and more actions"
+  }
+]

@@ -1,0 +1,179 @@
+[
+ {
+  "ancestor_path": [
+   {
+    "role": "entry",
+    "id": "search-input",
+    "class": "form-input trusted"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "search control -- renders the operator-defined search-box interface",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "push button",
+    "id": "search-btn",
+    "class": "btn btn-primary trusted"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "search action -- renders the fixed search-control label",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "combo box",
+    "id": "sort-select",
+    "class": "form-select trusted"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "sort control -- renders the fixed sort-choice vocabulary",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "landmark",
+    "class": "filters"
+   }
+  ],
+  "except": [
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "[manual UCM override] filter sidebar -- fixed color/size/price vocabulary; the source marks this aside data-trusted=true (it is the one [data-untrusted-element] that is trusted), so reveal-visible is NOT subtracted here"
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "heading",
+    "id": "results-count"
+   }
+  ],
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "[manual UCM override] result count -- site-computed"
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "id": "products-grid"
+   }
+  ],
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "[manual UCM override] product cards -- price, size, Add to Cart; image, name, description and reviews are data-untrusted and subtracted"
+ }
+]

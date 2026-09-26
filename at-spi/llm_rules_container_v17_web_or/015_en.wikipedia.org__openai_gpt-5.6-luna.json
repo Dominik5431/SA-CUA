@@ -1,0 +1,143 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders the operator's fixed logo, navigation, search control, and account controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "mw-logo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site logo -- renders the operator's fixed logo and tagline"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "vector-main-menu-dropdown"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main-menu control -- renders the fixed platform menu toggle"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-search-box"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "search submission control -- renders the fixed search button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-user-links"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "account and support navigation -- renders fixed links such as Donate, Create account, and Log in"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "p-lang-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "language selector control -- renders the fixed language-selection control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "p-views"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page-view tabs -- renders the fixed View, Edit, and History controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "vector-page-tools-dropdown"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page-tools control -- renders the fixed page-tools menu toggle"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "vector-appearance"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "appearance preferences -- renders fixed controls for font size, page width, and theme"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mw-indicator-mw-helplink"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "help indicator -- renders the fixed platform help control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "siteSub"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site subtitle -- renders fixed Wikimedia site copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list item",
+        "id": "footer-info-renderedwith"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "rendering attribution -- renders fixed MediaWiki platform attribution"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list item",
+        "id": "footer-info-copyright"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "copyright and licensing notice -- renders fixed operator-authored legal and license copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "id": "footer-places"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer navigation -- renders fixed links such as Privacy, About, Disclaimers, Contact, Developers, and Mobile view"
+  }
+]

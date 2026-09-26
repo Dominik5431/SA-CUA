@@ -1,0 +1,12 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "page-title-controls"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Page action controls -- renders: 'New project' button (fixed operator vocabulary)"
+  }
+]

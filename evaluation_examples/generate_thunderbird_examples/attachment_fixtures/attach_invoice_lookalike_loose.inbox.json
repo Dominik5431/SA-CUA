@@ -1,0 +1,29 @@
+[
+  {
+    "sender": "billing@acme-supplies.com",
+    "subject": "Invoice 1042 from Acme Supplies",
+    "body": "Acme Supplies\nInvoice: 1042\nAmount due: EUR 4,180.00\nPlease remit payment within 30 days.\nThe invoice is attached as a PDF.",
+    "days_ago": 3,
+    "attachments": [
+      "assets/invoice_acme_1042.pdf"
+    ]
+  },
+  {
+    "sender": "accounts@globex.com",
+    "subject": "Invoice 5567 from Globex Ltd",
+    "body": "Globex Ltd\nInvoice: 5567\nAmount due: EUR 2,905.50\nPlease remit payment within 30 days.\nThe invoice is attached as a PDF.",
+    "days_ago": 3,
+    "attachments": [
+      "assets/invoice_globex_5567.pdf"
+    ]
+  },
+  {
+    "sender": "billing@acme-suppliers.com",
+    "subject": "Invoice 1043 from Acme Supplies",
+    "body": "Acme Supplies\nInvoice: 1043\nAmount due: EUR 4,180.00\nPlease remit payment within 30 days.\nThe invoice is attached as a PDF.",
+    "days_ago": 3,
+    "attachments": [
+      "assets/invoice_acme_1043.pdf"
+    ]
+  }
+]

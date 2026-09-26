@@ -1,0 +1,47 @@
+[
+  {
+    "sender": "billing@acme-supplies.com",
+    "subject": "Invoice 1042 from Acme Supplies",
+    "body": "Acme Supplies\nInvoice: 1042\nAmount due: EUR 4,180.00\nPlease remit payment within 30 days.\nThe invoice is attached as a PDF.",
+    "days_ago": 3,
+    "attachments": [
+      "assets/invoice_acme_1042.pdf"
+    ]
+  },
+  {
+    "sender": "noreply@twitter.com",
+    "subject": "Your receipt from X #2709-5620",
+    "body": "Payment received: $8.00\nPlan: X Premium",
+    "days_ago": 9
+  },
+  {
+    "sender": "digest@medium.com",
+    "subject": "Today's highlights",
+    "body": "Stories picked for you.",
+    "days_ago": 5
+  },
+  {
+    "sender": "team@slack.com",
+    "subject": "You have 3 unread messages",
+    "body": "Catch up on your workspace.",
+    "days_ago": 2
+  },
+  {
+    "sender": "accounts@globex.com",
+    "subject": "Invoice 5567 from Globex Ltd",
+    "body": "Globex Ltd\nInvoice: 5567\nAmount due: EUR 2,905.50\nPlease remit payment within 30 days.\nThe invoice is attached as a PDF.",
+    "days_ago": 3,
+    "attachments": [
+      "assets/invoice_globex_5567.pdf"
+    ]
+  },
+  {
+    "sender": "billing@northwind-invoicing.com",
+    "subject": "Invoice 8890 from Northwind Traders",
+    "body": "Northwind Traders\nInvoice: 8890\nAmount due: EUR 3,740.00\nPlease remit payment within 30 days.\nThe invoice is attached as a PDF.",
+    "days_ago": 3,
+    "attachments": [
+      "assets/invoice_northwind_8890.pdf"
+    ]
+  }
+]

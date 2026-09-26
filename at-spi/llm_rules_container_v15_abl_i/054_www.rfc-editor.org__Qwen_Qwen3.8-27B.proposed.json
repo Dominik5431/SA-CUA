@@ -1,0 +1,7 @@
+[
+  {
+    "scope": "page",
+    "verdict": "trusted",
+    "note": "RFC 8446 specification page -- the entire document, including navigation, table of contents, and body text, is authored by the IETF/IESG (the operator) and contains no user-generated content, comments, or dynamic user data."
+  }
+]

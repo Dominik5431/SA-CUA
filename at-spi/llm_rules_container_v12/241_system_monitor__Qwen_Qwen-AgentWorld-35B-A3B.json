@@ -1,0 +1,7 @@
+[
+  {
+    "scope": "page",
+    "verdict": "trusted",
+    "note": "system_monitor holdout application -- operator's own interface throughout, no user-generated content"
+  }
+]

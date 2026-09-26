@@ -1,0 +1,12 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "tree table"
+      }
+    ],
+    "own_role": "table column header",
+    "verdict": "trusted",
+    "note": "File list column headers -- renders: Name/Size/Type/Modified (fixed operator vocabulary)"
+  }
+]

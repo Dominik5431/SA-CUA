@@ -1,0 +1,94 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-header mw-header no-font-mode-scale"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar and search -- operator's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "mw-body-header vector-page-titlebar no-font-mode-scale"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page title and indicators header -- operator's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-appearance-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "appearance settings panel -- operator's own interface for font size, width, theme"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-page-tools-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page tools dropdown -- operator's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer",
+        "class": "mw-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer with privacy, about, disclaimers, contact, developers, stats, cookies links -- operator's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mw-recentchanges-toplinks"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "recent changes top links collapse control -- operator's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "mw-changeslist-legend"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "recent changes legend -- operator-defined status badges and taxonomy terms"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mw-content-text",
+        "class": "mw-body-content"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "mw-rcfilters-ui-filterTagMultiselectWidget"
+      },
+      {
+        "role": "section",
+        "class": "mw-changeslist"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "recent changes content area -- renders: intro paragraph, top links collapse, filter controls, and heading; subtracts filter panel and changes list"
+  }
+]

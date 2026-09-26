@@ -1,0 +1,103 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "bui-list-item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip-navigation link -- renders fixed platform navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders Booking.com branding, account controls, and fixed header interface vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_tab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "product navigation tabs -- renders the fixed accommodations/flights/packages/cars/attractions/airport-taxis vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "class": "d026bbaa45"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "destination field label -- renders fixed search-form vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "searchbox-horizontal-occupancy-label"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "occupancy field label -- renders fixed search-form vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "f3e59d528f"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search submission control -- renders the fixed Search action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "ad68e1f7ce"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view switcher -- renders the fixed list/grid view choices"
+  },
+  {
+    "own_role": "check box",
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "cca574b93c"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "result selection controls -- renders the fixed selection-control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "TravellerFooter_root--variant-full"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders fixed Booking.com navigation, support, legal, and platform-link vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "onetrust-banner-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie-consent banner -- renders operator-authored privacy policy copy and fixed consent controls"
+  }
+]

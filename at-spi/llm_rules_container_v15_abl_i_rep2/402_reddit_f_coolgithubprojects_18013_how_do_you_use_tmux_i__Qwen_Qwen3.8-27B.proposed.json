@@ -1,0 +1,62 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Accessibility skip links -- renders fixed platform vocabulary like 'Skip to main content' and 'Skip to comments'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-nav"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry",
+        "id": "site-nav-search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main site navigation bar -- renders fixed platform vocabulary for logo, menu items (Home, Popular, etc.), and user controls; search input excluded as it may echo user queries"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "main"
+      }
+    ],
+    "except": [
+      {
+        "role": "article",
+        "class": "submission"
+      },
+      {
+        "role": "article",
+        "class": "comment"
+      },
+      {
+        "role": "section",
+        "class": "comment-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main content landmark chrome -- renders fixed section headings (e.g., 'Comments') and tab controls (e.g., 'Best', 'New'); submission, comments, and reply form are user-generated and excluded"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders fixed platform copyright and legal links"
+  }
+]

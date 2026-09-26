@@ -1,0 +1,42 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Wr7_RG_mastheadWrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Masthead and top navigation bar -- renders fixed operator vocabulary: site logo, section names, search, and sign-in controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "tab-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Stream tab navigation -- renders fixed operator vocabulary for stream categories"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "site-index"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site index header -- renders fixed operator vocabulary for the index section"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders fixed operator vocabulary for legal links, site map, and contact information"
+  }
+]

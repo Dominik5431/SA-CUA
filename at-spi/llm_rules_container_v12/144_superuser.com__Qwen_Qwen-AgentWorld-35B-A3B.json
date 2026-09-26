@@ -1,0 +1,108 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "left-sidebar--sticky-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left sidebar navigation and freemium cta -- platform's own interface and controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "dfp-sspon"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header logo link -- platform's own interface; ad slot subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer js-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "dialog",
+        "class": "ot-sdk-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent banner and controls -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "answer-sort-dropdown-select-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answer sort dropdown -- platform sort controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "js-post-tag-list-wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "post tag list -- taxonomy terms drawn from operator-defined list"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "user-action-time"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user action time and timestamp -- computed operator-defined values"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "reputation-score"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "reputation score -- computed operator-defined values"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "aside-cta"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "ask question button in question header -- platform's own interface"
+  }
+]

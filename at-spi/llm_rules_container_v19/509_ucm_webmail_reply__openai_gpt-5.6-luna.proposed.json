@@ -1,0 +1,78 @@
+[
+  {
+    "own_role": "heading",
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "application header title -- renders the platform's fixed webmail title"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "navigation control -- renders the fixed Compose action"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "email-detail"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message actions -- renders the fixed Back, Reply, Flag, Delete, and Download controls"
+  },
+  {
+    "own_role": "heading",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "reply-modal"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "reply dialog heading -- renders the platform's fixed reply-dialog title"
+  },
+  {
+    "own_role": "label",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "reply-modal"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "reply form labels -- renders the fixed recipient, subject, template, and body labels"
+  },
+  {
+    "own_role": "combo box",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "reply-modal"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "reply template selector -- renders the platform's fixed reply-template choices"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "modal-buttons"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "reply dialog actions -- renders the fixed Send and Cancel controls"
+  }
+]

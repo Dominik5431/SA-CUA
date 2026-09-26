@@ -1,0 +1,174 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "header"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "settings"
+      },
+      {
+        "role": "landmark",
+        "class": "searchbox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "operator header chrome -- renders the fixed ownCloud logo and application navigation controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "owncloud"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "ownCloud branding -- renders the fixed operator logo vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "header-appname-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "application switcher control -- renders the fixed application name and menu-control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "searchbox"
+      }
+    ],
+    "own_role": "label",
+    "verdict": "trusted",
+    "note": "search-box label -- renders the fixed search-control vocabulary while excluding the editable query entry"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "app-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Files-app navigation -- renders the fixed Files, Favorites, sharing, system-tags, Trash, and settings-control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "app-settings-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Files-app settings control -- renders the fixed settings vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "gallery-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view switcher -- renders the fixed gallery and list-view control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "actions creatable"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file creation and upload controls -- render the fixed New and upload-control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "hiddenuploadfield"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "upload control -- renders the fixed upload vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "column header",
+        "id": "headerName"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Name column header -- renders the fixed name-column, selection, and sort-control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "column header",
+        "id": "headerSize"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Size column header -- renders the fixed size-column and sort-control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "column header",
+        "id": "headerDate"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Modified column header -- renders the fixed modification-column and sort-control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "action-favorite"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "favorite action controls -- render the fixed favorite-control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "action-share"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "share action controls -- render the fixed sharing-control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "action-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file action-menu controls -- render the fixed file-action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table cell",
+        "class": "filename"
+      }
+    ],
+    "own_role": "check box",
+    "verdict": "trusted",
+    "note": "file selection controls inside filename cells -- render the fixed selection-control vocabulary without trusting file names"
+  }
+]

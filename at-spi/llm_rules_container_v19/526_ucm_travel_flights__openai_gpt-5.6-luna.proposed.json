@@ -1,0 +1,43 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders the operator's fixed site heading and navigation labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "progress-steps"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "flight-booking progress indicator -- renders the fixed workflow step labels and step controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "back-to-search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "back control -- renders the fixed operator action label for returning to search"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "results-list"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "flight-result controls -- renders the fixed View flight and Select flight actions"
+  }
+]

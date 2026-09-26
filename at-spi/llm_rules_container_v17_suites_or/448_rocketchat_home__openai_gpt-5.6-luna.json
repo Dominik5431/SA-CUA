@@ -1,0 +1,126 @@
+[
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "sidebar--main"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar action controls -- renders the platform's fixed navigation and room-management control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar toolbar -- renders the fixed omnichannel title and toolbar controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar section headings -- renders the platform's fixed navigation group labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-css-ebq3kg"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar footer information -- renders fixed platform help, branding, or status vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "main-content"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main application content -- renders only platform-authored onboarding, explanatory copy, and fixed navigation controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "rcx-css-19z81xy"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main page heading -- renders a fixed platform section label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "rcx-css-11xxbpr"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main subsection heading -- renders fixed platform interface vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "rcx-css-199ad36"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main explanatory heading -- renders fixed platform interface vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-css-1nbbzdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "feature card labels -- renders the fixed platform-defined category labels"
+  },
+  {
+    "own_role": "static",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-grid__wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "platform feature cards -- renders fixed card labels and explanatory interface copy"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-grid__wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "feature-card buttons -- renders fixed platform navigation and action controls"
+  },
+  {
+    "own_role": "link",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-grid__wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "feature-card links -- renders fixed platform navigation controls"
+  }
+]

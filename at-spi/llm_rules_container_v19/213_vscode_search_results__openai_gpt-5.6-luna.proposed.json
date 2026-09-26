@@ -1,0 +1,112 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar",
+        "class": "ElectronMenuBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "application menu bar -- renders the fixed operator vocabulary of File, Edit, Selection, View, Go, Run, Terminal and Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "page tab list",
+        "class": "actions-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "activity bar navigation -- renders the fixed operator vocabulary of Explorer, Search, Source Control, Run and Extensions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "class": "actions-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "operator toolbars -- render fixed commands such as Accounts, Settings, Refresh, Clear Results, New Search Editor, Split and More"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "composite title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search view title and controls -- renders the fixed Search heading and fixed search-view commands"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "search-widget"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "search widget command buttons -- render the fixed Toggle Replace and search-details commands"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "search-widget"
+      }
+    ],
+    "own_role": "check box",
+    "verdict": "trusted",
+    "note": "search option controls -- render the fixed Case Sensitive, Whole Word and Regular Expression vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "query-details"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "search query-details control -- renders the fixed operator command for search details"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "document frame",
+        "class": "gettingStartedContainer"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "empty-recent"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Getting Started interface -- renders fixed operator-authored headings, introductory copy, New File, Open File, Open Folder, Source Control, Remote, learning categories, progress controls and startup settings; the recent-files region is excluded"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vscode_getting_started_page-name-file-icon"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Getting Started editor tab label -- renders the fixed operator vocabulary of the Getting Started page"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "status.editor.screenReaderMode"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "screen-reader mode status control -- renders the fixed accessibility-mode command vocabulary"
+  }
+]

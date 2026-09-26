@@ -1,0 +1,90 @@
+[
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "sidebar--main"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar controls, including workspace actions and item-menu buttons -- renders the fixed operator-defined control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar toolbox header -- renders the fixed sidebar section label and operator-defined toolbox controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar section heading -- renders the fixed operator-defined vocabulary of sidebar section labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "footer",
+        "class": "rcx-css-1h8ylb3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "application footer branding -- renders the fixed operator-defined brand link and image"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "rcx-room-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "rcx-css-u5iepl"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "room header chrome excluding the channel-name heading -- renders fixed room actions, navigation controls, and toolbar commands"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "messages-box"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message navigation controls -- renders the fixed operator-defined new-message and jump-to-recent commands"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rc-message-box__toolbar-formatting"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message composer formatting toolbar -- renders the fixed operator-defined formatting and insertion commands"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list item",
+        "class": "start"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "conversation-start marker -- renders the fixed operator-defined beginning-of-conversation label"
+  }
+]

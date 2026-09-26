@@ -1,0 +1,442 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "navbar-gitlab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: GitLab logo, search box, 'New project', 'Issues', 'Merge requests', 'To do list', 'Help', user avatar"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Project sidebar navigation -- renders: 'Project information', 'Repository', 'Issues', 'Merge requests', 'Pipelines', 'Deployments', 'Infrastructure', 'Monitor', 'Analytics', 'Wiki', 'Snippets', 'Settings'; project name header is subtracted as it is user-defined"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "breadcrumbs"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Breadcrumbs -- renders: 'byteblaze', 'byteblaze_dotfiles', 'Issues', '#1' (platform navigation structure)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "detail-page-header-body"
+      },
+      {
+        "role": "section",
+        "class": "user-access-role"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "User access role badge -- renders: 'Owner', 'Maintainer', 'Developer', 'Guest' (fixed platform vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "detail-page-header-body"
+      },
+      {
+        "role": "push button",
+        "class": "btn-edit"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Edit button -- renders: 'Edit' (fixed platform control)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "detail-page-header-body"
+      },
+      {
+        "role": "push button",
+        "class": "js-create-merge-request"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Create merge request button -- renders: 'Create merge request' (fixed platform control)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "detail-page-header-body"
+      },
+      {
+        "role": "heading",
+        "class": "gl-m-0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments section heading -- renders: 'Comments' (fixed platform label)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "detail-page-header-body"
+      },
+      {
+        "role": "section",
+        "class": "related-issues-block"
+      },
+      {
+        "role": "heading",
+        "class": "card-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Related issues heading -- renders: 'Related issues' (fixed platform label)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "detail-page-header-body"
+      },
+      {
+        "role": "section",
+        "class": "related-issues-block"
+      },
+      {
+        "role": "push button",
+        "class": "btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Related issues action button -- renders: 'Show all' or similar fixed platform action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "detail-page-header-body"
+      },
+      {
+        "role": "section",
+        "class": "related-issues-block"
+      },
+      {
+        "role": "paragraph",
+        "class": "gl-my-5"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Related issues description -- renders: fixed platform copy explaining the feature"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "issuable-discussion"
+      },
+      {
+        "role": "heading",
+        "class": "gl-font-size-h1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Discussion heading -- renders: 'Discussion' (fixed platform label)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "issuable-discussion"
+      },
+      {
+        "role": "section",
+        "class": "discussion-preferences"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Discussion preferences dropdown -- renders: 'Sort by' or similar fixed platform control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "issuable-discussion"
+      },
+      {
+        "role": "list",
+        "class": "notes-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comment form -- renders: 'Write', 'Preview', formatting toolbar icons, 'Comment', 'Comment & Close' (fixed platform interface)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "right-sidebar"
+      },
+      {
+        "role": "push button",
+        "class": "gutter-toggle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar toggle button -- renders: 'Collapse sidebar' (fixed platform control)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "right-sidebar"
+      },
+      {
+        "role": "section",
+        "class": "issuable-context-form"
+      },
+      {
+        "role": "section",
+        "class": "assignee"
+      },
+      {
+        "role": "section",
+        "class": "hide-collapsed"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Assignee label -- renders: 'Assignee' (fixed platform label)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "right-sidebar"
+      },
+      {
+        "role": "section",
+        "class": "issuable-context-form"
+      },
+      {
+        "role": "section",
+        "class": "labels-select-wrapper"
+      },
+      {
+        "role": "section",
+        "class": "hide-collapsed"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Labels label -- renders: 'Labels' (fixed platform label)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "right-sidebar"
+      },
+      {
+        "role": "section",
+        "class": "issuable-context-form"
+      },
+      {
+        "role": "section",
+        "class": "gl-display-flex"
+      },
+      {
+        "role": "section",
+        "class": "hide-collapsed"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Milestone/Weight/Time tracking labels -- renders: 'Milestone', 'Weight', 'Time tracking' (fixed platform labels)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "right-sidebar"
+      },
+      {
+        "role": "section",
+        "class": "issuable-context-form"
+      },
+      {
+        "role": "section",
+        "class": "title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Participants label -- renders: 'Participants' (fixed platform label)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "right-sidebar"
+      },
+      {
+        "role": "section",
+        "class": "issuable-context-form"
+      },
+      {
+        "role": "push button",
+        "class": "js-move-issue"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Move issue button -- renders: 'Move issue' (fixed platform control)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "detail-page-header-body"
+      },
+      {
+        "role": "push button",
+        "class": "btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue action buttons (Close, Reopen, etc.) -- renders: fixed platform action labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "detail-page-header-body"
+      },
+      {
+        "role": "section",
+        "class": "emoji-picker"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Emoji picker button -- renders: 'Add reaction' (fixed platform control)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "detail-page-header-body"
+      },
+      {
+        "role": "section",
+        "class": "new-branch-col"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Create MR dropdown wrapper -- renders: 'Create merge request' (fixed platform control)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "detail-page-header-body"
+      },
+      {
+        "role": "list",
+        "class": "list-unstyled"
+      },
+      {
+        "role": "list item",
+        "class": "col-12"
+      },
+      {
+        "role": "section",
+        "class": "gl-w-full"
+      },
+      {
+        "role": "push button",
+        "class": "upload-dropzone-card"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Upload dropzone -- renders: 'Drag and drop files here' or similar fixed platform instructions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "detail-page-header-body"
+      },
+      {
+        "role": "section",
+        "class": "gl-border-l-1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue description actions -- renders: 'Copy' or similar fixed platform controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "right-sidebar"
+      },
+      {
+        "role": "section",
+        "class": "issuable-context-form"
+      },
+      {
+        "role": "section",
+        "class": "hide-collapsed"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar section labels -- renders: 'Assignee', 'Labels', 'Milestone', 'Weight', 'Time tracking', 'Participants', 'Locking' (fixed platform labels)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "right-sidebar"
+      },
+      {
+        "role": "section",
+        "class": "issuable-context-form"
+      },
+      {
+        "role": "push button",
+        "class": "btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar edit buttons -- renders: 'Edit' (fixed platform control)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "right-sidebar"
+      },
+      {
+        "role": "section",
+        "class": "issuable-context-form"
+      },
+      {
+        "role": "push button",
+        "class": "gl-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar action buttons -- renders: 'Edit', 'Move issue' (fixed platform controls)"
+  }
+]

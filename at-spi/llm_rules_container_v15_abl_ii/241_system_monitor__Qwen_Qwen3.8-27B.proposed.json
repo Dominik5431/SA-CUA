@@ -1,0 +1,7 @@
+[
+  {
+    "scope": "page",
+    "verdict": "trusted",
+    "note": "System monitoring dashboard -- all interface elements (navigation, controls, labels) are operator-authored; no user-generated content or third-party inputs are present."
+  }
+]

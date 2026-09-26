@@ -1,0 +1,94 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "rcx-button-group--medium"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "operator button groups -- renders fixed interface controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar toolbox -- renders fixed title and interface controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar section headings -- renders fixed navigation labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "footer",
+        "class": "rcx-css-1h8ylb3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar footer branding -- renders fixed operator branding"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "rcx-room-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "room-header controls -- renders fixed room actions while excluding the user-named channel heading"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "class": "rcx-button-group--medium"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "room action toolbar -- renders fixed interface controls"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "messages-box"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message timeline navigation controls -- renders fixed new-message and jump-to-recent controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rc-message-box__toolbar-formatting"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message formatting toolbar -- renders fixed composer controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "emoji-picker-icon"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "emoji picker control -- renders fixed composer control vocabulary"
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: Wikipedia logo, search box, main menu, user account controls (Donate, Create account, Log in)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "mw-body-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Page title bar -- renders: 'Search' heading and 'Help' link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mw-search-top-table"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search input controls -- renders: search field, 'Search' button, and result count summary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "cdx-table-pager__limit-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Results per page selector -- renders: dropdown with options '10', '20', '50', '100', '200'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "bodyContent"
+      },
+      {
+        "role": "push button",
+        "class": "cdx-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Pagination controls -- renders: 'Previous', 'Next' buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: 'Privacy policy', 'About Wikipedia', 'Disclaimers', 'Contact Wikipedia', 'Legal & safety contacts', 'Code of Conduct', 'Developers', 'Statistics', 'Cookie statement', 'Mobile view', Wikimedia Foundation and MediaWiki logos"
+  }
+]

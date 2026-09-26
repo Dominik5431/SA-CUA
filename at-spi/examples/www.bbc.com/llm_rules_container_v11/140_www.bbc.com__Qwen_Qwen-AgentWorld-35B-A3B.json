@@ -1,0 +1,102 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "SkipLink-styles__SkipLinkContainerStyled-sc-3b03ee65-0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip link container -- platform's own interface for accessibility navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "bbc-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "BBC header -- navigation menu button, logo, sign in controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "main-navigation-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main navigation -- platform's own section labels and navigation links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Footer-styles__FooterStyled-sc-7046f1ed-0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "BBC footer -- content links, language dropdown, legal links, social follow controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "ngasCookiePrompt"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie banner -- platform's own cookie consent controls and copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "NestedNavigation-styles__NestedNavigationContainerStyled-sc-a1ed20b4-0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "nested navigation page title -- platform's own section label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "Section-styles__SectionOuterStyled-sc-934b69c3-1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "editorial sections -- platform's own section titles and news cards"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "Section-layouts-styles__SectionLayoutWrapper-sc-40ef2d4a-0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "section layout wrappers -- platform's own editorial content cards"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "IndexCard-styles__IndexCardStyled-sc-3a0d8802-0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "editorial index cards -- platform's own news headlines and descriptions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "Container-styles__ContainerStyled-sc-8b855a6c-0 xvkdv"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- platform's own pagination buttons"
+  }
+]

@@ -1,0 +1,116 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "fides-banner-title",
+        "class": "fides-banner-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie-consent heading -- renders fixed consent-banner vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "fides-banner-description",
+        "class": "fides-banner-description"
+      }
+    ],
+    "own_role": "link",
+    "verdict": "trusted",
+    "note": "cookie-consent policy links -- renders fixed privacy and consent-policy link vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Wr7_RG_mastheadWrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site masthead -- renders the fixed NYT identity, section navigation, search and account controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "css-b44c5p"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "section heading -- renders the fixed Business section label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "css-ywjajd"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Business section navigation -- renders the fixed set of Business subsection labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "page tab list",
+        "class": "css-40cb0s"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view tabs -- renders the fixed tab choices for switching page views"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "css-1jx9oro"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- renders fixed page-navigation choices"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "site-index-label",
+        "class": "css-1dv1kvn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site index heading -- renders the fixed site-index label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "css-1dv1kvn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer and site-index headings -- renders fixed platform section-heading vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "css-1ho5u4o"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer primary link group -- renders fixed NYT footer-navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "css-t8x4fj"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer link groups -- renders fixed help, account, legal, subscription and product-navigation vocabulary"
+  }
+]

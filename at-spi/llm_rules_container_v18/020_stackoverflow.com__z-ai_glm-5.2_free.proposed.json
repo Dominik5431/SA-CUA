@@ -1,0 +1,96 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- renders: logo, Home/Questions nav links, search box, Help, site switcher, Log in/Sign up"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left sidebar navigation -- renders: Home/Questions/Ask/Tags/Users/Companies/Chat/Articles nav links, Collectives toggle, Teams promo copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mainbar"
+      },
+      {
+        "role": "section",
+        "class": "flex--item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "filter toggle button container -- renders: Filter control (fixed operator vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "uql-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "filter form expandable -- renders: operator-defined filter controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-sofa-sidebar-promo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "SOFA sidebar promo widget -- renders: operator marketing copy and CTA for Stack Overflow for Teams"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-report-ad-button-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "report-ad button containers -- renders: Report this ad controls sitting outside ad creatives"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "feed-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question feed link -- renders: operator feed link control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: Stack Overflow/Products/Company/Stack Exchange Network link sections, social links, copyright"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "signup-modal-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "signup modal container -- renders: operator signup interface when shown"
+  }
+]

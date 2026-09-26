@@ -1,0 +1,7 @@
+[
+  {
+    "scope": "page",
+    "verdict": "trusted",
+    "note": "chrome://settings/clearBrowserData -- the 'Delete browsing data' dialogue. Basic/Advanced tabs, the time-range combo, the three data checkboxes and their explanatory text are all Chrome's own strings; nothing on this surface is supplied by a site. Same reasoning as 055."
+  }
+]

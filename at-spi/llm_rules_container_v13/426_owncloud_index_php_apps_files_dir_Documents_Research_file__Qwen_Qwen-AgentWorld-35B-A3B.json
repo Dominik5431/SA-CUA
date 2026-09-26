@@ -1,0 +1,33 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "app-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "app navigation sidebar -- renders fixed navigation items: Files, Favorites, Shared with me, Shared with others, Shared links, System tags, Trashbin, and settings button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table row",
+        "class": "summary"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file list summary row -- renders computed totals for files, size, and date"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "file_upload_start",
+        "class": "hiddenuploadfield"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "upload start button -- platform's own upload control"
+  }
+]

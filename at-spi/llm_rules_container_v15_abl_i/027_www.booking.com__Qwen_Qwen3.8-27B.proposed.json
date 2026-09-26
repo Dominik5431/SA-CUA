@@ -1,0 +1,218 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "bypass_menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Skip-to-content link -- renders: 'Skip to main content'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site header -- renders: 'Booking.com', 'List your property', 'Register', 'Sign in', 'Accommodations', 'Flights', 'Flight + Hotel', 'Car rental', 'Attractions', 'Airport taxis'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "fff1944c52"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search result breadcrumb -- renders: 'Home', 'Hotels', 'Hotels in [City]' (City is a geographic entity, not user-generated content)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "ce1108eff4"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Filter toggle button -- renders: 'Filter by:'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "b99b6ef58f b34f2cc03f"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sort control -- renders: 'Sort by:'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "b7ef425131 e9f1adff2b c03fb03748 a81cb9db2d"
+      },
+      {
+        "role": "heading",
+        "class": "e7addce19e"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Filter sidebar heading -- renders: 'Filters'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "b7ef425131 e9f1adff2b c03fb03748 a81cb9db2d"
+      },
+      {
+        "role": "section",
+        "class": "b08850ce41"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Filter clear button -- renders: 'Clear all'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "b7ef425131 e9f1adff2b c03fb03748 a81cb9db2d"
+      },
+      {
+        "role": "section",
+        "class": "bd8754837d"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Filter search input -- renders: 'Search filters'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "b7ef425131 e9f1adff2b c03fb03748 a81cb9db2d"
+      },
+      {
+        "role": "push button",
+        "class": "de576f5064 b46cd7aad7 e26a59bb37 c7a901b0e7 f3e59d528f aaf9b6e287 e7f2b1a356 a9d40b8d51"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Filter search submit button -- renders: 'Search'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "b7ef425131 e9f1adff2b c03fb03748 a81cb9db2d"
+      },
+      {
+        "role": "section",
+        "class": "b7ef425131 e9f1adff2b ba5aaf262f bfb55afbed"
+      },
+      {
+        "role": "panel",
+        "class": "eaa3cb80f6"
+      },
+      {
+        "role": "label",
+        "class": "e672339311"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Filter group headings -- renders: 'Property Type', 'Popular Filters', 'Price', 'Review Score', 'Meals', 'Hotel Facilities', 'Room Facilities', 'Star Rating', 'Distance to Center', 'Landmarks', 'Free Cancellation', 'Travel Group', 'Stay Type', 'Activities', 'Brand', 'Sustainability', 'Accessibility'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "b7ef425131 e9f1adff2b c03fb03748 a81cb9db2d"
+      },
+      {
+        "role": "section",
+        "class": "b7ef425131 e9f1adff2b ba5aaf262f bfb55afbed"
+      },
+      {
+        "role": "panel",
+        "class": "eaa3cb80f6"
+      },
+      {
+        "role": "push button",
+        "class": "de576f5064 bef8628e61 c93f162d20 e0d8514d4d"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Filter group expand/collapse buttons -- renders: 'Show more', 'Show less'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "b7ef425131 e9f1adff2b c03fb03748 a81cb9db2d"
+      },
+      {
+        "role": "section",
+        "class": "b7ef425131 e9f1adff2b ba5aaf262f bfb55afbed"
+      },
+      {
+        "role": "panel",
+        "class": "eaa3cb80f6"
+      },
+      {
+        "role": "label",
+        "class": "a8fad2fc39"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Price slider labels -- renders: 'Min', 'Max'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "b87c397a13 cacb5ff522"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Results count heading -- renders: 'Hotels in [City]' (City is a geographic entity)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "ad68e1f7ce bb51db7864"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "View switcher -- renders: 'List', 'Grid'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "a297f43545"
+      },
+      {
+        "role": "push button",
+        "class": "de576f5064 fcd8e16f81 ee2c96c33c"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sort dropdown button -- renders: 'Sort by: Recommended'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer_menu_track"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: 'Support', 'Discover', 'About', 'Careers', 'Press', 'Partners', 'Terms', 'Privacy', 'Sitemap', 'Contact us', 'Booking.com for Business', 'Booking.com Rewards', 'Genius loyalty program', 'Free cancellation options', 'Certification and badges', 'How We Work', 'Careers', 'Investor relations', 'Sustainability', 'Press centre', 'Partner help', 'Affiliate programme', 'Property owners', 'Advertising', 'Corporate travel', 'Booking.com for Business', 'Booking.com Rewards', 'Genius loyalty program', 'Free cancellation options', 'Certification and badges', 'How We Work', 'Careers', 'Investor relations', 'Sustainability', 'Press centre', 'Partner help', 'Affiliate programme', 'Property owners', 'Advertising', 'Corporate travel', 'English (US)', 'USD - US Dollar', 'All rights reserved'"
+  }
+]

@@ -1,0 +1,131 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "navbar navbar-gitlab navbar-expand-sm js-navbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface including logo, search, counters, help and user dropdowns"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "project navigation sidebar -- renders: operator-defined project navigation items (Project information, Repository, Issues, Merge requests, etc.); subtracts the project name header which is user-created"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "__BVID__7",
+        "class": "tabs gl-tabs gl-display-flex gl-flex-grow-1 gl-p-0 gl-m-0 mobile-separator issuable-state-filters"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issue state tabs -- renders: operator-defined filter tabs for issues (All, Assigned to me, Created by me, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "input-group gl-search-box-by-click flex-grow-1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issue search box -- platform's own search control and history dropdown"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "sort-dropdown-container d-flex btn-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sort dropdown -- platform's own sort controls and options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "gl-keyset-pagination btn-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- renders: operator-defined pagination buttons (previous, next, page numbers)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "__BVID__231",
+        "class": "dropdown b-dropdown gl-dropdown gl-absolute gl-right-0 btn-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "items per page dropdown -- platform's own control for selecting number of items per page"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "btn btn-default btn-md gl-button btn-icon"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issue list action buttons -- platform's own controls for subscribe, export, etc."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "gl-w-full btn-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "bulk actions dropdown container -- platform's own control for bulk operations on issues"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "__BVID__31",
+        "class": "dropdown b-dropdown gl-dropdown gl-w-full gl-md-w-auto btn-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "bulk actions dropdown -- platform's own control for bulk operations on issues"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "btn btn-default btn-md gl-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "bulk update button -- platform's own control for initiating bulk updates on issues"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "btn btn-confirm btn-md gl-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "confirm button -- platform's own control for confirming bulk actions"
+  }
+]

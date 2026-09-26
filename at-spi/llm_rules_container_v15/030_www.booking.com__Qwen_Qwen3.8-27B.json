@@ -1,0 +1,22 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "ad68e1f7ce"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "View switcher -- renders: 'List', 'Grid'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "TravellerFooter_root--variant-full"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: 'Support', 'Discover', 'Manage your trip', 'About', 'Language and currency', 'English (US)', 'USD $', '\u00a9 2024 Booking.com'"
+  }
+]

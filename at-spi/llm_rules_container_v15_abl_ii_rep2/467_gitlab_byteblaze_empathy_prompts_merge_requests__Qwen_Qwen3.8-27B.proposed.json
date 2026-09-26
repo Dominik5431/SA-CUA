@@ -1,0 +1,68 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "navbar-gitlab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: GitLab logo, search box, 'New project' button, dashboard shortcut labels (Issues, Merge requests, To do list), Help, and user avatar controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Project sidebar navigation -- renders: fixed section labels (Project information, Repository, Issues, Merge requests, Pipelines, Deployments, Infrastructure, Monitor, Analytics, Wiki, Snippets, Settings); the project name header is subtracted as it is user-defined"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "breadcrumbs"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Breadcrumb navigation -- renders: user-defined project path segments (namespace and project name) which are structural identifiers for the current context"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "issues-state-filters"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Merge request state filter tabs -- renders: fixed state labels (Opened, Merged, Closed, All)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "filter-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Filter and search controls -- renders: search input, sort dropdown, and bulk update toggle buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-right-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Right sidebar for bulk updates -- renders: platform-defined bulk action controls"
+  }
+]

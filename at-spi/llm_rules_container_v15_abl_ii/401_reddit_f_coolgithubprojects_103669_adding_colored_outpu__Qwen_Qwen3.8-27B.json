@@ -1,0 +1,123 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Accessibility skip links -- renders: Skip to main content, Skip to comments"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global navigation bar -- renders: Reddit logo, Home, Popular, Search, Log in, Sign up, User menu"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: copyright notice, links to Reddit Inc"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "comment-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comment submission form controls -- renders: Reply placeholder, Markdown help toggle, Submit button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "flex unlistify"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comment sorting tabs -- renders: Best, New, Controversial"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vote"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Voting controls -- renders: Upvote, Downvote buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "comment__nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comment action links -- renders: Reply, Permalink, Parent"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "flex unlistify"
+      }
+    ],
+    "own_role": "label",
+    "verdict": "trusted",
+    "note": "Comment hide toggle -- renders: Hide"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "sidebar__section flow"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "sidebar__title forum-title"
+      },
+      {
+        "role": "section",
+        "class": "form subscribe-form"
+      },
+      {
+        "role": "list",
+        "class": "text-sm unlistify"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar community info section -- renders: 'About' label, separator; subtracts user-named subreddit title, subscribe button with count, and community stats list"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "sidebar__section flow"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "class": "unlistify sidebar__no-padding"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar rules section -- renders: 'Rules' heading; subtracts the list of rule links which may contain user-defined or moderator-defined text"
+  }
+]

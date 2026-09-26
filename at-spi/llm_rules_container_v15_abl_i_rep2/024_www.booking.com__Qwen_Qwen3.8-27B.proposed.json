@@ -1,0 +1,92 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Header navigation bar -- renders: Booking.com logo, language/currency selectors, 'Sign in'/'Register' links, and fixed service tabs (Stays, Flights, Car rentals, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "HeroBannerDesktop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Hero banner -- renders: operator-authored marketing headline and sub-headline"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "SearchBoxDesktop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search widget -- renders: fixed labels ('Where are you going?', 'Check-in', 'Check-out', 'Search') and controls; user input is transient and not part of the static trusted vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "UniqueSellingPoints"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Unique selling points -- renders: operator-authored value proposition headings and descriptions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "SecondaryBannerDesktop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Secondary promotional banner -- renders: operator-authored marketing copy and call-to-action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "MerchCarouselPropertyTypesWww"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Property types carousel -- renders: operator-defined category names (Hotels, Apartments, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "GeniusSignInBanner"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Genius sign-in banner -- renders: operator-authored loyalty program marketing copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "SeoCoreInterlinking"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "SEO interlinking module -- renders: operator-defined tab labels and curated destination links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "TravellerFooter_root--variant-full"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Footer -- renders: operator-authored navigation links, legal text, and contact information"
+  }
+]

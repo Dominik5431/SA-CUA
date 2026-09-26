@@ -1,0 +1,30 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main menu bar -- platform's own interface with fixed vocabulary for menus and menu items"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "status bar -- platform's own interface with fixed vocabulary for status labels, controls, and progress"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tree table"
+      }
+    ],
+    "own_role": "table column header",
+    "verdict": "trusted",
+    "note": "tree table column headers -- platform's own interface with fixed vocabulary for column labels"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "flex-1 relative print:hidden"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- renders: IETF logo, Home, RFCs, Internet-Drafts, Errata, Search"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "bg-blue-900 text-white dark:bg-blue-950 border-t border-t-white dark:border-t-blue-900 relative print:hidden"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer -- renders: copyright notice, IETF links, Privacy, Terms, Contact"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "flex flex-col sticky top-0 h-[calc(100vh)]"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar navigation and table of contents -- renders: fixed section headings and links derived from the RFC structure (e.g., '1. Introduction', 'Appendix A'), which are operator-controlled document metadata, not user-generated content"
+  }
+]

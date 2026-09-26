@@ -1,0 +1,182 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "s-topbar--logo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Stack Overflow logo link -- renders fixed platform branding"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "s-navigation--item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation links -- renders fixed platform navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "s-navigation--item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation button -- renders fixed platform navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search control -- renders the fixed search interface vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "h100 ml-auto overflow-x-auto pr12"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "topbar utility controls -- renders fixed help, site-switcher, sign-in, and sign-up vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "s-btn__outlined"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "outlined platform action links -- renders fixed sign-in and interface-control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "s-btn__filled"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "filled platform action links -- renders fixed sign-up and interface-control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "left-sidebar--sticky-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left platform navigation and CTA area -- renders fixed Home/Questions/Ask/Tags/Users/Companies and platform CTA vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "aside-cta"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question-page action area -- renders the fixed ask-question control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "answer-sort-dropdown-select-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answer sort control -- renders the fixed sort vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "toggle button",
+        "class": "js-vote-up-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "upvote control -- renders the fixed vote-action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "toggle button",
+        "class": "js-vote-down-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "downvote control -- renders the fixed vote-action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-saves-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "save control -- renders the fixed save-action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-share-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "share control -- renders the fixed share-action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-suggest-edit-post"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "suggest-edit control -- renders the fixed post-edit action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-follow-post"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "follow-post control -- renders the fixed follow-action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-report-ad"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "ad reporting control outside the creative -- renders the fixed report-ad vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders fixed platform navigation, legal, social, and consent vocabulary"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "page tab list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Tab bar -- operator's own interface for managing open tabs"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tree table"
+      },
+      {
+        "role": "table column header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Column headers -- operator's fixed vocabulary for file attributes"
+  }
+]

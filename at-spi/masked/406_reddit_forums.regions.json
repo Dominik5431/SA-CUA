@@ -1,0 +1,35 @@
+{
+  "file": "406_reddit_forums.xml",
+  "screen": [
+    1920,
+    1080
+  ],
+  "regions": [
+    {
+      "bbox": [
+        444,
+        194,
+        1080,
+        869
+      ],
+      "n": 47,
+      "label": "flex flex--slim-gutters flex--no-wrap fl x8 + flex flex--gut",
+      "kind": "article",
+      "id": 1,
+      "root_index": 0
+    },
+    {
+      "bbox": [
+        451,
+        114,
+        1073,
+        52
+      ],
+      "n": 11,
+      "label": "site-nav",
+      "kind": "landmark",
+      "id": 2,
+      "root_index": 0
+    }
+  ]
+}

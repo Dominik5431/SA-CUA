@@ -1,0 +1,7 @@
+[
+  {
+    "scope": "page",
+    "verdict": "trusted",
+    "note": "chrome://settings -- Chrome's own Settings WebUI. Every string here (section headings, control labels, the settings search box, the left nav) is compiled into the browser binary and is not reachable over the network. This restates for the MASKING path what coord_to_semantic._frame_is_privileged already decides for the label path, where a privileged frame's document-web content is Zone.CHROME and never masked."
+  }
+]

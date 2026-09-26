@@ -1,0 +1,108 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: skip link, logo, search box, Help, Stack Exchange, Log in, Sign up"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site header -- renders: Unix & Linux"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Left sidebar navigation -- renders: Home, Questions, Unanswered, Ask, Tags, SOFA, Chat, Users, Companies, and fixed CTA copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "fs-headline1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Question header controls -- renders: Ask Question button; question title is user-generated and subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item ws-nowrap mr16 mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Question metadata labels -- renders: Asked, Modified, Viewed"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item ws-nowrap mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Question metadata label -- renders: Active"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answers-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Answers header -- renders: Answers, Sort by, Newest, Oldest, Score"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: Stack Exchange, About, Help, Legal, Privacy Policy, Terms of Service, Cookie Settings, Technology, Mobile, API, Data, Network, Blog, Facebook, Twitter, LinkedIn, YouTube, Stack Overflow, Server Fault, Super User, Web Applications, Ask Ubuntu, Unix & Linux, more, copyright, revision"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-report-ad-button-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Ad report controls -- renders: Report this ad"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "feed-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Feed link -- renders: RSS"
+  }
+]

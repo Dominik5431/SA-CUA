@@ -1,0 +1,391 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "GitLab header branding -- renders fixed platform branding and the logo"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "logo",
+        "class": "has-tooltip"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "GitLab logo navigation -- renders fixed platform branding"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "gl-sr-only gl-accessibility"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility skip navigation -- renders fixed platform navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "js-header-search",
+        "class": "header-search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "header search control -- renders the fixed search interface and keyboard shortcut"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "header-help-dropdown-toggle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "help navigation control -- renders fixed help and support vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "js-onboarding-new-project-link",
+        "class": "header-new-dropdown-toggle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "new-project control -- renders fixed project-creation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "dashboard-shortcuts-issues"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issues navigation control -- renders fixed issue-navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "dashboard-shortcuts-merge_requests"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "merge-request navigation control -- renders fixed merge-request vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "shortcuts-todos"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "to-dos navigation control -- renders fixed to-do navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "project navigation excluding the project-name context header -- renders fixed GitLab navigation such as project information, repository, issues, merge requests, pipelines, deployments, infrastructure, monitor, analytics, wiki, snippets, settings, and sidebar controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "btn-edit"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issue edit control -- renders fixed editing vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "__BVID__35",
+        "class": "dropdown"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issue actions menu -- renders fixed issue-management commands"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "emoji-picker"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "reaction picker control -- renders fixed reaction-interface vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "new-branch-col"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "merge-request creation controls -- renders fixed branch and merge-request actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "upload-dropzone-card"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "attachment upload control -- renders fixed upload-interface vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "gl-mr-3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issue action buttons -- renders fixed subscribe, close, or equivalent issue controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "__BVID__496",
+        "class": "dropdown"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "fixed issue control menu -- renders operator-defined issue actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "gl-border-l-1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issue action control group -- renders fixed issue-interface controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "detail-page-header-body"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "issue-header action controls -- renders fixed edit, workflow, reaction, and merge-request actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "related-issues"
+      },
+      {
+        "role": "section",
+        "class": "card-slim"
+      }
+    ],
+    "except": [
+      {
+        "role": "paragraph",
+        "class": "gl-my-5"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "related-issues widget frame excluding the related issue record -- renders the fixed related-issues heading and management controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "gl-font-size-h1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "discussion section heading -- renders fixed discussion vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "discussion-preferences-dropdown",
+        "class": "dropdown"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "discussion preferences control -- renders fixed comment-thread display options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "__BVID__80",
+        "class": "tabs"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment editor tabs and controls -- renders fixed write, preview, and markdown-editing vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "md-header-toolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "markdown formatting toolbar -- renders fixed editing commands"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "toolbar-text"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment-editor help text -- renders fixed platform instructions and help links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "note-form-actions"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment form actions -- renders fixed submission, notification, and close controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "right-sidebar"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "issue-sidebar controls -- renders fixed assignment, label, milestone, lock, move, and sidebar-management controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "block assignee"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "value"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "assignee field chrome excluding the assignee value -- renders the fixed assignee label and edit control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "labels-select-wrapper"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "issuable-show-labels"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "labels field chrome excluding submitted label values -- renders the fixed labels heading and edit control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "milestone-edit",
+        "class": "btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "milestone edit control -- renders fixed milestone-management vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "toggle-label-4",
+        "class": "gl-toggle-label"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar toggle label -- renders fixed issue-setting vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "toggle button",
+        "class": "gl-toggle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issue setting toggle -- renders a fixed platform control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "lock-edit"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "lock-setting edit control -- renders fixed issue-lock management vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "sidebar-move-issue-dropdown"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "move-issue control -- renders fixed issue-management vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "gutter-toggle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar collapse control -- renders fixed layout vocabulary"
+  }
+]

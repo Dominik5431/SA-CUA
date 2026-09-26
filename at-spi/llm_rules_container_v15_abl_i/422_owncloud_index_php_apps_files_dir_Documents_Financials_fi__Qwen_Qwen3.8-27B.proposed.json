@@ -1,0 +1,74 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "header"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "expandDisplayName"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top application header -- renders: 'ownCloud', 'Files', 'Menu', 'Search'; the user's display name is subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "app-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Left sidebar navigation -- renders: 'Files', 'Favorites', 'Shared with you', 'Shared by you', 'Shared links', 'Tags', 'Trash bin', 'Settings'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "breadcrumb"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Breadcrumb navigation -- renders: 'Files', 'Documents', 'Financials' (fixed directory structure for this view)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "gallery-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "View switcher control -- renders: 'Gallery'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "actions creatable"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "File creation controls -- renders: 'New'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table",
+        "id": "filestable"
+      }
+    ],
+    "except": [
+      {
+        "role": "panel",
+        "id": "fileList"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "File table header and summary -- renders: 'Name', 'Size', 'Modified', 'Select all', 'X items', 'Total size'; the file list rows are subtracted"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility navigation links -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vote"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "vote controls and vote counts -- operator-defined voting interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "comment-form form flow"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment form controls including reply input and markdown help -- platform interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "sidebar__section flow submission-meta"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "submission metadata sidebar section including score and short URL -- platform interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "form subscribe-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "community subscribe form and subscriber count -- platform interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "sidebar__section flow"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar section panel with toggle -- platform interface"
+  }
+]

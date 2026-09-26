@@ -1,0 +1,33 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders fixed branding and navigation controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "id": "sort-jobs"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "job sorting control -- renders the fixed set of job sort options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "jobs-list"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "job-list action controls -- renders fixed Save and View job actions"
+  }
+]

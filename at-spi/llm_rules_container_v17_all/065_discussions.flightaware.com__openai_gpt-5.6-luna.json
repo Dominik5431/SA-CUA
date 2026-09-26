@@ -1,0 +1,62 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "skip-links"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip-link interface -- renders fixed platform navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "d-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders the fixed site logo, sign-in, search, and menu controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "topic-list-heading"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page section heading -- renders fixed platform topic-list labeling"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "category-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "category navigation -- renders the operator-defined category selectors and fixed Latest/Top navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "caption",
+        "class": "sr-only"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "topic-list caption -- renders fixed platform table labeling"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "topic-list-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "topic-list header -- renders fixed column labels and sorting controls for topics, posters, posts, views, and activity"
+  }
+]

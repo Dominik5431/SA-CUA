@@ -1,0 +1,154 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "landmark",
+        "id": "p-search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header excluding the search widget -- renders fixed Wikimedia navigation, logo, account controls, and header vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-main-menu-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main navigation control -- renders fixed platform menu vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "mw-logo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Wikimedia site identity -- renders the fixed site logo and tagline"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "cdx-search-input__end-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search action control -- renders the fixed search-button vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-user-links"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user-account navigation -- renders fixed site-support, create-account, and log-in vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "p-lang-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "language selector control -- renders fixed platform language-selection vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left page navigation -- renders fixed Article and Talk tab vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "right-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page navigation and tools -- renders fixed View, Edit, History, and page-tools vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-appearance-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "appearance settings -- renders fixed appearance labels and font-size, width, and theme controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "mw-editsection-visualeditor"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "section edit control -- renders the fixed edit action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "siteSub"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site subtitle -- renders fixed Wikimedia platform copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "id": "footer-info"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "id": "footer-info-lastmod"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer information block excluding the computed last-modified value -- renders fixed platform attribution and rendered-with vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "id": "footer-places"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer policy and service links -- renders fixed privacy, about, disclaimer, legal, conduct, developer, statistics, cookie, and mobile-view vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "id": "footer-icons"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer service icons -- renders fixed Wikimedia and powered-by platform identity"
+  }
+]

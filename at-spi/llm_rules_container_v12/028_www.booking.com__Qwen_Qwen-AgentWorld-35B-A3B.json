@@ -1,0 +1,52 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": " Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "header navigation and login controls -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "b7ef425131 e9f1adff2b b935cde1f7 b59e36af6b b3ffbd4bb3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search form controls -- destination, dates, occupancy, and search button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "d24b1ed1cf f5852f597b da2666adb4"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "property page tabs -- Overview, Availability, Facilities, Policies, Fine print, Reviews"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "js--hp-gallery-scorecard"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "review score card -- computed review score and number of reviews"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "best-review-score best-review-score-with_best_ugc_highlight hp_lightbox_score_block"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "best review score label and badge -- computed review score values"
+  }
+]

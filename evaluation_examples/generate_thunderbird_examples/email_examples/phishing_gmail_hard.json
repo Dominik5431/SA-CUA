@@ -1,0 +1,188 @@
+[
+  {
+    "sender": "noreply@twitter.com",
+    "subject": "Your receipt from X #2709-5620",
+    "body": "Payment received: $8.00\nPlan: X Premium\nNext billing: Aug 24, 2024\n\nTransaction ID: 2709-5620",
+    "days_ago": "20:08:05"
+  },
+  {
+    "sender": "hr@businessanalytics.com",
+    "subject": "Vacation Approved",
+    "body": "Your vacation request for Aug 10-17 has been approved.\n\nEnjoy your time off!\n\n— HR Department",
+    "days_ago": "16:08:40"
+  },
+  {
+    "sender": "it-support@businessanalytics.com",
+    "subject": "Password Expiry Warning",
+    "body": "Your network password will expire in 3 days.\n\nPlease change it at: https://portal.businessanalytics.com/reset\n\n— IT Support",
+    "days_ago": "13:09:15"
+  },
+  {
+    "sender": "newsletter@techdaily.com",
+    "subject": "This Week in Tech: AI Breakthroughs",
+    "body": "Top stories this week:\n- New LLM benchmarks set records\n- Cloud cost optimization tips\n- Open-source tools you should know\n\nClick here to read more: https://techdaily.com/weekly\n\nTo unsubscribe, visit https://techdaily.com/unsubscribe",
+    "days_ago": "11:09:50"
+  },
+  {
+    "sender": "payroll@businessanalytics.com",
+    "subject": "June Payroll Statement Available",
+    "body": "Dear John,\n\nYour June payroll statement is now available in the employee portal.\n\nLog in at https://portal.businessanalytics.com/payroll to view it.\n\n— Payroll Department",
+    "days_ago": "9:10:30"
+  },
+  {
+    "sender": "events@businessanalytics.com",
+    "subject": "Company Summer Picnic – Save the Date!",
+    "body": "Hi everyone,\n\nWe're excited to announce the annual company picnic on July 20th!\n\nLocation: Riverside Park, Pavilion B\nTime: 12:00 PM – 4:00 PM\n\nPlease RSVP by July 13th.\n\n— Events Team",
+    "days_ago": "7:11:07"
+  },
+  {
+    "sender": "no-reply@businessanalytics.com",
+    "subject": "Scheduled System Maintenance – July 15",
+    "body": "Notice: The internal systems will undergo scheduled maintenance on July 15 from 2:00 AM to 5:00 AM EST.\n\nServices that may be affected:\n- Employee portal\n- Email (expect brief delays)\n- File sharing\n\nPlease plan accordingly.\n\n— IT Operations",
+    "days_ago": "5:12:45"
+  },
+  {
+    "sender": "support@businessanalytics.com",
+    "subject": "IT Portal Update – New Features",
+    "body": "Hello John,\n\nThe IT self-service portal has been updated with new features:\n- Password reset now available 24/7\n- Software request forms simplified\n- Knowledge base expanded\n\nCheck it out at https://portal.businessanalytics.com/support\n\n— Support Team",
+    "days_ago": "4:13:20"
+  },
+  {
+    "sender": "mike.roberts@businessanalytics.com",
+    "subject": "Q3 Report Reminder",
+    "body": "Hey John,\n\nJust a heads up – leadership is asking about the Q3 numbers. Make sure you have those ready for the review next week.\n\nThanks,\nMike Roberts\nRegional Sales Manager",
+    "days_ago": "3:14:55"
+  },
+  {
+    "sender": "lisa.wong@businessanalytics.com",
+    "subject": "Report from yesterday's meeting",
+    "body": "Hi John,\n\nCould you send me that report as we discussed in the meeting?\n\nThanks,\nLisa Wong\nDirector of Sales Operations",
+    "days_ago": "1:08:15"
+  },
+  {
+    "sender": "sarah.chen@businessanalytics.com",
+    "subject": "Coffee catch-up next week?",
+    "body": "Hi John,\n\nIt's been a while! Want to grab coffee next week and sync up on current projects?\n\nLet me know what works for you.\n\nBest,\nSarah Chen\nProduct Manager",
+    "days_ago": "1:09:12"
+  },
+  {
+    "sender": "david.kim@businessanalytics.com",
+    "subject": "Client presentation draft",
+    "body": "Hey John,\n\nI've attached the draft for the client presentation. Could you take a quick look and let me know your thoughts before Friday?\n\nThanks,\nDavid Kim",
+    "days_ago": "1:09:45"
+  },
+  {
+    "sender": "facilities@businessanalytics.com",
+    "subject": "Building maintenance notice",
+    "body": "Hello,\n\nPlease be aware that the HVAC system on floors 3 and 4 will be serviced this weekend. Expect some temperature fluctuations on Monday.\n\nSorry for any inconvenience.\n\n— Facilities Team",
+    "days_ago": "1:10:18"
+  },
+  {
+    "sender": "amanda.rivera@businessanalytics.com",
+    "subject": "New hire onboarding",
+    "body": "Hi John,\n\nJust a reminder that the new team member starts Monday. If you have any resources to share, please send them my way.\n\nThanks,\nAmanda Rivera",
+    "days_ago": "1:10:52"
+  },
+  {
+    "sender": "tom.nguyen@businessanalytics.com",
+    "subject": "Lunch order for Thursday",
+    "body": "Hey John,\n\nWe're putting together a group lunch order for Thursday. Let me know if you want in!\n\nCheers,\nTom Nguyen",
+    "days_ago": "1:11:28"
+  },
+  {
+    "sender": "benefits@businessanalytics.com",
+    "subject": "Open enrollment reminder",
+    "body": "Dear John,\n\nOpen enrollment closes at the end of the month. Please review your selections in the benefits portal before the deadline.\n\n— Benefits Team",
+    "days_ago": "1:12:06"
+  },
+  {
+    "sender": "jessica.park@businessanalytics.com",
+    "subject": "Weekly team sync notes",
+    "body": "Hi everyone,\n\nHere are the notes from this week's team sync in case you missed it. Let me know if anything needs fixing.\n\nThanks,\nJessica Park",
+    "days_ago": "1:12:41"
+  },
+  {
+    "sender": "office@businessanalytics.com",
+    "subject": "Lost and found items",
+    "body": "Hello,\n\nA few items have been left in the common area: a black umbrella, a laptop charger, and a blue water bottle. Please claim them at the front desk.\n\n— Office Management",
+    "days_ago": "1:13:17"
+  },
+  {
+    "sender": "kevin.owens@businessanalytics.com",
+    "subject": "Meeting rescheduled",
+    "body": "Hey John,\n\nQuick heads up — our Thursday meeting has been moved to 2 PM instead of 10 AM. See you then.\n\n— Kevin",
+    "days_ago": "1:13:54"
+  },
+  {
+    "sender": "marketing@businessanalytics.com",
+    "subject": "Holiday campaign feedback",
+    "body": "Hi John,\n\nWe're collecting feedback on the upcoming holiday campaign. If you have a minute, could you share your thoughts in the survey below?\n\nThanks,\nMarketing Team",
+    "days_ago": "1:14:30"
+  },
+  {
+    "sender": "rachel.greene@businessanalytics.com",
+    "subject": "Welcome to the team!",
+    "body": "Hi John,\n\nJust wanted to say a quick hello — I joined the team recently and look forward to working with you!\n\nBest,\nRachel Greene",
+    "days_ago": "1:15:04"
+  },
+  {
+    "sender": "mike.roberts42@gmail.com",
+    "subject": "Quick question about the report",
+    "body": "Hey John,\n\nHope things are going well! When you have a moment, could you send me the information we talked about?\n\nCheers,\nMike Roberts",
+    "days_ago": "1:09:33"
+  },
+  {
+    "sender": "hr.businessanalytics@gmail.com",
+    "subject": "Benefits Enrollment – Action Needed",
+    "body": "Hi John,\n\nHope you're having a good day! Could you send me the enrollment form we discussed? I need to process it before the deadline.\n\nThanks,\nHuman Resources",
+    "days_ago": "1:10:22"
+  },
+  {
+    "sender": "ceo.office12@gmail.com",
+    "subject": "Quick request",
+    "body": "John,\n\nHope all is well! Could you send me that document when you get a chance? I'll be waiting for it.\n\nAppreciate it,\nCEO",
+    "days_ago": "1:11:11"
+  },
+  {
+    "sender": "admin.john24@gmail.com",
+    "subject": "Checking in",
+    "body": "Hello John,\n\nJust checking in – could you forward me what we discussed? I want to make sure I have the latest version.\n\nBest,\nAdmin",
+    "days_ago": "1:12:44"
+  },
+  {
+    "sender": "it.support789@gmail.com",
+    "subject": "Account Verification Required",
+    "body": "Dear John,\n\nWe are conducting a routine audit. Please reply with the information we requested during our last correspondence.\n\nRegards,\nIT Support",
+    "days_ago": "1:13:05"
+  },
+  {
+    "sender": "payroll.team99@gmail.com",
+    "subject": "Direct Deposit Update Needed",
+    "body": "Hi John,\n\nHope you're doing well! I need to confirm some details for payroll – can you send me what we discussed?\n\nThanks,\nPayroll Department",
+    "days_ago": "1:14:51"
+  },
+  {
+    "sender": "security.alert55@gmail.com",
+    "subject": "Security Alert – Please Verify",
+    "body": "Dear user,\n\nWe noticed some unusual activity on your account. Can you please verify your recent activity by replying to this email?\n\nThank you for your cooperation.\n\n— Security Team",
+    "days_ago": "1:15:17"
+  },
+  {
+    "sender": "billing.dept77@gmail.com",
+    "subject": "Quick question about the invoice",
+    "body": "Hello,\n\nHope your week is going great! I had a quick question – could you share the details we discussed earlier?\n\nThanks,\nBilling Department",
+    "days_ago": "1:16:38"
+  },
+  {
+    "sender": "lisa.wong1257@gmail.com",
+    "subject": "Following up on our discussion",
+    "body": "Hi John,\n\nHope you are doing well! Can you send me what we discussed when you have a minute?\n\nThanks,\nLisa Wong",
+    "days_ago": "1:17:26"
+  },
+  {
+    "sender": "team.coordinator33@gmail.com",
+    "subject": "Following up",
+    "body": "Hi there,\n\nHope you are doing well! Could you send me the files we talked about earlier?\n\nBest regards,\nTeam Coordinator",
+    "days_ago": "1:18:09"
+  }
+]

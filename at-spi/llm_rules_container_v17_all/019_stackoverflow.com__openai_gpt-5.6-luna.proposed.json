@@ -1,0 +1,207 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "s-topbar--skip-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip navigation control -- renders the fixed operator control for jumping to page content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "s-topbar--logo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site logo link -- renders the operator's fixed Stack Overflow branding"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "s-navigation--item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation links -- render the operator's fixed navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "s-navigation--item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation button -- renders a fixed operator navigation control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search control -- renders the operator's fixed search interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-help-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "help control -- renders the operator-defined help navigation control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "s-btn__outlined"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sign-in control -- renders the operator's fixed account-entry vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-signup-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sign-up control -- renders the operator's fixed account-registration vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left navigation -- renders fixed site navigation, collectives controls, and operator promotional controls"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "bg-black-100"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "tag-page action control -- renders a fixed operator action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "bg-black-100"
+      },
+      {
+        "role": "link",
+        "class": "s-btn__outlined"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "tag-page action link -- renders a fixed operator action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "s-btn s-btn__muted s-btn__sm"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question-list controls -- render the operator-defined sort and view vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "s-btn__dropdown"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question-list dropdown -- renders the operator-defined ordering control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "uql-filter-toggle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "filter-panel toggle -- renders the fixed operator control for opening refinements"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-pagination-item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- render the operator-defined page-navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "s-pagination--item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "selected pagination control -- renders the operator-defined current-page indicator"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-report-ad"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "ad-report control -- renders the operator's fixed control about an advertisement"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-sofa-sidebar-promo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "operator sidebar promotion -- renders platform-authored promotional copy and fixed call-to-action controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "feed-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "feed control -- renders the operator-defined feed or subscription link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders the operator's fixed footer navigation, social links, consent control, and site metadata"
+  }
+]

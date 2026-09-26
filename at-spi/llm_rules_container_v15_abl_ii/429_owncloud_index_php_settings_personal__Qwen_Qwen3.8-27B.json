@@ -1,0 +1,128 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "header"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "expandDisplayName"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: ownCloud logo, app name, menu toggle, search label; user display name is subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "app-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Settings sidebar navigation -- renders: fixed category labels (User, Files, Security, More, List, Settings, Folder, Password, Share, Info, More)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "OC\\Settings\\Panels\\Personal\\Quota"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Quota panel -- renders: fixed label and computed storage usage value"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "avatar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Avatar section -- renders: fixed heading, upload button, and help text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "displaynameform"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Display name form -- renders: fixed label and input field"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "lostpassword"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Email form -- renders: fixed label, input field, and help text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "groups"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Groups section -- renders: fixed heading and computed group membership list"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "passwordform"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Password form -- renders: fixed labels, input fields, strength meter, and save button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "OCA\\Notifications\\Panels\\Personal\\NotificationsPanel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Notifications panel -- renders: fixed heading, description, and dropdown options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "OCA\\FederatedFileSharing\\PersonalPanel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "File sharing panel -- renders: fixed heading, description, and social share buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "OC\\Settings\\Panels\\Personal\\Clients"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Clients panel -- renders: fixed heading, client logos, and download links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "OC\\Settings\\Panels\\Personal\\Version"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Version panel -- renders: fixed heading, version number, and links"
+  }
+]

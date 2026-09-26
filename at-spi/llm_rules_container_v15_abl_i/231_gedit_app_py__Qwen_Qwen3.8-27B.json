@@ -1,0 +1,52 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Editor interface buttons -- renders fixed operator vocabulary for editing actions (e.g., Undo, Redo, Cut, Copy, Paste, Find, Replace, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "Editor interface toggle buttons -- renders fixed operator vocabulary for view/edit modes (e.g., Word Wrap, Show Line Numbers, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "radio button",
+    "verdict": "trusted",
+    "note": "Editor interface radio buttons -- renders fixed operator vocabulary for layout selection (e.g., Single, Dual, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "check box",
+    "verdict": "trusted",
+    "note": "Editor interface checkboxes -- renders fixed operator vocabulary for feature toggles (e.g., Highlight Syntax, Auto Indent, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "label",
+    "verdict": "trusted",
+    "note": "Editor interface labels -- renders fixed operator vocabulary for status and metadata (e.g., Ln, Col, Encoding, etc.)"
+  }
+]

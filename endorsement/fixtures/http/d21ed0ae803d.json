@@ -1,0 +1,7 @@
+{
+  "url": "https://pypi.org/pypi/termcolor/json",
+  "ok": true,
+  "text": "{\n \"info\": {\n  \"name\": \"termcolor\",\n  \"version\": \"2.4.0\",\n  \"summary\": \"ANSI color formatting for output in terminal\"\n }\n}",
+  "synthetic": true,
+  "note": "PyPI canonical-existence lookup."
+}

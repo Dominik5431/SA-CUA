@@ -1,0 +1,92 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "MarketingHeader-module__root__Tk7n3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "marketing header navigation -- platform's own interface including logo, nav dropdowns, search, sign in/sign up controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-skip-to-content"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip to content link -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-repo-nav js-sidenav-container-pjax js-responsive-underlinenav overflow-hidden UnderlineNav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository navigation tabs -- code, actions, projects, security-and-quality, insights"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "pagehead-actions flex-shrink-0 d-none d-md-inline"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository action buttons and counters -- watch, fork, stars"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "FileResultsList-module__FilesSearchBox__ivVkc"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file search box control -- platform's own search interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "folders-and-files"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "folders and files screen reader heading -- platform's own interface label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "DirectoryContent-module__OverviewHeaderRow__hOrKy"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "directory table header row -- column labels name, latest commit message, date"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "SidebarLanguages-module__languageList__R3aIa"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository languages list -- operator-defined programming language taxonomy and computed percentages"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "progress bar",
+        "class": "prc-ProgressBar-ProgressBarItem-mDIlB"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "language progress bars -- computed percentage values for repository languages"
+  }
+]

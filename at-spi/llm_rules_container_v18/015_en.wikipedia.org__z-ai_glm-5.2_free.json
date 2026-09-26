@@ -1,0 +1,112 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders: Wikipedia logo, search box, main menu dropdown button, Donate/Create account/Log in links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "p-lang-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "language selector button -- renders fixed 'Languages' label; dropdown content not present in skeleton"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "p-associated-pages"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page tab navigation -- renders: Category/Discussion"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "p-views"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view action tabs -- renders: View/Edit/History"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "vector-page-tools-dropdown"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page tools dropdown -- renders fixed 'Tools' label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "vector-appearance"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "appearance settings panel -- renders: Appearance heading, font size (Small/Standard/Large), width (Standard/Wide), theme (Automatic/Light/Night) with fixed radio labels and exclusion notice"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "siteSub"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site subtitle -- renders fixed 'From Wikipedia, the free encyclopedia'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mw-indicators"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page indicator strip -- renders fixed help link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "id": "footer-info"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer info list -- renders: last-modified boilerplate, 'Rendered with MediaWiki', copyright/license notice with fixed links to CC BY-SA and GFDL"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "id": "footer-places"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer places list -- renders: Privacy/About/Disclaimers/Contact/Legal safety/Code of conduct/Developers/Stats/Cookies/Mobile links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "id": "footer-icons"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer icons list -- renders: copyright and powered-by icons"
+  }
+]

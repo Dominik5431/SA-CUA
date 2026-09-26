@@ -1,0 +1,81 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Accessibility navigation links -- renders: Skip to main content, Skip to comments"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-nav"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry",
+        "id": "site-nav-search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main site navigation -- renders: Reddit logo, Popular, Communities, Log in, Sign up, user menu controls; search input excluded as it may echo user queries"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "main"
+      }
+    ],
+    "except": [
+      {
+        "role": "article",
+        "class": "submission"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main content area chrome -- renders: page heading (community name), tabs (Hot/New/Top), sort controls, pagination; submission articles excluded as they contain user-generated content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "forum-title"
+      },
+      {
+        "role": "section",
+        "class": "subscribe-form"
+      },
+      {
+        "role": "paragraph"
+      },
+      {
+        "role": "list",
+        "class": "text-sm"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar chrome -- renders: About section title, Rules section title, menu items (About, Rules); community-specific content (title, subscribe button, description, stats) excluded"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: copyright notice, links to Reddit's own pages (Help, Privacy, Terms)"
+  }
+]

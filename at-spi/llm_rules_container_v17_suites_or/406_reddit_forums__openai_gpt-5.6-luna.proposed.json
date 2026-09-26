@@ -1,0 +1,94 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility navigation -- renders fixed platform links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "site-nav__header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders the platform logo and fixed navigation branding"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "site-nav__main-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main site navigation -- renders the platform's fixed menu vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "unlistify flex"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page tabs -- renders the fixed tab vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "page-heading"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page heading -- renders the platform's fixed section label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "subscribe-form"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "subscribe-button__subscriber-count"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "subscription control -- renders the fixed subscribe action while excluding the outside-determined subscriber count"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-content__body"
+      }
+    ],
+    "except": [
+      {
+        "role": "article",
+        "class": "flex--slim-gutters"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main page frame outside the submitted community entries -- renders fixed tabs, headings, sorting, creation and pagination controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "flex--guttered"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination -- renders fixed previous, page-navigation and next controls"
+  }
+]

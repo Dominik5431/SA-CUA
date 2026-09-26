@@ -1,0 +1,92 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left sidebar navigation -- platform's own interface and taxonomy links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer js-footer theme-light__forced"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- platform's own interface and navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "answer-sort-dropdown-select-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answer sort dropdown -- platform's own sort control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-sidebarwidget bg-purple-100 ba bc-purple-400 bar-sm mb16 ps-relative js-sofa-sidebar-promo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "SOFA sidebar promo widget -- platform's own editorial copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "s-sidebarwidget--content s-sidebarwidget__items p0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "network sites sidebar list -- platform's own navigation to Stack Exchange sites"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mtn4 d-flex jc-end g4 ps-sticky l0 mrn4"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "code block copy button controls -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-report-ad-button-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "report ad button controls -- platform's own controls about ads"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "ml0 list-ls-none js-post-tag-list-wrapper d-inline"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "post tag list -- taxonomy terms drawn from operator-defined list"
+  }
+]

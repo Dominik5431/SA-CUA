@@ -1,0 +1,107 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "rcx-sidebar"
+      },
+      {
+        "role": "panel",
+        "class": "rcx-button-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar icon button panels -- renders: search, directory, sort, and other fixed-vocabulary navigation controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar topbar -- renders: fixed section title and control buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar section headers -- renders: fixed labels like Channels, Direct Messages"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "rcx-room-header"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "room header action buttons -- renders: fixed-vocabulary controls (members, search, files, etc.); channel name heading excluded"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list item",
+        "class": "start"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "conversation start marker -- renders: fixed 'Start of conversation' system message"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rc-message-box__toolbar-formatting"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message formatting toolbar -- renders: bold, italic, strikethrough, code, code block, and help link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "rcx-sidebar"
+      },
+      {
+        "role": "footer",
+        "class": "rcx-css-1h8ylb3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar footer -- renders: platform logo link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-css-ebq3kg"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar promotional section -- renders: fixed marketing link text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "messages-box"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "messages-box chrome -- renders: 'New Messages' indicator and 'Jump to recent message' control; the wrapper holding user messages is subtracted"
+  }
+]

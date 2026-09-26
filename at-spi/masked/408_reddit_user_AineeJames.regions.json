@@ -1,0 +1,61 @@
+{
+  "file": "408_reddit_user_AineeJames.xml",
+  "screen": [
+    1920,
+    1080
+  ],
+  "regions": [
+    {
+      "bbox": [
+        459,
+        243,
+        778,
+        219
+      ],
+      "n": 25,
+      "label": "submission submission--has-url submissio x2",
+      "kind": "article",
+      "id": 1,
+      "root_index": 0
+    },
+    {
+      "bbox": [
+        459,
+        114,
+        1072,
+        52
+      ],
+      "n": 11,
+      "label": "site-nav",
+      "kind": "landmark",
+      "id": 2,
+      "root_index": 0
+    },
+    {
+      "bbox": [
+        1265,
+        180,
+        280,
+        249
+      ],
+      "n": 6,
+      "label": "sidebar",
+      "kind": "landmark",
+      "id": 3,
+      "root_index": 0
+    },
+    {
+      "bbox": [
+        84,
+        1045,
+        1822,
+        21
+      ],
+      "n": 1,
+      "label": "site-footer",
+      "kind": "landmark",
+      "id": 4,
+      "root_index": 0
+    }
+  ]
+}

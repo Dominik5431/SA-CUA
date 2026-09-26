@@ -1,0 +1,53 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "MarketingHeader-module__root__Tk7n3 HeaderMktg header-logged-out"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "marketing header navigation and controls -- platform's own interface for logged-out users"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-repo-nav js-sidenav-container-pjax js-responsive-underlinenav overflow-hidden UnderlineNav px-3 tmp-px-3 px-md-4 tmp-px-md-4 px-lg-5 tmp-px-lg-5"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository navigation tabs -- code, actions, projects, security-and-quality, insights"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "commits-pagehead",
+        "class": "f2 text-normal pb-2 prc-Heading-Heading-MtWFE"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "commits page heading -- platform's own section label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "prc-Pagination-PaginationContainer-HEhGo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- platform's own pagination navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "footer f6 color-fg-muted color-border-subtle tmp-pt-7 tmp-pb-6 p-responsive"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer links and copyright -- platform's own interface and legal links"
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {
+    "scope": "page",
+    "verdict": "trusted",
+    "note": "System monitoring dashboard -- all interface elements (navigation, controls, labels) are operator-authored; telemetry values are machine-generated and handled by the deterministic pass"
+  }
+]

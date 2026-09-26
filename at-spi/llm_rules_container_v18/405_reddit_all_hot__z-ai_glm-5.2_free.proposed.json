@@ -1,0 +1,79 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility skip links -- renders fixed vocabulary: Skip to main content / Skip to navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-nav"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "class": "site-nav__user-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site navigation bar -- renders: logo/home link, main menu links, search input; user menu subtracted as it may display a username or user-specific labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "flex flex--guttered"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sort/view tab bar and sort dropdown controls -- renders: Hot/Active tabs, sort order selectors from a closed set"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vote"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "vote up/down buttons -- fixed vocabulary controls; vote count static left masked as a computed value"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "submission__nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "submission action bar -- renders: comments link, save/share links, report button; all fixed vocabulary controls with no user-generated text inside"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "pagination"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination control -- renders: Next button with fixed vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders fixed platform footer text and links"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: logo, navigation links (Questions, Tags, Users, Companies, Collectives, About, Help, Legal, Privacy, Terms), social links, copyright"
+  }
+]

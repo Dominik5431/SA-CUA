@@ -1,0 +1,120 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "navbar",
+        "class": "nav-sprite-v1 celwidget nav-bluebeacon nav-a11y-t1 bold-focus-hover layout2 nav-flex layout3 layout3-alt nav-packard-glow hamburger nav-progressive-attribute"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-belt"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "navigation belt -- logo, location, search, account, orders, cart controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "nav-search-bar-form",
+        "class": "nav-searchbar nav-progressive-attribute"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search bar form -- search input and submit controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "searchDropdownBox",
+        "class": "nav-search-dropdown searchSelect nav-progressive-attrubute nav-progressive-search-dropdown"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search scope dropdown -- operator-defined search categories"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-tools",
+        "class": "layoutToolbarPadding"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "navigation tools -- language, account, orders, cart links and controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-main",
+        "class": "nav-sprite"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main navigation menu -- hamburger, shop, and category links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "mn-nav-stripe mn-nav-stripe-2-lines mn-nav-stripe--move"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "mini navigation stripe -- platform category navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "desktop_buybox",
+        "class": "celwidget"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "buybox controls -- add to cart, wishlist, and alternative purchase controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "price-block-container-0",
+        "class": "a-section price-block-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "price block container -- operator-defined pricing and payment options display"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "a-unordered-list a-nostyle a-button-list a-declarative a-button-toggle-group a-vertical a-spacing-top-micro regularAltImageViewLayout"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "image view toggle group -- operator controls for selecting product images"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooter",
+        "class": "navLeftFooter nav-sprite-v1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer navigation -- platform's own policy and link controls"
+  }
+]

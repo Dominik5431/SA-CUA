@@ -1,0 +1,19 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "except": [
+      {
+        "role": "tree table"
+      },
+      {
+        "role": "table"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "File Roller application chrome -- renders: window title, toolbar action buttons (Extract, New, Close), view mode toggles, and status bar labels; the file list and preview panes are subtracted as they display external archive contents"
+  }
+]

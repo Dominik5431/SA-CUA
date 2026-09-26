@@ -1,0 +1,108 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "fides-overlay"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Cookie consent banner -- renders fixed operator vocabulary: 'Manage Preferences', 'Reject All', 'Accept All', and language options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Wr7_RG_mastheadWrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site masthead and top navigation -- renders fixed operator vocabulary: 'The New York Times', 'World', 'Sections', 'Search', 'Subscribe'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "collection-world"
+      }
+    ],
+    "except": [
+      {
+        "role": "article",
+        "class": "css-2j26di"
+      },
+      {
+        "role": "article",
+        "class": "css-ph1wk7"
+      },
+      {
+        "role": "section",
+        "class": "css-2j26di"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "World section header and navigation tabs -- renders fixed operator vocabulary: 'World', 'Latest', 'Politics', 'Business'; article cards containing headlines and summaries are subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "5-band"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "css-2j26di"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Section band headers -- renders fixed operator vocabulary: section names and 'See All' links; article cards containing headlines and summaries are subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "tab-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Stream tab navigation -- renders fixed operator vocabulary: 'Latest', 'Popular', 'Most Shared'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "stream-panel"
+      }
+    ],
+    "except": [
+      {
+        "role": "article",
+        "class": "css-1l4spti"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Stream panel chrome -- renders fixed operator vocabulary: pagination controls; article cards containing headlines and summaries are subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "site-index"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site index header -- renders fixed operator vocabulary: 'Site Index'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders fixed operator vocabulary: 'The New York Times', 'Contact Us', 'Advertise', 'Jobs', 'Help', 'Privacy Policy'"
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: Wikipedia logo, search box, main menu, user links (Donate, Create account, Log in)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "mw-body-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Page title bar -- renders: 'Search' heading and 'Help' link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-appearance-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Appearance settings panel -- renders: 'Appearance' label, 'Unpin' button, font size options (Small, Standard, Large), width options (Standard, Full width), theme options (OS, Day, Night)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mw-search-top-table"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search input controls -- renders: search field, 'Search' button, and result count label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mw-advancedSearch-expandablePane-options"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Advanced search options toggle -- renders: 'Search options' button and preview of selected filters"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mw-advancedSearch-expandablePane-namespaces"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Namespace filter toggle -- renders: 'Namespaces' button and preview of selected namespaces (e.g., 'Main')"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "paragraph",
+        "class": "mw-search-createlink"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Create article prompt -- renders: 'Create the page' link and explanatory text about creating missing articles"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "cdx-table-pager__limit-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Results per page selector -- renders: dropdown with options (10, 20, 50, 100, 250)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mw-content-text"
+      },
+      {
+        "role": "push button",
+        "class": "cdx-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Pagination controls -- renders: 'Previous', 'Next' buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: Privacy policy, About Wikipedia, Disclaimers, Contact Wikipedia, Legal & safety contacts, Code of conduct, Developers, Statistics, Cookie statement, Mobile view, Wikimedia Foundation logo, Powered by MediaWiki logo"
+  }
+]

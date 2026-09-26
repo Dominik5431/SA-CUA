@@ -1,0 +1,333 @@
+[
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "class": "stat-label"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "sidebar statistic labels -- renders the fixed New, Open, and Pending vocabulary",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "push button",
+    "id": "bulk-close-btn"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "bulk close control -- renders the operator's fixed bulk-close action",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "push button",
+    "id": "assign-unassigned-btn"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "assignment control -- renders the operator's fixed Assign unassigned action",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "own_role": "label",
+  "ancestor_path": [
+   {
+    "role": "section",
+    "id": "ticket-detail"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "ticket field labels -- renders the operator's fixed metadata and reply-template labels",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "combo box",
+    "id": "reply-template"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "reply-template control -- renders the operator's fixed reply-template choices",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "push button",
+    "id": "back-to-list"
+   }
+  ],
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "[manual UCM override] back control -- fixed label"
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "push button",
+    "id": "update-priority-btn"
+   }
+  ],
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "[manual UCM override] update-priority control -- fixed label"
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "push button",
+    "id": "assign-ticket-btn"
+   }
+  ],
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "[manual UCM override] assign control -- fixed label"
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "push button",
+    "id": "close-ticket-btn"
+   }
+  ],
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "[manual UCM override] close-ticket control -- fixed label"
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "push button",
+    "class": "reply-tab"
+   }
+  ],
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "[manual UCM override] reply-type tabs -- fixed Customer Reply/Internal Note"
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "entry",
+    "id": "reply-textarea"
+   }
+  ],
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "[manual UCM override] response textarea -- empty or a fixed site reply template"
+ }
+]

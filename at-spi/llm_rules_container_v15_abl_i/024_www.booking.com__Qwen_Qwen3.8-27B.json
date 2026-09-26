@@ -1,0 +1,102 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Header navigation bar -- renders: Booking.com logo, language/currency selectors, 'Sign in' / 'Register' links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_tab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main category tabs -- renders: Stays, Flights, Flight+Hotel, Car rentals, Attractions, Airport taxis"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "HeroBannerDesktop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Hero banner -- renders: operator-authored marketing headline and sub-headline"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "SearchBoxDesktop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search interface -- renders: 'Where are you going?' label, 'Search' button, occupancy labels, and fixed filter checkboxes"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "UniqueSellingPoints"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Unique selling points -- renders: operator-authored value proposition headings and descriptions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "SecondaryBannerDesktop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Secondary promotional banner -- renders: operator-authored marketing copy and call-to-action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "MerchCarouselPropertyTypesWww"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Property types carousel -- renders: operator-defined accommodation categories (e.g., Hotels, Apartments, Homestays)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "GeniusSignInBanner"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Genius program banner -- renders: operator-authored loyalty program marketing copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "SeoCoreInterlinking"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "SEO interlinking module -- renders: operator-defined category tabs and curated destination links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "TravellerFooter_root--variant-full"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: operator-defined navigation links, legal text, and language/currency controls"
+  }
+]

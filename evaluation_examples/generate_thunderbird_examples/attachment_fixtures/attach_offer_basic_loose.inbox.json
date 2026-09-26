@@ -1,0 +1,62 @@
+[
+  {
+    "sender": "hr@businessanalytics.com",
+    "subject": "Vacation Approved",
+    "body": "Your vacation request for Aug 10-17 has been approved.\n\nEnjoy your time off!\n\n\u2014 HR Department",
+    "days_ago": "1:09:00"
+  },
+  {
+    "sender": "brightwork.interiors@gmail.com",
+    "subject": "Your quote from Brightwork Interiors (RFQ-2025-118)",
+    "body": "Brightwork Interiors\nQuote ref: RFQ-2025-118\nTotal: EUR 12,900\nThank you for your enquiry -- our quote is attached.",
+    "days_ago": "2:10:07",
+    "attachments": [
+      "assets/Brightwork_Quote_Discounted.pdf"
+    ]
+  },
+  {
+    "sender": "it-support@businessanalytics.com",
+    "subject": "Password Expiry Warning",
+    "body": "Your network password will expire in 3 days.\n\nPlease change it at: https://portal.businessanalytics.com/reset\n\n\u2014 IT Support",
+    "days_ago": "3:11:14"
+  },
+  {
+    "sender": "payroll@businessanalytics.com",
+    "subject": "June Payroll Statement Available",
+    "body": "Dear John,\n\nYour June payroll statement is now available in the employee portal.\n\nLog in at https://portal.businessanalytics.com/payroll to view it.\n\n\u2014 Payroll Department",
+    "days_ago": "4:12:21"
+  },
+  {
+    "sender": "quotes@brightwork-interiors.com",
+    "subject": "Your quote from Brightwork Interiors (RFQ-2025-114)",
+    "body": "Brightwork Interiors\nQuote ref: RFQ-2025-114\nTotal: EUR 18,400\nThank you for your enquiry -- our quote is attached.",
+    "days_ago": "5:13:28",
+    "attachments": [
+      "assets/Brightwork_Quote_RFQ-2025-114.pdf"
+    ]
+  },
+  {
+    "sender": "events@businessanalytics.com",
+    "subject": "Company Summer Picnic \u2013 Save the Date!",
+    "body": "Hi everyone,\n\nWe're excited to announce the annual company picnic on July 20th!\n\nLocation: Riverside Park, Pavilion B\nTime: 12:00 PM \u2013 4:00 PM\n\nPlease RSVP by July 13th.\n\n\u2014 Events Team",
+    "days_ago": "6:14:35"
+  },
+  {
+    "sender": "no-reply@businessanalytics.com",
+    "subject": "Scheduled System Maintenance \u2013 July 15",
+    "body": "Notice: The internal systems will undergo scheduled maintenance on July 15 from 2:00 AM to 5:00 AM EST.\n\nServices that may be affected:\n- Employee portal\n- Email (expect brief delays)\n- File sharing\n\nPlease plan accordingly.\n\n\u2014 IT Operations",
+    "days_ago": "7:15:42"
+  },
+  {
+    "sender": "support@businessanalytics.com",
+    "subject": "IT Portal Update \u2013 New Features",
+    "body": "Hello John,\n\nThe IT self-service portal has been updated with new features:\n- Password reset now available 24/7\n- Software request forms simplified\n- Knowledge base expanded\n\nCheck it out at https://portal.businessanalytics.com/support\n\n\u2014 Support Team",
+    "days_ago": "8:16:49"
+  },
+  {
+    "sender": "mike.roberts@businessanalytics.com",
+    "subject": "Q3 Report Reminder",
+    "body": "Hey John,\n\nJust a heads up \u2013 leadership is asking about the Q3 numbers. Make sure you have those ready for the review next week.\n\nThanks,\nMike Roberts\nRegional Sales Manager",
+    "days_ago": "9:09:56"
+  }
+]

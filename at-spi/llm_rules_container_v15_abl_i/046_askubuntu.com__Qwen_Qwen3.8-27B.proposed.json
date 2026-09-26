@@ -1,0 +1,340 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: skip link, logo, search box, Help, Stack Exchange, Log in, Sign up"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "dfp-sspon"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site header -- renders: site title link; ad slot subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Left sidebar navigation -- renders: Home, Questions, Unanswered, Ask, Tags, SOFA, Chat, Users, Companies, and fixed CTA copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "fs-headline1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Question header controls -- renders: 'Ask Question' button; question title subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item ws-nowrap mr16 mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Question metadata row -- renders: 'Asked', 'Modified', 'Viewed' labels and computed timestamps"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item ws-nowrap mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Question metadata row -- renders: 'Active' label and computed timestamp"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answers-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Answers header -- renders: 'Answers' heading, 'Sorted by' label, and sort dropdown options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Question action buttons -- renders: 'Save', 'Share', 'Follow', 'Add a comment' (vote buttons are toggle buttons)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "Question vote controls -- renders: upvote and downvote buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question"
+      }
+    ],
+    "own_role": "link",
+    "verdict": "trusted",
+    "note": "Question action links -- renders: 'Share', 'Suggest edit', 'Report' (tags and user links are user-generated)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "user-action-time"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "User action timestamp -- renders: 'asked'/'modified' label and relative time"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "user-gravatar32"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "User avatar container -- renders: gravatar image"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "-flair"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "User reputation flair -- renders: reputation score number"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "comment-score"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comment score -- renders: vote count number"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "relativetime-clean"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comment timestamp -- renders: relative time string"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-report-ad-button-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Ad report control -- renders: 'Report this ad' button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: navigation links (Tour, Help, About, etc.), social links, copyright, and version info"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "feed-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "RSS feed link -- renders: 'RSS' or similar fixed label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "tude-anchor-close-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Ad close button -- renders: 'Close' or 'X' control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-answer"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Answer action buttons -- renders: 'Save', 'Share', 'Follow', 'Add a comment' (vote buttons are toggle buttons)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-answer"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "Answer vote controls -- renders: upvote and downvote buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-answer"
+      }
+    ],
+    "own_role": "link",
+    "verdict": "trusted",
+    "note": "Answer action links -- renders: 'Share', 'Suggest edit', 'Report' (user links are user-generated)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-accepted-answer-indicator"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Accepted answer indicator -- renders: 'Accepted' label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "js-bottom-notice"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Bottom notice -- renders: 'Know someone who can answer? Share a link to this question via email, Twitter, or Facebook.'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "paragraph",
+        "class": "flex--item fs-body2 fw-bold fc-black-500 mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Share section label -- renders: 'Share this question'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "paragraph",
+        "class": "flex--item fs-body1 fc-black-400 mb16"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Share section description -- renders: 'Email to friends and colleagues'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "flex--item s-btn s-btn__outlined as-start"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Share button -- renders: 'Share' or 'Email' button label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "paragraph",
+        "class": "flex--item fs-body2 fw-bold fc-black-500 mb0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Tags section label -- renders: 'Tags'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "paragraph",
+        "class": "flex--item fs-body1 fc-black-400 mb0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Tags section description -- renders: 'The tags below are user-generated and may not be accurate.'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "h-linked"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Linked questions heading -- renders: 'Linked'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "h-related"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Related questions heading -- renders: 'Related'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "answer-votes"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Answer vote count -- renders: vote number"
+  }
+]

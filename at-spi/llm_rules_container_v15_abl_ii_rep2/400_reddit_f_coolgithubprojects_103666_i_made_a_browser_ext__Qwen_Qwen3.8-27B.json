@@ -1,0 +1,104 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Accessibility skip links -- renders: 'Skip to main content', 'Skip to comments'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global navigation bar -- renders: 'Reddit', 'Home', 'Search', 'Log in', 'Sign up', 'Create post'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Footer -- renders: 'Reddit, Inc.', 'About', 'Careers', 'Help', 'Blog', 'Contact', 'Advertise', 'Terms', 'Privacy', 'Content Policy'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "main"
+      },
+      {
+        "role": "section",
+        "class": "comment-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comment submission form -- renders: 'Add a comment', 'Markdown', 'Help', 'Submit'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "main"
+      },
+      {
+        "role": "list",
+        "class": "flex unlistify"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comment sorting tabs -- renders: 'Best', 'New', 'Top', 'Controversial'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "sidebar"
+      },
+      {
+        "role": "section",
+        "class": "sidebar__section flow"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "sidebar__title forum-title"
+      },
+      {
+        "role": "list",
+        "class": "text-sm unlistify"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Subreddit sidebar section -- renders: 'Subscribe', 'Unsubscribe', 'Create Post', 'Rules', 'Moderators'; subtracts subreddit name and user-generated rules/mods list"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "sidebar"
+      },
+      {
+        "role": "section",
+        "class": "sidebar__section flow"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "class": "unlistify sidebar__no-padding"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar navigation section -- renders: 'Related', 'Popular', 'Top', 'New'; subtracts list of related subreddits"
+  }
+]

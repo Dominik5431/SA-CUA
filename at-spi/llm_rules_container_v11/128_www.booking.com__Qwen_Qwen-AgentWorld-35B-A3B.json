@@ -1,0 +1,108 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "header navigation and controls -- platform's own interface including logo, sign-in, and service tabs"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "adaeede2f1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search form controls -- destination input, search button, occupancy and date controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "fff1944c52"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "subheader navigation tabs -- platform's own interface for property sections"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "d24b1ed1cf f5852f597b da2666adb4"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "property page tab triggers -- Overview, Availability, Facilities, Policies, Fine print, Reviews"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "wrap-hotelpage-top"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "ddb12f4f86 pp-header__title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "booking controls and price match guarantee -- excludes the property name heading which is seller-provided"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "js--hp-gallery-scorecard"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "review score card and breakdown -- computed scores and operator-defined review categories"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "TravellerFooter_root--variant-full"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer navigation and links -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "onetrust-banner-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent banner -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "xm-survey-component-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "guest survey component -- platform's own interface for collecting feedback with operator-defined questions and options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "cef02e091d d64ab99142 b4b3a7c462"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "review score breakdown panels -- computed scores and operator-defined review categories"
+  }
+]

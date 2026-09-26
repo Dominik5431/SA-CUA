@@ -1,0 +1,102 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "class": "rcx-button-group--medium rcx-button-group--align-start rcx-button-group rcx-css-6bg1ps"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "room header toolbar -- renders: channel info, members, settings controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-box rcx-box--full rcx-message-header__time"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message timestamp -- renders: date and time of message"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "new-message"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "new message button -- platform interface control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "jump-recent"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "jump to recent messages button -- platform interface control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list item",
+        "class": "start color-info-font-color"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message list start divider -- renders: start of messages or date separator"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "separator",
+        "class": "rcx-message-divider"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message divider -- renders: separator between message groups or dates"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rc-message-box__toolbar-formatting"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message input formatting toolbar -- renders: bold, italic, list, link controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rc-box rcx-box--full rcx-sidebar-topbar rcx-sidebar-topbar--toolbox omnichannel-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar topbar toolbox -- renders: omnichannel controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-box rcx-box--full rcx-sidebar-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar section titles -- renders: fixed category labels like channels, direct messages"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "rcx-button--mini-square rcx-button--tiny-square rcx-button--square rcx-button--icon rcx-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "room header info/menu button -- platform interface control"
+  }
+]

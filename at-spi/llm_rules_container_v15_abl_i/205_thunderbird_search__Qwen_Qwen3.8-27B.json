@@ -1,0 +1,131 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "spacesToolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Application mode switcher -- renders: Mail/Address Book/Calendar/Tasks/Chat/Settings/Collapse"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "icons-beside-text"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Unified toolbar and window controls -- renders: search icon, app menu, minimize/restore/close; search query text is subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "toolbar-menubar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Application menu bar -- renders: File/Edit/View/Go/Message/Tasks/Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "chat-toolbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "label",
+        "id": "statusMessageLabel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Chat toolbar controls -- renders: Add Buddy/Join Chat/Status/Accounts; user-set status message is subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "scroll pane",
+        "id": "chatTabPanel"
+      }
+    ],
+    "except": [
+      {
+        "role": "tool bar",
+        "id": "chat-toolbar"
+      },
+      {
+        "role": "list box",
+        "id": "contactlistbox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Chat placeholder state -- renders: 'No account' title, description, and 'Set up account' button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "folderPaneHeaderBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Folder pane header controls -- renders: More/Write/Get Messages buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "threadPaneHeaderBar"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "id": "threadPaneFolderName"
+      },
+      {
+        "role": "section",
+        "id": "threadPaneFolderCountContainer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Thread pane header controls -- renders: Quick Filter and Display buttons; folder name and count are subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "quick-filter-bar"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry"
+      },
+      {
+        "role": "section",
+        "id": "qfb-results-label"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Quick filter controls -- renders: Sticky/Unread/Starred/In Address Book/Tags/Attachment/Sender/Recipients/Subject/Body toggles; search text and result count are subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Status bar -- renders: offline status and generic status text"
+  }
+]

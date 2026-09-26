@@ -1,0 +1,57 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "searchDropdownBox",
+        "class": "nav-search-dropdown searchSelect nav-progressive-attrubute nav-progressive-search-dropdown"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search scope dropdown -- operator-defined search categories"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-tools",
+        "class": "layoutToolbarPadding"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "navigation tools -- language, account, orders, cart links and controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-main",
+        "class": "nav-sprite"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main navigation menu -- hamburger, shop, and category links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "price-block-container-0",
+        "class": "a-section price-block-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "price block container -- operator-defined pricing and payment options display"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooter",
+        "class": "navLeftFooter nav-sprite-v1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer navigation -- platform's own policy and link controls"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- renders: logo, nav links, search box, login/signup buttons; platform's own fixed interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left navigation sidebar -- renders: Home/Questions/Tags/Users/Companies/Chat/Articles and platform promotional CTAs; fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "mainbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "questions"
+      },
+      {
+        "role": "landmark",
+        "id": "uql-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question list page chrome -- renders: page heading, ask button, sort controls, pagination; excepts the user-generated question list and the filter/refinement form"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: navigation links, social links, copyright; fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-sofa-sidebar-promo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Stack Overflow for Teams sidebar promo -- platform marketing copy with fixed vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "signup-modal-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sign-up modal container -- platform auth UI with fixed vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "notify-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "notification container -- platform UI"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "onetrust-consent-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent SDK -- platform UI with fixed consent vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-report-ad-button-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "report-ad button containers -- platform's own controls about ads, outside the creative"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "tude-anchor-close-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "anchor ad close button -- platform's own control about the ad"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mobile-anchor-ad-report-button-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "mobile anchor ad report button container -- platform's own control about the ad"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "fides-overlay"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent overlay -- operator interface, renders fixed consent vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Wr7_RG_mastheadWrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "masthead navigation -- renders: section names, sections menu button, search button, section label, sign-in link; fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "collection-business"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "business section front -- renders: section heading, sub-section navigation links, article headlines/summaries/bylines/captions all authored by NYT journalists (the operator); no non-operator party can change what appears here"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "tab-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "tab navigation -- renders: Latest/All tab labels, fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "stream-panel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "article stream and pagination -- renders: article headlines/summaries/bylines authored by NYT journalists, page indicator and pagination links; all operator-authored content and controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "site-index"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site index heading -- renders: 'Site Index' label, fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer -- renders: section links, policy links, copyright notice, fixed operator vocabulary"
+  }
+]

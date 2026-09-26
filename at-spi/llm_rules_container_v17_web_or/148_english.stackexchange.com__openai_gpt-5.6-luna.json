@@ -1,0 +1,190 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "network-logo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "network logo control -- renders fixed platform branding"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      },
+      {
+        "role": "link",
+        "class": "s-btn__outlined"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top-bar sign-in control -- renders fixed sign-in vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      },
+      {
+        "role": "link",
+        "class": "js-signup-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top-bar sign-up control -- renders fixed sign-up vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left navigation and fixed platform call-to-action area -- renders Home/Questions/Unanswered/Ask/Tags/Chat/Users and fixed promotional controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-share-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "share control -- renders fixed share vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-suggest-edit-post"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "edit suggestion control -- renders fixed edit vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "toggle button",
+        "class": "js-vote-up-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "upvote control -- renders fixed upvote vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "toggle button",
+        "class": "js-vote-down-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "downvote control -- renders fixed downvote vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-saves-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "save control -- renders fixed save vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-follow-post"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "follow control -- renders fixed follow vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "comments-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment action control -- renders fixed add-comments vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "answer-sort-dropdown-select-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answer sort control -- renders fixed active/oldest/votes sorting vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "bottom-notice"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "bottom platform notice -- renders fixed operator-authored notice vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "paragraph",
+        "class": "fs-body2"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "bottom platform notice label -- renders fixed operator-authored interface copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "paragraph",
+        "class": "fs-body1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "bottom platform notice text -- renders fixed operator-authored interface copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "feed-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "feed control -- renders fixed feed-subscription vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders fixed platform navigation, social, legal, and version vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "onetrust-banner-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie-consent banner -- renders fixed consent-policy, vendor-settings, and accept/reject controls"
+  }
+]

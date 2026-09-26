@@ -1,0 +1,112 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-skip-to-content"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip-to-content link -- renders: Skip to content (fixed platform vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "MarketingHeader-module__root__Tk7n3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "marketing header -- renders: Product/Solutions/Resources/Open Source/Enterprise/Pricing nav dropdowns, Sign in, Sign up, search trigger, appearance settings (fixed platform vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-repo-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository tab navigation -- renders: Code/Issues/Pull requests/Discussions/Actions/Security/Insights (fixed platform vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "subnav-search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issue search input control -- platform search box with fixed placeholder vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "subnav-links"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "open/closed filter links -- renders: Open/Closed (fixed platform vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "Button--primary"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "new issue button -- renders: New issue (fixed platform vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "issues-reset-query-wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "clear-search link -- renders: Clear current search query, filters, and sorts (fixed platform vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "js-issues-toolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issues filter toolbar -- renders: Open/Closed toggle, Author/Label/Project/Milestone/Reviews/Assignees/Sort dropdown buttons (fixed platform vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "issues-index-tip"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issues index tip -- renders: ProTip! help text with fixed platform link (fixed platform vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "pagination"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- renders: Previous/Next/page numbers (fixed platform vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: Terms/Privacy/Security/Contact/Status/Docs/API/Training/Blog/About, theme and language controls (fixed platform vocabulary)"
+  }
+]

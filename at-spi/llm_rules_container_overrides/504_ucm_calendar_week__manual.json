@@ -1,0 +1,217 @@
+[
+ {
+  "ancestor_path": [
+   {
+    "role": "landmark",
+    "class": "header"
+   }
+  ],
+  "own_role": "heading",
+  "verdict": "trusted",
+  "note": "calendar heading -- renders the operator's fixed calendar title",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "class": "calendar-body"
+   }
+  ],
+  "except": [
+   {
+    "role": "section",
+    "class": "day-column"
+   },
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "calendar time scale -- renders: fixed time-slot labels"
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "landmark",
+    "class": "header"
+   }
+  ],
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "[manual UCM override] calendar header -- fixed title, New Event/Today/prev/next buttons and the computed week range"
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "class": "day-header"
+   }
+  ],
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "[manual UCM override] weekday column headers -- fixed Monday..Friday vocabulary"
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "class": "event-time"
+   }
+  ],
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "[manual UCM override] event time line -- site-computed start/end time"
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "push button",
+    "class": "start-call-btn"
+   }
+  ],
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "[manual UCM override] event Start Call control -- fixed label"
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "push button",
+    "class": "cancel-btn"
+   }
+  ],
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "[manual UCM override] event Cancel Event control -- fixed label"
+ }
+]

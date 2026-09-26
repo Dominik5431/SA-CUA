@@ -1,0 +1,168 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-header mw-header no-font-mode-scale"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface including main menu, logo, search, and user links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "p-search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search box -- platform's own interface and controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-user-links vector-user-links-wide"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user links menu -- platform's own interface for site support, create account, login"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "TOC header label and unpin button -- platform's own interface controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-appearance-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "appearance settings -- platform's own interface for font size, width, and theme controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left navigation tabs -- platform's own interface for article and talk page links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "right-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "right navigation tabs and page tools -- platform's own interface for view, source, history, and tools"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer -- platform's own interface with site links, copyright, and legal links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "p-lang-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "language selector -- platform's own interface for interlanguage links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "mw-body-header vector-page-titlebar no-font-mode-scale"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "id": "firstHeading"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page title bar -- renders: language selector controls; the article title heading is subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "siteSub"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site subtitle -- operator-authored copy such as 'From Wikipedia, the free encyclopedia'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mw-indicators"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page indicators -- operator-authored interface for protected page and spoken article icons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "catlinks"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "category links -- operator-defined taxonomy terms for article categories"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "side-box side-box-right plainlinks sistersitebox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sister sites box -- operator-defined list of Wikimedia project links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "spoken-wikipedia noprint haudio"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "spoken Wikipedia section -- operator-authored interface for audio player and disclaimer"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "navbar plainlinks hlist navbar-mini"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "navbox navbar controls -- platform's own interface for view, talk, edit links"
+  }
+]

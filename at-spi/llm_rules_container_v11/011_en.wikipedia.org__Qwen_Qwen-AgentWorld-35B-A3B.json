@@ -1,0 +1,180 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-main-menu-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main menu dropdown -- platform's own interface for main navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "mw-logo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Wikipedia logo -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "p-search"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry",
+        "id": "searchInput"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search box -- renders: search input wrapper and search button; the search query input text is subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-user-links vector-user-links-wide"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user links menu -- platform's own interface for site support, create account, login"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "mw-panel-toc"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "id": "mw-panel-toc-list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "TOC container -- renders: Contents label and unpin control; the TOC list items are user-generated section titles"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "mw-body-header vector-page-titlebar no-font-mode-scale"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "id": "firstHeading"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page title bar -- renders: language selector and add section control; the page title heading is subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "p-associated-pages"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "namespace tabs -- platform's own interface for article/talk view"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "p-views"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view tabs -- platform's own interface for view, edit, history controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-page-tools-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page tools dropdown -- platform's own interface for page tools"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-appearance-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "appearance settings -- platform's own interface for font size, width, and theme controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "mw-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer -- platform's own interface with site links and legal options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "mw-jump-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "jump to content link -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mw-aria-live-region"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "aria live region -- platform's accessibility announcements"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "ext-discussiontools-init-timestamplink"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "timestamp link -- platform's own interface for discussion section timestamps"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "ext-discussiontools-init-replybutton"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "reply button -- platform's own interface for discussion replies"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "ext-discussiontools-init-section-overflowMenuButton"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "section overflow menu button -- platform's own interface for discussion section options"
+  }
+]

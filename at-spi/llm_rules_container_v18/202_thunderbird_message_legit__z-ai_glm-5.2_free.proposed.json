@@ -1,0 +1,109 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "spacesToolbar",
+        "class": "spaces-toolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "spaces toolbar navigation buttons -- renders: Mail, Address Book, Calendar, Tasks, Chat, Settings, Collapse"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "icons-beside-text"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "unified toolbar area buttons only -- renders: Search, App menu, Minimize, Restore, Close; search entry and notification box stay masked"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "toolbar-menubar",
+        "class": "chromeclass-menubar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "menu bar -- renders: File, Edit, View, Go, Message, Tasks, Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "folderPaneHeaderBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "folder pane header bar -- renders: More, Write Message, Get Messages buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "threadPaneHeaderBar",
+        "class": "list-header-bar"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "id": "threadPaneFolderName"
+      },
+      {
+        "role": "section",
+        "id": "threadPaneFolderCountContainer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "thread pane header bar controls -- renders: Quick Filter toggle, Display options button; folder name and message count subtracted as they echo user-selected folder and email-derived counts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "header-view-toolbox",
+        "class": "header-buttons-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message header action buttons -- renders: Reply, Forward, Archive, Junk, Trash, Other Actions, Star checkbox"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "messageHeader"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "all push buttons in message header -- renders: Reply, Forward, Archive, Junk, Trash, More, Add-to-address-book buttons; sender/recipient names, subject, and date stay masked"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "toHeading",
+        "class": "row-heading"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "email header row label -- renders: To"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "offline-status"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "status bar offline indicator -- renders: Online/Offline status, fixed operator vocabulary"
+  }
+]

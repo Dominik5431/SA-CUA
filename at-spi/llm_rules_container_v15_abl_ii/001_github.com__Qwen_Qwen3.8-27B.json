@@ -1,0 +1,298 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "header-wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site header -- renders: Skip to content, GitHub logo, Product/Solutions/Marketplace/Explore/Team/Enterprise, Search, Sign in, Sign up, Appearance"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "js-repo-pjax-container"
+      },
+      {
+        "role": "section",
+        "id": "repository-container-header"
+      },
+      {
+        "role": "section",
+        "id": "repository-details-container"
+      },
+      {
+        "role": "list",
+        "class": "pagehead-actions"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Repository action buttons -- renders: Sponsors, Watch, Fork, Star (labels are fixed operator vocabulary; counts are handled by deterministic pass)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "js-repo-pjax-container"
+      },
+      {
+        "role": "section",
+        "id": "repository-container-header"
+      },
+      {
+        "role": "landmark",
+        "class": "js-repo-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Repository navigation tabs -- renders: Code, Issues, Pull requests, Actions, Projects, Security and quality, Insights"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repos-file-tree-sidebar"
+      },
+      {
+        "role": "section",
+        "class": "ReposFileTreePane-module__Pane__rBZpI"
+      },
+      {
+        "role": "section",
+        "id": "repos-file-tree"
+      },
+      {
+        "role": "heading",
+        "class": "use-tree-pane-module__Heading__s4QbZ"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "File tree pane header -- renders: File tree"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repos-file-tree-sidebar"
+      },
+      {
+        "role": "section",
+        "class": "ReposFileTreePane-module__Pane__rBZpI"
+      },
+      {
+        "role": "section",
+        "id": "repos-file-tree"
+      },
+      {
+        "role": "heading",
+        "class": "CodeViewFileTreeLayout-module__heading__A1Iqk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "File tree pane sub-header -- renders: Files"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repos-file-tree-sidebar"
+      },
+      {
+        "role": "section",
+        "class": "ReposFileTreePane-module__Pane__rBZpI"
+      },
+      {
+        "role": "section",
+        "id": "repos-file-tree"
+      },
+      {
+        "role": "section",
+        "class": "ReposFileTreePane-module__Box_4__DG4pa"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "File tree search button -- renders: Search this repository"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repos-file-tree-sidebar"
+      },
+      {
+        "role": "section",
+        "class": "ReposFileTreePane-module__Pane__rBZpI"
+      },
+      {
+        "role": "section",
+        "id": "repos-file-tree"
+      },
+      {
+        "role": "section",
+        "class": "FileResultsList-module__FilesSearchBox__ivVkc"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "File tree search input -- renders: Search files"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repos-split-pane-content"
+      },
+      {
+        "role": "section",
+        "id": "StickyHeader"
+      },
+      {
+        "role": "push button",
+        "class": "prc-Button-ButtonBase-9n-Xk ml-2"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Copy path button -- renders: Copy path"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repos-split-pane-content"
+      },
+      {
+        "role": "section",
+        "id": "StickyHeader"
+      },
+      {
+        "role": "push button",
+        "id": "_R_14pla9lek5_"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "File actions dropdown -- renders: More file actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repos-split-pane-content"
+      },
+      {
+        "role": "section",
+        "id": "repos-sticky-header"
+      },
+      {
+        "role": "section",
+        "class": "BlobViewHeader-module__Box__yhm9u"
+      },
+      {
+        "role": "list",
+        "class": "prc-SegmentedControl-SegmentedControl-lqIXp"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "View mode toggle -- renders: Code, Blame, Raw"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repos-split-pane-content"
+      },
+      {
+        "role": "section",
+        "id": "repos-sticky-header"
+      },
+      {
+        "role": "section",
+        "class": "BlobViewHeader-module__Box__yhm9u"
+      },
+      {
+        "role": "section",
+        "class": "prc-ButtonGroup-Item-PqvDl"
+      },
+      {
+        "role": "link",
+        "class": "prc-Button-ButtonBase-9n-Xk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Raw file link -- renders: Raw"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repos-split-pane-content"
+      },
+      {
+        "role": "section",
+        "id": "repos-sticky-header"
+      },
+      {
+        "role": "section",
+        "class": "BlobViewHeader-module__Box__yhm9u"
+      },
+      {
+        "role": "section",
+        "class": "prc-ButtonGroup-Item-PqvDl"
+      },
+      {
+        "role": "push button",
+        "class": "prc-Button-ButtonBase-9n-Xk prc-Button-IconButton-fyge7"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Copy file button -- renders: Copy file"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repos-split-pane-content"
+      },
+      {
+        "role": "section",
+        "id": "repos-sticky-header"
+      },
+      {
+        "role": "section",
+        "class": "BlobViewHeader-module__Box__yhm9u"
+      },
+      {
+        "role": "section",
+        "class": "prc-ButtonGroup-Item-PqvDl"
+      },
+      {
+        "role": "push button",
+        "class": "BlobViewHeader-module__downloadButton__ef459"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Download file button -- renders: Download file"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repos-split-pane-content"
+      },
+      {
+        "role": "section",
+        "id": "repos-sticky-header"
+      },
+      {
+        "role": "section",
+        "class": "BlobViewHeader-module__Box__yhm9u"
+      },
+      {
+        "role": "toggle button",
+        "class": "TableOfContents-module__IconButton__jrlNM"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Table of contents toggle -- renders: Table of contents"
+  }
+]

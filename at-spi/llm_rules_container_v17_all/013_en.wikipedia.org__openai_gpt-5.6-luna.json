@@ -1,0 +1,175 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "vector-main-menu-dropdown"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main-menu control -- renders the operator's fixed menu vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "mw-logo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site logo -- renders the operator's fixed Wikimedia branding"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "mw-jump-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip link -- renders the operator's fixed jump-to-content control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "mw-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders the operator's fixed menu, branding, search and account-interface vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "searchform"
+      }
+    ],
+    "own_role": "entry",
+    "verdict": "trusted",
+    "note": "search field -- renders the operator's search control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "searchform"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "search submission control -- renders the operator's fixed search action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-user-links"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user-access navigation -- renders the operator's fixed support, account-creation and sign-in vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "mw-body-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page header -- renders the fixed Recent Changes heading and help control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "mw-helplink"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "help link -- renders the operator's fixed help control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "right-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "right page navigation -- renders the operator's fixed page-action and tool controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-appearance-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "appearance settings -- renders fixed font-width and theme controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mw-content-text"
+      }
+    ],
+    "own_role": "paragraph",
+    "verdict": "trusted",
+    "note": "introductory page copy -- renders the operator's fixed Recent Changes explanation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "ooui-6"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "recent-changes view control -- renders the operator's fixed control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "mw-changeslist-legend"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "change legend -- renders fixed edit-type labels and operator help links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "mw-changeslist-diff"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "diff controls -- render the operator's fixed diff action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "mw-changeslist-history"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "history controls -- render the operator's fixed history action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders the operator's fixed privacy, legal, contact, developer and site-information links"
+  }
+]

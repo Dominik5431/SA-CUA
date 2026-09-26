@@ -1,0 +1,400 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site header -- renders the operator's fixed branding, account controls and primary travel navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "bypass_menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Accessibility bypass control -- renders the operator's fixed skip-navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "Header_logo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site branding control -- renders the operator's fixed logo and home-link vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_tab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Primary travel navigation -- renders: accommodations/flights/packages/cars/attractions/airport taxis"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_tab b8f0d75194"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Property-page navigation -- renders the fixed overview/availability/facilities/policies/fine-print/reviews tab vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "top-book"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Property booking action strip -- renders fixed wishlist, share, book-now and price-match controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "searchbox-horizontal-destination-input"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Destination search box -- renders the operator's fixed destination-search control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "ed9f289288"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Date search control -- renders the operator's fixed date-selection control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "b7ef425131 e9f1adff2b b935cde1f7 b59e36af6b b3ffbd4bb3"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Search controls -- renders fixed date, occupancy, clear and search-action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "b7ef425131 e9f1adff2b b935cde1f7 b59e36af6b b3ffbd4bb3"
+      },
+      {
+        "role": "label",
+        "class": "fff1944c52 d026bbaa45 da36f27dc7"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Destination field label -- renders the operator's fixed destination-search vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "searchbox-horizontal-occupancy-label"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Occupancy field label -- renders the operator's fixed guest-and-room vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "b9a178a893"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Availability search controls -- renders fixed date, occupancy and search-action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "b9a178a893"
+      },
+      {
+        "role": "section",
+        "id": "searchbox-horizontal-occupancy-label"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Availability occupancy label -- renders the operator's fixed guest-and-room vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hotelTmpl"
+      },
+      {
+        "role": "landmark",
+        "class": "d24b1ed1cf f5852f597b da2666adb4"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Property tab strip -- renders the fixed overview, availability, facilities, policies, fine-print and reviews vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_hotel_name"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Property-header controls -- renders fixed map, rating and property-header actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "map_trigger_header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Map navigation control -- renders the operator's fixed map-link action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hotel_sidebar_static_map_capla"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Map widget controls -- renders fixed map-open and map-action controls outside the map content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "a91bd87e91"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Review-summary heading -- renders the fixed operator section-label vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "availability_target"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Availability section heading -- renders the operator's fixed availability label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table row",
+        "class": "hprt-table-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Room-rate table headers -- renders fixed column labels for room, occupancy, price, policies and room selection"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table cell",
+        "class": "hprt-table-room-select"
+      }
+    ],
+    "own_role": "label",
+    "verdict": "trusted",
+    "note": "Room-selection labels -- renders the operator's fixed room-count label vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table cell",
+        "class": "hprt-table-room-select"
+      }
+    ],
+    "own_role": "combo box",
+    "verdict": "trusted",
+    "note": "Room-selection controls -- renders the operator-defined room-count selector vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "rooms_table"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Room-table actions -- renders fixed operator controls such as conditions, facility expansion and reservation actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "hprt-reservation-cta"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Reservation call-to-action -- renders the operator's fixed booking-action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_facilities_box"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "Facilities section headings -- renders fixed operator category-label vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_facilities_box"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Facilities section controls -- renders fixed expand, collapse and section-action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "policies"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "Policies section headings -- renders the operator's fixed policy-label vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "policies"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Policies section controls -- renders fixed operator expand and policy-action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "important_info"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "Important-information heading -- renders the operator's fixed section-label vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "important_info"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Important-information controls -- renders fixed operator expand and section-action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "pp-faq"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Frequently asked questions controls -- renders the operator's fixed FAQ question and disclosure vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "questions-answers-desktop"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "Questions-and-answers section heading -- renders the fixed operator section-label vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "xm-survey-component-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Operator survey widget -- renders fixed survey question, rating-choice and close-control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "TravellerFooter_inline-links-list--content"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Footer inline navigation -- renders the operator's fixed footer-link vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "TravellerFooter_footer-lists"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Footer link groups -- renders fixed operator help, company, legal and travel-service navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "TravellerFooter_footer-control-section"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Footer controls -- renders fixed language, currency and footer-action controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "onetrust-banner-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Cookie-consent banner -- renders operator-authored cookie explanation, settings, reject and accept controls"
+  }
+]

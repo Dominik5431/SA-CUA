@@ -1,0 +1,75 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Accessibility skip links -- renders: 'Skip to main content', 'Skip to sidebar'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: 'Reddit', 'Popular', 'Search', 'Log in', 'Sign up'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "main"
+      }
+    ],
+    "except": [
+      {
+        "role": "article",
+        "class": "submission"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main content area chrome -- renders: 'r/technology', 'Hot', 'New', 'Top', 'Next'; excludes user-generated submissions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "forum-title"
+      },
+      {
+        "role": "section",
+        "class": "subscribe-form"
+      },
+      {
+        "role": "paragraph"
+      },
+      {
+        "role": "list",
+        "class": "text-sm"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar chrome -- renders: 'About', 'Rules'; excludes subreddit name, subscribe button, description, and user-generated rules list"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: 'Reddit', 'Inc.'"
+  }
+]

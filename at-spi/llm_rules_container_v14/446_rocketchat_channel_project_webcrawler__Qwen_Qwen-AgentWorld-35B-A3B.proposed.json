@@ -1,0 +1,94 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-topbar rcx-sidebar-topbar--toolbox omnichannel-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar topbar toolbox -- renders section title and action buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar section labels -- operator-defined category headings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "rcx-button-group--medium rcx-button-group--align-start rcx-button-group rcx-css-vi4iz8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar top panel button group -- renders fixed view switcher controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "rcx-room-header rcx-css-7tefqp"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "rcx-css-u5iepl"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "room header controls -- renders room info button and action buttons toolbar; subtracted channel name heading"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "class": "rcx-button-group--medium rcx-button-group--align-start rcx-button-group rcx-css-6bg1ps"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "room header action buttons toolbar -- platform's own interface controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "messages-box"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "class": "messages-list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "messages box controls -- renders new message button and jump to recent controls; subtracted user message list"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rc-message-box__toolbar-formatting"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message formatting toolbar -- renders fixed formatting action buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-css-ebq3kg"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer copy and links -- operator's own interface footer"
+  }
+]

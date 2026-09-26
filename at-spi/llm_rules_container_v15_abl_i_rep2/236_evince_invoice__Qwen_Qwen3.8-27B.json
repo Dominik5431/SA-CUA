@@ -1,0 +1,41 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main application toolbar -- renders fixed operator controls for document navigation and view options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "split pane"
+      }
+    ],
+    "own_role": "radio button",
+    "verdict": "trusted",
+    "note": "View mode selector -- renders fixed operator options for document display modes"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Document action buttons -- renders fixed operator controls for file operations and document management"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "check box",
+    "verdict": "trusted",
+    "note": "Document display options -- renders fixed operator controls for rendering settings"
+  }
+]

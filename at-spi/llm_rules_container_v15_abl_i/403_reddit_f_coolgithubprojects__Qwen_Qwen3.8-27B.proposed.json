@@ -1,0 +1,108 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Accessibility skip links -- renders: Skip to main content / Skip to sidebar"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site navigation -- renders: Reddit logo, Home, Popular, Search, Log in, Sign up, User menu"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "main"
+      },
+      {
+        "role": "landmark",
+        "class": "flex flex--guttered"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Forum view tabs and sort controls -- renders: Hot, New, Top, Rising, sort dropdown"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "main"
+      },
+      {
+        "role": "landmark",
+        "class": "pagination"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Pagination controls -- renders: Next"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "sidebar"
+      },
+      {
+        "role": "section",
+        "class": "sidebar__section flow"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "forum-title"
+      },
+      {
+        "role": "section",
+        "class": "subscribe-button__subscriber-count"
+      },
+      {
+        "role": "list",
+        "class": "text-sm unlistify"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar community info -- renders: Subscribe button, About label; subtracts community name, subscriber count, and user-generated metadata list"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "sidebar"
+      },
+      {
+        "role": "section",
+        "class": "sidebar__section flow"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "class": "unlistify sidebar__no-padding"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar menu section -- renders: Menu heading; subtracts menu items which may contain user-generated or dynamic content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: Copyright, Reddit"
+  }
+]

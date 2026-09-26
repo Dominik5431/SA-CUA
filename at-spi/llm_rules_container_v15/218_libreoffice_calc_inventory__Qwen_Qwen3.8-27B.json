@@ -1,0 +1,20 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "LibreOffice application menu bar -- renders fixed operator vocabulary for application commands (File, Edit, View, Insert, Format, Styles, Sheet, Data, Tools, Window, Help) and their sub-items"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "LibreOffice toolbars -- renders fixed operator vocabulary for standard spreadsheet actions (Undo, Redo, Cut, Copy, Paste, Save, Print, formatting controls, etc.)"
+  }
+]

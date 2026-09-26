@@ -1,0 +1,134 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "bypass_menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Skip-to-content link -- renders: 'Skip to main content'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site header -- renders: 'Booking.com', 'Search', 'List your property', 'Register', 'Sign in', 'Stays', 'Flights', 'Flight + Hotel', 'Car rental', 'Attractions', 'Airport taxis'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "fff1944c52"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search results breadcrumb -- renders: 'Home', 'Hotels', 'City', 'Property'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "ce1108eff4"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Results count and sort control -- renders: 'Sort by', 'Recommended'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "b99b6ef58f b34f2cc03f"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Filter toggle control -- renders: 'Filter by'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "b7ef425131 e9f1adff2b c03fb03748"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Filter sidebar frame -- renders: 'Filters', 'Reset all', 'Property Type', 'Popular filters', 'Price', 'Review score', 'Meals', 'Hotel facilities', 'Room facilities', 'Class', 'Distance to center', 'Popular nearby landmarks', 'Free cancellation', 'Travel group', 'Stay type', 'Popular activities', 'Brand', 'Rated for adults only', 'Payment method', 'Sustainability', 'Accessible facilities', 'Accessible room facilities'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "ad68e1f7ce"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "View switcher -- renders: 'List', 'Grid'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "a297f43545"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sort dropdown control -- renders: 'Sort by: Recommended'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "f11e93ef6d"
+      },
+      {
+        "role": "section",
+        "class": "b41575a678"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Property card action buttons -- renders: 'Save to shortlist', 'See availability'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "fff1944c52 f4008c3a61"
+      },
+      {
+        "role": "section",
+        "class": "a297f43545"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Property card action buttons -- renders: 'Save to shortlist', 'See availability'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "fa91e1e5db c10aa2082a"
+      },
+      {
+        "role": "section",
+        "class": "d755458b0f"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Property card action button -- renders: 'See availability'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "TravellerFooter_root--variant-full"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: 'Support', 'Discover', 'Trending', 'About', 'Language and currency', '\u00a9 2024 Booking.com'"
+  }
+]

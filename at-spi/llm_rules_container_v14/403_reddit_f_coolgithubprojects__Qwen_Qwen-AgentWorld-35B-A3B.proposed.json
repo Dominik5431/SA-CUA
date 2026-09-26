@@ -1,0 +1,83 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility navigation -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "page-heading forum-name-heading"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "subreddit name heading -- operator's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "flex flex--guttered"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sort controls and tabs -- platform's own interface for sorting posts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "submission__nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "submission action links -- operator controls for comments, share, etc."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vote"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "vote controls and vote count -- operator-defined voting interface and computed values"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "static",
+        "class": "submission__timestamp"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "submission timestamp -- computed operator-defined value"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "sidebar",
+        "class": "site-content__sidebar sidebar flow"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar -- platform's own interface including subscribe form and community info"
+  }
+]

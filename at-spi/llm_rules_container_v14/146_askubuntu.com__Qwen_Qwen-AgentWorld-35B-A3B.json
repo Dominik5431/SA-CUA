@@ -1,0 +1,103 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left sidebar navigation and controls -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answers-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answers header and sort controls -- platform's own interface and sort dropdown"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- platform's own interface and legal links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "onetrust-banner-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie-consent banner controls and policy text -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "user-action-time"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user action time and timestamps -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "-flair"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user flair and reputation score -- platform's own computed values"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hot-network-questions"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "hot network questions section heading -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "h-linked"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "linked questions section heading -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "h-related"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "related questions section heading -- platform's own interface"
+  }
+]

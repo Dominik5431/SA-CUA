@@ -1,0 +1,116 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "spacesToolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Spaces navigation toolbar -- renders fixed application module names: Mail, Address Book, Calendar, Tasks, Chat, Settings, Collapse"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "icons-beside-text"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Unified toolbar and window controls -- renders fixed UI labels: Search, App menu, Minimize, Restore, Close; search input text is subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "toolbar-menubar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Application menu bar -- renders fixed menu titles: File, Edit, View, Go, Message, Tasks, Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "chat-toolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Chat module toolbar -- renders fixed control labels: Add Buddy, Join Chat, Status, Accounts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "scroll pane",
+        "id": "chatTabPanel"
+      }
+    ],
+    "except": [
+      {
+        "role": "tool bar",
+        "id": "chat-toolbar"
+      },
+      {
+        "role": "list box",
+        "id": "contactlistbox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Chat tab placeholder -- renders fixed instructional text for when no IM account is configured"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "folderPaneHeaderBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Folder pane header controls -- renders fixed action labels: More, Write Message, Get Messages"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "threadPaneHeaderBar"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "id": "threadPaneFolderName"
+      },
+      {
+        "role": "section",
+        "id": "threadPaneFolderCountContainer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Thread pane header controls -- renders fixed view/filter labels: Quick Filter, Display; folder name and count are subtracted as user/computed data"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "start-page"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Thunderbird start page -- renders fixed platform marketing copy, feature descriptions, and navigation links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Application status bar -- renders fixed status indicators and system messages"
+  }
+]

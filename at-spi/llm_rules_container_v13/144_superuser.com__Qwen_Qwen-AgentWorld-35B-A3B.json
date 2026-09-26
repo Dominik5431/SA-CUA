@@ -1,0 +1,118 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "dfp-sspon"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header chrome -- platform's own logo link; excludes ad slot"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left sidebar navigation and freemium CTA -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- platform's own navigation and legal copy throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "onetrust-consent-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent banner and controls -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "answer-sort-dropdown-select-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answer sort control -- operator-defined sort options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "user-action-time"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user action time -- timestamps and dates computed by the platform"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "reputation-score"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "reputation score -- computed operator-defined value about submitted content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "comment",
+        "class": "js-accepted-answer-indicator"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accepted answer indicator -- status badge computed by the platform"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "aside-cta"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "ask question button in question header -- platform control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answers-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answers header -- platform labels and sort control"
+  }
+]

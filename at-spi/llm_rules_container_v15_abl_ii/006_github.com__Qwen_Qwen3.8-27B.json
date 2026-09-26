@@ -1,0 +1,102 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "header-wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site header -- renders: Skip to content, GitHub, Platform, Solutions, Pricing, Sign in, Sign up, Search, Appearance"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repository-container-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "link",
+        "class": "url fn"
+      },
+      {
+        "role": "static",
+        "class": "mr-2 flex-self-stretch"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Repository header controls -- renders: Watch, Fork, Star, Code, Issues, Pull requests, Actions, Projects, Wiki, Security, Insights; repository name and public badge are subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repo-content-pjax-container"
+      }
+    ],
+    "except": [
+      {
+        "role": "landmark",
+        "class": "mb-2 flex-1"
+      },
+      {
+        "role": "landmark",
+        "class": "pagination"
+      },
+      {
+        "role": "landmark",
+        "id": "release-1.134.0"
+      },
+      {
+        "role": "landmark",
+        "id": "release-1.133.0"
+      },
+      {
+        "role": "landmark",
+        "id": "release-1.132.1"
+      },
+      {
+        "role": "landmark",
+        "id": "release-1.132.0"
+      },
+      {
+        "role": "landmark",
+        "id": "release-1.131.0"
+      },
+      {
+        "role": "landmark",
+        "id": "release-1.130.0"
+      },
+      {
+        "role": "landmark",
+        "id": "release-1.129.1"
+      },
+      {
+        "role": "landmark",
+        "id": "release-1.129.0"
+      },
+      {
+        "role": "landmark",
+        "id": "release-1.128.1"
+      },
+      {
+        "role": "landmark",
+        "id": "release-1.128.0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Release page chrome -- renders: Releases, Tags, Filter, Latest, Pre-releases, Previous, Next; release list and sub-navigation are subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site footer -- renders: GitHub, Terms, Privacy, Security, Status, Docs, Contact, Manage cookies, Do not share my personal information"
+  }
+]

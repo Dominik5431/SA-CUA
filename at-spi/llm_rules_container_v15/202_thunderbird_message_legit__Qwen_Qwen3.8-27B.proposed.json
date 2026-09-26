@@ -1,0 +1,153 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "spacesToolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Application space switcher -- renders fixed vocabulary: Mail, Address Book, Calendar, Tasks, Chat, Settings, Collapse"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "toolbar-menubar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main application menu bar -- renders fixed vocabulary: File, Edit, View, Go, Message, Tasks, Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "folderPaneHeaderBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Folder pane action buttons -- renders fixed vocabulary: More, Write, Get Messages"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "threadPaneHeaderBar"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "id": "threadPaneFolderName"
+      },
+      {
+        "role": "section",
+        "id": "threadPaneFolderCountContainer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Thread pane header controls -- renders fixed vocabulary: Quick Filter, Display; subtracts folder name and count which reflect user data"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "header-view-toolbox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Message header action buttons -- renders fixed vocabulary: Reply, Forward, Archive, Junk, Trash, More, Star"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "expandedtoRow"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "class": "recipients-list"
+      },
+      {
+        "role": "section",
+        "id": "dateLabel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Message header 'To' row -- renders fixed label 'To'; subtracts recipient list and date which are user/network data"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Application status bar -- renders fixed vocabulary: Offline status, status text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "icons-beside-text"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "search-bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Unified toolbar and window controls -- renders fixed vocabulary: App Menu, Minimize, Restore, Close; subtracts search bar which may echo user query"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "chat-toolbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "label",
+        "id": "statusMessageLabel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Chat toolbar controls -- renders fixed vocabulary: Add Buddy, Join Chat, Status, Accounts; subtracts status message which is user-set"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "id": "noAccountTitle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Chat placeholder title -- renders fixed platform copy for empty state"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "id": "noAccountDesc"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Chat placeholder description -- renders fixed platform copy for empty state"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "openIMAccountWizardButton"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Chat setup button -- renders fixed vocabulary: Open Wizard"
+  }
+]

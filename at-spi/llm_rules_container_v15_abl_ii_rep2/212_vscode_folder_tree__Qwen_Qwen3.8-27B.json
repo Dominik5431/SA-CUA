@@ -1,0 +1,72 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-action-bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Activity bar and bottom-left controls -- renders fixed operator vocabulary: Explorer, Search, Source Control, Run, Extensions, Accounts, Settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "composite title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Viewlet title bar -- renders fixed operator vocabulary: 'Explorer' and toolbar controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "pane-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Pane headers in the sidebar -- renders fixed operator vocabulary: 'Open Editors', 'Timeline', and action buttons (New File, New Folder, Refresh, Collapse All)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "title tabs"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Editor tab bar chrome -- renders fixed operator vocabulary: 'Getting Started' (default page name) and tab action buttons (Close, Split, More)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "document",
+        "class": "gettingStartedContainer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Getting Started page -- renders fixed operator vocabulary: product name, subtitle, category titles, descriptions, and action buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar",
+        "id": "workbench.parts.statusbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Status bar -- renders fixed operator vocabulary: host type, SCM status, problems count, forwarded ports, notifications, and screen reader mode"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar",
+        "class": "ElectronMenuBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Native menu bar -- renders fixed operator vocabulary: File, Edit, Selection, View, Go, Run, Terminal, Help"
+  }
+]

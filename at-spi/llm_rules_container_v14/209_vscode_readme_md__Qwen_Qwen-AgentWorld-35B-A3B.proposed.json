@@ -1,0 +1,43 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-action-bar vertical"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Activity Bar navigation icons and controls -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar",
+        "id": "workbench.parts.statusbar",
+        "class": "part statusbar status-border-top"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Status bar controls and status indicators -- operator-defined values and interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar",
+        "class": "ElectronMenuBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top menu bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "class": "actions-container highlight-toggled"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Editor tabs actions toolbar -- open preview, split, and more controls"
+  }
+]

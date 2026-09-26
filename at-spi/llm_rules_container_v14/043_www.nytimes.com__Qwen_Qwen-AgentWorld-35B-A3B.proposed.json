@@ -1,0 +1,82 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "fides-overlay"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "privacy consent overlay -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "google-one-tap-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sign-in control -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Wr7_RG_mastheadWrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "masthead navigation and controls -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "top-slug"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "section slug label -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "collection-us"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "U.S. section header, navigation tabs, and highlights -- operator-defined section labels and editorial content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "tab-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "tab navigation -- platform's own interface controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "stream-panel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "news article stream -- operator-authored editorial content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer navigation and links -- platform's own interface throughout"
+  }
+]

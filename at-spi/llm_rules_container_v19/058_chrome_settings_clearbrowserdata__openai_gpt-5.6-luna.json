@@ -1,0 +1,12 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "dialog",
+        "id": "dialog"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Chrome Clear Browsing Data dialog -- renders only fixed interface vocabulary: the title, data-type tabs, time-range options, data-category checkboxes, cancel and clear controls, and fixed status messages."
+  }
+]

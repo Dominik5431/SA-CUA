@@ -1,0 +1,82 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left sidebar navigation -- platform's own interface and operator-defined links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- platform's own interface and links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "onetrust-banner-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent banner -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "s-post-summary--stats-item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "post summary stats items -- renders: vote counts, answer status, status badges like supernova or hot"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "relativetime"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "relative timestamp -- computed operator-defined date/time"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-sidebarwidget bg-purple-100 ba bc-purple-400 bar-sm mb16 ps-relative js-sofa-sidebar-promo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "SOFA sidebar promo -- operator editorial and marketing copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "related-tags"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "related tags/community sections -- operator-defined taxonomy and community join controls"
+  }
+]

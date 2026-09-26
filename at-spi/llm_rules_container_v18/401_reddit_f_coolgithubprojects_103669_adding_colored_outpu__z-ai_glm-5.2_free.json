@@ -1,0 +1,135 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility skip links -- renders: fixed skip-navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-nav"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "class": "site-nav__user-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site navigation bar -- renders: Home, main menu items, search box; user menu subtracted as it may display a username"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vote"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "vote controls -- renders: Upvote/Downvote buttons and numeric vote count"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "comment-form form flow"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment form -- renders: text input, markdown help toggle, submit button; operator interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "flex unlistify"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sort tabs and comment hide-toggle lists -- renders: fixed sort labels and hide/collapse controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "comment__nav hideable__hide"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment navigation -- renders: Reply/Permalink/Parent links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "sidebar__section flow submission-meta"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "submission metadata sidebar -- renders: vote total, short URL, fixed labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "form subscribe-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "subscribe form -- renders: Subscribe/Unsubscribe button and subscriber count"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "sidebar__section flow"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar toggle panel -- renders: fixed section heading toggle"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "sidebar__no-padding"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar menu list -- renders: fixed menu items"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "sidebar__title"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "forum-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar section headings -- renders: fixed labels like About; forum-title heading subtracted as it displays user-created community name"
+  },
+  {
+    "own_role": "check box",
+    "ancestor_path": [
+      {
+        "role": "article",
+        "class": "comment"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment collapse/expand checkboxes -- fixed operator controls inside comment articles"
+  }
+]

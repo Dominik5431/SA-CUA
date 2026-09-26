@@ -1,0 +1,128 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: Wikipedia logo, search box, 'Main menu', 'Donate', 'Create account', 'Log in'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "mw-body-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "id": "firstHeading"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Page title bar -- renders: 'Languages' dropdown button; the page title is user-generated and subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Left navigation tabs -- renders: 'Category', 'Discussion'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "right-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Right navigation tabs and tools -- renders: 'Read', 'Edit', 'View history', 'Tools'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-appearance-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Appearance settings panel -- renders: 'Appearance', 'Unpin', 'Font', 'Standard', 'Larger', 'Smaller', 'Width', 'Standard', 'Ragged', 'Theme', 'Automatic', 'Light', 'Dark'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mw-indicators"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Page indicators -- renders: 'Help'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "siteSub"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site subtitle -- renders: 'From Wikipedia, the free encyclopedia'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mwAw"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sister site box -- renders: 'Wikimedia Commons', 'Media from Wikimedia Commons'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "paragraph",
+        "id": "mwBA"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Category description -- renders: 'This category is for articles about web accessibility.'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "comment",
+        "id": "mwCg"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Hatnote -- renders: 'This category is for articles about web accessibility.'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "catlinks"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Category links footer -- renders: 'Categories', 'Hidden categories'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Page footer -- renders: 'This page was last edited on...', 'Privacy policy', 'About Wikipedia', 'Disclaimers', 'Contact Wikipedia', 'Legal & safety contacts', 'Code of Conduct', 'Developers', 'Statistics', 'Cookie statement', 'Mobile view', 'Powered by MediaWiki', 'Wikimedia Foundation'"
+  }
+]

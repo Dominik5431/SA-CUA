@@ -1,0 +1,42 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Accessibility skip links -- renders: fixed platform navigation shortcuts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site navigation -- renders: Home, Questions, Tags, Users, Search, Log in, Sign up"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "pagination"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Pagination controls -- renders: Next, Previous, page numbers"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: copyright, legal links, platform branding"
+  }
+]

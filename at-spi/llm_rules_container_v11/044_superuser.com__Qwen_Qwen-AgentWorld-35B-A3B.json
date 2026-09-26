@@ -1,0 +1,106 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left sidebar navigation and freemium CTA -- platform's own interface and controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answers-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answers header -- platform's own controls and sort dropdown"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "dfp-tlb"
+      },
+      {
+        "role": "paragraph"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question page controls and metadata -- votes, saves, tags, share, edit, follow, timestamps, reputation; excludes question body paragraphs and top leaderboard ad"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answer-154533"
+      }
+    ],
+    "except": [
+      {
+        "role": "paragraph"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answer page controls and metadata -- votes, saves, accepted indicator, share, edit, follow, timestamps, reputation; excludes answer body paragraph"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-report-ad-button-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "report ad button -- platform's own control about the ad"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "ml12 aside-cta flex--item print:d-none"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question header aside CTA -- platform's own controls"
+  }
+]

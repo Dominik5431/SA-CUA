@@ -1,0 +1,106 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "fides-overlay"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent overlay -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Wr7_RG_mastheadWrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "masthead navigation and controls -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "masthead-section-label"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "masthead section label -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "top-slug"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top section slug -- platform's own section label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "collection-technology"
+      },
+      {
+        "role": "header",
+        "class": "css-1ta8iz9 e1j8vip00"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "technology section header and navigation -- operator-defined section labels and taxonomy terms"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "5-band css-ug2ec e1xcln8a0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "5-band article list -- operator-authored editorial copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "tab-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "tab navigation -- operator-defined tab labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "stream-panel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "stream panel articles -- operator-authored editorial copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "site-index"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site index label -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer navigation and links -- platform's own interface throughout"
+  }
+]

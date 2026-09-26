@@ -1,0 +1,102 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "header navigation and controls -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "b7ef425131 e9f1adff2b b935cde1f7 b59e36af6b b3ffbd4bb3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search form controls -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "fff1944c52"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "subheader navigation list -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "d24b1ed1cf f5852f597b da2666adb4"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "hotel page tabs (overview, availability, facilities, policies, fine print, reviews) -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "wrap-hotelpage-top"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "hotel page top section with wishlist, share, book now, price match, hotel name, and map triggers -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "js--hp-gallery-scorecard"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "review scorecard and overall score -- computed operator values"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "cef02e091d d64ab99142 b4b3a7c462"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "review and facility breakdown panels -- computed scores and operator-defined taxonomy terms"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_availability_style_changes"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "availability section with dates summary, price match guarantee, and search controls -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "hprt-reservation-cta"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "reservation CTA button and booking confirmation ticker -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "otFlat bottom vertical-align-content ot-buttons-fw"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent banner -- platform's own interface"
+  }
+]

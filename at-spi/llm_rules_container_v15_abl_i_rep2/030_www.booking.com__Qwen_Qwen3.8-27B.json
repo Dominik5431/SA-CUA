@@ -1,0 +1,110 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "bypass_menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Skip-to-content link -- renders: 'Skip to main content'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site header -- renders: 'Booking.com', 'Sign in', 'Register', 'List your property', 'Support', 'Language', 'Currency', 'Accommodations', 'Flights', 'Flight + Hotel', 'Car rental', 'Attractions', 'Airport taxis'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "fff1944c52"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search results breadcrumb -- renders: 'Home', 'Hotels', 'City', 'Property type'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "ce1108eff4"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Results count and sort control -- renders: 'Sort by', 'Recommended', 'Price (lowest first)', 'Price (highest first)', 'Top reviewed'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "b99b6ef58f b34f2cc03f"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Filter toggle control -- renders: 'Filters'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "b7ef425131 e9f1adff2b c03fb03748"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Filter sidebar -- renders: 'Filters', 'Your previous filters', 'Property Type', 'Popular filters', 'Budget per night', 'Review score', 'Meals', 'Hotel facilities', 'Room facilities', 'Class', 'Distance to centre', 'Popular nearby landmarks', 'Free cancellation', 'Travel group', 'Stay type', 'Popular activities', 'Brand', 'Rated for adults only', 'Payment without credit card', 'Sustainability', 'Accessible facilities', 'Accessible room facilities', 'See more', 'Clear all', 'Show results'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "ad68e1f7ce"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "View switcher -- renders: 'List', 'Grid'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "a297f43545"
+      },
+      {
+        "role": "push button",
+        "class": "fcd8e16f81"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sort dropdown button -- renders: 'Sort by', 'Recommended'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "a297f43545"
+      },
+      {
+        "role": "push button",
+        "class": "fcd8e16f81 af73738e37"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Map view toggle -- renders: 'Show on map'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "TravellerFooter_root--variant-full"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: 'Support', 'Discover', 'Talent', 'Terms and settings', 'Language and currency', '\u00a9 2024 Booking.com', 'Privacy & cookies', 'Terms & settings', 'Contact us', 'How we work', 'Careers', 'Investor relations', 'Corporate contact', 'Sustainability', 'Genius Rewards', 'Travel Credits', 'Affiliate programme', 'Free property listings', 'Terms of use', 'Privacy & cookie statement', 'Legal', 'Anti-fraud notice'"
+  }
+]

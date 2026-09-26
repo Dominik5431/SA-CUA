@@ -1,0 +1,3213 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "shortcut-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Accessibility navigation shortcuts -- renders: Skip to main content, Skip to about this item, Skip to buying options, Skip to reviews, Search, Cart, Home, Your orders, Show keyboard shortcuts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "navbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main navigation bar -- renders: Amazon logo, location, search controls, account links, orders, cart, and fixed navigation menu items"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooter"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: Back to top, fixed navigation columns, legal links, and language/currency selectors"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-assist-shortcut-help"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Keyboard shortcut help text -- renders: fixed instructional copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-global-location-data-modal-action"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Location selector -- renders: fixed location labels and controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search bar -- renders: search scope dropdown, input field, and submit button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-tools"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "User tools -- renders: account, orders, and cart links with fixed labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-main"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main navigation menu -- renders: fixed category links like Today's Deals, Customer Service, etc."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "imageBlock_feature_div"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Product image gallery -- renders: image thumbnails and main image display controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "desktop_buybox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Buy box -- renders: Add to Cart, Add to List, and availability status controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "averageCustomerReviews_feature_div"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Review summary -- renders: star rating icon and review count link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "tellAmazon_feature_div"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Feedback link -- renders: 'Tell Amazon what you think of this item' link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "cm_cr_dp_d_rating_histogram"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Rating histogram -- renders: star distribution bars and 'Customer reviews' heading"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "cr-media-carousel-heading"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Media carousel heading -- renders: 'Customer images' or similar fixed label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "localTopReviews"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Review action buttons -- renders: 'Read more', 'Helpful', and 'Report' buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "cm_cr_top_reviews_to_arp_button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "See all reviews button -- renders: 'See all reviews' link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-flyout-iss-anchor"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Location toaster -- renders: fixed location update messages and dismiss/submit buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-logo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Amazon logo -- renders: Amazon brand logo link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-hamburger-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Hamburger menu button -- renders: 'Menu' button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-cart"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Cart link -- renders: 'Cart' link with item count"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-orders"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Orders link -- renders: 'Returns & Orders' link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-link-accountList"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Account link -- renders: 'Hello, sign in' and 'Account & Lists' links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "icp-nav-flyout"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "International customer preferences -- renders: language/country selector"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-search-submit-text"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search submit button -- renders: 'Go' button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-search-label-id"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search label -- renders: 'Search Amazon' label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-search-dropdown-card"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search scope dropdown -- renders: category selection menu"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-global-location-slot"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Location slot -- renders: 'Deliver to' and location name"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-belt"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Navigation belt -- renders: logo, location, search, and account tools"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-fill-search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search fill area -- renders: search bar container"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-bar-left"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search bar left -- renders: search bar left side"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-iss-attach"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search attach -- renders: search bar attachment point"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-belt-search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Belt search -- renders: search bar in belt"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-shop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Shop section -- renders: shop navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-xshop-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "X-shop container -- renders: cross-shop navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-xshop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "X-shop -- renders: cross-shop links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-swmslot"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "SWM slot -- renders: service worker slot"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-subnav-toaster"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Subnav toaster -- renders: subnav toaster"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-progressive-subnav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Progressive subnav -- renders: progressive subnav"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "skippedLink"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Skipped link -- renders: skipped link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-global-location-toaster-script-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Location toaster script -- renders: location toaster script container"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-flyout-anchor"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Flyout anchor -- renders: flyout anchor"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-logo-sprites"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Logo sprites -- renders: logo sprites"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-packard-glow-loc-icon"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Packard glow location icon -- renders: location icon"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "glow-ingress-block"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Glow ingress block -- renders: location ingress block"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "glow-ingress-line1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Glow ingress line 1 -- renders: location line 1"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "glow-ingress-line2"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Glow ingress line 2 -- renders: location line 2"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-global-location-popover-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Location popover link -- renders: location popover trigger"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-link-accountList-nav-line-1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Account list nav line 1 -- renders: account line 1"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-cart-count-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Cart count container -- renders: cart item count"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-cart-text-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Cart text container -- renders: cart text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-search-scope"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search scope -- renders: search scope"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-search-facade"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search facade -- renders: search facade"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-icon"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav icon -- renders: nav icon"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-search-dropdown"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search dropdown -- renders: search dropdown"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "select-options"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Select options -- renders: select options menu"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "twotabsearchtextbox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Two tab search textbox -- renders: search input"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-search-submit-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search submit button -- renders: search submit button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-assist-skip-to-main-content"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Skip to main content -- renders: skip to main content link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-assist-skip-to-about-this-item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Skip to about this item -- renders: skip to about this item link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-assist-skip-to-buying-options"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Skip to buying options -- renders: skip to buying options link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-assist-skip-to-reviews"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Skip to reviews -- renders: skip to reviews link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-assist-search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Assist search -- renders: search shortcut"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-assist-cart"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Assist cart -- renders: cart shortcut"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-assist-home"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Assist home -- renders: home shortcut"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-assist-your-orders"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Assist your orders -- renders: your orders shortcut"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-assist-show-shortcuts"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Assist show shortcuts -- renders: show shortcuts button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-assistant-links-heading"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Assistant links heading -- renders: 'Skip to' heading"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-assist-shortcuts-heading"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Assist shortcuts heading -- renders: 'Keyboard shortcuts' heading"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-assistant-links-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Assistant links container -- renders: skip links list"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-assist-shortcuts-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Assist shortcuts container -- renders: keyboard shortcuts list"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "help-text-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Help text container -- renders: help text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-assist-shortcut-help"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Assist shortcut help -- renders: shortcut help text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-assistant-list-item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Assistant list item -- renders: list item"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-assistant-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Assistant link -- renders: assistant link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-assistant-menu-item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Assistant menu item -- renders: menu item"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-assistant-link-item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Assistant link item -- renders: link item"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-assistant-keyboard-shortcut-item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Assistant keyboard shortcut item -- renders: keyboard shortcut item"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "keyboard-shortcut-menu-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Keyboard shortcut menu container -- renders: keyboard shortcut menu"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-assistant-link-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Assistant link button -- renders: link button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-assistant-heading"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Assistant heading -- renders: assistant heading"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-assistant-headers-font"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Assistant headers font -- renders: headers font"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "font-color"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Font color -- renders: font color"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "keyboard-shortcuts-list-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Keyboard shortcuts list container -- renders: keyboard shortcuts list"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-opt-sprite"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav opt sprite -- renders: nav opt sprite"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-flex"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav flex -- renders: nav flex"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-locale-us"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav locale US -- renders: nav locale US"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-lang-en"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav lang EN -- renders: nav lang EN"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-ssl"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav SSL -- renders: nav SSL"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-unrec"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav unrec -- renders: nav unrec"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-progressive-attribute"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav progressive attribute -- renders: nav progressive attribute"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-sprite-v1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav sprite v1 -- renders: nav sprite v1"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "celwidget"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Celwidget -- renders: celwidget"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-bluebeacon"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav bluebeacon -- renders: nav bluebeacon"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-a11y-t1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav a11y t1 -- renders: nav a11y t1"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "bold-focus-hover"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Bold focus hover -- renders: bold focus hover"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "layout2"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Layout 2 -- renders: layout 2"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "layout3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Layout 3 -- renders: layout 3"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "layout3-alt"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Layout 3 alt -- renders: layout 3 alt"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-packard-glow"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav packard glow -- renders: nav packard glow"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hamburger"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Hamburger -- renders: hamburger"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-progressive-attribute"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav progressive attribute -- renders: nav progressive attribute"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-sprite"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav sprite -- renders: nav sprite"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-div"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav div -- renders: nav div"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-a"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav a -- renders: nav a"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-a-2"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav a 2 -- renders: nav a 2"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "icp-link-style-2"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "ICP link style 2 -- renders: ICP link style 2"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "icp-nav-flag"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "ICP nav flag -- renders: ICP nav flag"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "icp-nav-flag-us"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "ICP nav flag US -- renders: ICP nav flag US"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "icp-nav-flag-lop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "ICP nav flag LOP -- renders: ICP nav flag LOP"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-flyout-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav flyout button -- renders: nav flyout button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-icon"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav icon -- renders: nav icon"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-arrow"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav arrow -- renders: nav arrow"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-line-1-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav line 1 container -- renders: nav line 1 container"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-line-1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav line 1 -- renders: nav line 1"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-progressive-content"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav progressive content -- renders: nav progressive content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-ul"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav UL -- renders: nav UL"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-li"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav LI -- renders: nav LI"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-hidden-aria"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav hidden aria -- renders: nav hidden aria"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-section"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A section -- renders: a section"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-spacing-none"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A spacing none -- renders: a spacing none"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A button -- renders: a button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-spacing-top-base"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A spacing top base -- renders: a spacing top base"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-button-base"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A button base -- renders: a button base"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "glow-toaster-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Glow toaster button -- renders: glow toaster button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "glow-toaster-button-dismiss"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Glow toaster button dismiss -- renders: glow toaster button dismiss"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-button-primary"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A button primary -- renders: a button primary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "glow-toaster-button-submit"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Glow toaster button submit -- renders: glow toaster button submit"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-button-input"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A button input -- renders: a button input"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A container -- renders: a container"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-fixed-left-grid"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A fixed left grid -- renders: a fixed left grid"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-fixed-left-grid-inner"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A fixed left grid inner -- renders: a fixed left grid inner"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-fixed-left-grid-col"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A fixed left grid col -- renders: a fixed left grid col"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-col-left"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A col left -- renders: a col left"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-unordered-list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A unordered list -- renders: a unordered list"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-nostyle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A nostyle -- renders: a nostyle"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-button-list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A button list -- renders: a button list"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-declarative"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A declarative -- renders: a declarative"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-button-toggle-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A button toggle group -- renders: a button toggle group"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-vertical"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A vertical -- renders: a vertical"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-spacing-top-micro"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A spacing top micro -- renders: a spacing top micro"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "regularAltImageViewLayout"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Regular alt image view layout -- renders: regular alt image view layout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A button -- renders: a button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-button-thumbnail"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A button thumbnail -- renders: a button thumbnail"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-button-toggle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A button toggle -- renders: a button toggle"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-button-selected"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A button selected -- renders: a button selected"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-button-focus"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A button focus -- renders: a button focus"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-button-input"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A button input -- renders: a button input"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-text-center"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A text center -- renders: a text center"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-row"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A row -- renders: a row"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-grid-vertical-align"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A grid vertical align -- renders: a grid vertical align"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-grid-center"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A grid center -- renders: a grid center"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "canvas"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Canvas -- renders: canvas"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "ie7-width-96"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "IE7 width 96 -- renders: IE7 width 96"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-dynamic-image-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A dynamic image container -- renders: a dynamic image container"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "chromeful-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Chromeful container -- renders: chromeful container"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-column"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A column -- renders: a column"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-span12"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A span 12 -- renders: a span 12"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-color-secondary"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A color secondary -- renders: a color secondary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-horizontal"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A horizontal -- renders: a horizontal"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "maintain-height"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Maintain height -- renders: maintain height"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "image"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Image -- renders: image"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Item -- renders: item"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "itemNo0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Item no 0 -- renders: item no 0"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "selected"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Selected -- renders: selected"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "imgTagWrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Img tag wrapper -- renders: img tag wrapper"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-dynamic-image"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A dynamic image -- renders: a dynamic image"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-stretch-vertical"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A stretch vertical -- renders: a stretch vertical"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-link-normal"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A link normal -- renders: a link normal"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-size-large"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A size large -- renders: a size large"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "product-title-word-break"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Product title word break -- renders: product title word break"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-icon"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A icon -- renders: a icon"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-icon-star-mini"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A icon star mini -- renders: a icon star mini"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-star-mini-4-5"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A star mini 4 5 -- renders: a star mini 4 5"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mvt-cm-cr-review-stars-mini"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "MVT CM CR review stars mini -- renders: MVT CM CR review stars mini"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-icon-popover"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A icon popover -- renders: a icon popover"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-letter-space"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A letter space -- renders: a letter space"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-size-small"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A size small -- renders: a size small"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-spacing-base"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A spacing base -- renders: a spacing base"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-spacing-top-micro"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A spacing top micro -- renders: a spacing top micro"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-content"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A content -- renders: a content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-box"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A box -- renders: a box"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-box-inner"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A box inner -- renders: a box inner"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "export-alternative-modal-trigger"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Export alternative modal trigger -- renders: export alternative modal trigger"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "export-alternative-trigger-content"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Export alternative trigger content -- renders: export alternative trigger content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-button-primary"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A button primary -- renders: a button primary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "_export-alternative-card-desktop_style_export_alternative_trigger_button__3e7gX"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Export alternative card desktop style export alternative trigger button -- renders: export alternative card desktop style export alternative trigger button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-link-normal"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A link normal -- renders: a link normal"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-button-stack"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A button stack -- renders: a button stack"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-button-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A button group -- renders: a button group"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-spacing-none"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A spacing none -- renders: a spacing none"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-button-groupfirst"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A button group first -- renders: a button group first"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-button-base"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A button base -- renders: a button base"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-button-text"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A button text -- renders: a button text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-text-left"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A text left -- renders: a text left"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-spacing-medium"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A spacing medium -- renders: a spacing medium"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-spacing-top-small"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A spacing top small -- renders: a spacing top small"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-spacing-mini"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A spacing mini -- renders: a spacing mini"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-popover-trigger"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A popover trigger -- renders: a popover trigger"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-spacing-small"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A spacing small -- renders: a spacing small"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-expander-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A expander header -- renders: a expander header"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-expander-section-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A expander section header -- renders: a expander section header"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mars-gen-heading"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Mars gen heading -- renders: mars gen heading"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-link-section-expander"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A link section expander -- renders: a link section expander"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-size-medium"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A size medium -- renders: a size medium"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-icon-section-expand"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A icon section expand -- renders: a icon section expand"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-expander-prompt"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A expander prompt -- renders: a expander prompt"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mars-gen-heading-text-newer-available"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Mars gen heading text newer available -- renders: mars gen heading text newer available"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-spacing-extra-large"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A spacing extra large -- renders: a spacing extra large"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "_cr-ratings-histogram_style_star-rating__s2nPF"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "CR ratings histogram style star rating -- renders: CR ratings histogram style star rating"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "_cr-ratings-histogram_style_histogram-anchor__3YJGc"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "CR ratings histogram style histogram anchor -- renders: CR ratings histogram style histogram anchor"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "AverageCustomerReviews"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Average customer reviews -- renders: average customer reviews"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-icon-star-medium"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A icon star medium -- renders: a icon star medium"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-star-medium-4-5"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A star medium 4 5 -- renders: a star medium 4 5"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "aok-align-center"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Aok align center -- renders: aok align center"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-col-right"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A col right -- renders: a col right"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "_cr-ratings-histogram_style_histogram__-J2UR"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "CR ratings histogram style histogram -- renders: CR ratings histogram style histogram"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-align-center"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A align center -- renders: a align center"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "_cr-ratings-histogram_style_histogram-row-container__Vh7Di"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "CR ratings histogram style histogram row container -- renders: CR ratings histogram style histogram row container"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-expander-inline-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A expander inline header -- renders: a expander inline header"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-link-expander"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A link expander -- renders: a link expander"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-icon-expand"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A icon expand -- renders: a icon expand"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-fixed-right-grid-col"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A fixed right grid col -- renders: a fixed right grid col"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "cm_cr_grid_center_left"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "CM CR grid center left -- renders: CM CR grid center left"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "cm_cr_grid_center_right"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "CM CR grid center right -- renders: CM CR grid center right"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "cm_cr_grid_center_right_widget_groups"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "CM CR grid center right widget groups -- renders: CM CR grid center right widget groups"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "aui-primitive"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Aui primitive -- renders: aui primitive"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "__P0nNOOvptgdu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "P0nNOOvptgdu -- renders: P0nNOOvptgdu"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "__SARCET4AB"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "SARCET4AB -- renders: SARCET4AB"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "__SAR2l0zNywIJ"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "SAR2l0zNywIJ -- renders: SAR2l0zNywIJ"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a4-arrow-nav-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A4 arrow nav container -- renders: a4 arrow nav container"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "__HcWIi-82IiB1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "HcWIi-82IiB1 -- renders: HcWIi-82IiB1"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "__HcWIi-bS7X-z"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "HcWIi-bS7X-z -- renders: HcWIi-bS7X-z"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "__HcW37uIi-"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "HcW37uIi- -- renders: HcW37uIi-"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a4-arrow-nav-item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A4 arrow nav item -- renders: a4 arrow nav item"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "__HcW37uIi_"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "HcW37uIi_ -- renders: HcW37uIi_"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "__HcWIi-82IiB1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "HcWIi-82IiB1 -- renders: HcWIi-82IiB1"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "__HcWIi-bS7a4a"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "HcWIi-bS7a4a -- renders: HcWIi-bS7a4a"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-begin"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A begin -- renders: a begin"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-carousel-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A carousel container -- renders: a carousel container"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-carousel-display-stretchyGoodness"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A carousel display stretchy goodness -- renders: a carousel display stretchy goodness"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-carousel-transition-slide"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A carousel transition slide -- renders: a carousel transition slide"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "_Y3Itb_cr-image-carousel_2W1Qw"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Y3Itb cr image carousel -- renders: Y3Itb cr image carousel"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-span6"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A span 6 -- renders: a span 6"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-text-right"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A text right -- renders: a text right"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-span-last"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A span last -- renders: a span last"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-link-emphasis"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A link emphasis -- renders: a link emphasis"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-carousel-row-inner"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A carousel row inner -- renders: a carousel row inner"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-carousel-col"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A carousel col -- renders: a carousel col"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-carousel-center"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A carousel center -- renders: a carousel center"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-carousel-viewport"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A carousel viewport -- renders: a carousel viewport"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-carousel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A carousel -- renders: a carousel"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-carousel-card"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A carousel card -- renders: a carousel card"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "_Y3Itb_media-thumbnail-container_2MRZY"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Y3Itb media thumbnail container -- renders: Y3Itb media thumbnail container"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-amazon-image"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A amazon image -- renders: a amazon image"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "_Y3Itb_media-thumbnail-image_3qPWk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Y3Itb media thumbnail image -- renders: Y3Itb media thumbnail image"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "_Y3Itb_media-thumbnail-overlay_1te5m"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Y3Itb media thumbnail overlay -- renders: Y3Itb media thumbnail overlay"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "_Y3Itb_cm_cr_image_popoversection_3iYPp"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Y3Itb cm cr image popover section -- renders: Y3Itb cm cr image popover section"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "_Y3Itd_top-reviews-section_1AqcY"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Y3Itd top reviews section -- renders: Y3Itd top reviews section"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-spacing-top-large"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A spacing top large -- renders: a spacing top large"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "aok-relative"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Aok relative -- renders: aok relative"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-profile"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A profile -- renders: a profile"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "_Y3Itd_profile-link_2n23E"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Y3Itd profile link -- renders: Y3Itd profile link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "_Y3Itd_single-review-star-rating-bar-desktop_1T97A"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Y3Itd single review star rating bar desktop -- renders: Y3Itd single review star rating bar desktop"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-icon-star"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A icon star -- renders: a icon star"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-star-5"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A star 5 -- renders: a star 5"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-color-base"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A color base -- renders: a color base"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-text-bold"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A text bold -- renders: a text bold"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "_Y3Itd_single-review-title_2aKRE"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Y3Itd single review title -- renders: Y3Itd single review title"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-cardui-body"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A cardui body -- renders: a cardui body"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "_Y3Itd_no-padding_1A9ha"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Y3Itd no padding -- renders: Y3Itd no padding"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-reactive-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A reactive container -- renders: a reactive container"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-reactive-container-transition"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A reactive container transition -- renders: a reactive container transition"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "_Y3Itd_relative_1SChh"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Y3Itd relative -- renders: Y3Itd relative"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-reactive-container-gradient"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A reactive container gradient -- renders: a reactive container gradient"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-cardui-expand-control-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A cardui expand control footer -- renders: a cardui expand control footer"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "_Y3Itd_read-more-less_2uDYd"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Y3Itd read more less -- renders: Y3Itd read more less"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-cardui-expand-control-footer-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A cardui expand control footer button -- renders: a cardui expand control footer button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-css-icon"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A css icon -- renders: a css icon"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-css-icon-draw"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A css icon draw -- renders: a css icon draw"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-css-icon-expand"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A css icon expand -- renders: a css icon expand"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "_Y3Itd_cr-helpful-button_1u3UK"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Y3Itd cr helpful button -- renders: Y3Itd cr helpful button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "cr-vote-component"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "CR vote component -- renders: CR vote component"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-button-base"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A button base -- renders: a button base"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-color-secondary"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A color secondary -- renders: a color secondary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-text-normal"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A text normal -- renders: a text normal"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "_Y3Itd_helpful-votes-container_3iphI"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Y3Itd helpful votes container -- renders: Y3Itd helpful votes container"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-touch-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A touch link -- renders: a touch link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "a-icon-touch-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "A icon touch link -- renders: a icon touch link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navLeftFooter"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav left footer -- renders: nav left footer"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-sprite-v1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav sprite v1 -- renders: nav sprite v1"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooterBackToTopText"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav footer back to top text -- renders: nav footer back to top text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooterBackToTop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav footer back to top -- renders: nav footer back to top"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooterColHead"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav footer col head -- renders: nav footer col head"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav_first"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav first -- renders: nav first"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav_a"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav a -- renders: nav a"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav_last"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav last -- renders: nav last"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav_a_carat"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav a carat -- renders: nav a carat"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooterLine"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav footer line -- renders: nav footer line"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooterLinkLine"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav footer link line -- renders: nav footer link line"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooterPadItemLine"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav footer pad item line -- renders: nav footer pad item line"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooterLogoLine"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav footer logo line -- renders: nav footer logo line"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "icp-container-desktop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "ICP container desktop -- renders: ICP container desktop"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "icp-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "ICP button -- renders: ICP button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "icp-language-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "ICP language link -- renders: ICP language link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "icp-nav-globe-img-2"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "ICP nav globe img 2 -- renders: ICP nav globe img 2"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "icp-button-globe-2"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "ICP button globe 2 -- renders: ICP button globe 2"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "icp-color-base"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "ICP color base -- renders: ICP color base"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-arrow"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav arrow -- renders: nav arrow"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "icp-up-down-arrow"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "ICP up down arrow -- renders: ICP up down arrow"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "icp-currency-symbol"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "ICP currency symbol -- renders: ICP currency symbol"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "icp-flag-3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "ICP flag 3 -- renders: ICP flag 3"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "icp-flag-3-us"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "ICP flag 3 US -- renders: ICP flag 3 US"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooterDescLine"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav footer desc line -- renders: nav footer desc line"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooterMoreOnAmazon"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav footer more on Amazon -- renders: nav footer more on Amazon"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooterMoreOnAmazonWrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav footer more on Amazon wrapper -- renders: nav footer more on Amazon wrapper"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooterDescItem"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav footer desc item -- renders: nav footer desc item"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooterDescItem_heading"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav footer desc item heading -- renders: nav footer desc item heading"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooterDescText"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav footer desc text -- renders: nav footer desc text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-sprite"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nav sprite -- renders: nav sprite"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "copilot-secure-display"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Copilot secure display -- renders: copilot secure display"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "twisterAccess"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Twister access -- renders: twister access"
+  }
+]

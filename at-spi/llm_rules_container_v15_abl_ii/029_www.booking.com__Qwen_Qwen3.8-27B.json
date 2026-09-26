@@ -1,0 +1,142 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "bypass_menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip-to-content link -- renders: 'Skip to main content'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "global site header -- renders: 'Booking.com', 'Log in', 'Register', 'Accommodations', 'Flights', 'Packages', 'Cars', 'Attractions', 'Airport taxis'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "fff1944c52"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "breadcrumb navigation -- renders: 'Home', 'Hotels', 'Europe', 'France', 'Paris', 'Paris Hotels'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "d24b1ed1cf f5852f597b da2666adb4"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "property detail tabs -- renders: 'Overview', 'Availability', 'Facilities', 'Policies', 'Fine print', 'Reviews'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "top-book"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "booking action bar -- renders: 'Add to wishlist', 'Share', 'Book now', 'Price guarantee'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_hotel_name"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "property header controls -- renders: 'Save', 'Share', 'Map'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hotel_sidebar_static_map_capla"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "map widget controls -- renders: 'Show on map'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_availability_style_changes"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "availability section chrome -- renders: 'Availability', 'Price guarantee', 'Check-in', 'Check-out', 'Guests', 'Search', 'Rooms', 'Price', 'Policies', 'Rooms number', 'Select rooms', 'Reserve'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_facilities_box"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "facilities section chrome -- renders: 'Facilities', 'Show all facilities', 'Facilities overview', 'Show more'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "xm-survey-component-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user survey widget -- renders: 'Close', 'How was your experience?', 'Very good', 'Good', 'Neutral', 'Bad', 'Very bad'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_policies_box"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "policies section chrome -- renders: 'Policies', 'Show all policies', 'Check-in', 'Check-out', 'Cancellation', 'Children', 'Pets', 'Smoking', 'Languages spoken'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "important_info"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "important info section chrome -- renders: 'Important information', 'Show all', 'Read more'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "pp-faq"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "FAQ section chrome -- renders: 'Frequently asked questions', 'What time is check-in?', 'What time is check-out?', 'Is there a parking lot?', 'Is there a restaurant?', 'Is there a gym?', 'Is there a pool?', 'Is there a spa?'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer_menu_track"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: 'Support', 'Careers', 'Press', 'Blog', 'Terms', 'Privacy', 'Sitemap', 'Contact us', 'About us', 'Investor relations', 'Gift cards', 'Affiliates', 'Partners', 'Advertise with us', 'English (US)', 'USD $'"
+  }
+]

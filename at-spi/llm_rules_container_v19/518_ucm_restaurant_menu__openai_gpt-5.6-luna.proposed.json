@@ -1,0 +1,28 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "cart-count"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "navigation controls -- renders the fixed Menu/Reservations/Cart vocabulary; the changing cart count is excluded"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "menu-item-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "menu action controls -- renders the fixed add-to-cart action vocabulary"
+  }
+]

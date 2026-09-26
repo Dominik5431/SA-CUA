@@ -1,0 +1,40 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "GIMP application menu bar -- renders fixed operator vocabulary for File, Edit, Select, View, Image, Layer, Colors, Tools, Filters, Windows, Help and their submenus"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "page tab list"
+      }
+    ],
+    "except": [
+      {
+        "role": "tree table"
+      },
+      {
+        "role": "table"
+      },
+      {
+        "role": "scroll pane"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Dockable dialog frames (Tool Options, Layers, etc.) -- renders fixed operator labels and controls; subtracts the data tables and scroll panes which may contain user-generated layer names or image data"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Status bar -- renders fixed operator controls and labels for zoom, grid, and status indicators"
+  }
+]

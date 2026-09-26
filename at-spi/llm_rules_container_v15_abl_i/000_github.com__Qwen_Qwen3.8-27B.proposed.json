@@ -1,0 +1,62 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "header-wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site header -- renders: Skip to content, GitHub logo, navigation items (Platform, Solutions, Resources, Open Source, Enterprise, Pricing), Search, Sign in, Sign up, Appearance settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-repo-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Repository tab navigation -- renders: Code, Actions, Projects, Security and quality, Insights"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site footer -- renders: GitHub logo, copyright, Terms, Privacy, Security, Status, Docs, Contact, Manage cookies, Do not share my personal information"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "DirectoryContent-module__OverviewHeaderRow__hOrKy"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "File list table header -- renders: Name, Last commit message, Latest commit"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "OverviewRepoFiles-module__UnderlineNav__QbWWv"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Repository file view tabs -- renders: Files, Folders"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "SidebarSection-module__sectionHeading__TG36m"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar section headings -- renders: About, Releases, Contributors, Languages"
+  }
+]

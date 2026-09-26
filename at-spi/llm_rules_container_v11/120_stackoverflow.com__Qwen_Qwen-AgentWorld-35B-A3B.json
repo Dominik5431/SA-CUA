@@ -1,0 +1,98 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left sidebar navigation -- platform's own interface and fixed menu items"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "bg-black-100 bc-black-200 bar-sm ba p24"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "dfp-tag"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "tag headline landmark -- renders tag title, description, and follow/edit buttons; excludes tag sponsorship ad"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- platform's own interface and links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "onetrust-consent-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent banner -- platform's own interface and controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "s-post-summary--stats-item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "post summary stats items -- renders vote counts, answer counts, and status badges like supernova or hot"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "s-post-summary--meta-tags"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "post summary meta tags -- renders taxonomy terms and tags drawn from operator-defined list"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "static",
+        "class": "s-user-card--time"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user card time label -- renders timestamp label for post activity"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "relativetime"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "relative time element -- renders computed timestamp or date for posts"
+  }
+]

@@ -1,0 +1,136 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-skip-to-content"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip-to-content control -- renders fixed accessibility navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "MarketingHeader-module__root__"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "global marketing header -- renders fixed navigation, search, sign-in, sign-up, logo, and appearance controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "pagehead-actions"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository action controls -- renders fixed Watch, Fork, and Star controls and their computed counters"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-repo-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository navigation -- renders the fixed Code, Issues, Pull requests, Actions, Projects, Wiki, Security and quality, and Insights vocabulary with computed tab counters"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "prc-StateLabel-StateLabel-"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issue state label -- renders the fixed open or closed status vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "HeaderViewer-module__headerRegion__"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "issue header action control -- renders fixed issue-management control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "class": "d-flex gap-1 flex-wrap"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issue and comment reaction toolbars -- render fixed reaction and interaction controls with computed counts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "ActivityHeader-module__ActivityHeaderContainer__"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "comment action controls -- render fixed moderation and comment-menu controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "SectionHeader-module__SectionHeaderTitle__"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "metadata section headings -- render fixed sidebar labels for issue metadata sections"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "OptionsSection-module__ActionListOverrides__"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "issue options control -- renders the fixed options and Copilot control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "issue-timeline"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "timeline controls -- renders fixed load-more, reaction, and activity-management controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "LoadMore-module__remainingItemsHeading__"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "timeline pagination label -- renders fixed remaining-items and loading vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "f6"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders fixed GitHub legal, help, privacy, terms, and platform navigation vocabulary"
+  }
+]

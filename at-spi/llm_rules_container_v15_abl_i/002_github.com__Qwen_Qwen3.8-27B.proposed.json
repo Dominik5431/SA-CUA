@@ -1,0 +1,82 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "MarketingHeader-module__root__Tk7n3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global marketing header -- renders: GitHub logo, Product/Solutions/Marketplace/Explore/Team/Enterprise, Search, Sign in, Sign up, Appearance"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-repo-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Repository tab navigation -- renders: Code, Issues, Pull requests, Actions, Projects, Wiki, Security and quality, Insights"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "_R_5j5_"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issues sidebar -- renders: Issues, Milestones, Labels, Projects, Views, Feedback, Collapse sidebar"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "SidebarPageLayout-module__Header__iBvK6"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issues page header -- renders: Issues, New issue"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "FilteredListPageLayout-module__FilterBar__yw_Ew"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue filter bar -- renders: Search issues, Clear, Search"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "_r_7_-list-view-metadata"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue list controls -- renders: Open, Closed, Labels, Assignees, Milestone, Projects, Sort"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "prc-Pagination-PaginationContainer-HEhGo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Pagination controls -- renders: Previous, Next, page numbers"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global footer -- renders: GitHub, Terms, Privacy, Security, Status, Docs, Contact, Manage cookies, Do not share my personal information"
+  }
+]

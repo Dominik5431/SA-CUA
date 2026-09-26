@@ -1,0 +1,108 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "sidebar--main"
+      },
+      {
+        "role": "panel",
+        "class": "rcx-button-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar top navigation toolbar -- renders: fixed platform buttons (Home, Search, Create, Directory, Administration, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar topbar -- renders: fixed section title (Omnichannel) and platform control buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar section headings -- renders: fixed category labels (Channels, Direct Messages, etc.)"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "rcx-room-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "room header toolbar buttons -- renders: fixed controls (members, search, threads, info, etc.); channel name heading stays masked"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rc-message-box__toolbar-formatting"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message formatting toolbar -- renders: fixed formatting buttons (bold, italic, strike, code, multi-line) and Markdown help link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rc-message-box__icon"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "emoji picker icon button -- renders: fixed platform control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rc-message-box__action-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message box action menu -- renders: fixed platform control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rc-message-box__audio-message-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "audio message recording control -- renders: fixed platform control"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "rooms-list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar item menu buttons -- renders: fixed context menu controls for each channel/DM; channel name links and statics stay masked"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "footer",
+        "class": "rcx-css-1h8ylb3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar footer -- renders: platform logo/home link"
+  }
+]

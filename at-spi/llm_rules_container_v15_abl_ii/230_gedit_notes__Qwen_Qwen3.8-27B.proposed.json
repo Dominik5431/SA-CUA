@@ -1,0 +1,52 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Toolbar and action buttons -- renders fixed operator vocabulary for file, edit, and view operations"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "Toolbar toggle buttons -- renders fixed operator vocabulary for view and mode switching"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "radio button",
+    "verdict": "trusted",
+    "note": "View mode radio buttons -- renders fixed operator vocabulary for layout selection"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "check box",
+    "verdict": "trusted",
+    "note": "Preference checkboxes -- renders fixed operator vocabulary for editor settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "status bar",
+    "verdict": "trusted",
+    "note": "Status bar -- renders fixed operator vocabulary for cursor position and document metrics"
+  }
+]

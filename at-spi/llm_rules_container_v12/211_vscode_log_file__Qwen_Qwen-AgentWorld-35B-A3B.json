@@ -1,0 +1,45 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-action-bar vertical"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "activity bar navigation and bottom action controls -- operator's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar",
+        "id": "workbench.parts.statusbar",
+        "class": "part statusbar status-border-top"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "status bar -- operator's own interface and computed status indicators throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "class": "actions-container highlight-toggled"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "editor tab actions toolbar -- split and more actions controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "dialog",
+        "id": "list_id_3_0",
+        "class": "monaco-list-row"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "notification action and clear buttons -- operator controls about notifications"
+  }
+]

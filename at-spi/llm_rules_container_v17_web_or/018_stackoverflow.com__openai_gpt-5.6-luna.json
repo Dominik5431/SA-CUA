@@ -1,0 +1,243 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "s-topbar--skip-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip-navigation control -- renders the fixed platform skip-link vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "s-topbar--logo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site logo control -- renders the fixed Stack Overflow navigation link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "s-navigation--item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "primary top navigation links -- renders the platform's fixed navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "s-navigation--item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "primary top navigation button -- renders the platform's fixed navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-help-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "help control -- renders the fixed platform help action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "class": "js-search-field"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search control -- renders the platform search field and its fixed search-control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "s-btn__outlined"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sign-in control -- renders the fixed platform sign-in action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left navigation and platform promotion -- renders fixed navigation labels and operator-authored calls to action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "aside-cta"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question-page action area -- renders the fixed ask-question control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answers-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answers header -- renders the fixed answers heading, answer-count label, and sorting control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "answer-sort-dropdown-select-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answer sort control -- renders the closed vocabulary of platform-defined sort options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "s-pagination--item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination item -- renders platform-defined page navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "s-pagination--item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination link -- renders platform-defined page navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "toggle button",
+        "class": "js-vote-up-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "upvote control -- renders the fixed platform voting action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "toggle button",
+        "class": "js-vote-down-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "downvote control -- renders the fixed platform voting action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-saves-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "save control -- renders the fixed platform save action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-share-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "share control -- renders the fixed platform share action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-follow-post"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "follow control -- renders the fixed platform follow action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-copy-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "copy-code control -- renders the fixed platform code-copy action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar",
+        "class": "s-notice"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "platform notice -- renders operator-authored notice text and fixed help/action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "mt0 mb0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "follow-up section heading -- renders the fixed platform follow-up label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-report-ad"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "ad reporting control -- renders the fixed platform control about an advertisement"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "sidebar"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "sidebar headings -- renders fixed platform section labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders the platform's fixed footer navigation, legal links, consent control, and site metadata"
+  }
+]

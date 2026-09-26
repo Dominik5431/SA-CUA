@@ -1,0 +1,33 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-action-bar vertical"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Activity Bar navigation and controls -- operator's own interface with fixed vocabulary for view icons and accounts/settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "class": "actions-container highlight-toggled"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Editor tab actions -- operator's own interface controls for open preview, split editor, and more actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar",
+        "id": "workbench.parts.statusbar",
+        "class": "part statusbar status-border-top"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Status bar -- operator's own interface and computed values for host, problems, ports, notifications, editor mode, eol, encoding, indentation, selection, and screen reader mode"
+  }
+]

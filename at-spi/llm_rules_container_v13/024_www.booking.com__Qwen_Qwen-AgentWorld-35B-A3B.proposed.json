@@ -1,0 +1,42 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "HeaderRegion"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "header region -- platform's own interface including navigation, logo, login controls, and menu bar with fixed travel categories"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "SearchBoxDesktop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search box controls -- platform's own interface including destination input, occupancy labels, and search buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "UniqueSellingPoints"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "unique selling points section -- operator editorial copy and fixed value propositions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "SecondaryBannerDesktop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "secondary banner -- operator promotional content and fixed calls to action"
+  }
+]

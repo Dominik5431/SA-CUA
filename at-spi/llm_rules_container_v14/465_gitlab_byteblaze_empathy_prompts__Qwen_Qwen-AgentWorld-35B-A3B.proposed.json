@@ -1,0 +1,180 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "navbar navbar-gitlab navbar-expand-sm js-navbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface including search, user counters, and help dropdown"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header has-tooltip active"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar project menu -- operator's navigation labels (Project information, Repository, Issues, etc.); except the context-header project name which is user-created"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "notification",
+        "class": "gl-alert js-no-ssh-message gl-alert-warning"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "operator-defined SSH warning alert and dismiss controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "home-panel-title gl-font-size-h1 gl-mt-3 gl-mb-2 gl-display-flex"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "home panel title and visibility icon -- operator interface labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "home-panel-metadata gl-font-sm gl-text-secondary gl-font-base gl-font-weight-normal gl-line-height-normal"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "home panel metadata section -- operator labels and clipboard control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "count-badge d-inline-flex align-item-stretch btn-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "star button and star count -- computed values and operator controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "count-badge btn-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "fork button and fork count -- computed values and operator controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "project-stats"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "project stats -- computed values (stars, forks, etc.) and operator labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table",
+        "class": "table tree-table gl-table-layout-fixed"
+      }
+    ],
+    "except": [
+      {
+        "role": "table cell",
+        "class": "tree-item-file-name"
+      },
+      {
+        "role": "table cell",
+        "class": "tree-commit"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file tree table -- headers and timestamp cells; subtracted file names and commit messages which are user-generated"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "git-clone-holder js-git-clone-holder"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "clone dropdown control -- operator interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "project-action-button dropdown gl-dropdown inline"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "project action button dropdown -- operator controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "web-ide-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Web IDE link -- operator control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "gl-button btn btn-default shortcuts-find-file"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "find file link -- operator control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "__BVID__47",
+        "class": "dropdown b-dropdown gl-dropdown ref-selector gl-w-full btn-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "ref selector dropdown -- operator control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "__BVID__58",
+        "class": "dropdown b-dropdown gl-dropdown btn-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "add to tree dropdown -- operator control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "gl-ml-4 js-commit-sha-group btn-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "commit SHA group panel -- computed commit hash and copy-to-clipboard control"
+  }
+]

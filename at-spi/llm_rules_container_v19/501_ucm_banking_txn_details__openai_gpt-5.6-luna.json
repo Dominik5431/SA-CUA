@@ -1,0 +1,87 @@
+[
+  {
+    "own_role": "heading",
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "banking-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "banking page headings -- renders fixed operator-defined section vocabulary"
+  },
+  {
+    "own_role": "label",
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "banking-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "filter labels -- renders fixed labels for date, category, and search controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "date-filter"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "date filter control -- renders the fixed date-filter vocabulary and menu options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "category-filter"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "category filter control -- renders the fixed transaction-category vocabulary and menu options"
+  },
+  {
+    "own_role": "column header",
+    "ancestor_path": [
+      {
+        "role": "table",
+        "class": "table-striped"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "transaction table headers -- renders fixed operator-defined column labels"
+  },
+  {
+    "own_role": "link",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "alerts-list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "alert creation control -- renders the fixed add-alert link vocabulary"
+  },
+  {
+    "own_role": "heading",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "modal"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "transaction details modal heading -- renders a fixed operator-defined heading"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "modal-buttons"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "modal controls -- renders the fixed close-details button vocabulary"
+  }
+]

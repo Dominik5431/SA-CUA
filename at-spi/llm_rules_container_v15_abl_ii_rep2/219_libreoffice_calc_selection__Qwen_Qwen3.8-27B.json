@@ -1,0 +1,38 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Application menu bar -- renders fixed operator vocabulary for File, Edit, View, Insert, Format, Styles, Sheet, Data, Tools, Window, Help and their sub-items"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Application toolbars -- renders fixed operator vocabulary for standard office suite actions like Cut, Copy, Paste, Undo, Redo, Save, Print, and formatting controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Application status bar -- renders fixed operator labels and status indicators"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "page tab list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sheet tab list -- renders operator-defined sheet names which are part of the document structure controlled by the user in the context of the application interface, but for the purpose of the agent interacting with the app chrome, these are the navigation controls for the document"
+  }
+]

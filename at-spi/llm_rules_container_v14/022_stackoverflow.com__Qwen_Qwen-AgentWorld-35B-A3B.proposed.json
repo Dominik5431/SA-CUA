@@ -1,0 +1,83 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left sidebar navigation -- platform's own interface and operator-defined links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- platform's own interface and links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "stats"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user stats section -- renders computed values like reputation, badge counts, and rank badges"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "list-reset d-flex fd-column gs12 gsy wmx2"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "network sites list -- operator-defined links to Stack Exchange network properties"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "js-top-posts"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "post filter and sort controls inside top posts section -- operator-defined taxonomy and sort options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "relativetime"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "relative time timestamps -- operator-defined computed values"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "onetrust-consent-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent banner -- platform's own interface"
+  }
+]

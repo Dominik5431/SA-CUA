@@ -1,0 +1,42 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "global header -- renders: 'Booking.com', 'Search', 'List your property', 'Register', 'Sign in', 'Accommodations', 'Flights', 'Packages', 'Car rental', 'Attractions', 'Airport taxis'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "a193cf1ed6"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search bar controls -- renders: 'Where are you going?', 'Check-in', 'Check-out', 'Search'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "d24b1ed1cf f5852f597b da2666adb4"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "property detail tabs -- renders: 'Overview', 'Availability', 'Facilities', 'Policies', 'Fine print', 'Reviews'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "TravellerFooter_root--variant-full"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: 'Support', 'Discover', 'Talent', 'Sustainability', 'About', 'Careers', 'Press', 'Awards', 'Investor relations', 'Privacy & Terms', 'Cookie settings', 'Corporate contacts', 'Terms & conditions', 'Privacy policy', 'Cookie policy', 'How we process your data', 'Accessibility statement', 'Contact us', 'English (US)', 'USD - US Dollar'"
+  }
+]

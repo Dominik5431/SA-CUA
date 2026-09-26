@@ -1,0 +1,68 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "stat-label"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "ticket statistics labels -- renders: New/Open/Pending"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "entry",
+        "id": "search-input",
+        "class": "form-input"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search control -- renders the operator's fixed search interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "clear-filters",
+        "class": "btn btn-secondary btn-block"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "fixed filter-reset control -- renders: Clear Filters"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "bulk-close-btn",
+        "class": "btn btn-danger btn-block"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "fixed bulk action control -- renders: Close selected tickets"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "assign-unassigned-btn",
+        "class": "btn btn-primary btn-block"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "fixed bulk assignment control -- renders: Assign unassigned tickets"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "tickets-list",
+        "class": "tickets-list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "ticket-list action widgets -- renders: View ticket"
+  }
+]

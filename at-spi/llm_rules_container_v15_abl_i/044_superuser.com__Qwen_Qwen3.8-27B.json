@@ -1,0 +1,204 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "combo box",
+        "class": "js-search-field"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- renders: skip link, logo, Help, Stack Exchange, Log in, Sign up"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "dfp-sspon"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders: Superuser logo/link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left navigation sidebar -- renders: Home, Questions, Unanswered, Ask Question, Tags, Superuser for Teams, Chat, Users, Companies, and fixed CTA copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "fs-headline1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question header controls -- renders: Ask Question button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item ws-nowrap mr16 mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question metadata labels -- renders: Asked, Modified, Viewed"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item ws-nowrap mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question metadata label -- renders: Active"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "dfp-tlb"
+      },
+      {
+        "role": "paragraph"
+      },
+      {
+        "role": "list",
+        "class": "js-post-tag-list-wrapper"
+      },
+      {
+        "role": "section",
+        "class": "user-action-time"
+      },
+      {
+        "role": "section",
+        "class": "user-gravatar32"
+      },
+      {
+        "role": "section",
+        "class": "-flair"
+      },
+      {
+        "role": "link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question post controls -- renders: vote buttons, save, flag, share, suggest edit, follow, add comment"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answers-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answers header -- renders: Answers count label, Sort by label, and sort options (Newest, Modified, Votes)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answer-154533"
+      }
+    ],
+    "except": [
+      {
+        "role": "paragraph"
+      },
+      {
+        "role": "section",
+        "class": "user-action-time"
+      },
+      {
+        "role": "section",
+        "class": "user-gravatar32"
+      },
+      {
+        "role": "section",
+        "class": "-flair"
+      },
+      {
+        "role": "link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answer post controls -- renders: vote buttons, save, accepted indicator, flag, share, suggest edit, follow, add comment"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "class": "s-sidebarwidget--content"
+      },
+      {
+        "role": "section",
+        "id": "dfp-tsb"
+      },
+      {
+        "role": "section",
+        "id": "dfp-msb"
+      },
+      {
+        "role": "section",
+        "id": "dfp-bsb"
+      },
+      {
+        "role": "section",
+        "class": "spacer"
+      },
+      {
+        "role": "section",
+        "id": "hot-network-questions"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "right sidebar chrome -- renders: Related heading, Feed link, and ad report buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: navigation links (Tour, Help, About, etc.), social links, and copyright text"
+  }
+]

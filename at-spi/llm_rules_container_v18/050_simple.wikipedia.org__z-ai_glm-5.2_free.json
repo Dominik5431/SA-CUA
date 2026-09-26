@@ -1,0 +1,122 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top header bar -- renders: logo, search box, main menu dropdown, Donate/Create account/Log in links; all operator fixed vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mw-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site navigation container -- operator-authored navigation chrome"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vector-toc-pinnable-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "table of contents header -- renders: 'Contents' label and unpin button; operator fixed vocabulary (the TOC list entries below are user-generated section titles and stay masked)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left navigation tabs -- renders: Article / Talk; operator fixed vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "right-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "right navigation tabs and tools -- renders: Read / Edit / History and Tools dropdown; operator fixed vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "vector-appearance"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "appearance settings panel -- renders: font size (Small/Standard/Large), width (Standard/Wide), theme (Auto/Day/Night); operator fixed vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "ca-addsection"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "add topic button -- renders: 'Add topic'; operator fixed vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "p-lang-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "language selector dropdown -- operator control with fixed vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "siteSub"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site subtitle -- renders: 'From Simple English Wikipedia, the free encyclopedia'; operator fixed vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "ext-discussiontools-init-replybutton"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "reply buttons scattered through talk page discussion -- renders: 'Reply'; operator fixed vocabulary control embedded in user-generated content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "ext-discussiontools-init-section-overflowMenuButton"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "section overflow menu buttons scattered through talk page discussion -- operator control embedded in user-generated content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page footer -- renders: last-modified label, copyright notice, Privacy/About/Disclaimers/Developers/Statistics/Cookie statement/Mobile view links, copyright and powered-by icons; operator fixed vocabulary"
+  }
+]

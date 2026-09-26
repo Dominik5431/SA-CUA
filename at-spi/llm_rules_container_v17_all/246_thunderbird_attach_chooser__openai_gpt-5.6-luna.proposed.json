@@ -1,0 +1,222 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "spacesToolbar"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "application space-switching controls -- renders: Mail/Address Book/Calendar/Tasks/Chat/Settings and fixed toolbar actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "unifiedToolbar"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "main toolbar actions -- renders: fixed application-menu and toolbar-control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "titlebar-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "window controls -- renders: minimize/restore/close"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "toolbar-menubar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "mail application menu bar -- renders: File/Edit/View/Go/Message/Tasks/Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "folderPaneHeaderBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "folder-pane controls -- renders fixed more/new-message/get-messages actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "threadPaneHeaderBar"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "message-list view control -- renders fixed quick-filter vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "threadPaneHeaderBar"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "message-list view control -- renders fixed display and list-action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "row-heading"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message-header field label -- renders fixed recipient-field vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "header-view-toolbox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message action toolbar -- renders: Reply/Forward/Archive/Junk/Trash/More/Star"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "messageHeader"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "message-header controls -- renders fixed address-book and message-action buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "offline-status"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "connection-status control -- renders fixed online/offline action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "compose-toolbar-menubar2"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "compose application menu bar -- renders: File/Edit/View/Insert/Format/Options/Tasks/Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "composeToolbar2"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "compose actions -- renders: Send/Save/Attach and fixed message-composition actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "composeToolbar2"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "compose toggles -- renders: encryption and contacts controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "id": "identityLabel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "compose field label -- renders fixed sender-identity label vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "extraAddressRowsArea"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "compose recipient controls -- renders fixed Cc/Bcc and address-row actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "id": "toAddrLabel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "compose field label -- renders fixed recipient label vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "id": "subjectLabel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "compose field label -- renders fixed subject label vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "ParagraphSelect"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "paragraph-format selector -- renders: body text/paragraph/headings/address/pre"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "FormatToolbar"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "message-formatting actions -- renders fixed font-size, styling, indentation, alignment, insertion, and smiley controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "FormatToolbar"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "message-formatting toggles -- renders fixed bold/italic/underline/list controls"
+  }
+]

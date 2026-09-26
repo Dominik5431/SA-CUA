@@ -1,0 +1,126 @@
+{
+  "file": "207_thunderbird_compose_reply.xml",
+  "screen": [
+    1920,
+    1080
+  ],
+  "regions": [
+    {
+      "bbox": [
+        380,
+        147,
+        747,
+        920
+      ],
+      "n": 60,
+      "label": "tree",
+      "kind": "tree",
+      "id": 1,
+      "root_index": 0
+    },
+    {
+      "bbox": [
+        1128,
+        109,
+        792,
+        947
+      ],
+      "n": 15,
+      "label": "messagePane",
+      "kind": "section",
+      "id": 2,
+      "root_index": 0
+    },
+    {
+      "bbox": [
+        119,
+        1057,
+        1796,
+        23
+      ],
+      "n": 2,
+      "label": "status-bar",
+      "kind": "status-bar",
+      "id": 3,
+      "root_index": 0
+    },
+    {
+      "bbox": [
+        977,
+        109,
+        147,
+        37
+      ],
+      "n": 1,
+      "label": "threadPaneHeaderBar",
+      "kind": "section",
+      "id": 4,
+      "root_index": 0
+    },
+    {
+      "bbox": [
+        977,
+        109,
+        943,
+        32
+      ],
+      "n": 2,
+      "label": "chatTabPanel",
+      "kind": "scroll-pane",
+      "id": 5,
+      "root_index": 0
+    },
+    {
+      "bbox": [
+        107,
+        102,
+        860,
+        25
+      ],
+      "n": 10,
+      "label": "compose-toolbar-menubar2",
+      "kind": "tool-bar",
+      "id": 6,
+      "root_index": 1
+    },
+    {
+      "bbox": [
+        107,
+        101,
+        860,
+        777
+      ],
+      "n": 18,
+      "label": "composeContentBox",
+      "kind": "section",
+      "id": 7,
+      "root_index": 1
+    },
+    {
+      "bbox": [
+        380,
+        883,
+        587,
+        18
+      ],
+      "n": 1,
+      "label": "remainder",
+      "kind": "remainder",
+      "id": 8,
+      "root_index": 1
+    },
+    {
+      "bbox": [
+        380,
+        837,
+        587,
+        46
+      ],
+      "n": 1,
+      "label": "remainder",
+      "kind": "remainder",
+      "id": 9,
+      "root_index": 1
+    }
+  ]
+}

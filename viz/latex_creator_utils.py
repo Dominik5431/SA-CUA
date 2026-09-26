@@ -1,0 +1,241 @@
+#!/usr/bin/env python3
+"""Build a LaTeX *snippet* that renders an exported trajectory.
+
+The result is meant to be ``\\input`` into an existing document, not compiled on
+its own.  It assumes:
+
+  * the document loads ``graphicx`` in its preamble;
+  * the images live next to the snippet (or the main document sets a
+    suitable ``\\graphicspath`` / ``\\import`` base).
+
+Typical use from code::
+
+    from latex_creator_utils import write_trajectory_snippet
+
+    write_trajectory_snippet(
+        model="vllm | Qwen/Qwen3.5-9B",
+        instruction="Open the settings page.",
+        images=[
+            {"filename": "step_0_20240101@120000.png", "step_num": 0, "label": "initial state"},
+            {"filename": "step_1_20240101@120001.png", "step_num": 1},
+        ],
+        output_path="viz/my-shots/trajectory.tex",
+        image_width=r"0.8\\textwidth",
+    )
+"""
+import argparse
+import json
+import os
+
+_LATEX_ESCAPES = {
+    "\\": r"\textbackslash{}",
+    "{": r"\{",
+    "}": r"\}",
+    "$": r"\$",
+    "&": r"\&",
+    "#": r"\#",
+    "^": r"\^{}",
+    "_": r"\_",
+    "%": r"\%",
+    "~": r"\textasciitilde{}",
+}
+
+
+def latex_escape(text):
+    """Escape arbitrary text for use in normal LaTeX text mode.
+
+    Newlines are preserved as LaTeX line breaks (``\\\\``).
+    """
+    if text is None:
+        return ""
+    escaped = "".join(_LATEX_ESCAPES.get(ch, ch) for ch in str(text))
+    return escaped.strip().replace("\n", "\\\\\n")
+
+
+def caption_for(image, step_word="Step"):
+    """Return the caption line shown below one image."""
+    step = image.get("step_num")
+    label = (image.get("label") or "").strip()
+    if step is None and not label:
+        return step_word
+    if step is None:
+        return label
+    if label:
+        return "%s %s --- %s" % (step_word, step, label)
+    return "%s %s" % (step_word, step)
+
+
+def image_path_for(image):
+    """Filename (or path) used in ``\\includegraphics``."""
+    name = (image.get("filename") or "").strip().replace("\\", "/")
+    if not name:
+        raise ValueError("image entry is missing 'filename': %r" % (image,))
+    return name
+
+
+_ASCII = {
+    "\u2014": "--", "\u2013": "-", "\u2018": "'", "\u2019": "'", "\u201c": '"',
+    "\u201d": '"', "\u2026": "...", "\u2192": "->", "\u00d7": "x", "\u2715": "x",
+    "\u00a0": " ", "\u2264": "<=", "\u2265": ">=",
+}
+
+
+def listing_text(text):
+    """Make ``text`` safe inside a ``lstlisting``: listings chokes on non-ASCII
+    and a literal ``\\end{lstlisting}`` would close the environment early."""
+    s = "".join(_ASCII.get(ch, ch) for ch in str(text or ""))
+    s = s.encode("ascii", "replace").decode("ascii")
+    return s.replace("\\end{lstlisting}", "\\end {lstlisting}").rstrip()
+
+
+ACTION_STYLE = r"""\lstdefinestyle{trajaction}{basicstyle=\ttfamily\scriptsize,
+  breaklines=true, breakatwhitespace=false, columns=fullflexible, keepspaces=true,
+  frame=single, rulecolor=\color{black!25}, backgroundcolor=\color{black!3},
+  xleftmargin=2pt, xrightmargin=2pt, aboveskip=2pt, belowskip=4pt,
+  postbreak=\mbox{$\hookrightarrow$\space}}"""
+
+
+def action_block(text, style="trajaction"):
+    """A (page-breakable) listing holding the action(s) taken at one step."""
+    if not (text or "").strip():
+        return []
+    return ["\\begin{lstlisting}[style=%s]" % style, listing_text(text), "\\end{lstlisting}"]
+
+
+def image_pair(left, right, left_label="masked (agent view)",
+               right_label="unmasked (ground truth)", gap=r"\hfill"):
+    """Two screenshots side by side, each \\linewidth/2 wide with a small label
+    above it -- the SA-Agent masked/unmasked view of one frame."""
+    out = []
+    for i, (fn, lab) in enumerate(((left, left_label), (right, right_label))):
+        if i:
+            out.append(gap)
+        out += [
+            "\\begin{minipage}[t]{0.495\\linewidth}\\centering",
+            "  {\\scriptsize\\textit{%s}}\\\\[1pt]" % latex_escape(lab),
+            "  \\includegraphics[width=\\linewidth]{%s}" % fn,
+            "\\end{minipage}%",
+        ]
+    return out
+
+
+def build_trajectory_snippet(model, instruction, images,
+                             image_width=r"0.8\textwidth",
+                             arrow=r"\downarrow",
+                             step_word="Step"):
+    """Return the LaTeX fragment (snippet) as a string.
+
+    Each image entry may also carry
+      ``action``          text of the action(s) taken on that screen, shown as a listing below it
+      ``filename_right``  a second image shown next to ``filename`` (e.g. SA-Agent's unmasked
+                          frame beside the masked one), with ``label_left`` / ``label_right``
+    Entries without them render exactly as before.
+    """
+    width = image_width or r"0.8\textwidth"
+    uses_actions = any((img.get("action") or "").strip() for img in images)
+
+    lines = [
+        "% Trajectory snippet --- generated by viz/latex_creator_utils.py",
+        "% \\input this file into your main document.",
+        "% Your preamble must load: \\usepackage{graphicx}"
+        + ("  \\usepackage{listings,xcolor}" if uses_actions else ""),
+        "% Images are referenced relative to the document's compile directory;",
+        "% add a \\graphicspath{{...}} if the main .tex lives elsewhere.",
+        "",
+    ]
+    if uses_actions:
+        lines += [ACTION_STYLE, ""]
+    lines += [
+        "\\begin{center}",
+        "  \\textbf{Model:} %s" % latex_escape(model),
+        "\\end{center}",
+        "",
+        "\\begin{center}",
+        "  \\textbf{User instruction:} %s" % latex_escape(instruction),
+        "\\end{center}",
+        "",
+    ]
+
+    for i, img in enumerate(images):
+        if i > 0:
+            lines += [
+                "\\begin{center}",
+                "  {\\large $%s$}" % arrow,
+                "\\end{center}",
+                "",
+            ]
+        if img.get("filename_right"):
+            lines += ["\\begin{center}", "\\begin{minipage}{%s}" % width]
+            lines += image_pair(image_path_for(img), img["filename_right"].replace("\\", "/"),
+                                img.get("label_left") or "masked (agent view)",
+                                img.get("label_right") or "unmasked (ground truth)")
+            lines += ["\\end{minipage}", "\\\\[0.4em]"]
+        else:
+            lines += [
+                "\\begin{center}",
+                "  \\includegraphics[width=%s]{%s}" % (width, image_path_for(img)),
+                "  \\\\[0.4em]",
+            ]
+        lines += [
+            "  {\\small\\textbf{%s}}" % latex_escape(caption_for(img, step_word)),
+            "\\end{center}",
+        ]
+        if (img.get("action") or "").strip():
+            lines += ["\\begin{minipage}{%s}" % width] + action_block(img["action"]) + ["\\end{minipage}"]
+        lines.append("")
+
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def write_trajectory_snippet(model, instruction, images, output_path,
+                             image_width=r"0.8\textwidth",
+                             arrow=r"\downarrow",
+                             step_word="Step"):
+    """Build the snippet and write it to ``output_path``."""
+    snippet = build_trajectory_snippet(model, instruction, images,
+                                       image_width=image_width,
+                                       arrow=arrow, step_word=step_word)
+    out_dir = os.path.dirname(os.path.abspath(output_path))
+    os.makedirs(out_dir, exist_ok=True)
+    with open(output_path, "w", encoding="utf-8") as f:
+        f.write(snippet)
+    return output_path
+
+
+def _load_images_arg(value):
+    """Accept either inline JSON or a path to a JSON file."""
+    try:
+        return json.loads(value)
+    except ValueError:
+        with open(value, "r", encoding="utf-8") as f:
+            return json.load(f)
+
+
+def main():
+    ap = argparse.ArgumentParser(description="Write a LaTeX trajectory snippet.")
+    ap.add_argument("--model", required=True)
+    ap.add_argument("--instruction", required=True)
+    ap.add_argument("--images", required=True,
+                    help="JSON list of {filename, step_num, label[, action, filename_right,"
+                         " label_left, label_right]} --- inline or a .json path")
+    ap.add_argument("--out", required=True, help="output .tex path")
+    ap.add_argument("--width", default=r"0.8\textwidth",
+                    help=r"LaTeX width for \includegraphics (e.g. 0.8\textwidth, 6cm)")
+    ap.add_argument("--arrow", default=r"\downarrow",
+                    help="math symbol shown between images")
+    ap.add_argument("--step-word", default="Step")
+    args = ap.parse_args()
+
+    images = _load_images_arg(args.images)
+    if not isinstance(images, list):
+        raise SystemExit("--images must be a JSON list")
+
+    out = write_trajectory_snippet(
+        args.model, args.instruction, images, args.out,
+        image_width=args.width, arrow=args.arrow, step_word=args.step_word,
+    )
+    print("wrote %s" % out)
+
+
+if __name__ == "__main__":
+    main()

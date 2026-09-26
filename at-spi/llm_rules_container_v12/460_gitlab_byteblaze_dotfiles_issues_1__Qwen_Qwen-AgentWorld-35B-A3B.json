@@ -1,0 +1,168 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "navbar navbar-gitlab navbar-expand-sm js-navbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left project sidebar navigation -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "js-header-search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "header search box -- platform control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "static",
+        "class": "js-timeago"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issue creation timestamp -- computed operator-defined value"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "user-access-role"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user access role label -- operator-defined taxonomy term"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "btn btn-edit js-issuable-edit"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issue edit button -- platform control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "__BVID__41",
+        "class": "dropdown b-dropdown gl-dropdown gl-display-none gl-sm-display-inline-flex! gl-ml-3 btn-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issue more actions dropdown -- platform control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "__BVID__200",
+        "class": "dropdown b-dropdown gl-dropdown position-static btn-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "add reaction button dropdown -- platform control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "create-mr-dropdown-wrap"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "create merge request buttons -- platform controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "upload-dropzone-card upload-dropzone-border"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file upload dropzone -- platform control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "gl-font-size-h1 gl-m-0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "discussion comments heading -- platform copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "discussion-preferences-dropdown",
+        "class": "dropdown b-dropdown gl-dropdown full-width-mobile btn-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "discussion preferences dropdown -- platform control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "__BVID__93",
+        "class": "tabs gl-tabs"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "markdown write/preview tabs and toolbar -- platform controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "note-form-actions"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment form actions including submit and close buttons -- platform controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "right-sidebar js-right-sidebar js-issuable-sidebar right-sidebar-expanded"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "right sidebar controls -- edit, toggle, and action buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "right-sidebar js-right-sidebar js-issuable-sidebar right-sidebar-expanded"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "right sidebar controls -- toggle label button"
+  }
+]

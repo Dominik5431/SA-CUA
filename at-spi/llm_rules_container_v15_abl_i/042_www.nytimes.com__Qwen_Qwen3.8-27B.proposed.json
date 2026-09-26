@@ -1,0 +1,102 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Wr7_RG_mastheadWrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Masthead navigation and branding -- renders: site logo, section names, 'Sign in', 'Subscribe', 'Search', 'Sections' menu"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "top-slug"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Section slug label -- renders: fixed section name (e.g., 'Science')"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "css-1ta8iz9"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Collection header -- renders: fixed section title and navigation tabs (e.g., 'Science', 'Latest', 'Popular')"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "css-1dv1kvn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Section heading -- renders: fixed section name (e.g., 'Highlights')"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "css-1v4upt6"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Band header -- renders: fixed section title and 'See all' link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "tab-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Stream tab navigation -- renders: fixed tab labels (e.g., 'Latest', 'Popular')"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "css-1jx9oro"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Pagination controls -- renders: page numbers and navigation arrows"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "css-1qthz13"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar module -- renders: fixed module titles (e.g., 'Newsletters', 'Follow Us') and platform-defined social links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "site-index"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site index header -- renders: fixed label 'Site Index'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: fixed legal links, section links, and copyright text"
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Application menu bar -- renders fixed operator vocabulary for media player controls (File, Edit, View, Playback, Audio, Video, Tools, Help) and their sub-items"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Status bar -- renders fixed operator interface elements and status indicators"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "filler"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main player interface container -- renders fixed operator controls (play/pause, volume, playlist, settings) and UI chrome; media metadata is handled by deterministic pass"
+  }
+]

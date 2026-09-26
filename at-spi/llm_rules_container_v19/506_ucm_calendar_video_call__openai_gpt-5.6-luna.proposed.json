@@ -1,0 +1,56 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "header"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "header heading -- renders the operator's fixed calendar heading vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "calendar navigation controls -- renders the fixed Create Event, Today, previous-week, and next-week control labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "day-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "calendar day headers -- renders the fixed weekday vocabulary Monday through Friday"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "event"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "event action controls -- renders the fixed Start call and Cancel control labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "video-call-overlay"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "video-call controls -- renders the fixed Mute, Video, Share, and End call control labels"
+  }
+]

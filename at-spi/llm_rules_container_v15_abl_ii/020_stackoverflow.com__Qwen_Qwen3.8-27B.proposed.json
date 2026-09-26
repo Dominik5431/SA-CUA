@@ -1,0 +1,112 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: Home/Questions/Tags/Users/Log in/Sign up and search controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Left sidebar navigation -- renders: Home/Questions/Ask/Tags/Challenges/Chat/Articles/Users/Companies and platform CTAs"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: platform links, social media links, and copyright text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "tag-headline-container"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "dfp-tag"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Tag page header -- renders: tag name, description, and action buttons; ad slot subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mainbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "tag-headline-container"
+      },
+      {
+        "role": "section",
+        "id": "questions"
+      },
+      {
+        "role": "section",
+        "id": "dfp-nativequestion-1"
+      },
+      {
+        "role": "section",
+        "id": "dfp-nativequestion-6"
+      },
+      {
+        "role": "section",
+        "id": "dfp-nativequestion-11"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main content controls -- renders: sort tabs (Newest/Active/Votes), filter buttons, and pagination; question list and ads subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "dfp-tsb"
+      },
+      {
+        "role": "section",
+        "id": "dfp-msb"
+      },
+      {
+        "role": "section",
+        "id": "dfp-bsb"
+      },
+      {
+        "role": "section",
+        "id": "hot-network-questions"
+      },
+      {
+        "role": "list",
+        "class": "s-sidebarwidget--content"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Right sidebar -- renders: platform promo widgets and ad report buttons; ads, hot questions, and related links subtracted"
+  }
+]

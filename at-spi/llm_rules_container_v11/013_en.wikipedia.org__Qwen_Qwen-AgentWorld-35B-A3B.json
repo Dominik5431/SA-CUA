@@ -1,0 +1,93 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-header mw-header no-font-mode-scale"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar and search -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer links and icons -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-appearance-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "appearance settings -- platform's own interface for font size, width, and theme"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "mw-body-header vector-page-titlebar no-font-mode-scale"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page title and indicators -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mw-recentchanges-toplinks mw-recentchanges-toplinks-collapsed mw-collapsible mw-made-collapsible mw-collapsed"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "recent changes toplinks toggle -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "mw-changeslist-legend"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "changes list legend -- operator-defined status badges and taxonomy terms"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "mw-jump-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip link -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-page-tools-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page tools dropdown -- platform's own interface for view, edit, history controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "special"
+      }
+    ],
+    "own_role": "section",
+    "verdict": "trusted",
+    "note": "changes list controls and computed values (diff, history, byte changes, talk, contribs links) within recent changes items"
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-header mw-header no-font-mode-scale"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar, search box, and user links -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "associated pages tabs -- operator's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vector-collapsible",
+        "id": "right-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "views tabs and page tools dropdown -- operator's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-appearance-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "appearance settings panel -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "table of contents header and unpin control -- operator's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "centralNotice"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site notice banner -- operator's own interface"
+  }
+]

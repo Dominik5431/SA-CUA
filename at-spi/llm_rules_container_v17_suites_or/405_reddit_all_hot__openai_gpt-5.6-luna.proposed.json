@@ -1,0 +1,73 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Accessibility navigation -- renders the fixed operator vocabulary for skip-navigation links."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-nav"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "site-nav__search"
+      },
+      {
+        "role": "list",
+        "class": "site-nav__user-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Primary site navigation and branding, excluding the search widget and account menu -- renders the fixed operator vocabulary of site navigation links."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "entry",
+        "id": "site-nav-search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search control -- renders the operator-defined search-box interface."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "flex--guttered"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Feed navigation and sorting controls -- renders the fixed vocabulary of view tabs and sort controls."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "submission__nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Submission action navigation -- renders the fixed vocabulary of post actions such as comments, sharing, saving, and reporting."
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vote"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Voting controls -- renders the fixed upvote and downvote button vocabulary, including fixed selected-state labels."
+  }
+]

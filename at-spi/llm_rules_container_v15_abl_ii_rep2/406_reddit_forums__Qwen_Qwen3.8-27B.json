@@ -1,0 +1,58 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Accessibility skip links -- renders: 'Skip to main content', 'Skip to search'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site navigation -- renders: 'Reddit', 'Home', 'Search', 'Log in', 'Sign up', 'Create account'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: 'Reddit, Inc.', 'About', 'Careers', 'Help', 'Blog', 'Contact', 'Advertise', 'Developers', 'Newsletters', 'Gift Cards'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "pagination"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Pagination controls -- renders: 'Previous', 'Next', page numbers"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "main"
+      }
+    ],
+    "except": [
+      {
+        "role": "article",
+        "class": "flex"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main content area chrome -- renders: 'Popular', 'New', 'Top', 'Hot', 'Rising', 'Controversial', 'Create a Community' button; excludes the list of community cards which contain user-generated names and descriptions"
+  }
+]

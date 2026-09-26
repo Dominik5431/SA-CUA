@@ -1,0 +1,62 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "bypass_menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip navigation menu -- operator's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": " Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "header navigation and logo -- operator's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "d24b1ed1cf Header_tab b8f0d75194"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main navigation menu bar -- operator's own interface with fixed vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "b7ef425131 e9f1adff2b b935cde1f7 b59e36af6b b3ffbd4bb3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search box and search controls -- operator's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "ad68e1f7ce bb51db7864"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "list/grid view toggle controls -- operator-defined view controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "TravellerFooter_root--variant-full"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer links and controls -- operator's own interface"
+  }
+]

@@ -1,0 +1,189 @@
+[
+ {
+  "ancestor_path": [
+   {
+    "role": "landmark",
+    "class": "header"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "site header and navigation -- renders: fixed site mark and fixed navigation labels [override: nav subtracted -- it carries the untrusted user-name greeting]",
+  "except": [
+   {
+    "role": "landmark",
+    "class": "nav"
+   },
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "id": "progress-steps"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "travel workflow progress control -- renders: the fixed step labels and step indicators",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "id": "booking-summary"
+   }
+  ],
+  "own_role": "heading",
+  "verdict": "trusted",
+  "note": "booking-summary section labels -- renders: the fixed headings for the booking-summary sections",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "id": "traveler-form"
+   }
+  ],
+  "own_role": "heading",
+  "verdict": "trusted",
+  "note": "traveler form heading -- renders: the fixed traveler-information section label",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "id": "booking-form"
+   }
+  ],
+  "own_role": "push button",
+  "verdict": "trusted",
+  "note": "traveler form submission control -- renders: the fixed booking-form submit action",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "id": "traveler-form"
+   }
+  ],
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "[manual UCM override] traveler form -- fixed labels, empty traveler inputs, Confirm Booking"
+ }
+]

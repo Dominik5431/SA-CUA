@@ -1,0 +1,102 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Wr7_RG_mastheadWrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "NYT masthead -- renders the fixed operator vocabulary of brand, section navigation, section label, and account or subscription controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "css-1ta8iz9"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "section header -- renders the fixed section heading and operator-defined section-navigation links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "top-slug"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "section slug -- renders the operator-defined label identifying the current news section"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "css-1dv1kvn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "section heading -- renders the fixed operator-defined heading for the highlights collection"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "tab-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view switcher -- renders the fixed page-tab vocabulary for the available section views"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list item",
+        "class": "css-6n7j50"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination item -- renders the operator-defined pagination links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "site-index-label"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site-index heading -- renders the fixed operator-defined site-index label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "css-1dv1kvn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer heading -- renders the fixed operator-defined footer heading"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "css-1ho5u4o"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer utility navigation -- renders the fixed operator vocabulary of footer utility links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "css-t8x4fj"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer navigation -- renders the fixed operator vocabulary of footer service and policy links"
+  }
+]

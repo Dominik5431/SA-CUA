@@ -1,0 +1,62 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar ps-fixed t0 l0 js-top-bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left sidebar navigation -- platform's own navigation links and controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mainbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "questions"
+      },
+      {
+        "role": "section",
+        "id": "dfp-tag"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main bar chrome -- tag headline, sort/filter controls, and pagination; excludes question list and ad sponsorships"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer js-footer theme-light__forced"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- platform's own navigation and legal links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-report-ad-button-container ad-report-width-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "report ad button controls outside ad creatives"
+  }
+]

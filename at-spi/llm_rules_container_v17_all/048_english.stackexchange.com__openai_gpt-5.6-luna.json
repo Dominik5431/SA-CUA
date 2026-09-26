@@ -1,0 +1,279 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "network-logo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "network logo control -- renders fixed platform branding"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search control -- renders the fixed platform search interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      },
+      {
+        "role": "link",
+        "class": "js-help-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation help control -- renders fixed platform interface vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      },
+      {
+        "role": "link",
+        "class": "js-signup-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation sign-up control -- renders fixed account-control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      },
+      {
+        "role": "link",
+        "class": "s-btn__outlined"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation sign-in control -- renders fixed authentication vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders fixed site identity vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list item",
+        "class": "js-freemium-cta"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "platform call-to-action panel -- renders fixed operator promotional and account-control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-share-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "share controls -- render fixed platform action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-suggest-edit-post"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "suggest-edit controls -- render fixed platform action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "question voting controls -- render fixed upvote and downvote vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "question action controls -- render fixed save and comment vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "answer"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "answer voting controls -- render fixed upvote and downvote vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "answer"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "answer action controls -- render fixed save, follow and comment vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-follow-post"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "follow controls -- render fixed platform follow vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "answer-sort-dropdown-select-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answer sorting control -- renders the fixed sort vocabulary Newest/Active/Votes"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "h-related"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "related-questions heading -- renders a fixed section label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hot-network-questions"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "hot-network-questions heading -- renders a fixed section label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "feed-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "feed control -- renders fixed feed-interface vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders fixed platform navigation, policy, social and copyright vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-report-ad"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "ad reporting controls -- render fixed controls about the advertisement"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "js-bottom-notice"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "bottom notice heading -- renders fixed platform notice vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "paragraph",
+        "class": "fs-body2 fw-bold fc-black-500 mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "bottom notice label -- renders fixed platform interface copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "paragraph",
+        "class": "fs-body1 fc-black-400 mb16"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "bottom notice explanation -- renders fixed platform interface copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "as-start"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "bottom notice action -- renders fixed platform interface vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "paragraph",
+        "class": "fs-body2 fw-bold fc-black-500 mb0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "bottom notice label -- renders fixed platform interface copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "paragraph",
+        "class": "fs-body1 fc-black-400 mb0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "bottom notice explanation -- renders fixed platform interface copy"
+  }
+]

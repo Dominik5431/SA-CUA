@@ -1,0 +1,43 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "progress-steps"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "travel progress indicator -- renders the fixed step vocabulary for the booking flow"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "back-to-flights"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "back control -- renders the operator's fixed navigation action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "sort-hotels"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "hotel sort controls -- renders the operator's fixed set of hotel sorting options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hotels-list"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "hotel result actions -- renders the fixed view-hotel and select-hotel control vocabulary inside otherwise untrusted hotel listings"
+  }
+]

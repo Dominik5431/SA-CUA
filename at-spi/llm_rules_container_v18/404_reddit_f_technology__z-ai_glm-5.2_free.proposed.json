@@ -1,0 +1,113 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "site-alerts"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "platform alert banner -- renders: operator-authored site-wide notices"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility skip-nav -- renders: Skip to content / Skip to sidebar"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "site-nav__header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders: platform logo link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "site-nav__main-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main navigation menu -- renders: fixed operator vocabulary nav items"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "site-nav__search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search control -- renders: operator search input with fixed placeholder"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "flex flex--guttered"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "tab and sort bar -- renders: Hot/New tabs and sort dropdown, all fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "pagination"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination control -- renders: Next button, fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vote"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "vote controls on each submission -- renders: Upvote/Downvote buttons and a numeric vote count; no user-generated text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "subscribe-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "subscribe form in sidebar -- renders: Subscribe button with fixed label and a numeric subscriber count; no user-generated text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "sidebar__section"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "sidebar panel toggle -- renders: fixed label such as Moderators; only the toggle button is trusted, expanded moderator names stay masked"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: platform attribution and fixed footer links"
+  }
+]

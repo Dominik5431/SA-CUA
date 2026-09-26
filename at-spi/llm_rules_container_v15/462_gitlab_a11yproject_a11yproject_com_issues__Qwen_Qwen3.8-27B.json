@@ -1,0 +1,49 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Left sidebar navigation -- renders: fixed project section links (Information, Repository, Issues, Merge requests, Pipelines, etc.); the project name in the context header is user-defined and subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "__BVID__7"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue list filter tabs -- renders: fixed state filters ('Open', 'Closed', 'All') with counts; the tab labels are platform vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "content-body"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Toolbar controls above the issue list -- renders: fixed action buttons ('New issue', 'Sort', 'Filter', 'Export', etc.); excludes the issue list items which contain user-generated titles and metadata"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "gl-text-center"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Pagination controls -- renders: 'Previous', 'Next', and page size dropdown; fixed platform vocabulary"
+  }
+]

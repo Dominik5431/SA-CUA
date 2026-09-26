@@ -1,0 +1,56 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "nav-search-bar-form",
+        "class": "nav-searchbar nav-progressive-attribute"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search bar form -- platform's own interface including search input and submit button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "searchDropdownBox",
+        "class": "nav-search-dropdown searchSelect nav-progressive-attrubute nav-progressive-search-dropdown"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search scope dropdown -- operator-defined category list"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "s-result-sort-select",
+        "class": "a-native-dropdown a-declarative"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sort results dropdown -- operator-defined sort controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-pagination-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- operator-defined pagination"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooter",
+        "class": "navLeftFooter nav-sprite-v1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer navigation and links -- platform's own interface throughout"
+  }
+]

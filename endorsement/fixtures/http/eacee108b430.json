@@ -1,0 +1,7 @@
+{
+  "url": "https://pypi.org/pypi/requests/json",
+  "ok": true,
+  "text": "{\n \"info\": {\n  \"name\": \"requests\",\n  \"version\": \"2.32.3\",\n  \"summary\": \"Python HTTP for Humans.\"\n }\n}",
+  "synthetic": true,
+  "note": "Real package, wrong one: the lying-Q-VLM variant."
+}

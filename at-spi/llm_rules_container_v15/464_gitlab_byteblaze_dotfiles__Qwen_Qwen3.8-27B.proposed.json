@@ -1,0 +1,125 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "navbar-gitlab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: GitLab logo, search box, 'New project', 'Issues', 'Merge requests', 'To do list', 'Help', user avatar"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Project sidebar navigation -- renders: 'Project information', 'Repository', 'Issues', 'Merge requests', 'Pipelines', 'Deployments', 'Infrastructure', 'Monitor', 'Analytics', 'Wiki', 'Snippets', 'Settings'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "notification",
+        "class": "js-no-ssh-message"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "SSH key warning alert -- renders: fixed platform copy about missing SSH keys and 'Add SSH key' / 'Close' buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "notification",
+        "class": "auto-devops-implicitly-enabled-banner"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Auto DevOps info banner -- renders: fixed platform copy about implicit Auto DevOps and 'Learn more' / 'Close' buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "breadcrumbs"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Breadcrumbs -- renders: 'byteblaze' (operator namespace) and 'dotfiles' (operator project name)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "home-panel-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Project title heading -- renders: 'dotfiles' (operator project name)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "home-panel-metadata"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Project metadata -- renders: 'Public' visibility label and copy button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "count-badge"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Star and Fork action buttons -- renders: 'Star', 'Fork' labels and counts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "project-stats"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Project statistics -- renders: 'Stars', 'Forks', 'Open issues', 'Merge requests' labels and counts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "nav-block"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Repository toolbar -- renders: branch selector, 'Find file', 'Web IDE', 'Clone' buttons and breadcrumb"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "nav gl-gap-3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Repository action buttons -- renders: 'New file', 'New directory', 'Upload file', 'New project', 'New snippet', 'New group', 'New wiki page'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table",
+        "class": "tree-table"
+      },
+      {
+        "role": "panel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "File table header -- renders: 'Name', 'Last commit', 'Last update' column headers"
+  }
+]

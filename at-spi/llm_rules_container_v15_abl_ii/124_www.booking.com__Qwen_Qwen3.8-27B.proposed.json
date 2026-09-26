@@ -1,0 +1,142 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Header navigation bar -- renders: Booking.com logo, language/currency selector, 'List your property', 'Register', 'Sign in' (fixed operator vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_tab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main service tabs -- renders: Stays, Flights, Flight+Hotel, Car hire, Attractions, Airport taxis (fixed operator vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "HeroBannerDesktop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Hero banner -- renders: 'Find your next stay' and supporting marketing copy (fixed operator vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "SearchBoxDesktop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search interface -- renders: 'Where are you going?', 'Check-in', 'Check-out', 'Search' (fixed operator vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "UniqueSellingPoints"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Unique selling points -- renders: 'Why book with Booking.com?' and fixed marketing copy (fixed operator vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "SecondaryBannerDesktop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Secondary banner -- renders: 'Deals' and fixed promotional copy (fixed operator vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "MerchCarouselPropertyTypesWww"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Property types carousel -- renders: 'Hotels', 'Apartments', 'Villas', 'Hostels' (fixed operator vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "DestinationPostcardsDesktop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Destination postcards -- renders: 'Popular destinations' and city names (fixed operator vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "TripTypesCarousel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Trip types carousel -- renders: 'Family', 'Romantic', 'Business' (fixed operator vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "MerchCarouselDomesticDestinationsWww"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Domestic destinations carousel -- renders: 'Domestic destinations' and city names (fixed operator vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "GeniusSignInBanner"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Genius sign-in banner -- renders: 'Sign in to Booking.com' and fixed marketing copy (fixed operator vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "SeoCoreInterlinking"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "SEO interlinking -- renders: 'Popular destinations' and city names (fixed operator vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "TravellerFooter_root--variant-full"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Footer -- renders: 'Support', 'Discover', 'Trending', 'About' and fixed navigation links (fixed operator vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "onetrust-banner-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Cookie consent banner -- renders: 'Cookies on Booking.com' and fixed legal copy (fixed operator vocabulary)"
+  }
+]

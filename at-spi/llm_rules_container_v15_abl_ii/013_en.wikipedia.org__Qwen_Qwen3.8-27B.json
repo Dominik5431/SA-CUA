@@ -1,0 +1,52 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: Wikipedia logo, search box, main menu, user links (Donate, Create account, Log in)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "mw-body-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Page title bar -- renders: 'Recent changes' heading and help link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-appearance-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Appearance settings panel -- renders: 'Appearance' label, font size options (Small, Standard, Large), width options (Standard, Full width), theme options (System, Day, Night)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "mw-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Footer -- renders: Privacy policy, About Wikipedia, Disclaimers, Contact Wikipedia, Legal & safety contacts, Code of conduct, Developers, Statistics, Cookie statement, Mobile view, Wikimedia Foundation and MediaWiki logos"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "mw-changeslist-legend"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Legend for recent changes list -- renders: fixed labels for edit types (Wikibase edit, Damaging, New page, Minor edit, Bot edit, +/\u2212 bytes, Watchlist expiry)"
+  }
+]

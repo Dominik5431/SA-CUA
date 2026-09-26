@@ -1,0 +1,58 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Accessibility skip links -- renders: fixed platform navigation shortcuts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-content__body"
+      },
+      {
+        "role": "heading",
+        "class": "page-heading"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Page heading -- renders: fixed section title like 'Comments'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "article",
+        "class": "comment"
+      },
+      {
+        "role": "landmark",
+        "class": "comment__nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comment action links -- renders: Reply, Permalink, Parent"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "article",
+        "class": "comment"
+      },
+      {
+        "role": "header",
+        "class": "comment__header"
+      },
+      {
+        "role": "list",
+        "class": "flex unlistify"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comment hide toggle -- renders: Hide"
+  }
+]

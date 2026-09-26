@@ -1,0 +1,138 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- renders: Stack Overflow logo, Home, Questions, Ask, Users, Search, Help, Log in, Sign up"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left sidebar navigation -- renders: Home, Questions, Ask, Tags, Users, Companies, Collectives, Chat, Articles, Sign up"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "fs-headline1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question header controls -- renders: Ask Question button; question title is user-generated"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item ws-nowrap mr16 mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question metadata labels -- renders: Asked, Modified, Viewed"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item ws-nowrap mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question metadata labels -- renders: Active"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answers-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answers header -- renders: Answers, Sort by, Newest, Oldest, Score, Modified"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "s-pagination--item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- renders: page numbers"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: Stack Overflow logo, Product, Company, Community, Legal, social links, copyright"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "dfp-tsb"
+      },
+      {
+        "role": "section",
+        "id": "dfp-msb"
+      },
+      {
+        "role": "section",
+        "id": "dfp-bsb"
+      },
+      {
+        "role": "section",
+        "id": "fragment-container-972-962"
+      },
+      {
+        "role": "section",
+        "id": "hot-network-questions"
+      },
+      {
+        "role": "section",
+        "class": "spacer"
+      },
+      {
+        "role": "list",
+        "class": "s-sidebarwidget--content"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "right sidebar chrome -- renders: sidebar promo, Linked Questions heading, Related Questions heading, Feed link; subtracts ads, user-generated question lists, and dynamic widgets"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-report-ad-button-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "ad report controls -- renders: Report this ad"
+  }
+]

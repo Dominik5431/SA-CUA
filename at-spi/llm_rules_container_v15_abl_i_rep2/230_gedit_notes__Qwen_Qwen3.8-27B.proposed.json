@@ -1,0 +1,62 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Editor toolbar buttons -- renders fixed operator vocabulary for editing actions (e.g., Undo, Redo, Cut, Copy, Paste, Find, Replace, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "Editor toolbar toggle buttons -- renders fixed operator vocabulary for view/edit modes (e.g., Word Wrap, Show Line Numbers, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "label",
+    "verdict": "trusted",
+    "note": "Editor toolbar labels -- renders fixed operator vocabulary for status or mode indicators (e.g., 'Normal', 'Insert')"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "radio button",
+    "verdict": "trusted",
+    "note": "Editor mode radio buttons -- renders fixed operator vocabulary for cursor modes (e.g., 'Normal', 'Insert')"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "check box",
+    "verdict": "trusted",
+    "note": "Editor options checkboxes -- renders fixed operator vocabulary for feature toggles (e.g., 'Show Line Numbers', 'Highlight Current Line')"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "status bar",
+    "verdict": "trusted",
+    "note": "Editor status bar -- renders fixed operator vocabulary for document status (e.g., 'Ln 1, Col 1', 'UTF-8')"
+  }
+]

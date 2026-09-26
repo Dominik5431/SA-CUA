@@ -1,0 +1,92 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "bypass_menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Skip-to-content link -- renders: 'Skip to main content'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site header -- renders: 'Booking.com', 'Log in', 'Register', 'Accommodations', 'Flights', 'Car rental', 'Attractions', 'Airport taxis', 'Flight + Hotel'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "fff1944c52"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Breadcrumb navigation -- renders: 'Home', 'Hotels', 'City', 'Property Name'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "f8d8d99a17"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search bar controls -- renders: 'Where are you going?', 'Check-in', 'Check-out', 'Search'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "b7ef425131 e9f1adff2b c03fb03748 a81cb9db2d"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Filter sidebar -- renders: 'Filter by', 'Price', 'Popular filters', 'Property Type', 'Review Score', 'Meals', 'Hotel Facilities', 'Room Facilities', 'Property Rating', 'Distance to Center', 'Landmarks', 'Free Cancellation', 'Breakfast Included', 'Sustainability', 'Accessibility'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "b87c397a13 cacb5ff522"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Results summary heading -- renders: 'Hotels in [City]'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "ad68e1f7ce bb51db7864"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "View switcher -- renders: 'List', 'Grid'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "a297f43545"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sort control -- renders: 'Sort by: Recommended'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer_menu_track"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: 'Support', 'Discover', 'Trending', 'About', 'Language: English (US)', 'Currency: USD'"
+  }
+]

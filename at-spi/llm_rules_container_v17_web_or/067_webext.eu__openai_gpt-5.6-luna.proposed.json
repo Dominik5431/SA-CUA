@@ -1,0 +1,33 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "logo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site logo -- renders the operator's fixed brand identity"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "question"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "question-card controls -- renders the operator's fixed action-button vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "operator call-to-action control -- renders the platform's fixed button label"
+  }
+]

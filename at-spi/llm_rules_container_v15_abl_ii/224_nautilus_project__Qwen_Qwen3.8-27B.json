@@ -1,0 +1,72 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Top header bar navigation and view controls -- renders fixed operator vocabulary for navigation and view switching"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "Top header bar view mode toggles -- renders fixed operator vocabulary for list/grid view"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Bottom status bar controls -- renders fixed operator vocabulary for status and view options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "radio button",
+    "verdict": "trusted",
+    "note": "Bottom status bar view options -- renders fixed operator vocabulary for sort and view modes"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Bottom status bar action buttons -- renders fixed operator vocabulary for file actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "check box",
+    "verdict": "trusted",
+    "note": "Bottom status bar view options -- renders fixed operator vocabulary for display settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "radio button",
+    "verdict": "trusted",
+    "note": "Bottom status bar view options -- renders fixed operator vocabulary for sort and view modes"
+  }
+]

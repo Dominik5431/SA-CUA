@@ -1,0 +1,2583 @@
+{
+ "schema": 2,
+ "generated_at": "2026-08-31T07:33:48+00:00",
+ "tolerance_px": 2,
+ "min_cover": 0.5,
+ "curated_classes": [
+  "GROUP",
+  "SURFACE"
+ ],
+ "note": "DOM-derived. Rows listed here had no laid-out DOM box and are excluded from labeling and scoring. Curation only -- never an input to a prediction. See dom_curation.py.",
+ "files": {
+  "000_github.com.xml": {
+   "status": "ok",
+   "dom_boxes": 865,
+   "excluded": []
+  },
+  "001_github.com.xml": {
+   "status": "ok",
+   "dom_boxes": 713,
+   "excluded": []
+  },
+  "002_github.com.xml": {
+   "status": "ok",
+   "dom_boxes": 1698,
+   "excluded": []
+  },
+  "003_github.com.xml": {
+   "status": "ok",
+   "dom_boxes": 856,
+   "excluded": []
+  },
+  "004_github.com.xml": {
+   "status": "ok",
+   "dom_boxes": 891,
+   "excluded": []
+  },
+  "005_github.com.xml": {
+   "status": "ok",
+   "dom_boxes": 1333,
+   "excluded": []
+  },
+  "006_github.com.xml": {
+   "status": "ok",
+   "dom_boxes": 902,
+   "excluded": [
+    {
+     "sig": "6fe70f2fb2ba",
+     "elem_index": 142,
+     "role": "section",
+     "bbox": [
+      441,
+      810,
+      17,
+      16
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "fe35e0f48004",
+     "elem_index": 146,
+     "role": "section",
+     "bbox": [
+      571,
+      810,
+      17,
+      16
+     ],
+     "cls": null,
+     "id": null
+    }
+   ]
+  },
+  "007_github.com.xml": {
+   "status": "ok",
+   "dom_boxes": 692,
+   "excluded": []
+  },
+  "008_en.wikipedia.org.xml": {
+   "status": "ok",
+   "dom_boxes": 2388,
+   "excluded": []
+  },
+  "009_en.wikipedia.org.xml": {
+   "status": "ok",
+   "dom_boxes": 2945,
+   "excluded": []
+  },
+  "010_en.wikipedia.org.xml": {
+   "status": "ok",
+   "dom_boxes": 7682,
+   "excluded": []
+  },
+  "011_en.wikipedia.org.xml": {
+   "status": "ok",
+   "dom_boxes": 1013,
+   "excluded": []
+  },
+  "012_en.wikipedia.org.xml": {
+   "status": "ok",
+   "dom_boxes": 1378,
+   "excluded": []
+  },
+  "013_en.wikipedia.org.xml": {
+   "status": "ok",
+   "dom_boxes": 1321,
+   "excluded": []
+  },
+  "014_en.wikipedia.org.xml": {
+   "status": "ok",
+   "dom_boxes": 452,
+   "excluded": []
+  },
+  "015_en.wikipedia.org.xml": {
+   "status": "ok",
+   "dom_boxes": 313,
+   "excluded": []
+  },
+  "016_stackoverflow.com.xml": {
+   "status": "ok",
+   "dom_boxes": 6819,
+   "excluded": [
+    {
+     "sig": "15d53dfee7d1",
+     "elem_index": 2,
+     "role": "section",
+     "bbox": [
+      858,
+      620,
+      254,
+      296
+     ],
+     "cls": null,
+     "id": "signup-modal-container"
+    },
+    {
+     "sig": "5c5684086ef1",
+     "elem_index": 30,
+     "role": "section",
+     "bbox": [
+      875,
+      616,
+      220,
+      225
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "ea83f87a3874",
+     "elem_index": 416,
+     "role": "section",
+     "bbox": [
+      843,
+      611,
+      289,
+      157
+     ],
+     "cls": null,
+     "id": "js-follow-ups-flag-modal"
+    },
+    {
+     "sig": "9b9de5b82a6b",
+     "elem_index": 418,
+     "role": "section",
+     "bbox": [
+      861,
+      597,
+      253,
+      207
+     ],
+     "cls": "redirect-modal-wrapper svelte-3dcwtb",
+     "id": null
+    }
+   ]
+  },
+  "017_stackoverflow.com.xml": {
+   "status": "ok",
+   "dom_boxes": 6103,
+   "excluded": [
+    {
+     "sig": "15d53dfee7d1",
+     "elem_index": 2,
+     "role": "section",
+     "bbox": [
+      858,
+      620,
+      254,
+      296
+     ],
+     "cls": null,
+     "id": "signup-modal-container"
+    },
+    {
+     "sig": "5c5684086ef1",
+     "elem_index": 30,
+     "role": "section",
+     "bbox": [
+      875,
+      616,
+      220,
+      225
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "ea83f87a3874",
+     "elem_index": 478,
+     "role": "section",
+     "bbox": [
+      843,
+      611,
+      289,
+      157
+     ],
+     "cls": null,
+     "id": "js-follow-ups-flag-modal"
+    },
+    {
+     "sig": "9b9de5b82a6b",
+     "elem_index": 480,
+     "role": "section",
+     "bbox": [
+      861,
+      597,
+      253,
+      207
+     ],
+     "cls": "redirect-modal-wrapper svelte-3dcwtb",
+     "id": null
+    }
+   ]
+  },
+  "018_stackoverflow.com.xml": {
+   "status": "ok",
+   "dom_boxes": 4649,
+   "excluded": [
+    {
+     "sig": "15d53dfee7d1",
+     "elem_index": 2,
+     "role": "section",
+     "bbox": [
+      858,
+      620,
+      254,
+      296
+     ],
+     "cls": null,
+     "id": "signup-modal-container"
+    },
+    {
+     "sig": "5c5684086ef1",
+     "elem_index": 30,
+     "role": "section",
+     "bbox": [
+      875,
+      616,
+      220,
+      225
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "ea83f87a3874",
+     "elem_index": 367,
+     "role": "section",
+     "bbox": [
+      843,
+      611,
+      289,
+      157
+     ],
+     "cls": null,
+     "id": "js-follow-ups-flag-modal"
+    },
+    {
+     "sig": "9b9de5b82a6b",
+     "elem_index": 369,
+     "role": "section",
+     "bbox": [
+      861,
+      597,
+      253,
+      207
+     ],
+     "cls": "redirect-modal-wrapper svelte-3dcwtb",
+     "id": null
+    }
+   ]
+  },
+  "019_stackoverflow.com.xml": {
+   "status": "ok",
+   "dom_boxes": 954,
+   "excluded": [
+    {
+     "sig": "15d53dfee7d1",
+     "elem_index": 2,
+     "role": "section",
+     "bbox": [
+      858,
+      620,
+      254,
+      296
+     ],
+     "cls": null,
+     "id": "signup-modal-container"
+    },
+    {
+     "sig": "5c5684086ef1",
+     "elem_index": 30,
+     "role": "section",
+     "bbox": [
+      875,
+      616,
+      220,
+      225
+     ],
+     "cls": null,
+     "id": null
+    }
+   ]
+  },
+  "020_stackoverflow.com.xml": {
+   "status": "ok",
+   "dom_boxes": 963,
+   "excluded": [
+    {
+     "sig": "15d53dfee7d1",
+     "elem_index": 2,
+     "role": "section",
+     "bbox": [
+      858,
+      620,
+      254,
+      296
+     ],
+     "cls": null,
+     "id": "signup-modal-container"
+    },
+    {
+     "sig": "5c5684086ef1",
+     "elem_index": 30,
+     "role": "section",
+     "bbox": [
+      875,
+      616,
+      220,
+      225
+     ],
+     "cls": null,
+     "id": null
+    }
+   ]
+  },
+  "021_stackoverflow.com.xml": {
+   "status": "ok",
+   "dom_boxes": 4415,
+   "excluded": [
+    {
+     "sig": "15d53dfee7d1",
+     "elem_index": 2,
+     "role": "section",
+     "bbox": [
+      858,
+      620,
+      254,
+      296
+     ],
+     "cls": null,
+     "id": "signup-modal-container"
+    },
+    {
+     "sig": "5c5684086ef1",
+     "elem_index": 30,
+     "role": "section",
+     "bbox": [
+      875,
+      616,
+      220,
+      225
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "ea83f87a3874",
+     "elem_index": 394,
+     "role": "section",
+     "bbox": [
+      843,
+      611,
+      289,
+      157
+     ],
+     "cls": null,
+     "id": "js-follow-ups-flag-modal"
+    },
+    {
+     "sig": "9b9de5b82a6b",
+     "elem_index": 396,
+     "role": "section",
+     "bbox": [
+      861,
+      597,
+      253,
+      207
+     ],
+     "cls": "redirect-modal-wrapper svelte-3dcwtb",
+     "id": null
+    }
+   ]
+  },
+  "022_stackoverflow.com.xml": {
+   "status": "ok",
+   "dom_boxes": 721,
+   "excluded": [
+    {
+     "sig": "15d53dfee7d1",
+     "elem_index": 2,
+     "role": "section",
+     "bbox": [
+      858,
+      620,
+      254,
+      296
+     ],
+     "cls": null,
+     "id": "signup-modal-container"
+    },
+    {
+     "sig": "5c5684086ef1",
+     "elem_index": 30,
+     "role": "section",
+     "bbox": [
+      875,
+      616,
+      220,
+      225
+     ],
+     "cls": null,
+     "id": null
+    }
+   ]
+  },
+  "023_stackoverflow.com.xml": {
+   "status": "ok",
+   "dom_boxes": 1016,
+   "excluded": [
+    {
+     "sig": "15d53dfee7d1",
+     "elem_index": 2,
+     "role": "section",
+     "bbox": [
+      858,
+      620,
+      254,
+      296
+     ],
+     "cls": null,
+     "id": "signup-modal-container"
+    },
+    {
+     "sig": "5c5684086ef1",
+     "elem_index": 30,
+     "role": "section",
+     "bbox": [
+      875,
+      616,
+      220,
+      225
+     ],
+     "cls": null,
+     "id": null
+    }
+   ]
+  },
+  "024_www.booking.com.xml": {
+   "status": "ok",
+   "dom_boxes": 558,
+   "excluded": []
+  },
+  "025_www.booking.com.xml": {
+   "status": "ok",
+   "dom_boxes": 3309,
+   "excluded": []
+  },
+  "026_www.booking.com.xml": {
+   "status": "ok",
+   "dom_boxes": 3488,
+   "excluded": []
+  },
+  "027_www.booking.com.xml": {
+   "status": "ok",
+   "dom_boxes": 2837,
+   "excluded": []
+  },
+  "028_www.booking.com.xml": {
+   "status": "ok",
+   "dom_boxes": 3825,
+   "excluded": []
+  },
+  "029_www.booking.com.xml": {
+   "status": "ok",
+   "dom_boxes": 3852,
+   "excluded": []
+  },
+  "030_www.booking.com.xml": {
+   "status": "ok",
+   "dom_boxes": 3561,
+   "excluded": []
+  },
+  "031_www.booking.com.xml": {
+   "status": "ok",
+   "dom_boxes": 3844,
+   "excluded": []
+  },
+  "032_www.amazon.com.xml": {
+   "status": "ok",
+   "dom_boxes": 3368,
+   "excluded": [
+    {
+     "sig": "9b23c72112fa",
+     "elem_index": 102,
+     "role": "section",
+     "bbox": [
+      77,
+      213,
+      18,
+      16
+     ],
+     "cls": null,
+     "id": "skippedLink"
+    }
+   ]
+  },
+  "033_www.amazon.com.xml": {
+   "status": "ok",
+   "dom_boxes": 2421,
+   "excluded": [
+    {
+     "sig": "9b23c72112fa",
+     "elem_index": 102,
+     "role": "section",
+     "bbox": [
+      77,
+      213,
+      18,
+      16
+     ],
+     "cls": null,
+     "id": "skippedLink"
+    },
+    {
+     "sig": "149722ec98e4",
+     "elem_index": 151,
+     "role": "list",
+     "bbox": [
+      699,
+      581,
+      292,
+      12
+     ],
+     "cls": "s-color-swatch-internal-container",
+     "id": null
+    }
+   ]
+  },
+  "034_www.amazon.com.xml": {
+   "status": "ok",
+   "dom_boxes": 5621,
+   "excluded": [
+    {
+     "sig": "9b23c72112fa",
+     "elem_index": 102,
+     "role": "section",
+     "bbox": [
+      77,
+      213,
+      18,
+      16
+     ],
+     "cls": null,
+     "id": "skippedLink"
+    }
+   ]
+  },
+  "035_www.amazon.com.xml": {
+   "status": "ok",
+   "dom_boxes": 2908,
+   "excluded": [
+    {
+     "sig": "9b23c72112fa",
+     "elem_index": 102,
+     "role": "section",
+     "bbox": [
+      77,
+      213,
+      18,
+      16
+     ],
+     "cls": null,
+     "id": "skippedLink"
+    }
+   ]
+  },
+  "036_www.amazon.com.xml": {
+   "status": "ok",
+   "dom_boxes": 1510,
+   "excluded": [
+    {
+     "sig": "9b23c72112fa",
+     "elem_index": 101,
+     "role": "section",
+     "bbox": [
+      77,
+      213,
+      18,
+      16
+     ],
+     "cls": null,
+     "id": "skippedLink"
+    }
+   ]
+  },
+  "037_www.amazon.com.xml": {
+   "status": "ok",
+   "dom_boxes": 1454,
+   "excluded": [
+    {
+     "sig": "9b23c72112fa",
+     "elem_index": 102,
+     "role": "section",
+     "bbox": [
+      77,
+      213,
+      18,
+      16
+     ],
+     "cls": null,
+     "id": "skippedLink"
+    }
+   ]
+  },
+  "038_www.nytimes.com.xml": {
+   "status": "ok",
+   "dom_boxes": 471,
+   "excluded": [
+    {
+     "sig": "44417b9f9027",
+     "elem_index": 78,
+     "role": "section",
+     "bbox": [
+      422,
+      597,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "5378253a4c0c",
+     "elem_index": 82,
+     "role": "section",
+     "bbox": [
+      490,
+      597,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "5df1cca8814c",
+     "elem_index": 86,
+     "role": "section",
+     "bbox": [
+      529,
+      597,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "b8def92bfc0c",
+     "elem_index": 90,
+     "role": "section",
+     "bbox": [
+      599,
+      597,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "8433647a21bc",
+     "elem_index": 94,
+     "role": "section",
+     "bbox": [
+      656,
+      597,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "4687d6a2e9ae",
+     "elem_index": 98,
+     "role": "section",
+     "bbox": [
+      714,
+      597,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    }
+   ]
+  },
+  "039_www.nytimes.com.xml": {
+   "status": "ok",
+   "dom_boxes": 361,
+   "excluded": [
+    {
+     "sig": "f4006b6be6b8",
+     "elem_index": 65,
+     "role": "section",
+     "bbox": [
+      441,
+      417,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "21caca25e488",
+     "elem_index": 69,
+     "role": "section",
+     "bbox": [
+      506,
+      417,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "e917dd3aced8",
+     "elem_index": 73,
+     "role": "section",
+     "bbox": [
+      573,
+      417,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "de4688cc7185",
+     "elem_index": 77,
+     "role": "section",
+     "bbox": [
+      630,
+      417,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "3ebc634074e3",
+     "elem_index": 81,
+     "role": "section",
+     "bbox": [
+      679,
+      417,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "5f286a4c248f",
+     "elem_index": 85,
+     "role": "section",
+     "bbox": [
+      764,
+      417,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "b62837f8a076",
+     "elem_index": 89,
+     "role": "section",
+     "bbox": [
+      862,
+      417,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "52e5142c7e58",
+     "elem_index": 93,
+     "role": "section",
+     "bbox": [
+      965,
+      417,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "497b5b1afc0a",
+     "elem_index": 97,
+     "role": "section",
+     "bbox": [
+      1048,
+      417,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "0be85e2b5757",
+     "elem_index": 101,
+     "role": "section",
+     "bbox": [
+      1179,
+      417,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "00c75b003535",
+     "elem_index": 105,
+     "role": "section",
+     "bbox": [
+      1321,
+      417,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    }
+   ]
+  },
+  "040_www.nytimes.com.xml": {
+   "status": "ok",
+   "dom_boxes": 370,
+   "excluded": [
+    {
+     "sig": "4ece0f73fa53",
+     "elem_index": 74,
+     "role": "section",
+     "bbox": [
+      616,
+      554,
+      16,
+      25
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "723e4085a2c0",
+     "elem_index": 77,
+     "role": "section",
+     "bbox": [
+      696,
+      554,
+      14,
+      25
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "ae0817400749",
+     "elem_index": 81,
+     "role": "section",
+     "bbox": [
+      791,
+      554,
+      14,
+      25
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "585ace88929d",
+     "elem_index": 85,
+     "role": "section",
+     "bbox": [
+      902,
+      554,
+      14,
+      25
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "25643b0fec12",
+     "elem_index": 89,
+     "role": "section",
+     "bbox": [
+      1021,
+      554,
+      14,
+      25
+     ],
+     "cls": null,
+     "id": null
+    }
+   ]
+  },
+  "041_www.nytimes.com.xml": {
+   "status": "ok",
+   "dom_boxes": 399,
+   "excluded": [
+    {
+     "sig": "fad23330c9f0",
+     "elem_index": 80,
+     "role": "section",
+     "bbox": [
+      456,
+      597,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "a6a1ad1ebf6f",
+     "elem_index": 84,
+     "role": "section",
+     "bbox": [
+      542,
+      597,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "f717f7de1b83",
+     "elem_index": 88,
+     "role": "section",
+     "bbox": [
+      593,
+      597,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "40c217843966",
+     "elem_index": 92,
+     "role": "section",
+     "bbox": [
+      648,
+      597,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "c92b3d252980",
+     "elem_index": 96,
+     "role": "section",
+     "bbox": [
+      697,
+      597,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "1a586e3fed5d",
+     "elem_index": 100,
+     "role": "section",
+     "bbox": [
+      771,
+      597,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "d0ab89dcef43",
+     "elem_index": 104,
+     "role": "section",
+     "bbox": [
+      832,
+      597,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "b93149cfe4d7",
+     "elem_index": 108,
+     "role": "section",
+     "bbox": [
+      917,
+      597,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "4fa2201fe8de",
+     "elem_index": 112,
+     "role": "section",
+     "bbox": [
+      1001,
+      597,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "c7a39630c0c3",
+     "elem_index": 116,
+     "role": "section",
+     "bbox": [
+      1099,
+      597,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    }
+   ]
+  },
+  "042_www.nytimes.com.xml": {
+   "status": "ok",
+   "dom_boxes": 514,
+   "excluded": [
+    {
+     "sig": "8b306361a96f",
+     "elem_index": 59,
+     "role": "section",
+     "bbox": [
+      429,
+      417,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "2bec538cced8",
+     "elem_index": 63,
+     "role": "section",
+     "bbox": [
+      552,
+      417,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "0d7e38e52bd7",
+     "elem_index": 67,
+     "role": "section",
+     "bbox": [
+      607,
+      417,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "a7ad6d8b0094",
+     "elem_index": 71,
+     "role": "section",
+     "bbox": [
+      680,
+      417,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "08854218895a",
+     "elem_index": 75,
+     "role": "section",
+     "bbox": [
+      738,
+      417,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    }
+   ]
+  },
+  "043_www.nytimes.com.xml": {
+   "status": "ok",
+   "dom_boxes": 309,
+   "excluded": [
+    {
+     "sig": "398f3cfc9dbf",
+     "elem_index": 126,
+     "role": "section",
+     "bbox": [
+      567,
+      577,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "89d634385bb0",
+     "elem_index": 130,
+     "role": "section",
+     "bbox": [
+      642,
+      577,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    }
+   ]
+  },
+  "044_superuser.com.xml": {
+   "status": "ok",
+   "dom_boxes": 483,
+   "excluded": [
+    {
+     "sig": "1061468cacdf",
+     "elem_index": 2,
+     "role": "section",
+     "bbox": [
+      858,
+      620,
+      254,
+      264
+     ],
+     "cls": null,
+     "id": "signup-modal-container"
+    },
+    {
+     "sig": "ef354ab75f2a",
+     "elem_index": 279,
+     "role": "section",
+     "bbox": [
+      843,
+      611,
+      289,
+      138
+     ],
+     "cls": null,
+     "id": "js-follow-ups-flag-modal"
+    },
+    {
+     "sig": "9b9de5b82a6b",
+     "elem_index": 281,
+     "role": "section",
+     "bbox": [
+      861,
+      597,
+      253,
+      207
+     ],
+     "cls": "redirect-modal-wrapper svelte-3dcwtb",
+     "id": null
+    }
+   ]
+  },
+  "045_serverfault.com.xml": {
+   "status": "ok",
+   "dom_boxes": 1177,
+   "excluded": [
+    {
+     "sig": "1c7adf9427fe",
+     "elem_index": 2,
+     "role": "section",
+     "bbox": [
+      858,
+      291,
+      254,
+      264
+     ],
+     "cls": null,
+     "id": "signup-modal-container"
+    },
+    {
+     "sig": "ef354ab75f2a",
+     "elem_index": 347,
+     "role": "section",
+     "bbox": [
+      843,
+      611,
+      289,
+      138
+     ],
+     "cls": null,
+     "id": "js-follow-ups-flag-modal"
+    },
+    {
+     "sig": "9b9de5b82a6b",
+     "elem_index": 349,
+     "role": "section",
+     "bbox": [
+      861,
+      597,
+      253,
+      207
+     ],
+     "cls": "redirect-modal-wrapper svelte-3dcwtb",
+     "id": null
+    }
+   ]
+  },
+  "046_askubuntu.com.xml": {
+   "status": "ok",
+   "dom_boxes": 1036,
+   "excluded": [
+    {
+     "sig": "1061468cacdf",
+     "elem_index": 2,
+     "role": "section",
+     "bbox": [
+      858,
+      620,
+      254,
+      264
+     ],
+     "cls": null,
+     "id": "signup-modal-container"
+    },
+    {
+     "sig": "ef354ab75f2a",
+     "elem_index": 384,
+     "role": "section",
+     "bbox": [
+      843,
+      611,
+      289,
+      138
+     ],
+     "cls": null,
+     "id": "js-follow-ups-flag-modal"
+    },
+    {
+     "sig": "9b9de5b82a6b",
+     "elem_index": 386,
+     "role": "section",
+     "bbox": [
+      861,
+      597,
+      253,
+      207
+     ],
+     "cls": "redirect-modal-wrapper svelte-3dcwtb",
+     "id": null
+    }
+   ]
+  },
+  "047_unix.stackexchange.com.xml": {
+   "status": "ok",
+   "dom_boxes": 928,
+   "excluded": [
+    {
+     "sig": "1061468cacdf",
+     "elem_index": 2,
+     "role": "section",
+     "bbox": [
+      858,
+      620,
+      254,
+      264
+     ],
+     "cls": null,
+     "id": "signup-modal-container"
+    },
+    {
+     "sig": "ef354ab75f2a",
+     "elem_index": 300,
+     "role": "section",
+     "bbox": [
+      843,
+      611,
+      289,
+      138
+     ],
+     "cls": null,
+     "id": "js-follow-ups-flag-modal"
+    },
+    {
+     "sig": "9b9de5b82a6b",
+     "elem_index": 302,
+     "role": "section",
+     "bbox": [
+      861,
+      597,
+      253,
+      207
+     ],
+     "cls": "redirect-modal-wrapper svelte-3dcwtb",
+     "id": null
+    }
+   ]
+  },
+  "048_english.stackexchange.com.xml": {
+   "status": "ok",
+   "dom_boxes": 691,
+   "excluded": [
+    {
+     "sig": "a299eb4c5970",
+     "elem_index": 2,
+     "role": "section",
+     "bbox": [
+      858,
+      -32,
+      254,
+      263
+     ],
+     "cls": null,
+     "id": "signup-modal-container"
+    },
+    {
+     "sig": "ef354ab75f2a",
+     "elem_index": 305,
+     "role": "section",
+     "bbox": [
+      843,
+      611,
+      289,
+      138
+     ],
+     "cls": null,
+     "id": "js-follow-ups-flag-modal"
+    },
+    {
+     "sig": "9b9de5b82a6b",
+     "elem_index": 307,
+     "role": "section",
+     "bbox": [
+      861,
+      597,
+      253,
+      207
+     ],
+     "cls": "redirect-modal-wrapper svelte-3dcwtb",
+     "id": null
+    }
+   ]
+  },
+  "049_simple.wikipedia.org.xml": {
+   "status": "ok",
+   "dom_boxes": 999,
+   "excluded": []
+  },
+  "050_simple.wikipedia.org.xml": {
+   "status": "ok",
+   "dom_boxes": 496,
+   "excluded": []
+  },
+  "051_docs.python.org.xml": {
+   "status": "ok",
+   "dom_boxes": 438,
+   "excluded": []
+  },
+  "052_docs.python.org.xml": {
+   "status": "ok",
+   "dom_boxes": 5655,
+   "excluded": []
+  },
+  "053_www.rfc-editor.org.xml": {
+   "status": "ok",
+   "dom_boxes": 3202,
+   "excluded": []
+  },
+  "054_www.rfc-editor.org.xml": {
+   "status": "ok",
+   "dom_boxes": 2286,
+   "excluded": []
+  },
+  "117_stackoverflow.com.xml": {
+   "status": "ok",
+   "dom_boxes": 6016,
+   "excluded": [
+    {
+     "sig": "15d53dfee7d1",
+     "elem_index": 2,
+     "role": "section",
+     "bbox": [
+      858,
+      620,
+      254,
+      296
+     ],
+     "cls": null,
+     "id": "signup-modal-container"
+    },
+    {
+     "sig": "5c5684086ef1",
+     "elem_index": 30,
+     "role": "section",
+     "bbox": [
+      875,
+      616,
+      220,
+      225
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "ea83f87a3874",
+     "elem_index": 461,
+     "role": "section",
+     "bbox": [
+      843,
+      611,
+      289,
+      157
+     ],
+     "cls": null,
+     "id": "js-follow-ups-flag-modal"
+    },
+    {
+     "sig": "9b9de5b82a6b",
+     "elem_index": 463,
+     "role": "section",
+     "bbox": [
+      861,
+      597,
+      253,
+      207
+     ],
+     "cls": "redirect-modal-wrapper svelte-3dcwtb",
+     "id": null
+    }
+   ]
+  },
+  "119_stackoverflow.com.xml": {
+   "status": "ok",
+   "dom_boxes": 972,
+   "excluded": [
+    {
+     "sig": "15d53dfee7d1",
+     "elem_index": 2,
+     "role": "section",
+     "bbox": [
+      858,
+      620,
+      254,
+      296
+     ],
+     "cls": null,
+     "id": "signup-modal-container"
+    },
+    {
+     "sig": "5c5684086ef1",
+     "elem_index": 30,
+     "role": "section",
+     "bbox": [
+      875,
+      616,
+      220,
+      225
+     ],
+     "cls": null,
+     "id": null
+    }
+   ]
+  },
+  "120_stackoverflow.com.xml": {
+   "status": "ok",
+   "dom_boxes": 958,
+   "excluded": [
+    {
+     "sig": "15d53dfee7d1",
+     "elem_index": 2,
+     "role": "section",
+     "bbox": [
+      858,
+      620,
+      254,
+      296
+     ],
+     "cls": null,
+     "id": "signup-modal-container"
+    },
+    {
+     "sig": "5c5684086ef1",
+     "elem_index": 30,
+     "role": "section",
+     "bbox": [
+      875,
+      616,
+      220,
+      225
+     ],
+     "cls": null,
+     "id": null
+    }
+   ]
+  },
+  "122_stackoverflow.com.xml": {
+   "status": "ok",
+   "dom_boxes": 753,
+   "excluded": [
+    {
+     "sig": "15d53dfee7d1",
+     "elem_index": 2,
+     "role": "section",
+     "bbox": [
+      858,
+      620,
+      254,
+      296
+     ],
+     "cls": null,
+     "id": "signup-modal-container"
+    },
+    {
+     "sig": "5c5684086ef1",
+     "elem_index": 30,
+     "role": "section",
+     "bbox": [
+      875,
+      616,
+      220,
+      225
+     ],
+     "cls": null,
+     "id": null
+    }
+   ]
+  },
+  "123_stackoverflow.com.xml": {
+   "status": "ok",
+   "dom_boxes": 1009,
+   "excluded": [
+    {
+     "sig": "15d53dfee7d1",
+     "elem_index": 2,
+     "role": "section",
+     "bbox": [
+      858,
+      620,
+      254,
+      296
+     ],
+     "cls": null,
+     "id": "signup-modal-container"
+    },
+    {
+     "sig": "5c5684086ef1",
+     "elem_index": 30,
+     "role": "section",
+     "bbox": [
+      875,
+      616,
+      220,
+      225
+     ],
+     "cls": null,
+     "id": null
+    }
+   ]
+  },
+  "124_www.booking.com.xml": {
+   "status": "ok",
+   "dom_boxes": 1853,
+   "excluded": []
+  },
+  "125_www.booking.com.xml": {
+   "status": "ok",
+   "dom_boxes": 3718,
+   "excluded": []
+  },
+  "126_www.booking.com.xml": {
+   "status": "ok",
+   "dom_boxes": 3736,
+   "excluded": []
+  },
+  "127_www.booking.com.xml": {
+   "status": "ok",
+   "dom_boxes": 3247,
+   "excluded": []
+  },
+  "128_www.booking.com.xml": {
+   "status": "ok",
+   "dom_boxes": 3846,
+   "excluded": []
+  },
+  "129_www.booking.com.xml": {
+   "status": "ok",
+   "dom_boxes": 4779,
+   "excluded": []
+  },
+  "130_www.booking.com.xml": {
+   "status": "ok",
+   "dom_boxes": 3769,
+   "excluded": []
+  },
+  "131_www.booking.com.xml": {
+   "status": "ok",
+   "dom_boxes": 3932,
+   "excluded": []
+  },
+  "138_www.nytimes.com.xml": {
+   "status": "ok",
+   "dom_boxes": 472,
+   "excluded": [
+    {
+     "sig": "5fa45769b87a",
+     "elem_index": 62,
+     "role": "section",
+     "bbox": [
+      422,
+      577,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "a67acd086724",
+     "elem_index": 66,
+     "role": "section",
+     "bbox": [
+      490,
+      577,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "6d006ad1008d",
+     "elem_index": 70,
+     "role": "section",
+     "bbox": [
+      529,
+      577,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "ae7d5b86d83b",
+     "elem_index": 74,
+     "role": "section",
+     "bbox": [
+      599,
+      577,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "098f395b6f46",
+     "elem_index": 78,
+     "role": "section",
+     "bbox": [
+      656,
+      577,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "a8354e1e83e7",
+     "elem_index": 82,
+     "role": "section",
+     "bbox": [
+      714,
+      577,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    }
+   ]
+  },
+  "139_www.nytimes.com.xml": {
+   "status": "ok",
+   "dom_boxes": 378,
+   "excluded": [
+    {
+     "sig": "0686712686a9",
+     "elem_index": 62,
+     "role": "section",
+     "bbox": [
+      441,
+      577,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "f47bb84e59c2",
+     "elem_index": 66,
+     "role": "section",
+     "bbox": [
+      506,
+      577,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "80ab8ab04054",
+     "elem_index": 70,
+     "role": "section",
+     "bbox": [
+      573,
+      577,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "8a67060774b3",
+     "elem_index": 74,
+     "role": "section",
+     "bbox": [
+      630,
+      577,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "764c73c1f0d2",
+     "elem_index": 78,
+     "role": "section",
+     "bbox": [
+      679,
+      577,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "2087ed96abdf",
+     "elem_index": 82,
+     "role": "section",
+     "bbox": [
+      764,
+      577,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "83ec75b2f16b",
+     "elem_index": 86,
+     "role": "section",
+     "bbox": [
+      862,
+      577,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "dbdeea49e4f6",
+     "elem_index": 90,
+     "role": "section",
+     "bbox": [
+      965,
+      577,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "d7644dd4d2b1",
+     "elem_index": 94,
+     "role": "section",
+     "bbox": [
+      1048,
+      577,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "890079c1c1bc",
+     "elem_index": 98,
+     "role": "section",
+     "bbox": [
+      1179,
+      577,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "c8edc648dae4",
+     "elem_index": 102,
+     "role": "section",
+     "bbox": [
+      1321,
+      577,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    }
+   ]
+  },
+  "140_www.nytimes.com.xml": {
+   "status": "ok",
+   "dom_boxes": 375,
+   "excluded": [
+    {
+     "sig": "86966aae3560",
+     "elem_index": 60,
+     "role": "section",
+     "bbox": [
+      616,
+      534,
+      16,
+      25
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "89347d3afc75",
+     "elem_index": 63,
+     "role": "section",
+     "bbox": [
+      696,
+      534,
+      14,
+      25
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "341d25992726",
+     "elem_index": 67,
+     "role": "section",
+     "bbox": [
+      791,
+      534,
+      14,
+      25
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "c9ea7037a9da",
+     "elem_index": 71,
+     "role": "section",
+     "bbox": [
+      902,
+      534,
+      14,
+      25
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "d45666e1cc12",
+     "elem_index": 75,
+     "role": "section",
+     "bbox": [
+      1021,
+      534,
+      14,
+      25
+     ],
+     "cls": null,
+     "id": null
+    }
+   ]
+  },
+  "141_www.nytimes.com.xml": {
+   "status": "ok",
+   "dom_boxes": 401,
+   "excluded": [
+    {
+     "sig": "7b5e3d4aa44d",
+     "elem_index": 66,
+     "role": "section",
+     "bbox": [
+      456,
+      577,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "6ed9ed8dbc7b",
+     "elem_index": 70,
+     "role": "section",
+     "bbox": [
+      542,
+      577,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "5c6803c2e68d",
+     "elem_index": 74,
+     "role": "section",
+     "bbox": [
+      593,
+      577,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "5f9e7c5d13e9",
+     "elem_index": 78,
+     "role": "section",
+     "bbox": [
+      648,
+      577,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "68555c9459b0",
+     "elem_index": 82,
+     "role": "section",
+     "bbox": [
+      697,
+      577,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "e79a5f8c1698",
+     "elem_index": 86,
+     "role": "section",
+     "bbox": [
+      771,
+      577,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "96a553b8211c",
+     "elem_index": 90,
+     "role": "section",
+     "bbox": [
+      832,
+      577,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "fe061b1d85a0",
+     "elem_index": 94,
+     "role": "section",
+     "bbox": [
+      917,
+      577,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "d820ac66d6b3",
+     "elem_index": 98,
+     "role": "section",
+     "bbox": [
+      1001,
+      577,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "13ed1af0565b",
+     "elem_index": 102,
+     "role": "section",
+     "bbox": [
+      1099,
+      577,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    }
+   ]
+  },
+  "142_www.nytimes.com.xml": {
+   "status": "ok",
+   "dom_boxes": 527,
+   "excluded": [
+    {
+     "sig": "ebb9d880f6cd",
+     "elem_index": 62,
+     "role": "section",
+     "bbox": [
+      429,
+      577,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "e2a7fa9468ed",
+     "elem_index": 66,
+     "role": "section",
+     "bbox": [
+      552,
+      577,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "be8c3818d40d",
+     "elem_index": 70,
+     "role": "section",
+     "bbox": [
+      607,
+      577,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "8a71ae7d59e8",
+     "elem_index": 74,
+     "role": "section",
+     "bbox": [
+      680,
+      577,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    },
+    {
+     "sig": "3605a8e5180c",
+     "elem_index": 78,
+     "role": "section",
+     "bbox": [
+      738,
+      577,
+      10,
+      11
+     ],
+     "cls": null,
+     "id": null
+    }
+   ]
+  },
+  "144_superuser.com.xml": {
+   "status": "ok",
+   "dom_boxes": 470,
+   "excluded": [
+    {
+     "sig": "1061468cacdf",
+     "elem_index": 2,
+     "role": "section",
+     "bbox": [
+      858,
+      620,
+      254,
+      264
+     ],
+     "cls": null,
+     "id": "signup-modal-container"
+    },
+    {
+     "sig": "ef354ab75f2a",
+     "elem_index": 290,
+     "role": "section",
+     "bbox": [
+      843,
+      611,
+      289,
+      138
+     ],
+     "cls": null,
+     "id": "js-follow-ups-flag-modal"
+    },
+    {
+     "sig": "9b9de5b82a6b",
+     "elem_index": 292,
+     "role": "section",
+     "bbox": [
+      861,
+      597,
+      253,
+      207
+     ],
+     "cls": "redirect-modal-wrapper svelte-3dcwtb",
+     "id": null
+    }
+   ]
+  },
+  "145_serverfault.com.xml": {
+   "status": "ok",
+   "dom_boxes": 1169,
+   "excluded": [
+    {
+     "sig": "1c7adf9427fe",
+     "elem_index": 2,
+     "role": "section",
+     "bbox": [
+      858,
+      291,
+      254,
+      264
+     ],
+     "cls": null,
+     "id": "signup-modal-container"
+    },
+    {
+     "sig": "ef354ab75f2a",
+     "elem_index": 346,
+     "role": "section",
+     "bbox": [
+      843,
+      611,
+      289,
+      138
+     ],
+     "cls": null,
+     "id": "js-follow-ups-flag-modal"
+    },
+    {
+     "sig": "9b9de5b82a6b",
+     "elem_index": 348,
+     "role": "section",
+     "bbox": [
+      861,
+      597,
+      253,
+      207
+     ],
+     "cls": "redirect-modal-wrapper svelte-3dcwtb",
+     "id": null
+    }
+   ]
+  },
+  "146_askubuntu.com.xml": {
+   "status": "ok",
+   "dom_boxes": 1036,
+   "excluded": [
+    {
+     "sig": "1061468cacdf",
+     "elem_index": 2,
+     "role": "section",
+     "bbox": [
+      858,
+      620,
+      254,
+      264
+     ],
+     "cls": null,
+     "id": "signup-modal-container"
+    },
+    {
+     "sig": "ef354ab75f2a",
+     "elem_index": 330,
+     "role": "section",
+     "bbox": [
+      843,
+      611,
+      289,
+      138
+     ],
+     "cls": null,
+     "id": "js-follow-ups-flag-modal"
+    },
+    {
+     "sig": "9b9de5b82a6b",
+     "elem_index": 332,
+     "role": "section",
+     "bbox": [
+      861,
+      597,
+      253,
+      207
+     ],
+     "cls": "redirect-modal-wrapper svelte-3dcwtb",
+     "id": null
+    }
+   ]
+  },
+  "147_unix.stackexchange.com.xml": {
+   "status": "ok",
+   "dom_boxes": 939,
+   "excluded": [
+    {
+     "sig": "1061468cacdf",
+     "elem_index": 2,
+     "role": "section",
+     "bbox": [
+      858,
+      620,
+      254,
+      264
+     ],
+     "cls": null,
+     "id": "signup-modal-container"
+    },
+    {
+     "sig": "ef354ab75f2a",
+     "elem_index": 299,
+     "role": "section",
+     "bbox": [
+      843,
+      611,
+      289,
+      138
+     ],
+     "cls": null,
+     "id": "js-follow-ups-flag-modal"
+    },
+    {
+     "sig": "9b9de5b82a6b",
+     "elem_index": 301,
+     "role": "section",
+     "bbox": [
+      861,
+      597,
+      253,
+      207
+     ],
+     "cls": "redirect-modal-wrapper svelte-3dcwtb",
+     "id": null
+    }
+   ]
+  },
+  "148_english.stackexchange.com.xml": {
+   "status": "ok",
+   "dom_boxes": 691,
+   "excluded": [
+    {
+     "sig": "a299eb4c5970",
+     "elem_index": 2,
+     "role": "section",
+     "bbox": [
+      858,
+      -32,
+      254,
+      263
+     ],
+     "cls": null,
+     "id": "signup-modal-container"
+    },
+    {
+     "sig": "ef354ab75f2a",
+     "elem_index": 276,
+     "role": "section",
+     "bbox": [
+      843,
+      611,
+      289,
+      138
+     ],
+     "cls": null,
+     "id": "js-follow-ups-flag-modal"
+    },
+    {
+     "sig": "9b9de5b82a6b",
+     "elem_index": 278,
+     "role": "section",
+     "bbox": [
+      861,
+      597,
+      253,
+      207
+     ],
+     "cls": "redirect-modal-wrapper svelte-3dcwtb",
+     "id": null
+    }
+   ]
+  },
+  "200_thunderbird_inbox.xml": {
+   "status": "no_dom_capture",
+   "excluded": []
+  },
+  "201_thunderbird_message_plain.xml": {
+   "status": "no_dom_capture",
+   "excluded": []
+  },
+  "202_thunderbird_message_reply_chain.xml": {
+   "status": "no_dom_capture",
+   "excluded": []
+  },
+  "203_thunderbird_message_suspicious.xml": {
+   "status": "no_dom_capture",
+   "excluded": []
+  },
+  "204_thunderbird_message_invoice.xml": {
+   "status": "no_dom_capture",
+   "excluded": []
+  },
+  "205_thunderbird_search.xml": {
+   "status": "no_dom_capture",
+   "excluded": []
+  },
+  "206_thunderbird_compose_reply.xml": {
+   "status": "no_dom_capture",
+   "excluded": []
+  },
+  "207_vscode_app_py.xml": {
+   "status": "no_dom_capture",
+   "excluded": []
+  },
+  "208_vscode_readme_md.xml": {
+   "status": "no_dom_capture",
+   "excluded": []
+  },
+  "209_vscode_config_json.xml": {
+   "status": "no_dom_capture",
+   "excluded": []
+  },
+  "210_vscode_log_file.xml": {
+   "status": "no_dom_capture",
+   "excluded": []
+  },
+  "211_vscode_folder_tree.xml": {
+   "status": "no_dom_capture",
+   "excluded": []
+  },
+  "212_vscode_search_results.xml": {
+   "status": "no_dom_capture",
+   "excluded": []
+  },
+  "213_libreoffice_writer_notes.xml": {
+   "status": "no_dom_capture",
+   "excluded": []
+  },
+  "214_libreoffice_writer_proposal.xml": {
+   "status": "no_dom_capture",
+   "excluded": []
+  },
+  "215_libreoffice_writer_find.xml": {
+   "status": "no_dom_capture",
+   "excluded": []
+  },
+  "216_libreoffice_calc_budget.xml": {
+   "status": "no_dom_capture",
+   "excluded": []
+  },
+  "217_libreoffice_calc_inventory.xml": {
+   "status": "no_dom_capture",
+   "excluded": []
+  },
+  "218_libreoffice_calc_selection.xml": {
+   "status": "no_dom_capture",
+   "excluded": []
+  },
+  "219_nautilus_documents.xml": {
+   "status": "no_dom_capture",
+   "excluded": []
+  },
+  "220_nautilus_downloads.xml": {
+   "status": "no_dom_capture",
+   "excluded": []
+  },
+  "221_nautilus_list_view.xml": {
+   "status": "no_dom_capture",
+   "excluded": []
+  },
+  "222_nautilus_search.xml": {
+   "status": "no_dom_capture",
+   "excluded": []
+  },
+  "223_nautilus_project.xml": {
+   "status": "no_dom_capture",
+   "excluded": []
+  },
+  "224_terminal_ls.xml": {
+   "status": "no_dom_capture",
+   "excluded": []
+  },
+  "225_terminal_cat_notes.xml": {
+   "status": "no_dom_capture",
+   "excluded": []
+  },
+  "226_terminal_git_log.xml": {
+   "status": "no_dom_capture",
+   "excluded": []
+  },
+  "227_terminal_tail_log.xml": {
+   "status": "no_dom_capture",
+   "excluded": []
+  },
+  "228_terminal_ps.xml": {
+   "status": "no_dom_capture",
+   "excluded": []
+  },
+  "229_gedit_notes.xml": {
+   "status": "no_dom_capture",
+   "excluded": []
+  },
+  "230_gedit_app_py.xml": {
+   "status": "no_dom_capture",
+   "excluded": []
+  },
+  "231_gedit_log.xml": {
+   "status": "no_dom_capture",
+   "excluded": []
+  },
+  "232_gedit_invoice.xml": {
+   "status": "no_dom_capture",
+   "excluded": []
+  },
+  "233_evince_notes.xml": {
+   "status": "no_dom_capture",
+   "excluded": []
+  },
+  "234_evince_proposal.xml": {
+   "status": "no_dom_capture",
+   "excluded": []
+  },
+  "235_evince_invoice.xml": {
+   "status": "no_dom_capture",
+   "excluded": []
+  },
+  "236_file_roller_archive.xml": {
+   "status": "no_dom_capture",
+   "excluded": []
+  },
+  "237_file_roller_handoff.xml": {
+   "status": "no_dom_capture",
+   "excluded": []
+  },
+  "238_calculator.xml": {
+   "status": "no_dom_capture",
+   "excluded": []
+  },
+  "239_settings.xml": {
+   "status": "no_dom_capture",
+   "excluded": []
+  },
+  "240_system_monitor.xml": {
+   "status": "no_dom_capture",
+   "excluded": []
+  },
+  "241_gimp_photo.xml": {
+   "status": "no_dom_capture",
+   "excluded": []
+  },
+  "242_vlc.xml": {
+   "status": "no_dom_capture",
+   "excluded": []
+  },
+  "243_impress_empty.xml": {
+   "status": "no_dom_capture",
+   "excluded": []
+  }
+ }
+}

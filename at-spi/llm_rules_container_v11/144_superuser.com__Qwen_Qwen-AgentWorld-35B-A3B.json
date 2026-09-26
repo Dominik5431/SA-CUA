@@ -1,0 +1,146 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "dfp-sspon"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders: site logo link; subtracts ad slot"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "left-sidebar--sticky-container js-sticky-leftnav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left sidebar navigation and freemium CTA -- platform's own interface and operator copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answers-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answers header -- renders: answers heading, sort label, and sort dropdown controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: footer navigation links, social links, copyright, and revision info"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "onetrust-banner-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent banner -- platform's own interface for privacy consent"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question",
+        "class": "question js-question"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "dfp-tlb"
+      },
+      {
+        "role": "paragraph"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question post container -- renders: vote buttons, save button, post issue link, tags, share/edit/follow controls, timestamps, gravatar, reputation score, comments link; subtracts ad leaderboard and question body paragraphs"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "answer js-answer accepted-answer js-accepted-answer"
+      }
+    ],
+    "except": [
+      {
+        "role": "paragraph"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answer post container -- renders: vote buttons, save button, accepted indicator, post issue link, share/edit/follow controls, timestamps, gravatar, reputation score, comments link; subtracts answer body paragraph"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "ml12 aside-cta flex--item print:d-none"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question header aside CTA -- renders: ask question button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "h-related"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar heading -- renders: related questions section label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading"
+      },
+      {
+        "role": "section",
+        "id": "hot-network-questions"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "hot network questions heading -- renders: platform's own section label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "feed-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar feed link -- renders: platform's own RSS feed control"
+  }
+]

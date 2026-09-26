@@ -1,0 +1,78 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "navbar-gitlab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global top navigation bar -- renders: GitLab logo, search box, 'New project', 'Issues', 'Merge requests', 'To do list', 'Help', user avatar"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Project sidebar navigation -- renders: 'Project information', 'Repository', 'Commits', 'Branches', 'Tags', 'Contributors', 'Issues', 'Merge requests', 'Pipelines', 'Deployments', 'CI/CD', 'Environments', 'Infrastructure', 'Monitor', 'Analytics', 'Wiki', 'Snippets', 'Settings'; the project name header is subtracted as it is user-defined"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "breadcrumbs"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Breadcrumbs -- renders: 'byteblaze', 'dotfiles', 'commits' (platform navigation path)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "nav-block"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Repository controls -- renders: branch selector, 'main', 'Commits', search input, 'Compare' button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list item",
+        "class": "commit-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Commit date headers -- renders: 'Today', 'Yesterday', 'Last week', 'Last month', 'Last year' (fixed temporal vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "commit-sha-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Commit SHA controls -- renders: 'Copy full SHA', 'Browse repository at this point' (fixed action labels)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "gpg-status-box"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "GPG signature status indicator -- renders: 'Invalid signature', 'Valid signature', 'No signature' (fixed status vocabulary)"
+  }
+]

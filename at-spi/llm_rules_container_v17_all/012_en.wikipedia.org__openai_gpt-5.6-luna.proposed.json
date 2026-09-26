@@ -1,0 +1,225 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry",
+        "id": "searchInput"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders the operator's fixed menu, logo, search controls, account controls, and other header interface; the echoed search query is excluded"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-main-menu-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main-menu control -- renders the operator's fixed menu control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "mw-logo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site logo -- renders the operator's fixed logo and tagline"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "p-search"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry",
+        "id": "searchInput"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search interface -- renders the operator's fixed search controls; the query entry is excluded because it can echo user input"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-user-links"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user-account navigation -- renders fixed support, account-creation, and login controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "mw-jump-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip-navigation link -- renders the operator's fixed jump-to-content control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "article navigation tabs -- renders the fixed Article and Talk controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "right-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page-action navigation -- renders fixed view, edit, history, page-tools, and appearance-navigation controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-appearance-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "appearance settings -- renders fixed appearance labels, radio choices, and controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mw-indicator-mw-helplink"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "help indicator -- renders the operator's fixed help control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "id": "mw-history-search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "history-search panel -- renders the fixed history-search control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "histlegend"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "history legend -- renders the operator's fixed legend and explanatory interface links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mw-pager-navigation-bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pager navigation -- renders fixed first, previous, next, last, and page-number controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mw-history-compareselectedversions"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "history comparison control -- renders the fixed compare-selected-versions button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "mw-index-pager-list-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "history list heading -- renders the operator-defined fixed history-section label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "mw-contributions-list"
+      }
+    ],
+    "own_role": "radio button",
+    "verdict": "trusted",
+    "note": "history selection controls -- renders the fixed radio-button role for selecting revisions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mw-history-histlinks"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "revision comparison controls -- renders fixed current, previous, and comparison-navigation links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mw-usertoollinks"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user-tool navigation -- renders fixed Talk and contributions controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mw-changeslist-links mw-pager-tools mw-change-tools"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "history action tools -- renders the operator's fixed revision-action controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "id": "footer-places"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer policy and site links -- renders fixed privacy, about, disclaimer, contact, legal, conduct, developer, statistics, cookie, and mobile-view links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "id": "footer-icons"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer branding links -- renders the operator's fixed project and platform-branding images"
+  }
+]

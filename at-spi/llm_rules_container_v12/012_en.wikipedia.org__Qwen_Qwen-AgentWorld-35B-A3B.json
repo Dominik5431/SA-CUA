@@ -1,0 +1,102 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-header mw-header no-font-mode-scale"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface including logo, main menu, search, and user links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left navigation panel -- platform's own interface for associated pages (main, talk)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "right-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "right navigation panel -- platform's own interface for views (view, edit, history) and page tools"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "mw-body-header vector-page-titlebar no-font-mode-scale"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page title bar -- platform's own interface including page title and help link indicator"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vector-sticky-pinned-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "appearance settings panel -- platform's own interface for font size, width, and skin theme controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "contentSub"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "history subtitle -- platform's own interface links and labels for history view"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mw-htmlform-ooui-wrapper oo-ui-layout oo-ui-panelLayout oo-ui-panelLayout-padded oo-ui-panelLayout-framed"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "history search form -- platform's own interface for searching page history"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mw-pager-navigation-bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pager navigation bar -- platform's own pagination controls including last, next, and page number links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mw-history-compareselectedversions"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "history compare selected versions button -- platform's own interface for comparing versions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer -- platform's own interface with site links and legal options"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "fides-overlay"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent banner -- renders: banner title, privacy links, Manage preferences / Reject all / Accept all buttons, language selector; all fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Wr7_RG_mastheadWrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site masthead -- renders: NYT logo, section navigation links, Sections button, Search button, section label, account link; all fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "css-1ta8iz9"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Technology section header -- renders: section heading and sub-section navigation links; all fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "collection-highlights-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "collection highlights -- renders: section heading and featured article headlines, summaries, bylines, photo captions; all NYT editorial content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "5-band"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "5-band section -- renders: section heading, see-all link, and article headline links with photos; all NYT editorial content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "tab-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "tab navigation -- renders: Latest and tab controls; fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "stream-panel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "article stream panel -- renders: article headlines, summaries, bylines, and pagination controls; all NYT editorial content and operator interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "css-1e1s8k7"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer area -- renders: site index heading, NYT logo, subscribe link, and footer navigation links (Help, Contact, Accessibility, Terms, Privacy, etc.); all fixed operator vocabulary"
+  }
+]

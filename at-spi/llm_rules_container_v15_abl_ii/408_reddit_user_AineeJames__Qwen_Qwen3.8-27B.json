@@ -1,0 +1,42 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility navigation -- renders: Skip to main content, Skip to comments"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- renders: Reddit logo, Home, Popular, search input, user menu controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "user-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user profile tabs -- renders: Comments, Submissions, Awards"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: copyright notice, links to Reddit, Inc."
+  }
+]

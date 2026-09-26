@@ -1,0 +1,64 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar",
+        "class": "ElectronMenuBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "native application menu bar -- renders fixed operator vocabulary: File/Edit/Selection/View/Go/Run/Terminal/Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-action-bar vertical"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "activity bar and status bar icons -- renders fixed operator vocabulary: Explorer, Search, Source Control, Run, Extensions, Accounts, Settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "workbench.parts.editor",
+        "class": "part editor"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "class": "monaco-breadcrumbs"
+      },
+      {
+        "role": "section",
+        "class": "editor-instance"
+      },
+      {
+        "role": "page tab",
+        "class": "tab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "editor chrome -- renders fixed operator vocabulary: tab close/split/more controls; subtracts breadcrumbs (user file paths), editor instance (user file content), and tab headers (user file names)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar",
+        "id": "workbench.parts.statusbar",
+        "class": "part statusbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "status.languageStatus"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "status bar -- renders fixed operator vocabulary: remote kind, problems count, forwarded ports, notifications, editor mode, EOL, encoding, indentation, selection, screen reader mode; subtracts language status which may contain extension-injected text"
+  }
+]

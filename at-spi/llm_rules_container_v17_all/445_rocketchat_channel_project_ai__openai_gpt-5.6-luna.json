@@ -1,0 +1,94 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "rcx-button-group--medium"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar and toolbox action groups -- renders the closed vocabulary of fixed navigation and interface-action controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-top-bar__title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar toolbox heading -- renders the platform-defined sidebar section label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar section headings -- renders the closed vocabulary of platform-defined navigation group labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-item__menu-wrapper"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "menus for sidebar items -- renders the fixed vocabulary of item-management controls while leaving user-created channel and member names masked"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "rcx-room-header"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "room-header controls -- renders the fixed vocabulary of channel-header action buttons, excluding the user-selected channel name"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "class": "rcx-button-group--medium"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "room action toolbar -- renders the closed vocabulary of fixed channel actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-message-box__icon"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "emoji-picker control -- renders the fixed composer control for selecting emoji"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-message-box__audio-message-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "audio-message control -- renders the fixed composer control for recording or sending an audio message"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-message-box__action-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message action menu -- renders the fixed composer control for additional message actions"
+  }
+]

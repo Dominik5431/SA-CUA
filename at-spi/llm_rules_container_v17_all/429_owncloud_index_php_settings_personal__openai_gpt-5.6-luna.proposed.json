@@ -1,0 +1,205 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "header"
+      }
+    ],
+    "except": [
+      {
+        "role": "link",
+        "id": "expand"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page header -- renders fixed ownCloud branding, application navigation, and search interface; the account display-name control is excluded"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "app-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "settings navigation -- renders the fixed set of account-settings categories"
+  },
+  {
+    "own_role": "heading",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "avatar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "profile section heading -- renders the fixed profile-settings label"
+  },
+  {
+    "own_role": "label",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "avatar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "avatar upload control -- renders the fixed upload-avatar label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "selectavatar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "avatar selection control -- renders the fixed file-selection interface"
+  },
+  {
+    "own_role": "paragraph",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "avatar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "avatar help text -- renders fixed platform instructions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "lostpassword"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry",
+        "id": "email"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "email-recovery settings -- renders the fixed field label, recovery action, and platform explanation; the user email value is excluded"
+  },
+  {
+    "own_role": "heading",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "passwordform"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "password section heading -- renders the fixed password-setting label"
+  },
+  {
+    "own_role": "label",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "passwordform"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "password field labels -- render the fixed password-setting vocabulary"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "passwordform"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "password action button -- renders the fixed password-change action"
+  },
+  {
+    "own_role": "heading",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "app-content"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "settings section headings -- render the fixed vocabulary of personal-settings sections"
+  },
+  {
+    "own_role": "label",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "app-content"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "settings field labels -- render fixed operator-defined labels for account controls"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "app-content"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "settings action buttons -- render fixed account, avatar, password, and sharing actions"
+  },
+  {
+    "own_role": "combo box",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "app-content"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "settings selectors -- render the closed operator-defined vocabularies for language and notification frequency"
+  },
+  {
+    "own_role": "link",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "app-content"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "settings links -- render fixed ownCloud client, documentation, project, and setup destinations"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "email_notifications"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "notification settings panel -- renders fixed notification explanations and the closed sending-option control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "fileSharingSettings"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file-sharing settings panel -- renders fixed sharing explanations and platform-provided social-sharing controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "clientsbox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "clients panel -- renders fixed ownCloud client-download links and setup controls"
+  }
+]

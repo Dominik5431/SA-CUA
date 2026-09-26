@@ -1,0 +1,18 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "rcx-room-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "rcx-css-u5iepl"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Room header controls -- renders: fixed action buttons (Search, Members, etc.); the channel name heading is subtracted as it reflects a user-created name"
+  }
+]

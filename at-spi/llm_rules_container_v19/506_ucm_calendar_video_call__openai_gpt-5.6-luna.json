@@ -1,0 +1,24 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "header"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "header heading -- renders the operator's fixed calendar heading vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "video-call-overlay"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "video-call controls -- renders the fixed Mute, Video, Share, and End call control labels"
+  }
+]

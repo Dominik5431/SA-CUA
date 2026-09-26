@@ -1,0 +1,91 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility navigation -- renders: Skip to main content, Skip to comments"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-nav"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry",
+        "id": "site-nav-search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main navigation bar -- renders: Reddit logo, Home, Popular, Log in, Sign up, user menu controls; search input excluded as it may echo user queries"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "user-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user profile tabs -- renders: Comments, Submissions, Awards"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "article",
+        "id": "comment_2343509"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "comment__info"
+      },
+      {
+        "role": "paragraph"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment chrome -- renders: hide toggle, reply/permalink/parent links, upvote/downvote buttons; comment header (author/timestamp) and body (paragraphs) are user-generated"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "article",
+        "class": "submission"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "submission__title"
+      },
+      {
+        "role": "link",
+        "class": "submission__host"
+      },
+      {
+        "role": "paragraph",
+        "class": "submission__info"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "submission chrome -- renders: comment count link, upvote/downvote buttons; title, host, and info (author/timestamp/forum) are user-generated"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: copyright notice, Reddit link"
+  }
+]

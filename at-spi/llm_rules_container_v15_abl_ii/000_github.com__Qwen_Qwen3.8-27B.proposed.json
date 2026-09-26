@@ -1,0 +1,138 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "header-wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site header -- renders: skip link, logo, navigation menu (Product/Solutions/Marketplace/Explore/Team), search trigger, sign in, sign up, appearance settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "js-repo-pjax-container"
+      },
+      {
+        "role": "section",
+        "id": "repository-container-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "link",
+        "class": "url fn"
+      },
+      {
+        "role": "static",
+        "class": "mr-2 flex-self-stretch"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Repository header controls -- renders: Watch, Fork, Star buttons and repository navigation tabs (Code, Actions, Projects, Security, Insights); repository name and visibility label are user-generated and subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repo-content-pjax-container"
+      },
+      {
+        "role": "section",
+        "id": "repos-split-pane-content"
+      },
+      {
+        "role": "section",
+        "class": "OverviewContent-module__Box_3__wzlJx"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "ref-selector-button-text-container"
+      },
+      {
+        "role": "link",
+        "class": "AuthorAvatar-module__authorHoverableLink__MHTT8"
+      },
+      {
+        "role": "link",
+        "class": "Link--secondary"
+      },
+      {
+        "role": "link",
+        "class": "prc-Link-Link-9ZwDx"
+      },
+      {
+        "role": "section",
+        "class": "react-directory-commit-message"
+      },
+      {
+        "role": "link",
+        "class": "Link--primary"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "File browser controls and table headers -- renders: branch selector button, code/copy buttons, file search box, column headers (Name, Last commit message, Latest commit); user-generated branch names, author names, commit messages, and file names are subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repo-content-pjax-container"
+      },
+      {
+        "role": "section",
+        "id": "repos-split-pane-content"
+      },
+      {
+        "role": "section",
+        "class": "OverviewRepoFiles-module__Box_3__bBU1C"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "DirectoryRichtextContent-module__SharedMarkdownContent__hHXUL"
+      },
+      {
+        "role": "paragraph",
+        "class": "SidebarAbout-module__description__xTkIP"
+      },
+      {
+        "role": "list",
+        "class": "SidebarContributors-module__avatarGrid__ldWz7"
+      },
+      {
+        "role": "list",
+        "class": "SidebarLanguages-module__languageList__R3aIa"
+      },
+      {
+        "role": "link",
+        "class": "prc-Link-Link-9ZwDx"
+      },
+      {
+        "role": "link",
+        "class": "SidebarReleases-module__tagsLink__MhJ8g"
+      },
+      {
+        "role": "progress bar",
+        "class": "prc-ProgressBar-ProgressBarItem-mDIlB"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Repository sidebar section labels and navigation -- renders: About, Topics, Releases, Contributors, Languages headings and 'See more' links; user-generated README content, repository description, contributor avatars, language names, and release tags are subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site footer -- renders: copyright notice, Terms, Privacy, Security, Status, Docs, Contact, Pricing, API, Training, Blog, About links"
+  }
+]

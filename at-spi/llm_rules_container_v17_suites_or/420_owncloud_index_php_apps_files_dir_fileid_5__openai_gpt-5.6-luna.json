@@ -1,0 +1,105 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "header"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "settings"
+      },
+      {
+        "role": "landmark",
+        "class": "searchbox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "fixed ownCloud application header outside the account display-name and search regions -- renders operator branding, app navigation, and menu controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "header-appname-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "application header control -- renders the fixed app name and menu control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "searchbox"
+      }
+    ],
+    "own_role": "label",
+    "verdict": "trusted",
+    "note": "search field label -- renders the operator's fixed search vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "toolbarSidebar"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "PDF sidebar view controls -- renders the fixed thumbnail, outline, and attachment actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "outlineItemToggler"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "PDF outline expand control -- renders the fixed outline toggle control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "toolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "PDF viewer toolbar -- renders fixed navigation, page, zoom, scale, presentation, print, download, bookmark, and toolbar-menu controls"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "toolbarViewerLeft"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "PDF navigation buttons -- renders the fixed sidebar, find, previous-page, and next-page action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "toolbarViewerRight"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "PDF viewer actions -- renders the fixed presentation, print, download, bookmark, and secondary-toolbar controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "toolbarViewerMiddle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "PDF view controls -- renders the fixed zoom and scale-selection control vocabulary"
+  }
+]

@@ -1,0 +1,276 @@
+[
+ {
+  "ancestor_path": [
+   {
+    "role": "landmark",
+    "class": "header"
+   }
+  ],
+  "except": [
+   {
+    "role": "landmark",
+    "class": "nav"
+   },
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "operator header -- renders the fixed site heading"
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "panel",
+    "id": "sort-posts"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "sort control panel -- renders the closed set of operator-defined sort options",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "heading",
+    "id": "view-title"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "view heading -- renders the closed set of operator-defined forum view labels",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "class": "vote-label"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "vote labels -- renders the fixed operator vocabulary for vote counts",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "id": "load-more-btn-container"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "pagination control -- renders the fixed Load more action",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "id": "tags-list"
+   }
+  ],
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "[manual UCM override] sidebar tag list -- site-defined tag vocabulary and follow (+) buttons"
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "push button",
+    "class": "follow-btn"
+   }
+  ],
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "[manual UCM override] tag follow (+) control -- fixed label"
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "id": "status-filter"
+   }
+  ],
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "[manual UCM override] status filter toggles -- fixed Unanswered/Answered vocabulary"
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "id": "stats-bar"
+   }
+  ],
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "[manual UCM override] post statistics bar -- fixed labels with site-computed counts"
+ }
+]

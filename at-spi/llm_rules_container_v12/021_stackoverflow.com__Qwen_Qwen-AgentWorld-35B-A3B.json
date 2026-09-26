@@ -1,0 +1,223 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left sidebar navigation -- platform's own interface and fixed navigation links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- platform's own interface and links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answers-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answers header and sort controls -- platform-defined labels and sort dropdown"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "s-pagination--item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- platform-defined navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "s-pagination--item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- platform-defined navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-report-ad-button-container"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "report ad button -- platform control about ads"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "toggle button",
+        "class": "js-vote-up-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "vote up button -- platform control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "toggle button",
+        "class": "js-vote-down-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "vote down button -- platform control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-saves-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "save button -- platform control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-share-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "share link -- platform control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-suggest-edit-post"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "suggest edit link -- platform control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "s-btn s-btn__link js-follow-post"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "follow post button -- platform control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "user-action-time"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "timestamp controls -- platform-defined time"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "-flair"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user flair and reputation score -- platform-defined metadata"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "js-post-tag-list-wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "post tags -- platform-defined taxonomy terms"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-copy-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "copy code button -- platform control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "comment",
+        "class": "js-accepted-answer-indicator"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accepted answer indicator -- platform status badge"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-sidebarwidget bg-purple-100 ba bc-purple-400 bar-sm mb16 ps-relative js-sofa-sidebar-promo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "SOFA sidebar promo -- platform editorial copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "fragment-container-764-319-wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "heartbeat activity widget -- platform interface labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar",
+        "class": "s-notice s-notice__info post-notice"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "post notice -- platform editorial copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-bottom-notice"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "bottom notice -- platform editorial copy and tags"
+  }
+]

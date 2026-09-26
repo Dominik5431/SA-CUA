@@ -1,0 +1,72 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left sidebar navigation -- platform's own interface and links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- platform's own navigation and links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "answer-sort-dropdown-select-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answer sort control -- operator-defined sort options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-report-ad-button-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "report ad button -- platform control about ads"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "aside-cta"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "ask question button container -- platform control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "js-post-tag-list-wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "post tags -- operator-defined taxonomy terms"
+  }
+]

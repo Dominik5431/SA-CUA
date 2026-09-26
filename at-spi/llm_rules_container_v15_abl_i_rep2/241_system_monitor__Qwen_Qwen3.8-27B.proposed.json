@@ -1,0 +1,7 @@
+[
+  {
+    "scope": "page",
+    "verdict": "trusted",
+    "note": "system_monitor is a local system utility; the entire interface (navigation, controls, and telemetry labels) is operator-authored and contains no user-generated content, advertisements, or third-party feeds."
+  }
+]

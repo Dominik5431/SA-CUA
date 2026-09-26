@@ -1,0 +1,142 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-header mw-header no-font-mode-scale"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar, search box, and user links -- operator's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "p-associated-pages",
+        "class": "vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "namespace tabs (Category, Talk) -- operator-defined fixed vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "p-views",
+        "class": "vector-menu vector-menu-tabs mw-portlet mw-portlet-views"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view, edit, history tabs -- operator-defined fixed vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-appearance-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "appearance settings landmark -- font size, width, theme controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "p-lang-btn",
+        "class": "vector-dropdown mw-portlet mw-portlet-lang"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "language selector -- operator-defined list of languages"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-page-tools-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page tools dropdown -- operator-defined fixed vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "id": "footer-info",
+        "class": "mw-portlet mw-portlet-footer-info"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer info list -- site links, copyright, and privacy links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "id": "footer-places",
+        "class": "mw-portlet mw-portlet-footer-places"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer places list -- privacy, about, disclaimers, contact links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "id": "footer-icons",
+        "class": "mw-portlet mw-portlet-footer-icons noprint"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer icons list -- copyright and powered by images"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "siteSub",
+        "class": "noprint"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site subtitle (From Wikipedia, the free encyclopedia) -- operator's own fixed copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mw-indicator-mw-helplink",
+        "class": "mw-indicator"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "help link indicator -- operator's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "catlinks",
+        "class": "catlinks"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "category links (catlinks) -- operator-defined taxonomy terms"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mwAw",
+        "class": "side-box side-box-right plainlinks sistersitebox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sister site box -- operator-defined fixed vocabulary for Wikimedia projects"
+  }
+]

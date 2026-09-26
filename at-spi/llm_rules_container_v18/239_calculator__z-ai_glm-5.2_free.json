@@ -1,0 +1,7 @@
+[
+  {
+    "scope": "page",
+    "verdict": "trusted",
+    "note": "Calculator desktop application -- entire interface is operator-authored: fixed keypad buttons, mode toggles, mathematical function menus, base/angle/unit radio selectors, and display labels; no user-generated content, posts, listings, or embedded third-party content exists on this page"
+  }
+]

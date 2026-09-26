@@ -1,0 +1,92 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "HeaderRegion"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site header and navigation -- renders: Booking.com logo, language/currency selectors, 'Sign in'/'Register' links, and fixed service tabs (Accommodations, Flights, Packages, Cars, Attractions, Airport taxis)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "HeroBannerDesktop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Homepage hero banner -- renders: operator-authored marketing headline and sub-headline"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "SearchBoxDesktop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search interface -- renders: fixed labels for destination, dates, and occupancy, plus search button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "UniqueSellingPoints"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Value proposition section -- renders: operator-authored headings and descriptive copy for platform benefits"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "SecondaryBannerDesktop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Promotional banner -- renders: operator-authored marketing copy and call-to-action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "MerchCarouselPropertyTypesWww"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Property type navigation -- renders: fixed list of accommodation categories (e.g., Hotels, Apartments, Vacation Homes) defined by the platform"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "GeniusSignInBanner"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Loyalty program banner -- renders: operator-authored copy promoting the Genius program"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "SeoCoreInterlinking"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "SEO navigation -- renders: fixed list of popular destination and category links curated by the platform"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "FooterRegion"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: fixed navigation links, legal text, and social media icons"
+  }
+]

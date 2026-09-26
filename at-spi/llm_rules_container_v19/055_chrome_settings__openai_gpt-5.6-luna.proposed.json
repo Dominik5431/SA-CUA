@@ -1,0 +1,52 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "leftContent"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Settings header area -- renders: the fixed Settings title and platform branding"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "menu",
+        "id": "menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Settings navigation -- renders: fixed Chrome settings categories such as You and Google, Autofill, Privacy and security, Performance, Appearance, Search engine, Default browser, On startup, Languages, Downloads, Accessibility, System, Reset settings, Extensions, and About Chrome"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "toolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Chrome Settings toolbar -- renders: fixed Settings branding and the operator-provided search control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "entry",
+        "id": "searchInput"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Settings search control -- renders: the fixed operator-provided search-field vocabulary and control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "cr-centered-card-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Chrome sign-in and profile setup card -- renders: fixed sign-in, sync setup, edit-profile, and import-data controls with operator-authored explanatory copy"
+  }
+]

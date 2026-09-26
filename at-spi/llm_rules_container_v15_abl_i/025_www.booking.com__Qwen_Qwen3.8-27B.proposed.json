@@ -1,0 +1,84 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "bypass_menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Skip-to-content link -- renders: 'Skip to main content'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site header -- renders: 'Booking.com', 'Sign in', 'Register', 'List your property', 'Support', 'Language', 'Currency', 'Accommodations', 'Flights', 'Flight + Hotel', 'Car rental', 'Attractions', 'Airport taxis'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "fff1944c52"
+      },
+      {
+        "role": "list",
+        "class": "f6e3a11b0d"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Breadcrumb navigation -- renders: 'Home', 'Hotels', 'City', 'Property Name'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "fff1944c52"
+      },
+      {
+        "role": "section",
+        "class": "ce1108eff4"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sort control -- renders: 'Sort by: Recommended'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "ad68e1f7ce"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "View switcher -- renders: 'List', 'Grid'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "a297f43545"
+      },
+      {
+        "role": "push button",
+        "class": "fcd8e16f81"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sort dropdown button -- renders: 'Sort by: Recommended'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer_menu_track"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: 'Support', 'Discover', 'About', 'How we work', 'Careers', 'Sustainability', 'Press centre', 'Investor relations', 'Corporate contact', 'Terms & conditions', 'Privacy', 'Cookies', 'Fairness', 'Contact us', 'Booking.com for Business', 'Partners', 'Affiliates', 'Advertise', 'Property owners', 'Travel agents', 'Agencies', 'Franchising', 'Voucher', 'Countries', 'Regions', 'Cities', 'Airports', 'Hotels', 'Group travel', 'Car rental', 'Flight + Hotel', 'Airport taxis', 'Attractions', 'Flight search', 'Travel articles', 'Seasonal trends', 'Reviews', 'Copyright \u00a9 1996\u20132024 Booking.com\u2122. All rights reserved.'"
+  }
+]

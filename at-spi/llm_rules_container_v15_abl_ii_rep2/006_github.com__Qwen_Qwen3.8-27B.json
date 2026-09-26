@@ -1,0 +1,136 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "header-wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site header -- renders: Skip to content, GitHub, Platform, Solutions, Pricing, Sign in, Sign up, Search, Appearance"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "js-repo-pjax-container"
+      },
+      {
+        "role": "section",
+        "id": "repository-container-header"
+      },
+      {
+        "role": "section",
+        "id": "repository-details-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Repository action buttons -- renders: Watch, Fork, Star (labels are fixed operator vocabulary; counts are handled by deterministic pass)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "js-repo-pjax-container"
+      },
+      {
+        "role": "section",
+        "id": "repository-container-header"
+      },
+      {
+        "role": "landmark",
+        "class": "js-repo-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Repository tab navigation -- renders: Code, Issues, Pull requests, Actions, Projects, Wiki, Security and quality, Insights"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repo-content-pjax-container"
+      },
+      {
+        "role": "landmark",
+        "class": "mb-2 flex-1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Release filter tabs -- renders: Releases, Tags"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repo-content-pjax-container"
+      },
+      {
+        "role": "section",
+        "class": "position-relative ml-md-2"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Release search input -- renders: Search releases"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repo-content-pjax-container"
+      },
+      {
+        "role": "section",
+        "class": "d-none d-md-block position-sticky"
+      },
+      {
+        "role": "heading",
+        "class": "tmp-pt-4 tmp-pb-2 f3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar heading -- renders: Releases"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repo-content-pjax-container"
+      },
+      {
+        "role": "section",
+        "class": "d-none d-md-block position-sticky"
+      },
+      {
+        "role": "landmark",
+        "class": "pagination"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar pagination controls -- renders: Previous, Next"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repo-content-pjax-container"
+      },
+      {
+        "role": "landmark",
+        "class": "pagination"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main content pagination controls -- renders: Previous, Next, page numbers"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: GitHub, Terms, Privacy, Security, Status, Docs, Contact, Manage cookies, Do not share my personal information"
+  }
+]

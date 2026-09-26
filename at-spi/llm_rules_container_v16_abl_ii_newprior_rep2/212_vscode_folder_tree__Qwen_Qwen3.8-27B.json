@@ -1,0 +1,98 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar",
+        "class": "ElectronMenuBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "native application menu bar -- renders fixed operator vocabulary: File/Edit/Selection/View/Go/Run/Terminal/Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-action-bar vertical"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "activity bar and status bar icons -- renders fixed operator vocabulary: Explorer, Search, Source Control, Run, Extensions, Accounts, Settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "composite title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "viewlet header -- renders fixed operator vocabulary: 'Explorer' and view actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "pane-header expanded"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "explorer pane header -- renders fixed operator vocabulary: 'Open Editors' and file actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "pane-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "explorer pane header -- renders fixed operator vocabulary: 'Open Editors' or 'Outline'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "pane-header timeline-view"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "explorer pane header -- renders fixed operator vocabulary: 'Timeline'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "tabs-and-actions-container tabs-border-bottom"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "tab-label"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "editor tab bar controls -- renders fixed operator vocabulary: close, split, more actions; subtracts tab labels which echo file names"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "document frame",
+        "class": "gettingStartedContainer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "getting started page -- renders fixed operator vocabulary: product name, subtitle, action links, category titles, and descriptions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar",
+        "id": "workbench.parts.statusbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "status bar -- renders fixed operator vocabulary: remote indicator, SCM status, problems count, port forwarding, notifications, screen reader mode"
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders: operator site identity, fixed navigation links, and the fixed cart control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "entry",
+        "id": "search-input"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search control -- renders: the operator-defined search field"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "search-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search action -- renders: the fixed Search control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "sort-select"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sort control -- renders: the fixed product ordering choices"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "products-grid"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "product-card action controls -- renders: the fixed Add to cart buttons"
+  }
+]

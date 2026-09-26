@@ -1,0 +1,163 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "gl-sr-only gl-accessibility"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility skip link -- renders fixed platform navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "logo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "platform logo link -- renders fixed GitLab branding"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "header-new-dropdown-toggle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "new-project header control -- renders fixed project-creation vocabulary"
+  },
+  {
+    "own_role": "image",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "gl-search-box-by-type"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "header search icon -- renders fixed search-control imagery"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "keyboard-shortcut-helper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search keyboard-shortcut hint -- renders fixed platform shortcut vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "dashboard-shortcuts-issues"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issues navigation control -- renders fixed issues vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "dashboard-shortcuts-merge_requests"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "merge-request navigation control -- renders fixed merge-request vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "shortcuts-todos"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "todos navigation control -- renders fixed todo vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "header-help-dropdown-toggle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "help menu control -- renders fixed help vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "toggle-sidebar-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar collapse control -- renders fixed sidebar-toggle vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "__BVID__7"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issue-state tab widget -- renders fixed issue-state tab vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "btn btn-default btn-md gl-button btn-icon"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issue-page icon action links -- render fixed platform action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "gl-search-box-by-click-search-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issue search submit control -- renders fixed search vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "gl-search-box-by-click-history"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issue search-history control -- renders fixed search-history vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "sort-dropdown-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issue sorting controls -- render fixed sort and view-control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "issues-bulk-update"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "bulk-update sidebar control region -- renders fixed issue-management vocabulary"
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-header mw-header no-font-mode-scale"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation header -- platform's own interface including logo, main menu, search, and user links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "mw-body-header vector-page-titlebar no-font-mode-scale"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page title header -- platform's own interface including page heading and help link indicator"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-appearance-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "appearance settings panel -- operator-defined controls for font size, width, and skin theme"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer",
+        "class": "mw-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- platform's own interface with privacy, about, disclaimers, and other site links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "mw-changeslist-legend"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "changes list legend -- operator-defined taxonomy terms and status badges for edit types"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "mw-jump-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "jump to content link -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-page-tools-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page tools landmark -- operator's own interface for page-specific tools and dropdown"
+  }
+]

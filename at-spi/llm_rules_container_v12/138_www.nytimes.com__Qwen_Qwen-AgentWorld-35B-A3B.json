@@ -1,0 +1,23 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "alert",
+        "id": "fides-banner-container",
+        "class": "fides-banner fides-banner-bottom fides-tcf-banner-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie and privacy preferences banner -- operator-controlled interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Wr7_RG_mastheadWrapper Wr7_RG_mastheadWrapperCentered Wr7_RG_mastheadWrapperResponsive"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "masthead navigation and header -- platform's own interface throughout"
+  }
+]

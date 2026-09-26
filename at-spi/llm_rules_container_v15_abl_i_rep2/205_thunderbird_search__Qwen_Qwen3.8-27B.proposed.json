@@ -1,0 +1,121 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "spacesToolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "application mode switcher -- renders: Mail/Address Book/Calendar/Tasks/Chat/Settings/Collapse"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "icons-beside-text"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "unified toolbar and window controls -- renders: search icon, app menu, minimize/restore/close; search query text is subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "toolbar-menubar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "application menu bar -- renders: File/Edit/View/Go/Message/Tasks/Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "chat-toolbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "label",
+        "id": "statusMessageLabel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "chat toolbar controls -- renders: Add Buddy/Join Chat/Status/Accounts; user-set status message is subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "folderPaneHeaderBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "folder pane action buttons -- renders: More/Write/Get Messages"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "threadPaneHeaderBar"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "id": "threadPaneFolderName"
+      },
+      {
+        "role": "section",
+        "id": "threadPaneFolderCountContainer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "thread pane header controls -- renders: Quick Filter/Display; folder name and count are subtracted as they reflect user data"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "quick-filter-bar"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry"
+      },
+      {
+        "role": "section",
+        "id": "qfb-results-label"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "quick filter controls -- renders: Sticky/Unread/Starred/In Address Book/Tags/Attachment/Sender/Recipients/Subject/Body; search text and result count are subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "start-page"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Thunderbird start page -- renders: Release Channel/Donate/Logo/Tagline/Features/Get Help; all content is operator-authored marketing and navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "status bar -- renders: Offline Status/Status Text; standard application chrome"
+  }
+]

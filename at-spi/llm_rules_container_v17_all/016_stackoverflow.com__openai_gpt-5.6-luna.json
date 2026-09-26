@@ -1,0 +1,257 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "s-topbar--skip-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip navigation control -- renders fixed platform navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "s-topbar--logo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Stack Overflow logo link -- renders fixed platform branding"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "s-navigation--item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation link -- renders fixed platform navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "s-navigation--item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation button -- renders fixed platform navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search control -- renders the fixed search interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-help-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "help navigation control -- renders fixed help vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "s-btn__outlined"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sign-in control -- renders fixed sign-in vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "s-btn__filled"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sign-up and fixed call-to-action links -- render fixed platform vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answers-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answers header -- renders the fixed answers section label, count label, and sorting interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "answer-sort-dropdown-select-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answer sort control -- renders fixed sorting vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "aside-cta"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question action call-to-action -- renders fixed ask-question vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "toggle button",
+        "class": "js-vote-up-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "upvote controls -- render fixed voting vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "toggle button",
+        "class": "js-vote-down-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "downvote controls -- render fixed voting vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-saves-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "save controls -- render fixed save vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-copy-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "code copy controls -- render fixed copy vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-report-ad-button-container"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "report-ad controls outside advertisement creatives -- render fixed reporting vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question"
+      },
+      {
+        "role": "link",
+        "class": "js-share-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question share control -- renders fixed sharing vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "answer"
+      },
+      {
+        "role": "link",
+        "class": "js-share-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answer share controls -- render fixed sharing vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question"
+      },
+      {
+        "role": "link",
+        "class": "js-suggest-edit-post"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question edit-suggestion control -- renders fixed editing vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "answer"
+      },
+      {
+        "role": "link",
+        "class": "js-suggest-edit-post"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answer edit-suggestion controls -- render fixed editing vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question"
+      },
+      {
+        "role": "push button",
+        "class": "js-follow-post"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question follow control -- renders fixed follow vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "answer"
+      },
+      {
+        "role": "push button",
+        "class": "js-follow-post"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answer follow controls -- render fixed follow vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders fixed platform navigation, legal, consent, and social vocabulary"
+  }
+]

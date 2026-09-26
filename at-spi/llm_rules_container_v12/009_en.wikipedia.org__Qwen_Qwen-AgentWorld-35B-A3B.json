@@ -1,0 +1,192 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-header mw-header no-font-mode-scale"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar and header -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "p-search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search box -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-user-links vector-user-links-wide"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user links menu -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "p-associated-pages"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left navigation tabs -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "p-views"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "right navigation tabs -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-page-tools-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page tools dropdown -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-appearance-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "appearance settings -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "table of contents header and unpin button -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "siteSub"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site subtitle -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "mw-jump-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "jump to content link -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mw-aria-live-region"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "aria live region -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "mw-logo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "wikipedia logo -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-main-menu-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main menu dropdown -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "siteNotice"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site notice and central notice -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mw-indicators"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page indicators (protected page, spoken article) -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "p-lang-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "language selector -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "catlinks"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "category links -- platform's taxonomy terms"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mwCUE"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "spoken wikipedia audio player and disclaimer -- platform's own interface"
+  }
+]

@@ -1,0 +1,104 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "searchbox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search box landmark -- platform's own search interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "app-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "settings navigation sidebar -- operator-defined menu items"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "OC\\Settings\\Panels\\Personal\\Quota"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "quota section -- operator-defined quota text and controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "displaynameform"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry",
+        "id": "displayName"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "display name form section -- renders: heading and label; the display name input value is subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "lostpassword"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry",
+        "id": "email"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "lost password section -- renders: heading, label, email recovery button and static text; the email input value is subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "passwordform"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "password form section -- operator interface for password change controls and labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "languageinput"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "language selection combo box -- operator-defined closed set of language options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "email_notifications"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "email notifications section -- operator interface and email sending option combo box"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "clientsbox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "clients box section -- operator interface for client download links and wizard"
+  }
+]

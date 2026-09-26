@@ -1,0 +1,124 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility navigation -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "submission__nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "submission navigation controls -- platform's own interface for comment, share, save actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vote"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "vote buttons -- platform's own interface for upvote and downvote controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "comment-form form flow"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment form chrome -- platform's own interface for adding comments"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "sidebar",
+        "class": "site-content__sidebar sidebar flow"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar -- platform's own interface including submission meta, subscribe form, and community links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "comment__nav hideable__hide"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment navigation controls -- platform's own interface for reply and permalink actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "check box",
+        "class": "hideable__checkbox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment and form toggle checkboxes -- platform's own interface controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "class": "comment__info-link comment__hide-toggle hideable__toggle fg-grey no-wrap"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment hide toggle labels -- platform's own interface controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "static",
+        "class": "submission__timestamp"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "submission timestamp -- computed operator-defined value"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "flex unlistify"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "tabs navigation and comment header controls -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "entry",
+        "id": "site-nav-search",
+        "class": "form-control site-nav__search-input"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search box input -- platform's own interface control"
+  }
+]

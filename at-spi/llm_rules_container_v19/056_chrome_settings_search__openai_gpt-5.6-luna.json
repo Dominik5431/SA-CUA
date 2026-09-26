@@ -1,0 +1,70 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "toolbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "panel",
+        "id": "search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "browser settings header chrome -- renders the fixed Settings header vocabulary and controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "id": "search"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "searchTerm"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search control frame -- renders fixed search UI chrome, with the user-entered search term excluded"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "settings page heading -- renders the fixed title vocabulary for this settings page"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "card"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "search-engine-name"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search-engine settings card -- renders fixed setting labels, explanatory copy, navigation and dialog controls; the selected search-engine name is excluded"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "openDialogButton"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "settings dialog control -- renders the fixed control vocabulary for changing the search engine"
+  }
+]

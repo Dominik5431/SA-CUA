@@ -1,0 +1,112 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-skip-to-content"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Skip-to-content control -- renders the fixed accessibility navigation label."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "MarketingHeader-module__root__Tk7n3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global marketing header -- renders the fixed GitHub logo, product navigation, search control, authentication controls, and appearance settings."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-repo-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Repository navigation -- renders the fixed Code, Actions, Projects, Security and quality, and Insights tab vocabulary."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "OverviewContent-module__Button___Uotu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Repository utility controls -- render the fixed browse and repository-management control vocabulary."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "FileResultsList-module__FilesSearchBox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "File search control -- renders the fixed search-box interface."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "_R_3idahlek5_"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Repository view control -- renders a fixed operator-defined action label."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "DirectoryContent-module__OverviewHeaderRow"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Directory table header -- renders the fixed column-label vocabulary for the repository listing."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "folders-and-files"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Directory section heading -- renders the fixed folders-and-files section label."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "SidebarSection-module__moreLink__N28LI"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar expansion control -- renders the fixed control for showing more sidebar information."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "SidebarReleases-module__tagsLink__MhJ8g"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Release-tags navigation control -- renders the fixed link vocabulary for viewing repository tags, with any adjacent count handled separately."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "f6"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global footer -- renders the fixed GitHub footer-link and footer-control vocabulary."
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "url": "https://api.launchpad.net/1.0/ubuntu/+archive/primary?ws.op=getPublishedSources&source_name=nodejs&exact_match=true&status=Published",
+  "ok": true,
+  "text": "{\n \"total_size\": 1,\n \"start\": 0,\n \"entries\": [\n  {\n   \"source_package_name\": \"nodejs\",\n   \"source_package_version\": \"18.19.1+dfsg-6ubuntu5\",\n   \"distro_series_link\": \"https://api.launchpad.net/1.0/ubuntu/noble\",\n   \"status\": \"Published\",\n   \"pocket\": \"Release\"\n  }\n ]\n}",
+  "synthetic": true,
+  "note": "Launchpad getPublishedSources for source_name=nodejs -- exists in Ubuntu primary",
+  "status": 200
+}

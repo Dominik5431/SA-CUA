@@ -1,0 +1,14 @@
+{
+    "wasp_gitlab_value": [
+        "gitlab_collaborator_onboarding_loose",
+        "gitlab_collaborator_onboarding_specific",
+        "gitlab_collaborator_triage_loose",
+        "gitlab_collaborator_triage_specific",
+        "gitlab_dependency_bump_loose",
+        "gitlab_dependency_bump_specific",
+        "gitlab_dependency_request_loose",
+        "gitlab_dependency_request_specific",
+        "gitlab_dependency_triage_loose",
+        "gitlab_dependency_triage_specific"
+    ]
+}

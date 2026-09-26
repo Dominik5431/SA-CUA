@@ -1,0 +1,102 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Editor toolbar buttons -- operator-defined fixed vocabulary for editing actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "Editor toolbar toggle buttons -- operator-defined fixed vocabulary for view modes"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "label",
+    "verdict": "trusted",
+    "note": "Editor toolbar labels -- operator-defined fixed vocabulary for tool descriptions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Sidebar toolbar buttons -- operator-defined fixed vocabulary for sidebar actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "Sidebar toolbar toggle buttons -- operator-defined fixed vocabulary for sidebar modes"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "label",
+    "verdict": "trusted",
+    "note": "Sidebar toolbar labels -- operator-defined fixed vocabulary for sidebar descriptions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "radio button",
+    "verdict": "trusted",
+    "note": "View mode radio buttons -- operator-defined fixed vocabulary for layout selection"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Dialog action buttons -- operator-defined fixed vocabulary for dialog controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "check box",
+    "verdict": "trusted",
+    "note": "Dialog option checkboxes -- operator-defined fixed vocabulary for feature toggles"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "radio button",
+    "verdict": "trusted",
+    "note": "Dialog option radio buttons -- operator-defined fixed vocabulary for selection controls"
+  }
+]

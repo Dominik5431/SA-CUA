@@ -1,0 +1,67 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "gnome-panel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top panel -- renders: fixed navigation buttons, search controls, and view switchers"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "gnome-panel"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Top panel buttons -- renders: fixed action buttons for file operations"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "gnome-panel"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "Top panel toggles -- renders: fixed view mode options (list, grid, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "gnome-panel"
+      }
+    ],
+    "own_role": "radio button",
+    "verdict": "trusted",
+    "note": "Top panel radios -- renders: fixed sort criteria (name, date, size, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "gnome-panel"
+      }
+    ],
+    "own_role": "check box",
+    "verdict": "trusted",
+    "note": "Top panel checkboxes -- renders: fixed filter options (file type, date range, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "gnome-panel"
+      }
+    ],
+    "own_role": "label",
+    "verdict": "trusted",
+    "note": "Top panel labels -- renders: fixed section labels and property names"
+  }
+]

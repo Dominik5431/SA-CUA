@@ -1,0 +1,32 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "HeaderRegion"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "header region -- platform's own navigation, logo, and tab menu for accommodations, flights, packages, cars, attractions, airport taxis"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "HeroBannerDesktop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "hero banner -- operator editorial copy and headings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "onetrust-banner-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent banner -- operator's own interface for cookie preferences"
+  }
+]

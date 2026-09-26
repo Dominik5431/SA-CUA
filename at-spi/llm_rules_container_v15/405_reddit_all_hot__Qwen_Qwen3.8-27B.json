@@ -1,0 +1,22 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility skip links -- renders: fixed platform navigation shortcuts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "flex--guttered"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "feed view and sort controls -- renders: fixed tab labels and sort dropdowns"
+  }
+]

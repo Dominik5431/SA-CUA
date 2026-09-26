@@ -1,0 +1,72 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility navigation -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "flex flex--guttered"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment sort/view tabs -- operator-defined sort controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "check box",
+        "class": "hideable__checkbox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment hide toggle -- operator control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "comment__nav hideable__hide"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment navigation links -- reply, permalink, parent controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vote"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "vote controls and score -- operator-defined voting buttons and computed score"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "page-heading"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page heading -- operator-defined section label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "entry",
+        "id": "site-nav-search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site search input -- operator control"
+  }
+]

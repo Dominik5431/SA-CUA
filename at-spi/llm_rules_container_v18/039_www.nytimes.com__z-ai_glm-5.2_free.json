@@ -1,0 +1,102 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "fides-overlay"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent overlay -- renders: fixed consent dialog text and controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Wr7_RG_mastheadWrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "masthead navigation -- renders: section links, search button, sections menu, section label, subscribe link; fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "css-1ta8iz9"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "section page header -- renders: 'Technology' heading and fixed sub-section navigation links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "collection-highlights-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "featured articles module -- renders: operator-authored editorial headlines, summaries, bylines, and image captions; no UGC on a news publisher's section front"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "5-band"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "article links band -- renders: section header with 'see all' link and operator-authored editorial headlines with images"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "tab-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "tab navigation -- renders: fixed tab labels for switching stream views"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "stream-panel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "article stream -- renders: operator-authored editorial headlines, summaries, bylines; NYT journalists are the operator, no outside party can change what appears"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "css-1jx9oro"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- renders: fixed page-number links and next/previous navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "site-index"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site index label -- renders: fixed 'Site Index' heading"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer navigation -- renders: fixed footer links (Help, Contact, Accessibility, Terms, etc.) and subscribe heading"
+  }
+]

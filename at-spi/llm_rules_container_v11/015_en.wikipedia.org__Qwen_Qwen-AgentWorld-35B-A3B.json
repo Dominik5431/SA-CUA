@@ -1,0 +1,212 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-header mw-header no-font-mode-scale"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation header -- platform's own interface including main menu, logo, search, and user links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-main-menu-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main menu landmark -- platform's own interface for main navigation dropdown"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "mw-logo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "wikipedia logo -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "p-search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search box -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-user-links vector-user-links-wide"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user links menu -- platform's own interface for site support, create account, and log in"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "p-vector-user-menu-overflow"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user menu overflow -- platform's own interface for user menu dropdown"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left navigation panel -- platform's own interface including associated pages tabs"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "p-associated-pages"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "associated pages menu -- platform's own interface tabs for category and talk"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "right-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "right navigation panel -- platform's own interface including views and page tools"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "p-views"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "views menu -- platform's own interface tabs for view, edit, and history"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-page-tools-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page tools landmark -- platform's own interface for page tools dropdown"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "vector-page-tools-dropdown"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page tools dropdown -- platform's own interface controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-appearance-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "appearance settings landmark -- platform's own interface for font size, width, and theme preferences"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "vector-appearance-pinned-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "appearance pinned container -- platform's own interface for appearance settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "vector-appearance"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "appearance settings -- platform's own interface for pinning and toggling appearance menu"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "skin-client-prefs-vector-feature-custom-font-size"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "custom font size settings -- platform's own interface for font size preferences"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "skin-client-prefs-vector-feature-limited-width"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "limited width settings -- platform's own interface for width preferences"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "skin-client-prefs-skin-theme"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skin theme settings -- platform's own interface for theme preferences (os, day, night)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "id": "footer-info"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer info list -- platform's own interface including last mod, rendered with, copyright"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "id": "footer-places"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer places list -- platform's own interface for privacy, about, disclaimers, contact, etc."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "id": "footer-icons"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer icons list -- platform's own interface for copyright and powered by icons"
+  }
+]

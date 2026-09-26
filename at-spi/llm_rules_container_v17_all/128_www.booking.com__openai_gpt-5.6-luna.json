@@ -1,0 +1,150 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders the operator's fixed logo, account controls, help controls, and travel-category navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_tab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "primary travel-category navigation -- renders fixed categories such as accommodations, flights, packages, cars, attractions, and airport taxis"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "searchbox-horizontal-destination-input",
+        "class": "b915b8dc0b"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "destination search control -- renders the operator's fixed destination-search widget"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "searchbox-horizontal-occupancy-label"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search-form label -- renders the fixed occupancy label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "f5852f597b"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "property-page tab navigation -- renders fixed tabs such as overview, availability, facilities, policies, fine print, and reviews"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_book_now_button",
+        "class": "book_now_button_handler"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "property booking control -- renders the fixed book-now action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hprt-table"
+      },
+      {
+        "role": "table row",
+        "class": "hprt-table-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "room-rate table headers -- renders fixed column vocabulary for room type, price, policies, and room selection"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "class": "hprt-nos-select"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "room quantity selectors -- renders fixed booking controls for selecting the number of rooms"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "hprt-reservation-cta"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "reservation call-to-action -- renders the fixed booking action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "pp-faq",
+        "class": "page-section"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "property FAQ interface -- renders operator-authored FAQ headings and fixed expandable question controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "TravellerFooter_inline-links-list--content"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer inline navigation -- renders the operator's fixed footer links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "TravellerFooter_footer-lists"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer link groups -- renders fixed operator support, partner, legal, and navigation links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "TravellerFooter_footer-control-section"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer controls -- renders fixed language, currency, and footer display controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "onetrust-banner-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie-consent banner -- renders fixed operator privacy explanation, settings, reject, and accept controls"
+  }
+]

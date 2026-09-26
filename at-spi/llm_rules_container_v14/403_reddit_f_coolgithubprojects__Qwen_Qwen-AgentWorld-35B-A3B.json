@@ -1,0 +1,42 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility navigation -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "flex flex--guttered"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sort controls and tabs -- platform's own interface for sorting posts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vote"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "vote controls and vote count -- operator-defined voting interface and computed values"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "static",
+        "class": "submission__timestamp"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "submission timestamp -- computed operator-defined value"
+  }
+]

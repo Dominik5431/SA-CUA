@@ -1,0 +1,44 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header and navigation -- renders the operator's fixed site heading, New Page control, and navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "welcome-screen"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "welcome heading -- renders the operator's fixed welcome vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "welcome-screen"
+      }
+    ],
+    "own_role": "paragraph",
+    "verdict": "trusted",
+    "note": "welcome and usage copy -- renders the operator's fixed introductory and instructional vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "stat-label"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "statistics labels -- renders the fixed labels for article, category, and update counts"
+  }
+]

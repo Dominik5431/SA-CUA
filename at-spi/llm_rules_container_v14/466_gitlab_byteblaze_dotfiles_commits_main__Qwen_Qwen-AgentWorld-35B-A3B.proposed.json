@@ -1,0 +1,96 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "navbar navbar-gitlab navbar-expand-sm js-navbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header has-tooltip"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "project navigation sidebar -- renders: Project information, Repository, Commits, Branches, Issues, Merge requests, Pipelines, Deployments, Infrastructure, Monitor, Analytics, Wiki, Snippets, Settings; excludes project name in context header"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "js-header-search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "header search box -- platform's own search control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "tree-controls"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "commit list search and control buttons -- platform's own search and filter controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list item",
+        "class": "commit-header js-commit-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "commit list headers -- renders: date separators or 'All commits' section labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "commit-sha-group btn-group d-none d-sm-flex"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "commit SHA group controls -- renders: SHA label, copy and options buttons"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "list item",
+        "class": "commit flex-row js-toggle-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "GPG status badge and action buttons in commit rows"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "committer"
+      }
+    ],
+    "except": [
+      {
+        "role": "link",
+        "class": "commit-author-link"
+      }
+    ],
+    "own_role": "static",
+    "verdict": "trusted",
+    "note": "timestamp labels and action copy in committer section -- renders: timeago dates and 'committed'; excludes author name link"
+  }
+]

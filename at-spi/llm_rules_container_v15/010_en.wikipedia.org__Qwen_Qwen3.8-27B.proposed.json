@@ -1,0 +1,72 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: Wikipedia logo, search box, main menu, user links (Donate, Create account, Log in)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "mw-panel-toc"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Table of contents -- renders: fixed section labels (Contents, Description, History, etc.) derived from article structure"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Left navigation tabs -- renders: fixed view labels (Article, Talk)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "right-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Right navigation tabs and tools -- renders: fixed view labels (Read, Edit, View history, Tools)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-appearance-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Appearance settings panel -- renders: fixed UI labels (Appearance, Text, Width, Theme, font size options)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "siteSub"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Page subtitle -- renders: fixed operator string 'From Wikipedia, the free encyclopedia'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Page footer -- renders: fixed operator links (Privacy policy, About, Disclaimers, Contact, etc.) and copyright notices"
+  }
+]

@@ -1,0 +1,122 @@
+[
+ {
+  "ancestor_path": [
+   {
+    "role": "push button",
+    "class": "menu-item-btn"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "menu action controls -- renders the fixed add-to-cart action vocabulary",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "landmark",
+    "class": "filters-sidebar"
+   }
+  ],
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "[manual UCM override] menu filter sidebar -- search box, price slider, dietary/allergen toggles, clear button"
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "panel",
+    "id": "category-filter"
+   }
+  ],
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "[manual UCM override] menu category filter -- fixed category vocabulary"
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "id": "menu-items"
+   }
+  ],
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "[manual UCM override] menu grid -- prices, dietary/allergen badges, Add to Order; item names and descriptions are data-untrusted and subtracted"
+ }
+]

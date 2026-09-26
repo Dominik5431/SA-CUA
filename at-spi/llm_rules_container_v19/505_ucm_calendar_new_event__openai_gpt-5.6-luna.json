@@ -1,0 +1,51 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "header"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "current-week"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page header excluding the changing current-week value -- renders the fixed page heading and navigation controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "create-event-modal"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "event-creation modal heading -- renders the fixed dialog title"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "create-event-modal"
+      }
+    ],
+    "own_role": "label",
+    "verdict": "trusted",
+    "note": "event form labels -- renders the fixed Title, Day, Time, Description, Attendees, and Location vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "create-event-modal"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "event form actions -- renders the fixed Confirm create event and Cancel button vocabulary"
+  }
+]

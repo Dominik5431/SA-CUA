@@ -1,0 +1,177 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left sidebar navigation and freemium CTA -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "onetrust-banner-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent banner -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- platform's own interface and links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answers-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answers header and sort control -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-vote-count fs-title lh-md mb8 ta-center"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "vote count display -- computed operator-defined value"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-saves-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "save button -- platform control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-post-issue"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "post issue report link -- platform control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar",
+        "class": "s-notice"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "post notice -- operator-defined info notices"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "js-post-tag-list-wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "post tags -- taxonomy terms from operator-defined list"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-share-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "share link -- platform control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "user-action-time"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user action time -- timestamps and dates"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "user-gravatar32"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user gravatar -- platform profile image container"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "-flair"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user flair -- reputation score and profile links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-add-link comments-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "add comments link button -- platform control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "aside-cta"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question header aside CTA -- ask/follow/bookmark buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hot-network-questions"
+      }
+    ],
+    "except": [
+      {
+        "role": "list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "hot network questions section heading and frame -- platform section label; excludes user-generated question list"
+  }
+]

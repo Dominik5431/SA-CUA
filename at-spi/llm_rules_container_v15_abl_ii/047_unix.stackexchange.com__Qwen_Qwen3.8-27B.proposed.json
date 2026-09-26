@@ -1,0 +1,194 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: skip link, logo, search bar, Help, Network, Log in, Sign up"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site header -- renders: site name/logo"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Left sidebar navigation -- renders: Home, Questions, Unanswered, Ask, Tags, Users, Companies, Chat, SOFA, and promotional CTA text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "fs-headline1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Question header controls -- renders: 'Ask Question' button; question title is user-generated and subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item ws-nowrap mr16 mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Question metadata row -- renders: 'Asked', 'Modified', 'Viewed' labels and timestamps"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item ws-nowrap mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Question metadata row -- renders: 'Active' label and timestamp"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answers-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Answers header -- renders: 'Answers' heading, 'Sorted by' label, and sort dropdown options (Newest, Oldest, Score)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "Vote controls -- renders: upvote and downvote buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Post action buttons -- renders: Save, Flag, Share, Suggest Edit, Follow"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question"
+      }
+    ],
+    "own_role": "link",
+    "verdict": "trusted",
+    "note": "Post action links -- renders: Share, Suggest Edit, Follow, and user profile links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "answer js-answer"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "Vote controls -- renders: upvote and downvote buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "answer js-answer"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Post action buttons -- renders: Save, Flag, Share, Suggest Edit, Follow"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "answer js-answer"
+      }
+    ],
+    "own_role": "link",
+    "verdict": "trusted",
+    "note": "Post action links -- renders: Share, Suggest Edit, Follow, and user profile links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: navigation links (Tour, Help, About, Legal, Privacy Policy, Terms of Service, Contact Us, Mobile), social links, and copyright text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-report-ad-button-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Ad report controls -- renders: 'Report this ad' button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "h-linked"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar section heading -- renders: 'Linked'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "h-related"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar section heading -- renders: 'Related'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "feed-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Feed link -- renders: 'RSS Feed'"
+  }
+]

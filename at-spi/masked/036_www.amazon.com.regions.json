@@ -1,0 +1,57 @@
+{
+  "file": "036_www.amazon.com.xml",
+  "screen": [
+    1920,
+    1080
+  ],
+  "regions": [
+    {
+      "bbox": [
+        940,
+        338,
+        484,
+        742
+      ],
+      "n": 22,
+      "label": "centerCol",
+      "kind": "section",
+      "id": 1
+    },
+    {
+      "bbox": [
+        259,
+        338,
+        660,
+        669
+      ],
+      "n": 12,
+      "label": "leftCol",
+      "kind": "section",
+      "id": 2
+    },
+    {
+      "bbox": [
+        1448,
+        114,
+        472,
+        966
+      ],
+      "n": 5,
+      "label": "rightCol",
+      "kind": "section",
+      "id": 3
+    },
+    {
+      "bbox": [
+        70,
+        114,
+        1843,
+        167
+      ],
+      "n": 1,
+      "label": "navbar-main",
+      "kind": "landmark",
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "navbar-main",
+        "class": "nav-opt-sprite nav-flex nav-locale-us nav-lang-en nav-ssl nav-unrec nav-progressive-attribute"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "nav-search-bar-form",
+        "class": "nav-searchbar nav-progressive-attribute"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search bar form and controls -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "searchDropdownBox",
+        "class": "nav-search-dropdown searchSelect nav-progressive-attrubute nav-progressive-search-dropdown"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search scope dropdown -- operator-defined categories"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "entry",
+        "id": "twotabsearchtextbox",
+        "class": "nav-input nav-progressive-attribute"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search input field -- platform's own control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "nav-search-submit-button",
+        "class": "nav-input nav-progressive-attribute"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search submit button -- platform's own control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-tools",
+        "class": "layoutToolbarPadding"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "navigation tools including language, account, orders, cart -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-main",
+        "class": "nav-sprite"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main navigation menu including hamburger and departments -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "s-result-sort-select",
+        "class": "a-native-dropdown a-declarative"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search results sort control -- operator-defined sort options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "s-widget-container s-spacing-mini s-widget-container-height-mini celwidget slot=MAIN template=MESSAGING widgetId=messaging-messages-results-header-builder-legal-disclaimer-and-ranking-disclosure-builder"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search results legal disclaimer and ranking disclosure -- operator-authored copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooter",
+        "class": "navLeftFooter nav-sprite-v1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer navigation and links -- platform's own interface"
+  }
+]

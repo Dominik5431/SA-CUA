@@ -1,0 +1,64 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-action-bar vertical"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Activity Bar navigation icons -- operator's own interface with fixed vocabulary (Explorer, Search, Source Control, Run and Debug, Extensions, accounts, settings)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar",
+        "class": "ElectronMenuBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top menu bar -- operator's own interface with fixed vocabulary (File, Edit, Selection, View, Go, Run, Terminal, Help)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar",
+        "id": "workbench.parts.statusbar",
+        "class": "part statusbar status-border-top"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Status bar -- operator-defined status indicators and controls (host, problems, forwarded ports, notifications, editor mode, EOL, encoding, indentation, selection, screen reader mode)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "class": "actions-container highlight-toggled"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Editor tab actions toolbar -- split and more actions controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "notification-list-item-buttons-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Notification action buttons -- operator controls for notifications"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "notification-list-item"
+      }
+    ],
+    "own_role": "tool bar",
+    "verdict": "trusted",
+    "note": "Notification actions toolbar -- clear and configure controls"
+  }
+]

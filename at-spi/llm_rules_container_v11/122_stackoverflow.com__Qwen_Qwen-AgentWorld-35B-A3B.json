@@ -1,0 +1,72 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left sidebar navigation and freemium cta -- platform's own interface and fixed navigation links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "onetrust-banner-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent banner -- platform's own interface and controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "stats"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user stats section -- renders computed values like reputation and badges"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "list-reset d-flex fd-column gs12 gsy wmx2"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "list of Stack Exchange sites -- operator-defined taxonomy terms"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "fs-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "section headings -- operator-defined labels and titles"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- platform's own interface and links throughout"
+  }
+]

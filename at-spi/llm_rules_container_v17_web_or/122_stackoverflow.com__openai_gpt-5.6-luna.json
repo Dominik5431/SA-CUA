@@ -1,0 +1,83 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "link",
+        "class": "js-site-switcher-button"
+      },
+      {
+        "role": "combo box",
+        "class": "s-input__search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation chrome -- renders the operator's fixed logo, navigation, help, sign-in and sign-up controls; the site-switcher item and echoed search contents are excluded"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list item",
+        "class": "js-freemium-cta"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "operator sidebar call-to-action -- renders fixed platform promotional copy and operator-defined action links"
+  },
+  {
+    "own_role": "heading",
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "main-content"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "profile-page section headings -- renders the operator's fixed labels for statistics, communities, badges, tags, top posts, and related sections"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-post-filter-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top-posts filter controls -- renders the operator-defined fixed post-type filter vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-post-sort-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top-posts sort controls -- renders the operator-defined fixed sorting vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders the operator's fixed product, company, legal, social, privacy, consent, and navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "dialog",
+        "class": "ot-sdk-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "operator cookie-consent dialog -- renders fixed consent-policy copy, vendor-settings controls, and accept or reject actions"
+  }
+]

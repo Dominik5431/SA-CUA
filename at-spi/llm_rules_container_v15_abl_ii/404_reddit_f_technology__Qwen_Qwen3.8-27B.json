@@ -1,0 +1,69 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility skip links -- renders: fixed platform navigation shortcuts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- renders: platform logo, main menu items, search box, and user account controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "pagination"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- renders: fixed navigation buttons like 'Next'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: fixed platform copyright and legal links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-content__sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "subscribe-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar chrome -- renders: subreddit title, description, and fixed navigation links; subscriber count is subtracted as it is determined by user actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "main"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "operator controls within the main content area -- renders: fixed action buttons like 'Upvote', 'Downvote', and sort dropdowns"
+  }
+]

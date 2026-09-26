@@ -1,0 +1,116 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-header mw-header no-font-mode-scale"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation header -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "p-search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search box -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-user-links vector-user-links-wide"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user links menu -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "p-associated-pages",
+        "class": "vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "associated pages tabs -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "p-views",
+        "class": "vector-menu vector-menu-tabs mw-portlet mw-portlet-views"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view tabs -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-page-tools-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page tools landmark -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-appearance-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "appearance settings landmark -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer",
+        "class": "mw-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "p-lang-btn",
+        "class": "vector-dropdown mw-portlet mw-portlet-lang"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "language selector -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "table of contents header and unpin control -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "siteNotice"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site notice area -- operator-authored notices"
+  }
+]

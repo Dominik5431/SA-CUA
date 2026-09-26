@@ -1,0 +1,145 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "toolbar"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "toolbar heading -- renders the browser's fixed Settings interface vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "menu",
+        "id": "menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "settings navigation -- renders the fixed Chrome settings categories"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "closeButton"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "back control -- renders the fixed navigation action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "cr-title-text"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page title -- renders the fixed Chrome settings section title"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "selected"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "section headings -- render fixed labels for the settings sections"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "keyboardShortcutsTitle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "keyboard shortcuts heading -- renders a fixed settings label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "list-item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "keyboard shortcut options -- render the fixed platform-defined shortcut choices"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "secondary"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "settings explanatory copy -- renders fixed Chrome-authored instructions and descriptions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table row",
+        "class": "column-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "table headers -- render the fixed Name and shortcut column vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table cell",
+        "id": "controls-column-group"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "search-engine row actions -- render fixed Edit and more-actions controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "addSearchEngine"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "add control -- renders the fixed Add search engine action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "noOtherEngines"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "empty-state message -- renders fixed Chrome interface copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "entry",
+        "id": "searchInput"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "settings search box -- renders the fixed Chrome search control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "entry",
+        "id": "input"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page search box -- renders the fixed Chrome search control"
+  }
+]

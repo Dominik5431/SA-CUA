@@ -1,0 +1,182 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left sidebar navigation -- platform's own interface and taxonomy links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- platform's own interface and links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answers-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answers header and sort dropdown -- platform controls and labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "s-pagination--item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- platform pagination"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "s-pagination--item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- platform pagination"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-report-ad-button-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "report ad button -- platform control about ads"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-copy-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "copy button for code blocks -- platform control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "user-action-time"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "timestamp controls -- platform computed values"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "reputation-score"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "reputation score -- platform computed value"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "toggle button",
+        "class": "js-vote-up-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "vote up button -- platform control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "toggle button",
+        "class": "js-vote-down-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "vote down button -- platform control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-saves-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "save button -- platform control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-follow-post"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "follow post button -- platform control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-share-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "share link -- platform control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-suggest-edit-post"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "suggest edit link -- platform control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-sofa-sidebar-promo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "SOFA sidebar promo -- platform marketing copy and controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "id": "heartbeat-items"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "heartbeat metrics widget -- platform computed values and labels"
+  }
+]

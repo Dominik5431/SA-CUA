@@ -1,0 +1,86 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "gb"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Google header chrome -- renders: Google apps and fixed product/navigation controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "ODXihb"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Maps navigation controls -- renders: fixed map-navigation options such as Explore, Saved, Contribute, and Updates"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "TorxFf"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Map toolbar -- renders: fixed map-view and navigation controls"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "PlF8V"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Map control -- renders: one fixed operator-defined map control"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "t090lc"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Map utility control -- renders: fixed operator-defined utility actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "yra0jd"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar toggle control -- renders: a fixed operator-defined panel toggle"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Pf6ghf"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Place-card action controls -- renders: fixed actions such as directions, save, nearby, send, and share"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "H4v9Kb"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Map attribution controls -- renders: fixed operator-defined attribution, terms, privacy, and feedback actions"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "bbc-header",
+        "class": "Header-styles__HeaderStyled-sc-36071384-0 lkxsBq"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "bbc header -- platform's own navigation and controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "main-navigation-container",
+        "class": "Navigation-styles__NavigationContainerStyled-sc-f1c1fa10-9 gUOgcu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main navigation container -- platform's own navigation menus"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "Section-layouts-styles__SectionLayoutWrapper-sc-40ef2d4a-0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "section layout wrappers -- operator-authored page sections"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "Section-styles__SectionOuterStyled-sc-934b69c3-1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "news section wrappers -- operator-authored section content and titles"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "Section-styles__SectionStyled-sc-934b69c3-2"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "news section inner containers -- operator-authored news cards and separators"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "IndexCard-styles__IndexCardStyled-sc-3a0d8802-0 jeApUG"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "news index cards -- operator-authored headlines and descriptions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "bbc-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "bbc footer -- platform's own footer links and controls"
+  }
+]

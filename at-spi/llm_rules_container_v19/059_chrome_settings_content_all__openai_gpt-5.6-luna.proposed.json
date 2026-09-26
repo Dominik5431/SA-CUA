@@ -1,0 +1,164 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "leftContent"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Chrome Settings branding and header area -- renders fixed browser interface vocabulary."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "menu",
+        "id": "menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Settings navigation menu -- renders fixed Chrome Settings categories."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "toolbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry",
+        "id": "searchInput"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Chrome Settings toolbar -- renders fixed branding and search-interface vocabulary, excluding the entered search query."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "searchTerm"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry",
+        "id": "searchInput"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global Settings search widget chrome -- renders fixed search-field controls, excluding the user-entered query."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "closeButton"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Back control for the Settings subpage -- renders fixed browser navigation vocabulary."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "cr-title-text"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Settings subpage heading -- renders the fixed Chrome page title."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "searchIcon"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search icon for the site-data page -- renders fixed Settings interface chrome."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "cr-centered-card-container"
+      },
+      {
+        "role": "section",
+        "id": "searchInput"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry",
+        "id": "input"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site-data search control chrome -- renders fixed search-field controls, excluding the entered filter text."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "id": "sortLabel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sort control label -- renders the fixed vocabulary for sorting site records."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "sortMethod"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site-list sort control -- renders the closed set of operator-defined sorting options."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "clearLabel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Clear-data control label -- renders fixed Chrome Settings action vocabulary."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "clearAllButton"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Clear-all site data control -- renders a fixed browser action and its control chrome."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "removeSiteButton"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Remove-site control inside a site-data row -- renders a fixed Chrome action independent of the displayed site name and metadata."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "subpage-arrow"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site-row details control -- renders a fixed navigation action independent of the displayed site record."
+  }
+]

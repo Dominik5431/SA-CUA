@@ -1,0 +1,146 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "header navigation and controls -- platform's own interface: logo, app name, settings menu, search box"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "searchbox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search box -- platform control for searching files"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "app-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "app navigation sidebar -- renders: Files, Favorites, Shared with me, Shared with others, Shared links, System tags, Trashbin, Settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "gallery-button",
+        "class": "button view-switcher"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view switcher button -- platform control for gallery view"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "actions creatable"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "create actions -- renders: New button, upload progress wrapper; operator controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "file_action_panel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file action panel -- operator controls for file actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "column header",
+        "id": "headerName",
+        "class": "column-name"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file list name column header -- renders: select all files checkbox, name sort control, sort indicator"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "column header",
+        "id": "headerSize",
+        "class": "column-size"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file list size column header -- renders: size sort control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "column header",
+        "id": "headerDate",
+        "class": "column-mtime"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file list date column header -- renders: modified sort control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "action action-favorite "
+      }
+    ],
+    "verdict": "trusted",
+    "note": "favorite action button -- operator control for marking files as favorites"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "action action-share permanent"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "share action button -- operator control for sharing files"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "action action-menu permanent"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "more actions menu button -- operator control for file actions menu"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table cell",
+        "class": "filesize"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file size cell -- computed operator-defined value about submitted content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table cell",
+        "class": "date"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file date cell -- computed operator-defined value (timestamp) about submitted content"
+  }
+]

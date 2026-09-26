@@ -1,0 +1,105 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- renders: skip link, logo, search field, help, site switcher, login, signup"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders: site name link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answers-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answers header -- renders: answer count label, Sorted by:, sort dropdown options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "onetrust-consent-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent banner -- renders: policy title, cookie category descriptions, Accept/Reject/Preferences buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "s-sidebarwidget--content"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar blog widget -- renders: The Overflow Blog header and operator-authored blog post title"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "feed-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "feed link -- renders: Question feed link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "h-related"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "related questions heading -- renders: Related"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hot-network-questions"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "hot network questions heading only -- renders: Hot Network Questions; the question list below stays masked"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "mainbar"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "vote up/down toggle buttons in question and answers -- renders: Up vote/Down vote"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "mainbar"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "save/follow/comment push buttons in question and answers -- renders: Save/Follow/Add a comment"
+  }
+]

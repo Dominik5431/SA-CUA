@@ -1,0 +1,11 @@
+[
+  {
+    "ancestor_path": [{"role": "document web"}],
+    "except": [
+      {"role": "heading", "id": "name"},
+      {"role": "section", "id": "description"}
+    ],
+    "verdict": "trusted",
+    "note": "chrome://extensions -- Chrome's own Extensions WebUI, EXCEPT each card's name and description. Everything structural is the browser's: the toolbar, the search box, the Developer mode toggle, the My extensions / Keyboard shortcuts nav, the 'All extensions' header and the per-card Details / Remove / enable controls. An extension's name and description are not: they come from that extension's manifest.json, which is arbitrary third-party prose of no bounded length, and an extension is exactly the kind of thing a task installs from a downloaded zip (a74b607e). This is a container rule rather than scope:page because is_page_scope short-circuits before 'except' is applied, so a page-scope grant cannot subtract anything. drop_overbroad_rules exempts a rule that subtracts, which is the 100_arxiv.org pattern. Measured on this capture: 57 of 62 rows trusted, the 5 withheld being the name heading, the description section and their static children. Nothing task a74b607e needs -- Developer mode, Load unpacked, the file chooser -- is withheld."
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "header-wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site header -- renders: Skip to content, GitHub, Platform, Solutions, Marketplace, Pricing, Sign in, Sign up, Search, Appearance"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "js-repo-pjax-container"
+      },
+      {
+        "role": "section",
+        "id": "repository-container-header"
+      },
+      {
+        "role": "landmark",
+        "class": "js-repo-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Repository navigation tabs -- renders: Code, Actions, Projects, Security and quality, Insights"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site footer -- renders: GitHub, Blog, About, Careers, Contact, Pricing, API, Training, Docs, Legal, Privacy, Terms, Security, Status"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "prc-Pagination-PaginationContainer-HEhGo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Pagination controls -- renders: Previous, Next, page numbers"
+  }
+]

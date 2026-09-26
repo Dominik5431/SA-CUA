@@ -1,0 +1,7 @@
+[
+  {
+    "scope": "page",
+    "verdict": "trusted",
+    "note": "Evince document viewer application window -- all UI elements, menus, toolbars, and document view chrome are operator-authored interface; no user-generated content or hosted UGC is present"
+  }
+]

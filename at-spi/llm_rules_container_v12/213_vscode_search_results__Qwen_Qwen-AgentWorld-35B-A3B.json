@@ -1,0 +1,69 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-action-bar vertical"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Activity Bar navigation icons and actions -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "composite title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search viewlet title and action buttons -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "search-widget"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry",
+        "class": "input"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search widget controls and message -- renders: replace toggle, search options checkboxes, query details button, status message; the search query input text is excluded"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "document frame",
+        "class": "gettingStartedContainer noExtensions animatable"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Getting Started page -- operator-authored interface and copy throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar",
+        "id": "workbench.parts.statusbar",
+        "class": "part statusbar status-border-top"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Status bar -- platform's own status indicators and controls throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "class": "actions-container highlight-toggled"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Editor tab actions toolbar -- renders: split and more actions controls"
+  }
+]

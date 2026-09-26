@@ -1,0 +1,244 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "shortcut-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Accessibility navigation shortcuts -- renders: Skip to main content, Skip to about this item, Skip to buying options, Skip to reviews, Search, Cart, Home, Your orders, Show shortcuts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "navbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry",
+        "id": "twotabsearchtextbox"
+      },
+      {
+        "role": "section",
+        "id": "nav-global-location-data-modal-action"
+      },
+      {
+        "role": "section",
+        "id": "nav-link-accountList"
+      },
+      {
+        "role": "link",
+        "id": "nav-orders"
+      },
+      {
+        "role": "link",
+        "id": "nav-cart"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main navigation bar -- renders: Amazon logo, Search, All, Today's Deals, Customer Service, Returns & Orders, Cart, and fixed category links; excludes user-specific account, order, cart, and location data"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-xshop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Secondary navigation bar -- renders: fixed category links like Today's Deals, Customer Service, Returns & Orders"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooter"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: Back to top, Get to Know Us, Careers, Blog, Investor Relations, Amazon Devices, Make Money with Us, Let Us Help You, and legal links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "imageBlock"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Product image gallery controls -- renders: image thumbnails and navigation buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "buybox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Buy box controls -- renders: Add to Cart, Add to List, and availability status buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "cm_cr_dp_d_rating_histogram"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Review rating histogram -- renders: Customer reviews, star rating distribution, and filter controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "cr-media-carousel-heading"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Media carousel heading -- renders: Customer images and videos"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "cm_cr_top_reviews_to_arp_button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Link to all reviews -- renders: See all reviews"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "compare"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Product comparison table -- renders: Compare with similar items, attribute labels, and product links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "averageCustomerReviews"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Average customer reviews summary -- renders: star rating icon and review count link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "availability"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Availability status -- renders: In Stock, Out of Stock, or shipping availability text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "shipsFromSoldBy"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Ships from and sold by labels -- renders: Ships from, Sold by, and merchant name"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "featurebullets"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Product feature bullets -- renders: bullet points describing product features"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "tellAmazon"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Tell Amazon about a lower price -- renders: link to report lower price"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "energyEfficiency"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Energy efficiency information -- renders: energy efficiency rating and details"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "generationsWidgetBelowPriceBlock"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Product generations widget -- renders: newer version available expander"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "productOverview"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Product overview section -- renders: product overview heading and content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "btfContent3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Product description and marketing copy -- renders: product description, features, and marketing content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "btfContent40"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Technical specifications -- renders: technical specifications table and details"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "customerReviews"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "id": "localTopReviewsList"
+      },
+      {
+        "role": "section",
+        "id": "cm_cr_carousel_images_section"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Customer reviews section frame -- renders: Customer Reviews heading, rating histogram, and review filter controls; excludes individual review content and user-uploaded images"
+  }
+]

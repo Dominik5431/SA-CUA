@@ -1,0 +1,29 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Application menu bar -- renders fixed operator vocabulary for File/Edit/View/Help menus and their items"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "page tab list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Tab bar container -- the tab labels are operator-generated (e.g., 'bash', 'zsh') and not user-named content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Bottom status/toolbar panel -- contains fixed operator controls and labels for terminal session management"
+  }
+]

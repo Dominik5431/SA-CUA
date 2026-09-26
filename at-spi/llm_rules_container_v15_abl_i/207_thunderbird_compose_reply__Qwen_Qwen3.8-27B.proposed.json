@@ -1,0 +1,191 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "spacesToolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Spaces navigation toolbar -- renders: Mail/Address Book/Calendar/Tasks/Chat/Settings/Collapse"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "toolbar-menubar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Application menu bar -- renders: File/Edit/View/Go/Message/Tasks/Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "chat-toolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Chat toolbar controls -- renders: Add Buddy/Join Chat/Status/Accounts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "folderPaneHeaderBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Folder pane header controls -- renders: More/Write/Get Messages"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "threadPaneHeaderBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Thread pane header controls -- renders: Quick Filter/Display options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "header-view-toolbox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Message header action buttons -- renders: Reply/Forward/Archive/Junk/Trash/More/Star"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "toHeading"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Message header label -- renders: To"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "compose-toolbar-menubar2"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Compose window menu bar -- renders: File/Edit/View/Insert/Format/Options/Tasks/Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "composeToolbar2"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Compose window action toolbar -- renders: Send/Encryption/Spelling/Save/Contacts/Attach"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "FormatToolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Rich text formatting toolbar -- renders: Paragraph/Font/Size/Bold/Italic/Underline/List/Align/Insert/Smileys"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "id": "toAddrLabel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Compose field label -- renders: To"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "id": "subjectLabel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Compose field label -- renders: Subject"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "id": "identityLabel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Compose field label -- renders: From"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "noAccountTitle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Chat placeholder title -- renders: No IM accounts configured"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "noAccountDesc"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Chat placeholder description -- renders: Set up an IM account to start chatting"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "openIMAccountWizardButton"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Chat placeholder action -- renders: Set Up Account"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "button-appmenu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Application menu button -- renders: Menu"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "titlebar-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Window title bar controls -- renders: Minimize/Restore/Close"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Application status bar -- renders: Offline status indicator"
+  }
+]

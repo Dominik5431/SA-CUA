@@ -1,0 +1,38 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Accessibility skip links -- renders: 'Skip to main content', 'Skip to search'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site navigation -- renders: 'Reddit', 'Home', 'Search', 'Log in', 'Sign up', 'Create account'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "main"
+      }
+    ],
+    "except": [
+      {
+        "role": "article",
+        "class": "flex"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main content area chrome -- renders: 'Popular', 'New', 'Top', 'Sort by', 'Popular Subreddits', 'See more'; subtracts the list of subreddit cards which contain user-created names and descriptions"
+  }
+]

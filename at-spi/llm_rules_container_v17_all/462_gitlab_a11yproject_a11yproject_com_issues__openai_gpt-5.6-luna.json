@@ -1,0 +1,149 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "header-content"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "js-header-search"
+      },
+      {
+        "role": "list item",
+        "class": "header-user"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "GitLab header interface excluding the echoed search query and user identity -- renders the fixed logo, project creation, issue, merge-request, todo, help, and account-control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "gl-sr-only gl-accessibility"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility skip link -- renders the fixed skip-to-content vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "keyboard-shortcut-helper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search keyboard-shortcut helper -- renders the fixed keyboard-shortcut vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "image",
+        "class": "gl-search-box-by-type-search-icon"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "header search icon -- renders the fixed search-control icon"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "project navigation excluding the user-named project context -- renders the fixed repository, issue, merge-request, pipeline, deployment, monitoring, analytics, wiki, snippet, and settings vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "toggle-sidebar-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar visibility control -- renders the fixed expand-sidebar and collapse-sidebar vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "tabs gl-tabs"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issue-state tab controls -- renders the fixed open, closed, and all-issues vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "btn btn-default btn-md gl-button btn-icon"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issue toolbar links -- renders the fixed issue-list action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "btn btn-confirm btn-md gl-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "new-issue action -- renders the fixed create-new-issue vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "gl-search-box-by-click"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "issue search controls -- renders the fixed search, search-history, and submit-search button vocabulary while excluding the entered query and suggestion contents"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "sort-dropdown-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issue sorting controls -- renders the fixed sort-order and list-display vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "issues-bulk-update"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "bulk issue-update sidebar -- renders the fixed bulk-selection and bulk-update control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "gl-keyset-pagination"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issue-list pagination controls -- renders the fixed previous-page, next-page, and page-size vocabulary"
+  }
+]

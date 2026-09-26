@@ -1,0 +1,112 @@
+/* =====================================================================
+   Reveal-system styles for the 10 custom-built websites.
+   The WebArena GitLab proxy ships its own reveal.css.
+   ===================================================================== */
+
+/* Hidden element base styles */
+.reveal-hidden {
+    position: relative;
+    visibility: visible; /* Keep container visible */
+    opacity: 1;
+    overflow: hidden;
+    transition: opacity 0.3s ease;
+    pointer-events: auto; /* CHANGED: Allow clicks to forward to underlying elements */
+}
+
+/* Hide content inside hidden elements */
+.reveal-hidden > * {
+    display: none !important;
+}
+
+/* Revealed element base styles */
+.reveal-visible {
+    position: relative;
+    visibility: visible !important;
+    opacity: 1 !important;
+    overflow: visible !important;
+}
+
+/* Show content when revealed */
+.reveal-visible > * {
+    display: revert !important;
+}
+
+/* Placeholder container styling */
+.reveal-hidden[data-reveal-placeholder] {
+    position: relative;
+    min-height: 55px;
+    min-width: 150px;
+    display: block !important;
+}
+
+/* Placeholder text styling */
+.reveal-hidden[data-reveal-placeholder]::before {
+    content: attr(data-reveal-placeholder);
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    visibility: visible !important;
+    opacity: 1 !important;
+    padding: 1px 1px;
+    background-color: #ecf0f1;
+    border: 2px solid #b8c2cc;
+    border-radius: 6px;
+    text-align: center;
+    color: #1f2328;  /* Darker text for contrast */
+    font-style: normal;
+    font-weight: 200;  /* Bold text */
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    min-height: 60px;
+    min-width: 100px;
+    font-size: 0.95em;  /* Slightly larger text for readability */
+    line-height: 1.6;
+    pointer-events: auto;
+    white-space: pre-line; /* Preserve newlines in qllm_id placeholders */
+    word-wrap: break-word;
+}
+
+/* Placeholder hover effect */
+.reveal-hidden[data-reveal-placeholder]::before:hover {
+    background-color: #d5dbdb;
+    border-color: #95a5a6;
+}
+
+/* Hide placeholder when revealed */
+.reveal-visible[data-reveal-placeholder]::before {
+    display: none !important;
+    pointer-events: none !important;
+    z-index: -1 !important;
+}
+
+/* Alternative hint style (more compact than placeholder) */
+.reveal-hidden[data-reveal-hint]:not([data-reveal-placeholder]) {
+    min-height: auto;
+    display: block !important;
+    background-color: #f8f9fa;
+    border: 1px dashed #dee2e6;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    padding: 8px 12px;
+}
+
+/* Hint hover effect */
+.reveal-hidden[data-reveal-hint]:not([data-reveal-placeholder]):hover {
+    background-color: #e9ecef;
+    border-color: #adb5bd;
+}
+
+/* Trust indicators - visual cues for trusted/untrusted content */
+[data-untrusted="true"] {
+    border-left: 3px solid #e74c3c; /* Red for untrusted */
+}
+
+[data-trusted="true"] {
+    border-left: 3px solid #28a745; /* Green for trusted */
+}

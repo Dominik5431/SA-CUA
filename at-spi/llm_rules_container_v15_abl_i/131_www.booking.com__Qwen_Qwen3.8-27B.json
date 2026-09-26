@@ -1,0 +1,92 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site header and navigation -- renders: Booking.com logo, language/currency, Sign in, Register, and fixed service tabs (Stays, Flights, Flight+Hotel, Car rentals, Attractions, Airport taxis)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "fff1944c52"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search results breadcrumb -- renders: fixed navigation segments (e.g., Stays, City, District)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "ce1108eff4"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search results summary header -- renders: fixed labels (e.g., 'Hotels in [City]') and 'Sort by' control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "b7ef425131 e9f1adff2b c03fb03748 a81cb9db2d"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Filter sidebar -- renders: fixed filter group headings (e.g., 'Popular filters', 'Property Type', 'Review Score') and operator-defined filter options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "b87c397a13 cacb5ff522"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Results count header -- renders: fixed label (e.g., 'Hotels in [City]')"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "ad68e1f7ce bb51db7864"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "View switcher -- renders: List, Grid"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "a297f43545"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sort control -- renders: fixed sort options (e.g., 'Top reviewed', 'Price (lowest first)')"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "TravellerFooter_root--variant-full"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: fixed navigation links (e.g., 'Support', 'Careers', 'About us') and legal links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "onetrust-banner-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Cookie consent banner -- renders: operator-authored privacy policy text and fixed buttons (Accept, Reject, Settings)"
+  }
+]

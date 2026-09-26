@@ -1,0 +1,108 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "header-wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site header -- renders: Skip to content, GitHub logo, Product/Solutions/Marketplace/Explore/Team/Enterprise, Search, Sign in, Sign up, Appearance"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repository-container-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "link",
+        "class": "url fn"
+      },
+      {
+        "role": "section",
+        "id": "repo-network-counter"
+      },
+      {
+        "role": "section",
+        "id": "repo-stars-counter-star"
+      },
+      {
+        "role": "section",
+        "id": "issues-repo-tab-count"
+      },
+      {
+        "role": "section",
+        "id": "pull-requests-repo-tab-count"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Repository header chrome -- renders: Watch/Fork/Star buttons, Code/Issues/Pull requests/Actions/Projects/Security/Insights tabs; repository name and dynamic counters are subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repos-file-tree-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "landmark",
+        "class": "prc-TreeView-TreeViewRootUlStyles-Mzrmj"
+      },
+      {
+        "role": "section",
+        "class": "ref-selector-button-text-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "File tree sidebar controls -- renders: File tree heading, Search files button, Search input; the file tree list and branch selector value are subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repos-split-pane-content"
+      }
+    ],
+    "except": [
+      {
+        "role": "landmark",
+        "class": "Breadcrumb-module__nav__rQFDj"
+      },
+      {
+        "role": "section",
+        "class": "Breadcrumb-module__filename__equZR"
+      },
+      {
+        "role": "link",
+        "class": "AuthorAvatar-module__authorAvatarImage__a3R8x"
+      },
+      {
+        "role": "link",
+        "class": "AuthorAvatar-module__authorHoverableLink__MHTT8"
+      },
+      {
+        "role": "link",
+        "class": "Link--secondary"
+      },
+      {
+        "role": "link",
+        "class": "issue-link"
+      },
+      {
+        "role": "section",
+        "class": "CodeSizeDetails-module__Truncate_1__lE93V"
+      },
+      {
+        "role": "landmark",
+        "class": "BlobContent-module__blobContentSection__VOgZq"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Code view header controls -- renders: Code/Blame/Raw tabs, Copy, Download, Table of contents buttons; breadcrumbs, file name, author info, commit metadata, file size, and file content are subtracted"
+  }
+]

@@ -1,0 +1,104 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "header-wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site header -- renders: Skip to content, GitHub, Platform, Solutions, Marketplace, Pricing, Sign in, Sign up, Search, Appearance"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "js-repo-pjax-container"
+      },
+      {
+        "role": "section",
+        "id": "repository-container-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "link",
+        "class": "url fn"
+      },
+      {
+        "role": "static",
+        "class": "mr-2 flex-self-stretch"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Repository header chrome -- renders: Sponsor, Watch, Fork, Star, Code, Issues, Pull requests, Actions, Projects, Security, Insights; repository name and owner are subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repos-file-tree-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "landmark",
+        "class": "prc-TreeView-TreeViewRootUlStyles-Mzrmj"
+      },
+      {
+        "role": "section",
+        "class": "ref-selector-button-text-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "File tree sidebar controls -- renders: File tree, Files, Search this repository; file list and branch name are subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repos-split-pane-content"
+      }
+    ],
+    "except": [
+      {
+        "role": "landmark",
+        "class": "Breadcrumb-module__nav__rQFDj"
+      },
+      {
+        "role": "section",
+        "class": "Breadcrumb-module__filename__equZR"
+      },
+      {
+        "role": "link",
+        "class": "AuthorAvatar-module__authorAvatarImage__a3R8x"
+      },
+      {
+        "role": "link",
+        "class": "AuthorAvatar-module__authorHoverableLink__MHTT8"
+      },
+      {
+        "role": "link",
+        "class": "Link--secondary"
+      },
+      {
+        "role": "link",
+        "class": "issue-link js-issue-link"
+      },
+      {
+        "role": "push button",
+        "class": "ChecksStatusBadge-module__ChecksStatusBadgeIconButton__rcQQ1"
+      },
+      {
+        "role": "section",
+        "class": "CodeSizeDetails-module__Truncate_1__lE93V"
+      },
+      {
+        "role": "landmark",
+        "class": "BlobContent-module__blobContentSection__VOgZq"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "File view chrome -- renders: Copy, Raw, Blame, Download, Table of contents, Code, Raw, Blame; file path, author, commit metadata, file size, and file content are subtracted"
+  }
+]

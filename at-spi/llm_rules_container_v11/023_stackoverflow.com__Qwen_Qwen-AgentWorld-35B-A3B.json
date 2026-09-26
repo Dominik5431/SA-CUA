@@ -1,0 +1,112 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left sidebar navigation and controls -- platform's own interface and fixed vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- platform's own interface and links throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-sidebarwidget bg-purple-100 ba bc-purple-400 bar-sm mb16 ps-relative js-sofa-sidebar-promo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "SOFA sidebar promo widget -- platform's own copy and controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "s-post-summary--stats-item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question summary stats items -- renders: vote counts, answer counts, status badges"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "s-post-summary--meta-tags"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question summary tags -- renders: taxonomy terms and subject tags defined by the platform"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "static",
+        "class": "s-user-card--time"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user card time -- renders: timestamp and relative date"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "relativetime"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "relative time container -- renders: timestamp and relative date"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "s-pagination--item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- renders: page numbers and navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "s-pagination--item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- renders: page numbers and navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-report-ad"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "report ad controls -- platform's own controls about advertisements"
+  }
+]

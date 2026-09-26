@@ -1,0 +1,7 @@
+[
+  {
+    "scope": "page",
+    "verdict": "trusted",
+    "note": "system monitor control panel -- every string on it is operator-authored interface and monitoring metrics"
+  }
+]

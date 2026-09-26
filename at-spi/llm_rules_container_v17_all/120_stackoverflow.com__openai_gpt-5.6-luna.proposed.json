@@ -1,0 +1,124 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- renders the platform's fixed navigation, search control, help, site switcher, and sign-in controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left navigation -- renders fixed site navigation, collectives controls, and operator-authored interface labels"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "bg-black-100"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "tag-page action control -- renders the fixed action-button vocabulary"
+  },
+  {
+    "own_role": "link",
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "bg-black-100"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "tag-page action link -- renders the fixed link-control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "s-btn__muted s-btn__sm"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question-list navigation controls -- renders the fixed sort and view-switcher vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "s-btn__dropdown"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question-list sort control -- renders the fixed sorting vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "uql-filter-toggle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "filter-panel toggle -- renders the fixed control for opening the question-refinement interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-pagination-item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- renders the fixed next-page and page-navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders fixed platform navigation, social links, legal controls, and site metadata"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "onetrust-accept-btn-handler"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie-consent accept control -- renders the fixed consent action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "onetrust-reject-all-handler"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie-consent reject control -- renders the fixed consent action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "onetrust-pc-btn-handler"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie-consent preference control -- renders the fixed consent-management action vocabulary"
+  }
+]

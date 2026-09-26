@@ -1,0 +1,72 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: Wikipedia logo, search box, main menu, user links (Donate/Log in/Sign up)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "mw-body-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Page title bar -- renders: 'Recent changes' heading and help link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "right-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Right sidebar navigation -- renders: 'Recent changes' label and 'Tools' menu"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-appearance-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Appearance settings panel -- renders: 'Appearance' label, font size options (Small/Medium/Large), width options, theme options (OS/Day/Night)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mw-recentchanges-toplinks"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Recent changes top links -- renders: 'Show only these types' toggle and filter controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "mw-changeslist-legend"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Changes list legend -- renders: fixed labels for edit types (Wikibase, Damaging, New page, Minor, Bot, +/- bytes, Watchlist expiry)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Page footer -- renders: Privacy policy, About, Disclaimers, Contact, Legal, Code of conduct, Developers, Statistics, Cookie statement, Mobile view, Wikimedia Foundation and MediaWiki logos"
+  }
+]

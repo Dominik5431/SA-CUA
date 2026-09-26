@@ -1,0 +1,11 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Evince main toolbar -- renders fixed operator vocabulary for document navigation and view controls (e.g., Back, Forward, Zoom, View)"
+  }
+]

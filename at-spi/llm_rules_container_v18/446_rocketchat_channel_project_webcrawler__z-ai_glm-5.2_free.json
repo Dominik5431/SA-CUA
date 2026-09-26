@@ -1,0 +1,108 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "sidebar--main"
+      },
+      {
+        "role": "panel",
+        "class": "rcx-button-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top sidebar icon navigation -- renders: Home/Search/Directory/Display/Administration/Create new (fixed icons)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar topbar -- renders: fixed section title and control buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar section headers -- renders: Channels/Direct Messages (fixed labels)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "rcx-room-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "rcx-css-u5iepl"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "room header toolbar -- renders: action buttons (members/search/threads/notifications/etc.); channel name heading is subtracted as user-created"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "messages-box"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "messages box top-level controls -- renders: 'New Messages' button and 'Jump to recent' button; the message list wrapper is subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list item",
+        "class": "start"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "conversation start marker -- renders: fixed system message"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "class": "rc-message-box__container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message input box -- renders: fixed placeholder and input controls (emoji picker, audio, action menu)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "footer",
+        "class": "rcx-css-1h8ylb3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar footer -- renders: platform logo link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-css-ebq3kg"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "platform branding section -- renders: fixed promotional link and platform name"
+  }
+]

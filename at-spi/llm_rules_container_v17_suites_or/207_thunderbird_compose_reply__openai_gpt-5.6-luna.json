@@ -1,0 +1,169 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "spacesToolbar"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "application space navigation controls -- renders: Mail/Address Book/Calendar/Tasks/Chat/Settings/Collapse"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "titlebar-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "window controls -- renders: minimize/restore/close"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "folderPaneHeaderBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "folder-pane commands -- renders: more actions/compose/get messages"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "threadPaneHeaderBar"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "message-list display control -- renders: display options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "threadPaneHeaderBar"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "message-list filter control -- renders: quick filter"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "header-view-toolbox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message actions -- renders: Reply/Forward/Archive/Junk/Trash/Other Actions/Star"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "expandedfromBox"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "recipient utility control -- renders: add sender to address book"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "expandedtoBox"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "recipient utility control -- renders: add recipient to address book"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "extraAddressRowsArea"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "address-row controls -- renders: Cc/Bcc and address-row options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "id": "identityLabel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "fixed field label -- renders: identity label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "id": "toAddrLabel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "fixed field label -- renders: recipient label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "id": "subjectLabel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "fixed field label -- renders: subject label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "ParagraphSelect"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "paragraph-format selector -- renders: body text/paragraph/heading/address/pre styles"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "FormatToolbar"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "message-formatting commands -- renders: font size, styling, indentation, alignment, insertion and smiley controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "FormatToolbar"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "message-formatting toggles -- renders: encryption-independent bold/italic/underline and ordered/unordered list controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "offline-status"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "application connectivity control -- renders: offline-status command"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: Wikipedia logo, search box, 'Main menu', 'Donate', 'Create account', 'Log in'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "mw-body-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Page title bar -- renders: 'Category', 'Web accessibility', 'Read', 'Edit', 'View history', 'Tools'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-appearance-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Appearance settings panel -- renders: 'Appearance', 'Unpin', 'Text', 'Small', 'Standard', 'Large', 'Width', 'Standard', 'Ragged', 'Theme', 'Automatic', 'Light', 'Dark'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mw-indicators"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Page indicators -- renders: 'Help'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "siteSub"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site subtitle -- renders: 'From Wikipedia, the free encyclopedia'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mwAw"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sister site box -- renders: 'Wikimedia Commons', 'Media related to Web accessibility at Wikimedia Commons'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "paragraph",
+        "id": "mwBA"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Category description -- renders: 'This category is for articles about web accessibility, the practice of making websites usable by people with disabilities.'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "comment",
+        "id": "mwCg"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Hatnote -- renders: 'This category is for articles about web accessibility, the practice of making websites usable by people with disabilities.'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mw-normal-catlinks"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Visible category links -- renders: 'Categories', 'Web accessibility', 'Accessibility'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Page footer -- renders: 'This page was last edited on...', 'Text is available under the Creative Commons Attribution-ShareAlike License', 'Privacy policy', 'About Wikipedia', 'Disclaimers', 'Contact Wikipedia', 'Code of Conduct', 'Developers', 'Statistics', 'Cookie statement', 'Mobile view'"
+  }
+]

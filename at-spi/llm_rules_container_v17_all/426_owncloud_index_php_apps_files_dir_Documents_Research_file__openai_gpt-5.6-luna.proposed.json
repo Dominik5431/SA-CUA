@@ -1,0 +1,134 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "owncloud"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "ownCloud logo link -- renders the fixed platform brand"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "header-appname-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "application switcher -- renders the fixed Files application label and menu control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "searchbox"
+      }
+    ],
+    "own_role": "label",
+    "verdict": "trusted",
+    "note": "search field label -- renders the fixed Search vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "app-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Files navigation -- renders: Files/Favorites/Shared with you/Shared by you/Shared links/Tags/Trash/Settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "gallery-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view switcher -- renders the fixed gallery/list view controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "button new"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "create control -- renders the fixed New vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "column header",
+        "id": "headerName"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Name column header -- renders the fixed select-all and Name/sort controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "column header",
+        "id": "headerSize"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Size column header -- renders the fixed Size/sort control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "column header",
+        "id": "headerDate"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Modified column header -- renders the fixed Modified/sort control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "id": "fileList"
+      }
+    ],
+    "own_role": "check box",
+    "verdict": "trusted",
+    "note": "file selection controls -- render the fixed file-selection vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "action-favorite"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file favorite controls -- render the fixed favorite action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "action-share"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file sharing controls -- render the fixed share action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "action-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file action menus -- render the fixed more-actions vocabulary"
+  }
+]

@@ -1,0 +1,175 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "spacesToolbar",
+        "class": "spaces-toolbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "spacesToolbarAddonsContainer",
+        "class": "spaces-toolbar-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "spaces toolbar -- renders: Mail/Address Book/Calendar/Tasks/Chat/Settings/Collapse; third-party addon container subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "unifiedToolbarContainer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "unified toolbar container -- renders: search box placeholder, app menu button, window min/restore/close controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "toolbar-menubar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main menu bar -- renders: File/Edit/View/Go/Message/Tasks/Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "chat-toolbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "label",
+        "id": "statusMessageLabel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "chat toolbar -- renders: Add Buddy/Join Chat/Status Type/Chat Accounts buttons; user-set custom status message subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "scroll pane",
+        "id": "chatTabPanel"
+      }
+    ],
+    "except": [
+      {
+        "role": "list box",
+        "id": "contactlistbox"
+      },
+      {
+        "role": "label",
+        "id": "statusMessageLabel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "chat tab panel -- renders: no-account placeholder title/description, add account wizard button; contact list and user-set status message subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "folderPaneHeaderBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "folder pane header bar -- renders: More/Write Message/Get Messages buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "list-header-bar-container-end"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "thread pane header controls -- renders: Quick Filter toggle, Display options button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "header-view-toolbox",
+        "class": "header-buttons-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message header action buttons -- renders: Reply/Forward/Archive/Junk/Delete/More/Star"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "offline-status"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "offline status indicator -- renders: Online/Working Offline"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "compose-toolbar-menubar2"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "compose menu bar -- renders: File/Edit/View/Insert/Format/Options/Tasks/Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "composeToolbar2"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "compose toolbar -- renders: Send/Encryption/Spelling/Save/Contacts/Attach buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "FormatToolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "formatting toolbar -- renders: paragraph style/font face/font size/bold/italic/underline/list/alignment/insert controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "MsgHeadersToolbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "combo box",
+        "id": "msgIdentity"
+      },
+      {
+        "role": "unknown",
+        "class": "address-pill"
+      },
+      {
+        "role": "entry",
+        "id": "toAddrInput"
+      },
+      {
+        "role": "entry",
+        "id": "msgSubject"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "compose header labels and buttons -- renders: From/To/Subject labels, Cc/Bcc/extra address rows buttons; identity selector, recipient pills, and text inputs subtracted"
+  }
+]

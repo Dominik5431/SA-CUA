@@ -1,0 +1,385 @@
+[
+ {
+  "ancestor_path": [
+   {
+    "role": "landmark",
+    "class": "banking-container"
+   }
+  ],
+  "own_role": "heading",
+  "verdict": "trusted",
+  "note": "page and sidebar headings -- renders the operator's fixed page title and section-label vocabulary",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "landmark",
+    "class": "banking-container"
+   }
+  ],
+  "own_role": "push button",
+  "verdict": "trusted",
+  "note": "banking workflow controls -- renders fixed send-money, export, alert, transaction-action, clear-filter, and pagination controls",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "paragraph",
+    "class": "no-alerts"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "empty-alerts message -- renders the fixed no-alerts label and add-alert control",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "link",
+    "id": "add-alert-link"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "alert creation link -- renders the operator's fixed add-alert control",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "entry",
+    "id": "search-input"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "transaction search box -- renders the operator's fixed search control",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "table",
+    "class": "table table-striped"
+   }
+  ],
+  "except": [
+   {
+    "role": "panel",
+    "id": "transactions-table"
+   },
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "transaction table frame -- renders the fixed column-header vocabulary while transaction records are excluded"
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "panel",
+    "id": "transactions-table"
+   }
+  ],
+  "own_role": "push button",
+  "verdict": "trusted",
+  "note": "transaction-row actions -- renders fixed view-details, categorize, and report controls without trusting transaction content",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "class": "pagination-info"
+   }
+  ],
+  "except": [
+   {
+    "role": "section",
+    "id": "page-start"
+   },
+   {
+    "role": "section",
+    "id": "page-end"
+   },
+   {
+    "role": "section",
+    "id": "total-transactions"
+   },
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "pagination summary frame -- renders the fixed pagination labels and separators while computed transaction-range values are excluded"
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "id": "pagination-controls"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "pagination controls -- renders the operator's fixed page-navigation controls",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "combo box",
+    "id": "alert-category"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "alert category selector -- renders the fixed alert-category vocabulary and options",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "combo box",
+    "id": "alert-period"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "alert period selector -- renders the fixed alert-period vocabulary and options",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "id": "alert-modal"
+   }
+  ],
+  "except": [
+   {
+    "role": "spin button",
+    "id": "alert-amount"
+   },
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "alert configuration modal -- renders fixed alert instructions, labels, selectors, and confirmation controls; the user-entered amount is excluded"
+ }
+]

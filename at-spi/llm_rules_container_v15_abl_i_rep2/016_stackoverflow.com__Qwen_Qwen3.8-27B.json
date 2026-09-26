@@ -1,0 +1,354 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- renders: Stack Overflow logo, Home, Questions, Jobs, Log in, Sign up, Help, Search"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left navigation sidebar -- renders: Home, Questions, Ask, Jobs, Sofa, Challenges, Chat, Articles, Users, Companies, Collectives, Sign up"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "fs-headline1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question header controls -- renders: Ask Question button; question title is user-generated and subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item ws-nowrap mr16 mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question metadata label -- renders: Asked"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item ws-nowrap mr16 mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question metadata label -- renders: Modified"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item ws-nowrap mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question metadata label -- renders: Viewed"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answers-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answers section header -- renders: Answers, Sort by, Newest, Oldest, Score, Modified"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-report-ad-button-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "ad reporting control -- renders: Report this ad"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-bounty-award"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "bounty indicator -- renders: bounty"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-accepted-answer-indicator"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accepted answer indicator -- renders: accepted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "community-wiki"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "community wiki badge -- renders: community wiki"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "s-code-block"
+      },
+      {
+        "role": "section",
+        "class": "mtn4"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "code block copy button -- renders: Copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item"
+      },
+      {
+        "role": "link",
+        "class": "js-share-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "share link -- renders: Share"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item"
+      },
+      {
+        "role": "link",
+        "class": "js-suggest-edit-post"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "suggest edit link -- renders: Suggest an edit"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item"
+      },
+      {
+        "role": "push button",
+        "class": "js-follow-post"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "follow post button -- renders: Follow"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "user-action-time"
+      },
+      {
+        "role": "link",
+        "class": "js-gps-track"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user action label -- renders: asked, modified, answered"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "user-action-time"
+      },
+      {
+        "role": "static"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user action label -- renders: asked, modified, answered"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "comments-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comments toggle -- renders: comments"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "comment-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment link -- renders: comment"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "s-sidebarwidget"
+      },
+      {
+        "role": "heading",
+        "class": "fs-body2"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar widget header -- renders: Stack Overflow for Teams"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "s-sidebarwidget"
+      },
+      {
+        "role": "static"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar widget copy -- renders: platform marketing copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "s-sidebarwidget"
+      },
+      {
+        "role": "paragraph"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar widget copy -- renders: platform marketing copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "s-sidebarwidget"
+      },
+      {
+        "role": "push button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar widget button -- renders: Copy source"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "s-sidebarwidget"
+      },
+      {
+        "role": "link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar widget CTA -- renders: Learn more"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "s-sidebarwidget--content"
+      },
+      {
+        "role": "list item",
+        "class": "s-sidebarwidget--header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar widget header -- renders: Linked, Related"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "h-linked"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar section header -- renders: Linked"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "h-related"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar section header -- renders: Related"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hot-network-questions"
+      },
+      {
+        "role": "heading"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar section header -- renders: Hot Network Questions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "feed-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "feed link -- renders: RSS Feed"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: Stack Overflow, Products, Company, Legal, Social, copyright"
+  }
+]

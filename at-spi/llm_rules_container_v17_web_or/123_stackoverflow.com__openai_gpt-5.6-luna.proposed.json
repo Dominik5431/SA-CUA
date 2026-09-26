@@ -1,0 +1,62 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top platform chrome -- renders fixed branding, navigation, search, help, site switching, and authentication controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left platform navigation and promotion -- renders fixed navigation labels, service controls, and operator-authored marketing copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "class": "s-input__search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search box -- renders the operator-defined search control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "mainbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "questions"
+      },
+      {
+        "role": "landmark",
+        "id": "uql-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question-list chrome excluding submitted question summaries and the filter panel -- renders fixed section labels, ask-question and view controls, sorting, filter toggle, and pagination vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "dialog",
+        "class": "ot-sdk-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie-consent dialog -- renders fixed platform consent policy, privacy information, vendor settings, and consent controls"
+  }
+]

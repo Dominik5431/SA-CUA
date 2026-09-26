@@ -1,0 +1,32 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Toolbar action buttons -- renders fixed operator vocabulary for file and edit operations (e.g., New, Open, Save, Undo, Redo, Cut, Copy, Paste, Find, Replace, Print)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "Toolbar toggle buttons -- renders fixed operator vocabulary for view and mode switches (e.g., Show Line Numbers, Show Right Margin, Fullscreen)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "label",
+    "verdict": "trusted",
+    "note": "Toolbar labels -- renders fixed operator vocabulary for status indicators and field labels (e.g., Encoding, Line Ending, Zoom Level)"
+  }
+]

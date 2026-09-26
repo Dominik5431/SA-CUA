@@ -1,0 +1,93 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "MarketingHeader-module__root__Tk7n3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "GitHub marketing header -- renders fixed navigation, search, sign-in/sign-up, logo, and appearance controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-repo-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository navigation -- renders the fixed Code/Issues/Pull requests/Actions/Projects/Wiki/Security and quality/Insights vocabulary and its counts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "mb-2 flex-1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "release-page subnavigation -- renders the fixed Releases/Tags vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "entry",
+        "id": "release-filter"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "release search box -- renders the fixed repository release-search control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repository-details-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository action controls -- renders fixed Watch, Fork, and Star controls with their operator-defined labels and counters"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "pagination"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- renders fixed Previous, Next, and page-navigation controls"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repo-content-pjax-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "release-management controls -- renders fixed release asset and details-action buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "toggle button",
+        "class": "color-fg-success"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "signed-commit verification controls -- renders the fixed verified-signature control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "p-responsive"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "GitHub footer -- renders fixed platform links, legal/help navigation, and footer controls"
+  }
+]

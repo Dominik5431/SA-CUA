@@ -1,0 +1,76 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "operator page header -- renders: fixed site heading, view navigation, reservations control, and cart control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "operator navigation bar -- renders: view, reservations, and cart controls with the fixed cart label"
+  },
+  {
+    "own_role": "heading",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "reservations-view"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "reservation view headings -- renders: fixed reservation-page section headings"
+  },
+  {
+    "own_role": "label",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "reservation-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "reservation form labels -- renders: fixed operator-defined field labels"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "reservation-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "reservation form controls -- renders: the fixed date-picker and reservation-submit button labels"
+  },
+  {
+    "own_role": "combo box",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "reservation-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "reservation choice controls -- renders: fixed time-slot and party-size choice controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "no-results"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "empty reservation-list status -- renders: fixed operator no-results message"
+  }
+]

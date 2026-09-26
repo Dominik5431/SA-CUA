@@ -1,0 +1,136 @@
+[
+ {
+  "ancestor_path": [
+   {
+    "role": "landmark",
+    "class": "header"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "site header and navigation -- renders the fixed heading and view-menu, reservations, and cart controls",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "id": "cart-view"
+   }
+  ],
+  "except": [
+   {
+    "role": "section",
+    "id": "cart-items"
+   },
+   {
+    "role": "section",
+    "class": "checkout-section"
+   },
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "own_role": "heading",
+  "verdict": "trusted",
+  "note": "cart section heading -- renders the operator-defined cart heading"
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "id": "cart-items"
+   }
+  ],
+  "own_role": "push button",
+  "verdict": "trusted",
+  "note": "cart item action control -- renders the fixed remove-item control",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "id": "cart-view"
+   }
+  ],
+  "except": [
+   {
+    "role": "section",
+    "id": "cart-items"
+   },
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "[manual UCM override] cart view -- totals and the checkout form (order type, instructions); the cart item list (renders item names unmarked) is subtracted"
+ }
+]

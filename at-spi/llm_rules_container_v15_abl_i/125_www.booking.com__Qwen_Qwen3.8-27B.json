@@ -1,0 +1,72 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "bypass_menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Skip-to-content link -- renders: 'Skip to main content'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site header -- renders: 'Booking.com', 'Log in', 'Register', 'Support', 'List your property', 'Accommodations', 'Flights', 'Flight + Hotel', 'Car rental', 'Attractions', 'Airport taxis'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "fff1944c52"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Breadcrumb navigation -- renders: 'Home', 'Hotels', 'City', 'Property Name'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "b7ef425131 e9f1adff2b c03fb03748 a81cb9db2d"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Filter sidebar -- renders: 'Filters', 'Price', 'Popular filters', 'Property Type', 'Review Score', 'Meals', 'Hotel Facilities', 'Room Facilities', 'Class', 'Distance to Center', 'Free Cancellation', 'Breakfast Included', 'Travel Group', 'Popular Activities', 'Brand', 'Popular Nearby Landmarks', 'Rated Highly', 'Payment Method', 'Sustainability', 'Accessible Facilities', 'Accessible Room Facilities'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "ad68e1f7ce bb51db7864"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "View switcher -- renders: 'List', 'Grid'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer_menu_track"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: 'Support', 'Discover', 'Manage your trip', 'About', 'Language and currency', 'Copyright'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "onetrust-banner-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Cookie consent banner -- renders: 'Cookies on Booking.com', 'We use cookies...', 'Cookie settings', 'Reject all', 'Accept all'"
+  }
+]

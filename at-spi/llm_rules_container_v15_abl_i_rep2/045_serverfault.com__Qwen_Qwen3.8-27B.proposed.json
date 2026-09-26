@@ -1,0 +1,390 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: Skip to main content, Help, Network, Log in, Sign up"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "dfp-sspon"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site header -- renders: Server Fault logo; ad slot subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Left sidebar navigation -- renders: Home, Questions, Unanswered, Ask, Tags, Sofa, Chat, Users, Companies, and fixed promotional copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "fs-headline1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Question header controls -- renders: Ask Question button; question title subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item ws-nowrap mr16 mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Question metadata labels -- renders: Asked, Modified, Viewed"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item ws-nowrap mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Question metadata labels -- renders: Active"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answers-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Answers header -- renders: Answers count label, Sort by label, and sort options (Highest score, Most recent, Oldest)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-vote-count"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Vote count display -- renders: numeric vote count"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "fs-caption"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Vote action label -- renders: Vote"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-saves-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Save button -- renders: Save"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-post-issue"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Report issue button -- renders: Report"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-share-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Share button -- renders: Share"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "user-action-time"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Post action timestamp -- renders: Asked/Modified/Answered label and relative time"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "user-gravatar32"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "User avatar container -- renders: user profile image"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "-flair"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "User reputation flair -- renders: numeric reputation score"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-2719"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: Add a comment"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-2733"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: Add a comment"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-2727"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: Add a comment"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-2742"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: Add a comment"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-14949"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: Add a comment"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-2724"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: Add a comment"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-2723"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: Add a comment"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-2730"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: Add a comment"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-2741"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: Add a comment"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-11639"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: Add a comment"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-2729"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: Add a comment"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-2781"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: Add a comment"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-2838"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: Add a comment"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-14973"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: Add a comment"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-14987"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: Add a comment"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-147186"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: Add a comment"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-bottom-notice"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Bottom notice -- renders: fixed platform copy about asking questions and tags"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "class": "s-sidebarwidget--content"
+      },
+      {
+        "role": "section",
+        "id": "dfp-tsb"
+      },
+      {
+        "role": "section",
+        "id": "dfp-msb"
+      },
+      {
+        "role": "section",
+        "id": "dfp-bsb"
+      },
+      {
+        "role": "section",
+        "class": "spacer"
+      },
+      {
+        "role": "section",
+        "id": "hot-network-questions"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Right sidebar chrome -- renders: Related heading and ad report buttons; user-generated lists and ads subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: fixed navigation links, social media links, and copyright text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-report-ad-button-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Ad report button -- renders: Report this ad"
+  }
+]

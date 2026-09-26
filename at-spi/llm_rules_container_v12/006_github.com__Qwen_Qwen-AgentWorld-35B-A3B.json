@@ -1,0 +1,62 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "position-relative header-wrapper js-header-wrapper "
+      }
+    ],
+    "verdict": "trusted",
+    "note": "header wrapper including skip-to-content link and marketing header -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "MarketingHeader-module__root__Tk7n3 HeaderMktg header-logged-out"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "marketing header navigation -- platform's own interface including logo, menu, search, sign in/up, appearance settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-repo-nav js-sidenav-container-pjax js-responsive-underlinenav overflow-hidden UnderlineNav px-3 tmp-px-3 px-md-4 tmp-px-md-4 px-lg-5 tmp-px-lg-5"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository navigation tabs -- code, issues, pull requests, actions, projects, wiki, security and quality, insights"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "mb-2 flex-1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository subnav -- releases, tags operator navigation links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "position-relative ml-md-2"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "release filter search box -- operator's own search control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "pagination d-flex flex-justify-between flex-nowrap"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- previous and next page links"
+  }
+]

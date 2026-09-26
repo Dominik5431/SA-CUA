@@ -1,0 +1,39 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top header navigation -- platform's own interface including logo, app name, settings expand, and search box"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "app-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar navigation -- platform's own fixed categories (Files, Favorites, Shared with you, Shared with others, Shared links, System tags, Trashbin) and settings button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table",
+        "id": "filestable",
+        "class": "has-controls"
+      }
+    ],
+    "except": [
+      {
+        "role": "panel",
+        "id": "fileList"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file list table -- renders: column headers (Name, Size, Modified) with sort controls and select-all checkbox, and summary row with computed totals; excluding the fileList panel which contains user-uploaded files"
+  }
+]

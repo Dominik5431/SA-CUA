@@ -1,0 +1,20 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "nautilus-window"
+      }
+    ],
+    "except": [
+      {
+        "role": "list box"
+      },
+      {
+        "role": "tree table"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Nautilus file manager window chrome -- renders: navigation controls, view switchers, toolbar buttons, status bar labels, and fixed UI vocabulary; file names and directory listings are subtracted as user-generated content"
+  }
+]

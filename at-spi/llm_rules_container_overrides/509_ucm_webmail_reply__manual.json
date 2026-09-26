@@ -1,0 +1,248 @@
+[
+ {
+  "own_role": "heading",
+  "ancestor_path": [
+   {
+    "role": "landmark",
+    "class": "header"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "application header title -- renders the platform's fixed webmail title",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "own_role": "push button",
+  "ancestor_path": [
+   {
+    "role": "landmark",
+    "class": "nav"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "navigation control -- renders the fixed Compose action",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "own_role": "push button",
+  "ancestor_path": [
+   {
+    "role": "section",
+    "id": "email-detail"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "message actions -- renders the fixed Back, Reply, Flag, Delete, and Download controls",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "own_role": "heading",
+  "ancestor_path": [
+   {
+    "role": "section",
+    "id": "reply-modal"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "reply dialog heading -- renders the platform's fixed reply-dialog title",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "own_role": "label",
+  "ancestor_path": [
+   {
+    "role": "section",
+    "id": "reply-modal"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "reply form labels -- renders the fixed recipient, subject, template, and body labels",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "own_role": "combo box",
+  "ancestor_path": [
+   {
+    "role": "section",
+    "id": "reply-modal"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "reply template selector -- renders the platform's fixed reply-template choices",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "class": "modal-buttons"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "reply dialog actions -- renders the fixed Send and Cancel controls",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "entry",
+    "id": "reply-body"
+   }
+  ],
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "[manual UCM override] reply message body -- starts empty (app.js clears it) or holds a fixed site template; To/Subject are prefilled from the untrusted email and stay masked"
+ }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "footer",
+        "class": "rcx-box rcx-box--full rcx-css-1h8ylb3 rcx-css-1583vym"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar footer -- platform's own interface controls for profile and settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "rcx-room-header rcx-css-7tefqp"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "rcx-css-u5iepl"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "room header container -- renders: room action buttons and toolbar; subtracted channel name heading"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rc-message-box__toolbar-formatting"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message input box toolbar formatting -- platform's own interface controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "messages-box"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "class": "messages-list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message box container -- renders: new message and jump recent buttons; subtracted messages list"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "messages-list"
+      }
+    ],
+    "own_role": "list item",
+    "verdict": "trusted",
+    "note": "messages list start separator -- computed start-of-messages label"
+  }
+]

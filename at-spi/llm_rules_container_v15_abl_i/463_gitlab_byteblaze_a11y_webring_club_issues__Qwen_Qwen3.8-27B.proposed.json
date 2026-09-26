@@ -1,0 +1,78 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "navbar-gitlab"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry",
+        "id": "search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global top navigation bar -- renders: GitLab logo, navigation links (Home, Issues, Merge Requests, To-Do List, Help), and user avatar; search input is subtracted as it may echo user queries"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Project sidebar navigation -- renders: fixed section labels (Information, Repository, Issues, Merge Requests, Pipelines, Deployments, Infrastructure, Monitor, Analytics, Wiki, Snippets, Settings); the project name header is subtracted as it is user-defined"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "breadcrumbs"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Breadcrumbs -- renders: navigation path segments (Group, Project, Section) which are structural identifiers for the current context"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "__BVID__7"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue state tabs -- renders: fixed state labels (Open, Closed, All) with counts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "content-body"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "__BVID__7"
+      },
+      {
+        "role": "list",
+        "class": "issues-list"
+      },
+      {
+        "role": "landmark",
+        "class": "issues-bulk-update"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue list toolbar -- renders: fixed action buttons (New Issue, Filter, Sort) and search controls; the issue list and bulk update sidebar are subtracted as they contain user-generated content"
+  }
+]

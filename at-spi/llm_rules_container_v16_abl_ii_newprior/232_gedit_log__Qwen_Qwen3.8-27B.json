@@ -1,0 +1,52 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Toolbar and dialog action buttons -- renders fixed operator vocabulary for editor commands and settings (e.g., New, Open, Save, Undo, Redo, Cut, Copy, Paste, Find, Replace, Print, Help, OK, Cancel, Apply)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "Toolbar and dialog toggle buttons -- renders fixed operator vocabulary for view modes and options (e.g., Show Line Numbers, Show Right Margin, Fullscreen, Word Wrap)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "check box",
+    "verdict": "trusted",
+    "note": "Dialog checkboxes -- renders fixed operator vocabulary for configuration options (e.g., Highlight Current Line, Auto Indent, Use Default Font)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "radio button",
+    "verdict": "trusted",
+    "note": "Dialog radio buttons -- renders fixed operator vocabulary for mutually exclusive settings (e.g., Tab size, Indentation type, Line ending)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "label",
+    "verdict": "trusted",
+    "note": "Dialog and toolbar labels -- renders fixed operator vocabulary for field descriptions, section headers, and status indicators (e.g., 'Encoding', 'Line Ending', 'Font', 'Search:', 'Replace:')"
+  }
+]

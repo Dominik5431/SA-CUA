@@ -1,0 +1,105 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "navbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header and navigation -- renders fixed operator vocabulary for branding, navigation, sign-in, and account controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "image",
+        "class": "absolute h-[calc(100vh-64px)]"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "hero artwork -- renders fixed operator-selected homepage imagery"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "bg-p-50"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "homepage headings -- renders fixed operator-authored section and marketing headings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "bg-p-50"
+      }
+    ],
+    "own_role": "paragraph",
+    "verdict": "trusted",
+    "note": "homepage paragraphs -- renders fixed operator-authored marketing prose"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "bg-p-50"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "homepage view switch -- renders fixed operator-defined toggle vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "input-md"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "flight search control -- renders the fixed operator search interface and its fixed placeholder vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "aspect-h-1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "operator marketing cards -- renders fixed card headings, descriptions, and calls to action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "group/cta"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "homepage calls to action -- renders fixed operator-defined action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "map-key"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "map legend -- renders fixed operator-defined map key labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders fixed operator navigation, social controls, legal links, and branding"
+  }
+]

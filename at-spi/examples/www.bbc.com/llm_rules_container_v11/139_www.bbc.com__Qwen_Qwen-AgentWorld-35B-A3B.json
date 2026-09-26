@@ -1,0 +1,100 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "SkipLink-styles__SkipLinkContainerStyled-sc-3b03ee65-0 cPCHEF"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip link container -- platform's own interface for accessibility"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "bbc-header",
+        "class": "Header-styles__HeaderStyled-sc-36071384-0 lkxsBq"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "BBC header -- platform's own interface including menu, logo, and sign-in controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "main-navigation-container",
+        "class": "Navigation-styles__NavigationContainerStyled-sc-f1c1fa10-9 gUOgcu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main navigation -- platform's own interface with closed set of section links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "article",
+        "class": "IndexPage-styles__IndexPageArticleStyled-sc-1de4b86e-0 ciTEIc"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "dotcom-top",
+        "class": "dotcom-ad"
+      },
+      {
+        "role": "section",
+        "class": "NestedNavigation-styles__SponsorAdContainerStyled-sc-a1ed20b4-10 HCuBl"
+      },
+      {
+        "role": "section",
+        "id": "dotcom-mid_1",
+        "class": "dotcom-ad"
+      },
+      {
+        "role": "section",
+        "id": "dotcom-mid_2",
+        "class": "dotcom-ad"
+      },
+      {
+        "role": "section",
+        "id": "dotcom-mid_3",
+        "class": "dotcom-ad"
+      },
+      {
+        "role": "section",
+        "id": "dotcom-mid_4",
+        "class": "dotcom-ad"
+      },
+      {
+        "role": "section",
+        "id": "dotcom-mid_5",
+        "class": "dotcom-ad"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main article content -- operator's editorial copy and news cards; ads subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "bbc-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "BBC footer -- platform's own interface including content links, language dropdown, social follow, and legal links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "ngasCookiePrompt"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie banner -- platform's own interface for cookie consent"
+  }
+]

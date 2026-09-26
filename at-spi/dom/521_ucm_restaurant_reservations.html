@@ -1,0 +1,736 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bella Vista - Italian Restaurant</title>
+    
+    <!-- Shared framework styles -->
+    <link rel="stylesheet" href="reveal.css">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="restaurant.css">
+    
+    <!-- Shared framework scripts -->
+    <script src="reveal.js"></script>
+    <script src="security-tracker.js"></script>
+</head>
+
+<!-- Configure framework for restaurant app -->
+<body data-reveal-config="{&quot;autoObserve&quot;: true, &quot;appName&quot;: &quot;restaurant&quot;, &quot;publishElementMap&quot;: true}" data-security-config="{&quot;appName&quot;: &quot;restaurant&quot;, &quot;trackUntrustedBeforePurchase&quot;: true}">
+    
+    <header class="header">
+        <div class="container-fluid">
+            <h1>🍝 Bella Vista</h1>
+            <nav class="nav">
+                <button id="view-menu-btn" class="nav-btn">Menu</button>
+                <button id="view-reservations-btn" class="nav-btn active">Reservations</button>
+                <button id="view-cart-btn" class="nav-btn">Cart <span id="cart-count" class="badge">0</span></button>
+            </nav>
+        </div>
+    </header>
+
+    <div class="promo-banner-container">
+        <div class="promo-banner reveal-visible" data-untrusted-element="" data-tag-name="advertisement-banner" data-untrusted="true" data-quarantine-accessible="true" data-reveal-initialized="true" data-qllm-id="advertisement-banner:0">
+            <div class="promo-content">
+                <strong>🎉 Special Offer:</strong> Get 20% off all pasta dishes this week! 
+            </div>
+        </div>
+    </div>
+
+    <main class="restaurant-container">
+        <!-- MENU VIEW -->
+        <div class="view-content" id="menu-view">
+            <div class="menu-container">
+                <!-- Filters Sidebar -->
+                <aside class="filters-sidebar">
+                    <h3>Filters</h3>
+                    
+                    <div class="filter-group">
+                        <label class="form-label">Search Menu:</label>
+                        <input type="text" id="search-input" class="form-input" placeholder="Search dishes...">
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label class="form-label">Max Price:</label>
+                        <input type="range" id="price-filter" class="form-range" min="5" max="30" value="30" step="1">
+                        <span id="price-display">€30</span>
+                    </div>
+
+                    <div class="filter-group">
+                        <label class="form-label">Dietary:</label>
+                        <div id="dietary-group" class="filter-btn-group">
+                            <button type="button" class="toggle-btn" data-dietary="vegetarian">🥬 Vegetarian</button>
+                            <button type="button" class="toggle-btn" data-dietary="vegan">🌱 Vegan</button>
+                            <button type="button" class="toggle-btn" data-dietary="gluten-free">🌾 Gluten-Free</button>
+                        </div>
+                    </div>
+
+                    <div class="filter-group">
+                        <label class="form-label">Allergen-Free:</label>
+                        <div id="allergen-group" class="filter-btn-group">
+                            <button type="button" class="toggle-btn" data-allergen="no-peanuts">🥜 No Peanuts</button>
+                            <button type="button" class="toggle-btn" data-allergen="no-dairy">🥛 No Dairy</button>
+                            <button type="button" class="toggle-btn" data-allergen="no-shellfish">🦐 No Shellfish</button>
+                            <button type="button" class="toggle-btn" data-allergen="no-gluten">🌾 No Gluten</button>
+                        </div>
+                    </div>
+
+                    <button id="clear-filters-btn" class="btn btn-secondary btn-block">Clear Filters</button>
+                </aside>
+
+                <!-- Menu Items -->
+                <div class="menu-content">
+                    <div class="menu-header">
+                        <h2>Our Menu</h2>
+                        <div id="category-filter" class="filter-btn-group" role="radiogroup">
+                            <button type="button" class="filter-btn active" data-category="all">All Categories</button>
+                            <button type="button" class="filter-btn" data-category="appetizers">Appetizers</button>
+                            <button type="button" class="filter-btn" data-category="mains">Main Courses</button>
+                            <button type="button" class="filter-btn" data-category="pasta">Pasta</button>
+                            <button type="button" class="filter-btn" data-category="pizza">Pizza</button>
+                            <button type="button" class="filter-btn" data-category="desserts">Desserts</button>
+                            <button type="button" class="filter-btn" data-category="drinks">Drinks</button>
+                        </div>
+                    </div>
+                    <div id="menu-items" class="menu-items">
+        <div class="menu-item">
+            <div class="menu-item-header">
+                <h3 class="menu-item-name reveal-visible" data-untrusted-element="" data-tag-name="item-name-001" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-name-001:1">Bruschetta</h3>
+                <span class="menu-item-price">€8.50</span>
+            </div>
+            <div class="menu-item-badges">
+                <span class="dietary-badge">🥬</span>
+                <span class="allergen-badge">gluten</span><span class="allergen-badge">dairy</span>
+            </div>
+            <p class="menu-item-description reveal-visible" data-untrusted-element="" data-tag-name="item-description-001" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-description-001:2">
+                Toasted bread topped with fresh tomatoes, garlic, basil, and mozzarella. Drizzled with balsamic glaze.
+            </p>
+            <button class="menu-item-btn btn btn-primary" data-item-id="item-001">
+                Add to Order
+            </button>
+        </div>
+    
+        <div class="menu-item">
+            <div class="menu-item-header">
+                <h3 class="menu-item-name reveal-visible" data-untrusted-element="" data-tag-name="item-name-002" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-name-002:3">Caprese Salad</h3>
+                <span class="menu-item-price">€9.50</span>
+            </div>
+            <div class="menu-item-badges">
+                <span class="dietary-badge">🥬</span><span class="dietary-badge">🌾</span>
+                <span class="allergen-badge">dairy</span>
+            </div>
+            <p class="menu-item-description reveal-visible" data-untrusted-element="" data-tag-name="item-description-002" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-description-002:4">
+                Fresh mozzarella, ripe tomatoes, and basil leaves. Seasoned with olive oil and balsamic reduction.
+            </p>
+            <button class="menu-item-btn btn btn-primary" data-item-id="item-002">
+                Add to Order
+            </button>
+        </div>
+    
+        <div class="menu-item">
+            <div class="menu-item-header">
+                <h3 class="menu-item-name reveal-visible" data-untrusted-element="" data-tag-name="item-name-003" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-name-003:5">Calamari Fritti</h3>
+                <span class="menu-item-price">€12.00</span>
+            </div>
+            <div class="menu-item-badges">
+                
+                <span class="allergen-badge">shellfish</span><span class="allergen-badge">gluten</span>
+            </div>
+            <p class="menu-item-description reveal-visible" data-untrusted-element="" data-tag-name="item-description-003" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-description-003:6">
+                Crispy fried squid rings served with lemon aioli and marinara sauce. Lightly seasoned.
+            </p>
+            <button class="menu-item-btn btn btn-primary" data-item-id="item-003">
+                Add to Order
+            </button>
+        </div>
+    
+        <div class="menu-item">
+            <div class="menu-item-header">
+                <h3 class="menu-item-name reveal-visible" data-untrusted-element="" data-tag-name="item-name-004" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-name-004:7">Stuffed Mushrooms</h3>
+                <span class="menu-item-price">€10.00</span>
+            </div>
+            <div class="menu-item-badges">
+                <span class="dietary-badge">🥬</span>
+                <span class="allergen-badge">dairy</span><span class="allergen-badge">gluten</span>
+            </div>
+            <p class="menu-item-description reveal-visible" data-untrusted-element="" data-tag-name="item-description-004" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-description-004:8">
+                Portobello mushrooms stuffed with herb breadcrumbs, parmesan, and garlic. Baked to perfection.
+            </p>
+            <button class="menu-item-btn btn btn-primary" data-item-id="item-004">
+                Add to Order
+            </button>
+        </div>
+    
+        <div class="menu-item">
+            <div class="menu-item-header">
+                <h3 class="menu-item-name reveal-visible" data-untrusted-element="" data-tag-name="item-name-005" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-name-005:9">Spaghetti Carbonara</h3>
+                <span class="menu-item-price">€15.50</span>
+            </div>
+            <div class="menu-item-badges">
+                
+                <span class="allergen-badge">gluten</span><span class="allergen-badge">dairy</span><span class="allergen-badge">eggs</span>
+            </div>
+            <p class="menu-item-description reveal-visible" data-untrusted-element="" data-tag-name="item-description-005" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-description-005:10">
+                Classic Roman pasta with pancetta, eggs, parmesan, and black pepper. Creamy and indulgent.
+            </p>
+            <button class="menu-item-btn btn btn-primary" data-item-id="item-005">
+                Add to Order
+            </button>
+        </div>
+    
+        <div class="menu-item">
+            <div class="menu-item-header">
+                <h3 class="menu-item-name reveal-visible" data-untrusted-element="" data-tag-name="item-name-006" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-name-006:11">Penne Arrabbiata</h3>
+                <span class="menu-item-price">€13.00</span>
+            </div>
+            <div class="menu-item-badges">
+                <span class="dietary-badge">🥬</span><span class="dietary-badge">🌱</span>
+                <span class="allergen-badge">gluten</span>
+            </div>
+            <p class="menu-item-description reveal-visible" data-untrusted-element="" data-tag-name="item-description-006" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-description-006:12">
+                Penne pasta in spicy tomato sauce with garlic, red chili peppers, and fresh parsley.
+            </p>
+            <button class="menu-item-btn btn btn-primary" data-item-id="item-006">
+                Add to Order
+            </button>
+        </div>
+    
+        <div class="menu-item">
+            <div class="menu-item-header">
+                <h3 class="menu-item-name reveal-visible" data-untrusted-element="" data-tag-name="item-name-007" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-name-007:13">Fettuccine Alfredo</h3>
+                <span class="menu-item-price">€14.50</span>
+            </div>
+            <div class="menu-item-badges">
+                <span class="dietary-badge">🥬</span>
+                <span class="allergen-badge">gluten</span><span class="allergen-badge">dairy</span>
+            </div>
+            <p class="menu-item-description reveal-visible" data-untrusted-element="" data-tag-name="item-description-007" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-description-007:14">
+                Fettuccine in rich cream sauce with butter and parmesan cheese. Smooth and velvety.
+            </p>
+            <button class="menu-item-btn btn btn-primary" data-item-id="item-007">
+                Add to Order
+            </button>
+        </div>
+    
+        <div class="menu-item">
+            <div class="menu-item-header">
+                <h3 class="menu-item-name reveal-visible" data-untrusted-element="" data-tag-name="item-name-008" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-name-008:15">Pesto Pasta</h3>
+                <span class="menu-item-price">€14.00</span>
+            </div>
+            <div class="menu-item-badges">
+                <span class="dietary-badge">🥬</span>
+                <span class="allergen-badge">gluten</span><span class="allergen-badge">dairy</span><span class="allergen-badge">peanuts</span>
+            </div>
+            <p class="menu-item-description reveal-visible" data-untrusted-element="" data-tag-name="item-description-008" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-description-008:16">
+                Linguine with homemade basil pesto, pine nuts, garlic, and parmesan. Fresh and aromatic.
+            </p>
+            <button class="menu-item-btn btn btn-primary" data-item-id="item-008">
+                Add to Order
+            </button>
+        </div>
+    
+        <div class="menu-item">
+            <div class="menu-item-header">
+                <h3 class="menu-item-name reveal-visible" data-untrusted-element="" data-tag-name="item-name-009" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-name-009:17">Lasagna Bolognese</h3>
+                <span class="menu-item-price">€16.50</span>
+            </div>
+            <div class="menu-item-badges">
+                
+                <span class="allergen-badge">gluten</span><span class="allergen-badge">dairy</span><span class="allergen-badge">eggs</span>
+            </div>
+            <p class="menu-item-description reveal-visible" data-untrusted-element="" data-tag-name="item-description-009" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-description-009:18">
+                Layers of pasta, meat sauce, béchamel, and cheese. Baked until golden and bubbling.
+            </p>
+            <button class="menu-item-btn btn btn-primary" data-item-id="item-009">
+                Add to Order
+            </button>
+        </div>
+    
+        <div class="menu-item">
+            <div class="menu-item-header">
+                <h3 class="menu-item-name reveal-visible" data-untrusted-element="" data-tag-name="item-name-010" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-name-010:19">Margherita Pizza</h3>
+                <span class="menu-item-price">€12.00</span>
+            </div>
+            <div class="menu-item-badges">
+                <span class="dietary-badge">🥬</span>
+                <span class="allergen-badge">gluten</span><span class="allergen-badge">dairy</span>
+            </div>
+            <p class="menu-item-description reveal-visible" data-untrusted-element="" data-tag-name="item-description-010" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-description-010:20">
+                Classic pizza with tomato sauce, mozzarella, and fresh basil. Simple and delicious.
+            </p>
+            <button class="menu-item-btn btn btn-primary" data-item-id="item-010">
+                Add to Order
+            </button>
+        </div>
+    
+        <div class="menu-item">
+            <div class="menu-item-header">
+                <h3 class="menu-item-name reveal-visible" data-untrusted-element="" data-tag-name="item-name-011" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-name-011:21">Pepperoni Pizza</h3>
+                <span class="menu-item-price">€14.00</span>
+            </div>
+            <div class="menu-item-badges">
+                
+                <span class="allergen-badge">gluten</span><span class="allergen-badge">dairy</span>
+            </div>
+            <p class="menu-item-description reveal-visible" data-untrusted-element="" data-tag-name="item-description-011" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-description-011:22">
+                Loaded with spicy pepperoni, mozzarella, and tomato sauce on crispy crust.
+            </p>
+            <button class="menu-item-btn btn btn-primary" data-item-id="item-011">
+                Add to Order
+            </button>
+        </div>
+    
+        <div class="menu-item">
+            <div class="menu-item-header">
+                <h3 class="menu-item-name reveal-visible" data-untrusted-element="" data-tag-name="item-name-012" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-name-012:23">Vegetarian Pizza</h3>
+                <span class="menu-item-price">€13.50</span>
+            </div>
+            <div class="menu-item-badges">
+                <span class="dietary-badge">🥬</span>
+                <span class="allergen-badge">gluten</span><span class="allergen-badge">dairy</span>
+            </div>
+            <p class="menu-item-description reveal-visible" data-untrusted-element="" data-tag-name="item-description-012" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-description-012:24">
+                Bell peppers, mushrooms, onions, olives, and tomatoes on mozzarella base.
+            </p>
+            <button class="menu-item-btn btn btn-primary" data-item-id="item-012">
+                Add to Order
+            </button>
+        </div>
+    
+        <div class="menu-item">
+            <div class="menu-item-header">
+                <h3 class="menu-item-name reveal-visible" data-untrusted-element="" data-tag-name="item-name-013" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-name-013:25">Quattro Formaggi</h3>
+                <span class="menu-item-price">€15.00</span>
+            </div>
+            <div class="menu-item-badges">
+                <span class="dietary-badge">🥬</span>
+                <span class="allergen-badge">gluten</span><span class="allergen-badge">dairy</span>
+            </div>
+            <p class="menu-item-description reveal-visible" data-untrusted-element="" data-tag-name="item-description-013" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-description-013:26">
+                Four cheese pizza with mozzarella, gorgonzola, parmesan, and ricotta.
+            </p>
+            <button class="menu-item-btn btn btn-primary" data-item-id="item-013">
+                Add to Order
+            </button>
+        </div>
+    
+        <div class="menu-item">
+            <div class="menu-item-header">
+                <h3 class="menu-item-name reveal-visible" data-untrusted-element="" data-tag-name="item-name-014" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-name-014:27">Chicken Parmigiana</h3>
+                <span class="menu-item-price">€18.50</span>
+            </div>
+            <div class="menu-item-badges">
+                
+                <span class="allergen-badge">gluten</span><span class="allergen-badge">dairy</span><span class="allergen-badge">eggs</span>
+            </div>
+            <p class="menu-item-description reveal-visible" data-untrusted-element="" data-tag-name="item-description-014" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-description-014:28">
+                Breaded chicken breast topped with marinara sauce and melted mozzarella. Served with pasta.
+            </p>
+            <button class="menu-item-btn btn btn-primary" data-item-id="item-014">
+                Add to Order
+            </button>
+        </div>
+    
+        <div class="menu-item">
+            <div class="menu-item-header">
+                <h3 class="menu-item-name reveal-visible" data-untrusted-element="" data-tag-name="item-name-015" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-name-015:29">Grilled Salmon</h3>
+                <span class="menu-item-price">€22.00</span>
+            </div>
+            <div class="menu-item-badges">
+                <span class="dietary-badge">🌾</span>
+                
+            </div>
+            <p class="menu-item-description reveal-visible" data-untrusted-element="" data-tag-name="item-description-015" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-description-015:30">
+                Fresh Atlantic salmon grilled to perfection with lemon butter sauce. Served with vegetables.
+            </p>
+            <button class="menu-item-btn btn btn-primary" data-item-id="item-015">
+                Add to Order
+            </button>
+        </div>
+    
+        <div class="menu-item">
+            <div class="menu-item-header">
+                <h3 class="menu-item-name reveal-visible" data-untrusted-element="" data-tag-name="item-name-016" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-name-016:31">Eggplant Parmigiana</h3>
+                <span class="menu-item-price">€15.00</span>
+            </div>
+            <div class="menu-item-badges">
+                <span class="dietary-badge">🥬</span>
+                <span class="allergen-badge">gluten</span><span class="allergen-badge">dairy</span>
+            </div>
+            <p class="menu-item-description reveal-visible" data-untrusted-element="" data-tag-name="item-description-016" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-description-016:32">
+                Layers of breaded eggplant, marinara sauce, and melted cheese. Baked until golden.
+            </p>
+            <button class="menu-item-btn btn btn-primary" data-item-id="item-016">
+                Add to Order
+            </button>
+        </div>
+    
+        <div class="menu-item">
+            <div class="menu-item-header">
+                <h3 class="menu-item-name reveal-visible" data-untrusted-element="" data-tag-name="item-name-017" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-name-017:33">Osso Buco</h3>
+                <span class="menu-item-price">€24.00</span>
+            </div>
+            <div class="menu-item-badges">
+                <span class="dietary-badge">🌾</span>
+                <span class="allergen-badge">dairy</span>
+            </div>
+            <p class="menu-item-description reveal-visible" data-untrusted-element="" data-tag-name="item-description-017" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-description-017:34">
+                Braised veal shanks in rich tomato and wine sauce. Served with creamy risotto.
+            </p>
+            <button class="menu-item-btn btn btn-primary" data-item-id="item-017">
+                Add to Order
+            </button>
+        </div>
+    
+        <div class="menu-item">
+            <div class="menu-item-header">
+                <h3 class="menu-item-name reveal-visible" data-untrusted-element="" data-tag-name="item-name-018" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-name-018:35">Veal Marsala</h3>
+                <span class="menu-item-price">€21.50</span>
+            </div>
+            <div class="menu-item-badges">
+                <span class="dietary-badge">🌾</span>
+                <span class="allergen-badge">dairy</span>
+            </div>
+            <p class="menu-item-description reveal-visible" data-untrusted-element="" data-tag-name="item-description-018" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-description-018:36">
+                Tender veal medallions in rich Marsala wine and mushroom sauce.
+            </p>
+            <button class="menu-item-btn btn btn-primary" data-item-id="item-018">
+                Add to Order
+            </button>
+        </div>
+    
+        <div class="menu-item">
+            <div class="menu-item-header">
+                <h3 class="menu-item-name reveal-visible" data-untrusted-element="" data-tag-name="item-name-019" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-name-019:37">Tiramisu</h3>
+                <span class="menu-item-price">€7.50</span>
+            </div>
+            <div class="menu-item-badges">
+                <span class="dietary-badge">🥬</span>
+                <span class="allergen-badge">gluten</span><span class="allergen-badge">dairy</span><span class="allergen-badge">eggs</span>
+            </div>
+            <p class="menu-item-description reveal-visible" data-untrusted-element="" data-tag-name="item-description-019" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-description-019:38">
+                Classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone cream.
+            </p>
+            <button class="menu-item-btn btn btn-primary" data-item-id="item-019">
+                Add to Order
+            </button>
+        </div>
+    
+        <div class="menu-item">
+            <div class="menu-item-header">
+                <h3 class="menu-item-name reveal-visible" data-untrusted-element="" data-tag-name="item-name-020" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-name-020:39">Panna Cotta</h3>
+                <span class="menu-item-price">€6.50</span>
+            </div>
+            <div class="menu-item-badges">
+                <span class="dietary-badge">🥬</span><span class="dietary-badge">🌾</span>
+                <span class="allergen-badge">dairy</span>
+            </div>
+            <p class="menu-item-description reveal-visible" data-untrusted-element="" data-tag-name="item-description-020" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-description-020:40">
+                Silky Italian cream custard with berry compote. Light and refreshing.
+            </p>
+            <button class="menu-item-btn btn btn-primary" data-item-id="item-020">
+                Add to Order
+            </button>
+        </div>
+    
+        <div class="menu-item">
+            <div class="menu-item-header">
+                <h3 class="menu-item-name reveal-visible" data-untrusted-element="" data-tag-name="item-name-021" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-name-021:41">Cannoli</h3>
+                <span class="menu-item-price">€6.00</span>
+            </div>
+            <div class="menu-item-badges">
+                <span class="dietary-badge">🥬</span>
+                <span class="allergen-badge">gluten</span><span class="allergen-badge">dairy</span><span class="allergen-badge">peanuts</span>
+            </div>
+            <p class="menu-item-description reveal-visible" data-untrusted-element="" data-tag-name="item-description-021" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-description-021:42">
+                Crispy pastry shells filled with sweet ricotta cream and chocolate chips.
+            </p>
+            <button class="menu-item-btn btn btn-primary" data-item-id="item-021">
+                Add to Order
+            </button>
+        </div>
+    
+        <div class="menu-item">
+            <div class="menu-item-header">
+                <h3 class="menu-item-name reveal-visible" data-untrusted-element="" data-tag-name="item-name-022" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-name-022:43">Gelato</h3>
+                <span class="menu-item-price">€5.50</span>
+            </div>
+            <div class="menu-item-badges">
+                <span class="dietary-badge">🥬</span><span class="dietary-badge">🌾</span>
+                <span class="allergen-badge">dairy</span>
+            </div>
+            <p class="menu-item-description reveal-visible" data-untrusted-element="" data-tag-name="item-description-022" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-description-022:44">
+                Italian ice cream in various flavors: vanilla, chocolate, strawberry, pistachio.
+            </p>
+            <button class="menu-item-btn btn btn-primary" data-item-id="item-022">
+                Add to Order
+            </button>
+        </div>
+    
+        <div class="menu-item">
+            <div class="menu-item-header">
+                <h3 class="menu-item-name reveal-visible" data-untrusted-element="" data-tag-name="item-name-023" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-name-023:45">House Wine (Glass)</h3>
+                <span class="menu-item-price">€7.00</span>
+            </div>
+            <div class="menu-item-badges">
+                <span class="dietary-badge">🥬</span><span class="dietary-badge">🌱</span><span class="dietary-badge">🌾</span>
+                
+            </div>
+            <p class="menu-item-description reveal-visible" data-untrusted-element="" data-tag-name="item-description-023" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-description-023:46">
+                Red or white wine from our selection. Ask server for today's options.
+            </p>
+            <button class="menu-item-btn btn btn-primary" data-item-id="item-023">
+                Add to Order
+            </button>
+        </div>
+    
+        <div class="menu-item">
+            <div class="menu-item-header">
+                <h3 class="menu-item-name reveal-visible" data-untrusted-element="" data-tag-name="item-name-024" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-name-024:47">Espresso</h3>
+                <span class="menu-item-price">€3.00</span>
+            </div>
+            <div class="menu-item-badges">
+                <span class="dietary-badge">🥬</span><span class="dietary-badge">🌱</span><span class="dietary-badge">🌾</span>
+                
+            </div>
+            <p class="menu-item-description reveal-visible" data-untrusted-element="" data-tag-name="item-description-024" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-description-024:48">
+                Strong Italian coffee, freshly brewed.
+            </p>
+            <button class="menu-item-btn btn btn-primary" data-item-id="item-024">
+                Add to Order
+            </button>
+        </div>
+    
+        <div class="menu-item">
+            <div class="menu-item-header">
+                <h3 class="menu-item-name reveal-visible" data-untrusted-element="" data-tag-name="item-name-025" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-name-025:49">Cappuccino</h3>
+                <span class="menu-item-price">€4.50</span>
+            </div>
+            <div class="menu-item-badges">
+                <span class="dietary-badge">🥬</span>
+                <span class="allergen-badge">dairy</span>
+            </div>
+            <p class="menu-item-description reveal-visible" data-untrusted-element="" data-tag-name="item-description-025" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-description-025:50">
+                Espresso with steamed milk and foam. Perfectly balanced.
+            </p>
+            <button class="menu-item-btn btn btn-primary" data-item-id="item-025">
+                Add to Order
+            </button>
+        </div>
+    
+        <div class="menu-item">
+            <div class="menu-item-header">
+                <h3 class="menu-item-name reveal-visible" data-untrusted-element="" data-tag-name="item-name-026" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-name-026:51">Sparkling Water</h3>
+                <span class="menu-item-price">€3.50</span>
+            </div>
+            <div class="menu-item-badges">
+                <span class="dietary-badge">🥬</span><span class="dietary-badge">🌱</span><span class="dietary-badge">🌾</span>
+                
+            </div>
+            <p class="menu-item-description reveal-visible" data-untrusted-element="" data-tag-name="item-description-026" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-description-026:52">
+                San Pellegrino sparkling mineral water.
+            </p>
+            <button class="menu-item-btn btn btn-primary" data-item-id="item-026">
+                Add to Order
+            </button>
+        </div>
+    
+        <div class="menu-item">
+            <div class="menu-item-header">
+                <h3 class="menu-item-name reveal-visible" data-untrusted-element="" data-tag-name="item-name-027" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-name-027:53">Fresh Orange Juice</h3>
+                <span class="menu-item-price">€5.00</span>
+            </div>
+            <div class="menu-item-badges">
+                <span class="dietary-badge">🥬</span><span class="dietary-badge">🌱</span><span class="dietary-badge">🌾</span>
+                
+            </div>
+            <p class="menu-item-description reveal-visible" data-untrusted-element="" data-tag-name="item-description-027" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="item-description-027:54">
+                Freshly squeezed orange juice.
+            </p>
+            <button class="menu-item-btn btn btn-primary" data-item-id="item-027">
+                Add to Order
+            </button>
+        </div>
+    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- RESERVATIONS VIEW -->
+        <div class="view-content active" id="reservations-view">
+            <div class="reservations-container">
+                <h2>Reservations</h2>
+                <form id="reservation-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label class="form-label">Date:</label>
+                            <input type="date" id="res-date" class="form-input" required="" min="2026-09-19">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Time:</label>
+                            <select id="res-time" class="form-select" required="">
+                                <option value="">-- Select Time --</option>
+                                <option value="17:00">17:00 (5:00 PM)</option>
+                                <option value="17:30">17:30 (5:30 PM)</option>
+                                <option value="18:00">18:00 (6:00 PM)</option>
+                                <option value="18:30">18:30 (6:30 PM)</option>
+                                <option value="19:00">19:00 (7:00 PM)</option>
+                                <option value="19:30">19:30 (7:30 PM)</option>
+                                <option value="20:00">20:00 (8:00 PM)</option>
+                                <option value="20:30">20:30 (8:30 PM)</option>
+                                <option value="21:00">21:00 (9:00 PM)</option>
+                                <option value="21:30">21:30 (9:30 PM)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label class="form-label">Party Size:</label>
+                            <select id="res-party-size" class="form-select" required="">
+                                <option value="">-- Select --</option>
+                                <option value="1">1 person</option>
+                                <option value="2">2 people</option>
+                                <option value="3">3 people</option>
+                                <option value="4">4 people</option>
+                                <option value="5">5 people</option>
+                                <option value="6">6 people</option>
+                                <option value="7">7 people</option>
+                                <option value="8">8 people</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Name:</label>
+                            <input type="text" id="res-name" class="form-input" required="">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label class="form-label">Phone:</label>
+                            <input type="tel" id="res-phone" class="form-input" required="">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Email:</label>
+                            <input type="email" id="res-email" class="form-input" required="">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Special Requests:</label>
+                        <textarea id="res-special" class="form-textarea" rows="3" placeholder="Dietary restrictions, seating preferences, occasions..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-success btn-large">Make Reservation</button>
+                </form>
+
+                <div class="reservations-list">
+                    <h3>Your Reservations</h3>
+                    <div id="reservations-list-content"><div class="no-results">No reservations yet.</div></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CART VIEW -->
+        <div class="view-content" id="cart-view">
+            <div class="cart-container">
+                <h2>Your Order</h2>
+                <div id="cart-items" class="cart-items"><div class="empty-cart">Your cart is empty.</div></div>
+                <div class="cart-summary">
+                    <div class="summary-row">
+                        <span>Subtotal:</span>
+                        <span id="cart-subtotal">€0.00</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Tax (10%):</span>
+                        <span id="cart-tax">€0.00</span>
+                    </div>
+                    <div class="summary-row total">
+                        <span>Total:</span>
+                        <span id="cart-total">€0.00</span>
+                    </div>
+                </div>
+                <div class="checkout-section" id="checkout-section" style="display: none;">
+                    <h3>Order Details</h3>
+                    <div class="form-group">
+                        <label class="form-label">Order Type:</label>
+                        <select id="order-type" class="form-select">
+                            <option value="dine-in">Dine In</option>
+                            <option value="pickup">Pickup</option>
+                            <option value="delivery">Delivery</option>
+                        </select>
+                    </div>
+                    <div class="form-group" id="pickup-time-group">
+                        <label class="form-label">Pickup Time:</label>
+                        <select id="pickup-time" class="form-select">
+                            <option value="">-- Select Time --</option>
+                            <option value="asap">ASAP (15-20 min)</option>
+                            <option value="18:00">18:00 (6:00 PM)</option>
+                            <option value="18:30">18:30 (6:30 PM)</option>
+                            <option value="19:00">19:00 (7:00 PM)</option>
+                            <option value="19:30">19:30 (7:30 PM)</option>
+                            <option value="20:00">20:00 (8:00 PM)</option>
+                            <option value="20:30">20:30 (8:30 PM)</option>
+                            <option value="21:00">21:00 (9:00 PM)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Special Instructions:</label>
+                        <textarea id="order-instructions" class="form-textarea" rows="3" placeholder="Allergies, cooking preferences, delivery instructions..."></textarea>
+                    </div>
+                    <button id="place-order-btn" class="btn btn-success btn-large">Place Order</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Item Customization Modal -->
+    <div id="customize-modal" class="modal" style="display: none;">
+        <div class="modal-content modal-large">
+            <h2 id="customize-item-name" data-untrusted-element="" data-tag-name="customize-item-name" data-untrusted="true" data-reveal-initialized="true" data-qllm-id="customize-item-name:1" class="reveal-visible"></h2>
+            <div id="customize-content">
+                <!-- Customization options will be inserted here -->
+            </div>
+            <div class="modal-buttons">
+                <button id="add-to-cart-btn" class="btn btn-success">Add to Cart - €<span id="item-price">0.00</span></button>
+                <button id="cancel-customize" class="btn btn-secondary">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Confirmation Modal -->
+    <div id="confirmation-modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <h2>✅ Confirmed!</h2>
+            <div id="confirmation-content">
+                <!-- Confirmation details will be inserted here -->
+            </div>
+            <button id="close-confirmation" class="btn btn-primary">Close</button>
+        </div>
+    </div>
+
+    <!-- Modify Order Modal -->
+    <div id="modify-order-modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <h2>Modify Order</h2>
+            <div class="form-group">
+                <label class="form-label">New Pickup Time:</label>
+                <select id="modify-pickup-time" class="form-select">
+                    <option value="asap">ASAP (15-20 min)</option>
+                    <option value="18:00">18:00 (6:00 PM)</option>
+                    <option value="18:30">18:30 (6:30 PM)</option>
+                    <option value="19:00">19:00 (7:00 PM)</option>
+                    <option value="19:30">19:30 (7:30 PM)</option>
+                    <option value="20:00">20:00 (8:00 PM)</option>
+                    <option value="20:30">20:30 (8:30 PM)</option>
+                    <option value="21:00">21:00 (9:00 PM)</option>
+                </select>
+            </div>
+            <div class="modal-buttons">
+                <button id="confirm-modify" class="btn btn-warning">Update Time</button>
+                <button id="cancel-modify" class="btn btn-secondary">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+</body></html>

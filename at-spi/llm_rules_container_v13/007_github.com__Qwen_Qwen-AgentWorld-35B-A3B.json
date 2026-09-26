@@ -1,0 +1,52 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "position-relative header-wrapper js-header-wrapper "
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar and marketing header -- platform's own interface including skip-to-content, navigation, search trigger, sign-in/sign-up controls, and appearance settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "MarketingSuggestion-module__heading__T_nm5 prc-Heading-Heading-MtWFE"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "marketing suggestion heading -- fixed platform copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "MarketingSuggestion-module__ctaLink__CA6xY prc-Link-Link-9ZwDx"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "marketing suggestion cta link -- fixed platform copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "MiniTip-module__container__y6HMY"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "mini-tip container -- fixed platform pro tip copy and controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "prc-Pagination-TablePaginationSteps-cAXs3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- operator-defined pagination and page navigation"
+  }
+]

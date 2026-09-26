@@ -1,0 +1,82 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "header-wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site header -- renders: Skip to content, GitHub, Platform, Solutions, Pricing, Sign in, Sign up, Search, Appearance"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-repo-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Repository tab navigation -- renders: Code, Issues, Pull requests, Actions, Projects, Wiki, Security, Insights"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "CollapsibleSidebar-module__sidebar__X5thL"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issues sidebar navigation -- renders: Issues, Pull requests, Discussions, Actions, Projects, Security, Feedback, Collapse sidebar"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "SidebarPageLayout-module__Header__iBvK6"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issues page header -- renders: Issues, New issue"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "FilteredListPageLayout-module__FilterBar__yw_Ew"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue filter bar -- renders: Search issues, Clear, Search"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "ListItemsHeaderWithoutBulkActions-module__ListViewMetadata_0__mMrOF"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue list controls -- renders: Open, Closed, Labels, Milestone, Assignee, Sort"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "prc-Pagination-PaginationContainer-HEhGo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Pagination controls -- renders: Previous, Next, page numbers"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site footer -- renders: GitHub, Blog, About, Careers, Contact, Docs, Privacy, Terms, Legal, API, Status"
+  }
+]

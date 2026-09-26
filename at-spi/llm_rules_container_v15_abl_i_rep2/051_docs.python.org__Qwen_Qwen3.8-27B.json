@@ -1,0 +1,7 @@
+[
+  {
+    "scope": "page",
+    "verdict": "trusted",
+    "note": "Official Python documentation page -- all content (navigation, tutorial text, table of contents, sidebar, footer) is authored by the Python Software Foundation and contains no user-generated content, comments, or third-party dynamic data."
+  }
+]

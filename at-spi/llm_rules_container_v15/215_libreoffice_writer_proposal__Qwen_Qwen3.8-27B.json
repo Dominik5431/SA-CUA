@@ -1,0 +1,29 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "application menu bar -- renders fixed operator vocabulary for file, edit, view, insert, format, tools, window, and help commands"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "application toolbars -- renders fixed operator vocabulary for standard office suite actions like save, print, copy, paste, and formatting controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "ruler"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "document ruler -- renders fixed operator interface for margin and tab stop controls"
+  }
+]

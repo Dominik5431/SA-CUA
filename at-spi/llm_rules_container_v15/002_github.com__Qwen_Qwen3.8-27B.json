@@ -1,0 +1,42 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-repo-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Repository tab navigation -- renders: Code, Issues, Pull requests, Actions, Projects, Wiki, Security and quality, Insights"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "FilteredListPageLayout-module__FilterBar__yw_Ew"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue search and filter bar -- renders: Search issues, Clear, Search"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "prc-Pagination-TablePaginationSteps-cAXs3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Pagination controls -- renders: Previous, Next, page numbers"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "footer f6"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: GitHub logo, copyright, Terms, Privacy, Security, Status, Docs, Contact, Manage cookies, Do not share my personal information"
+  }
+]

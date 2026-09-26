@@ -1,0 +1,106 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "spacesToolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top-level application navigation bar -- renders fixed module names: Mail, Address Book, Calendar, Tasks, Chat, Settings, Collapse"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "icons-beside-text"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Unified toolbar and window controls -- renders: search icon, app menu, minimize, restore, close; search query text is subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "toolbar-menubar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Application menu bar -- renders fixed menu labels: File, Edit, View, Go, Message, Tasks, Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "chat-toolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Chat module toolbar -- renders fixed action labels: Add Buddy, Join Chat, Status, Accounts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "folderPaneHeaderBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Folder pane header controls -- renders fixed action labels: More, Write Message, Get Messages"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "threadPaneHeaderBar"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "id": "threadPaneFolderName"
+      },
+      {
+        "role": "section",
+        "id": "threadPaneFolderCountContainer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Message list header controls -- renders fixed action labels: Quick Filter, Display; folder name and count are subtracted as user-defined"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "header-view-toolbox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Message header action buttons -- renders fixed action labels: Reply, Forward, Archive, Junk, Trash, Other Actions, Star"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "toHeading"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Message header label -- renders fixed label: To"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Application status bar -- renders fixed status indicators: Offline status"
+  }
+]

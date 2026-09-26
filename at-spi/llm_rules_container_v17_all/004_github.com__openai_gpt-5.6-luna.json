@@ -1,0 +1,72 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "position-relative header-wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "global header -- renders the platform's fixed logo, navigation, search control, sign-in/sign-up controls, skip link, and appearance settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "UnderlineNav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository navigation -- renders the fixed Code/Issues/Pull requests/Discussions/Actions/Security and quality/Insights tab vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "subnav-search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issues search control -- renders the platform's fixed search interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "Button--primary"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "primary issue action -- renders the platform-defined create control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "table-list-header-toggle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issue state controls -- renders the fixed open and closed issue view vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "id": "sort-select-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issue sorting control -- renders the platform-defined sort vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "sr-only"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "screen-reader section headings -- renders fixed platform accessibility labels"
+  }
+]

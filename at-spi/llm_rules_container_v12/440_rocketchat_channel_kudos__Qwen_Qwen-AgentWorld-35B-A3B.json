@@ -1,0 +1,122 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "rcx-button-group--medium rcx-button-group--align-start rcx-button-group rcx-css-vi4iz8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar button group -- platform's own interface controls throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar section titles -- platform's own interface labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-topbar rcx-sidebar-topbar--toolbox omnichannel-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar toolbox topbar -- platform's own interface controls and title"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "class": "rcx-button-group--medium rcx-button-group--align-start rcx-button-group rcx-css-6bg1ps"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "room header action toolbar -- platform's own interface controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "new-message"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "new message button -- platform's own interface control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "jump-recent"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "jump recent button section -- platform's own interface control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-message-header__time"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message timestamp -- computed operator-defined value about submitted content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rc-message-box__toolbar-formatting"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message formatting toolbar -- platform's own interface controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list item",
+        "class": "start"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "messages list start marker -- platform's own interface label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "rcx-button--mini-square rcx-button--tiny-square"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "room header action button -- platform's own interface control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "footer",
+        "class": "rcx-css-1h8ylb3 rcx-css-1583vym"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar footer -- platform's own interface controls and links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-css-ebq3kg"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar footer info section -- platform's own interface links and labels"
+  }
+]

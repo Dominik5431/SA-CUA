@@ -1,0 +1,94 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "SkipLink-styles__SkipLinkContainerStyled-sc-3b03ee65-0 cPCHEF"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip links container -- platform's own interface for accessibility navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "bbc-header",
+        "class": "Header-styles__HeaderStyled-sc-36071384-0 lkxsBq"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "bbc header -- platform's own navigation and controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "main-navigation-container",
+        "class": "Navigation-styles__NavigationContainerStyled-sc-f1c1fa10-9 gUOgcu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main navigation container -- platform's own navigation menu"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "Container-styles__ContainerStyled-sc-d16fcddf-0 NestedNavigation-styles__NestedNavigationContainerStyled-sc-a1ed20b4-0 hfbdzq obEed"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "nested navigation container -- platform's own page title and navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "bbc-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "bbc footer -- platform's own footer links and controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "ngasCookiePrompt"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie banner -- platform's own interface for cookie consent"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "SectionTitle-styles__SectionTitleStyled-sc-2dfed50c-4"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "section titles -- platform's own section headings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "IndexCard-styles__IndexCardStyled-sc-3a0d8802-0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "news index cards -- operator-authored editorial headlines and descriptions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "Container-styles__ContainerStyled-sc-8b855a6c-0 xvkdv"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- platform's own pagination"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "header-wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site header -- renders: skip-to-content, GitHub logo, navigation menu (Product/Solutions/Marketplace/Explore/Pricing), search trigger, Sign in, Sign up, Appearance settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-repo-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Repository tab navigation -- renders: Code, Issues, Pull requests, Discussions, Actions, Security and quality, Insights"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "subnav-search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue search input control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "subnav-links"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue list view toggle -- renders: Open, Closed"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "issues-reset-query-wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Clear search query control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "js-issues-toolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue list filter controls -- renders: Author, Labels, Projects, Milestones, Reviews, Assignees, Sort"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "pagination"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Pagination controls -- renders: Previous, page numbers, Next"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "issues-index-tip"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Platform help tip -- renders: 'New to GitHub?' and link to 'Create a new issue'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site footer -- renders: copyright, Terms, Privacy, Security, Status, Docs, Contact, Pricing, API, Training, Blog, About"
+  }
+]

@@ -1,0 +1,103 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: Skip to main content, Stack Overflow, Questions, Jobs, Log in, Sign up, Help, Stack Exchange, Search"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Left sidebar navigation -- renders: Home, Questions, Ask AI, Jobs, Teams, Challenges, Chat, Articles, Users, Companies, Collectives, Sign up"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "bg-black-100"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "dfp-tag"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Tag page header -- renders: tag name, description, Ask Question, Filter buttons; ad slot subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mainbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "tag-headline-container"
+      },
+      {
+        "role": "section",
+        "id": "questions"
+      },
+      {
+        "role": "landmark",
+        "id": "uql-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main content controls -- renders: question count, sort tabs (Newest, Active, Votes, Score), filter button; question list and header subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mainbar"
+      }
+    ],
+    "own_role": "link",
+    "verdict": "trusted",
+    "note": "Pagination controls -- renders: page numbers, Next, Previous"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: Stack Overflow, Products, Company, Legal, Social links, copyright"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "feed-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "RSS feed link -- renders: Feed"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-report-ad-button-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Ad report button -- renders: Report this ad"
+  }
+]

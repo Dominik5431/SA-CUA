@@ -1,0 +1,159 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "spacesToolbar"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "application space-switching controls -- renders: Mail, Address Book, Calendar, Tasks, Chat, Settings, and collapse controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "unifiedToolbar"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "unified toolbar controls -- renders: search, application menu, and other fixed toolbar commands"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list item",
+        "class": "search-bar"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "search control -- renders the fixed search command and search icon"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "titlebar-min"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "window control -- renders: minimize"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "titlebar-restore"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "window control -- renders: restore"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "titlebar-close"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "window control -- renders: close"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "button-appmenu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "application menu control -- renders: open the fixed application menu"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "toolbar-menubar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "application menu bar -- renders: File, Edit, View, Go, Message, Tasks, and Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "folderPaneHeaderBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "folder-pane controls -- renders: more folder actions, compose message, and get messages"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "threadPaneHeaderBar"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "message-list filtering control -- renders: quick filter toggle"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "threadPaneHeaderBar"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "message-list display control -- renders fixed message-list view and display commands"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "header-view-toolbox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message action toolbar -- renders: reply, forward, archive, junk, trash, and other fixed message actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "messageHeader"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "message header controls -- renders fixed address-book and message-action controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "messageHeader"
+      }
+    ],
+    "own_role": "check box",
+    "verdict": "trusted",
+    "note": "message flag control -- renders: starred or unstarred message state"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "offline-status"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "connection-status control -- renders fixed online or offline status control"
+  }
+]

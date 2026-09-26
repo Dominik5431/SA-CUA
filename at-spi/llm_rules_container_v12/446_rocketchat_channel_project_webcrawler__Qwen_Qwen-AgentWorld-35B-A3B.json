@@ -1,0 +1,82 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-topbar rcx-sidebar-topbar--toolbox omnichannel-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar toolbox topbar -- renders: fixed section title and action buttons for channel filtering"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar section titles -- renders: fixed category labels like channels or direct messages"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "class": "rcx-button-group--medium rcx-button-group--align-start rcx-button-group rcx-css-6bg1ps"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "room header action toolbar -- renders: fixed operator controls for room actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "footer",
+        "class": "rcx-css-1h8ylb3 rcx-css-1583vym"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar footer -- renders: operator branding and links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-css-ebq3kg"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar footer branding section -- renders: operator links and copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "new-message"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "new message button -- operator control to start a new message or thread"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "jump-recent"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "jump to recent messages button -- operator control in chat window"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "rcx-button--mini-square rcx-button--tiny-square rcx-button--square rcx-button--icon rcx-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "room header actions menu button -- operator control in room header"
+  }
+]

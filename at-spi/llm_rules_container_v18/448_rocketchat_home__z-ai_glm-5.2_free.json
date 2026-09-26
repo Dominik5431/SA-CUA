@@ -1,0 +1,93 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "rcx-css-vi4iz8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar icon-button navigation panels -- renders: fixed nav controls (Home, Search, Directory, Administration, etc.) and rooms-list toolbar buttons (sort, create); closed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "rooms-list topbar -- renders: fixed section title (e.g. Omnichannel) and toolbar action buttons; operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar section headers -- renders: fixed category labels (Channels, Direct Messages); closed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "footer",
+        "class": "rcx-css-1h8ylb3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar footer -- renders: fixed footer link/logo; operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-css-ebq3kg"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar promotional/info link below footer -- renders: fixed platform marketing text (e.g. upgrade/create-workspace); operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-css-1sb5pli"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "rcx-grid__wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main content page frame -- renders: page title heading, action link, section headings; the grid wrapper holding label/value/button rows is subtracted (values may be non-operator-derived)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-grid__wrapper"
+      },
+      {
+        "role": "panel",
+        "class": "rcx-button-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "grid action-button groups -- renders: fixed action buttons (Edit, Change, Configure, etc.); closed operator vocabulary"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "rcx-sidebar-item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar item options menu buttons -- fixed operator control inside user-named navigation items"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: Wikipedia logo, search box, main menu, user links (Donate, Create account, Log in)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "mw-panel-toc"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Table of contents -- renders: section headings defined by the article structure (e.g., 'Contents', 'Assistive technologies...')"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "mw-body-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Page title bar -- renders: article title 'Web accessibility' and language selector"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Left navigation tabs -- renders: 'Article', 'Talk'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "right-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Right navigation tabs and tools -- renders: 'Read', 'Edit', 'View history', 'Tools'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-appearance-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Appearance settings -- renders: 'Appearance', font size options, width options, theme options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "siteSub"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site subtitle -- renders: 'From Wikipedia, the free encyclopedia'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Page footer -- renders: last modified date, rendered with info, copyright, privacy policy, about, disclaimers, contact, legal, code of conduct, developers, stats, cookie statement, mobile view"
+  }
+]

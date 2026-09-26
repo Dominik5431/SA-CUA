@@ -1,0 +1,72 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Top toolbar action buttons -- renders fixed operator vocabulary for file operations (e.g., New, Open, Save, Close)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "View mode toggle buttons -- renders fixed operator vocabulary (e.g., List, Icon)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "label",
+    "verdict": "trusted",
+    "note": "Toolbar status/label text -- renders fixed operator vocabulary (e.g., 'Ready', 'Select All')"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "table column header",
+    "verdict": "trusted",
+    "note": "File list column headers -- renders fixed operator vocabulary (e.g., Name, Size, Type, Modified)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Bottom action bar buttons -- renders fixed operator vocabulary for archive operations (e.g., Extract, Add, Test, Delete)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "radio button",
+    "verdict": "trusted",
+    "note": "Bottom action bar radio buttons -- renders fixed operator vocabulary for extraction options (e.g., 'Extract to', 'Current folder')"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "check box",
+    "verdict": "trusted",
+    "note": "Bottom action bar checkboxes -- renders fixed operator vocabulary for options (e.g., 'Overwrite')"
+  }
+]

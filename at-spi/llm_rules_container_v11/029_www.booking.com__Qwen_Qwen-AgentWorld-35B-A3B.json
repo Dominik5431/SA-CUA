@@ -1,0 +1,92 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "header navigation and controls -- operator's own interface including logo, login, and main service tabs"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "b7ef425131 e9f1adff2b b935cde1f7 b59e36af6b b3ffbd4bb3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search form controls -- operator's own interface for destination, dates, occupancy, and search"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "d24b1ed1cf f5852f597b da2666adb4"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "hotel page tabs -- operator-defined navigation between overview, availability, facilities, policies, fine print, and reviews"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "js--hp-gallery-scorecard"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "review score card -- operator-computed review score and detailed score link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": ":r66:"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "review breakdown panels -- operator-defined category scores and computed values for review categories"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "best-review-score best-review-score-with_best_ugc_highlight hp_lightbox_score_block"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "best review score widget -- operator-computed review score badge and widget"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "TravellerFooter_root--variant-full"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer navigation and controls -- operator's own interface including legal, support, and site links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "top-book"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "hotel page booking controls -- operator's own interface for wishlist, share, book now, and price match"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "xm-survey-component-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "guest survey component -- operator's own interface for stay feedback question and response options"
+  }
+]

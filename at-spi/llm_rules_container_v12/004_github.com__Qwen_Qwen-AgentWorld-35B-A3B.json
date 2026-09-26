@@ -1,0 +1,42 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "position-relative header-wrapper js-header-wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "marketing header and navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-repo-nav js-sidenav-container-pjax js-responsive-underlinenav overflow-hidden UnderlineNav px-3 tmp-px-3 px-md-4 tmp-px-md-4 px-lg-5 tmp-px-lg-5"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository navigation tabs -- platform's own interface: Code, Issues, Pull requests, etc."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repository-details-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository action buttons and social counters -- platform's own interface and computed values"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "table-list-header-toggle states flex-auto pl-0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "state toggle links (Open/Closed) -- platform-defined status values"
+  }
+]

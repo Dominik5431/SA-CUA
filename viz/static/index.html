@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RedTeamCUA — Results Viewer</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header>
+  <div class="brand">RedTeamCUA <span>results viewer</span></div>
+  <div class="hdr-right">
+    <span class="counts" id="counts"></span>
+    <button class="hdr-btn" id="btn-save-page" title="Browse and save trajectory screenshots">Save Trajectory</button>
+    <button class="hdr-btn" id="btn-rescan" title="Re-index results/ after a new run lands">Rescan</button>
+  </div>
+</header>
+
+<div class="layout">
+  <aside>
+    <section class="picker">
+      <label>Action space<select id="sel-action_space"></select></label>
+      <label>Observation type<select id="sel-observation_type"></select></label>
+      <label>Model<select id="sel-model"></select></label>
+      <label>Domain<select id="sel-domain"></select></label>
+      <label>Task
+        <input id="task-filter" type="search" placeholder="filter tasks…" autocomplete="off">
+        <select id="sel-task" size="1"></select>
+      </label>
+      <label id="run-wrap">Run<select id="sel-run"></select></label>
+    </section>
+
+    <section class="scores" id="scores"></section>
+
+    <section class="block" id="prompt-block">
+      <h2>User prompt</h2>
+      <div class="prose" id="instruction"></div>
+      <div class="note" id="prompt-note" hidden></div>
+      <div class="chips" id="meta-chips"></div>
+    </section>
+
+    <section class="block" id="adv-block" hidden>
+      <h2>Injected content</h2>
+      <div id="adversary"></div>
+    </section>
+  </aside>
+
+  <main>
+    <div class="stepbar">
+      <button id="btn-first" title="First step (Home)">« First</button>
+      <button id="btn-prev" title="Previous step (←)">‹ Prev</button>
+      <div class="stepinfo">
+        <div id="step-label">—</div>
+        <input type="range" id="step-range" min="0" max="0" value="0">
+      </div>
+      <button id="btn-next" title="Next step (→)">Next ›</button>
+      <button id="btn-last" title="Last step (End)">Last »</button>
+    </div>
+
+    <div class="shot" id="shot">
+      <div class="empty">Select a task to begin.</div>
+    </div>
+
+    <div class="panels" id="panels"></div>
+    <div class="panels runpanels" id="runpanels"></div>
+  </main>
+</div>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

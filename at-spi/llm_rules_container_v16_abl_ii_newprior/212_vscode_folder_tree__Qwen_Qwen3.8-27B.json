@@ -1,0 +1,92 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar",
+        "class": "ElectronMenuBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "native application menu bar -- renders fixed operator vocabulary: File/Edit/Selection/View/Go/Run/Terminal/Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-action-bar vertical"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "activity bar and status bar icons -- renders fixed operator vocabulary: Explorer, Search, Source Control, Run, Extensions, Accounts, Settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "composite title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "viewlet header -- renders fixed operator vocabulary: 'Explorer' and view actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "pane-header expanded"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "explorer pane header -- renders fixed operator vocabulary: 'Open Editors' and file actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "pane-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "explorer pane header -- renders fixed operator vocabulary: 'Open Editors' or 'Outline'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "pane-header timeline-view"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "explorer pane header -- renders fixed operator vocabulary: 'Timeline'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "class": "actions-container highlight-toggled"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "editor tab actions -- renders fixed operator vocabulary: 'Split Editor' and 'More Actions'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "gettingStartedSlideCategories gettingStartedSlide"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "getting started page -- renders fixed operator vocabulary: 'Visual Studio Code', 'Start', 'Learn', 'Walkthroughs', and 'Show on Startup' checkbox"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar",
+        "id": "workbench.parts.statusbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "status bar -- renders fixed operator vocabulary: 'Local', 'Problems', 'Notifications', 'Screen Reader Mode' (values are computed but format is fixed)"
+  }
+]

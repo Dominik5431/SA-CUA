@@ -1,0 +1,34 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Left sidebar navigation -- renders: 'Project information', 'Repository', 'Issues', 'Merge requests', 'Pipelines', 'Deployments', 'Infrastructure', 'Monitor', 'Analytics', 'Wiki', 'Snippets', 'Settings'; project name header is subtracted as it is user-defined"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "issuable-discussion"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "id": "notes-list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Discussion section chrome -- renders: 'Comments' heading, 'Sort by' dropdown; the list of user comments is subtracted"
+  }
+]

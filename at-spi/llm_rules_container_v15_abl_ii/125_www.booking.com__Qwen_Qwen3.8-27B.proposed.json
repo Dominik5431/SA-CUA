@@ -1,0 +1,100 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "bypass_menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip-to-content link -- renders: 'Skip to main content'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders: logo, 'Search', 'Sign in', 'Register', 'Support', 'Manage bookings', 'Accommodations', 'Flights', 'Packages', 'Cars', 'Attractions', 'Airport taxis'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "fff1944c52"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search bar -- renders: 'Where are you going?', 'Check-in', 'Check-out', 'Search', '1 room, 2 adults, 1 child'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "fff1944c52"
+      },
+      {
+        "role": "list",
+        "class": "f6e3a11b0d"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "breadcrumb navigation -- renders: 'Home', 'Hotels', 'City', 'District', 'Property Name'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "b87c397a13"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "results header -- renders: 'Hotels in City', '1,234 properties'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "ad68e1f7ce"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view switcher -- renders: 'List', 'Grid'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "a297f43545"
+      },
+      {
+        "role": "push button",
+        "class": "fcd8e16f81"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sort control -- renders: 'Sort by: Recommended'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer_menu_track"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: 'Support', 'Discover', 'About', 'Careers', 'Press', 'Partners', 'Legal', 'Privacy', 'Terms', 'Sitemap', 'Cookie settings', 'English (US)', 'USD $'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "onetrust-banner-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent banner -- renders: 'We value your privacy', 'Cookie settings', 'Reject all', 'Accept all'"
+  }
+]

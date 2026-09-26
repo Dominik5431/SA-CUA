@@ -1,0 +1,33 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "header navigation and controls -- renders: ownCloud logo, app name, user settings expand, search box"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "app-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "app navigation sidebar -- renders: fixed navigation items (Files, Favorites, Sharing in, Sharing out, Sharing links, System tags filter, Trashbin) and settings button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "file_upload_start",
+        "class": "hiddenuploadfield"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "upload start button control"
+  }
+]

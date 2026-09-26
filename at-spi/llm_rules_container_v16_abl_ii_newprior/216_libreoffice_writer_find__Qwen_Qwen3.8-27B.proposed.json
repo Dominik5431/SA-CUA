@@ -1,0 +1,29 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Application menu bar -- renders fixed operator vocabulary for file, edit, view, insert, format, tools, window, and help commands"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Application toolbars -- renders fixed operator vocabulary for standard office suite actions like save, print, undo, and formatting controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Application status bar -- renders fixed operator vocabulary for page numbers, zoom levels, and document state indicators"
+  }
+]

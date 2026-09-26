@@ -1,0 +1,84 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "toolbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "panel",
+        "id": "search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "operator toolbar outside the search field -- renders the fixed Extensions title and Developer mode control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "id": "search"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry",
+        "id": "searchInput"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "fixed search-panel chrome -- renders the operator's search affordance while excluding the variable query field"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "fixed extensions sidebar -- renders the operator-defined Extensions, Keyboard shortcuts, and More extensions navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "menu",
+        "id": "sectionMenu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "extension navigation menu -- renders the fixed Extensions and Keyboard shortcuts choices"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "moreExtensions"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "fixed extension-discovery navigation -- renders the operator's More extensions and discovery link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "section-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "fixed installed-extensions section heading -- renders the operator-defined section label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "toggle button",
+        "id": "enableToggle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "fixed extension-management control -- renders the Enable or Disable toggle vocabulary"
+  }
+]

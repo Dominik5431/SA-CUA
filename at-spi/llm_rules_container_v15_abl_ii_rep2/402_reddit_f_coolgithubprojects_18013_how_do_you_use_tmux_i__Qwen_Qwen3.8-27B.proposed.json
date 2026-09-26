@@ -1,0 +1,138 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Accessibility skip links -- renders fixed platform vocabulary like 'Skip to main content' and 'Skip to comments'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global navigation bar -- renders fixed platform vocabulary: 'Reddit', 'Popular', 'Search', 'Log in', 'Sign up', and user menu toggles"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders fixed platform copyright and legal links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vote"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Voting controls -- renders fixed platform vocabulary: 'Upvote' and 'Downvote' buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "comment-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comment submission form -- renders fixed platform vocabulary: 'Add a comment', 'Markdown', 'Help', 'Submit'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "flex unlistify"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comment sorting tabs -- renders fixed platform vocabulary: 'Best', 'New', 'Controversial', 'Old'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "comment__nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comment action links -- renders fixed platform vocabulary: 'Reply', 'Permalink', 'Parent'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "class": "comment__hide-toggle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comment collapse toggle -- renders fixed platform vocabulary: 'Hide'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "submission__nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Post action links -- renders fixed platform vocabulary: 'Share', 'Save', 'Report'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "subscribe-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Subreddit subscription controls -- renders fixed platform vocabulary: 'Subscribe' button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "sidebar__section flow"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "forum-title"
+      },
+      {
+        "role": "list",
+        "class": "text-sm unlistify"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Subreddit info sidebar -- renders fixed platform vocabulary: 'About' heading, 'Moderators' label; excludes user-named subreddit title and moderator list"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "sidebar__section flow"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "class": "unlistify sidebar__no-padding"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Subreddit rules sidebar -- renders fixed platform vocabulary: 'Rules' heading; excludes the list of user-defined rules"
+  }
+]

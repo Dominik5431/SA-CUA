@@ -1,0 +1,133 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-header mw-header no-font-mode-scale"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar and search -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer",
+        "class": "mw-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer -- platform's own interface and links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "mw-body-header vector-page-titlebar no-font-mode-scale"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "id": "firstHeading"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page title bar controls -- language selector and add section button; subtracted the user-chosen page title heading"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "p-associated-pages"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "namespace tabs -- platform's own fixed vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "p-views"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view tabs -- platform's own fixed vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-page-tools-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page tools dropdown -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-appearance-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "appearance settings -- platform's own interface and controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "table of contents header and unpin control -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vector-pinnable-header vector-appearance-pinnable-header vector-pinnable-header-pinned"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "appearance panel header and unpin control -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "siteSub",
+        "class": "noprint"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page subtitle copy -- operator-authored interface text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "catlinks",
+        "class": "catlinks"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "category links -- operator-defined taxonomy terms"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "bodyContent",
+        "class": "vector-body ve-init-mw-desktopArticleTarget-targetContainer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "discussion tools reply and overflow buttons, and collapsible toggles -- operator controls within talk page content"
+  }
+]

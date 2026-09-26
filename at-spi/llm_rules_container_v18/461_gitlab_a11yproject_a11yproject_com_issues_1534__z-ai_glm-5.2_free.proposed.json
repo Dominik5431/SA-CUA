@@ -1,0 +1,102 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "navbar navbar-gitlab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- renders: logo, search, menu, issues/MR/todos counters, help, user menu toggle; fixed operator vocabulary throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "project navigation sidebar -- renders: Code, Issues, Merge Requests, Pipelines, Deployments, Monitor, Analytics, Wiki, Snippets, Settings, Collapse sidebar; except context-header which shows the user-named project"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "notes"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "id": "notes-list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "discussion section header and comment form -- renders: Notes heading, discussion preferences dropdown, Write/Preview tabs, markdown toolbar buttons, comment/close buttons, toolbar help text; except notes-list which holds user comments"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "emoji-picker"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "reaction picker control -- renders: add reaction button; fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "new-branch-col"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "create merge request controls -- renders: create MR button; fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "list-unstyled row"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file upload dropzone -- renders: drag files here to attach or browse; fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "right-sidebar"
+      }
+    ],
+    "own_role": "push button",
+    "except": [
+      {
+        "role": "section",
+        "class": "value hide-collapsed"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar control buttons -- renders: collapse sidebar, edit labels/milestone/time tracking, copy reference, move issue; except assignee value section which may echo a user-supplied name"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "right-sidebar"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "sidebar notification toggle -- renders: Notifications on/off; fixed operator vocabulary"
+  }
+]

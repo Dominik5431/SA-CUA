@@ -1,0 +1,72 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "header root -- platform's own interface including logo, login controls, and navigation tabs"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_tab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main navigation tabs -- platform's own interface for accommodations, flights, packages, cars, attractions, airport taxis"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "b935cde1f7"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search form controls -- destination input, dates, occupancy, and search button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "da2666adb4"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "hotel page tabs -- platform's own interface for overview, availability, facilities, policies, fine print, reviews"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "js--hp-gallery-scorecard"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "review scorecard -- computed review score and detailed review score link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "cef02e091d d64ab99142 b4b3a7c462"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "review score breakdown panels -- computed review category scores and labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "TravellerFooter_root--variant-full"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer navigation and controls -- platform's own interface including legal, support, and site links"
+  }
+]

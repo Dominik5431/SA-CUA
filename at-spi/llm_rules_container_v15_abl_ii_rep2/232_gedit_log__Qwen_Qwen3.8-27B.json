@@ -1,0 +1,7 @@
+[
+  {
+    "scope": "page",
+    "verdict": "trusted",
+    "note": "Gedit is a local desktop text editor; the entire interface consists of operator-authored UI controls (menus, toolbars, status bars, dialogs) with no user-generated content, third-party widgets, or external data feeds."
+  }
+]

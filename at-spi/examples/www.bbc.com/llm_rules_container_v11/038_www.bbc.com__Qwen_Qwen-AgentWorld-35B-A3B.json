@@ -1,0 +1,90 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "SkipLink-styles__SkipLinkContainerStyled-sc-3b03ee65-0 cPCHEF"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip links container -- platform's own interface for accessibility navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "bbc-header",
+        "class": "Header-styles__HeaderStyled-sc-36071384-0 lkxsBq"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "bbc header -- navigation, logo, sign in controls, platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "main-navigation-container",
+        "class": "Navigation-styles__NavigationContainerStyled-sc-f1c1fa10-9 gUOgcu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main navigation container -- platform's own section labels and navigation links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "SubNavigation-styles__SubNavigationContainerStyled-sc-6091112f-2 dmMDLd"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sub-navigation container -- platform's own section labels and navigation links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "article",
+        "class": "IndexPage-styles__IndexPageArticleStyled-sc-1de4b86e-0 ciTEIc"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "dotcom-ad"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "index page article -- operator-authored editorial content and news cards; subtracts ad slots"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "Section-layouts-styles__SectionLayoutWrapper-sc-40ef2d4a-0 dJfKQi"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "section layout wrapper -- operator-authored news cards and section labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "ngasCookiePrompt"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent prompt -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "notification",
+        "id": "__next-route-announcer__"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "route announcer -- platform's own accessibility interface"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": " Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "header navigation and controls -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "d24b1ed1cf Header_tab b8f0d75194"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main navigation tabs -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "b7ef425131 e9f1adff2b b935cde1f7 b59e36af6b b3ffbd4bb3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search controls -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "d24b1ed1cf f5852f597b da2666adb4"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "hotel page tabs -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "js--hp-gallery-scorecard"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "review scorecard -- computed review scores and ratings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "best-review-score best-review-score-with_best_ugc_highlight hp_lightbox_score_block"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "best review score section -- computed review score badge and label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "TravellerFooter_root--variant-full"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer navigation and controls -- platform's own interface"
+  }
+]

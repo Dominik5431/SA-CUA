@@ -1,0 +1,53 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- renders: Home/Questions/Tags/Users/Log in/Sign up/Help/Stack Exchange"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left sidebar navigation -- renders: Home/Questions/Ask/Tags/Users/Companies/Collectives/Chat/Articles/Challenges"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: About/Products/Company/Careers/Press/Contact/Stack Exchange Network/Technology/Culture/Reputation/Stack Data/Stack Internal/Stack Overflow for Teams/Advertise/Legal/Privacy Policy/Terms of Service/Cookie Policy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "stats"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user stats section -- renders: Stats/Reputation/Answers/Questions/Views/Member for"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "js-top-posts"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "post filter and sort controls -- renders: Answers/Questions/Score/Active/Views"
+  }
+]

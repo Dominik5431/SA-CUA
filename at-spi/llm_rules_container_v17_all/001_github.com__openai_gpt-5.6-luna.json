@@ -1,0 +1,93 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "use-tree-pane-module__Heading"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file-tree pane control -- renders the fixed file-tree heading and expand/collapse control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "CodeViewFileTreeLayout-module__heading"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file-tree section heading -- renders the fixed file browser label vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "ReposFileTreePane-module__Box_4"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file-tree search control -- renders the fixed search-button vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "class": "prc-components-Input-IwWrt"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file-tree search box -- renders the fixed file-search control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "prc-PageLayout-VerticalDivider"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file-tree pane resize control -- renders the fixed pane-resizing control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "repos-header-breadcrumb--wide-heading"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "breadcrumb landmark label -- renders the fixed breadcrumb section-label vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "BlobTabButtons-module__SegmentedControl"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "blob view switcher -- renders the fixed code-view tab vocabulary"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repos-sticky-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "blob-header action buttons -- renders fixed file-view, overflow, and download controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "prc-ButtonGroup-Item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "blob-header button-group controls -- renders fixed raw/view, overflow, and download-control vocabulary"
+  }
+]

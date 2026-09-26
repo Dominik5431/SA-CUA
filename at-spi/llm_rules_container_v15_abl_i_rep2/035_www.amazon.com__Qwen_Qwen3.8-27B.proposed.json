@@ -1,0 +1,88 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "shortcut-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Accessibility shortcut menu -- renders: Skip to main content, Skip to results, Skip to filters, Search, Cart, Home, Your orders, Show shortcuts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "navbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "glow-ingress-block"
+      },
+      {
+        "role": "entry",
+        "id": "twotabsearchtextbox"
+      },
+      {
+        "role": "section",
+        "id": "nav-link-accountList-nav-line-1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main navigation bar -- renders: Amazon logo, Search, Account, Orders, Cart, and fixed category links; excludes location echo, search query echo, and user account name echo"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-search"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry",
+        "id": "twotabsearchtextbox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search bar controls -- renders: All, Search, Go; excludes the search input field which may contain user query"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "search"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "a-size-base s-desktop-toolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search results header area -- renders: Sort by dropdown (Featured, Price, Avg. Customer Review, etc.); excludes the results count heading which echoes the user's search query"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-pagination-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Pagination controls -- renders: Previous, 1, 2, 3, ..., Next"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooter"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: Back to top, Get to Know Us, Make Money with Us, Business Customers, Let Us Help You, and fixed legal/copyright links"
+  }
+]

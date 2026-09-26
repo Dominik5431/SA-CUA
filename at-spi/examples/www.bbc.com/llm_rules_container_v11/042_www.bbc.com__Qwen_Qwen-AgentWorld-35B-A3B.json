@@ -1,0 +1,126 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "SkipLink-styles__SkipLinkContainerStyled-sc-3b03ee65-0 cPCHEF"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip link container -- platform's own interface for navigation bypass"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "bbc-header",
+        "class": "Header-styles__HeaderStyled-sc-36071384-0 lkxsBq"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "BBC header -- navigation, logo, sign-in controls, operator's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "main-navigation-container",
+        "class": "Navigation-styles__NavigationContainerStyled-sc-f1c1fa10-9 gUOgcu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main navigation container -- platform's own navigation menu items"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "Container-styles__ContainerStyled-sc-8b855a6c-0 hKOCJO"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "article headline section -- renders article headline"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "Container-styles__ContainerStyled-sc-8b855a6c-0 iPMpZS"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "article byline and time container -- renders publication date and share controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "Container-styles__ContainerStyled-sc-8b855a6c-0 dYcznU"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "article image and caption section -- renders image and operator-authored caption"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "paragraph",
+        "class": "Paragraph-styles__ParagraphStyled-sc-ffb5f5ba-0 fqhmpl"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "article body paragraphs -- operator-authored editorial copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "spa-player-2",
+        "class": "Player-styles__PlayerStyled-sc-6416b0a0-1 duMWSj"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "BBC media player -- operator's own video player controls and interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "Container-styles__ContainerStyled-sc-8b855a6c-0 kugUwP"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "article tags section -- renders operator-defined topic tags"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Section-styles__SectionOuterStyled-sc-934b69c3-1 edUGjI"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "more stories section -- operator-authored related article cards and section label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Section-layouts-styles__SectionLayoutWrapper-sc-40ef2d4a-0 bgdYKK"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Liverpool stories section -- operator-authored related article cards and section label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "bbc-footer",
+        "class": "Footer-styles__FooterStyled-sc-7046f1ed-0 gEbLfI"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "BBC footer -- navigation, legal links, language dropdown, social follow controls, operator's own interface"
+  }
+]

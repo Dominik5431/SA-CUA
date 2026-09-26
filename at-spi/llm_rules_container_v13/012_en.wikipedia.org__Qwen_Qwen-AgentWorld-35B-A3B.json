@@ -1,0 +1,153 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar and header -- platform's own interface including menu, logo, search, and user links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "right-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "right navigation panel -- platform's own interface for views and page tools"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vector-sticky-pinned-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "appearance settings panel -- platform's own interface for font size, width, and theme controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "contentSub"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "content subtitle -- platform's own interface for history subtitle links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mw-history-searchform"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "history search form -- platform's own interface for searching revisions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "histlegend"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "history legend -- platform's own interface explaining history page symbols and links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mw-pager-navigation-bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination navigation bar -- platform's own interface for prev/next/page links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mw-history-compareselectedversions"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "compare selected versions button -- platform's own interface for comparing revisions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer -- platform's own interface with site links, legal, and icons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mw-history-histlinks mw-changeslist-links"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "history link controls (current/previous) -- platform's own interface for revision navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mw-usertoollinks mw-changeslist-links"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user tool links (talk/contribs) -- platform's own interface for user navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mw-changeslist-links mw-pager-tools mw-change-tools"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "change tool links -- platform's own interface for revision actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "mw-changeslist-date"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "revision date links -- operator-defined timestamps and dates"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mw-diff-bytes"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "diff byte size indicators -- operator-defined computed values for revision size changes"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "pagehistory"
+      }
+    ],
+    "own_role": "radio button",
+    "verdict": "trusted",
+    "note": "revision selection radio buttons inside history list -- operator-defined controls for selecting revisions to compare"
+  }
+]

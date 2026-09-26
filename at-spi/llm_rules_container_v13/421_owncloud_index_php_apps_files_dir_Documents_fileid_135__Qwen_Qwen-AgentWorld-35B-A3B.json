@@ -1,0 +1,33 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "file_upload_start",
+        "class": "hiddenuploadfield"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file upload start button -- platform's own file app upload control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "toolbarViewer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "PDF viewer toolbar -- platform's own viewer controls including sidebar toggle, find, navigation, page number, presentation mode, print, download, bookmark, zoom, and scale controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "id": "viewerContextMenu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "PDF viewer context menu -- platform's own context menu controls for page navigation and rotation"
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": " Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "header navigation and controls -- operator's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "c40c550a3e"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search controls area -- destination input, search button, occupancy controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "TravellerFooter_root--variant-full"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer navigation and links -- operator's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "onetrust-banner-sdk",
+        "class": "otFlat bottom vertical-align-content ot-buttons-fw"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent banner -- operator's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "popular-filters-go-here"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view toggle controls -- list/grid view options and heading"
+  }
+]

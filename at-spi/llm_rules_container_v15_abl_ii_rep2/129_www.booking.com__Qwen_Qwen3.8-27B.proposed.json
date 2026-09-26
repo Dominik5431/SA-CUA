@@ -1,0 +1,192 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "bypass_menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip-to-content link -- renders: 'Skip to main content'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "global header -- renders: logo, 'Search', 'Sign in', 'Register', 'Accommodations', 'Flights', 'Packages', 'Cars', 'Attractions', 'Airport taxis'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "a193cf1ed6"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search bar controls -- renders: 'Where are you going?', 'Search', 'Check-in', 'Check-out', 'Guests and rooms'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "fff1944c52"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "breadcrumb navigation -- renders: 'Home', 'Hotels', 'Europe', 'Italy', 'Rome', 'Rome Hotels'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "d24b1ed1cf"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "property detail tabs -- renders: 'Overview', 'Availability', 'Facilities', 'Policies', 'Fine print', 'Reviews'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "top-book"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "booking action bar -- renders: 'Add to wishlist', 'Share', 'Book now', 'Price guarantee'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_hotel_name"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "property header controls -- renders: 'Save', 'Share', 'More', 'Hotel'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "ca9d921c46"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "map and location controls -- renders: 'Show on map', 'View on map', 'Distance to center'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "photo_wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "photo gallery controls -- renders: 'View all photos', 'Next', 'Previous'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "reviewFloater"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "review summary controls -- renders: 'See all reviews', 'Exceptional', '9.2'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hotel_sidebar_static_map_capla"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar map widget -- renders: 'Show on map'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_availability_style_changes"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "availability section controls -- renders: 'Availability', 'Price guarantee', 'Check-in', 'Check-out', 'Guests and rooms', 'Search', 'Rooms', 'Occupancy', 'Price', 'Policies', 'Rooms', 'Select rooms', 'Reserve', 'Free cancellation'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_facilities_box"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "facilities section controls -- renders: 'Facilities', 'Show all', 'General', 'Services', 'Food & drink', 'Accessibility', 'Family facilities', 'Outdoor', 'Spa & wellness', 'Parking', 'Reception', 'Laundry', 'Safety & security', 'House rules'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "xm-survey-component-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user survey widget -- renders: 'How was your experience?', 'Very poor', 'Poor', 'Average', 'Good', 'Very good'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_policies_box"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "policies section controls -- renders: 'Policies', 'Show all', 'Check-in & check-out', 'Children & extra beds', 'Pets', 'General', 'Safety & security', 'House rules', 'Important information'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "important_info"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "important information section controls -- renders: 'Important information', 'Show all', 'Read more'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "pp-faq"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "FAQ section controls -- renders: 'Frequently asked questions', 'What time is check-in?', 'What time is check-out?', 'Is there a parking lot?', 'Are pets allowed?', 'What are the house rules?', 'What is the cancellation policy?', 'What payment methods are accepted?'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer_menu_track"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: 'Support', 'Help center', 'Privacy & cookies', 'Terms & conditions', 'How we work', 'Careers', 'Press', 'Investors', 'Sustainability', 'Partners', 'Affiliates', 'Advertise', 'Countries', 'Cities', 'Regions', 'Languages', 'Currency', '\u00a9 2024 Booking.com'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "onetrust-banner-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent banner -- renders: 'We use cookies', 'Accept all', 'Reject all', 'Cookie settings'"
+  }
+]

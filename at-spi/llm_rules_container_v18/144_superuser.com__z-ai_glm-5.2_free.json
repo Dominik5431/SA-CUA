@@ -1,0 +1,148 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- renders: skip link, logo, search, help, site switcher, Log in/Sign up; fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "dfp-sspon"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders: Super User site name link; the sponsored ad slot is subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "aside-cta"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Ask Question button beside the question title; fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answers-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "mb0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answers header bar -- renders: 'Sorted by' label and sort dropdown (Highest score/Active/Oldest); the answer-count heading is subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "js-bottom-notice"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "bottom notice -- renders: operator boilerplate prompting to share the question; fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: navigation links, social links, copyright, SVN revision; fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "onetrust-consent-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent banner -- renders: policy title, cookie category list, Accept/Reject/Preferences buttons; fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-question"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "vote up/down toggle buttons on the question; fixed operator controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-question"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "save/follow/add-comment push buttons on the question; fixed operator controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-answer"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "vote up/down toggle buttons on answers; fixed operator controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-answer"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "save/follow/add-comment push buttons on answers; fixed operator controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "h-related"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Related section heading in sidebar; fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "feed-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "RSS question feed link at bottom of sidebar; fixed operator vocabulary"
+  }
+]

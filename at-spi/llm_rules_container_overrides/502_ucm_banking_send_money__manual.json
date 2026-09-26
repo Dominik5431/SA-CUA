@@ -1,0 +1,256 @@
+[
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "id": "alerts-list"
+   }
+  ],
+  "own_role": "link",
+  "verdict": "trusted",
+  "note": "alert-management link -- renders the fixed add-alert control",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "push button",
+    "id": "send-money-btn"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "send-money control -- renders the fixed send-money action vocabulary",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "push button",
+    "id": "export-btn"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "export control -- renders the fixed export action vocabulary",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "push button",
+    "id": "set-alert-btn"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "alert-setting control -- renders the fixed set-alert action vocabulary",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "table",
+    "class": "table"
+   }
+  ],
+  "except": [
+   {
+    "role": "panel",
+    "id": "transactions-table"
+   },
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "transaction table header -- after subtracting transaction records, renders the fixed column-header vocabulary"
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "panel",
+    "id": "transactions-table"
+   }
+  ],
+  "own_role": "push button",
+  "verdict": "trusted",
+  "note": "transaction-row action controls -- renders the fixed view-details, categorize, and report action vocabulary",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "id": "pagination-controls"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "pagination controls -- renders the fixed page-navigation vocabulary",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "id": "send-money-modal"
+   }
+  ],
+  "except": [
+   {
+    "role": "entry",
+    "class": "form-input"
+   },
+   {
+    "role": "spin button",
+    "class": "form-input"
+   },
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "send-money modal chrome -- excluding recipient and amount fields, renders fixed instructions, labels, category choices, and modal controls"
+ }
+]

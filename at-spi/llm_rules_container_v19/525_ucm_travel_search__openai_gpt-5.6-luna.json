@@ -1,0 +1,84 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "progress-steps"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "travel progress indicator -- renders the closed set of operator-defined step numbers and step labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "step-search"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "search-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search-step chrome outside the form -- renders the operator's fixed search-page heading"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "from-city"
+      },
+      {
+        "role": "menu",
+        "id": "select-options"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "origin menu -- renders the closed set of operator-defined departure-location options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "to-city"
+      },
+      {
+        "role": "menu",
+        "id": "select-options"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "destination menu -- renders the closed set of operator-defined arrival-location options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "passengers"
+      },
+      {
+        "role": "menu",
+        "id": "select-options"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "passenger-count menu -- renders the closed set of operator-defined passenger-count options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "travel-class"
+      },
+      {
+        "role": "menu",
+        "id": "select-options"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "travel-class menu -- renders the closed set of operator-defined cabin-class options"
+  }
+]

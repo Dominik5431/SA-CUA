@@ -1,0 +1,92 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "rcx-sidebar sidebar sidebar--main sidebar--medium"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main application sidebar -- renders: user status, navigation icon buttons (Home, Messages, etc.), and fixed section labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "rooms-list sidebar--custom-colors"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Rooms list sidebar -- renders: fixed section headers (e.g. 'Channels', 'Teams') and navigation controls; channel names are user-generated but the container is the navigation widget"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "footer",
+        "class": "rcx-box rcx-box--full rcx-css-1h8ylb3 rcx-css-1583vym"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar footer -- renders: platform logo and version information"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-box rcx-box--full rcx-css-ebq3kg"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar user profile block -- renders: current user's display name and status, which are self-authored by the logged-in user"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "rcx-box rcx-box--full rcx-css-19z81xy"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main content page heading -- renders: fixed page title (e.g. 'Channels')"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-box rcx-box--full rcx-tabs--with-divider rcx-tabs rcx-css-ue04py"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Tab navigation -- renders: fixed tab labels (e.g. 'Channels', 'Teams', 'Direct')"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "class": "rcx-box rcx-box--full rcx-label  rcx-box rcx-box--full rcx-box--animated rcx-input-box__wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search input container -- renders: search box control; the query text is user input but the widget is trusted chrome"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "rcx-box rcx-box--full rcx-table__head"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Table header row -- renders: fixed column headers (e.g. 'Name', 'Members', 'Last Activity')"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "rcx-box rcx-box--full rcx-pagination--divider rcx-pagination"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Pagination controls -- renders: page numbers and navigation buttons"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "navbar-gitlab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global top navigation bar -- renders: GitLab logo, search box, 'New' menu, notification counters, help, and user avatar controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Project sidebar navigation -- renders: fixed section labels (Information, Repository, Issues, Merge requests, Pipelines, etc.); subtracts the project name header which is user-defined"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "breadcrumbs"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Breadcrumb navigation -- renders: project path and section name (e.g., 'Issues'), which are structural identifiers for the current view"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "__BVID__7"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue list filter tabs -- renders: fixed state labels (Open, Closed, All) and counts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "content-body"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "__BVID__7"
+      },
+      {
+        "role": "list",
+        "class": "issues-list"
+      },
+      {
+        "role": "section",
+        "class": "gl-text-center"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue list toolbar -- renders: 'New issue' button, search box, sort controls, and bulk update toggle; subtracts the tab bar, the issue list itself, and pagination"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "gl-text-center"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Pagination controls -- renders: 'Previous', 'Next', and page size dropdown"
+  }
+]

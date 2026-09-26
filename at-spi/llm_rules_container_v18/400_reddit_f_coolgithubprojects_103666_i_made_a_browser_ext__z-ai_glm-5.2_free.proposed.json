@@ -1,0 +1,158 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "site-alerts"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "platform alert banner -- renders operator-authored site notices"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility skip links -- renders: skip to content / skip to navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-nav"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "class": "site-nav__user-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site navigation bar -- renders: logo, main menu links, search box; user menu subtracted as it may display a username"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "submission__nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "submission action bar -- renders: share/save link (fixed operator vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "comment-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment composition form -- renders: comment input, markdown help toggle, submit button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vote"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "vote controls on submission and comments -- renders: upvote / downvote buttons with computed count"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "comment__nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment action links -- renders: reply / permalink / parent"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: copyright text, about link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "submission-meta"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "submission metadata sidebar -- renders: vote total, activity label, short URL"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "subscribe-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "subscribe form -- renders: Subscribe button with subscriber count"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "tab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "tab controls -- renders: Comments / Links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "class": "comment__hide-toggle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment hide toggle -- renders: hide"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "check box",
+        "class": "hideable__checkbox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment visibility toggle checkboxes -- renders: toggle (fixed operator control on each comment)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "sidebar__section"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "collapsible sidebar section header -- renders: toggle button with fixed section label (e.g. Rules)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "menu-item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar action menu items -- renders: fixed operator vocabulary action links (e.g. Edit / Delete)"
+  }
+]

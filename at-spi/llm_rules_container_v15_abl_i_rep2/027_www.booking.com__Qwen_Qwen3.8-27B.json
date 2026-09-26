@@ -1,0 +1,72 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site header -- renders: Booking.com logo, language/currency selectors, sign-in controls, and fixed navigation tabs (Stays, Flights, Car rental, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "TravellerFooter_root--variant-full"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: fixed navigation links (Support, Partners, etc.), legal links, and language/currency controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "f8d8d99a17"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search bar container -- renders: fixed labels (Where to?, Check-in, Check-out, Guests) and search controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "fff1944c52"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Breadcrumb navigation -- renders: fixed navigation segments (Home, Stays, City)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "ce1108eff4"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Filter toggle control -- renders: fixed label (Filters)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "ad68e1f7ce"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "View switcher -- renders: fixed labels (List, Grid)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "a297f43545"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sort control -- renders: fixed label (Sort by:)"
+  }
+]

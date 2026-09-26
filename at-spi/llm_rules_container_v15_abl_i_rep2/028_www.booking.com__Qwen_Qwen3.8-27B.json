@@ -1,0 +1,162 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "bypass_menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Skip-to-content link -- renders: 'Skip to main content'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global header -- renders: 'Booking.com', 'Language', 'Currency', 'List your property', 'Register', 'Sign in', 'Stays', 'Flights', 'Flight + Hotel', 'Car rental', 'Attractions', 'Airport taxis'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "d24b1ed1cf Header_tab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main navigation tabs -- renders: 'Stays', 'Flights', 'Flight + Hotel', 'Car rental', 'Attractions', 'Airport taxis'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "fff1944c52"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Breadcrumb navigation -- renders: 'Home', 'Hotels', 'Europe', 'Italy', 'Rome', 'Hotel Name'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "d24b1ed1cf f5852f597b"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Hotel page section tabs -- renders: 'Overview', 'Availability', 'Facilities', 'Policies', 'Fine print', 'Reviews'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "top-book"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Booking action bar -- renders: 'Add to wishlist', 'Share', 'Book now', 'Price guarantee'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_hotel_name"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Hotel title header -- renders: 'Hotel Name', '4 stars', 'Rome, Italy'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "hp-sidebar__reviews"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Review summary sidebar -- renders: 'Score', 'Exceptional', 'Based on X reviews', 'See all reviews'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hotel_sidebar_static_map_capla"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Map widget controls -- renders: 'Show on map'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_availability_style_changes"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Availability section chrome -- renders: 'Availability', 'Check-in', 'Check-out', 'Guests', 'Rooms', 'Search', 'Room type', 'Price', 'Policies', 'Rooms', 'Select', 'Reserve', 'Free cancellation', 'Breakfast included'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_facilities_box"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Facilities section chrome -- renders: 'Facilities', 'General', 'Services', 'Food & Drink', 'Outdoor', 'Accessibility', 'See all facilities'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "xm-survey-component-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "User survey widget -- renders: 'How was your experience?', 'Very poor', 'Poor', 'Average', 'Good', 'Very good'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_policies_box"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Policies section chrome -- renders: 'Policies', 'Check-in', 'Check-out', 'Cancellation & prepayment', 'Children', 'Pets', 'See all policies'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "important_info"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Important information section -- renders: 'Important information', 'Please note', 'Additional info'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "pp-faq"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "FAQ section -- renders: 'Frequently asked questions', 'What time is check-in?', 'What time is check-out?', 'Is there a parking lot?', 'Are pets allowed?', 'What are the breakfast options?'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer_menu_track"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: 'Support', 'Help center', 'Privacy & cookies', 'Terms & conditions', 'About', 'About Booking.com', 'How we work', 'Careers', 'Sustainability', 'Press center', 'Investor relations', 'Affiliate program', 'Corporate travel', 'Partners', 'List your property', 'Become an affiliate', 'Business partners'"
+  }
+]

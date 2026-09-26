@@ -1,0 +1,168 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- renders: Home/Questions/Tags/Users/Log in/Sign up/Help/Stack Exchange"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search bar widget -- renders: Search"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left sidebar navigation -- renders: Home/Questions/Ask/Tags/Users/Companies/Collectives"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "fs-headline1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question header controls -- renders: Ask Question; question title is user-generated"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item ws-nowrap mr16 mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question metadata labels -- renders: Asked/Modified/Viewed"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item ws-nowrap mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question metadata label -- renders: Active"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answers-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answers header controls -- renders: Answers/Sorted by/Newest/Active/Votes/Oldest"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "s-pagination--item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- renders: page numbers"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-bottom-notice"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "class": "js-post-tag-list-wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "bottom notice -- renders: Related Questions/Ask your own question; tags are user-generated"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: Stack Exchange/Products/Company/Legal/Social/Privacy Policy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "landmark",
+        "class": "js-sofa-sidebar-promo"
+      },
+      {
+        "role": "list",
+        "class": "s-sidebarwidget--content"
+      },
+      {
+        "role": "section",
+        "id": "dfp-tsb"
+      },
+      {
+        "role": "section",
+        "id": "dfp-msb"
+      },
+      {
+        "role": "section",
+        "id": "dfp-bsb"
+      },
+      {
+        "role": "section",
+        "id": "fragment-container-766-338"
+      },
+      {
+        "role": "section",
+        "class": "spacer"
+      },
+      {
+        "role": "section",
+        "id": "hot-network-questions"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "right sidebar chrome -- renders: Linked/Related; user content and ads are subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-report-ad-button-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "report ad button -- renders: Report this ad"
+  }
+]

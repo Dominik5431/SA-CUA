@@ -1,0 +1,35 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Evince toolbar -- renders fixed operator controls for document navigation and view settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "split pane"
+      }
+    ],
+    "except": [
+      {
+        "role": "document frame"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Document viewer split pane -- renders operator controls for sidebar and view modes; subtracts the document frame which contains the user-selected file content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Evince main window controls -- renders fixed operator buttons for file operations and view settings"
+  }
+]

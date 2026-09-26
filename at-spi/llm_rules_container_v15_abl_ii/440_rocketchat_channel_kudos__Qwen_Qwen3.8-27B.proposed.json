@@ -1,0 +1,50 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "sidebar--main"
+      }
+    ],
+    "except": [
+      {
+        "role": "landmark",
+        "class": "rooms-list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main sidebar chrome -- renders: user status, navigation icon buttons (Home, Messages, etc.), and footer profile controls; the rooms-list is subtracted as it contains user-created channel names"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "rcx-room-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "rcx-css-u5iepl"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Room header controls -- renders: fixed action buttons (Search, Info, Members, etc.); the heading is subtracted as it displays the user-defined channel name"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "footer",
+        "class": "footer"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry",
+        "class": "rc-message-box__textarea"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Message input area -- renders: fixed formatting toolbar buttons (Bold, Italic, etc.) and emoji picker; the text entry is subtracted as it holds user-typed content"
+  }
+]

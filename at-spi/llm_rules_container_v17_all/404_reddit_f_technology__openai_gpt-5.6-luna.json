@@ -1,0 +1,139 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility navigation -- renders fixed platform links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "site-nav__header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders the platform's fixed home and navigation control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "site-nav__main-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main navigation -- renders the platform's fixed navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "site-nav__search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search control -- renders the platform search field and fixed search interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "site-nav__user-menu"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "dropdown"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "account navigation outside the user dropdown -- renders fixed sign-in and account-access vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "main"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "forum-name-heading"
+      },
+      {
+        "role": "article",
+        "class": "submission"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main page frame outside submissions and the community name -- renders fixed tabs, sorting controls and pagination"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "flex flex--guttered"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "forum controls -- renders fixed forum tabs and sorting controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "submission__nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "submission action navigation -- renders fixed comment and submission-action controls"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vote"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "voting controls -- renders fixed upvote and downvote buttons, excluding the adjacent user-determined score"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "form subscribe-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "subscription control -- renders the fixed subscribe action and platform-formatted subscriber count"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "sidebar__section"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar disclosure panel -- renders the platform's fixed disclosure control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "sidebar__no-padding"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar navigation -- renders the platform's fixed sidebar menu vocabulary"
+  }
+]

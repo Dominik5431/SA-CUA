@@ -1,0 +1,70 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-action-bar vertical"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "activity bar view switcher and bottom action bar -- renders: Explorer/Search/Source Control/Run/Extensions/Accounts/Settings, fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar",
+        "class": "ElectronMenuBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top menu bar -- renders: File/Edit/Selection/View/Go/Run/Terminal/Help, fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "class": "actions-container highlight-toggled"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "editor toolbar actions -- renders: Split Editor/More Actions, fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "page tab",
+        "class": "tab tab-actions-right"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "tab close button -- renders: Close, fixed operator vocabulary; the file-name static text in the same tab stays masked"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar",
+        "id": "workbench.parts.statusbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "status.languageStatus"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "status bar -- renders: Problems/Forwarded Ports/Notifications/editor mode/encoding/EOL/indentation/selection/Screen Reader Mode; excludes languageStatus which may carry extension-derived messages"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "dialog",
+        "class": "monaco-list-row"
+      }
+    ],
+    "own_role": "tool bar",
+    "verdict": "trusted",
+    "note": "notification clear button toolbar -- renders: Clear notification, fixed operator vocabulary; notification message and extension action buttons stay masked"
+  }
+]

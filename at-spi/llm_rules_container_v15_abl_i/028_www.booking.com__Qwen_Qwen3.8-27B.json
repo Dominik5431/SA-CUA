@@ -1,0 +1,138 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site header -- renders: Booking.com logo, language/currency selectors, sign-in controls, and fixed navigation tabs (Accommodations/Flights/Packages/Cars/Attractions/Airport taxis)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "fff1944c52"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Breadcrumb navigation -- renders: fixed navigation hierarchy (Home/Accommodations/Region/City/Property)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "d24b1ed1cf f5852f597b da2666adb4"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Property detail tabs -- renders: fixed section labels (Overview/Availability/Facilities/Policies/Fine print/Reviews)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "top-book"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Booking action bar -- renders: fixed controls (Add to wishlist, Share, Book now, Price guarantee)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_hotel_name"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Property header controls -- renders: fixed action buttons (Map, Directions, Save)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hotel_sidebar_static_map_capla"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Map widget controls -- renders: fixed labels (Map, Directions)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_availability_style_changes"
+      }
+    ],
+    "except": [
+      {
+        "role": "table",
+        "id": "hprt-table"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Availability section chrome -- renders: fixed labels (Availability, Price guarantee, Search controls); subtracts the room availability table which contains seller-defined room names, descriptions, and prices"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_facilities_box"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Facilities section -- renders: fixed section labels and facility names (e.g., Free WiFi, Parking, Pool) defined by the platform's taxonomy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "xm-survey-component-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "User survey widget -- renders: fixed platform-authored survey questions and answer options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_policies_box"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Policies section -- renders: fixed policy labels and platform-standard policy text (Check-in, Check-out, Children, Pets, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "important_info"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Important information section -- renders: fixed platform-authored legal and informational text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "pp-faq"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "FAQ section -- renders: fixed platform-authored frequently asked questions and answers"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer_menu_track"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: fixed navigation links, legal links, and language/currency controls"
+  }
+]

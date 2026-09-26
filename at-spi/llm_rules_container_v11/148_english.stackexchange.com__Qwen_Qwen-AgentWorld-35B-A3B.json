@@ -1,0 +1,136 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left sidebar navigation and freemium CTA -- platform's own interface and controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- platform's own navigation and legal links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "onetrust-banner-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent banner -- platform's own consent controls and policy text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "answer-sort-dropdown-select-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answer sort dropdown -- operator-defined sort controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "js-post-tag-list-wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "post tag list -- taxonomy terms from operator-defined tag set"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "user-action-time"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "post timestamp -- operator-computed time and relative time display"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "reputation-score"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "reputation score -- operator-computed user reputation value"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "vote buttons in question post -- operator controls for voting"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "save, follow, and comment link buttons in question post -- operator controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-answer"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "vote buttons in answers -- operator controls for voting"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-answer"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "save, follow, and comment link buttons in answers -- operator controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "aside-cta"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "post answer CTA in question header -- platform's own control"
+  }
+]

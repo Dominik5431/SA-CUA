@@ -1,0 +1,102 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "spacesToolbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "spacesToolbarAddonsContainer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "spaces toolbar -- renders: Mail/Address Book/Calendar/Tasks/Chat/Settings/Collapse; addons container subtracted as third-party"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "unifiedToolbarContainer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "unified toolbar container -- renders: search bar control, app menu button, window min/restore/close controls, notification box"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "toolbar-menubar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "menu bar -- renders: File/Edit/View/Go/Message/Tasks/Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "scroll pane",
+        "id": "chatTabPanel"
+      }
+    ],
+    "except": [
+      {
+        "role": "list box",
+        "id": "contactlistbox"
+      },
+      {
+        "role": "label",
+        "id": "statusMessageLabel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "chat tab panel -- renders: Add Buddy/Join Chat/Set Status/Chat Accounts buttons, no-account placeholder text and wizard button; contact list and user-set status message subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "folderPaneHeaderBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "folder pane header bar -- renders: Folder Pane Options/Write Message/Get Messages buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "threadPaneHeaderBar"
+      },
+      {
+        "role": "section",
+        "class": "list-header-bar-container-end"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "thread pane header controls -- renders: Quick Filter toggle, Display Options button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "start-page"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Thunderbird start/welcome page -- operator-authored links, headings, feature descriptions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "offline-status"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "offline status button -- renders: Working Online/Working Offline"
+  }
+]

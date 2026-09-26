@@ -1,0 +1,74 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "rcx-sidebar sidebar sidebar--main sidebar--medium"
+      }
+    ],
+    "except": [
+      {
+        "role": "landmark",
+        "class": "rooms-list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main sidebar chrome -- renders: user status, navigation icon buttons (Home, Messages, etc.), and footer links; the rooms-list is subtracted as it renders user-created channel names"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar top bar -- renders: fixed section title (e.g., 'Channels') and fixed action buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar section headers -- renders: fixed category labels (e.g., 'Favorites', 'Channels')"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rc-old main-content"
+      }
+    ],
+    "except": [
+      {
+        "role": "table",
+        "class": "rcx-table"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main content chrome -- renders: page heading, tab labels (e.g., 'Members', 'Roles'), search input, and pagination controls; the table is subtracted as it renders user-generated member data"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "rcx-table__head"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Table header row -- renders: fixed column headers (e.g., 'Name', 'Username', 'Roles')"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "rcx-pagination"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Pagination controls -- renders: page numbers and navigation buttons"
+  }
+]

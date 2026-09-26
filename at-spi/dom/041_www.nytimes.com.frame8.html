@@ -1,0 +1,1376 @@
+<!DOCTYPE html><html><head>
+    <meta charset="UTF-8">
+    <title>SafeFrame Container</title>
+    <script>
+(function(){var aa=typeof Object.defineProperties=="function"?Object.defineProperty:function(a,b,c){if(a==Array.prototype||a==Object.prototype)return a;a[b]=c.value;return a},ba=function(a){a=["object"==typeof globalThis&&globalThis,a,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var b=0;b<a.length;++b){var c=a[b];if(c&&c.Math==Math)return c}throw Error("Cannot find global object");},g=ba(this),ca=function(a,b){if(b)a:{var c=g;a=a.split(".");for(var d=0;d<a.length-1;d++){var e=a[d];if(!(e in c))break a;c=c[e]}a=a[a.length-1];d=c[a];b=b(d);b!=d&&b!=null&&aa(c,a,{configurable:!0,writable:!0,value:b})}},h=function(a){return da(a,a)},da=function(a,b){a.raw=b;Object.freeze&&(Object.freeze(a),Object.freeze(b));return a},ea=function(){for(var a=Number(this),b=[],c=a;c<arguments.length;c++)b[c-a]=arguments[c];return b};ca("globalThis",function(a){return a||g});/*
+
+ Copyright The Closure Library Authors.
+ SPDX-License-Identifier: Apache-2.0
+*/
+var l=this||self;function fa(a){var b=m;b instanceof p&&(m=void 0);if(!a){var c=Error;b instanceof p&&(b=b.msg);b=typeof b==="function"?b():b;throw c(b||String(a));}}var p=function(a){this.msg=a},m=void 0;var ia=function(){var a=q,b={message:ha(q)};var c=c===void 0?{}:c;this.error=a;this.meta=c;this.context=b.context;this.msg=b.message||"";this.id=b.id||"jserror"};var r=function(a){r[" "](a);return a};r[" "]=function(){};/*
+
+ Copyright Google LLC
+ SPDX-License-Identifier: Apache-2.0
+*/
+var ja=globalThis.trustedTypes,u;function ka(){var a=null;if(!ja)return a;try{var b=function(c){return c};a=ja.createPolicy("goog#html",{createHTML:b,createScript:b,createScriptURL:b})}catch(c){}return a}function la(){u===void 0&&(u=ka());return u};var ma=function(a){this.g=a};ma.prototype.toString=function(){return this.g+""};function na(a){var b=la();a=b?b.createScriptURL(a):a;return new ma(a)};var v=function(a){this.g=a};v.prototype.toString=function(){return this.g+""};var oa=RegExp("^(?:([^:/?#.]+):)?(?://(?:([^\\\\/?#]*)@)?([^\\\\/?#]*?)(?::([0-9]+))?(?=[\\\\/?#]|$))?([^?#]+)?(?:\\?([^#]*))?(?:#([\\s\\S]*))?$");function pa(a){var b=ea.apply(1,arguments);if(b.length===0)return na(a[0]);for(var c=a[0],d=0;d<b.length;d++)c+=encodeURIComponent(b[d])+a[d+1];return na(c)};var qa=function(a,b){if(a)for(var c in a)Object.prototype.hasOwnProperty.call(a,c)&&b(a[c],c,a)};function ha(a){var b=a.toString();a.name&&b.indexOf(a.name)==-1&&(b+=": "+a.name);a.message&&b.indexOf(a.message)==-1&&(b+=": "+a.message);if(a.stack)a:{a=a.stack;var c=b;try{a.indexOf(c)==-1&&(a=c+"\n"+a);for(var d;a!=d;)d=a,a=a.replace(RegExp("((https?:/..*/)[^/:]*:\\d+(?:.|\n)*)\\2"),"$1");b=a.replace(RegExp("\n *","g"),"\n");break a}catch(e){b=c;break a}b=void 0}return b};var ra=RegExp("^https?://(\\w|-)+\\.cdn\\.ampproject\\.(net|org)(\\?|/|$)"),ta=function(){var a=sa;this.g=w;this.h=a},ua=function(a,b){this.url=a;this.g=!!b;this.depth=null};var x=function(){this.i="&";this.h={};this.l=0;this.g=[]},y=function(a,b){var c={};c[a]=b;return[c]},wa=function(a,b,c,d,e){var k=[];qa(a,function(f,n){(f=va(f,b,c,d,e))&&k.push(n+"="+f)});return k.join(b)},va=function(a,b,c,d,e){if(a==null)return"";b=b||"&";c=c||",$";typeof c==="string"&&(c=c.split(""));if(a instanceof Array){if(d||(d=0),d<c.length){for(var k=[],f=0;f<a.length;f++)k.push(va(a[f],b,c,d+1,e));return k.join(c[d])}}else if(typeof a==="object")return e||(e=0),e<2?encodeURIComponent(wa(a,b,c,d,e+1)):"...";return encodeURIComponent(String(a))},ya=function(a,b,c){b="https://"+b+c;var d=xa(a)-c.length;if(d<0)return"";a.g.sort(function(Ka,La){return Ka-La});c=null;for(var e="",k=0;k<a.g.length;k++)for(var f=a.g[k],n=a.h[f],O=0;O<n.length;O++){if(!d){c=c==null?f:c;break}var t=wa(n[O],a.i,",$");if(t){t=e+t;if(d>=t.length){d-=t.length;b+=t;e=a.i;break}c=c==null?f:c}}a="";c!=null&&(a=""+e+"trn="+c);return b+a},xa=function(a){var b=1,c;for(c in a.h)c.length>b&&(b=c.length);return 3997-b-a.i.length-1};var Aa=function(){this.g=new za};var Ba=h(["https://s0.2mdn.net/ads/richmedia/studio/mu/templates/hifi/hifi.js"]),Ca=h(["https://s0.2mdn.net/ads/richmedia/studio_canary/mu/templates/hifi/hifi_canary.js"]);({})[3]=pa(Ba);({})[3]=pa(Ca);function Da(a){l.google_image_requests||(l.google_image_requests=[]);var b=l.document;b=b===void 0?document:b;b=b.createElement("img");b.src=a;l.google_image_requests.push(b)};var za=function(){this.domain="pagead2.googlesyndication.com";this.path="/pagead/gen_204?id="},Fa=function(a){var b=Ea.g;if(Math.random()<.01)try{if(a instanceof x)var c=a;else c=new x,qa(a,function(e,k){var f=c,n=f.l++;e=y(k,e);f.g.push(n);f.h[n]=e});var d=ya(c,b.domain,b.path+"jserror&");d&&Da(d)}catch(e){}};var Ga=/^([^;]+);(\d+);([\s\S]*)$/;var Ha=/^([a-z0-9]([a-z0-9-]{0,61}[a-z0-9])?\.safeframe\.googlesyndication\.com|tpc\.googlesyndication\.com)$/,Ia=/^(pagead2\.googlesyndication\.com|googleads\.g\.doubleclick\.net)$/;var Ja=function(a){return function(b){var c=a.hostname,d=Ha.test(c)||Ia.test(c);fa(!m);m=new p("["+c+"]");fa(d);b=(c=la())?c.createHTML(b):b;return new v(b)}}(location);if(window.name)try{var z,Ma=window.name,A=Ga.exec(Ma);if(A===null)throw Error("Cannot parse serialized data. "+Ma.substring(0,50));var B=+A[2],C=A[3];if(B>C.length)throw Error("Parsed content size doesn't match. "+B+":"+C.length);z={j:A[1],content:C.substring(0,B),config:C.substring(B)};var D=JSON.parse(z.config);window.name="";var Na=z.content;D.goog_safeframe_hlt&&(l.goog_safeframe_hlt=D.goog_safeframe_hlt);D._context&&(l.AMP_CONTEXT_DATA=D._context);l.sf_={v:z.j,cfg:D};document.open("text/html","replace");var Oa=Ja(Na),Pa=document,Qa=Pa.write,Ra;if(Oa instanceof v)Ra=Oa.g;else throw Error("");Qa.call(Pa,Ra);document.close();l.sf_&&(window.name="")}catch(a){var q=a instanceof Error?a:a instanceof Object&&a.error&&a.meta&&a.id?Error(a.toString()):Error(String(a)),Ea=new Aa,E=void 0;try{var F=new x;F.g.push(1);F.h[1]=y("context",507);q.error&&q.meta&&q.id||(q=new ia);var G=q;if(G.msg){var Sa=G.msg.substring(0,512);F.g.push(2);F.h[2]=y("msg",Sa)}var Ta=[G.meta||{}];F.g.push(3);F.h[3]=Ta;var H,I;if(!(I=H)){var J=l,K=[],L,M=null,N;do{N=J;var P;try{var Q;if(Q=!!N&&N.location.href!=null)b:{var Ua=N;try{r(Ua.foo);Q=!0;break b}catch(b){}Q=!1}P=Q}catch(b){P=!1}P?(L=N.location.href,M=N.document&&N.document.referrer||null):(L=M,M=null);K.push(new ua(L||""));try{J=N.parent}catch(b){J=null}}while(J&&N!==J);for(var R=0,Va=K.length-1;R<=Va;++R)K[R].depth=Va-R;N=l;if(N.location&&N.location.ancestorOrigins&&N.location.ancestorOrigins.length===K.length-1)for(var S=1;S<K.length;++S){var T=K[S];T.url||(T.url=N.location.ancestorOrigins[S-1]||"",T.g=!0)}I=K}H=I;for(var w=new ua(l.location.href,!1),Wa=null,U=H.length-1,V=U;V>=0;--V){var W=H[V];!Wa&&ra.test(W.url)&&(Wa=W);if(W.url&&!W.g){w=W;break}}var sa=null,Xa=H.length&&H[U].url;w.depth!==0&&Xa&&(sa=H[U]);E=new ta;if(E.h){var Ya=E.h.url||"";F.g.push(4);F.h[4]=y("top",Ya)}var Za={url:E.g.url||""},X;if(E.g.url){var Y;Y=E.g.url.match(oa);var $a=Y[1],ab=Y[3],bb=Y[4],Z="";$a&&(Z+=$a+":");ab&&(Z+="//",Z+=ab,bb&&(Z+=":"+bb));X=Z}else X="";var cb=[Za,{url:X}];F.g.push(5);F.h[5]=cb;Fa(F)}catch(b){try{var db,eb;Fa({context:"ecmserr",rctx:507,msg:ha(b),url:(eb=(db=E)==null?void 0:db.g.url)!=null?eb:""})}catch(c){}}};}).call(this);
+    </script><meta http-equiv="origin-trial" content="AxjhRadLCARYRJawRjMjq4U8V8okQvSnrBIJWdMajuEkN3/DfVAcLcFhMVrUWnOXagwlI8dQD84FwJDGj9ohqAYAAABveyJvcmlnaW4iOiJodHRwczovL2dvb2dsZWFkc2VydmljZXMuY29tOjQ0MyIsImZlYXR1cmUiOiJGZXRjaExhdGVyQVBJIiwiZXhwaXJ5IjoxNzI1NDA3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AxjhRadLCARYRJawRjMjq4U8V8okQvSnrBIJWdMajuEkN3/DfVAcLcFhMVrUWnOXagwlI8dQD84FwJDGj9ohqAYAAABveyJvcmlnaW4iOiJodHRwczovL2dvb2dsZWFkc2VydmljZXMuY29tOjQ0MyIsImZlYXR1cmUiOiJGZXRjaExhdGVyQVBJIiwiZXhwaXJ5IjoxNzI1NDA3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9"></head><body marginwidth="0" marginheight="0" class="jar" data-geo="group4" data-videostats=""><span id="7254317247138567668639" data-dv-view="7254317247138567668639"><div class="GoogleActiveViewInnerContainer" style="left:0px;top:0px;width:100%;height:100%;position:fixed;pointer-events:none;z-index:-9999;"></div><style>
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&display=swap');
+@font-face { font-family: ""; src: url() format("");}
+@font-face {font-family: "";src: url() format("");}
+
+@keyframes fadeIn {0% { opacity:0;} 100% {opacity:1;}}
+@-moz-keyframes fadeIn {0% { opacity:0;} 100% {opacity:1;}}
+@-webkit-keyframes fadeIn {0% { opacity:0;} 100% {opacity:1;}}
+@-o-keyframes fadeIn {0% { opacity:0;} 100% {opacity:1;}}
+@-ms-keyframes fadeIn {0% { opacity:0;} 100% {opacity:1;}}
+
+.show { visibility: visible; }
+.hide { visibility: hidden; }
+.fill { object-fit: cover; }
+.contain { object-fit: contain;}
+
+a:link, a:visited, a:focus {
+    color: inherit;
+    text-decoration: none;
+    min-height: 1px;
+    color: #000;
+}
+
+p { margin: 0; }
+
+body {
+	height: 270px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.impression-tracker {
+  	display: none;
+}
+
+#background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: auto;
+  }
+
+.ad-link { text-decoration: none; }
+
+.container {
+    max-width: 1605px;
+    margin: 0 auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+  }
+  
+  .flex-frame {
+    width: 100%;
+    height: 270px;
+    background-size: cover;
+    background-position: right;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    display:flex;
+    z-index: 1;
+	background-color: #F49D68;
+    color: #000;
+  }
+  
+
+  .content-middle-well {
+    display: flex;
+    pointer-events: none;
+    flex-direction: column;
+    z-index: 3;
+    width: calc(40% - 10px);
+    background: url('');
+    background-size: cover;
+    background-position: center;
+    margin-left: 25px;
+    justify-content: space-between;
+      
+  }
+
+  .media-container {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .media-content {
+    position: absolute;
+    z-index: 3;
+    left: 10px;
+    bottom: 10px;
+  }
+  
+
+  .img-container {
+    display: none;
+    width: calc(100% - 1005px);
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+  }
+  
+.img-container img {
+	min-height: 100%;
+	min-width: 100%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translateY(-50%) translateX(-50%);
+	-webkit-transform: translateY(-50%) translateX(-50%);
+	-moz-transform: translateY(-50%) translateX(-50%);
+}
+
+
+.content-middle-well .logo {
+    margin-top:25px;
+    pointer-events: all;
+    align-self: flex-start;
+	max-width: 149px;
+    max-height: 20px;
+}
+
+
+.logo img {
+    display: block;
+    text-align: left;
+    max-width: 149px;
+    max-height: 20px;
+}
+
+/* Update for 2 logo by Monica*/
+
+.logo .logo-hires {
+  display: none;
+}
+
+
+#logo2 {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 30px;
+    top: 25px;
+  	z-index: 12;
+  	max-width: 149px;
+    max-height: 20px;
+		
+}
+
+/*end updtate for 2 logo by Monica */
+
+.content-inner-well {
+	margin-right:auto;
+	margin-bottom:25px;
+}
+  
+.content-inner-well .copy { pointer-events: all; }
+  
+ 
+.title {
+    font-size: 27px;
+    font-family: 'Source Sans Pro', sans-serif;
+    max-width: 485px;
+    margin-bottom: 1px;
+    line-height: 1;
+    font-style: normal;
+    font-weight: 600;
+	user-select: none;
+  -webkit-font-smoothing: antialiased;
+    text-rendering: geometricPrecision;
+}
+  
+  
+.summary {
+	font-size: 18px;
+	max-width: 280px;
+	letter-spacing: -0.01em;
+	user-select: none;
+  -webkit-font-smoothing: antialiased;
+    text-rendering: geometricPrecision;
+}
+
+.disclaimer {
+	display:none;
+	user-select: none;
+}
+
+.cta {
+	pointer-events: all;
+	flex: none;
+	cursor: pointer;
+	font-size: min(15px,2vw);
+	padding: 8px 15px;
+	text-transform: uppercase;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+	margin-top:9px;
+	letter-spacing:1px;
+	user-select: none;
+	border: 1px solid #000;
+	color: #000;
+	background-color: #fff;
+  transition: ease .3s;
+}
+
+
+.gradient {
+	position: absolute;
+	left: 0;
+	background-image: linear-gradient( to top,rgba(0,0,0,0.6), rgba(255,255,255,0) 60%);
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+}
+
+.video-style {
+	width: 100%;
+	position: relative;
+}
+
+.video-style video {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	margin: auto;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	bottom: 0px;
+}
+
+.poster {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+.poster-frame { z-index: 11; }
+
+.poster-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.poster-frame-playBtn {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+    z-index: 999;
+    pointer-events: auto;
+    cursor: pointer;
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#mute-btn, #unmute-btn, #pause-btn, #play-btn {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	background-size: contain;
+	background-position: 50%;
+	background-repeat: no-repeat;
+	z-index: 10;
+	bottom: 20px;
+	pointer-events: auto;
+	cursor: pointer;
+}
+
+#mute-btn {
+	left: 55px;
+	background-image: url("https://static01.nytimes.com/ads/adplatforms/user-interface-elements/video-icons/audio-on.svg");
+}
+
+#unmute-btn {
+	left: 55px;
+	background-image: url("https://static01.nytimes.com/ads/adplatforms/user-interface-elements/video-icons/audio-off.svg");
+}
+
+#pause-btn {
+	left: 20px;
+	background-image: url("https://static01.nytimes.com/ads/adplatforms/user-interface-elements/video-icons/pause.svg");
+}
+
+
+#play-btn {
+	left: 20px;
+	background-image: url("https://static01.nytimes.com/ads/adplatforms/user-interface-elements/video-icons/play.svg");
+}
+
+.progress-bar {
+    position: absolute;
+    height: 2px;
+    background-color: black;
+    left: 0px;
+    bottom: 0px;
+    z-index: 2;
+}
+
+.video-16x9 {
+    width: 480px;
+    position: relative;
+    overflow: hidden;
+}
+
+.video-anamorphic {
+    width: 100%;
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    overflow: hidden;
+}
+
+.video-anamorphic video { height: auto; }
+
+.video-1x1 { width: 50%; }
+  
+.video-1x1:after {
+	content: "";
+	display: block;
+	padding-top: 100%;
+}
+
+.video-1x1 video { object-fit: cover; }
+
+
+.custom {
+    width: 100%;
+    height: 100%;
+}
+
+.forceFullscreen {
+    position: absolute !important;
+    width: 100% !important;
+    height: 100%;
+    z-index: 2;                       
+}
+
+
+/* :::::::::: AUTOPLAY STATE :::::::: */
+/* :::::::::::::::::::::::::::::::::: */
+
+.auto-play-state {
+    /* position: absolute; */
+}
+    
+
+/* :::::::::: PLAY STATE :::::::::::: */
+/* :::::::::::::::::::::::::::::::::: */
+
+.play-state {
+    /* position: absolute; */
+}
+
+
+/* :::::::::: NON-AutoPlay STATE :::: */
+/* :::::::::::::::::::::::::::::::::: */
+
+/* :::::::::: PAUSE STATE ::::::::::: */
+/* :::::::::::::::::::::::::::::::::: */
+
+.pause-state {
+    /* position: absolute; */
+    height: 100% !important;
+    padding-top: unset !important;
+}
+
+
+/* :::::::::: BEGINNING STATE ::::::: */
+/* :::::::::::::::::::::::::::::::::: */
+
+.beginning-state {
+    /* position: absolute; */
+    height: 100% !important;
+    padding-top: unset !important;
+}
+
+
+/* :::::::::: END STATE ::::::::::::: */
+/* :::::::::::::::::::::::::::::::::: */
+
+.end-state {
+    /* position: absolute; */
+    height: 100% !important;
+    padding-top: unset !important;
+}
+
+/* :::::::::: AUTO-PLAY STATE ::::::: */
+/* :::::::::::::::::::::::::::::::::: */
+
+/* :::::::::: LOW-POWER STATE ::::::: */
+/* :::::::::::::::::::::::::::::::::: */
+
+/* :::::::::: MUTE STATE :::::::::::: */
+/* :::::::::::::::::::::::::::::::::: */
+
+
+.mute-state {
+    /* position: absolute; */
+}
+
+/* :::::::::: UN-MUTE STATE ::::::::: */
+/* :::::::::::::::::::::::::::::::::: */
+
+.un-mute-state {
+    /* position: absolute; */
+}
+
+
+/* ::::::: HIDE LOGO on PLAY :::::::: */
+/* :::::::::::::::::::::::::::::::::: */
+
+.hide-logo-onplay.auto-play-state #aTagMessaging,
+.hide-logo-onplay.auto-play-state .gradient,
+.hide-logo-onplay.auto-play-state .logo,
+.hide-logo-onplay.play-state .logo {
+    visibility: hidden;
+}
+
+
+
+
+/* Breakpoints */
+@media screen and (min-width: 1250px) {
+	.content-middle-well {
+		width: 525px;
+	}
+
+	.img-container {
+		display: block;
+	}
+}
+  
+  
+  
+  
+@media screen and (max-width: 728px) {
+  
+	.title {
+		font-size:23px;
+		line-height: 22px;
+	}
+
+	.summary {
+		font-size:16px;
+		line-height: 18px;
+	}
+
+	.content-middle-well .logo {
+		margin-bottom: 93px;
+		position:absolute; 
+		top:1px;
+		margin-left: 25px; 
+		margin-top:25px;
+	}  
+  
+}
+  
+  .disclaimer {
+    display:none;
+  }
+  
+@media screen and (max-width:840px) and (min-width:785px) {
+
+     .content-middle-well .logo {
+         margin-bottom: 90px;
+    }  
+}
+  
+  
+@media screen and (max-width: 728px) {
+	#container {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 727px) {
+	.media-container {
+		width: 480px;
+	}
+}
+
+
+/*:::::: FIX FOR COPY BOUNCING AT SMALLER DEVICES ::: */
+
+.summary {
+    max-width: 370px;
+}
+
+
+@media (min-width: 728px) and (max-width: 784px) {
+
+		.content-inner-well {
+        /*position: absolute;
+        margin-top: 66px;*/
+      display: flex;
+      flex-flow: column wrap;
+      align-items: flex-start;
+      /*flex-grow: 0.5;*/
+      justify-content: space-between;
+    }
+
+    .flex-frame .cta {
+        /*font-size: 11px;*/
+        font-size: 1.5vw;
+        margin-top: 9px;
+    }
+    .flex-frame .summary {
+        /*font-size: 14px;*/
+      	font-size: 2vw;
+    }
+    .flex-frame .title {
+        /*font-size: 21px;*/
+      	font-size: 3vw;
+    }
+
+}
+
+@media screen and (min-width: 785px) and (max-width: 840px) {
+
+   .content-inner-well {
+        /*position: absolute;
+        margin-top: 66px;*/
+     display: flex;
+      flex-flow: column wrap;
+      align-items: flex-start;
+      /*flex-grow: 0.5; */
+     justify-content: space-between;
+    }
+
+    .flex-frame .content-middle-well .logo {
+        margin-bottom: 36px;
+    }
+		.flex-frame .summary {
+    		/*font-size: 14px;*/
+      	font-size: 2vw;
+    }
+
+    .flex-frame .cta {
+        /*font-size: 13px;*/
+      	font-size: 1.5vw;
+        margin-top: 9px;
+    }
+
+    .flex-frame .title {
+        /*font-size: 24px;*/
+        font-size: 3vw;
+    }
+}
+
+
+
+@media (min-width: 841px) and (max-width: 1036px) {
+    .flex-frame .summary {
+        /*font-size: 16px;*/
+      	font-size: 2vw;
+    }
+    .flex-frame .title {
+        /*font-size: 26px;*/
+      	font-size: 3vw;
+    }
+}
+
+
+
+
+/* ANAMORPHIC MODE */
+
+.anamorphic .flex-frame {
+  justify-content: space-between;
+}
+
+
+.anamorphic .video-anamorphic video {
+
+  aspect-ratio: 16 / 9;
+}
+
+.anamorphic .video-anamorphic {
+  width: 100%;
+  max-width: 635px;
+}
+
+.anamorphic .video-anamorphic video {
+  height: 100%;
+}
+
+.anamorphic .content-middle-well {
+  max-width: 100%;
+  /*width: 460px;*/
+}
+
+.anamorphic .poster-background {
+  background-position: center top;
+}
+
+.anamorphic .img-container {
+  width: calc(100% - 960px);
+  max-width: 510px;
+}
+
+.anamorphic .img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.anamorphic .title {
+  /*width: 90%;*/
+}
+
+@media screen and (min-width: 1480px) {
+  .anamorphic .content-middle-well {
+    flex-grow: 1;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .anamorphic .flex-frame {
+    justify-content: flex-start;
+  }
+
+  .anamorphic .img-container {
+    display: none;
+  }
+  .anamorphic .title {
+    /*max-width: 485px;
+    width: 95%;*/
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .anamorphic .content-middle-well {
+    width: 335px;
+  }
+  .anamorphic .content-middle-well .logo {
+    margin-top: 25px;
+    margin-bottom: 35px;
+  }
+  .anamorphic .content-middle-well .title {
+    /*font-size: 25px;*/
+    /*width: 90%;*/
+    font-size: 23px;
+    line-height: 21px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .anamorphic .content-inner-well {
+    max-width: 286px;
+    width: 100%;
+  }
+  .anamorphic .content-inner-well .cta {
+		/*font-size: 13px; */
+    font-size: 1.5vw;
+    margin-top: 9px;
+  }
+}
+
+@media screen and (max-width: 840px) and (min-width: 785px) {
+  .anamorphic .content-middle-well .title {
+    max-width: 220px;
+  }
+}
+
+@media screen and (max-width: 899px) {
+  .anamorphic .content-middle-well {
+    width: 238px;
+  }
+  .anamorphic .content-inner-well {
+    /*width: 190px;*/
+  }
+  .anamorphic .content-middle-well .logo {
+    /*margin-top: 15px;*/
+    /*margin-bottom: 55px;*/
+    margin-bottom: 30px;
+    position: relative;
+    margin-left: 0;
+  }
+  .anamorphic .content-middle-well .title {
+    /*font-size: 21px;
+    line-height: 24px;*/
+    font-size: 19px;
+    line-height: 20px;
+  }
+  .anamorphic .content-middle-well .summary {
+    /*font-size: 16px;*/
+    font-size: 14px;
+  }
+  .anamorphic .video-anamorphic video {
+    height: unset;
+  }
+  .anamorphic .video-anamorphic video {
+    aspect-ratio: 2.35 / 1;
+  }
+}
+
+
+
+
+
+    
+/* =========================================
+   FONT DEFINITIONS
+========================================= */
+@font-face {
+  font-family: 'cheltenham_normal_300';
+  src: url("https://static01.nytimes.com/ads/adplatforms/fonts/random1/cheltenham_normal_300.ttf") format("truetype"),
+       url("https://static01.nytimes.com/ads/adplatforms/fonts/random1/cheltenham_normal_300.woff") format("woff"),
+       url("https://static01.nytimes.com/ads/adplatforms/fonts/random1/cheltenham_normal_300.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'franklin-normal-700';
+  src: url("https://static01.nytimes.com/ads/adplatforms/fonts/random1/franklin-normal-700.ttf") format("truetype"),
+       url("https://static01.nytimes.com/ads/adplatforms/fonts/random1/franklin-normal-700.woff") format("woff"),
+       url("https://static01.nytimes.com/ads/adplatforms/fonts/random1/franklin-normal-700.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'franklin_normal_500';
+  src: url("https://static01.nytimes.com/ads/adplatforms/fonts/random1/franklin_normal_500.ttf") format("truetype"),
+       url("https://static01.nytimes.com/ads/adplatforms/fonts/random1/franklin_normal_500.woff") format("woff"),
+       url("https://static01.nytimes.com/ads/adplatforms/fonts/random1/franklin_normal_500.woff2") format("woff2");
+}
+
+/* =========================================
+   BASE STYLES
+========================================= */
+.title {
+  /* width: 704px; */
+  font-family: 'cheltenham_normal_300', sans-serif;
+  font-weight: unset;
+  font-size: 28px !important;
+  line-height: 32px;
+  margin-bottom: 10px;
+	color: #fff !important;
+}
+
+.summary {
+  /* width: 410px; */
+  max-width: 410px;
+  font-family: 'franklin-normal-700', sans-serif;
+  font-size: 16px !important;
+  line-height: 120%;
+  letter-spacing: 0;
+  margin-bottom: 15px;
+	color: #fff !important;
+}
+
+.cta {
+  font-family: 'franklin-normal-700', sans-serif;
+  font-weight: unset;
+  font-size: 11px !important;
+  line-height: 10px;
+  letter-spacing: 0;
+  color: #000 !important;
+  padding: 10px 11px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+	border: none;
+}
+
+.disclaimer {
+  font-family: 'franklin_normal_500', sans-serif;
+  font-size: 12px !important;
+	line-height: 14px;
+	letter-spacing: 0;
+	display: block;
+	color: #fff !important;
+}
+
+.img-container {
+  width: 0;
+}
+
+.content-middle-well {
+  margin-left: 48px;
+}
+
+.content-middle-well .logo {
+  margin-top: 43px;
+}
+
+.content-inner-well {
+  margin-bottom: 42px;
+}
+
+/* =========================================
+   CONTROLS
+========================================= */
+#pause-btn, #play-btn {
+    left: 14px;
+    bottom: 14px;
+}
+
+#mute-btn,
+#unmute-btn {
+  visibility: hidden;
+}
+
+/* =========================================
+   MEDIA QUERIES
+========================================= */
+@media (max-width: 840px) {
+	.content-inner-well {
+    margin-bottom: 48px;
+		margin-top: -6px;
+		margin-left: 24px;
+}
+	.content-middle-well .logo {
+    margin-top: 47px;
+		margin-left: 24px;
+	}
+	.flex-frame .title {
+    font-size: 22px !important;
+    line-height: 32px;
+		margin-bottom: 8px;
+  }
+	.flex-frame .summary {
+    font-size: 14px !important;
+    line-height: 120%;
+		width: 135px;
+		margin-bottom: 8px;
+  }
+	.disclaimer {
+	  font-size: 10px !important;
+		line-height: 12px;
+	}
+	  /* Consolidated duplicated class properties */
+  .content-middle-well {
+    width: calc(100% - 480px);
+    margin: 0;
+  }
+}
+
+
+    
+</style><script src="https://tpc.googlesyndication.com/safeframe/1-0-45/js/ext.js"></script><script data-jc="132" data-jc-version="r20260825">(function(){'use strict';function d(a=document){return a.createElement("img")};function e(a=null){return a&&a.getAttribute("data-jc")==="132"?a:document.querySelector('[data-jc="132"]')};function f(a){switch(a.i){case 0:g(a);a.i=1;a.h.setTimeout(()=>{a.i===2&&g(a);a.i=0},200);break;case 1:a.i=2}}function h(a){var b=()=>{f(a)};a.h.addEventListener("load",b);a.h.addEventListener("resize",b)}function g(a){var b=JSON.stringify({fluidHeight:a.j.body.offsetHeight});a.parentWindow.postMessage(b,"*")}var k=class{constructor(a){this.i=0;this.h=a.h;this.parentWindow=a.parentWindow;this.j=a.j}};(function(a={h:window,parentWindow:window.parent,j:document}){h(new k(a));if(!(Math.random()>.01)){a=(a=e(document.currentScript))&&a.getAttribute("data-jc-rcd")==="true"?"pagead2.googlesyndication-cn.com":"pagead2.googlesyndication.com";var b=(b=e(document.currentScript))&&b.getAttribute("data-jc-version")||"unknown";a=`https://${a}/pagead/gen_204?id=jca&jc=132&version=${b}&sample=0.01`;b=window;var c;if(c=b.navigator)c=b.navigator.userAgent,c=/Chrome/.test(c)&&!/Edge/.test(c)?!0:!1;c&&typeof b.navigator.sendBeacon=== "function"?b.navigator.sendBeacon(a):(b.google_image_requests||(b.google_image_requests=[]),c=d(b.document),c.src=a,b.google_image_requests.push(c))}})();}).call(this);</script><script>window.dicnf = {sbtru: "https://securepubads.g.doubleclick.net/pcs/view?xai\x3dAKAOjssZicqeaZPgORHXsxPTmxHzCm2UopPfz9jJa1rJITvIOP4KTSP4sLhp5AC3w0MWYK8VAyetK7WMrrzBuVwbMONyc42iqbhywrPvrAY0PLzbxMWgGuPIPk3sL2QP-VS7IpvwgtcBfrn9VvgagUzV9RDhwDVF4rK-7tIveES9pciHY5zQhmE7xNUxb1lBhurfZUE_t0a4YZAjbzTgIrJ3WWq1veWbzdbeaqr6AGpZzZtt9OuZf8K91g6WrYOIc4sbDS4RcwnMmSoTv1GcPalscbKM5cjMv_5q_54KjoYUm9307q5VFIRo-V5ruzxuFiAEQVBSbRh3E5gpp2_i1QlcL_v8LI8vpBE_LDbffKhToYWV_c17FYdybH0GVym3FKZhYqAi8qk4RTrOgsKK6kqZH-YPt0vxB-xN568W4PwYsC0nqpw79O-mYzHO04T1aeDuzFW5zSZ2w-L6P-fdO1q-Z978_g\x26sai\x3dAMfl-YSGSKqi26ZgKPjMBFEA5l3oKy9B4FNUgnqrvu5P3kPcwimDkm5a4eW-51aIhVckOC0i87IhnBxrWK_ABG1ax3Gnjlf0XeH2FC0ruWNOytzEwM1lkJJFZfBbmncNy_Qf_iOBdtOyrbGZJ8i1-aO0sqEVkkXx2UsaAHOGGr23qTP-sFP0aHZ5xLeY5QIDTBo0Tm6WoN4Gla-LVch4yus79h09Q2ShHhw\x26sig\x3dCg0ArKJSzHciZNLQfFnnEAE\x26uach_m\x3d%5BUACH%5D\x26urlfix\x3d1\x26adurl\x3d",ebtro: 97,};</script><script data-jc="42" data-jc-version="r20260825" data-jc-flags="[&quot;x%72;13705!=wu}a($1601;5==&amp;<cbotf+*01247;>1%2bejvf/%72>0<337!=efdwa*'76027;56$?wqrf+*0114564:%2pvs`~&quot;]">(function(){'use strict';/*  Copyright The Closure Library Authors. SPDX-License-Identifier: Apache-2.0 */ var q=this||self;function C(a){C[" "](a);return a}C[" "]=function(){};function G(a){a.C=!0;return a};var aa=G(a=>typeof a==="number"),ba=G(a=>typeof a==="string"),ca=G(a=>typeof a==="function");var H=class{constructor(a,b=!1){this.key=a;this.defaultValue=b;this.valueType="boolean"}};var da=new H("45368259"),ea=new H("45357156",!0),I=new H("45414892"),fa=new H("45648564"),ha=new H("45716539",!0);var J=(a,b)=>a.substring(a.length-7)=="&adurl="?a.substring(0,a.length-7)+b+"&adurl=":a+b;var K=q.dicnf||{};function ia(a,b){if(a)for(let c in a)Object.prototype.hasOwnProperty.call(a,c)&&b(a[c],c,a)};function ja(){if(!globalThis.crypto)return Math.random();try{let a=new Uint32Array(1);globalThis.crypto.getRandomValues(a);return a[0]/65536/65536}catch(a){return Math.random()}};function ka(a=document){return a.createElement("img")};var L=[];function M(){var a=L;L=[];for(let b of a)try{b()}catch{}};function N(a,b,c){typeof a.addEventListener==="function"&&a.addEventListener(b,c,!1)}function O(a,b,c){typeof a.removeEventListener==="function"&&a.removeEventListener(b,c,!1)}function la(a,b){a.readyState==="complete"||a.readyState==="interactive"?(L.push(b),L.length===1&&(window.Promise?Promise.resolve().then(M):(a=window.setImmediate,ca(a)?a(M):setTimeout(M,0)))):a.addEventListener("DOMContentLoaded",b)};function ma(a,b=null){na(a,b)}function na(a,b){q.google_image_requests||(q.google_image_requests=[]);var c=ka(q.document);if(b){let d=f=>{b&&b(f);O(c,"load",d);O(c,"error",d)};N(c,"load",d);N(c,"error",d)}c.src=a;q.google_image_requests.push(c)};var P=0;function oa(a,b=null){return b&&b.getAttribute("data-jc")===String(a)?b:document.querySelector(`[data-jc="${a}"]`)};function Q(a){R||(R=new pa);var b=R.h[a.key];if(a.valueType==="proto"){try{let c=JSON.parse(b);if(Array.isArray(c))return c}catch(c){}return a.defaultValue}return typeof b===typeof a.defaultValue?b:a.defaultValue}var qa=class{constructor(){this.h={}}};var pa=class extends qa{constructor(){super();var a=oa(P,document.currentScript);a=a&&a.getAttribute("data-jc-flags")||"";try{let b=JSON.parse(a)[0];a="";for(let c=0;c<b.length;c++)a+=String.fromCharCode(b.charCodeAt(c)^"\u0003\u0007\u0003\u0007\b\u0004\u0004\u0006\u0005\u0003".charCodeAt(c%10));this.h=JSON.parse(a)}catch(b){}}},R;var sa=class{constructor(a,b){this.error=a;this.meta={};this.context=b.context;this.msg=b.message||"";this.id=b.id||"jserror"}};function ta(a){var b=a.toString();a.name&&b.indexOf(a.name)==-1&&(b+=": "+a.name);a.message&&b.indexOf(a.message)==-1&&(b+=": "+a.message);if(a.stack)a:{a=a.stack;var c=b;try{a.indexOf(c)==-1&&(a=c+"\n"+a);let d;for(;a!=d;)d=a,a=a.replace(RegExp("((https?:/..*/)[^/:]*:\\d+(?:.|\n)*)\\2"),"$1");b=a.replace(RegExp("\n *","g"),"\n");break a}catch(d){b=c;break a}b=void 0}return b};var ua=RegExp("^https?://(\\w|-)+\\.cdn\\.ampproject\\.(net|org)(\\?|/|$)"),va=class{constructor(a,b){this.h=a;this.i=b}},wa=class{constructor(a,b){this.url=a;this.h=!!b;this.depth=null}};var S=null;function xa(){var a=q.performance;return a&&a.now&&a.timing?Math.floor(a.now()+a.timing.navigationStart):Date.now()}function ya(){var a=q.performance;return a&&a.now?a.now():null};var za=class{constructor(a,b){var c=ya()||xa();this.label=a;this.type=b;this.value=c;this.duration=0;this.taskId=this.slotId=void 0;this.uniqueId=Math.random()}};var T=q.performance,Aa=!!(T&&T.mark&&T.measure&&T.clearMarks),U=function(a){var b=!1,c;return function(){b||(c=a(),b=!0);return c}}(()=>{var a;if(a=Aa){var b;a=window;if(S===null){S="";try{let c="";try{c=a.top.location.hash}catch(d){c=a.location.hash}c&&(S=(b=c.match(/\bdeid=([\d,]+)/))?b[1]:"")}catch(c){}}b=S;a=!!b.indexOf&&b.indexOf("1337")>=0}return a});function Ba(a){a&&T&&U()&&(T.clearMarks(`goog_${a.label}_${a.uniqueId}_start`),T.clearMarks(`goog_${a.label}_${a.uniqueId}_end`))};function V(a,b){var c={};c[a]=b;return[c]}function Ca(a,b,c,d,f){var e=[];ia(a,(k,l)=>{(k=Da(k,b,c,d,f))&&e.push(`${l}=${k}`)});return e.join(b)}function Da(a,b,c,d,f){if(a==null)return"";b=b||"&";c=c||",$";ba(c)&&(c=c.split(""));if(a instanceof Array){if(d||(d=0),d<c.length){let e=[];for(let k=0;k<a.length;k++)e.push(Da(a[k],b,c,d+1,f));return e.join(c[d])}}else if(typeof a==="object")return f||(f=0),f<2?encodeURIComponent(Ca(a,b,c,d,f+1)):"...";return encodeURIComponent(String(a))} function Ea(a){var b=1;for(let c in a.i)c.length>b&&(b=c.length);return 3997-b-a.j.length-1}function Fa(a,b,c,d){b=b+"//"+c+d;var f=Ea(a)-d.length;if(f<0)return"";a.h.sort((e,k)=>e-k);d=null;c="";for(let e=0;e<a.h.length;e++){let k=a.h[e],l=a.i[k];for(let h=0;h<l.length;h++){if(!f){d=d==null?k:d;break}let m=Ca(l[h],a.j,",$");if(m){m=c+m;if(f>=m.length){f-=m.length;b+=m;c=a.j;break}d=d==null?k:d}}}a="";d!=null&&(a=`${c}trn=${d}`);return b+a} var Ga=class{constructor(){this.j="&";this.i={};this.l=0;this.h=[]}};var Ha=RegExp("^(?:([^:/?#.]+):)?(?://(?:([^\\\\/?#]*)@)?([^\\\\/?#]*?)(?::([0-9]+))?(?=[\\\\/?#]|$))?([^?#]+)?(?:\\?([^#]*))?(?:#([\\s\\S]*))?$");function Ia(a,b,c,d){try{if(a.h&&a.h.h){var f=a.h.start(b.toString(),3);var e=c();a.h.end(f)}else e=c()}catch(k){c=!0;try{Ba(f),c=a.u(b,new sa(k,{message:ta(k)}),void 0,d)}catch(l){a.l(217,l)}if(c)window.console?.error?.(k);else throw k;}return e}function Ja(a,b,c,d){var f=W;return(...e)=>Ia(f,a,()=>b.apply(c,e),d)} var La=class{constructor(a=null){this.m=X;this.h=a;this.i=null;this.j=!1;this.u=this.l}l(a,b,c,d,f){f=f||"jserror";var e=void 0;try{let v=new Ga;var k=v;k.h.push(1);k.i[1]=V("context",a);b.error&&b.meta&&b.id||(b=new sa(b,{message:ta(b)}));k=b;if(k.msg){b=v;var l=k.msg.substring(0,512);b.h.push(2);b.i[2]=V("msg",l)}var h=k.meta||{};l=h;if(this.i)try{this.i(l)}catch(F){}if(d)try{d(l)}catch(F){}d=v;h=[h];d.h.push(3);d.i[3]=h;var m;if(!(m=t)){d=q;h=[];let F;l=null;do{var g=d;try{var p;if(p=!!g&&g.location.href!= null)b:{try{C(g.foo);p=!0;break b}catch(E){}p=!1}var x=p}catch{x=!1}x?(F=g.location.href,l=g.document&&g.document.referrer||null):(F=l,l=null);h.push(new wa(F||""));try{d=g.parent}catch(E){d=null}}while(d&&g!==d);for(let E=0,ra=h.length-1;E<=ra;++E)h[E].depth=ra-E;g=q;if(g.location&&g.location.ancestorOrigins&&g.location.ancestorOrigins.length===h.length-1)for(x=1;x<h.length;++x){let E=h[x];E.url||(E.url=g.location.ancestorOrigins[x-1]||"",E.h=!0)}m=h}var t=m;let A=new wa(q.location.href,!1);m=null; let w=t.length-1;for(g=w;g>=0;--g){var y=t[g];!m&&ua.test(y.url)&&(m=y);if(y.url&&!y.h){A=y;break}}y=null;let Ya=t.length&&t[w].url;A.depth!==0&&Ya&&(y=t[w]);e=new va(A,y);if(e.i){t=v;var z=e.i.url||"";t.h.push(4);t.i[4]=V("top",z)}var D={url:e.h.url||""};if(e.h.url){let F=e.h.url.match(Ha);var n=F[1],r=F[3],B=F[4];z="";n&&(z+=n+":");r&&(z+="//",z+=r,B&&(z+=":"+B));var u=z}else u="";n=v;D=[D,{url:u}];n.h.push(5);n.i[5]=D;Ka(this.m,f,v,this.j,c)}catch(v){try{Ka(this.m,f,{context:"ecmserr",rctx:a,msg:ta(v), url:e?.h.url??""},this.j,c)}catch(A){}}return!0}};class Ma{};function Ka(a,b,c,d=!1,f,e){if((d?a.h:Math.random())<(f||.01))try{let k;c instanceof Ga?k=c:(k=new Ga,ia(c,(h,m)=>{var g=k,p=g.l++;h=V(m,h);g.h.push(p);g.i[p]=h}));let l=Fa(k,a.protocol,a.domain,a.path+b+"&");l&&(typeof e!=="undefined"?ma(l,e):ma(l))}catch(k){}}function Na(){var a=X,b=window.google_srt;b>=0&&b<=1&&(a.h=b)}var Oa=class{constructor(){this.domain="pagead2.googlesyndication.com";this.path="/pagead/gen_204?id=";this.protocol="https:";this.h=Math.random()}};var X,W,Y=new class{constructor(a,b){this.i=[];this.j=b||q;var c=null;b&&(b.google_js_reporting_queue=b.google_js_reporting_queue||[],this.i=b.google_js_reporting_queue,c=b.google_measure_js_timing);this.h=U()||(c!=null?c:Math.random()<a)}start(a,b){if(!this.h)return null;a=new za(a,b);b=`goog_${a.label}_${a.uniqueId}_start`;T&&U()&&T.mark(b);return a}end(a){if(this.h&&aa(a.value)){a.duration=(ya()||xa())-a.value;var b=`goog_${a.label}_${a.uniqueId}_end`;T&&U()&&T.mark(b);!this.h||this.i.length>2048|| this.i.push(a)}}}(1,window);function Pa(){window.google_measure_js_timing||(Y.h=!1,Y.i!==Y.j.google_js_reporting_queue&&(U()&&Array.prototype.forEach.call(Y.i,Ba,void 0),Y.i.length=0))} (function(a){X=a??new Oa;typeof window.google_srt!=="number"&&(window.google_srt=Math.random());Na();W=new La(Y);W.i=b=>{var c=P;c!==0&&(b.jc=String(c),c=(c=oa(c,document.currentScript))&&c.getAttribute("data-jc-version")||"unknown",b.shv=c)};W.j=!0;window.document.readyState==="complete"?Pa():Y.h&&N(window,"load",()=>{Pa()})})();function Qa(a,b,c,d){return Ja(a,b,c,d)} function Ra(a,b,c,d){var f=Ma;var e="v";f.v&&f.hasOwnProperty(e)||(e=new f,f.v=e);f=[];!b.eid&&f.length&&(b.eid=f.toString());Ka(X,a,b,!0,c,d)};var Z=["FRAME","IMG","IFRAME"],Sa=/^[01](px)?$/,Ta=class{constructor(){this.j=this.l=this.u=this.h=this.m=this.i=!1}};function Ua(a){return ba(a)?document.getElementById(a):a}function Va(a,b=!1){return a.tagName==="IMG"&&(a.complete&&(!a.naturalWidth||!a.naturalHeight)||b&&a.style?.display==="none")?!0:Sa.test(a.getAttribute("width")??"")&&Sa.test(a.getAttribute("height")??"")} function Wa(a,b=!1){if(a.tagName==="IMG")return a.naturalWidth&&a.naturalHeight?!0:!1;try{return(a.readyState?a.readyState:a.contentWindow?.document?.readyState)==="complete"}catch(c){return b}}function Xa(a){a||(a=(b,c,d)=>{b.addEventListener(c,d)});return a} function Za(a,b,c=new Ta,d){a=Ua(a);if(!a)return!1;d=Xa(d);var f=!1,e=t=>{f||(f=!0,b(t))},k=2;for(var l=0;l<Z.length;++l)if(Z[l]===a.tagName){k=3;var h=[a];break}h||(h=a.querySelectorAll(Z.join(",")));var m=0,g=0,p=!c.h,x=a=!1;for(l=0;l<h.length;l++){let t=h[l];if(Va(t,c.h))continue;let y=t.tagName==="IMG";if(Wa(t,c.i))a=!0,y&&(p=!0);else{m++;let z=D=>{m--;!m&&p&&e(k);y&&(D=D&&D.type==="error",g--,D||(p=!0),!g&&x&&p&&e(k))};d(t,"load",z);y&&(g++,d(t,"error",z))}}g===0&&(p=!0);h=null;h=q.document.readyState=== "complete";if(c.u&&h){if(g>0)return x=!0,!1;k=5}else if(m===0&&!a&&h)k=5;else if(m||!a)return d(q,"load",()=>{!c.m||!g&&p?e(4):x=!0}),!1;e(k);return!0} function $a(a,b,c=new Ta,d){function f(n){for(let {type:r,handler:B}of n.o)n.element.removeEventListener(r,B);n.o=[]}function e(){var n=q.document.readyState==="complete",r=!c.h,B=!1,u=!1,v=!1,A=!0;for(let w of g)w.completed?(B=!0,w.B&&(u=!0,w.A||(r=!0))):(A=!1,w.B&&(v=!0));r=!u||r;if(A&&B&&r)return t(z),!0;n&&(y=!0,z=5);n=!c.m||!v&&r;return y&&n?(t(z),!0):!1}function k(n){for(let r of n){if(g.some(v=>v.element===r))continue;if(Va(r,c.h))continue;let B=r.tagName==="IMG",u={element:r,B,A:!1,o:[],completed:!1}; Wa(r,c.i)?u.completed=!0:(n=v=>{u.completed=!0;B&&v&&v.type==="error"&&(u.A=!0);f(u);e()},d(r,"load",n),u.o.push({type:"load",handler:n}),B&&(d(r,"error",n),u.o.push({type:"error",handler:n})));g.push(u)}}function l(n){return Z.some(r=>String(r)===n.tagName)?(z=3,[n]):Array.from(n.querySelectorAll(Z.join(",")))}function h(n){m=new q.MutationObserver(u=>{g=g.filter(A=>{if(c.j){var w=A.element;w=!(typeof w.isConnected==="boolean"?w.isConnected:w.ownerDocument?.documentElement?.contains(w)??!1)}else w= !A.element.isConnected;return w?(f(A),!1):!0});var v=[];for(let A of u)for(u=0;u<A.addedNodes.length;u++){let w=A.addedNodes[u];w.nodeType===1&&v.push(...l(w))}k(v);e()});var r;if(r=n.tagName==="BODY"&&n.ownerDocument){try{var B=q.top===q}catch(u){B=!1}r=!B}n=r?n.ownerDocument:n;m?.observe(n,{childList:!0,subtree:!0})}a=Ua(a);if(!a)return!1;d=Xa(d);var m=null,g=[],p=!1,x=()=>{e()},t=n=>{if(!p){p=!0;m&&m.disconnect();for(let r of g)f(r);g=[];c.l&&q.document.removeEventListener&&q.document.removeEventListener("readystatechange", x);b(n)}},y=!1,z=2;k(l(a));c.j?typeof q.MutationObserver==="function"&&h(a):h(a);if(e())return!0;var D=()=>{y=!0;z=4;e();q.removeEventListener("load",D)};d(q,"load",D);c.l&&d(q.document,"readystatechange",x);return!1};function ab(a){var b;a.visibilityState?b="visibilitychange":a.mozVisibilityState?b="mozvisibilitychange":a.webkitVisibilityState&&(b="webkitvisibilitychange");return b};function bb(){var a=window;if(a.gmaSdk||a.webkit?.messageHandlers?.getGmaViewSignals)return a;try{let b=window.parent;if(b.gmaSdk||b.webkit?.messageHandlers?.getGmaViewSignals)return b}catch(b){}return null} function cb(a,b={},c=()=>{},d=()=>{},f=200,e,k){var l=String(Math.floor(ja()*2147483647)),h=0,m=g=>{try{let p=typeof g.data==="object"?g.data:JSON.parse(g.data);l===p.paw_id&&(window.clearTimeout(h),window.removeEventListener("message",m),p.signal?c(p.signal):p.error&&d(p.error))}catch(p){k("paw_sigs",{msg:"postmessageError",err:p instanceof Error?p.message:"nonError",data:g.data==null?"null":g.data.length>500?g.data.substring(0,500):g.data})}};window.addEventListener("message",g=>{e(903,()=>{m(g)})()}); a.postMessage({paw_id:l,...b});h=window.setTimeout(()=>{window.removeEventListener("message",m);d("PAW GMA postmessage timed out.")},f)};class db{constructor(){this.promise=new Promise((a,b)=>{this.resolve=a;this.reject=b})}};window.viewReq=[];function eb(a){var b=new Image;b.src=a.replace("&amp;","&");window.viewReq.push(b)} function fb(a){var b=fetch(a,{keepalive:!0,credentials:"include",redirect:"follow",method:"get",mode:"no-cors"}).catch(()=>{eb(a)});Q(ha)&&b instanceof Promise&&b.then(c=>{if(c instanceof Response){var d=window;let e={};if(c=c.headers.get("X-Ad-Event-Value"))try{let k=JSON.parse(c);e.revenueCurrency=k.currency;e.revenueMicros=k.value;var f=d.parent;e.googMsgType="aevi";f.postMessage(JSON.stringify(e),"*")}catch{}}})}function gb(a){window.fetch?fb(a):eb(a)} function hb(a,b){b.length>0?Promise.all(b).then(()=>{gb(a())}):gb(a())}function ib(){var a=q.document;return new Promise(b=>{var c=ab(a);if(c){var d=()=>{(a.prerendering?3:{visible:1,hidden:2,prerender:3,preview:4,unloaded:5,"":0}[a.visibilityState||a.webkitVisibilityState||a.mozVisibilityState||""]??0)!==3&&(O(a,c,d),b())};N(a,c,d)}})}function jb(a){a=a??0;var b=new Ta;b.i=!!(a&2);b.m=!!(a&4);b.h=!!(a&8);b.u=!!(a&16);b.l=!!(a&64);b.j=!!(a&128);return b}P=42; window.vu=a=>{var b=K.sbtru,c=!!K.arbpp;b?c&&(b=J(b,c&&b.includes("/pcs/view")?"&vt=11&igpp=1":"&vt=11")):b=K.rcsbtr||(K.eppbtr?J(a,c&&a.includes("/pcs/view")?"&vt=11&igpp=1":"&vt=11"):void 0);var d=h=>{a=J(a,h);b&&(b=J(b,h))};c=Q(ea)||Q(I);var f=bb();if(c&&f?.gmaSdk?.getViewSignals){var e=f.gmaSdk.getViewSignals();e&&!Q(I)&&d(`&ms=${e}`)}Q(da)&&"__google_lidar_radf_"in window&&d("&avradf=1");var k=[];e=()=>{var h=new db;k.push(h.promise);return h.resolve};if(Q(fa)){var l=ib();if(l!=null){let h=e(); l.then(()=>{d("&sbtr=1");h()})}}if(K.ebtrg){let h=e(),m=t=>{t&&d(`&dett=${t}`);h()},g=q.document;l=K.ebtro;let p=jb(l),x=(l??0)&32?$a:Za;l&&l&1?x(g.body,m,p):la(g,()=>{x(g.body,m,p)})}if(c&&f?.webkit?.messageHandlers?.getGmaViewSignals){let h=e();cb(f.webkit.messageHandlers.getGmaViewSignals,{},m=>{Q(I)||d("&"+m);h()},()=>{h()},200,Qa,Ra)}hb(()=>a,k);if(b){let h=q.document;c=K.ebtro;let m=jb(c),g=(c??0)&32?$a:Za;f=()=>{g(h.body,p=>{p!==void 0&&b&&!K.rcsbtr&&(b=J(b,`&dett=${p}`));hb(()=>b||"",k)}, m)};c&&c&1?f():la(h,f)}};}).call(this);</script><script>vu("https://securepubads.g.doubleclick.net/pcs/view?xai\x3dAKAOjsvJ0zKTD8SHuu9_pAk7eCyOyCxWGO-rWXysm-TMOhOB3LhbvwMaS1pSiUJCXO4XdDFjSbrq2XWldG6coS-wjYmWZCb9Ri6XAJf5SN16GRavZS0LcglGa6wj-X8_obhGpcMhAWhDGqGgcWvjslj735eMPgCYIVk2HdDuFu37yOwFzqOVB-cJKHDjatBsEXgtfAnW6__R0urc66s9vlOqjUnGudbMkh634fdMG_80v0-pTcUY_a4maulQbDGlfqCZJ3T62MqHzPzTBfMEqM-RaBcLEs6a5u5Hh8bkI25W1cktQhS8rqbo3vXlq3m7Vi-meIcUw5cHDWDgmkYY0EkLUxiAVxmBAiQoafv9nW5YBprOciPo7Emg6d3Fuovqs44z-dQn_CDVcSaJzsB4At0bbHhRIVPllQKB9rl9R0qJq9wtK1tsAunlvxhRbhMWCZQ5_0lRdkcmMPFdwwy5tSBAo34LJdbtw9qCSxb9sDcEXg\x26sai\x3dAMfl-YSu2QVLwToMWQmXnHxwOi4KyAZUgSU7pKdIznqIr-Xn5JNsFEZWPPvzxepLHKZyciYPeMll3sZp3H0nPrtL7AEOlxWkEQe5CqF3pnqG5XYtp9KtWLKTfOU1iT1OV5sFTDiEqVnCL19ZQaKFJkgW8v4fxV00OD9ZDwN_dhv1yZjLA8giyyQ2YDblo0gG4OcQ5AO7qNp5X66kaWiHPzkZ4JLflTykiU0\x26sig\x3dCg0ArKJSzBQ3eIC3wlPuEAE\x26uach_m\x3d%5BUACH%5D\x26urlfix\x3d1\x26adurl\x3d")</script><link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&amp;lang=en" rel="stylesheet" type="text/css"><style>div{margin:0;padding:0;}.abgc{display:block;height:15px;position:absolute;right:17px;top:1px;text-rendering:geometricPrecision;z-index:2147483646;}.abgb{display:inline-block;height:15px;}.abgc,.jar .abgc,.jar .cbb{opacity:1;}.abgc{cursor:pointer;}.cbb{cursor:pointer;height:15px;width:15px;z-index:2147483646;background-color:#ffffff;opacity:0;}.cbb svg{position:absolute;top:0;right:0;height:15px;width:15px;stroke:;fill:#00aecd;stroke-width:1.25;}.cbb:hover{cursor:pointer;}.abgb{position:absolute;right:0px;top:0px;}.cbb{position:absolute;right:1px;top:1px;}.abgs{display:none;height:100%;}.abgl{text-decoration:none;}.abgs svg,.abgb svg{display:inline-block;height:15px;width:auto;vertical-align:top;}.abgc .il-wrap{background-color:#ffffff;height:15px;white-space:nowrap;}.abgc .il-wrap.exp{border-bottom-left-radius:5px;}.abgc .il-text,.abgc .il-icon{display:inline-block;}.abgc .il-text{padding-right:1px;padding-left:5px;height:15px;width:55px;}.abgc .il-icon{height:15px;width:15px;}.abgc .il-text svg{fill:#000000;}.abgc .il-icon svg{fill:#00aecd}</style><div id="abgc" class="abgc" dir="ltr"><div id="abgb" class="abgb"><div class="il-wrap"><div class="il-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15"><path fill="#fff" d="M0 0h15v15H0z"></path><circle cx="6" cy="6" r=".67"></circle><path d="M4.2 11.3q-.9.5-.9-.55V4.1q0-1 1-.6L10.4 7q1.6.5 0 1l-3.75 2V7.75a.65.65 0 1 0-1.3 0v3a.9.9 0 0 0 1.3.8L12.7 8.2q1-.7 0-1.5L3.3 1.6q-1.1-.3-1.5.9v10q.4 1.4 1.5.8l1.5-.8a.3.3 0 1 0-.6-1.2"></path></svg></div></div></div><div id="abgs" class="abgs"><a id="abgl" class="abgl" href="https://adssettings.google.com/whythisad?source=display&amp;reasons=ARXetyoM2ySNPu9j0WQZ7x3YOLB_1buVX8ubXJOT0qRUnZr24gNtcrlC7jD11rXaLAVdaq1yzwOdplw-nxKuMWYH-aXch9YBiSn1tcZ32mios1_Zq-B9nN5HrqYIBbrpLxSnqtteVfhgBSNZdm8lOBkh5wOIAoQhAakDNZQ3CwceZSm_zguXakGSat6GkuZ-3Bz-zhETTOsDkyfxc8RCt-q9Kvh6Wvws4K5j_lTtfWXOs6TzM2Zrfjw834SwzKRBzrotN9VesdnzpfnIZMn3veZgSGP90lDAOW2WqXRY2fsMVTcRkJ9KPUCWNdALbykltzZKNuUCML9qh70vOfnZBW5azB8MS5sORzpDr4er1VWCXQW1D9PsEWPhQjNHy--TAmFM3UMvsaQEbEa154_HWMazLTy_QBudu9VzNycV0i1mtHlvZzGuEgYp2TjOb6G6T0SvpkgBVju-BDqgvRZb41FBt3MZ2ewXLYdqJIFCZ6VVBi5pYZBA11nGs-sJKK2uyHFnSQDrXLgjuNbG_fuupviVpXQA4e8tKO3ar9fQG3W2Onoeu0ydcbI25nKzYZGAq6s2oLtk5U8N-20BCAlTfC7yoHyB7iPZtTZjOSKL3qQbC5HVhJlHlBSrAMF8MSkE_QdluVWobAsWIq2uZ_66uwkSjK_e6UTEnzzN-BiDMtRXToGxvcMJwemZiCQG2mK-w17Eywp6K-rM1Cw464MtddSZoQSumHfIYE4EUCOccLogIgRxpmr4su265SBzSK5JJJuyg8qAB1Bufb6PoEiG4DlkdEWsqNMvt3oTm9gvlRGJ6wbOCZ1NiJ2MtXUgb328PbFFhtlPhix1h6GtN5NZSiyF7meC_qdOX6n9B5J2W1__GCy_r_yLV2fB-8P2VulhanpZG6i47jfMMsBBWskB94mWrJ2RYcufOO3fTE2SiyU54WYyHLVsOz_qNlZRQhHqVovQiVcQE4ys_yqmRunvmYinRftKhCPc4BPmZc_mZF0s9pa2PTsBiKog4Pa5_I8Rzy2Atm-EOkvnFlBMAPwkO8BsLLSunXoLYJTVnBZIg-6KW_d0rBQKJwKP2prFYAjN005QANJbHWx3pSgMdaJePhk-ETRqpvd8N-TQt0pwWo16IkgF86Y9EgxcBBpq4LeRldGOxUjbc-CgNIZmbOtyBVxaH0fccD6xhwSanhrFcCiNHK1PE5HYEwfSgnAzs3JzPW6DqAGnQrzc0eBZ-pZjro1pAm-3yTJXMY4q8p_1i89TH2YXokQU3H78tE8B8V8oz3nA36eSwicPVVjHhB0w5XjBot8RWp-W3rRWCBQsGSgaKHn8qT_pyhrWnbr9ag68vogrX3FItw7qfjZjX8-LcMmX2om78UlrdL13oF6aFoj9Q3DNTyerjQ0U-X8&amp;opi=122715837" target="_blank"><div class="il-wrap exp"><div class="il-text"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 59 16"><path d="M4.51 4.24l3.51 8.59H6.73l-1.01-2.62H2.14l-.95 2.62h-1.2l3.3-8.59h1.22zM2.46 9.31h2.92Q4.32 6.52 4.19 6.14q-.14-.37-.3-1.01h-.03Q3.7 6 3.42 6.74l-.96 2.57zm11.37-5.07v8.59h-.98v-.79h-.02q-.57.93-1.72.93-1.14 0-1.91-.9-.76-.91-.76-2.35 0-1.51.72-2.38.72-.87 1.9-.87 1.12 0 1.7.85h.02V4.24h1.05zm-2.61 7.87q.69 0 1.17-.57t.48-1.73q0-1.13-.44-1.81-.44-.67-1.26-.67-.82 0-1.24.66-.41.66-.41 1.73 0 .77.22 1.31.23.54.63.81.41.27.85.27zm10.52-2.3l1.14.29q-.38 1.45-1.31 2.16-.94.71-2.25.71-2.11 0-3.07-1.32t-.96-3.18q0-2.05 1.13-3.22 1.13-1.16 2.92-1.16 1.25 0 2.14.64.89.64 1.25 1.87l-1.11.26q-.29-.9-.86-1.35-.57-.45-1.44-.45-1.4 0-2.13.93-.73.92-.73 2.47 0 1.79.77 2.67.76.87 1.99.87 1.01 0 1.64-.54.63-.55.88-1.65zm7.49-.92v3.94h-1.06V8.9q0-.76-.33-1.14-.33-.38-.98-.38-.65 0-1.15.45-.51.44-.51 1.6v3.4h-1.05V4.24h1.05v3.08q.75-.85 1.88-.85.6 0 1.15.24.55.25.77.76.23.51.23 1.42zm4.12-2.42q1.26 0 2.09.82.83.82.83 2.33 0 1.84-.9 2.59-.89.76-2.02.76-1.18 0-2.04-.78-.87-.78-.87-2.47 0-1.64.84-2.45.84-.8 2.07-.8zm0 5.64q.9 0 1.37-.67.47-.67.47-1.76 0-1.17-.53-1.76-.53-.59-1.31-.59-.8 0-1.32.6-.51.6-.51 1.79 0 1.18.52 1.78.53.61 1.31.61zm5.2-5.5v6.22h-1.06V6.61h1.06zm0-2.37v1.19h-1.06V4.24h1.06zm5.65 6.31l1.05.13q-.2 1.19-.94 1.74-.73.55-1.65.55-1.36 0-2.1-.89-.73-.88-.73-2.35 0-1.21.42-1.94.43-.73 1.06-1.03.64-.29 1.35-.29.96 0 1.64.5.68.49.84 1.46l-1.02.16q-.16-.63-.51-.94-.36-.32-.91-.32-.88 0-1.34.63-.46.62-.46 1.75 0 1.15.45 1.77.45.63 1.29.63.68 0 1.07-.39t.49-1.17zm7.36-.57H46.9q.07 1.04.59 1.58.53.55 1.31.55.61 0 1.02-.32.41-.32.62-.97l1.09.14q-.27.97-.97 1.49t-1.76.52q-1.4 0-2.19-.86-.78-.85-.78-2.34 0-1.47.76-2.39.77-.91 2.15-.91.68 0 1.31.3t1.07 1.01q.44.72.44 2.2zm-4.6-.86h3.52q-.07-.95-.59-1.37-.52-.42-1.15-.42-.74 0-1.22.5t-.56 1.29zm10.37-.91l-1.03.14q-.07-.51-.41-.77-.34-.25-.95-.25-.61 0-.98.21-.37.2-.37.59 0 .37.3.53.29.16 1.16.39.99.25 1.48.44.49.2.76.54.27.35.27.97 0 .84-.68 1.4-.68.57-1.81.57-1.19 0-1.85-.5-.67-.5-.82-1.5l1.05-.16q.08.65.48.97.4.33 1.12.33.7 0 1.07-.29.36-.29.36-.71 0-.28-.17-.45-.17-.17-.42-.26-.26-.08-1.15-.3-1.32-.31-1.74-.77-.43-.45-.43-1.07 0-.78.62-1.29.62-.5 1.67-.5 1.11 0 1.73.44.62.43.74 1.3z"></path></svg></div><div class="il-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15"><path fill="#fff" d="M0 0h15v15H0z"></path><circle cx="6" cy="6" r=".67"></circle><path d="M4.2 11.3q-.9.5-.9-.55V4.1q0-1 1-.6L10.4 7q1.6.5 0 1l-3.75 2V7.75a.65.65 0 1 0-1.3 0v3a.9.9 0 0 0 1.3.8L12.7 8.2q1-.7 0-1.5L3.3 1.6q-1.1-.3-1.5.9v10q.4 1.4 1.5.8l1.5-.8a.3.3 0 1 0-.6-1.2"></path></svg></div></div></a></div></div><div id="cbb" class="cbb" tabindex="0" role="button"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_2157_481)"><path fill="#fff" d="M15 0v15H0V0z"></path><path fill="#fff" d="M15 0v15H0V0z"></path><circle cx="7.5" cy="11.5" r="1.5" transform="rotate(-180 7.5 11.5)" fill="#00aecd"></circle><circle cx="7.5" cy="7.5" r="1.5" transform="rotate(-180 7.5 7.5)" fill="#00aecd"></circle><circle cx="7.5" cy="3.5" r="1.5" transform="rotate(-180 7.5 3.5)" fill="#00aecd"></circle></g><defs><clipPath id="clip0_2157_481"><path fill="#fff" transform="rotate(90 7.5 7.5)" d="M0 0h15v15H0z"></path></clipPath></defs></svg></div><style>.mute_panel{z-index:2147483646;}.abgac{position:absolute;left:0px;top:0px;z-index:2147483646;display:none;width:100%;height:100%;background-color:#FAFAFA;}.mlsc{height:100%;display:flex;justify-content:center;align-items:center;}.mls{animation:mlskf 2s linear infinite;height:50%;width:50%;}.mlsd{stroke-dasharray:1,189;stroke-dashoffset:0;animation:mlsdkf 1.4s ease-in-out infinite;}@keyframes mlskf{100%{transform:rotate(360deg);}}@keyframes mlsdkf{0%{stroke-dasharray:1,189;stroke-dashoffset:0;}50%{stroke-dasharray:134,189;stroke-dashoffset:-53px;}100%{stroke-dasharray:134,189;stroke-dashoffset:-188px;}}</style><div id="mute_panel" class="mute_panel" aria-hidden="true"><div id="abgac" class="abgac" aria-hidden="true"><div id="mlsc" class="mlsc"><svg class="mls" viewBox="50 50 100 100"><circle class="mlsd" cx="100" cy="100" r="30" fill="none" stroke="#9E9E9E" stroke-width="3"></circle></svg></div></div></div><script data-jc="60" src="https://tpc.googlesyndication.com/pagead/js/r20260825/r20110914/abg_lite_fy2021.js" async="" data-jc-version="r20260825" data-jcp-attribution-data="[[null,&quot;https://googleads.g.doubleclick.net/pagead/images/mtad/x_blue.png&quot;,null,&quot;https://googleads.g.doubleclick.net/pagead/images/mtad/x_blue.png&quot;,&quot;https://googleads.g.doubleclick.net/pagead/interaction/?ai=BqWV1ViyVaoSZHtOlxN8P17OLwQjQ8o3XRwAAABABII6B8iM4AVifp5uahARglQKyAQ93d3cubnl0aW1lcy5jb226AQlnZnBfaW1hZ2XIAQnaASRodHRwczovL3d3dy5ueXRpbWVzLmNvbS9zZWN0aW9uL2FydHOYAqAfwAIC4AIA6gIfLzI5MzkwMjM4L255dC9hcnRzL3NlY3Rpb25mcm9udPgC8NEekAOwCZgD4AOoAwHgBAHSBQYQv7GQgxuQBgGgBh-oB7i-sQKoB_PRG6gHltgbqAeqm7ECqAf-6LECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAqgH59exAtgHAOAHDtIINgiA4YAQEAEYnQEyCKqCgICAgKAIOhCAwAOAgISAgJSoiAKoh4AQSL39wTpY4MGqnqvKlgNgAdgIAoAKBZgLAYAMAaoNAkRF2g0TCJmxrp6rypYDFdMS8QUd19kiiOoNEwiKs6yeq8qWAxXTEvEFHdfZIojQFQH4FgGAFwGyGQE1\u0026sigh=a2ClJ6KGUDQ\u0026cid=CAQSggEAQM4h3Eybrsb7og_soeNByRE6U1Y3u39EFgNjOHI6QtDOL03FA5LYnW1JU5oXWSLKcZjmdbx9GWPyTNfyC_mZuu0bcf-SR6ntDqdGSYMZYFrFIkqeF0O40WRvgFn4xuZa5x4j94sSMeI1CkbmqaES8n9aPXcBNJ3eEBYNyd1slLYT&quot;,&quot;n6Q7gCNUD1gIABC7-PP5DhgAIgBCF2NhLXB1Yi00MjE1ODc0ODg4NDMwNTAxSAJYH2C13tQFcAG4AZ-nm5qEBNoBEwiEnKueq8qWAxXTEvEFHdfZIog&quot;,[&quot;user_feedback_menu_interaction&quot;,&quot;&quot;,0],null,null,null,null,&quot;What was wrong with this ad?&quot;,null,&quot;https://googleads.g.doubleclick.net/pagead/images/mtad/back_blue.png&quot;,&quot;Thanks for the feedback!&quot;,&quot;We’ll review this ad to improve the experience in the future.&quot;,&quot;Thanks for the feedback!&quot;,&quot;We’ll use your feedback to review ads on this site.&quot;,null,null,null,&quot;Closing ad: %1$d&quot;,null,&quot;https://googleads.g.doubleclick.net/pagead/images/mtad/ad_choices_blue.png&quot;,&quot;https://www.google.com/url?ct=abg\u0026q=https://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttps://www.nytimes.com/section/arts%26gl%3DDE%26hl%3Den%26client%3Dca-pub-4215874888430501%26ai0%3DBqWV1ViyVaoSZHtOlxN8P17OLwQjQ8o3XRwAAABABII6B8iM4AVifp5uahARglQKyAQ93d3cubnl0aW1lcy5jb226AQlnZnBfaW1hZ2XIAQnaASRodHRwczovL3d3dy5ueXRpbWVzLmNvbS9zZWN0aW9uL2FydHOYAqAfwAIC4AIA6gIfLzI5MzkwMjM4L255dC9hcnRzL3NlY3Rpb25mcm9udPgC8NEekAOwCZgD4AOoAwHgBAHSBQYQv7GQgxuQBgGgBh-oB7i-sQKoB_PRG6gHltgbqAeqm7ECqAf-6LECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAqgH59exAtgHAOAHDtIINgiA4YAQEAEYnQEyCKqCgICAgKAIOhCAwAOAgISAgJSoiAKoh4AQSL39wTpY4MGqnqvKlgNgAdgIAoAKBZgLAYAMAaoNAkRF2g0TCJmxrp6rypYDFdMS8QUd19kiiOoNEwiKs6yeq8qWAxXTEvEFHdfZIojQFQH4FgGAFwGyGQE1\u0026usg=AOvVaw2B4ExYjpPBolMg1Cn0nhmq&quot;,&quot;https://googleads.g.doubleclick.net/pagead/images/mtad/x_blue.png&quot;,0,[[&quot;Send feedback&quot;,[&quot;user_feedback_menu_option&quot;,&quot;1&quot;,1],[&quot;What was wrong with this ad?&quot;,[[&quot;Not interested in this ad&quot;,[&quot;mute_survey_option&quot;,&quot;7&quot;,1]],[&quot;Seen this ad multiple times&quot;,[&quot;mute_survey_option&quot;,&quot;2&quot;,1]],[&quot;Ad covered content&quot;,[&quot;mute_survey_option&quot;,&quot;3&quot;,1]],[&quot;Ad was inappropriate&quot;,[&quot;mute_survey_option&quot;,&quot;8&quot;,1]]]],[&quot;user_feedback_undo&quot;,&quot;1&quot;,1]]],[&quot;https://googleads.g.doubleclick.net/pagead/images/adchoices/iconx2-000000.png&quot;,&quot;AdChoices&quot;,&quot;Ad closed by %1$s&quot;,null,&quot;https://www.gstatic.com/images/branding/googlelogo/2x/googlelogo_dark_color_84x28dp.png&quot;,&quot;Send feedback&quot;,&quot;Thanks. Feedback improves Google ads&quot;,null,null,null,null,null,null,&quot;See my Google ad settings&quot;,null,&quot;https://www.gstatic.com&quot;,&quot;&quot;,&quot;Ad served by %1$s&quot;,&quot;Ad settings&quot;,&quot;https://adssettings.google.com&quot;,null,null,null,0,null,null,null,0,1],&quot;APyvJYwAAAUKW1tbW10sW251bGwsImh0dHBzOi8vZ29vZ2xlYWRzLmcuZG91YmxlY2xpY2submV0L3BhZ2VhZC9pbnRlcmFjdGlvbi8_YWk9QnFXVjFWaXlWYW9TWkh0T2x4TjhQMTdPTHdRalE4bzNYUndBQUFCQUJJSTZCOGlNNEFWaWZwNXVhaEFSZ2xRS3lBUTkzZDNjdWJubDBhVzFsY3k1amIyMjZBUWxuWm5CZmFXMWhaMlhJQVFuYUFTUm9kSFJ3Y3pvdkwzZDNkeTV1ZVhScGJXVnpMbU52YlM5elpXTjBhVzl1TDJGeWRIT1lBcUFmd0FJQzRBSUE2Z0lmTHpJNU16a3dNak00TDI1NWRDOWhjblJ6TDNObFkzUnBiMjVtY205dWRQZ0M4TkVla0FPd0NaZ0Q0QU9vQXdIZ0JBSFNCUVlRdjdHUWd4dVFCZ0dnQmgtb0I3aS1zUUtvQl9QUkc2Z0hsdGdicUFlcW03RUNxQWYtNkxFQ3FBZWFCcWdIXzU2eEFxZ0gzNS14QXFnSC1NS3hBcWdILThLeEFxZ0g1OWV4QXRnSEFPQUhEdElJTmdpQTRZQVFFQUVZblFFeUNLcUNnSUNBZ0tBSU9oQ0F3QU9BZ0lTQWdKU29pQUtvaDRBUVNMMzl3VHBZNE1HcW5xdktsZ05nQWRnSUFvQUtCWmdMQVlBTUFhb05Ba1JGMmcwVENKbXhycDZyeXBZREZkTVM4UVVkMTlraWlPb05Fd2lLczZ5ZXE4cVdBeFhURXZFRkhkZlpJb2pRRlFINEZnR0FGd0d5R1FFMVx1MDAyNnNpZ2g9YTJDbEo2S0dVRFFcdTAwMjZjaWQ9Q0FRU2dnRUFRTTRoM0V5YnJzYjdvZ19zb2VOQnlSRTZVMVkzdTM5RUZnTmpPSEk2UXRET0wwM0ZBNUxZblcxSlU1b1hXU0xLY1pqbWRieDlHV1B5VE5meUNfbVp1dTBiY2YtU1I2bnREcWRHU1lNWllGckZJa3FlRjBPNDBXUnZnRm40eHVaYTV4NGo5NHNTTWVJMUNrYm1xYUVTOG45YVBYY0JOSjNlRUJZTnlkMXNsTFlUIixudWxsLG51bGwsbnVsbCwxLCJuNlE3Z0NOVUQxZ0lBQkM3LVBQNURoZ0FJZ0JDRjJOaExYQjFZaTAwTWpFMU9EYzBPRGc0TkRNd05UQXhTQUpZSDJDMTN0UUZjQUc0QVotbm01cUVCTm9CRXdpRW5LdWVxOHFXQXhYVEV2RUZIZGZaSW9nIiwiNDAxMzc1MTM1NSJdLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCwiMTM4NTY3NjY4NjM5IixudWxsLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLCJDaFpwUTB4YU1YZFllRVYwVG5Gc1UzaFhRVUZsVFdoQkVnaGZRMEpFVW5SUFpnIixudWxsLG51bGwsbnVsbCw1XV0sWzEsMSwxLDEsMSxudWxsLG51bGwsbnVsbCxudWxsLDUsMSxudWxsLGZhbHNlLG51bGwsMV0sW251bGwsbnVsbCwiREUiXSxudWxsLG51bGwsWzEyMjcxNTgzN11dDzGvySnbQsR4-2uGscBF3mXFfMT-G1e-gOa085S_FbQDGed2H4-ozT1VCBn8zDOI4gea8ihERcrk1zPw7uXk4PP7qKWfet4X1LiGIJToG5c2_8U9S2DpK4XSahVO2NkHQ30lj3ltbA0I-x2t5N5aUjHcCH6rVW0C-AQyqcHS6cgdqPYczAFgbefvKd5lUWSbHBDAcNbtYjz4tOVZwPS17zly9nWB9KDuUOLPp_Iwzs7bx2ZwhIvxrBzXBnaaZtct2ZWLzNZ5xM93aipJVqGgnxYq6oJ7a67T4p8qfg7kiM3ZwvCyE44gVrvpicQ-CGbqNsiOf5EHVZdNSzVfcolJ2g,Bpq_jCsgG9DifEc1jVlJnA&quot;,&quot;https://adssettings.google.com/whythisad?source=display\u0026reasons=ARXetyoM2ySNPu9j0WQZ7x3YOLB_1buVX8ubXJOT0qRUnZr24gNtcrlC7jD11rXaLAVdaq1yzwOdplw-nxKuMWYH-aXch9YBiSn1tcZ32mios1_Zq-B9nN5HrqYIBbrpLxSnqtteVfhgBSNZdm8lOBkh5wOIAoQhAakDNZQ3CwceZSm_zguXakGSat6GkuZ-3Bz-zhETTOsDkyfxc8RCt-q9Kvh6Wvws4K5j_lTtfWXOs6TzM2Zrfjw834SwzKRBzrotN9VesdnzpfnIZMn3veZgSGP90lDAOW2WqXRY2fsMVTcRkJ9KPUCWNdALbykltzZKNuUCML9qh70vOfnZBW5azB8MS5sORzpDr4er1VWCXQW1D9PsEWPhQjNHy--TAmFM3UMvsaQEbEa154_HWMazLTy_QBudu9VzNycV0i1mtHlvZzGuEgYp2TjOb6G6T0SvpkgBVju-BDqgvRZb41FBt3MZ2ewXLYdqJIFCZ6VVBi5pYZBA11nGs-sJKK2uyHFnSQDrXLgjuNbG_fuupviVpXQA4e8tKO3ar9fQG3W2Onoeu0ydcbI25nKzYZGAq6s2oLtk5U8N-20BCAlTfC7yoHyB7iPZtTZjOSKL3qQbC5HVhJlHlBSrAMF8MSkE_QdluVWobAsWIq2uZ_66uwkSjK_e6UTEnzzN-BiDMtRXToGxvcMJwemZiCQG2mK-w17Eywp6K-rM1Cw464MtddSZoQSumHfIYE4EUCOccLogIgRxpmr4su265SBzSK5JJJuyg8qAB1Bufb6PoEiG4DlkdEWsqNMvt3oTm9gvlRGJ6wbOCZ1NiJ2MtXUgb328PbFFhtlPhix1h6GtN5NZSiyF7meC_qdOX6n9B5J2W1__GCy_r_yLV2fB-8P2VulhanpZG6i47jfMMsBBWskB94mWrJ2RYcufOO3fTE2SiyU54WYyHLVsOz_qNlZRQhHqVovQiVcQE4ys_yqmRunvmYinRftKhCPc4BPmZc_mZF0s9pa2PTsBiKog4Pa5_I8Rzy2Atm-EOkvnFlBMAPwkO8BsLLSunXoLYJTVnBZIg-6KW_d0rBQKJwKP2prFYAjN005QANJbHWx3pSgMdaJePhk-ETRqpvd8N-TQt0pwWo16IkgF86Y9EgxcBBpq4LeRldGOxUjbc-CgNIZmbOtyBVxaH0fccD6xhwSanhrFcCiNHK1PE5HYEwfSgnAzs3JzPW6DqAGnQrzc0eBZ-pZjro1pAm-3yTJXMY4q8p_1i89TH2YXokQU3H78tE8B8V8oz3nA36eSwicPVVjHhB0w5XjBot8RWp-W3rRWCBQsGSgaKHn8qT_pyhrWnbr9ag68vogrX3FItw7qfjZjX8-LcMmX2om78UlrdL13oF6aFoj9Q3DNTyerjQ0U-X8\u0026opi=122715837&quot;,&quot;Why this ad?&quot;,1,0],null,null,0,null,0,0,1,0,0,0,0,0,0,0,null,0,1,0,null,[[&quot;post_click_menu_height_when_bottom_anchor_on_mobile&quot;,&quot;150&quot;],[&quot;show_ad_after_mute&quot;,&quot;true&quot;],[&quot;jake_ui_extension&quot;,&quot;jake_default_ui&quot;],[&quot;mute_survey_version&quot;,&quot;mute_panel&quot;],[&quot;survey_panel_version&quot;,&quot;survey_panel&quot;],[&quot;attribution_close_button_size&quot;,&quot;15&quot;],[&quot;survey_panel_enable_arrow_padding&quot;,&quot;false&quot;],[&quot;attribution_close_button_use_rounded_square&quot;,&quot;false&quot;]],0,0,0,null,null,0,null,null,&quot;right&quot;,0,null,&quot;r20260825/r20110914&quot;,null,0,null,0]"></script><div class="GoogleActiveViewElement" data-google-av-cxn="https://pagead2.googlesyndication.com/pcs/activeview?xai=AKAOjstqlJxzaNx4fh2dWX5uObfilWCdIMR5ut61L1g_sL6_iQyOIMAVP8IXHnFtt0Qnrp3kF2dbyUZlq-aQDk4LgaKd9YriZ3gQbeUjQh0hcsNs5Kp0xXYKpA2yuo6hV7UZF3nIFGc62wWQMuTqFzmFJ7A_-sPH6E3ccn2QNcsOFmcs6SnufdVMXcBcC9gp71DbvA&amp;sig=Cg0ArKJSzH8KzLX2esGqEAE" data-google-av-adk="827796973" data-google-av-metadata="la=0&amp;xdi=0&amp;" data-google-av-ufs-integrator-metadata="Cp8BCkFtb2RlbF9wZXJzb25fY291bnRyeV9jb2RlX0RFX3BlcnNvbl9yZWdpb25fY29kZV80MjYxNzk2NTcyNmUuanNvbhIaQ0lTY3E1NnJ5cFlERmRNUzhRVWQxOWtpaUEYASIjCOQRIOQRKAIwAjgBXc3MzD7qAQQIKBABggIICAMQBBgEIAQorJ27pfv_____ATCsnbulAzgDQAFIAFABEqoCCpsCaHR0cHM6Ly9wYWdlYWQyLmdvb2dsZXN5bmRpY2F0aW9uLmNvbS9wY3MvYWN0aXZldmlldz94YWk9QUtBT2pzdHFsSnh6YU54NGZoMmRXWDV1T2JmaWxXQ2RJTVI1dXQ2MUwxZ19zTDZfaVF5T0lNQVZQOElYSG5GdHQwUW5ycDNrRjJkYnlVWmxxLWFRRGs0TGdhS2Q5WXJpWjNnUWJlVWpRaDBoY3NOczVLcDB4WFlLcEEyeXVvNmhWN1VaRjNuSUZHYzYyd1dRTXVUcUZ6bUZKN0FfLXNQSDZFM2NjbjJRTmNzT0ZtY3M2U251ZmRWTVhjQmNDOWdwNzFEYnZBJnNpZz1DZzBBcktKU3pIOEt6TFgyZXNHcUVBRRIAGgAgASgAMAQ4ABoeChpDSVNjcTU2cnlwWURGZE1TOFFVZDE5a2lpQRAF" data-google-av-override="-1" data-google-av-dm="2" data-google-av-aid="0" data-google-av-naid="1" data-google-av-slift="" data-google-av-cpmav="" =""data-google-av-itpl="7" data-google-av-rs="4" data-google-av-flags="[&quot;x%278440'9efotm(&amp;753374%2bejvf/%27844?'9wuvb$&amp;565327!=|vqc)!72028751'9efotm(&amp;2006545?&amp;>`dopb/%<1731052!=nehu`/!364=0234!9abk{a($16025?;4&amp;<cbotf+*01531244%24($160113:3&amp;<cbotf+*0153046;%2pvs`/!364>7=73!9sqrm(&amp;2004521;&amp;>`dopb/%<1712702!=nehu`/!364?<206!9abk{a($160?23?=&amp;<cbotf+*015=1304%2bejvf/%72<4346:!=efdwa*'76330:04$?wqrf+*01254132%2bejvf/%72<60530!=wu}a($1675;0=3&amp;<cbotf+*012635?1%2bejvf/%72>06256!=efdwa*'76164<71$?ebkpb$&amp;0336;2;>*>bgipf+!3=22705:%9aihwc)!7245:==7'9wuvb$&amp;0320;20>*>6{&quot;]" data-creative-load-listener=""><!--
+    Video: FlexFrame (Desktop)
+    @environment Prod
+    @version 2.0.2
+-->
+
+
+
+    <script src="https://static01.nytimes.com/ads/adplatforms/cdn/baymax/Baymax-1.3.4.js"></script>
+
+    <script id="ad-ET-v-5.0">
+        const loadScript = (FILE_URL, async = true, type = 'text/javascript') => {
+            return new Promise((resolve, reject) => {
+                try {
+                    const scriptEle = document.createElement('script');
+                    scriptEle.type = type;
+                    scriptEle.async = async;
+                    scriptEle.src = FILE_URL;
+                    scriptEle.addEventListener('load', (ev) => {
+                        resolve({status: true});
+                    });
+                    scriptEle.addEventListener('error', (ev) => {
+                        reject({status: false, message: `Failed to load the script ＄{FILE_URL}`});
+                    });
+                    document.body.appendChild(scriptEle);
+                } catch (error) {
+                    reject(error);
+                }
+            });
+        };
+
+        let ETwithRandom = 'https://static01.nytimes.com/ads/adplatforms/cdn/ET/ad-tracking.js';
+
+        loadScript(ETwithRandom)
+            .then((data) => {
+                window.PageViewID = 'PID_placeholder';
+                let TAPV_ID = '';
+                let NYTPV_ID = 'NX6Xr_3HBuDgylf6obWOorKZ';
+                if (TAPV_ID != '') {
+                    PageViewID = TAPV_ID;
+                } else {
+                    PageViewID = NYTPV_ID;
+                }
+
+                window.GAMdata = {
+                    prop: 'nyt',
+                    pos: 'top',
+                    exit: 'https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjssDvNWjydiuuCfQ7bRt3UJrpS0_g7nwqkLm77NQoxe4qRdz3hKJ0U0A4vdy-Ly26EdzdJ1lcSd7XmjgxrXL_J6m-37XFu77uKvS6pANsBqXAEFTZ-WuBLZbXWxDHbOuNeiiMyXMH06xh8ej8rrf5dtqNgXcZf5ra_GYGpIjZ0KhX59k_ROP0aA6LsEvzMsS-RAVMP_MK0DNmBNjA-2n6MLAt9i009bY26H0vKnXN3tFlGwp8fk549dJJ4n1As8MT2UvvoCototRp1JGq5cU-S47gd8RvQNbJOFF-tX6fd21zD2HbzPfo5YiuDetf2k5wHggiGGJfxfC1KGlzT-7JuvIU2fX4-R0l4KFLKn-Z_mubW2hr_sr49UugYmVpAky6-KiIiIqBbWM3aMnBJ2vjHzgW_P5kIAC8rUODFJkycC7ik1KHqLXmH70CqOYKzg&sai=AMfl-YRaot_cNufGj5QsWbvHBLbnWuN3lrRcYgpAS41Gt-iyOUZl7WDaTeDkSXUOyK2CfrBzQsNG_cnPa71_PEN9pX2qvML7O_zYU5cwszDDOmRQ7YDaRGLfzZ5C9CVT3hf-owQQBgrF_KLiMCv_O8yI8lAPVLGzuo59H0mEggusiAeNxLq-Bdeg4HsyN3mYgHNbUXvXthds2v1ySVKNY-0tUDkxUviAFi8&sig=Cg0ArKJSzOeeYsxZoXg3EAE&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://www.nytimes.com/subscription?campaignId=8WULY&source=owned_display&areas=banner&campaign=AllAccessAcquisition',
+                    ctx_id: '%%context_id%%',
+                    lineitemid: '7254317247',
+                    viewport: 'large',
+                    orderid: '4013751355',
+                    creativeid: '138567668639',
+                    uap: 'browser',
+                    pv_id: PageViewID,
+                    subject: 'dfp-ad-events',
+                    numberOfSlides: 1,
+                };
+
+                ET.init(GAMdata);
+            })
+            .catch((err) => {
+                console.error(err);
+            });
+    </script>
+
+    
+
+    <div id="container" class="container desktopweb end-state" style="visibility: visible;" data-hls="false">
+        <a id="background" href="https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjssDvNWjydiuuCfQ7bRt3UJrpS0_g7nwqkLm77NQoxe4qRdz3hKJ0U0A4vdy-Ly26EdzdJ1lcSd7XmjgxrXL_J6m-37XFu77uKvS6pANsBqXAEFTZ-WuBLZbXWxDHbOuNeiiMyXMH06xh8ej8rrf5dtqNgXcZf5ra_GYGpIjZ0KhX59k_ROP0aA6LsEvzMsS-RAVMP_MK0DNmBNjA-2n6MLAt9i009bY26H0vKnXN3tFlGwp8fk549dJJ4n1As8MT2UvvoCototRp1JGq5cU-S47gd8RvQNbJOFF-tX6fd21zD2HbzPfo5YiuDetf2k5wHggiGGJfxfC1KGlzT-7JuvIU2fX4-R0l4KFLKn-Z_mubW2hr_sr49UugYmVpAky6-KiIiIqBbWM3aMnBJ2vjHzgW_P5kIAC8rUODFJkycC7ik1KHqLXmH70CqOYKzg&amp;sai=AMfl-YRaot_cNufGj5QsWbvHBLbnWuN3lrRcYgpAS41Gt-iyOUZl7WDaTeDkSXUOyK2CfrBzQsNG_cnPa71_PEN9pX2qvML7O_zYU5cwszDDOmRQ7YDaRGLfzZ5C9CVT3hf-owQQBgrF_KLiMCv_O8yI8lAPVLGzuo59H0mEggusiAeNxLq-Bdeg4HsyN3mYgHNbUXvXthds2v1ySVKNY-0tUDkxUviAFi8&amp;sig=Cg0ArKJSzOeeYsxZoXg3EAE&amp;fbs_aeid=%5Bgw_fbsaeid%5D&amp;urlfix=1&amp;adurl=https://www.nytimes.com/subscription?campaignId=8WULY&amp;source=owned_display&amp;areas=banner&amp;campaign=AllAccessAcquisition" target="_blank" onclick="return ClickOut(&quot;background-2&quot;)"></a>
+        <div class="flex-frame" id="flex-frame">
+            <div id="media-container" class="media-container video-style mute-state video-16x9 end-state">
+                <a id="logo2" class="logo" href="https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjssDvNWjydiuuCfQ7bRt3UJrpS0_g7nwqkLm77NQoxe4qRdz3hKJ0U0A4vdy-Ly26EdzdJ1lcSd7XmjgxrXL_J6m-37XFu77uKvS6pANsBqXAEFTZ-WuBLZbXWxDHbOuNeiiMyXMH06xh8ej8rrf5dtqNgXcZf5ra_GYGpIjZ0KhX59k_ROP0aA6LsEvzMsS-RAVMP_MK0DNmBNjA-2n6MLAt9i009bY26H0vKnXN3tFlGwp8fk549dJJ4n1As8MT2UvvoCototRp1JGq5cU-S47gd8RvQNbJOFF-tX6fd21zD2HbzPfo5YiuDetf2k5wHggiGGJfxfC1KGlzT-7JuvIU2fX4-R0l4KFLKn-Z_mubW2hr_sr49UugYmVpAky6-KiIiIqBbWM3aMnBJ2vjHzgW_P5kIAC8rUODFJkycC7ik1KHqLXmH70CqOYKzg&amp;sai=AMfl-YRaot_cNufGj5QsWbvHBLbnWuN3lrRcYgpAS41Gt-iyOUZl7WDaTeDkSXUOyK2CfrBzQsNG_cnPa71_PEN9pX2qvML7O_zYU5cwszDDOmRQ7YDaRGLfzZ5C9CVT3hf-owQQBgrF_KLiMCv_O8yI8lAPVLGzuo59H0mEggusiAeNxLq-Bdeg4HsyN3mYgHNbUXvXthds2v1ySVKNY-0tUDkxUviAFi8&amp;sig=Cg0ArKJSzOeeYsxZoXg3EAE&amp;fbs_aeid=%5Bgw_fbsaeid%5D&amp;urlfix=1&amp;adurl=https://www.nytimes.com/subscription?campaignId=8WULY&amp;source=owned_display&amp;areas=banner&amp;campaign=AllAccessAcquisition" target="_blank" onclick="return ClickOut(&quot;logo&quot;)">
+                    <img class="logo-hires" src="https://tpc.googlesyndication.com/simgad/1723297888811305628?">
+                </a>
+                <div id="mute-btn" class="hide"></div>
+                <div id="unmute-btn" class="show"></div>
+                <div id="pause-btn" class="hide"></div>
+                <div id="play-btn" class="show"></div>
+            <video webkit-playsinline="" playsinline="" type="video/mp4" id="videoPlayer-vid-1" src="https://vp.nyt.com/video/2026/07/18/174294_1_MKTG_2026_NT_AA_BAU_PollsPoolsParades_Desktop_FlexFrame_wg_720p.mp4" style="display: block;"></video><div id="video-end-frame" class="poster poster-frame" style="display: block;"><div id="poster-play-button" class="poster-frame-playBtn" style="background-image: url(&quot;https://static01.nytimes.com/ads/adplatforms/user-interface-elements/video-icons/play.svg&quot;);"></div><div id="background-vid-1" class="poster-background" style="background-image: url(&quot;https://tpc.googlesyndication.com/simgad/16198450525142974458?&quot;);"></div></div></div>
+            <div class="content-middle-well">
+                <a id="logo" class="logo" href="https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjssDvNWjydiuuCfQ7bRt3UJrpS0_g7nwqkLm77NQoxe4qRdz3hKJ0U0A4vdy-Ly26EdzdJ1lcSd7XmjgxrXL_J6m-37XFu77uKvS6pANsBqXAEFTZ-WuBLZbXWxDHbOuNeiiMyXMH06xh8ej8rrf5dtqNgXcZf5ra_GYGpIjZ0KhX59k_ROP0aA6LsEvzMsS-RAVMP_MK0DNmBNjA-2n6MLAt9i009bY26H0vKnXN3tFlGwp8fk549dJJ4n1As8MT2UvvoCototRp1JGq5cU-S47gd8RvQNbJOFF-tX6fd21zD2HbzPfo5YiuDetf2k5wHggiGGJfxfC1KGlzT-7JuvIU2fX4-R0l4KFLKn-Z_mubW2hr_sr49UugYmVpAky6-KiIiIqBbWM3aMnBJ2vjHzgW_P5kIAC8rUODFJkycC7ik1KHqLXmH70CqOYKzg&amp;sai=AMfl-YRaot_cNufGj5QsWbvHBLbnWuN3lrRcYgpAS41Gt-iyOUZl7WDaTeDkSXUOyK2CfrBzQsNG_cnPa71_PEN9pX2qvML7O_zYU5cwszDDOmRQ7YDaRGLfzZ5C9CVT3hf-owQQBgrF_KLiMCv_O8yI8lAPVLGzuo59H0mEggusiAeNxLq-Bdeg4HsyN3mYgHNbUXvXthds2v1ySVKNY-0tUDkxUviAFi8&amp;sig=Cg0ArKJSzOeeYsxZoXg3EAE&amp;fbs_aeid=%5Bgw_fbsaeid%5D&amp;urlfix=1&amp;adurl=https://www.nytimes.com/subscription?campaignId=8WULY&amp;source=owned_display&amp;areas=banner&amp;campaign=AllAccessAcquisition" target="_blank" onclick="return ClickOut(&quot;logo&quot;)">
+                    <img class="logo-std" src="https://tpc.googlesyndication.com/simgad/1723297888811305628?">
+                </a>
+                <div class="content-inner-well">
+                    <a id="copy" class="copy" href="https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjssDvNWjydiuuCfQ7bRt3UJrpS0_g7nwqkLm77NQoxe4qRdz3hKJ0U0A4vdy-Ly26EdzdJ1lcSd7XmjgxrXL_J6m-37XFu77uKvS6pANsBqXAEFTZ-WuBLZbXWxDHbOuNeiiMyXMH06xh8ej8rrf5dtqNgXcZf5ra_GYGpIjZ0KhX59k_ROP0aA6LsEvzMsS-RAVMP_MK0DNmBNjA-2n6MLAt9i009bY26H0vKnXN3tFlGwp8fk549dJJ4n1As8MT2UvvoCototRp1JGq5cU-S47gd8RvQNbJOFF-tX6fd21zD2HbzPfo5YiuDetf2k5wHggiGGJfxfC1KGlzT-7JuvIU2fX4-R0l4KFLKn-Z_mubW2hr_sr49UugYmVpAky6-KiIiIqBbWM3aMnBJ2vjHzgW_P5kIAC8rUODFJkycC7ik1KHqLXmH70CqOYKzg&amp;sai=AMfl-YRaot_cNufGj5QsWbvHBLbnWuN3lrRcYgpAS41Gt-iyOUZl7WDaTeDkSXUOyK2CfrBzQsNG_cnPa71_PEN9pX2qvML7O_zYU5cwszDDOmRQ7YDaRGLfzZ5C9CVT3hf-owQQBgrF_KLiMCv_O8yI8lAPVLGzuo59H0mEggusiAeNxLq-Bdeg4HsyN3mYgHNbUXvXthds2v1ySVKNY-0tUDkxUviAFi8&amp;sig=Cg0ArKJSzOeeYsxZoXg3EAE&amp;fbs_aeid=%5Bgw_fbsaeid%5D&amp;urlfix=1&amp;adurl=https://www.nytimes.com/subscription?campaignId=8WULY&amp;source=owned_display&amp;areas=banner&amp;campaign=AllAccessAcquisition" target="_blank" onclick="return ClickOut(&quot;messaging&quot;)">
+                        <div id="title" class="title">Save. On it all.</div>
+                        <div id="summary" class="summary" style="opacity: 1;">€0.50/week for your first six months.</div>
+                    </a>
+                    <a id="cta" class="cta" href="https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjssDvNWjydiuuCfQ7bRt3UJrpS0_g7nwqkLm77NQoxe4qRdz3hKJ0U0A4vdy-Ly26EdzdJ1lcSd7XmjgxrXL_J6m-37XFu77uKvS6pANsBqXAEFTZ-WuBLZbXWxDHbOuNeiiMyXMH06xh8ej8rrf5dtqNgXcZf5ra_GYGpIjZ0KhX59k_ROP0aA6LsEvzMsS-RAVMP_MK0DNmBNjA-2n6MLAt9i009bY26H0vKnXN3tFlGwp8fk549dJJ4n1As8MT2UvvoCototRp1JGq5cU-S47gd8RvQNbJOFF-tX6fd21zD2HbzPfo5YiuDetf2k5wHggiGGJfxfC1KGlzT-7JuvIU2fX4-R0l4KFLKn-Z_mubW2hr_sr49UugYmVpAky6-KiIiIqBbWM3aMnBJ2vjHzgW_P5kIAC8rUODFJkycC7ik1KHqLXmH70CqOYKzg&amp;sai=AMfl-YRaot_cNufGj5QsWbvHBLbnWuN3lrRcYgpAS41Gt-iyOUZl7WDaTeDkSXUOyK2CfrBzQsNG_cnPa71_PEN9pX2qvML7O_zYU5cwszDDOmRQ7YDaRGLfzZ5C9CVT3hf-owQQBgrF_KLiMCv_O8yI8lAPVLGzuo59H0mEggusiAeNxLq-Bdeg4HsyN3mYgHNbUXvXthds2v1ySVKNY-0tUDkxUviAFi8&amp;sig=Cg0ArKJSzOeeYsxZoXg3EAE&amp;fbs_aeid=%5Bgw_fbsaeid%5D&amp;urlfix=1&amp;adurl=https://www.nytimes.com/subscription?campaignId=8WULY&amp;source=owned_display&amp;areas=banner&amp;campaign=AllAccessAcquisition" target="_blank" onclick="return ClickOut(&quot;cta&quot;)">Subscribe now</a>
+                    <div id="disclaimer" class="disclaimer" style="opacity: 1;">€3/week thereafter. Cancel anytime.</div>
+                </div>
+            </div>
+            <a class="img-container" id="img-container" href="https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjssDvNWjydiuuCfQ7bRt3UJrpS0_g7nwqkLm77NQoxe4qRdz3hKJ0U0A4vdy-Ly26EdzdJ1lcSd7XmjgxrXL_J6m-37XFu77uKvS6pANsBqXAEFTZ-WuBLZbXWxDHbOuNeiiMyXMH06xh8ej8rrf5dtqNgXcZf5ra_GYGpIjZ0KhX59k_ROP0aA6LsEvzMsS-RAVMP_MK0DNmBNjA-2n6MLAt9i009bY26H0vKnXN3tFlGwp8fk549dJJ4n1As8MT2UvvoCototRp1JGq5cU-S47gd8RvQNbJOFF-tX6fd21zD2HbzPfo5YiuDetf2k5wHggiGGJfxfC1KGlzT-7JuvIU2fX4-R0l4KFLKn-Z_mubW2hr_sr49UugYmVpAky6-KiIiIqBbWM3aMnBJ2vjHzgW_P5kIAC8rUODFJkycC7ik1KHqLXmH70CqOYKzg&amp;sai=AMfl-YRaot_cNufGj5QsWbvHBLbnWuN3lrRcYgpAS41Gt-iyOUZl7WDaTeDkSXUOyK2CfrBzQsNG_cnPa71_PEN9pX2qvML7O_zYU5cwszDDOmRQ7YDaRGLfzZ5C9CVT3hf-owQQBgrF_KLiMCv_O8yI8lAPVLGzuo59H0mEggusiAeNxLq-Bdeg4HsyN3mYgHNbUXvXthds2v1ySVKNY-0tUDkxUviAFi8&amp;sig=Cg0ArKJSzOeeYsxZoXg3EAE&amp;fbs_aeid=%5Bgw_fbsaeid%5D&amp;urlfix=1&amp;adurl=https://www.nytimes.com/subscription?campaignId=8WULY&amp;source=owned_display&amp;areas=banner&amp;campaign=AllAccessAcquisition" target="_blank" onclick="return ClickOut(&quot;background-3&quot;)">
+                <img src="https://tpc.googlesyndication.com/simgad/17488971820909591263?">
+            </a>
+        </div>
+    </div>
+
+    <div style="display: none"></div>
+
+    <div id="impression-pixel" class="impression-tracker">
+        <img src="" width="1" height="1" border="0">
+    </div>
+    <div id="impression-pixel-2" class="impression-tracker">
+        <img src="" width="1" height="1" border="0">
+    </div>
+
+    <script type="text/javascript" id="main-code">
+        window.lowBatteryFix = true;
+
+        var adContainer = document.getElementById('container');
+
+        window.adData = {autoplay: 'true'};
+
+        function ClickOut(whichOne) {
+            ET.track({type: 'clickURL', location: whichOne});
+            var vidStats = window.Player.status().playing;
+
+            if (vidStats == 'playing') {
+                ET.track({
+                    type: 'video',
+                    location: 'autopause',
+                });
+
+                window.Player.AutoPauseVideo();
+            }
+
+            try {
+                clearInterval(mraidTimer);
+            } catch (Error) {}
+        }
+
+        function FirePixel(x) {
+            try {
+                var pixel = x;
+                var img = document.createElement('img');
+                img.setAttribute('src', pixel);
+                img.setAttribute('style', 'display:none');
+                document.body.appendChild(img);
+            } catch (Error) {
+                console.log(Error.message);
+            }
+        }
+
+        function init() {
+            window.templateAutoplay = typeof '' === 'undefined' || '' !== 'block' ? 'true' : 'false';
+
+            document.getElementById('container').style.visibility = 'visible';
+
+            window.Player = new Media({
+                wrapper: document.getElementById('container'),
+                container: 'media-container',
+                id: 'vid-1',
+                ratio: 'widescreen',
+                media: '',
+                mp4: 'https://vp.nyt.com/video/2026/07/18/174294_1_MKTG_2026_NT_AA_BAU_PollsPoolsParades_Desktop_FlexFrame_wg_720p.mp4',
+                controls: false,
+                muted: true,
+                autoplay: templateAutoplay,
+                debug: false,
+                clickOutFunction: function () {
+                    var vidStats = window.Player.status().playing;
+
+                    if (vidStats == 'playing') {
+                        window.Player.AutoPauseVideo();
+                        ET.track({type: 'video', location: 'autopause'});
+                    }
+
+                    ET.exit({type: 'clickURL', location: 'video'});
+
+                    try {
+                        clearInterval(mraidTimer);
+                    } catch (Error) {}
+                },
+                poster: 'https://tpc.googlesyndication.com/simgad/16198450525142974458?',
+                posterPlayButton: 'https://static01.nytimes.com/ads/adplatforms/user-interface-elements/video-icons/play.svg',
+                playbutton: document.getElementById('play-btn'),
+                pausebutton: document.getElementById('pause-btn'),
+                mutebutton: document.getElementById('mute-btn'),
+                unmutebutton: document.getElementById('unmute-btn'),
+                VideoTracking: {
+                    '0%': function () {
+                        if (window.adData.autoplay == 'true') {
+                            window.lowBatteryFix = false;
+                            window.adData.autoplay = false;
+
+                            try {
+                                clearInterval(mraidTimer);
+                                clearTimeout(window.lowbattertimer);
+                            } catch (Error) {}
+
+                            adContainer.classList.add('auto-play-state');
+                        }
+
+                        adContainer.classList.add('play-state');
+                        ET.track({type: 'video', location: '0'});
+                        FirePixel('');
+                    },
+                    '25%': function () {
+                        ET.track({type: 'video', location: '25'});
+                        FirePixel('');
+                    },
+                    '50%': function () {
+                        ET.track({type: 'video', location: '50'});
+                        FirePixel('');
+                    },
+                    '75%': function () {
+                        ET.track({type: 'video', location: '75'});
+                        FirePixel('');
+                    },
+                    '100%': function () {
+                        ET.track({type: 'video', location: '100'});
+                        FirePixel('');
+                        resetTrackingStorageinBody ();
+                    },
+                },
+                callbackfunction: {
+                    onLoad: function () {},
+                    onAutoPlay: function () {
+                        ET.track({type: 'video', location: 'autoplay'});
+                    },
+                    onPlay: function () {
+                        ET.track({type: 'video', location: 'play'});
+                        adContainer.classList.add('play-state');
+                    },
+                    onPause: function () {
+                        var vidStats = window.Player.status().playing;
+
+                        if (vidStats == 'userpaused') {
+                            ET.track({type: 'video', location: 'pause'});
+                        } else if (vidStats == 'autopaused') {
+                        }
+
+                        adContainer.classList.remove('play-state');
+                        adContainer.classList.remove('auto-play-state');
+                    },
+                    onMute: function () {
+                        ET.track({type: 'video', location: 'mute'});
+                    },
+                    onUnMute: function () {
+                        ET.track({type: 'video', location: 'unmute'});
+                    },
+                    onEnd: function () {
+                        adContainer.classList.remove('play-state');
+                        adContainer.classList.remove('auto-play-state');
+                        resetTrackingStorageinBody ();
+
+                        // Video stats change
+                        ET.clearLocalEventTrackingStorage();
+
+                        try {
+                            window.onEnd();
+                        } catch (Error) {}
+
+                        try {
+                            let VidPlayerInstace = document.querySelector('#videoPlayer-vid-1');
+                            VidPlayerInstace.removeAttribute('autoplay');
+                            VidPlayerInstace.removeAttribute('muted');
+
+                        } catch (Error) {}
+
+                    },
+                    onRePlay: function () {},
+                    onAbort: function () {
+                        ET.track({type: 'video', location: 'aborted'});
+                    },
+                    onStalled: function () {
+                        ET.track({type: 'video', location: 'stalled'});
+                    },
+                    onSuspend: function () {},
+                    onFullScreen: function () {
+                        ET.track({type: 'video', location: 'fullscreen'});
+                    },
+                    onCloseFullScreen: function () {
+                        ET.track({type: 'video', location: 'fullscreen-close'});
+                    },
+                },
+            });
+        }
+
+        var aspectRatioOn = 'widescreen';
+        var aspectRatioHolder = 'widescreen';
+
+        try {
+            if (aspectRatioOn != undefined) {
+                aspectRatioHolder = aspectRatioOn;
+            }
+        } catch (Error) {}
+
+        window.addEventListener('load', (event) => {
+            init();
+        });
+    </script>
+
+    <script type="text/javascript" id="low-power-mode"></script>
+
+    <script id="app-or-web-detection">
+        window.GAMuap = 'browser';
+        window.GAMprop = 'nyt';
+        window.appEnv;
+
+        var adContainer = document.querySelector('#container');
+
+        if (window.GAMuap != '') {
+            if (window.GAMuap == 'browser') {
+                window.appEnv = false;
+            } else if (window.GAMuap == 'ios') {
+                window.appEnv = true;
+            } else if (window.GAMuap == 'android') {
+                window.appEnv = true;
+            }
+        } else {
+            if (window.GAMprop == 'iapp' || window.GAMprop == 'droidapp' || window.GAMprop == 'drtabapp' || window.GAMprop == 'itabapp') {
+                window.appEnv = true;
+            } else {
+                window.appEnv = false;
+            }
+        }
+
+        setTimeout(function () {
+            if (window.appEnv == true) {
+                adContainer.classList.add('inapp');
+            } else {
+                adContainer.classList.add('desktopweb');
+            }
+        }, 100);
+    </script>
+
+    <script type="text/javascript">
+        // Hide logo when video is playing
+        var hidelogoonplay = 'false';
+
+        function hideLogoOnPlayFunc() {
+            var adContainer = document.querySelector('#container');
+            adContainer.classList.add('hide-logo-onplay');
+        }
+
+        if (hidelogoonplay === 'true') {
+            hideLogoOnPlayFunc();
+        } else {
+            document.getElementById('logo').classList.remove('hide');
+        }
+    </script>
+
+   <script type="text/javascript" id="video-tracking-2-6-seconds">
+
+        window.timeBasedEvents = [2, 6];
+
+        function injectVideoTracking () {
+            window.Player.video.addEventListener('timeupdate', (videoEvent) => {
+                const currentTime = Math.round(videoEvent.target.currentTime);
+               
+                if (timeBasedEvents.length > 0 && timeBasedEvents[0] === currentTime) {
+                    const eventTime = timeBasedEvents.shift();
+                   ET.track({ type: 'video', location: eventTime + '-seconds' });
+                }
+            });
+        }
+
+        function resetTrackingStorageinBody () {
+            window.timeBasedEvents = [2, 6];
+        }
+
+        window.onload = (event) => {
+            setTimeout(() => {
+                try {injectVideoTracking ();}
+                catch (Error) {
+                    console.error("tracking time injection didn't work");
+                }
+            }, 1500);
+        };
+
+        /* ::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+    </script>
+
+    <script id="custom-script">
+        try {
+            const geoData = {
+          
+    default: [
+        { ".summary": "Check out your discounted rates<br> for your first six months." },
+    ],
+    group1: [
+        {
+            ".summary":
+"$1/week for your first six months.",
+        },
+          {
+            ".disclaimer":
+          "$7.50/week thereafter. Cancel anytime.",
+        },
+    ],
+    group2: [
+        {
+            ".summary":
+                "A$0.50/week for your first six months.",
+        },
+        {
+            ".disclaimer":
+          "A$6.25/week thereafter. Cancel anytime.",
+        },
+    ],
+    group3: [
+        {
+            ".summary":
+                "$0.50 (Cdn)/week for your&nbsp;first six months.",
+        },
+        {
+            ".disclaimer":
+          "$6.25 (Cdn)/week thereafter. Cancel anytime.",
+        },
+    ],
+    group4: [
+        {
+            ".summary":
+                "€0.50/week for your first six months.",
+        },
+        {
+            ".disclaimer":
+          "€3/week thereafter. Cancel anytime.",
+        },
+    ],
+    group5: [
+        {
+            ".summary":
+                "£0.50/week for your first six months.",
+        },
+        {
+            ".disclaimer":
+          "£3/week thereafter. Cancel anytime.",
+        },
+    ],
+    group6: [
+        {
+            ".summary":
+                "$0.50/week for your first six months.",
+        },
+        {
+            ".disclaimer":
+          "$3/week thereafter. Cancel anytime.",
+        },
+    ],
+    group7: [
+        {
+            ".summary":
+                "$0.25/week for your first six months.",
+        },
+         {
+            ".disclaimer":
+          "$3/week thereafter. Cancel anytime.",
+        }, 
+    ],
+    group8: [
+        {
+            ".summary":
+                "₹25/week for your first six months.",
+        },
+        {
+            ".disclaimer":
+          "₹100/week thereafter. Cancel anytime.",
+        },   
+    ],
+};
+loadScript(
+    "https://static01.nytimes.com/ads/creative-tech/flex-frames/lib/geo-conditions2.min.js?cb=1"
+).then(() => {
+    new GeoConditions(geoData);
+});
+
+        } catch (Error) {
+            console.error(Error);
+        }
+    </script>
+
+    <script id="exclusivity" type="text/javascript">
+        try {
+            parent.postMessage({
+                "exclusive": false,
+                "type": 'family-plan',
+                "div": 'top'
+            }, '*');
+        }
+        catch (Error) { console.error(Error); }
+    </script>
+
+</div><script id="googleActiveViewDisplayScript" src="https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js"></script><script type="text/javascript">osdlfm();</script><div style="bottom:0;right:0;width:100px;height:100px;background:initial !important;position:absolute !important;max-width:100% !important;max-height:100% !important;pointer-events:none !important;image-rendering:pixelated !important;z-index:2147483647;background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAAWBAMAAACrl3iAAAAABlBMVEUAAAD+AciWmZzWAAAAAnRSTlMAApidrBQAAACCSURBVBjTdZABDsAgCAPPH/D/104pRZZsmGgItp6F71oqalUHkdO9R8Tt8sbesUbdnpxrUTp3d97uvLzHGb8krgQZ3JgEuSLvAglJsj/eklhoBQ0t9+ZOAoEv+gGuqB4JBukqiPX6lzAylJGJMgSbO7Ob4wEaeePQZ4KiMHknOJKBByhmBcvrGZPkAAAAAElFTkSuQmCC') !important;"></div></span><script type="text/javascript" async="" src="https://static01.nytimes.com/ads/adplatforms/cdn/ET/ad-tracking.js"></script><script type="text/javascript" async="" src="https://static01.nytimes.com/ads/creative-tech/flex-frames/lib/geo-conditions2.min.js?cb=1"></script><iframe src="https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html" style="display: none;"></iframe>
+<iframe id="iframe_88755058434" name="iframe_88755058434" data-dv-frm="88755058434" width="0" height="0" src="about:blank" style="display: none;"></iframe><script type="text/javascript" async="" src="https://cdn.doubleverify.com/dvtp_src.js#t2te=0&amp;seltag=1&amp;adsrv=104&amp;cmp=DV432810&amp;ctx=20447730&amp;sadv=4538914019&amp;ord=4013751355&amp;litm=7254317247&amp;scrt=138567668639&amp;splc=/29390238/nyt/arts/sectionfront&amp;adu=28675238&amp;unit=0x0&amp;dvp_qtpid=&amp;dvp_qtsid=&amp;gdpr=1&amp;gdpr_consent=CQpz6gAQpz6gAGXABBENCuFsAPPAAEPAAAAAK1IR_C7FIGFC2DJ2YLsEcAwHQFhAYsABAgbAEEAFiBKQIAQGgkAQBASINCACCAAACBBBIAEkGAAAAECgIIABCACIIEAEIABAAAAEAAAQAQAAAAAIAIggEACQAgIWEEAgmBghAJICUVgAgAAAAAARACAgAIABAQAAABEARAIAAQAAwAAAEAgACAAAAAEAABAIAAABQAAAIAIAABABAAAAAAgEAAIAAAAAAAAAAAAAAQUAQj-F2KQMKFsGCtwXYIYBgugLAAxYACAA2AAIALECUgQAgFJIAkCIEQYEAAEAAAACCCQAJQIBAAAIFAAQACECEQAIAAQBCAAIAIAAAggAAAAAAQARBAIAEgAAQsIIBBEhBAASQEorAAAABAAAACAEAAARAAEgACIAIAgAQAAEAggAAAIBAAEAAAAAAAACAQIAACgAAAQQCABCACAAAAAAAIAA.IK1IR_C7FIGFC2DJ24LsEcAwXQFhAYsABAgbAEEAFiBKQIAQGkkASBESINCACCAAACBBBIAEsGAgAAECgIIABCBCIIEAEIAhAAEAEAAAQQQAAAAAIAIggEACQAgIWEEAgmRghAJICUVgAgAAgAAARACAgAIgBCQABEBEARAIAASAQwAAAEAgACAAAAAEAABAIEAABQAAAIIJAAhABAAAAAAgEAAIAAAAAAAAAAAAAAQA&amp;spos=top&amp;c1=87012038,74011001,80023001,74141221,74082160,84011001,80222003,74082159,74141219,76012001,84021001,74012007,80122003,80122006,74081158,74111181,84012005,84012006&amp;btreg=7254317247138567668639&amp;btadsrv=7254317247138567668639&amp;dvp_pubaap=0&amp;dvp_uptbcid=1.13.0&amp;turl=https%3A%2F%2Fwww.nytimes.com%2Fsection%2Farts"></script><script type="text/javascript">
+  /* DoubleVerify Creative Wrapper Version 1.13.0 */
+/* Build config: e30= */
+"use strict";(()=>{var t=Object.defineProperty,e=Object.getOwnPropertySymbols,r=Object.prototype.hasOwnProperty,n=Object.prototype.propertyIsEnumerable,l=(e,r,n)=>r in e?t(e,r,{enumerable:!0,configurable:!0,writable:!0,value:n}):e[r]=n,c=(t,c)=>{for(var d in c||(c={}))r.call(c,d)&&l(t,d,c[d]);if(e)for(var d of e(c))n.call(c,d)&&l(t,d,c[d]);return t},d=(e,r)=>t(e,"name",{value:r,configurable:!0}),i=d((t=>{var e;return null!=(e=t.ownerDocument)?e:t}),"getDocument"),a=d(((t,e)=>i(e).evaluate(t,e,null,XPathResult.ORDERED_NODE_ITERATOR_TYPE,null)),"getAllNodesByXpath"),s=d((t=>(null==t?void 0:t.nodeType)===Node.ELEMENT_NODE?t:null),"nodeToElement"),o=d(((t,e)=>{const r=[],n=a(t,e);let l=n.iterateNext();for(;null!=l;){const t=s(l);null!=t&&r.push(t),l=n.iterateNext()}return r}),"getAllElementsByXpath"),u=d((()=>{if(null==document.currentScript)return null;const t=o("preceding-sibling::span[@data-dv-view]",document.currentScript);return 1!==t.length?null:t[0]}),"getWrapperSpanElement"),p=d(((t,e)=>t.filter((t=>t.detect(e)))),"detectAdFormats"),g=d((t=>t.map((t=>t.id)).reduce(((t,e)=>t|e),0)),"encodeAdFormats"),b=d((t=>t),"asStrictString"),T=[null,null].filter((t=>null!=t)),m={btreg:b("7254317247138567668639"),btadsrv:b("7254317247138567668639")},v=d(((t,e)=>{let r=null,n=[],l=0;null!=e&&(n=p(t,e),1===n.length&&(r=n[0].target(e))),null==r&&(null==e&&(l|=1),n.length>1&&(l|=2),1===n.length&&(l|=4));const c={detectedAdFormats:n};return l>0&&(c.adTargetingErrorCode=l),{adTarget:r,diagnostics:c}}),"getAdFormatsTargeting"),E=d((({detectedAdFormats:t,adTargetingErrorCode:e})=>{const r={};return t.length>0&&(r.dvp_pubdaf=g(t)),null!=e&&(r.dvp_pubate=e),r}),"getAdFormatsTargetingDiagnosticsTracking"),f=0,_="dv__",A="",h=_.length,y=d((()=>{const t={},e=u();let r,n=null;const l=m;if(0===T.length)r=m;else{const{adTarget:t,diagnostics:c}=v(T,e);r=null!=t?t:null!=c.adTargetingErrorCode?l:m,n=c}Object.assign(t,r),null!=n&&Object.assign(t,E(n)),t.dvp_pubaap=f,t.dvp_uptbcid="1.13.0",t.turl=encodeURIComponent("https://www.nytimes.com/section/arts"),"1"===A&&(t.dvp_gptmdm="1");const c=d(((t=null)=>t),"getTargetingMap")({"abs":["51008754","51006822","51005695","51007071","51004493","51010103","51009077","51007985","51002607","51000147","51000094"],"aid":["SB7oeMvsUXe09HSapAPpP9"],"als_test":["1788160652835"],"als_test_clientside":["web_none_none_20260831072509"],"amznbid":["0"],"amznp":["0"],"artlen":["short"],"brandsensitive":["false"],"bsc":["87012038","74011001","80023001","74141221","74082160","84011001","80222003","74082159","74141219","76012001","84021001","74012007","80122003","80122006","74081158","74111181","84012005","84012006"],"cookie":["false"],"div":["top"],"edn":["us"],"gscat":["gv_safe","neg_ibmtest","neg_ibm","gb_safe","gb_safe_from_high","gb_safe_from_high_med","neg_njts","neg_owde","neg_gg1","neg_citi_aa","neg_chan3","neg_ihw","neg_chanel","neg_chan2","neg_capitalone","neg_gg2","neg_racism","gs_predicts_performingarts","neg_mastercard","gs_fineart","gs_predicts_musicfestivalsaward","neg_hms","gs_entertain_music","gs_predicts_moviesandentertainment","neg_bofa","neg_google","gs_predicts_balletoperasymph","neg_ms_safe","gs_predicts_sbsw_event","neg_mtb","gs_predicts_oscarsemmysglobes","neg_orep","gs_genres","neg_hearts","neg_google_comps","gs_predicts_trendingtelevision","gs_entertain","gs_predicts_fathersday","neg_rchmt","neg_bp","neg_ssi","neg_sub0","gs_predicts_needinglegalcouncil","gs_predicts_teens","gs_predicts_millennialmoms","gs_predicts_outdoorsinautumn","gs_predicts_parentsteachers","gs_predicts_celebritynews","gs_predicts_hipsters_rule","gs_predicts_diningindelivery","gs_predicts_youngwomensinterest","gs_fineart_theater","neg_aramco","gs_predicts_musicindustry","neg_kaypemg","neg_ts","gs_predicts_christmas","gs_predicts_holidayshoppers","gs_entertain_arts","neg_amz_sfe","gs_predicts_legal_industry","gs_entertain_movies","gs_predicts_extremesports","gs_predicts_parentsofyoungkids","gs_predicts_spring_break","gs_predicts_stylefashion","gs_predicts_valentines_day","gs_popculture_celeb","gs_predicts_newyearseve","gs_predicts_homeimprovement","gs_predicts_homeentertainers","neg_rolex","gs_predicts_womensfitness","gs_predicts_interestedmillennial","neg_mttl","neg_cathay","neg_mktg_safe_q4_2019","gs_predicts_nightlife","gs_predicts_supersilvers","gs_predicts_supersilvers_srinterests","gs_predicts_compassion","neg_ubs","gs_predicts_weddings_brides","gs_predicts_petlovers","gs_predicts_savvyshopperscouponing","gs_predicts_travel_by_rail","neg_rmw","gs_predicts_latin_grammys","gs_predicts_backtoschool","gs_predicts_homeremodeling","gs_predicts_pharma_compassion","gs_predicts_mothersday","gs_predicts_halloween","neg_am","gs_predicts_gettingmarried","gs_predicts_filmfestivalsawards","gs_predicts_midautumnfestival","gs_predicts_trending_toys","neg_samsung","neg_rms","gs_predicts_nba","gs_predicts_olympicsmoments","gs_predicts_trendingcelebrities","gs_predicts_autumnoutdoors","gs_predicts_blackfridaycybermon","gs_t"],"id":["100000004272303"],"is_viral_on_social":["false"],"isloggedin":["false"],"ledemedsz":["none"],"mktg":["type_anon","logf","abf"],"page_view_id":["NX6Xr_3HBuDgylf6obWOorKZ"],"plat":["web"],"pos":["top"],"prop":["nyt"],"ps_id":["9646d88f-927a-4692-95f1-3bbc9a600aaa"],"purr":["npa"],"request_time":["1072"],"section":["arts"],"si_section":["arts"],"slug":["arts"],"sov":["2"],"ss_id":["abfdd6e7-7470-4732-a006-36d3fa70c7db"],"sub":["anon"],"template":["legacycollection"],"test":["projectvi"],"typ":["sf"],"uap":["browser"],"usertype":["anon"],"ver":["vi"],"vp":["large"]});if(null!=c)for(const[e,r]of Object.entries(c))if(e.startsWith(_)&&e.length>h){const n=e.slice(h);if(n in t)continue;t[n]=r[0]}return t}),"getWrapperConfig"),N=d((t=>{const e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src=t,document.currentScript.parentNode.insertBefore(e,document.currentScript)}),"injectScript"),O=["btreg","btadsrv","btattb","bttag"],R=d((t=>t.split("&").reduce(((t,e)=>{const[r,n]=e.split("=");return t[r]=n,t}),{})),"queryStringToObject"),j=d(((t,e)=>{const r=c({},t);return e.forEach((t=>delete r[t])),r}),"removeKeys"),P=d((t=>{const e=t.slice(t.indexOf("#")+1),r=R(e);return j(r,O)}),"parseExistingUrl"),S=d((()=>!("0"===A)),"shouldActivateMeasurement"),D=d((t=>Object.entries(t).map((([t,e])=>`${t}=${e}`)).join("&")),"objectToQueryString"),x="https://cdn.doubleverify.com/dvtp_src.js",C=d((t=>{const e=D(t);return`${x}#${e}`}),"buildScriptUrl");try{const t=P("https://cdn.doubleverify.com/dvtp_src.js#t2te=0&seltag=1&adsrv=104&cmp=DV432810&ctx=20447730&sadv=4538914019&ord=4013751355&litm=7254317247&scrt=138567668639&splc=/29390238/nyt/arts/sectionfront&adu=28675238&unit=0x0&dvp_qtpid=&dvp_qtsid=&btreg=7254317247138567668639&btadsrv=7254317247138567668639&gdpr=1&gdpr_consent=CQpz6gAQpz6gAGXABBENCuFsAPPAAEPAAAAAK1IR_C7FIGFC2DJ2YLsEcAwHQFhAYsABAgbAEEAFiBKQIAQGgkAQBASINCACCAAACBBBIAEkGAAAAECgIIABCACIIEAEIABAAAAEAAAQAQAAAAAIAIggEACQAgIWEEAgmBghAJICUVgAgAAAAAARACAgAIABAQAAABEARAIAAQAAwAAAEAgACAAAAAEAABAIAAABQAAAIAIAABABAAAAAAgEAAIAAAAAAAAAAAAAAQUAQj-F2KQMKFsGCtwXYIYBgugLAAxYACAA2AAIALECUgQAgFJIAkCIEQYEAAEAAAACCCQAJQIBAAAIFAAQACECEQAIAAQBCAAIAIAAAggAAAAAAQARBAIAEgAAQsIIBBEhBAASQEorAAAABAAAACAEAAARAAEgACIAIAgAQAAEAggAAAIBAAEAAAAAAAACAQIAACgAAAQQCABCACAAAAAAAIAA.IK1IR_C7FIGFC2DJ24LsEcAwXQFhAYsABAgbAEEAFiBKQIAQGkkASBESINCACCAAACBBBIAEsGAgAAECgIIABCBCIIEAEIAhAAEAEAAAQQQAAAAAIAIggEACQAgIWEEAgmRghAJICUVgAgAAgAAARACAgAIgBCQABEBEARAIAASAQwAAAEAgACAAAAAEAABAIEAABQAAAIIJAAhABAAAAAAgEAAIAAAAAAAAAAAAAAQA&spos=top&c1=87012038,74011001,80023001,74141221,74082160,84011001,80222003,74082159,74141219,76012001,84021001,74012007,80122003,80122006,74081158,74111181,84012005,84012006"),e=y();if(S()){const r=c(c({},t),e);N(C(r))}}catch(t){}})();
+</script>
+  
+  
+  
+
+<script type="text/javascript" async="" src="https://nyt-dti-prd-staticjs.storage.googleapis.com/analytics/et2/eventtracker-snippet.js"></script><img src="" style="display:none"><img src="" style="display:none"><img src="" style="display:none"><img src="" style="display:none"><img src="" style="display:none"></body></html>

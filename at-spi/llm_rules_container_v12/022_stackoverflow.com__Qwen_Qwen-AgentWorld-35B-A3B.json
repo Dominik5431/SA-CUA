@@ -1,0 +1,102 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left sidebar navigation -- platform's own interface and operator-defined navigation links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- platform's own interface and site links throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "list-reset d-flex fd-column gs12 gsy wmx2"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "network sites list -- renders: closed set of Stack Exchange network properties"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "stats"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user stats section -- renders: computed reputation, badge counts, and rank badges"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search bar -- platform's own search control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-post-filter-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "post filter controls -- operator-defined post type filters"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-post-sort-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "post sort controls -- operator-defined sort options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "relativetime"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "timestamp controls -- renders: relative timestamps for posts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "fs-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "section headings -- platform's own section labels"
+  }
+]

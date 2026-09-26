@@ -1,0 +1,152 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site header -- renders: Booking.com logo, language/currency selectors, 'Sign in'/'Register' links, and fixed service tabs (Accommodations/Flights/Packages/Cars/Attractions/Airport taxis)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "d24b1ed1cf f5852f597b da2666adb4"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Hotel page section tabs -- renders: Overview/Availability/Facilities/Policies/Fine print/Reviews"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "top-book"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Booking action bar -- renders: 'Add to wishlist', 'Share', 'Book now', 'Price guarantee' controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_hotel_name"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Hotel header controls -- renders: 'Save' button, 'Show on map' button, and 'Hotel' category label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hotel_sidebar_static_map_capla"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Map widget controls -- renders: 'Show on map' button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "best-review-score"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Review score widget -- renders: 'Score' label and numeric rating badge"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "availability_target"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Availability section header -- renders: 'Availability' label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "rate_guarantee"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Price guarantee widget -- renders: 'Price guarantee' button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "b9a178a893"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Availability search bar -- renders: date picker, occupancy selector, and 'Search' button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "hp-room-table__filter"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Room table filter controls -- renders: 'Filter' label and 'Free cancellation'/'Breakfast included' checkboxes"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table row",
+        "class": "hprt-table-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Room table column headers -- renders: 'Room type', 'Price', 'Policies', 'Rooms' labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "hprt-reservation-cta"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Reservation call-to-action -- renders: 'Select' button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list item",
+        "class": "hprt-booking-cta-ticker__list-item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Booking confirmation ticker -- renders: 'Immediate confirmation' status"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "xm-survey-component-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "User survey widget -- renders: 'How was your experience?' question and 'Good'/'Bad'/'Neutral' radio options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "TravellerFooter_root--variant-full"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: fixed navigation links (Support, Partners, etc.), language/currency selectors, and copyright text"
+  }
+]

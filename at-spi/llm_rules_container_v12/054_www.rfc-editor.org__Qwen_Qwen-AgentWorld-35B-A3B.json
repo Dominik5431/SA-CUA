@@ -1,0 +1,92 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "bg-blue-900 text-white dark:bg-blue-950 relative print:hidden border-b border-b-white dark:border-b-blue-900"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "bg-blue-900 text-white dark:bg-blue-950 border-t border-t-white dark:border-t-blue-900 relative print:hidden"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "py-1 uppercase print:text-black print:bg-transparent print:border-1 print:border-black px-3 bg-blue-400 dark:bg-blue-800 text-white print:bg-white"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "status badge section -- operator-defined status labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "page tab list",
+        "class": "border-b-2 border-gray-400"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar tab list -- platform's own navigation tabs for document sections and references"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "in-this-section"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "table of contents heading -- operator-generated section label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "border rounded border-l-4 px-3 py-2 my-5 print:border-black print:bg-white bg-pink-100 dark:bg-red-950 border-red-600 relative ml-1 w-full pr-[50px]"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "status/abstract info box -- operator controls and boilerplate about the document"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "router-link-active router-link-exact-active whitespace-nowrap"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page navigation links -- operator-generated pagination controls within the document"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "selflink"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "section selflinks -- operator-generated in-document navigation anchors"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "separator",
+        "class": "noprint"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page break separators -- operator-generated document layout controls"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "bui-list-item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip-navigation link -- renders fixed accessibility-navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders operator navigation, logo, account controls, and fixed header actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_tab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "product-navigation tab bar -- renders the fixed accommodations/flights/packages/cars/attractions/airport-taxis vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "class": "fff1944c52"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search-field label -- renders fixed operator search vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "searchbox-horizontal-occupancy-label"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "occupancy-field label -- renders fixed operator search vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "a9d40b8d51"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search submit control -- renders the fixed search action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "f0a25f2aec"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "operator search-layout control -- renders a fixed search or layout action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "fcd8e16f81"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "results toolbar controls -- renders fixed sorting and result-view actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "TravellerFooter_inline-links-list--content"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer inline-link navigation -- renders fixed operator help, legal, and service-link vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "TravellerFooter_footer-lists"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer link groups -- renders fixed operator company, partner, support, and policy vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "TravellerFooter_footer-control-section"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer controls -- renders fixed language, currency, accessibility, and site-setting controls"
+  }
+]

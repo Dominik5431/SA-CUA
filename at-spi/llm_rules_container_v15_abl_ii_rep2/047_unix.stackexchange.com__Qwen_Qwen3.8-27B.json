@@ -1,0 +1,289 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: skip link, logo, search bar, Help, Network, Log in, Sign up"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site header -- renders: site name/logo"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Left sidebar navigation -- renders: Home, Questions, Unanswered, Ask, Tags, Users, Companies, Chat, SOFA, and promotional CTA text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "fs-headline1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Question header controls -- renders: 'Ask Question' button; question title is user-generated and subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item ws-nowrap mr16 mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Question metadata row -- renders: 'Asked', 'Modified', 'Viewed' labels and timestamps"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item ws-nowrap mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Question metadata row -- renders: 'Active' label and timestamp"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answers-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Answers header -- renders: 'Answers' heading, 'Sorted by' label, and sort dropdown options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-report-ad-button-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Ad report control -- renders: 'Report this ad' button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item"
+      }
+    ],
+    "own_role": "link",
+    "verdict": "trusted",
+    "note": "Post action links -- renders: 'Share', 'Improve this question/answer', 'Follow' buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "user-action-time"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "User action timestamp -- renders: 'asked'/'modified'/'answered' label and relative time"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "user-gravatar32"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "User avatar -- renders: user profile image"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "-flair"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "User flair -- renders: reputation score and user badge icons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "comments-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments toggle -- renders: 'Add a comment' or 'Show N comments' button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "comment-score"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comment score -- renders: vote count for the comment"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "d-inline-flex ai-center"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comment user attribution -- renders: user display name link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "comment-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comment timestamp -- renders: 'edited'/'commented' label and relative time"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: navigation links (Tour, Help, About, etc.), social links, and copyright text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "h-linked"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar section header -- renders: 'Linked' heading"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "h-related"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar section header -- renders: 'Related' heading"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "feed-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Feed link -- renders: 'Feed' link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "s-sidebarwidget--header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar widget headers -- renders: 'Top Network Questions', 'Linked Questions', 'Related Questions' headings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "js-bottom-notice"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Bottom notice heading -- renders: 'Your Answer' or similar platform prompt"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar",
+        "class": "s-notice"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Post notice -- renders: platform informational message about posting"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "paragraph",
+        "class": "flex--item fs-body2 fw-bold fc-black-500 mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Answer form label -- renders: 'Your Answer' or similar static label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "paragraph",
+        "class": "flex--item fs-body1 fc-black-400 mb16"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Answer form description -- renders: static instructional text for answering"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "as-start"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Answer start button -- renders: 'Start Answering' or similar CTA"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "paragraph",
+        "class": "flex--item fs-body2 fw-bold fc-black-500 mb0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Answer form label -- renders: 'Tags' or similar static label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "paragraph",
+        "class": "flex--item fs-body1 fc-black-400 mb0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Answer form description -- renders: static instructional text for tags"
+  }
+]

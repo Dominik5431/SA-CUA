@@ -1,0 +1,7 @@
+{
+  "url": "https://api.github.com/search/repositories?q=browser+extension+that+shows+ai+answers+on+stackoverflow+by+shobrook+2019",
+  "ok": true,
+  "text": "{\n \"total_count\": 0,\n \"incomplete_results\": false,\n \"items\": []\n}",
+  "synthetic": true,
+  "note": "Zero-result search: exercises crosscheck's _looks_like_empty_search_result path."
+}

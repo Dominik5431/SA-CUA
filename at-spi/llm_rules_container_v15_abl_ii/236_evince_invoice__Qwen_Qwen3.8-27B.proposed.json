@@ -1,0 +1,7 @@
+[
+  {
+    "scope": "page",
+    "verdict": "trusted",
+    "note": "Evince is a local document viewer where the operator (GNOME) controls the entire interface; the document content is rendered as a graphical surface (layered pane) rather than accessible text, so all accessible elements are fixed operator vocabulary."
+  }
+]

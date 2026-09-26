@@ -1,0 +1,52 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "gedit interface buttons -- renders fixed operator vocabulary for file, edit, and view actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "gedit interface toggle buttons -- renders fixed operator vocabulary for view and mode toggles"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "radio button",
+    "verdict": "trusted",
+    "note": "gedit interface radio buttons -- renders fixed operator vocabulary for layout and mode selection"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "check box",
+    "verdict": "trusted",
+    "note": "gedit interface checkboxes -- renders fixed operator vocabulary for feature toggles"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "status bar",
+    "verdict": "trusted",
+    "note": "gedit status bar -- renders fixed operator vocabulary for document status"
+  }
+]

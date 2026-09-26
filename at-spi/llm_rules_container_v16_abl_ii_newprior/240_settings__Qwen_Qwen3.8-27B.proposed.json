@@ -1,0 +1,11 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "title bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Window title bar and window controls -- renders: window title, minimize/maximize/close buttons"
+  }
+]

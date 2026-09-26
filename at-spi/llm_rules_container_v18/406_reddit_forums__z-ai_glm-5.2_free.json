@@ -1,0 +1,92 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility skip-nav -- renders fixed vocabulary: Skip to main content / Skip to sidebar"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "site-nav__header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header with logo link -- operator-authored branding"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "site-nav__main-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main navigation menu -- renders fixed vocabulary: Forums / Wiki / etc."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "site-nav__search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search input box -- operator-authored search control with fixed placeholder vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "flex--guttered"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "tab bar and sort dropdown -- renders fixed vocabulary tab labels and a sort control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "page-heading"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page heading -- operator-authored section label, e.g. Browse Forums"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "subscribe-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "subscribe button control -- renders fixed label Subscribe plus a subscriber count value"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "pagination"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- renders Previous / Next / page numbers, operator-authored"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders fixed operator vocabulary: powered-by line and link"
+  }
+]

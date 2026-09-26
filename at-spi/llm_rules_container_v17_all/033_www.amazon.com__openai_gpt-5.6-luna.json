@@ -1,0 +1,119 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-logo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site logo control -- renders the operator's fixed home-navigation interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "searchDropdownBox",
+        "class": "nav-search-dropdown"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search-scope selector -- renders the fixed set of Amazon search categories"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-search-submit-text",
+        "class": "nav-search-submit-text"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search-submit control -- renders the operator's fixed search action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-xshop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "primary shopping navigation -- renders the operator's fixed browse-category links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-main"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "main navigation menu control -- renders the fixed menu action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "s-widget-container-height-mini"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "search-results disclosure heading -- renders the fixed operator disclosure label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "s-result-sort-select",
+        "class": "a-native-dropdown"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "result sorting control -- renders the fixed sorting vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-pagination-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "results pagination -- renders fixed previous, page-selection, next, and ellipsis controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "nav-orders",
+        "class": "nav-a"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "orders navigation control -- renders the fixed operator account-navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "nav-cart",
+        "class": "nav-a"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cart navigation control -- renders the fixed cart action and its deterministic cart-count value"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooter"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders fixed operator help, account, legal, marketplace, language, currency, and company-navigation vocabulary"
+  }
+]

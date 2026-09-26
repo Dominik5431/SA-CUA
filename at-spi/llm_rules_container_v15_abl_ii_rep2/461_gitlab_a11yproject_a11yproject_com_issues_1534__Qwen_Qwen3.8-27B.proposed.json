@@ -1,0 +1,91 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "navbar-gitlab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: GitLab logo, search box, 'New project', 'Issues', 'Merge requests', 'To-Do list', 'Help', user avatar"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Left sidebar navigation -- renders: 'Project information', 'Repository', 'Issues', 'Merge requests', 'Pipelines', 'Deployments', 'Infrastructure', 'Monitor', 'Analytics', 'Wiki', 'Snippets', 'Settings'; project name in header is subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "breadcrumbs"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Breadcrumb navigation -- renders: project path and issue number, which are structural identifiers for the current view"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "right-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Right sidebar metadata -- renders: 'Assignee', 'Labels', 'Milestone', 'Due date', 'Weight', 'Time tracking', 'Locking', 'Participants', 'Move issue' and their associated controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "detail-page-header-body"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "title"
+      },
+      {
+        "role": "paragraph"
+      },
+      {
+        "role": "section",
+        "class": "related-issues-block"
+      },
+      {
+        "role": "section",
+        "class": "issuable-discussion"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue header chrome -- renders: issue number, status, author link, action buttons ('Edit', 'Close', 'Reopen', 'Create merge request'); issue title, description, related issues, and discussion are subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "new-note"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry",
+        "id": "note-body"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comment form controls -- renders: 'Write', 'Preview', formatting toolbar buttons, 'Comment', 'Comment & Close'; the text input area is subtracted"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Header navigation bar -- renders: Booking.com logo, language/currency selector, 'Sign in'/'Register' links, and fixed service tabs (Stays, Flights, Car rental, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "HeroBannerDesktop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Hero banner -- renders: operator-authored marketing headline and sub-headline"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "SearchBoxDesktop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search box widget -- renders: fixed labels ('Where are you going?', 'Check-in', 'Check-out', 'Guests'), search button, and filter checkboxes"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "UniqueSellingPoints"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Unique selling points -- renders: operator-authored value proposition headings and descriptions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "SecondaryBannerDesktop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Secondary promotional banner -- renders: operator-authored marketing copy and call-to-action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "MerchCarouselPropertyTypesWww"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Property types carousel -- renders: operator-defined property categories (Hotels, Apartments, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "DestinationPostcardsDesktop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Destination postcards -- renders: operator-curated destination names and marketing copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "TripTypesCarousel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Trip types carousel -- renders: operator-defined trip categories (Beach, City, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "MerchCarouselDomesticDestinationsWww"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Domestic destinations carousel -- renders: operator-curated destination names"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "GeniusSignInBanner"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Genius sign-in banner -- renders: operator-authored loyalty program marketing copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "SeoCoreInterlinking"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "SEO interlinking section -- renders: operator-defined navigation tabs and links to platform pages"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "TravellerFooter_root--variant-full"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Footer -- renders: operator-defined navigation links, legal links, and contact information"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "onetrust-banner-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Cookie consent banner -- renders: operator-authored privacy policy text and consent buttons"
+  }
+]

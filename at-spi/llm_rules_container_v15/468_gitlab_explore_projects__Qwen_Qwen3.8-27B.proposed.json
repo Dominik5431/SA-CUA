@@ -1,0 +1,72 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "navbar-gitlab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: GitLab logo, search box, 'New project' button, 'Issues'/'Merge requests'/'Todos'/'Help' labels, and user avatar; all labels are fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "page-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Page title -- renders: 'Explore' (fixed operator vocabulary for this page type)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "page-title-controls"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Page action controls -- renders: 'New project' button (fixed operator vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "scrolling-tabs-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Project type tabs -- renders: 'Activity', 'Projects', 'Groups', 'Snippets' (fixed operator vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "project-filter-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Project filter controls -- renders: search input placeholder, 'Sort' button (fixed operator vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "gl-display-flex gl-flex-grow-1 gl-border-none nav gl-tabs-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Project visibility tabs -- renders: 'All', 'Public', 'Private' (fixed operator vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-redirect-listbox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Redirect dropdown -- renders: 'Redirect' button (fixed operator vocabulary)"
+  }
+]

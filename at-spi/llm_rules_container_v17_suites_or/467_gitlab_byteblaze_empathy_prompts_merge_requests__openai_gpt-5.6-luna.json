@@ -1,0 +1,118 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "gl-sr-only gl-accessibility"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility skip link -- renders the operator's fixed navigation control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "header-new-dropdown-toggle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "new-project control -- renders the operator's fixed project-creation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "header-help-dropdown-toggle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "help control -- renders the operator's fixed help vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "keyboard-shortcut-helper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "keyboard-shortcut hint -- renders the operator's fixed shortcut vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "dashboard-shortcuts-issues"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issues dashboard control -- renders the fixed Issues destination and operator-defined counter badge"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "dashboard-shortcuts-merge_requests"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "merge-requests dashboard control -- renders the fixed merge-request destination and operator-defined counter badge"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "shortcuts-todos"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "todos dashboard control -- renders the fixed Todos destination and operator-defined counter badge"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "project navigation sidebar excluding the project-name context header -- renders fixed repository, issue, merge-request, pipeline, deployment, infrastructure, monitoring, analytics, wiki, snippet, settings, and sidebar-toggle controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-bulk-update-toggle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "bulk-update toggle -- renders the operator's fixed merge-request management control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "gl-ml-3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "list-view toolbar -- renders the fixed view, sort-dropdown, and reverse-sort controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "controls d-flex align-items-end"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "merge-request item controls -- renders fixed pipeline-status and item-action controls"
+  }
+]

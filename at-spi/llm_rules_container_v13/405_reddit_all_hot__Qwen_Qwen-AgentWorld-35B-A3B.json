@@ -1,0 +1,58 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility navigation links -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "flex flex--guttered"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "feed tabs and sort controls -- operator-defined navigation and sort options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "site-nav__search-row dropdown__menu"
+      },
+      {
+        "role": "entry",
+        "id": "site-nav-search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site search input -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "article",
+        "class": "submission"
+      },
+      {
+        "role": "header",
+        "class": "submission__header"
+      },
+      {
+        "role": "paragraph",
+        "class": "submission__info"
+      },
+      {
+        "role": "static",
+        "class": "submission__timestamp"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "submission timestamp -- operator-defined computed value"
+  }
+]

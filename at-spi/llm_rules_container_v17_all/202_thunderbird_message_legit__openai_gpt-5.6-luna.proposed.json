@@ -1,0 +1,243 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "spacesToolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "application space-switcher toolbar -- renders: Mail/Address Book/Calendar/Tasks/Chat/Settings and fixed navigation controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "unifiedToolbar"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "unified toolbar controls -- renders: fixed application-menu and search-submit controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "titlebar-min"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "window control -- renders: minimize"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "titlebar-restore"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "window control -- renders: restore"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "titlebar-close"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "window control -- renders: close"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "toolbar-menubar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "application menu bar -- renders: File/Edit/View/Go/Message/Tasks/Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "image",
+        "class": "search-button-icon"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search control icon -- renders: fixed search-submit control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "folderPaneHeaderBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "folder-pane toolbar -- renders: fixed folder options, compose-message, and get-messages controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "mailButton"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "space switcher control -- renders: Mail"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "addressBookButton"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "space switcher control -- renders: Address Book"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "calendarButton"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "space switcher control -- renders: Calendar"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "tasksButton"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "space switcher control -- renders: Tasks"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "chatButton"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "space switcher control -- renders: Chat"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "settingsButton"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "space switcher control -- renders: Settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "collapseButton"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "space switcher control -- renders: collapse or expand navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "button-appmenu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "application menu control -- renders: fixed application-menu control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "folderPaneMoreButton"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "folder-pane control -- renders: fixed folder-pane options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "folderPaneWriteMessage"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "mail control -- renders: compose new message"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "folderPaneGetMessages"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "mail control -- renders: get new messages"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "toggle button",
+        "id": "threadPaneQuickFilterButton"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message-list control -- renders: toggle quick filters"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "threadPaneDisplayButton"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message-list view control -- renders: fixed display and sorting options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "header-view-toolbox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message action toolbar -- renders: Reply/Forward/Archive/Junk/Trash/More and star controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "recipient-address-book-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "recipient control -- renders: fixed add-recipient-to-address-book control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "offline-status"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "connection-status control -- renders: fixed online/offline status control"
+  }
+]

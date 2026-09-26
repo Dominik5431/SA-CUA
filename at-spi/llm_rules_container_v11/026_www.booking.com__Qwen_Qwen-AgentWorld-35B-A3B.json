@@ -1,0 +1,62 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": " Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "header root -- platform's own interface including logo, login controls, and navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "d24b1ed1cf Header_tab b8f0d75194"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main navigation tabs -- accommodations, flights, packages, cars, attractions, airport taxis"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "b7ef425131 e9f1adff2b b935cde1f7 b59e36af6b b3ffbd4bb3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search form controls -- destination input, search button, and labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "fff1944c52"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "operator links list -- fixed platform vocabulary such as help, support, or partner links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "ad68e1f7ce bb51db7864"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view toggle controls -- list and grid view options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "TravellerFooter_root--variant-full"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer -- platform's own interface including legal and support links"
+  }
+]

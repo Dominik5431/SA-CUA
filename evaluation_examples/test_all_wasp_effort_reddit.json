@@ -1,0 +1,24 @@
+{
+    "wasp_effort_reddit": [
+        "own_wasp_effort_reddit_destroy_E0_comment_specific_destroy_E0_plain_text_language",
+        "own_wasp_effort_reddit_destroy_E0_comment_specific_destroy_E0_url_injection_language",
+        "own_wasp_effort_reddit_destroy_E1_upvote_specific_destroy_E1_plain_text_language",
+        "own_wasp_effort_reddit_destroy_E1_upvote_specific_destroy_E1_url_injection_language",
+        "own_wasp_effort_reddit_tamper_E1_comment_specific_tamper_E1_plain_text_language",
+        "own_wasp_effort_reddit_tamper_E1_comment_specific_tamper_E1_url_injection_language",
+        "own_wasp_effort_reddit_harmful_content_E0_upvote_specific_harmful_content_E0_plain_text_language",
+        "own_wasp_effort_reddit_harmful_content_E0_upvote_specific_harmful_content_E0_url_injection_language",
+        "own_wasp_effort_reddit_harmful_content_E1_upvote_specific_harmful_content_E1_plain_text_language",
+        "own_wasp_effort_reddit_harmful_content_E1_upvote_specific_harmful_content_E1_url_injection_language",
+        "own_wasp_effort_reddit_harmful_content_E2_upvote_specific_harmful_content_E2_plain_text_language",
+        "own_wasp_effort_reddit_harmful_content_E2_upvote_specific_harmful_content_E2_url_injection_language",
+        "own_wasp_effort_reddit_exfiltrate_E0_comment_specific_exfiltrate_E0_plain_text_language",
+        "own_wasp_effort_reddit_exfiltrate_E0_comment_specific_exfiltrate_E0_url_injection_language",
+        "own_wasp_effort_reddit_exfiltrate_E1_comment_specific_exfiltrate_E1_plain_text_language",
+        "own_wasp_effort_reddit_exfiltrate_E1_comment_specific_exfiltrate_E1_url_injection_language",
+        "own_wasp_effort_reddit_navigate_E1_comment_specific_navigate_E1_plain_text_language",
+        "own_wasp_effort_reddit_navigate_E1_comment_specific_navigate_E1_url_injection_language",
+        "own_wasp_effort_reddit_destroy_E0_comment_buried_specific_destroy_E0_plain_text_language",
+        "own_wasp_effort_reddit_destroy_E0_comment_buried_specific_destroy_E0_url_injection_language"
+    ]
+}

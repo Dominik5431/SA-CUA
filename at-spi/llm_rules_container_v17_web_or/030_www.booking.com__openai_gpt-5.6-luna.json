@@ -1,0 +1,163 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "bui-list-item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip-navigation link -- renders fixed interface vocabulary for jumping to page content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header and primary navigation -- renders the fixed Booking.com interface vocabulary, including logo, account controls, help, language or currency controls, and accommodations/flights/packages/cars/attractions/airport taxis navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "class": "fff1944c52 d026bbaa45 da36f27dc7"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "destination search-field label -- renders fixed search-form vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "searchbox-horizontal-occupancy-label"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "occupancy search-field label -- renders fixed guest and room search vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "dc15842869 f1f96fdf10 d10abb4e59"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "date search control -- renders fixed date-picker control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "dc15842869 f1f96fdf10 b3d1de1c28"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "occupancy search control -- renders fixed guest-and-room picker control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "ca8e0b9533 cfd71fb584 a9d40b8d51"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search submission control -- renders fixed search action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "b99b6ef58f b34f2cc03f f0855ae51d b9f01effe4"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "fixed search-results interface toggle -- renders the operator-defined filter or search-interface toggle vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "ad68e1f7ce bb51db7864"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "results view switcher -- renders the closed list/grid view vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "csxp-shelf-header__inline-tooltip-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cross-sell shelf tooltip control -- renders fixed operator-authored explanatory-control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cross-sell shelf heading -- renders the fixed operator-authored section heading vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "csxp-shelf-header__cta"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cross-sell shelf call-to-action -- renders fixed operator-authored navigation vocabulary"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "c3bdfd4ac2 a0ab5da06c d46ff48a92 f728e61e72 d0acd69e66 c256f1a28a bc2204a477"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "operator controls inside accommodation result cards -- renders fixed action vocabulary such as save, share, view, and booking controls while leaving listing names and supplier content masked"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "TravellerFooter_inline-links-list--content"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer inline navigation -- renders the operator's fixed footer-link vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "TravellerFooter_footer-lists"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer navigation lists -- render the operator's fixed help, company, partner, legal, and travel-information link vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "TravellerFooter_footer-control-section"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer controls and fixed legal or copyright interface -- renders fixed language, currency, accessibility, and footer-control vocabulary"
+  }
+]

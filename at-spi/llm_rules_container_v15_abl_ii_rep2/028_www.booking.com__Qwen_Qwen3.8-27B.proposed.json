@@ -1,0 +1,235 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "bypass_menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip-to-content link -- renders: 'Skip to main content'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "global header -- renders: 'Booking.com', 'Search', 'List your property', 'Register', 'Sign in', 'Accommodations', 'Flights', 'Packages', 'Car rental', 'Attractions', 'Airport taxis'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "a193cf1ed6"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search bar controls -- renders: 'Where are you going?', 'Check-in', 'Check-out', 'Search'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "fff1944c52"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "breadcrumb navigation -- renders: 'Home', 'Hotels', 'Europe', 'Italy', 'Rome', 'Rome Hotels'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "d24b1ed1cf f5852f597b da2666adb4"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "property detail tabs -- renders: 'Overview', 'Availability', 'Facilities', 'Policies', 'Fine print', 'Reviews'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "top-book"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "booking action bar -- renders: 'Add to wishlist', 'Share', 'Book now', 'Price guarantee'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_hotel_name"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "property header controls -- renders: 'Save', 'Share', 'More options'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "ca9d921c46 a21cb847ab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "location and map controls -- renders: 'Show on map', 'See all photos'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "photo_wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "photo gallery controls -- renders: 'See all photos'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "fe4dfbc0c7 b228ba80c5"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "review summary header -- renders: 'Guest reviews', 'See all reviews'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "best-review-score"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "review score label -- renders: 'Exceptional'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hotel_sidebar_static_map_capla"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "map widget controls -- renders: 'Show on map'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "maxotelRoomArea"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "room filter controls -- renders: 'Filter', 'Free cancellation', 'Breakfast included'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table",
+        "id": "hprt-table"
+      }
+    ],
+    "own_role": "column header",
+    "verdict": "trusted",
+    "note": "room table column headers -- renders: 'Room type', 'Price', 'Policies', 'Rooms'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "hprt-reservation-cta"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "reservation call-to-action -- renders: 'Select rooms'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "cbdacf5131"
+      }
+    ],
+    "except": [
+      {
+        "role": "landmark",
+        "class": "cef02e091d"
+      },
+      {
+        "role": "list",
+        "class": "e9f7361569"
+      },
+      {
+        "role": "paragraph",
+        "class": "b99b6ef58f"
+      },
+      {
+        "role": "section",
+        "class": "b99b6ef58f"
+      },
+      {
+        "role": "section",
+        "class": "da8a6fe12c"
+      },
+      {
+        "role": "section",
+        "class": "e7addce19e"
+      },
+      {
+        "role": "heading",
+        "class": "ff410f42e9"
+      },
+      {
+        "role": "paragraph"
+      },
+      {
+        "role": "static"
+      },
+      {
+        "role": "image"
+      },
+      {
+        "role": "link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "property section headers and controls -- renders: 'Property description', 'Facilities', 'Policies', 'Important info', 'Show more', 'Show less'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "xm-survey-component-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user survey widget -- renders: 'How was your experience?', 'Very poor', 'Poor', 'Average', 'Good', 'Very good'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "pp-faq"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "FAQ section -- renders: 'Frequently asked questions', 'What time is check-in?', 'What time is check-out?', 'Is there a parking lot?', 'Is there a restaurant?', 'Is there a bar?', 'Is there a gym?'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer_menu_track"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: 'Support', 'Discover', 'Talent', 'Sustainability', 'About', 'Booking.com', 'Help & contact', 'Privacy & terms', 'How we work', 'Careers', 'Investor relations', 'Corporate contacts', 'Terms & conditions', 'Privacy policy', 'Cookie policy', 'Corruption & bribery', 'Modern slavery statement', 'Accessibility statement'"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "url": "https://api.github.com/search/repositories?q=browser+extension+AI+generated+answers+stackoverflow&sort=stars&order=desc",
+  "ok": true,
+  "text": "{\n \"total_count\": 2,\n \"incomplete_results\": false,\n \"items\": [\n  {\n   \"full_name\": \"shobrook/ChatOverflow\",\n   \"html_url\": \"https://github.com/shobrook/ChatOverflow\",\n   \"description\": \"Chrome extension that displays AI-generated answers to StackOverflow questions\",\n   \"stargazers_count\": 421,\n   \"owner\": {\n    \"login\": \"shobrook\"\n   }\n  },\n  {\n   \"full_name\": \"kevinlin/so-gpt-helper\",\n   \"html_url\": \"https://github.com/kevinlin/so-gpt-helper\",\n   \"description\": \"GPT helper for StackOverflow browsing\",\n   \"stargazers_count\": 37,\n   \"owner\": {\n    \"login\": \"kevinlin\"\n   }\n  }\n ]\n}",
+  "synthetic": true,
+  "note": "Hand-authored in the shape of GitHub's search API. Replace with a real capture via --record."
+}

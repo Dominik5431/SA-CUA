@@ -1,0 +1,101 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "navbar-gitlab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: GitLab logo, search box, 'New project', 'Issues', 'Merge requests', 'To do list', 'Help', user avatar"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Project sidebar navigation -- renders: 'Project information', 'Repository', 'Issues', 'Merge requests', 'Pipelines', 'Deployments', 'Infrastructure', 'Monitor', 'Analytics', 'Wiki', 'Snippets', 'Settings'; project name header is subtracted as it is user-defined"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "breadcrumbs"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Breadcrumb navigation -- renders: 'byteblaze', 'byteblaze_dotfiles', 'Issues', '#1' (platform-generated issue number)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "right-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue sidebar controls -- renders: 'Assignee', 'Labels', 'Milestone', 'Due date', 'Confidential', 'Time tracking', 'Participants', 'Move issue' and associated edit buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "new-note"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comment composition form -- renders: 'Write', 'Preview', formatting toolbar icons, 'Comment' button, 'Close' button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "detail-page-header-body"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "title"
+      },
+      {
+        "role": "paragraph"
+      },
+      {
+        "role": "section",
+        "class": "edited-text"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue header chrome -- renders: issue number, status icon, 'Edit' button, 'Close' button, 'Reopen' button, 'Create merge request' button, upload dropzone; issue title, description, and byline are subtracted as user-generated"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "related-issues"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Related issues module -- renders: 'Related issues' heading, 'Show more' button, and platform-generated explanatory text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "discussion-preferences"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Discussion preferences control -- renders: 'Sort by' dropdown toggle"
+  }
+]

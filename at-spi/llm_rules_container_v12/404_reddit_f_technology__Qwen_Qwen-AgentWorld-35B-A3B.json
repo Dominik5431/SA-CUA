@@ -1,0 +1,78 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility navigation -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main site navigation and search -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vote"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "vote buttons and vote count -- platform's own interface and computed scores"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "static",
+        "class": "submission__timestamp"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "submission timestamp -- computed date/time value about submitted content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "form subscribe-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "subscribe form and subscriber count -- platform's own interface and computed values"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "flex flex--guttered"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "subreddit tab and sort controls -- platform's own interface and sort options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-content__sidebar sidebar flow"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "sidebar__title forum-title break-text"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar -- platform's own interface and community info controls; subtracted subreddit title heading"
+  }
+]

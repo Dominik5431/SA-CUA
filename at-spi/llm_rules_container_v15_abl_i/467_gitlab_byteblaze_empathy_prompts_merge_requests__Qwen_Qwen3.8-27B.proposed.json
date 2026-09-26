@@ -1,0 +1,68 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "navbar-gitlab"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry",
+        "id": "search"
+      },
+      {
+        "role": "section",
+        "class": "gl-badge"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global top navigation bar -- renders: GitLab logo, search placeholder, 'New project', 'Issues', 'Merge requests', 'To do list', 'Help', user avatar; search query and dynamic counters are subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Project sidebar navigation -- renders: 'Project information', 'Repository', 'Issues', 'Merge requests', 'Pipelines', 'Deployments', 'Infrastructure', 'Monitor', 'Analytics', 'Wiki', 'Snippets', 'Settings'; the project name header is subtracted as it is user-defined"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "breadcrumbs"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Breadcrumb navigation -- renders: user-defined project and group names which are navigation context"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "content-body"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "class": "content-list"
+      },
+      {
+        "role": "entry",
+        "id": "filtered-search-merge_requests"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Merge request list page chrome -- renders: state tabs ('Opened', 'Merged', 'Closed', 'All'), action buttons ('New merge request', 'Bulk update', 'Export'), filter controls, sort controls; the list of merge requests and the filter search input are subtracted"
+  }
+]

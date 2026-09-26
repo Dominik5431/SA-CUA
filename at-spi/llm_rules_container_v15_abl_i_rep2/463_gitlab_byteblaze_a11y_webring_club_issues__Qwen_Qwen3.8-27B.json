@@ -1,0 +1,78 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "navbar-gitlab"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry",
+        "id": "search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global top navigation bar -- renders: GitLab logo, navigation links (Issues, Merge Requests, To-Do List, Help), and user avatar; search input is subtracted as it may contain user-typed queries"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Project sidebar navigation -- renders: fixed section labels (Information, Repository, Issues, Merge Requests, Pipelines, Deployments, etc.); the project name header is subtracted as it is a user-created name"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "breadcrumbs"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Breadcrumbs -- renders: navigation path segments (namespace, project, section); while these are user-named, the breadcrumb widget is standard platform chrome and the segments are structural navigation rather than content bodies"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "__BVID__7"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue state tabs -- renders: fixed state labels (Open, Closed, All) with counts; the tab labels are operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "content-body"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "__BVID__7"
+      },
+      {
+        "role": "list",
+        "class": "issues-list"
+      },
+      {
+        "role": "landmark",
+        "class": "issues-bulk-update"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue list toolbar -- renders: fixed action buttons (New Issue, Filter, Sort) and search controls; the issue list, tabs, and bulk update sidebar are subtracted as they contain user-generated content or dynamic lists"
+  }
+]

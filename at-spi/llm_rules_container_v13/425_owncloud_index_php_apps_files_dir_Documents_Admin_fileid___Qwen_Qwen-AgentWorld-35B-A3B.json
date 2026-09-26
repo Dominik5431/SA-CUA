@@ -1,0 +1,89 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "app-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "app navigation sidebar -- platform's own interface with fixed vocabulary for files, favorites, shares, tags, trash"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "controls"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "breadcrumb"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file list controls -- view switcher, new file/button, upload progress, file action panel; excluding breadcrumb with user folder names"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table cell",
+        "class": "filesize"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file size cells -- computed operator-defined values about submitted content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table cell",
+        "class": "date"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "date cells -- computed operator-defined timestamps about submitted content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "action action-favorite "
+      }
+    ],
+    "verdict": "trusted",
+    "note": "favorite action links -- operator interface controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "action action-share permanent"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "share action links -- operator interface controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "action action-menu permanent"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "menu action links -- operator interface controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table",
+        "id": "filestable"
+      }
+    ],
+    "own_role": "check box",
+    "verdict": "trusted",
+    "note": "file selection checkboxes and select-all checkbox -- operator interface controls"
+  }
+]

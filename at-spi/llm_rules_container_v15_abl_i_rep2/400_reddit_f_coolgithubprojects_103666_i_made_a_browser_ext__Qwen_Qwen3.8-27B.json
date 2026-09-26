@@ -1,0 +1,178 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Accessibility skip links -- renders: 'Skip to main content', 'Skip to comments'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site navigation -- renders: 'Reddit', 'Home', 'Search', 'Log in', 'Sign up', 'Create post'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "main"
+      },
+      {
+        "role": "landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Breadcrumb navigation -- renders: 'r/CoolGitHubProjects' (community name is operator-defined)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "article",
+        "class": "submission"
+      },
+      {
+        "role": "landmark",
+        "class": "submission__nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Submission action links -- renders: 'Share', 'Save', 'Hide', 'Report'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "article",
+        "class": "submission"
+      },
+      {
+        "role": "section",
+        "class": "vote"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Submission voting controls -- renders: 'Upvote', 'Downvote'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "main"
+      },
+      {
+        "role": "heading"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments section header -- renders: 'Comments'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "main"
+      },
+      {
+        "role": "section",
+        "class": "comment-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comment submission form -- renders: 'Add a comment', 'Markdown', 'Submit'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "main"
+      },
+      {
+        "role": "list",
+        "class": "flex unlistify"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comment sorting tabs -- renders: 'Best', 'New', 'Top'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "sidebar"
+      },
+      {
+        "role": "section",
+        "class": "submission-meta"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Submission metadata sidebar -- renders: 'Score', 'Short URL', 'Share'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "sidebar"
+      },
+      {
+        "role": "section",
+        "class": "form subscribe-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Community subscription controls -- renders: 'Subscribe', 'Unsubscribe'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "sidebar"
+      },
+      {
+        "role": "section",
+        "class": "sidebar__section flow"
+      },
+      {
+        "role": "heading",
+        "class": "sidebar__title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar section header -- renders: 'About'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "sidebar"
+      },
+      {
+        "role": "section",
+        "class": "sidebar__section flow"
+      },
+      {
+        "role": "list",
+        "class": "unlistify sidebar__no-padding"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Community navigation links -- renders: 'Home', 'Posts', 'Wiki', 'Rules'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: 'Reddit', 'Inc.'"
+  }
+]

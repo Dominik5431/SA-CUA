@@ -1,0 +1,89 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "rcx-box rcx-box--full rcx-button-group--medium rcx-button-group--align-start rcx-button-group rcx-css-vi4iz8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar top button group -- platform's own interface navigation icon buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rc-box rc-box--full rcx-sidebar-topbar rcx-sidebar-topbar--toolbox omnichannel-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar top bar toolbox -- platform's own interface controls and title"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-box rcx-box--full rcx-sidebar-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar section labels -- renders: fixed platform section titles"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "rcx-box rcx-box--full rcx-room-header rcx-css-7tefqp"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "room header action buttons -- platform's own interface controls for room info and actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "class": "rcx-box rcx-box--full rcx-button-group--medium rcx-button-group--align-start rcx-button-group rcx-css-6bg1ps"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "room header toolbar controls -- platform's own interface buttons for room actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "messages-box"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "messages box container -- renders: platform's own interface controls like new message and jump to recent; subtracts the messages list"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-box rcx-box--full rcx-message-header__time"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message timestamp containers -- renders: operator-defined timestamps for messages"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rc-message-box__toolbar-formatting"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message input formatting toolbar -- platform's own interface controls for message formatting"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Editor interface buttons -- operator-defined fixed vocabulary for editing actions (e.g., Cut, Copy, Paste, Undo, Redo, Find, Replace, Close, Save)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "Editor interface toggle buttons -- operator-defined fixed vocabulary for view modes (e.g., Word Wrap, Show Line Numbers, Sidebar visibility)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "radio button",
+    "verdict": "trusted",
+    "note": "Editor interface radio buttons -- operator-defined fixed vocabulary for layout or mode selection (e.g., 'Single', 'Dual', 'Horizontal', 'Vertical')"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "check box",
+    "verdict": "trusted",
+    "note": "Editor interface checkboxes -- operator-defined fixed vocabulary for feature toggles (e.g., 'Auto Indent', 'Highlight Current Line', 'Show Spaces')"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "table column header",
+    "verdict": "trusted",
+    "note": "Table column headers -- operator-defined fixed vocabulary for data columns (e.g., 'Name', 'Size', 'Type', 'Modified')"
+  }
+]

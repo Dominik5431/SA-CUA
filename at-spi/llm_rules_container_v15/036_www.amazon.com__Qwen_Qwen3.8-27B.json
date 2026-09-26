@@ -1,0 +1,42 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "shortcut-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Accessibility navigation shortcuts -- renders: Skip to main content, Skip to about this item, Skip to buying options, Skip to reviews, Search, Cart, Home, Your orders, Show shortcuts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-xshop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Secondary navigation bar -- renders: fixed category links like Today's Deals, Customer Service, Returns & Orders"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooter"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: Back to top, Get to Know Us, Careers, Blog, Investor Relations, Amazon Devices, Make Money with Us, Let Us Help You, and legal links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "cm_cr_top_reviews_to_arp_button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Link to all reviews -- renders: 'See all reviews'"
+  }
+]

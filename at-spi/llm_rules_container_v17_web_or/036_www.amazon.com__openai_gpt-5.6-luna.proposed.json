@@ -1,0 +1,180 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "nav-assistant-links-heading",
+        "class": "nav-assistant-heading"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility shortcut heading -- renders the fixed skip-navigation label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "nav-assistant-links-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility skip links -- renders fixed links to page sections"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "nav-assist-shortcuts-heading",
+        "class": "nav-assistant-heading"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "keyboard-shortcut heading -- renders the fixed shortcut label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "id": "nav-assist-shortcuts-container",
+        "class": "keyboard-shortcuts-list-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "keyboard shortcut controls -- renders fixed search, cart, home, orders, and shortcut-help actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "help-text-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "keyboard shortcut help -- renders fixed platform instructions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "nav-logo-sprites",
+        "class": "nav-logo-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site logo link -- renders the fixed Amazon home control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-search-label-id",
+        "class": "nav-search-label"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search scope label -- renders fixed search-category vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "searchDropdownBox",
+        "class": "nav-search-dropdown"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search category selector -- renders the fixed set of Amazon search scopes"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "nav-search-submit-button",
+        "class": "nav-input"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search submit control -- renders the fixed search action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "nav-hamburger-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main navigation menu control -- renders the fixed menu action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "nav-ul"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "primary shopping navigation -- renders fixed Amazon navigation categories"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "exportAlternativeTriggerButton",
+        "class": "a-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "product export control -- renders the fixed export action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "wishListMainButton",
+        "class": "a-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "wishlist control -- renders the fixed add-to-list action"
+  },
+  {
+    "own_role": "radio button",
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "regularAltImageViewLayout"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "product image selector controls -- renders fixed image-selection actions"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "cr-top-reviews"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "review action controls -- renders fixed expand, helpful-vote, and review-management actions while review text remains masked"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooter",
+        "class": "navLeftFooter"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "icp-container-desktop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Amazon footer chrome -- renders fixed service, policy, company, and navigation links"
+  }
+]

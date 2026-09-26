@@ -1,0 +1,34 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "navbar-gitlab"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "header-user"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- renders: GitLab logo, top-nav menu toggle, search box, New link, Issues/Merge Requests/To-Do counter labels, Help; user dropdown excluded as it displays the current user's name/avatar"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "content-body"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "class": "mr-list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "merge requests page frame -- renders: state filter tabs (Open/Merged/Closed/All), export button, view/sort controls, bulk-update toggle, new MR button, filtered search box, bulk-update sidebar; the MR list is subtracted as it carries user-authored titles, author names, and pipeline statuses"
+  }
+]

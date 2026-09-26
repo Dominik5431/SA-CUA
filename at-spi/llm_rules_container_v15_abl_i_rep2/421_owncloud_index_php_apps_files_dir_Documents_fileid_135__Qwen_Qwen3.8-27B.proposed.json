@@ -1,0 +1,44 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "header"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "expandDisplayName"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: 'ownCloud', 'Files', 'Menu', 'Search'; the user's display name is subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "toolbarContainer"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "numPages"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "PDF viewer toolbar -- renders: 'Sidebar', 'Find', 'Previous', 'Next', 'Presentation', 'Print', 'Download', 'Bookmark', 'More', 'Close', 'Zoom Out', 'Zoom In', 'Auto', 'Actual', 'Fit', 'Width'; the page count value is subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "id": "viewerContextMenu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "PDF viewer context menu -- renders: 'First Page', 'Last Page', 'Rotate Clockwise', 'Rotate Counter-Clockwise'"
+  }
+]

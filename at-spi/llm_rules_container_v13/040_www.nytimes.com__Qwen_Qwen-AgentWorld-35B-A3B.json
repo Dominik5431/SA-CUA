@@ -1,0 +1,64 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "fides-overlay"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "privacy consent overlay -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "google-one-tap-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sign-in control -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Wr7_RG_mastheadWrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "masthead navigation -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "collection-business"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "business section page -- renders: section labels, highlights, article stream, and tab navigation; all operator-authored journalism and interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "site-index",
+        "class": "css-1jmk4jh"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site index -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer",
+        "class": "css-1qa4qp6"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer -- platform's own interface throughout"
+  }
+]

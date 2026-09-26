@@ -1,0 +1,182 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global header -- renders: 'Booking.com', 'Log in', 'Register', 'Accommodations', 'Flights', 'Packages', 'Cars', 'Attractions', 'Airport taxis'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "a193cf1ed6"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search bar controls -- renders: 'Where are you going?', 'Check-in', 'Check-out', 'Search'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "fff1944c52"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Breadcrumb navigation -- renders: 'Home', 'Hotels', 'Europe', 'Italy', 'Rome', 'Rome Hotels'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "d24b1ed1cf f5852f597b da2666adb4"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Property detail tabs -- renders: 'Overview', 'Availability', 'Facilities', 'Policies', 'Fine print', 'Reviews'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "top-book"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Booking action bar -- renders: 'Add to wishlist', 'Share', 'Book now', 'Price guarantee'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_hotel_name"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Property header controls -- renders: 'Add to wishlist', 'Share', 'Save'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "ca9d921c46 a21cb847ab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Location and map controls -- renders: 'Show on map', 'See all photos'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "photo_wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Photo gallery controls -- renders: 'See all photos'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "reviewFloater"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Review scorecard chrome -- renders: 'Exceptional', 'See all reviews'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hotel_sidebar_static_map_capla"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar map widget -- renders: 'Show on map'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_availability_style_changes"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Availability section chrome -- renders: 'Availability', 'Price guarantee', 'Check-in', 'Check-out', 'Search', 'Rooms', 'Price', 'Policies', 'Rooms number', 'Select rooms', 'Reserve'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_facilities_box"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Facilities section chrome -- renders: 'Facilities', 'Show more', 'General', 'Show all facilities'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "xm-survey-component-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "User survey widget -- renders: 'How was your experience?', 'Very poor', 'Poor', 'Average', 'Good', 'Very good'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_policies_box"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Policies section chrome -- renders: 'Policies', 'Show more', 'Check-in', 'Check-out', 'Cancellation/prepayment', 'Children', 'Pets'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "important_info"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Important information section chrome -- renders: 'Important information', 'Show more'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "pp-faq"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "FAQ section chrome -- renders: 'Frequently asked questions'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer_menu_track"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: 'Support', 'Discover', 'Talent', 'Investors', 'Privacy & Terms', 'English (US)', 'USD $'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "onetrust-banner-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Cookie consent banner -- renders: 'Cookies on Booking.com', 'Manage settings', 'Reject all', 'Accept all'"
+  }
+]

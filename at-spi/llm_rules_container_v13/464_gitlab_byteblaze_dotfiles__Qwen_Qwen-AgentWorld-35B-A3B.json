@@ -1,0 +1,150 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header has-tooltip active"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "nav sidebar -- platform's own navigation labels, excluding the context-header project name"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "notification",
+        "class": "gl-alert js-no-ssh-message gl-alert-warning"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "no-ssh-message alert banner -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "notification",
+        "class": "gl-alert auto-devops-implicitly-enabled-banner gl-alert-info"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "auto-devops-implicitly-enabled-banner alert -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "project-stats"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "project stats -- computed values like watchers, forks, etc."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "count-badge d-inline-flex align-item-stretch btn-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "star count badge and button -- computed operator-defined values"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "count-badge btn-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "fork count badge and button -- computed operator-defined values"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table",
+        "class": "table tree-table gl-table-layout-fixed"
+      }
+    ],
+    "own_role": "column header",
+    "verdict": "trusted",
+    "note": "file tree table column headers -- operator-defined labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table cell",
+        "class": "tree-time-ago text-right cursor-default gl-text-secondary"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file tree last-update column -- computed timestamps and dates"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "gl-button btn btn-default shortcuts-find-file"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "find file button -- platform's own interface control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "web-ide-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "open in web ide button -- platform's own interface control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "project-action-button dropdown gl-dropdown inline"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "project actions dropdown -- platform's own interface control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "git-clone-holder js-git-clone-holder"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "clone dropdown holder -- platform's own interface control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "gl-ml-4 js-commit-sha-group btn-group"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "commit sha clipboard button -- platform's own interface control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "home-panel-metadata gl-font-sm gl-text-secondary gl-font-base gl-font-weight-normal gl-line-height-normal"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "project home panel metadata -- status badges and clipboard control"
+  }
+]

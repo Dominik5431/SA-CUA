@@ -1,0 +1,43 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "header-bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top header bar -- operator's own navigation and view controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "page tab list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Tab bar -- operator's own interface for managing open tabs"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tree table"
+      },
+      {
+        "role": "table column header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Column headers -- operator's fixed vocabulary for file attributes"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "statusbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Status bar -- operator's own interface for displaying file counts and status"
+  }
+]

@@ -1,0 +1,69 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "header"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "expandDisplayName"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: ownCloud logo, Files app name, menu toggle, search box; user display name is subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "app-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Left sidebar navigation -- renders: Files, Favorites, Shared with you, Shared by you, Shared links, Tags, Trash bin, Settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "breadcrumb"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Breadcrumb navigation -- renders: Home icon, Photos (fixed directory name in this view)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "gallery-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "View switcher control -- renders: Gallery"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "actions creatable"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "File action controls -- renders: New"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table",
+        "id": "filestable"
+      }
+    ],
+    "own_role": "column header",
+    "verdict": "trusted",
+    "note": "Table column headers -- renders: Name, Size, Modified"
+  }
+]

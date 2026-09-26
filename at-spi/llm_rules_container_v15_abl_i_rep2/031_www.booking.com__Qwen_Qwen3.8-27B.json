@@ -1,0 +1,82 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site header -- renders: Booking.com logo, language/currency, sign in, register, and fixed service tabs (Stays, Flights, Packages, Car rentals, Attractions, Airport taxis)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "fff1944c52"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Breadcrumb navigation -- renders: fixed platform section links (e.g., Stays, City, District)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "ce1108eff4"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Results header controls -- renders: fixed sort button label (e.g., Sort by: Recommended)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "b99b6ef58f b34f2cc03f"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Map view toggle -- renders: fixed label (e.g., Show on map)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "b7ef425131 e9f1adff2b c03fb03748"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Filter sidebar frame -- renders: fixed section headings (e.g., Filters, Property Type, Facilities) and controls; specific filter values are masked by default"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "ad68e1f7ce"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "View switcher -- renders: fixed radio button labels (List, Grid)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "a297f43545"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sort control -- renders: fixed sort option label (e.g., Sort by: Recommended)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "TravellerFooter_root--variant-full"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: fixed platform navigation links (Support, Partners, About), legal links, and language/currency selectors"
+  }
+]

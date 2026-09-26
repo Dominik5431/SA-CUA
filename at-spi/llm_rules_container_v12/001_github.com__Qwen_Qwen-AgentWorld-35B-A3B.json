@@ -1,0 +1,72 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "position-relative header-wrapper js-header-wrapper "
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar and header controls -- platform's own interface including logo, navigation, search, sign in/up, and appearance settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-repo-nav js-sidenav-container-pjax js-responsive-underlinenav overflow-hidden UnderlineNav px-3 tmp-px-3 px-md-4 tmp-px-md-4 px-lg-5 tmp-px-lg-5"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository navigation tabs -- Code, Issues, Pull requests, Actions, Projects, Security and quality, Insights, and associated counters"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repos-sticky-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "blob view sticky header controls -- raw/blame/history tabs, file size details, download button, and table of contents toggle"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "CodeViewFileTreeLayout-module__heading__A1Iqk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file tree section label -- platform's own interface label 'Files'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "prc-Button-ButtonBase-9n-Xk position-relative ExpandFileTreeButton-module__expandButton__hDOcv fgColor-muted prc-Button-IconButton-fyge7"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file tree expand/collapse button -- platform's own interface control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "prc-Button-ButtonBase-9n-Xk SearchButton-module__IconButton__SBlqu prc-Button-IconButton-fyge7"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file tree search button -- platform's own interface control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "class": "prc-components-Input-IwWrt"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file tree search box -- platform's own interface search control"
+  }
+]

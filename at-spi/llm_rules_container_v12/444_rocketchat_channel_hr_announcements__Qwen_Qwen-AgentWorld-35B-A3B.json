@@ -1,0 +1,73 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar section labels -- platform's own fixed vocabulary for channel groups"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "class": "rcx-box rcx-box--full rcx-button-group--medium rcx-button-group--align-start rcx-button-group rcx-css-6bg1ps"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "room header action toolbar -- platform's own interface controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-box rcx-box--full rcx-message-header__time"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message timestamps -- computed operator-defined values"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rc-message-box__toolbar-formatting"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message input formatting toolbar -- platform's own interface controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "footer",
+        "class": "rcx-box rcx-box--full rcx-css-1h8ylb3 rcx-css-1583vym"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar footer -- platform's own interface for user profile/settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rc-box rcx-box--full rcx-sidebar-topbar rcx-sidebar-topbar--toolbox omnichannel-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "omnichannel sidebar topbar -- platform's own interface controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "messages-box"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "message box controls -- new message and jump to recent buttons"
+  }
+]

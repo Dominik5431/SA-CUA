@@ -1,0 +1,125 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "MarketingHeader-module__root__Tk7n3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "marketing header and navigation -- platform's own interface including logo, nav dropdowns, search, sign-in/sign-up controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-repo-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository navigation tabs -- renders: Code, Issues, Pull requests, Actions, Projects, Wiki, Security and quality, Insights"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "pagehead-actions"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository action buttons and counters -- renders: watch, fork, star buttons and their computed counts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "HeaderState-module__stateLabel__vlM4W"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issue state label -- renders: closed/open status badge and icon"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "IssueBodyHeader-module__dateLink__kYTxQ"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issue body header timestamp link -- renders: relative time/date of issue creation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "ActivityHeader-module__HeaderLink__WnxQu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment header timestamp links -- renders: relative time/date of comments"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "Section-module__SectionContainer__DFzgf"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "metadata section headers -- renders: Assignees, Labels, Milestone, Development, Participants, Options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "footer f6 color-fg-muted color-border-subtle tmp-pt-7 tmp-pb-6 p-responsive"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- platform's own navigation and legal links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-skip-to-content"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip to content link -- platform's own navigation aid"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "SignedOutBanner-module__signedOutBanner__F0MAQ"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "signed-out banner -- platform's own sign-up/sign-in controls and copy for unauthenticated users"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "ActivityHeader-module__ActivityHeaderContainer__BnNwC"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "comment action buttons inside comment headers -- platform's own controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "class": "d-flex gap-1 flex-wrap"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "reaction buttons inside issue body and comment toolbars -- platform's own interaction controls"
+  }
+]

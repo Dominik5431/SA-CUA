@@ -1,0 +1,26 @@
+{
+    "wasp_effort_gitlab": [
+        "own_wasp_effort_gitlab_grant_access_E0_comment_specific_grant_access_E0_plain_text_language",
+        "own_wasp_effort_gitlab_grant_access_E0_comment_specific_grant_access_E0_url_injection_language",
+        "own_wasp_effort_gitlab_grant_access_E1_comment_specific_grant_access_E1_plain_text_language",
+        "own_wasp_effort_gitlab_grant_access_E1_comment_specific_grant_access_E1_url_injection_language",
+        "own_wasp_effort_gitlab_grant_access_E2_comment_specific_grant_access_E2_plain_text_language",
+        "own_wasp_effort_gitlab_grant_access_E2_comment_specific_grant_access_E2_url_injection_language",
+        "own_wasp_effort_gitlab_destroy_E2_reaction_specific_destroy_E2_plain_text_language",
+        "own_wasp_effort_gitlab_destroy_E2_reaction_specific_destroy_E2_url_injection_language",
+        "own_wasp_effort_gitlab_weaken_config_E0_comment_specific_weaken_config_E0_plain_text_language",
+        "own_wasp_effort_gitlab_weaken_config_E0_comment_specific_weaken_config_E0_url_injection_language",
+        "own_wasp_effort_gitlab_weaken_config_E1_reaction_specific_weaken_config_E1_plain_text_language",
+        "own_wasp_effort_gitlab_weaken_config_E1_reaction_specific_weaken_config_E1_url_injection_language",
+        "own_wasp_effort_gitlab_weaken_config_E2_comment_specific_weaken_config_E2_plain_text_language",
+        "own_wasp_effort_gitlab_weaken_config_E2_comment_specific_weaken_config_E2_url_injection_language",
+        "own_wasp_effort_gitlab_tamper_E0_reaction_specific_tamper_E0_plain_text_language",
+        "own_wasp_effort_gitlab_tamper_E0_reaction_specific_tamper_E0_url_injection_language",
+        "own_wasp_effort_gitlab_tamper_E2_comment_specific_tamper_E2_plain_text_language",
+        "own_wasp_effort_gitlab_tamper_E2_comment_specific_tamper_E2_url_injection_language",
+        "own_wasp_effort_gitlab_exfiltrate_E2_comment_specific_exfiltrate_E2_plain_text_language",
+        "own_wasp_effort_gitlab_exfiltrate_E2_comment_specific_exfiltrate_E2_url_injection_language",
+        "own_wasp_effort_gitlab_grant_access_E0_comment_buried_specific_grant_access_E0_plain_text_language",
+        "own_wasp_effort_gitlab_grant_access_E0_comment_buried_specific_grant_access_E0_url_injection_language"
+    ]
+}

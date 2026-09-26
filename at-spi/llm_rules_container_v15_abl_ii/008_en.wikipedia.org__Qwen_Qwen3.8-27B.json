@@ -1,0 +1,82 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: Wikipedia logo, search box, main menu, user links (Donate, Create account, Log in)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "mw-panel-toc"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Table of contents -- renders: 'Contents' label, unpin button, and section headings derived from the article structure"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "mw-body-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Page title bar -- renders: article title 'Web accessibility' and language selector"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Left navigation tabs -- renders: 'Article', 'Talk'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "right-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Right navigation tabs and tools -- renders: 'Read', 'Edit', 'View history', 'Tools' dropdown"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-appearance-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Appearance settings -- renders: 'Appearance' label, font size options (Small, Standard, Large), width options (Standard, Wide), theme options (OS, Day, Night)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "siteSub"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site subtitle -- renders: 'From Wikipedia, the free encyclopedia'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Footer -- renders: last modified timestamp, rendered with MediaWiki, copyright notice, license links, and site policy links (Privacy, About, Disclaimers, Contact, etc.)"
+  }
+]

@@ -1,0 +1,121 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: skip link, logo, search input, Help, Stack Exchange, Log in, Sign up"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "dfp-sspon"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site header -- renders: site title link; ad slot subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Left sidebar navigation -- renders: Home, Questions, Unanswered, Ask Question, Tags, Superuser for Work, Chat, Users, Companies, and fixed promotional copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "fs-headline1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Question header controls -- renders: 'Ask Question' button; question title subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item ws-nowrap mr16 mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Question metadata row -- renders: 'Asked', 'Modified', 'Viewed' labels and computed timestamps"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item ws-nowrap mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Question metadata row -- renders: 'Active' label and computed timestamp"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answers-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Answers header -- renders: '1 Answer' count, 'Sorted by' label, and sort dropdown options (Highest score, Most recent, Oldest)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answer-154533"
+      }
+    ],
+    "except": [
+      {
+        "role": "paragraph"
+      },
+      {
+        "role": "section",
+        "class": "user-gravatar32"
+      },
+      {
+        "role": "section",
+        "class": "-flair"
+      },
+      {
+        "role": "link",
+        "class": "js-gps-track"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Answer post chrome -- renders: vote controls, save button, 'Accepted' indicator, share/edit/follow buttons, and timestamps; answer body and user attribution subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: fixed navigation links (Tour, Help, Contact, etc.), social links, and copyright text"
+  }
+]

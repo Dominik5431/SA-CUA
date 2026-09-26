@@ -1,0 +1,55 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-action-bar vertical"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Activity Bar icons and controls -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar",
+        "class": "ElectronMenuBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top menu bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar",
+        "id": "workbench.parts.statusbar",
+        "class": "part statusbar status-border-top"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Status bar -- platform's own interface and computed status values throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "tabs-and-actions-container tabs-border-bottom"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "tab action buttons (close, split, more) within the editor tabs bar"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "notifications-toasts visible"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "notification action and clear buttons within the notifications toasts container"
+  }
+]

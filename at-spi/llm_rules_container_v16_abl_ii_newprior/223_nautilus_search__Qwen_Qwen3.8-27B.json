@@ -1,0 +1,33 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "split pane"
+      }
+    ],
+    "except": [
+      {
+        "role": "list box"
+      },
+      {
+        "role": "tree table"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "File manager main window split pane -- renders: navigation controls, view toggles, sidebar bookmarks, and tab headers; the file list and file details are subtracted as they contain user-named files and metadata"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "except": [
+      {
+        "role": "list box"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "View options dialog -- renders: view mode radio buttons, sort options, and column visibility checkboxes; the list of available columns is subtracted as it reflects the current directory's file attributes"
+  }
+]

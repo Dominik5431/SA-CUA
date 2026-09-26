@@ -1,0 +1,43 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- renders: logo, Home link, search box, help button, site switcher, Log in / Sign up buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-sofa-sidebar-promo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "SOFA promo widget in sidebar -- operator marketing copy, copy-to-clipboard button, and CTA link; all fixed operator content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: Stack Overflow / Products / Company / Stack Exchange Network nav sections, social links, copyright, cookie settings button; all fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "onetrust-consent-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent banner -- operator-configured OneTrust SDK: policy title, cookie policy text, cookie category names, Accept / Reject All / Settings buttons; no end-user or advertiser can alter what it displays"
+  }
+]

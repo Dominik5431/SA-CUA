@@ -1,0 +1,58 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "navbar navbar-gitlab navbar-expand-sm js-navbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header has-tooltip"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "project navigation sidebar -- renders operator-defined menu items and controls; excludes the project name context header"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "tree-controls"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "commit search form and control buttons -- operator interface controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "btn gpg-status-box invalid"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "GPG status badge -- operator-defined computed status indicator"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "commit-sha-group btn-group d-none d-sm-flex"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "commit SHA group -- renders commit hash and operator controls for copying/viewing"
+  }
+]

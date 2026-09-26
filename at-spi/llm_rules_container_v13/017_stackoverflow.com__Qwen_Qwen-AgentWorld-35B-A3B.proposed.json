@@ -1,0 +1,107 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left sidebar navigation and controls -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-report-ad-button-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "report ad buttons -- platform controls about ads"
+  },
+  {
+    "own_role": "toggle button",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "question js-question"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "vote buttons inside question block"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "question js-question"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "action buttons (save, copy, follow, report ad) inside question block"
+  },
+  {
+    "own_role": "status bar",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "question js-question"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "post notice inside question block"
+  },
+  {
+    "own_role": "toggle button",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-answer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "vote buttons inside answer blocks"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-answer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "action buttons (save, copy, follow, report ad) inside answer blocks"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "s-pagination--item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- platform navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "s-pagination--item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- platform navigation"
+  }
+]

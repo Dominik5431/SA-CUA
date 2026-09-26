@@ -1,0 +1,99 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "landmark",
+        "id": "search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation chrome excluding the search field -- renders the operator's fixed logo, navigation, help, site-switcher control, login and signup vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar",
+        "class": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left navigation and operator promotion -- renders fixed home, questions, ask, chat, articles, users, companies, collectives and signup vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "mainbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "questions"
+      },
+      {
+        "role": "landmark",
+        "id": "uql-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question-list controls and page chrome outside submitted question summaries and the filter panel -- renders the fixed page heading, ask-question control, sorting, filtering toggle and pagination vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-report-ad"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "operator control about an advertisement -- renders the fixed report-this-ad vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "site-footer--logo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer branding -- renders the operator's fixed Stack Overflow logo vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer--nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer navigation -- renders the operator's fixed company, product, network and legal navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "-social"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer social navigation -- renders the operator's fixed social-link vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "paragraph",
+        "class": "md:mb0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer site-information line -- renders fixed operator copyright, policy-link and revision-label vocabulary"
+  }
+]

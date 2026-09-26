@@ -1,0 +1,106 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top header -- platform's own interface: logo, app name, settings expand, search box"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "app-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "app navigation sidebar -- platform's own interface: files, favorites, sharing in/out, sharing links, system tags, trashbin, settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "searchbox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search box -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "actions creatable"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "create actions -- platform's own interface: new file/folder button, upload progress"
+  },
+  {
+    "own_role": "column header",
+    "ancestor_path": [
+      {
+        "role": "table",
+        "id": "filestable",
+        "class": "has-controls"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file table column headers -- platform's own interface: name, size, modified sort controls and select all checkbox"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table cell",
+        "class": "filesize"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file size cells -- computed operator-defined values about submitted content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table cell",
+        "class": "date"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "date cells -- computed operator-defined timestamps about submitted content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "gallery-button",
+        "class": "button view-switcher"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view switcher button -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "file_upload_start",
+        "class": "hiddenuploadfield"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "upload start button -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table row",
+        "class": "summary"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file list summary row -- platform's own computed totals and labels"
+  }
+]

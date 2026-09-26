@@ -1,0 +1,84 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "navbar-gitlab"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "header-user"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- renders: GitLab logo, top nav menu, search, New, Issues/Merge Requests/To-Do counters, Help; except the user dropdown showing the current user's avatar/name"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "project navigation sidebar -- renders: Repository, Issues, Merge Requests, Pipelines, Deployments, Monitor, Analytics, Wiki, Snippets, Settings and sub-items Open/Closed/Board/Milestones; except the context-header showing the user-created project name"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "issuable-state-filters"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issue state filter tabs -- renders: Open/Closed/All with counts; platform's own filter controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "gl-search-box-by-click"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "filtered search box -- renders: search input with placeholder, history dropdown toggle, search button; platform's own search control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "sort-dropdown-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sort controls -- renders: sort direction dropdown and reverse-sort button; platform's own sort controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "gl-text-center gl-mt-6 gl-relative"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- renders: Prev/Next buttons and per-page limit dropdown; platform's own pagination"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "issues-bulk-update"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issues bulk update sidebar -- renders: bulk edit controls for issues; platform's own interface"
+  }
+]

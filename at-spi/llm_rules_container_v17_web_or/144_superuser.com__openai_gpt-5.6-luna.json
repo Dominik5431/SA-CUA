@@ -1,0 +1,192 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "own_role": "link",
+    "verdict": "trusted",
+    "note": "top navigation links -- renders the fixed platform vocabulary for help, site switching, logo, login, and signup"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "search"
+      }
+    ],
+    "own_role": "combo box",
+    "verdict": "trusted",
+    "note": "search control -- renders the fixed platform search interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-header"
+      }
+    ],
+    "own_role": "link",
+    "verdict": "trusted",
+    "note": "site header link -- renders the fixed site identity"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "primary sidebar -- renders fixed navigation, promotional interface copy, and fixed navigation controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "aside-cta"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question header action -- renders the fixed ask-question control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "question voting controls -- renders the fixed upvote and downvote actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "question action buttons -- renders fixed save, follow, and comment controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-share-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "share control -- renders the fixed share action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-suggest-edit-post"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "edit suggestion control -- renders the fixed platform edit action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answers-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answers header -- renders the fixed answers heading, count label, and answer sorting control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "answer"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "answer voting controls -- renders the fixed upvote and downvote actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "answer"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "answer action buttons -- renders fixed save, follow, and comment controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "accepted-answer"
+      }
+    ],
+    "own_role": "comment",
+    "verdict": "trusted",
+    "note": "accepted-answer indicator -- renders the fixed accepted-answer status"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "sidebar"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "sidebar section headings -- renders fixed widget labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "h-related"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "related-questions heading -- renders the fixed related-content section label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hot-network-questions"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "hot-network widget heading -- renders the fixed hot-network section label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders the platform's fixed navigation, social links, legal controls, and footer copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "onetrust-banner-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie-consent banner -- renders fixed consent policy copy, vendor-policy controls, and consent buttons"
+  }
+]

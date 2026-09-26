@@ -1,0 +1,7 @@
+[
+  {
+    "scope": "page",
+    "verdict": "trusted",
+    "note": "Calculator application interface -- all buttons, menus, and labels are operator-defined controls with fixed vocabulary (digits, operators, function names); no user-generated content or external data sources are present."
+  }
+]

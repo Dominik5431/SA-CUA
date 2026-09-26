@@ -1,0 +1,120 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "header navigation and controls -- platform's own interface including logo, app name, settings menu, and search box"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "app-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "app navigation sidebar -- operator-defined navigation items including Files, Favorites, Shared with me, Shared with others, Shared links, System tags, Trashbin, and Settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "app-settings-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "app settings header -- settings button control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "gallery-button",
+        "class": "button view-switcher"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view switcher controls -- gallery button and loading state"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "actions creatable"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "create actions -- new file/folder button and upload progress controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table",
+        "id": "filestable",
+        "class": "has-controls"
+      }
+    ],
+    "except": [
+      {
+        "role": "panel",
+        "id": "fileList"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file table controls and column headers -- renders column titles, sort controls, select all checkbox; file list rows are subtracted as they contain user-generated file names"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "action action-favorite "
+      }
+    ],
+    "verdict": "trusted",
+    "note": "favorite action button -- operator control for marking files or folders as favorites"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "action action-share permanent"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "share action button -- operator control for sharing files or folders"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "action action-menu permanent"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "more action menu button -- operator control for file/folder actions menu"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table cell",
+        "class": "filesize"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file size cells -- computed operator-defined values for file sizes"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table cell",
+        "class": "date"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "date cells -- computed operator-defined values for file modification dates and timestamps"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-skip-to-content"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Skip to content link -- renders: 'Skip to content'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "MarketingHeader-module__root__Tk7n3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global marketing header -- renders: 'GitHub', 'Product', 'Solutions', 'Open Source', 'Pricing', 'Sign in', 'Sign up', 'Search or jump to...'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "UnderlineNav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Repository tab navigation -- renders: 'Code', 'Issues', 'Pull requests', 'Actions', 'Projects', 'Wiki', 'Security and quality', 'Insights'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "prc-StateLabel-StateLabel-Iawzp"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue state label -- renders: 'Closed'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "prc-Flash-Flash-q6HW0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Signed-out banner -- renders: 'Sign up for GitHub', 'Already on GitHub? Sign in to comment'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "IssueViewer-module__issueViewerMetadataPane__bXvwI"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue metadata sidebar -- renders: 'Assignees', 'Labels', 'Projects', 'Milestone', 'Development', 'Participants', 'Copilot'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: '\u00a9 2024 GitHub, Inc.', 'Terms', 'Privacy', 'Security', 'Status', 'Docs', 'Contact', 'Cookie settings'"
+  }
+]

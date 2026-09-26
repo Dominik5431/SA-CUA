@@ -1,0 +1,154 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "bui-list-item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip-navigation link -- renders fixed platform interface vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders fixed Booking.com navigation, account controls, logo and header actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_tab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "product navigation -- renders the fixed accommodations/flights/packages/cars/attractions/airport-taxis vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "class": "d026bbaa45"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "destination search-field label -- renders fixed platform search vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "searchbox-horizontal-occupancy-label"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "occupancy-field label -- renders fixed guest-and-room search vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "f1f96fdf10"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "date search control -- renders fixed date-selection control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "b3d1de1c28"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "occupancy search control -- renders fixed guest-and-room control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "cfd71fb584"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search submission control -- renders fixed search-action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "ad68e1f7ce"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view switcher -- renders the fixed list/grid view vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "fcd8e16f81"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "results sorting and display controls -- render fixed sorting and results-view vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer_menu_track"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders fixed Booking.com help, company, partner and policy navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "xm-survey-component-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "platform survey widget -- renders operator-provided survey copy and fixed response controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "onetrust-banner-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie-consent banner -- renders operator-provided policy copy and fixed consent controls"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "list item",
+        "class": "c256f1a28a"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "listing-card action controls -- renders fixed platform actions such as save, gallery, map and availability controls while leaving listing text masked"
+  },
+  {
+    "own_role": "check box",
+    "ancestor_path": [
+      {
+        "role": "list item",
+        "class": "c256f1a28a"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "listing-card selection controls -- renders fixed platform selection vocabulary while leaving listing text masked"
+  }
+]

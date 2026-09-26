@@ -1,0 +1,113 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "header-appname-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "application header control -- renders the operator-defined app name and menu control"
+  },
+  {
+    "own_role": "label",
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "searchbox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search-box accessibility label -- renders fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "with-icon"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Files navigation -- renders the fixed operator-defined destinations Files/Favorites/Shared with you/Shared by you/Shared by link/Tags/Trash"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "app-settings-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Files app settings control -- renders fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "gallery-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view switcher control -- renders fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "column header",
+        "id": "headerName"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "name column header and select-all control -- render fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "column header",
+        "id": "headerSize"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "size column header -- renders fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "column header",
+        "id": "headerDate"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "modified-date column header -- renders fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "action-favorite"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "favorite action controls in file rows -- render fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "action-share"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sharing action controls in file rows -- render fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "action-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file action menus -- render fixed operator vocabulary"
+  }
+]

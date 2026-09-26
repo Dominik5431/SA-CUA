@@ -1,0 +1,945 @@
+import base64
+import os
+import time
+from typing import Any, cast, Optional, Dict
+from PIL import Image
+import io
+
+from anthropic import (
+    Anthropic,
+    AnthropicBedrock,
+    AnthropicVertex,
+    APIError,
+    APIResponseValidationError,
+    APIStatusError,
+)
+from anthropic.types.beta import (
+    BetaMessageParam,
+    BetaTextBlockParam,
+)
+from .utils import (
+    BATCHED_ACTION_PROMPT,
+    CLAUDE_47_PROMPT_ADDITIONS,
+    PROMPT_CACHING_BETA_FLAG,
+    APIProvider,
+    build_system_prompt,
+    get_claude_runtime_profile,
+    get_model_name,
+)
+from .utils import _response_to_params, _inject_prompt_caching, _maybe_filter_to_n_most_recent_images
+
+import logging
+logger = logging.getLogger("desktopenv.agent")
+
+API_RETRY_TIMES = 500  
+API_RETRY_INTERVAL = 5
+
+class AnthropicAgent:
+    def __init__(self,
+                 platform: str = "Ubuntu",
+                 model: str = "claude-sonnet-4-5-20250929",
+                 provider: APIProvider = APIProvider.ANTHROPIC,
+                 max_tokens: int = 4096,
+                 api_key: str = os.environ.get("ANTHROPIC_API_KEY", None),
+                 system_prompt_suffix: str = "",
+                 only_n_most_recent_images: Optional[int] = 10,
+                 action_space: str = "claude_computer_use",
+                 screen_size: tuple[int, int] = (1920, 1080),
+                 no_thinking: bool = False,
+                 use_isp: bool = False,
+                 effort: str = "max",
+                 temperature: Optional[float] = None,
+                 top_p: Optional[float] = None,
+                 use_zoom: bool = False,
+                 *args, **kwargs
+                 ):
+        self.platform = platform
+        self.action_space = action_space
+        self.logger = logger
+        self.class_name = self.__class__.__name__
+        self.model_name = model
+        self.provider = provider
+        self.max_tokens = max_tokens
+        self.api_key = api_key
+        self.system_prompt_suffix = system_prompt_suffix
+        self.only_n_most_recent_images = only_n_most_recent_images
+        self.messages: list[BetaMessageParam] = []
+        self.screen_size = screen_size
+        self.no_thinking = no_thinking
+        self.use_isp = use_isp
+        self.effort = effort
+        self.temperature = temperature
+        self.top_p = top_p
+        self.use_zoom = use_zoom
+        self.runtime_profile = get_claude_runtime_profile(model)
+        self.max_steps = kwargs.get('max_steps', 15)
+        self.current_step = 0
+        self.request_too_large_seen = False
+
+        self.resize_factor = (
+            screen_size[0] / 1280,
+            screen_size[1] / 720
+        )
+    
+    def _get_sampling_params(self):
+        """Get sampling parameters (temperature and/or top_p) - let API validate exclusivity"""
+        if not self.runtime_profile.supports_sampling_params:
+            return {}
+        params = {}
+        if self.temperature is not None:
+            params['temperature'] = self.temperature
+        if self.top_p is not None:
+            params['top_p'] = self.top_p
+        return params
+
+    def _create_message(self, client, *, actual_max_tokens, system, tools, betas, extra_body):
+        """Call the Messages API through the right namespace for this profile.
+
+        The computer_toolset_20260801 toolset is GA: it uses the standard
+        client.messages.create with no computer-use beta header. The earlier
+        computer_20241022/20250124/20251124 tools remain beta and go through
+        client.beta.messages.create with their beta flag.
+        """
+        kwargs = dict(
+            max_tokens=actual_max_tokens,
+            messages=self.messages,
+            model=get_model_name(self.provider, self.model_name),
+            system=[system],
+            tools=tools,
+            extra_body=extra_body,
+            **self._get_sampling_params(),
+        )
+        if self.runtime_profile.is_toolset:
+            return client.messages.create(**kwargs)
+        kwargs["betas"] = betas
+        return client.beta.messages.create(**kwargs)
+
+    def _is_request_too_large_error(self, error: Exception) -> bool:
+        error_msg = str(error)
+        return (
+            getattr(error, "status_code", None) == 413
+            or "request_too_large" in error_msg
+            or "Request exceeds the maximum size" in error_msg
+            or "25000000" in error_msg
+            or "Member must have length less than or equal to" in error_msg
+        )
+
+    def _make_image_block(self, png_bytes: bytes) -> dict:
+        return {
+            "type": "image",
+            "source": {
+                "type": "base64",
+                "media_type": "image/png",
+                "data": base64.b64encode(png_bytes).decode("utf-8"),
+            },
+        }
+
+    def add_tool_result(
+        self,
+        tool_call_id: str,
+        result: str,
+        screenshot: bytes = None,
+        extra_screenshots: Optional[list[bytes]] = None,
+    ):
+        """Add tool result to message history."""
+        tool_result_block = {
+            "type": "tool_result",
+            "tool_use_id": tool_call_id,
+            "content": [{"type": "text", "text": result}]
+        }
+        if self.runtime_profile.is_toolset:
+            tool_result_block["toolset_name"] = "computer"
+
+        tool_result_content = [tool_result_block]
+        
+        if screenshot is not None:
+            tool_result_content[0]["content"].append(
+                self._make_image_block(screenshot)
+            )
+
+        for extra_screenshot in extra_screenshots or []:
+            tool_result_content[0]["content"].append(
+                self._make_image_block(extra_screenshot)
+            )
+        
+        self.messages.append({
+            "role": "user",
+            "content": tool_result_content
+        })
+
+    def _process_zoom_screenshot(
+        self,
+        original_screenshot: Optional[bytes],
+        tool_input: Dict,
+    ):
+        """Crop a full-resolution screenshot region and scale it to fit 720p."""
+        if not original_screenshot:
+            return {"error": "No screenshot available for zoom action"}
+
+        region = tool_input.get("region")
+        if not isinstance(region, (list, tuple)) or len(region) != 4:
+            return {"error": "region must be a tuple of 4 integers (x0, y0, x1, y1)"}
+
+        try:
+            image = Image.open(io.BytesIO(original_screenshot))
+            x0, y0, x1, y1 = region
+
+            if self.resize_factor:
+                x0 = int(x0 * self.resize_factor[0])
+                y0 = int(y0 * self.resize_factor[1])
+                x1 = int(x1 * self.resize_factor[0])
+                y1 = int(y1 * self.resize_factor[1])
+
+            if x0 < 0 or y0 < 0 or x1 < 0 or y1 < 0:
+                return {"error": "region coordinates must be non-negative"}
+            if x1 <= x0 or y1 <= y0:
+                return {"error": "region must have positive width and height"}
+            if x1 > image.width or y1 > image.height:
+                return {"error": f"region exceeds image bounds ({image.width}x{image.height})"}
+
+            cropped = image.crop((x0, y0, x1, y1))
+            scale_factor = min(1280 / cropped.width, 720 / cropped.height)
+            scaled = cropped.resize(
+                (
+                    max(1, int(cropped.width * scale_factor)),
+                    max(1, int(cropped.height * scale_factor)),
+                ),
+                Image.Resampling.LANCZOS,
+            )
+
+            output_buffer = io.BytesIO()
+            scaled.save(output_buffer, format="PNG")
+            return output_buffer.getvalue()
+        except Exception as e:
+            return {"error": f"Failed to process zoom: {str(e)}"}
+    
+    def _extract_raw_response_string(self, response) -> str:
+        """Extract and concatenate raw response content into a single string."""
+        raw_response_str = ""
+        if response.content:
+            for block in response.content:
+                if hasattr(block, 'text') and block.text:
+                    raw_response_str += f"[TEXT] {block.text}\n"
+                elif hasattr(block, 'thinking') and block.thinking:
+                    raw_response_str += f"[THINKING] {block.thinking}\n"
+                elif hasattr(block, 'name') and hasattr(block, 'input'):
+                    raw_response_str += f"[TOOL_USE] {block.name}: {block.input}\n"
+                else:
+                    raw_response_str += f"[OTHER] {str(block)}\n"
+        return raw_response_str.strip()
+
+    def parse_actions_from_tool_call(self, tool_call: Dict) -> str:
+        if tool_call.get("toolset_name") == "computer":
+            action_name = tool_call.get("name")
+            if not action_name:
+                raise ValueError("toolset tool_use block is missing 'name'")
+            return self._parse_single_action(action_name, tool_call.get("input") or {})
+
+        tool_name = tool_call.get("name", "computer")
+        if tool_name != "computer":
+            raise ValueError(f"Unknown tool: {tool_name}")
+
+        result = ""
+        function_args = tool_call["input"]
+
+        batched_actions = function_args.get("actions")
+        if batched_actions is not None:
+            if not isinstance(batched_actions, list):
+                raise ValueError(f"{batched_actions} must be a list")
+            for batched_action in batched_actions:
+                if not isinstance(batched_action, dict):
+                    raise ValueError(f"{batched_action} must be a dict")
+                result += self.parse_actions_from_tool_call({"input": batched_action})
+            return result
+
+        action = function_args.get("action") or tool_call.get("name", "computer")
+        return self._parse_single_action(action, function_args)
+
+    def _parse_single_action(self, action: str, function_args: Dict) -> str:
+        result = ""
+        action_conversion = {
+            "left click": "click",
+            "right click": "right_click"
+        }
+        action = action_conversion.get(action, action)
+        
+        text = function_args.get("text")
+        coordinate = function_args.get("coordinate")
+        start_coordinate = function_args.get("start_coordinate")
+        scroll_direction = function_args.get("scroll_direction")
+        scroll_amount = function_args.get("scroll_amount")
+        duration = function_args.get("duration")
+        repeat = int(function_args.get("repeat") or 1)
+        
+        if coordinate and self.resize_factor:
+            coordinate = (
+                int(coordinate[0] * self.resize_factor[0]),
+                int(coordinate[1] * self.resize_factor[1])
+            )
+        if start_coordinate and self.resize_factor:
+            start_coordinate = (
+                int(start_coordinate[0] * self.resize_factor[0]),
+                int(start_coordinate[1] * self.resize_factor[1])
+            )
+        
+        if action == "left_mouse_down":
+            result += "pyautogui.mouseDown()\n"
+        elif action == "left_mouse_up":
+            result += "pyautogui.mouseUp()\n"
+        
+        elif action == "hold_key":
+            if not isinstance(text, str):
+                raise ValueError(f"{text} must be a string")
+            
+            keys = text.split('+')
+            for key in keys:
+                key = key.strip().lower()
+                result += f"pyautogui.keyDown('{key}')\n"
+            expected_outcome = f"Keys {text} held down."
+
+        elif action in ("mouse_move", "left_click_drag"):
+            if coordinate is None:
+                raise ValueError(f"coordinate is required for {action}")
+            if text is not None:
+                raise ValueError(f"text is not accepted for {action}")
+            if not isinstance(coordinate, (list, tuple)) or len(coordinate) != 2:
+                raise ValueError(f"{coordinate} must be a tuple of length 2")
+            if not all(isinstance(i, int) for i in coordinate):
+                raise ValueError(f"{coordinate} must be a tuple of ints")
+            
+            x, y = coordinate[0], coordinate[1]
+            if action == "mouse_move":
+                result += (
+                    f"pyautogui.moveTo({x}, {y}, duration={duration or 0.5})\n"
+                )
+                expected_outcome = f"Mouse moved to ({x},{y})."
+            elif action == "left_click_drag":
+                if start_coordinate:
+                    if not isinstance(start_coordinate, (list, tuple)) or len(start_coordinate) != 2:
+                        raise ValueError(f"{start_coordinate} must be a tuple of length 2")
+                    if not all(isinstance(i, int) for i in start_coordinate):
+                        raise ValueError(f"{start_coordinate} must be a tuple of ints")
+                    start_x, start_y = start_coordinate[0], start_coordinate[1]
+                    result += (
+                        f"pyautogui.moveTo({start_x}, {start_y}, duration={duration or 0.5})\n"
+                    )
+                result += (
+                    f"pyautogui.dragTo({x}, {y}, duration={duration or 0.5})\n"
+                )
+                expected_outcome = f"Cursor dragged to ({x},{y})."
+
+        elif action in ("key", "type"):
+            if text is None:
+                raise ValueError(f"text is required for {action}")
+            if coordinate is not None:
+                raise ValueError(f"coordinate is not accepted for {action}")
+            if not isinstance(text, str):
+                raise ValueError(f"{text} must be a string")
+
+            if action == "key":
+                key_conversion = {
+                    "page_down": "pagedown",
+                    "page_up": "pageup",
+                    "super_l": "win",
+                    "super": "command",
+                    "escape": "esc"
+                }
+                keys = text.split('+')
+                for _ in range(repeat):
+                    for key in keys:
+                        key = key.strip().lower()
+                        key = key_conversion.get(key, key)
+                        result += (f"pyautogui.keyDown('{key}')\n")
+                    for key in reversed(keys):
+                        key = key.strip().lower()
+                        key = key_conversion.get(key, key)
+                        result += (f"pyautogui.keyUp('{key}')\n")
+                expected_outcome = f"Key {text} pressed {repeat} time(s)."
+            elif action == "type":
+                result += "_osworld_original_pyautogui_pause = pyautogui.PAUSE\n"
+                result += "pyautogui.PAUSE = 0.002\n"
+                result += "try:\n"
+                if text.isascii():
+                    if not text:
+                        result += "    pass\n"
+                    for char in text:
+                        if char == '\n':
+                            result += "    pyautogui.press('enter')\n"
+                        elif char == "'":
+                            result += '    pyautogui.press("\'")\n'
+                        elif char == '\\':
+                            result += "    pyautogui.press('\\\\')\n"
+                        elif char == '"':
+                            result += "    pyautogui.press('\"')\n"
+                        else:
+                            result += f"    pyautogui.press('{char}')\n"
+                else:
+                    result += "    import pyperclip\n"
+                    lines = text.split('\n')
+                    for idx, line in enumerate(lines):
+                        if line:
+                            result += f"    pyperclip.copy({line!r})\n"
+                            result += "    pyautogui.hotkey('ctrl', 'v')\n"
+                            result += "    time.sleep(0.5)\n"
+                        if idx != len(lines) - 1:
+                            result += "    pyautogui.press('enter')\n"
+                result += "finally:\n"
+                result += "    pyautogui.PAUSE = _osworld_original_pyautogui_pause\n"
+                expected_outcome = f"Text {text} written."
+
+        elif action == "scroll":
+            if text is not None:
+                result += (f"pyautogui.keyDown('{text.lower()}')\n")
+            if coordinate is None:
+                if scroll_direction in ("up", "down"):
+                    result += (
+                        f"pyautogui.scroll({scroll_amount if scroll_direction == 'up' else -scroll_amount})\n"
+                    )
+                elif scroll_direction in ("left", "right"):
+                    result += (
+                        f"pyautogui.hscroll({scroll_amount if scroll_direction == 'right' else -scroll_amount})\n"
+                    )
+            else:
+                if scroll_direction in ("up", "down"):
+                    x, y = coordinate[0], coordinate[1]
+                    result += (
+                        f"pyautogui.scroll({scroll_amount if scroll_direction == 'up' else -scroll_amount}, {x}, {y})\n"
+                    )
+                elif scroll_direction in ("left", "right"):
+                    x, y = coordinate[0], coordinate[1]
+                    result += (
+                        f"pyautogui.hscroll({scroll_amount if scroll_direction == 'right' else -scroll_amount}, {x}, {y})\n"
+                    )
+            if text is not None:
+                result += (f"pyautogui.keyUp('{text.lower()}')\n")
+            expected_outcome = "Scroll action finished"
+
+        elif action in ("left_click", "right_click", "double_click", "middle_click", "left_press", "triple_click"):
+            if text:
+                keys = text.split('+')
+                for key in keys:
+                    key = key.strip().lower()
+                    result += f"pyautogui.keyDown('{key}')\n"
+            if coordinate is not None:
+                x, y = coordinate
+                if action == "left_click":
+                    result += (f"pyautogui.click({x}, {y})\n")
+                elif action == "right_click":
+                    result += (f"pyautogui.rightClick({x}, {y})\n")
+                elif action == "double_click":
+                    result += (f"pyautogui.doubleClick({x}, {y})\n")
+                elif action == "middle_click":
+                    result += (f"pyautogui.middleClick({x}, {y})\n")
+                elif action == "left_press":
+                    result += (f"pyautogui.mouseDown({x}, {y})\n")
+                    result += ("time.sleep(1)\n")
+                    result += (f"pyautogui.mouseUp({x}, {y})\n")
+                elif action == "triple_click":
+                    result += (f"pyautogui.tripleClick({x}, {y})\n")
+
+            else:
+                if action == "left_click":
+                    result += ("pyautogui.click()\n")
+                elif action == "right_click":
+                    result += ("pyautogui.rightClick()\n")
+                elif action == "double_click":
+                    result += ("pyautogui.doubleClick()\n")
+                elif action == "middle_click":
+                    result += ("pyautogui.middleClick()\n")
+                elif action == "left_press":
+                    result += ("pyautogui.mouseDown()\n")
+                    result += ("time.sleep(1)\n")
+                    result += ("pyautogui.mouseUp()\n")
+                elif action == "triple_click":
+                    result += ("pyautogui.tripleClick()\n")
+            if text:
+                keys = text.split('+')
+                for key in reversed(keys):
+                    key = key.strip().lower()
+                    result += f"pyautogui.keyUp('{key}')\n"
+            expected_outcome = "Click action finished"
+            
+        elif action == "wait":
+            result += f"pyautogui.sleep({duration or 0.5})\n"
+            expected_outcome = f"Wait for {duration or 0.5} seconds"
+        elif action == "fail":
+            result += "FAIL"
+            expected_outcome = "Finished"
+        elif action == "done":
+            result += "DONE"
+            expected_outcome = "Finished"
+        elif action == "screenshot":
+            result += "pyautogui.sleep(0.1)\n"
+            expected_outcome = "Screenshot taken"
+        elif action == "zoom":
+            result += "pyautogui.sleep(0.1)\n"
+            expected_outcome = "Zoom screenshot taken"
+        elif action == "cursor_position":
+            result += "pyautogui.sleep(0.1)\n"
+            expected_outcome = "Cursor position queried"
+        else:
+            raise ValueError(f"Invalid action: {action}")
+        
+        return result
+            
+    def predict(self, task_instruction: str, obs: Dict = None, system: Any = None):
+        self.current_step += 1
+
+        system_text = build_system_prompt(
+            self.platform,
+            getattr(self, "task_current_date", None),
+            self.system_prompt_suffix,
+        )
+        if self.runtime_profile.use_claude_47_prompt:
+            system_text += f"\n\n{CLAUDE_47_PROMPT_ADDITIONS}"
+            system_text += f"\n\n<STEP_LIMIT>You have a maximum of {self.max_steps} steps to complete this task. Use your steps wisely.</STEP_LIMIT>"
+            system_text += f"\n\n{BATCHED_ACTION_PROMPT}"
+
+        system = BetaTextBlockParam(
+            type="text",
+            text=system_text,
+        )
+        
+        if obs and "screenshot" in obs:
+            screenshot_bytes = obs["screenshot"]
+            screenshot_image = Image.open(io.BytesIO(screenshot_bytes))
+            
+            obs["screenshot_original"] = screenshot_bytes
+            
+            new_width, new_height = 1280, 720
+            
+            resized_image = screenshot_image.resize((new_width, new_height), Image.Resampling.LANCZOS)
+            
+            output_buffer = io.BytesIO()
+            resized_image.save(output_buffer, format='PNG')
+            obs["screenshot"] = output_buffer.getvalue()
+            
+
+        if obs and obs.get('user_response') and self.messages:
+            self.messages.append({
+                "role": "user",
+                "content": [{"type": "text", "text": obs['user_response']}]
+            })
+
+        if not self.messages:
+
+            init_screenshot = obs
+            init_screenshot_base64 = base64.b64encode(init_screenshot["screenshot"]).decode('utf-8')
+            self.messages.append({
+                "role": "user",
+                "content": [
+                    {
+                    "type": "image",
+                    "source": {
+                            "type": "base64",
+                            "media_type": "image/png",
+                            "data": init_screenshot_base64,
+                        },
+                    },
+                    {"type": "text", "text": task_instruction},
+                ]
+            })
+            
+        if self.messages:
+            last_message_content = self.messages[-1]["content"]
+            tool_use_blocks = [block for block in last_message_content if block.get("type") == "tool_use"]
+            
+            for i, tool_block in enumerate(tool_use_blocks):
+                tool_input = tool_block.get("input", {})
+                action = tool_block.get("name") or tool_input.get("action")
+                is_last_tool = i == len(tool_use_blocks) - 1
+
+                include_screenshot = None
+                extra_screenshots = None
+
+                if obs and not self.runtime_profile.is_toolset and isinstance(tool_input.get("actions"), list):
+                    batch_actions = tool_input["actions"]
+                    zoom_action = None
+                    zoom_index = None
+                    for idx, batch_action in enumerate(batch_actions):
+                        if batch_action.get("action") == "zoom":
+                            zoom_action = batch_action
+                            zoom_index = idx
+
+                    if zoom_action is not None:
+                        zoom_result = self._process_zoom_screenshot(
+                            obs.get("screenshot_original"),
+                            zoom_action,
+                        )
+                        if isinstance(zoom_result, dict):
+                            self.add_tool_result(
+                                tool_block["id"],
+                                zoom_result["error"],
+                            )
+                            continue
+
+                        include_screenshot = zoom_result
+                        if (
+                            zoom_index < len(batch_actions) - 1
+                            and obs.get("screenshot")
+                        ):
+                            extra_screenshots = [obs.get("screenshot")]
+                    else:
+                        last_action = (
+                            batch_actions[-1].get("action")
+                            if batch_actions
+                            else None
+                        )
+                        if last_action == "screenshot" or is_last_tool:
+                            include_screenshot = obs.get("screenshot")
+                elif obs:
+                    if action == "screenshot":
+                        include_screenshot = obs.get("screenshot")
+                    elif action == "zoom":
+                        zoom_result = self._process_zoom_screenshot(
+                            obs.get("screenshot_original"),
+                            tool_input,
+                        )
+                        if isinstance(zoom_result, dict):
+                            self.add_tool_result(
+                                tool_block["id"],
+                                zoom_result["error"],
+                            )
+                            continue
+                        include_screenshot = zoom_result
+                    elif is_last_tool:
+                        include_screenshot = obs.get("screenshot")
+
+                self.add_tool_result(
+                    tool_block["id"],
+                    f"Success",
+                    screenshot=include_screenshot,
+                    extra_screenshots=extra_screenshots,
+                )
+
+            if tool_use_blocks and self.runtime_profile.use_claude_47_prompt and self.messages and self.messages[-1]["role"] == "user":
+                self.messages[-1]["content"].append({
+                    "type": "text",
+                    "text": f"[Current step: {self.current_step}/{self.max_steps}]",
+                })
+            
+        enable_prompt_caching = False
+        if self.runtime_profile.is_toolset:
+            betas = []
+        else:
+            betas = [self.runtime_profile.computer_use_beta_flag]
+        
+        if self.use_isp and self.runtime_profile.thinking_mode == "legacy":
+            betas.append("interleaved-thinking-2025-05-14")
+            logger.info(f"Added interleaved thinking beta. Betas: {betas}")
+            
+        image_truncation_threshold = 10
+        if self.provider == APIProvider.ANTHROPIC:
+            if self.runtime_profile.is_toolset:
+                client = Anthropic(api_key=self.api_key, max_retries=4)
+            else:
+                client = Anthropic(api_key=self.api_key, max_retries=4).with_options(
+                    default_headers={"anthropic-beta": self.runtime_profile.computer_use_beta_flag}
+                )
+            enable_prompt_caching = True
+        elif self.provider == APIProvider.VERTEX:
+            client = AnthropicVertex()
+        elif self.provider == APIProvider.BEDROCK:
+            client = AnthropicBedrock(
+                aws_access_key=os.getenv('AWS_ACCESS_KEY_ID'),
+                aws_secret_key=os.getenv('AWS_SECRET_ACCESS_KEY'),
+                aws_region=os.getenv('AWS_DEFAULT_REGION'),
+            )
+
+        if enable_prompt_caching:
+            betas.append(PROMPT_CACHING_BETA_FLAG)
+            _inject_prompt_caching(self.messages)
+            image_truncation_threshold = 10 if self.request_too_large_seen else 20
+            system["cache_control"] = {"type": "ephemeral"}
+
+        if self.only_n_most_recent_images:
+            _maybe_filter_to_n_most_recent_images(
+                self.messages,
+                self.only_n_most_recent_images,
+                min_removal_threshold=image_truncation_threshold,
+            )
+
+        if self.runtime_profile.is_toolset:
+            tool_config = {
+                'type': self.runtime_profile.computer_use_type,
+                'configs': {
+                    'zoom': {'enabled': bool(self.use_zoom)},
+                },
+            }
+        else:
+            tool_config = {
+                'name': 'computer',
+                'type': self.runtime_profile.computer_use_type,
+                'display_width_px': 1280,
+                'display_height_px': 720,
+                'display_number': 1
+            }
+            if self.runtime_profile.computer_use_type == "computer_20251124":
+                tool_config["enable_zoom"] = True
+
+        tools = [tool_config]
+
+        if self.runtime_profile.thinking_mode == "adaptive":
+            if self.no_thinking:
+                extra_body = {}
+                actual_max_tokens = self.max_tokens
+                logger.info(f"Runtime profile: {self.runtime_profile.label}; thinking mode: DISABLED")
+            else:
+                extra_body = {
+                    "thinking": {"type": "adaptive"},
+                    "output_config": {"effort": self.effort},
+                }
+                actual_max_tokens = max(self.max_tokens, self.runtime_profile.default_max_tokens)
+                logger.info(f"Runtime profile: {self.runtime_profile.label}; thinking mode: ADAPTIVE; effort: {self.effort}")
+        else:
+            if self.no_thinking:
+                extra_body = {}
+                actual_max_tokens = self.max_tokens
+                logger.info(f"Runtime profile: {self.runtime_profile.label}; thinking mode: DISABLED")
+            else:
+                budget_tokens = 2048
+
+                if self.max_tokens <= budget_tokens:
+                    required_max_tokens = budget_tokens + 500
+                    logger.warning(f"Regular thinking requires max_tokens > budget_tokens. Increasing max_tokens from {self.max_tokens} to {required_max_tokens}")
+                    actual_max_tokens = required_max_tokens
+                else:
+                    actual_max_tokens = self.max_tokens
+
+                extra_body = {
+                    "thinking": {"type": "enabled", "budget_tokens": budget_tokens}
+                }
+                if self.use_isp:
+                    logger.info(f"Runtime profile: {self.runtime_profile.label}; thinking mode: INTERLEAVED SCRATCHPAD (ISP)")
+                else:
+                    logger.info(f"Runtime profile: {self.runtime_profile.label}; thinking mode: REGULAR SCRATCHPAD")
+
+        try:
+            response = None
+            
+            for attempt in range(API_RETRY_TIMES):
+                try:
+                    response = self._create_message(
+                        client,
+                        actual_max_tokens=actual_max_tokens,
+                        system=system,
+                        tools=tools,
+                        betas=betas,
+                        extra_body=extra_body,
+                    )
+                    
+                    logger.info(f"Response: {response}")
+                    break
+                except (APIError, APIStatusError, APIResponseValidationError) as e:
+                    error_msg = str(e)
+                    logger.warning(f"Anthropic API error (attempt {attempt+1}/{API_RETRY_TIMES}): {error_msg}")
+
+                    if self._is_request_too_large_error(e):
+                        if not self.request_too_large_seen:
+                            logger.warning(
+                                "Request too large detected; lowering image truncation "
+                                "threshold to 10 for the rest of this task."
+                            )
+                        self.request_too_large_seen = True
+
+                        if self.only_n_most_recent_images is None:
+                            logger.error(
+                                "Request too large, but image truncation is disabled; "
+                                "failing current prediction."
+                            )
+                            return None, None
+
+                        emergency_threshold = min(10, image_truncation_threshold)
+                        tried_thresholds = []
+                        while True:
+                            tried_thresholds.append(emergency_threshold)
+                            logger.warning(
+                                "Request too large; emergency image truncation with "
+                                "images_to_keep=%s, threshold=%s.",
+                                self.only_n_most_recent_images,
+                                emergency_threshold,
+                            )
+                            _maybe_filter_to_n_most_recent_images(
+                                self.messages,
+                                self.only_n_most_recent_images,
+                                min_removal_threshold=emergency_threshold,
+                            )
+
+                            try:
+                                response = self._create_message(
+                                    client,
+                                    actual_max_tokens=actual_max_tokens,
+                                    system=system,
+                                    tools=tools,
+                                    betas=betas,
+                                    extra_body=extra_body,
+                                )
+                                logger.info(f"Response: {response}")
+                                break
+                            except (APIError, APIStatusError, APIResponseValidationError) as retry_e:
+                                if not self._is_request_too_large_error(retry_e):
+                                    raise
+                                logger.warning(
+                                    "Request still too large after emergency threshold=%s: %s",
+                                    emergency_threshold,
+                                    str(retry_e),
+                                )
+                                if emergency_threshold == 1:
+                                    logger.error(
+                                        "Request still too large after emergency image "
+                                        "truncation thresholds %s; failing current prediction.",
+                                        tried_thresholds,
+                                    )
+                                    return None, None
+                                emergency_threshold = max(1, emergency_threshold // 2)
+                        break
+
+                    if attempt < API_RETRY_TIMES - 1:
+                        time.sleep(API_RETRY_INTERVAL)
+                    else:
+                        raise
+
+        except (APIError, APIStatusError, APIResponseValidationError) as e:
+            logger.exception(f"Anthropic API error: {str(e)}")
+            try:
+                logger.warning("Retrying with backup API key...")
+
+                if self.runtime_profile.is_toolset:
+                    backup_client = Anthropic(api_key=os.environ.get("ANTHROPIC_API_KEY_BACKUP"), max_retries=4)
+                else:
+                    backup_client = Anthropic(api_key=os.environ.get("ANTHROPIC_API_KEY_BACKUP"), max_retries=4).with_options(
+                        default_headers={"anthropic-beta": self.runtime_profile.computer_use_beta_flag}
+                    )
+                response = self._create_message(
+                    backup_client,
+                    actual_max_tokens=actual_max_tokens,
+                    system=system,
+                    tools=tools,
+                    betas=betas,
+                    extra_body=extra_body,
+                )
+                
+                logger.info("Successfully used backup API key")
+            except Exception as backup_e:
+                backup_error_msg = str(backup_e)
+                logger.exception(f"Backup API call also failed: {backup_error_msg}")
+                return None, None
+
+        except Exception as e:
+            logger.exception(f"Error in Anthropic API: {str(e)}")
+            return None, None
+
+        if response is None:
+            logger.error("Response is None after API call - this should not happen")
+            return None, None
+
+        response_params = _response_to_params(response)
+        logger.info(f"Received response params: {response_params}")
+
+        raw_response_str = self._extract_raw_response_string(response)
+
+        self.messages.append({
+            "role": "assistant",
+            "content": response_params
+        })
+
+        max_parse_retry = 3
+        for parse_retry in range(max_parse_retry):
+            actions: list[Any] = []
+            reasonings: list[str] = []
+            try:
+                for content_block in response_params:
+                    if content_block["type"] == "tool_use":
+                        actions.append({
+                            "name": content_block["name"],
+                            "input": cast(dict[str, Any], content_block["input"]),
+                            "id": content_block["id"],
+                            "action_type": content_block.get("type"),
+                            "command": self.parse_actions_from_tool_call(content_block),
+                            "raw_response": raw_response_str
+                        })
+                    elif content_block["type"] == "text":
+                        reasonings.append(content_block["text"])
+                if isinstance(reasonings, list) and len(reasonings) > 0:
+                    reasonings = reasonings[0]
+                else:
+                    reasonings = ""
+                
+                if raw_response_str and "[INFEASIBLE]" in raw_response_str:
+                    logger.info("Detected [INFEASIBLE] pattern in response, triggering FAIL action")
+                    actions = [{
+                        "action_type": "FAIL",
+                        "raw_response": raw_response_str
+                    }]
+
+                if raw_response_str and "[DONE]" in raw_response_str:
+                    logger.info("Detected [DONE] pattern in response, triggering DONE action")
+                    actions = [{
+                        "action_type": "DONE",
+                        "raw_response": raw_response_str
+                    }]
+                
+                if not actions:
+                    logger.info("Response contained no tool_use block -- the model answered "
+                                "instead of acting; ending the episode.")
+                    actions = [{
+                        "action_type": "DONE",
+                        "raw_response": raw_response_str,
+                    }]
+
+                logger.info(f"Received actions: {actions}")
+                logger.info(f"Received reasonings: {reasonings}")
+                return reasonings, actions
+            except Exception as e:
+                logger.warning(f"parse_actions_from_tool_call parsing failed (attempt {parse_retry+1}/3), will retry API request: {e}")
+                self.messages.pop()
+                response = None
+                for attempt in range(API_RETRY_TIMES):
+                    try:
+                        response = self._create_message(
+                            client,
+                            actual_max_tokens=actual_max_tokens,
+                            system=system,
+                            tools=tools,
+                            betas=betas,
+                            extra_body=extra_body,
+                        )
+                        
+                        logger.info(f"Response: {response}")
+                        break
+                    except (APIError, APIStatusError, APIResponseValidationError) as e2:
+                        error_msg = str(e2)
+                        logger.warning(f"Anthropic API error (attempt {attempt+1}/{API_RETRY_TIMES}): {error_msg}")
+                        if attempt < API_RETRY_TIMES - 1:
+                            time.sleep(API_RETRY_INTERVAL)
+                        else:
+                            raise
+                response_params = _response_to_params(response)
+                logger.info(f"Received response params: {response_params}")
+                
+                raw_response_str = self._extract_raw_response_string(response)
+                
+                self.messages.append({
+                    "role": "assistant",
+                    "content": response_params
+                })
+                if parse_retry == max_parse_retry - 1:
+                    logger.error(f"parse_actions_from_tool_call parsing failed 3 times consecutively, terminating: {e}")
+                    actions = [{
+                        "action_type": "FAIL",
+                        "raw_response": f"Failed to parse actions from tool call after {max_parse_retry} attempts: {e}"
+                    }]
+                    return reasonings, actions
+    def reset(self, _logger = None, *args, **kwargs):
+        """
+        Reset the agent's state.
+        """
+        global logger
+        if _logger:
+            logger = _logger
+        else:
+            logger = logging.getLogger("desktopenv.agent")
+        self.messages = []
+        self.current_step = 0
+        self.request_too_large_seen = False
+        logger.info(f"{self.class_name} reset.")

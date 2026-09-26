@@ -1,0 +1,13 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "table",
+        "class": "tree-table"
+      }
+    ],
+    "own_role": "table column header",
+    "verdict": "trusted",
+    "note": "File manager column headers -- renders fixed operator vocabulary for file attributes (e.g., Name, Size, Type, Modified)"
+  }
+]

@@ -1,0 +1,96 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "spacesToolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top-level application navigation bar -- renders fixed operator vocabulary: Mail, Address Book, Calendar, Tasks, Chat, Settings, Collapse"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "icons-beside-text"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Unified toolbar and window controls -- renders fixed operator vocabulary: search icon, app menu, minimize, restore, close; search input text is user-generated and subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "toolbar-menubar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Application menu bar -- renders fixed operator vocabulary: File, Edit, View, Go, Message, Tasks, Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "chat-toolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Chat interface controls -- renders fixed operator vocabulary: Add Buddy, Join Chat, Status, Accounts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "folderPaneHeaderBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Folder pane action buttons -- renders fixed operator vocabulary: More, Write Message, Get Messages"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "threadPaneHeaderBar"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "id": "threadPaneFolderName"
+      },
+      {
+        "role": "section",
+        "id": "threadPaneFolderCountContainer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Thread pane header controls -- renders fixed operator vocabulary: Quick Filter, Display; folder name and count are user/account-derived and subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Application status bar -- renders fixed operator vocabulary: Offline status, status text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "start-page"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Thunderbird start page -- renders fixed operator vocabulary: release channel, donate, logo, tagline, feature descriptions, links"
+  }
+]

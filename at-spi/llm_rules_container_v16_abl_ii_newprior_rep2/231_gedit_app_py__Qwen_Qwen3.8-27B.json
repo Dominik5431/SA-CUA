@@ -1,0 +1,62 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Editor toolbar buttons -- operator-defined fixed vocabulary for editing actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "Editor toolbar toggle buttons -- operator-defined fixed vocabulary for view modes"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "label",
+    "verdict": "trusted",
+    "note": "Editor toolbar labels -- operator-defined fixed vocabulary for tool names"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "radio button",
+    "verdict": "trusted",
+    "note": "Editor view mode radio buttons -- operator-defined fixed vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "check box",
+    "verdict": "trusted",
+    "note": "Editor settings checkboxes -- operator-defined fixed vocabulary for features"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "status bar",
+    "verdict": "trusted",
+    "note": "Status bar container -- operator-defined fixed vocabulary for status labels"
+  }
+]

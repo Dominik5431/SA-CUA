@@ -1,0 +1,144 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "bui-list-item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip-navigation link -- renders fixed platform navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders the operator's fixed branding, account, help, language, currency and navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "Header_logo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site logo navigation -- renders the operator's fixed branding and home control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "header controls -- renders fixed operator vocabulary for branding, help, account access, language and currency controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_tab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "product navigation tabs -- renders: accommodations/flights/packages/cars/attractions/airport taxis"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "c40c550a3e"
+      }
+    ],
+    "own_role": "label",
+    "verdict": "trusted",
+    "note": "search-form labels -- renders fixed destination, dates and occupancy vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "c40c550a3e"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "search-form buttons -- renders fixed search, date, occupancy and clear-control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "searchbox-horizontal-occupancy-label"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "occupancy field label -- renders fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "fcd8e16f81"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sort control -- renders the fixed sorting-control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "ad68e1f7ce"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view switcher -- renders the fixed list and grid view controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "TravellerFooter_root--variant-full"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders fixed operator navigation, support, legal and service vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "TravellerFooter_inline-links-list--content"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer inline navigation -- renders fixed operator service and policy links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "TravellerFooter_footer-lists"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer link groups -- renders fixed operator help, partner, legal and travel-service vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "TravellerFooter_footer-control-section"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer controls and attribution -- renders fixed language, currency, accessibility and operator attribution controls"
+  }
+]

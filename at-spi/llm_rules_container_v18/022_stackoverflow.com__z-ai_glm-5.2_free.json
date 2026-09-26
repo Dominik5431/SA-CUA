@@ -1,0 +1,33 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: Stack Overflow/Products/Company/Stack Exchange Network link sections, social links, copyright"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "onetrust-consent-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent SDK -- operator-authored consent banner"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mainbar-full"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "section headings in profile main content -- renders: Stats/About/Badges/Top answers/Top tags/Bookmarks/Network posts labels; no user-authored headings appear in this scope"
+  }
+]

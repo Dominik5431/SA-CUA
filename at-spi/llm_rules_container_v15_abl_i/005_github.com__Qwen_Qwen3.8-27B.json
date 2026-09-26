@@ -1,0 +1,108 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "header-wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site header -- renders: Skip to content, GitHub, Platform, Solutions, Marketplace, Pricing, Sign in, Sign up, Search, Appearance"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "js-repo-pjax-container"
+      },
+      {
+        "role": "section",
+        "id": "repository-container-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "link",
+        "class": "url fn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Repository header chrome -- renders: Public, Watch, Fork, Star, Code, Actions, Projects, Security, Insights; repository name is subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repo-content-pjax-container"
+      },
+      {
+        "role": "header",
+        "class": "prc-PageLayout-Header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Commits page header -- renders: Commits"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repo-content-pjax-container"
+      },
+      {
+        "role": "push button",
+        "id": "ref-picker-commits"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Branch selector control -- renders: Branch"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repo-content-pjax-container"
+      },
+      {
+        "role": "push button",
+        "id": "_R_3pqk5_"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Author filter control -- renders: Author"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repo-content-pjax-container"
+      },
+      {
+        "role": "push button",
+        "class": "prc-Button-ButtonBase-9n-Xk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Commit filter control -- renders: Commits on"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "prc-Pagination-PaginationContainer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Pagination controls -- renders: Previous, Next"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site footer -- renders: \u00a9 2024 GitHub, Inc., Terms, Privacy, Security, Status, Docs, Contact, Manage cookies, Do not share my personal information"
+  }
+]

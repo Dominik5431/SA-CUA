@@ -1,0 +1,100 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: skip link, logo, Home, Questions, Ask, Search, Help, Stack Exchange, Log in, Sign up"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Left sidebar navigation -- renders: Home, Questions, Ask, Tags, Users, Companies, Collectives, Challenges, Chat, Articles, Sign up, Log in"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: logo, Product, Company, Connect, Legal, social links, copyright, version"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "tag-headline-container"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "dfp-tag"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Tag page header -- renders: tag name, description, Ask Question, Filter buttons; ad slot subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mainbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "tag-headline-container"
+      },
+      {
+        "role": "section",
+        "id": "questions"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main bar controls -- renders: question count, sort tabs (Newest, Active, Votes, Score), filter toggle, pagination"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "dfp-tsb"
+      },
+      {
+        "role": "section",
+        "id": "dfp-msb"
+      },
+      {
+        "role": "section",
+        "id": "dfp-bsb"
+      },
+      {
+        "role": "section",
+        "id": "hot-network-questions"
+      },
+      {
+        "role": "landmark",
+        "class": "js-sofa-sidebar-promo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar chrome -- renders: Stack Exchange network links, report ad buttons, feed link; ads and user-generated hot questions subtracted"
+  }
+]

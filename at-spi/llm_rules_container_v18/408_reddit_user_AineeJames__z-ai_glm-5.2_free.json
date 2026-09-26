@@ -1,0 +1,95 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility navigation -- renders fixed skip-link vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-nav"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "class": "site-nav__user-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site navigation bar -- renders: logo, main menu links, search input; excepts the user menu list which may display the logged-in user's name"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "break-text"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar -- renders: section heading and fixed navigation menu items; excepts the profile-info section which displays the viewed user's name and join date"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders platform copyright text and a fixed footer link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vote"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "vote control -- renders fixed Vote up/Vote down buttons; the score static is numeric and handled by the deterministic pass"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "comment__nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment action bar -- renders fixed Reply/Permalink/Parent links"
+  },
+  {
+    "own_role": "check box",
+    "ancestor_path": [
+      {
+        "role": "article",
+        "class": "comment"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment visibility toggle checkbox -- fixed platform control inside the comment article"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "class": "comment__hide-toggle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment hide toggle -- renders fixed 'Hide' label"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Wr7_RG_mastheadWrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Masthead and top navigation bar -- renders fixed operator vocabulary: site logo, section labels, and navigation controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "top-slug"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Section slug label -- renders fixed operator vocabulary for the current section"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "css-1ta8iz9"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Section header and navigation tabs -- renders fixed operator vocabulary for section categories"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "tab-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Stream tab navigation -- renders fixed operator vocabulary for sorting/filtering views"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "css-1jx9oro"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Pagination controls -- renders fixed operator vocabulary for page numbers"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "site-index"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site index header -- renders fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders fixed operator vocabulary for legal links and site navigation"
+  }
+]

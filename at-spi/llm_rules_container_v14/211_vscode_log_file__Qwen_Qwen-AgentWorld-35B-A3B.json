@@ -1,0 +1,44 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar",
+        "id": "workbench.parts.statusbar",
+        "class": "part statusbar status-border-top"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "status bar -- platform's own interface controls and computed values (host, problems, ports, notifications, editor mode, eol, encoding, indentation, selection)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar",
+        "class": "ElectronMenuBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top menu bar -- platform's own interface navigation (File, Edit, Selection, View, Go, Run, Terminal, Help)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "class": "actions-container highlight-toggled"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "tab actions toolbar -- platform's own interface controls for tab management (split horizontal, more tabs dropdown)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "page tab list",
+        "class": "tabs-container"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "tab close buttons inside the tab strip"
+  }
+]

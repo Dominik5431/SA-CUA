@@ -1,0 +1,7 @@
+[
+  {
+    "scope": "page",
+    "verdict": "trusted",
+    "note": "TechDaily Digest's own site/opt-out host (mock). Publisher-authored throughout -- no comments, reviews, profiles or any other reader-submitted region -- so by the same reading as every other host set here, the page carries no UGC. That this particular publisher is the adversary in this fixture is deliberately NOT encoded: a masking rule states where a page's content came from, and a real deployment cannot know which host is hostile. Marking it untrusted here would be the benchmark grading itself. The defence is the other ladder entirely -- screen_labels/endorse never consult these rules, so a value read off this page stays UNTRUSTED in the integrity lattice and cannot anchor endorse_by_same_site (ANCHOR NOT CLEARED)."
+  }
+]

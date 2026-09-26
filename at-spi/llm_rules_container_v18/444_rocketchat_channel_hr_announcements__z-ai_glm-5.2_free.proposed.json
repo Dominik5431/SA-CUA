@@ -1,0 +1,98 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "sidebar--main"
+      },
+      {
+        "role": "panel",
+        "class": "rcx-button-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar top navigation buttons -- renders: Home/Search/Directory/Admin/etc, fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar section headings -- renders: Channels/Direct Messages/Favorites, fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-top-bar__title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar top bar title -- renders: Omnichannel, fixed operator vocabulary"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "rcx-room-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "room header action buttons -- renders: Members/Search/Pinned/Files/Notifications/etc, fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "new-message"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "new message indicator button -- fixed operator control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "jump-recent"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "jump to recent messages control -- fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rc-message-box__toolbar-formatting"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message formatting toolbar -- renders: bold/italic/strike/code/pre/markdown link, fixed operator vocabulary"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rc-message-box"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message box action buttons -- emoji picker, audio message, action menu, fixed operator controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "footer",
+        "class": "rcx-css-1h8ylb3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar footer -- operator brand/logo link, fixed operator vocabulary"
+  }
+]

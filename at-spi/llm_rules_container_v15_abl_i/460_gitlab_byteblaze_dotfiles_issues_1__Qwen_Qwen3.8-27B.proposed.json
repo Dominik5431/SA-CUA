@@ -1,0 +1,155 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "navbar-gitlab"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "header-user"
+      },
+      {
+        "role": "section",
+        "id": "js-header-search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- platform's own interface, excluding user identity and search query"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Project navigation sidebar -- fixed menu items, excluding the project name header"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "right-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "value"
+      },
+      {
+        "role": "section",
+        "class": "sidebar-item-value"
+      },
+      {
+        "role": "section",
+        "class": "participants-author"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue metadata sidebar -- fixed labels and controls, excluding user-defined values and participants"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "new-note"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry",
+        "id": "note-body"
+      },
+      {
+        "role": "section",
+        "class": "div-dropzone"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comment form controls -- fixed tabs and toolbar, excluding the text input and upload zone"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flash-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "System notification area -- platform-generated messages"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mobile-overlay"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Mobile navigation overlay -- platform chrome"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "related-issues"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "Related issues block header -- fixed title"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "notes"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "Discussion section header -- fixed label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "discussion-preferences"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comment sorting controls -- fixed options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "new-branch-col"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Create merge request controls -- fixed button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "detail-page-header-body"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Issue action buttons -- fixed controls for editing, closing, and creating merge requests"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility navigation -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vote"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "vote controls and scores -- operator-defined upvote/downvote buttons and computed vote counts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "comment-form form flow"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment form controls -- platform's own input and submit controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "flex unlistify"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment sort tabs -- operator-defined sort controls for comments"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "comment__nav hideable__hide"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment navigation -- platform's own reply and permalink controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "sidebar__section flow submission-meta"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "submission meta sidebar section -- operator-defined vote total and short url controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "form subscribe-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "subscribe form sidebar section -- operator-defined subscribe button and subscriber count"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "sidebar__section flow"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar toggle panel -- platform's own interface for expanding sidebar sections"
+  }
+]

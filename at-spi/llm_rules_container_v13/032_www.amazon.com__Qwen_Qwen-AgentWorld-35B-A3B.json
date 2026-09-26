@@ -1,0 +1,55 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "shortcut-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip links and keyboard shortcuts menu -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "nav-search-bar-form",
+        "class": "nav-searchbar nav-progressive-attribute"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search bar form -- platform's own search controls and dropdown"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "s-result-sort-select",
+        "class": "a-native-dropdown a-declarative"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sort control -- operator-defined sort options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-pagination-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- operator-defined pagination"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooter",
+        "class": "navLeftFooter nav-sprite-v1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer -- platform's own interface and links"
+  }
+]

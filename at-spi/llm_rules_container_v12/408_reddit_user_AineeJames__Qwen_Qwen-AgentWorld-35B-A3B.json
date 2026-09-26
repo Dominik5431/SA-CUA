@@ -1,0 +1,102 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility navigation -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site navigation bar and search -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "user-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user profile tabs -- platform's own section labels (Posts, Comments, Submitted)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "entry",
+        "id": "site-nav-search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site search input -- platform's own control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vote"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "vote controls and vote counts -- operator-defined values about submitted content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "comment__nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment navigation links (reply, permalink, parent) -- platform's own controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "check box",
+        "id": "comment_toggle_2343509"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment toggle checkbox -- platform's own control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "static",
+        "class": "submission__timestamp"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "submission timestamp -- operator-defined value about submitted content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "class": "comment__info-link comment__hide-toggle hideable__toggle fg-grey no-wrap"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment hide toggle label -- platform's own control"
+  }
+]

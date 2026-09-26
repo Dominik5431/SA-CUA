@@ -1,0 +1,67 @@
+[
+ {
+  "ancestor_path": [
+   {
+    "role": "landmark",
+    "class": "header"
+   }
+  ],
+  "except": [
+   {
+    "role": "section",
+    "id": "unread-count"
+   },
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "operator header and compose navigation -- renders the fixed brand and compose control vocabulary"
+ },
+ {
+  "own_role": "push button",
+  "ancestor_path": [
+   {
+    "role": "section",
+    "id": "email-detail"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "message action controls -- renders the fixed Back, Reply, Flag, Delete, and Download button vocabulary",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ }
+]

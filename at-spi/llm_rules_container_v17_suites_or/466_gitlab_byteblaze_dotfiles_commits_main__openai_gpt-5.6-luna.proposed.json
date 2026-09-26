@@ -1,0 +1,130 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "GitLab branding area -- renders fixed platform branding and the operator's logo link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "js-header-search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "global search control -- renders the fixed search interface and keyboard shortcut"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "header-new-dropdown-toggle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "create menu control -- renders the fixed create-project action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "dashboard-shortcuts-issues"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issues navigation control -- renders the fixed Issues action and its computed count"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "dashboard-shortcuts-merge_requests"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "merge requests navigation control -- renders the fixed Merge requests action and its computed count"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "shortcuts-todos"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "to-do navigation control -- renders the fixed To-do action and its computed count"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "header-help-dropdown-toggle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "help menu control -- renders the fixed Help action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "GitLab project sidebar -- renders fixed repository, issue, merge-request, pipeline, deployment, infrastructure, monitoring, analytics, wiki, snippet, settings, and sidebar-toggle controls; the user-named project header is subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "commits-search-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "commit search control -- renders the fixed commit-search interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "control"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "commit-list toolbar control -- renders the fixed operator-provided commit-list action"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "commit-sha-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "commit SHA action control -- renders the fixed copy action"
+  },
+  {
+    "own_role": "link",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "commit-sha-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "commit navigation control -- renders the fixed commit action link"
+  }
+]

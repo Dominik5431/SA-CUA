@@ -1,0 +1,167 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar",
+        "class": "left-sidebar js-pinned-left-sidebar ps-relative"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left sidebar navigation -- platform's own interface and operator-defined links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "dialog",
+        "class": "ot-sdk-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent banner -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "answer-sort-dropdown-select-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answer sort dropdown -- operator-defined sort controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "ml12 aside-cta flex--item print:d-none"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "ask question button in question header -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "ml0 list-ls-none js-post-tag-list-wrapper d-inline"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "post tag list -- operator-defined taxonomy terms"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "user-action-time fl-grow1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user action time -- operator-defined timestamps and dates"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "user-gravatar32"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user gravatar -- operator interface for user avatar"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "-flair"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user flair and reputation score -- operator-defined computed values"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "relativetime"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "relative timestamp section -- operator-defined date/time"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "relativetime-clean"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "relative timestamp clean section -- operator-defined date/time"
+  },
+  {
+    "own_role": "toggle button",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "question js-question"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "vote buttons inside question block"
+  },
+  {
+    "own_role": "toggle button",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "answer js-answer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "vote buttons inside answer blocks"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "answer js-answer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "save and follow buttons inside answer blocks"
+  },
+  {
+    "own_role": "link",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "answer js-answer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "share, suggest edit, and post issue links inside answer blocks"
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "composite title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "viewlet title bar -- renders: view title and more actions dropdown"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "workbench.parts.editor",
+        "class": "part editor"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "editor part -- renders: editor tabs, tab actions (close, split, more), and getting started page content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar",
+        "class": "ElectronMenuBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top menu bar -- platform's own interface controls for file, edit, selection, view, go, run, terminal, help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "notification",
+        "class": "monaco-alert"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "aria notifications -- platform's own system notifications"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-status"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "aria status -- platform's own status messages"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "notifications-toasts visible"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "notification toasts -- platform's own toast notifications and actions"
+  }
+]

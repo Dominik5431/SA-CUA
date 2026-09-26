@@ -1,0 +1,108 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "owncloud"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "ownCloud logo link -- platform branding, fixed vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "header-appname-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "header app name and burger menu toggle -- renders: burger button, 'Files' app name"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "searchbox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search box -- renders: fixed search label, search entry field"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "app-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file navigation sidebar -- renders: Files/Favorites/Shared with you/Shared with others/Shared by link/Tags/Deleted files/Settings, all fixed platform vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "gallery-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "gallery view switcher control -- platform-defined view toggle"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "actions creatable"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file creation and upload actions -- renders: New button, upload progress wrapper"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table",
+        "id": "filestable"
+      }
+    ],
+    "except": [
+      {
+        "role": "panel",
+        "id": "fileList"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "table header row and summary row -- renders: column headers Name/Size/Date, select-all checkbox, sort indicators, summary labels; the file list panel with user-named files and folders is subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "hiddenuploadfield"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "hidden upload start button -- platform file upload control with fixed label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "action"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file row action buttons -- renders: Favorite, Share, More; fixed vocabulary regardless of file name"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "check box",
+        "class": "selectCheckBox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file selection checkboxes -- renders: Select; fixed vocabulary"
+  }
+]

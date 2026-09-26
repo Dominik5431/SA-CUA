@@ -1,0 +1,88 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "shortcut-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Accessibility shortcut menu -- renders: Skip to main content, Skip to results, Skip to filters, Search, Cart, Home, Your orders, Show shortcuts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "navbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry",
+        "id": "twotabsearchtextbox"
+      },
+      {
+        "role": "section",
+        "id": "glow-ingress-block"
+      },
+      {
+        "role": "section",
+        "id": "nav-link-accountList"
+      },
+      {
+        "role": "section",
+        "id": "nav-cart-text-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main navigation bar -- renders: Amazon logo, Deliver to, Search, Account, Orders, Cart, All, Today's Deals, Customer Service, Registry, Gift Cards, Sell; excludes search query, user location, user name, and cart count"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-xshop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Secondary navigation bar -- renders: fixed category links like Today's Deals, Customer Service, Registry, Gift Cards, Sell"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "search"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "a-size-base s-desktop-toolbar"
+      },
+      {
+        "role": "list",
+        "class": "s-messaging-widget-results-header-accessibility-header"
+      },
+      {
+        "role": "list",
+        "class": "rush-component"
+      },
+      {
+        "role": "section",
+        "id": "ape_Search_auto-bottom-advertising-0_portal-batch-fast-btf-loom_93e4fb6f-a2e4-424e-84f3-9a594760d68c_placement"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search results page chrome -- renders: Sort by dropdown, Pagination controls, Back to top, Legal disclaimer header; excludes result count, product listings, related searches, and ads"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooter"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: Back to top, Get to Know Us, Make Money with Us, Amazon Payment Products, Let Us Help You, and other fixed footer links"
+  }
+]

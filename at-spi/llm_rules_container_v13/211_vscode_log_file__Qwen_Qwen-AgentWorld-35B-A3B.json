@@ -1,0 +1,43 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-action-bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Activity Bar navigation -- platform's own interface with fixed view icons and controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar",
+        "id": "workbench.parts.statusbar",
+        "class": "statusbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Status Bar -- platform's own controls and computed values for editor state, problems, ports, and notifications"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "class": "actions-container highlight-toggled"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Editor tab actions toolbar -- renders: split horizontal and more actions controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "notification-list-item-buttons-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Notification action buttons -- platform's own controls for notification actions like dismiss or learn more"
+  }
+]

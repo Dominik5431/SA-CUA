@@ -1,0 +1,112 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-header mw-header no-font-mode-scale"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry",
+        "id": "searchInput"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "header navigation and controls -- renders: site logo, main menu, search button, user account links; excluding the search input query text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer links and icons -- renders: privacy, about, disclaimers, contact, legal/safety, code of conduct, developers, stats, cookies, mobile view, copyright and powered by icons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-appearance-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "appearance settings panel -- renders: custom font size, limited width, and skin theme radio options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "content"
+      },
+      {
+        "role": "header",
+        "class": "mw-body-header vector-page-titlebar no-font-mode-scale"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page title bar and help indicator -- renders: page heading and help link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "cdx-table-pager__limit-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search results pager controls -- renders: results per page limit combo box and navigation buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "mw-jump-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip link -- renders: skip to main content link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-page-tools-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page tools dropdown -- renders: page options and tools controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mw-interwiki-results"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "interwiki search results -- renders: links to other Wikimedia projects (Wikisource, Wikiquote, Wikibooks)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "results-info"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search results info -- renders: computed result count and status"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "paragraph",
+        "class": "mw-search-createlink"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search create link copy -- renders: operator-authored text for creating non-existent pages"
+  }
+]

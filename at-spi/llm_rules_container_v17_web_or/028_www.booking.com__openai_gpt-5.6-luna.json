@@ -1,0 +1,157 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "bui-list-item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip-navigation link -- renders fixed platform navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders the operator's fixed logo, account and navigation controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_tab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main product navigation -- renders the fixed accommodations/flights/packages/cars/attractions/airport taxis vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "searchbox-horizontal-destination-input"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "destination search control -- renders the operator's fixed search-field interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "searchbox-horizontal-occupancy-label"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "occupancy field label -- renders fixed operator vocabulary for guest selection"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "d24b1ed1cf f5852f597b da2666adb4"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "property tab strip -- renders the fixed overview/availability/facilities/policies/fine print/reviews controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "availability_target"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "availability heading -- renders fixed operator vocabulary for availability"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "rate_guarantee"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "price-match control -- renders the fixed operator price-guarantee action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table row",
+        "class": "hprt-table-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "room-rate table header -- renders fixed column labels for room, price, policies and room selection"
+  },
+  {
+    "own_role": "combo box",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "rooms_table"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "room quantity controls -- renders fixed operator selection controls and their fixed quantity menu vocabulary"
+  },
+  {
+    "own_role": "heading",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_facilities_box"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "facilities section headings -- renders fixed operator section-label vocabulary"
+  },
+  {
+    "own_role": "heading",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "surroundings_block"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "surroundings section headings -- renders fixed operator section-label vocabulary"
+  },
+  {
+    "own_role": "heading",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "policies"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "policies section heading -- renders the fixed operator section label"
+  },
+  {
+    "own_role": "heading",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "important_info"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "important-information section heading -- renders the fixed operator section label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "TravellerFooter_root--variant-full"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders the operator's fixed help, policy, company and navigation links"
+  }
+]

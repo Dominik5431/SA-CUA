@@ -1,0 +1,32 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar",
+        "class": "ElectronMenuBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "native application menu bar -- renders fixed operator vocabulary: File/Edit/Selection/View/Go/Run/Terminal/Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar",
+        "id": "workbench.parts.statusbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "status bar -- renders fixed operator vocabulary for editor state: remote kind, problem counts, forwarded ports, notifications, language mode, EOL, encoding, indentation, selection, screen reader mode"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-aria-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility container -- renders fixed operator vocabulary for screen reader announcements and status"
+  }
+]

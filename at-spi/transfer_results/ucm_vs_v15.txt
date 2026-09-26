@@ -1,0 +1,9 @@
+TOTAL        caps  115
+  UCM   tp   1825 fp    537 tn   9679 fn   2514  leak(fn_free)   1354  FPrate 5.26%
+  v15   tp   3885 fp   7349 tn   2255 fn    138  leak               0  FPrate 76.52%
+in-sample    caps   46
+  UCM   tp   1105 fp    240 tn   3867 fn    746  leak(fn_free)    329  FPrate 5.84%
+  v15   tp   1667 fp   2870 tn   1048 fn     51  leak               0  FPrate 73.25%
+held-out     caps   69
+  UCM   tp    720 fp    297 tn   5812 fn   1768  leak(fn_free)   1025  FPrate 4.86%
+  v15   tp   2218 fp   4479 tn   1207 fn     87  leak               0  FPrate 78.77%

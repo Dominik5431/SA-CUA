@@ -1,0 +1,51 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "app-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "app navigation sidebar -- renders: fixed navigation items (Files, Favorites, Shared with me, Shared with others, Shared links, System tags filter, Trashbin) and settings button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table",
+        "id": "filestable",
+        "class": "has-controls"
+      }
+    ],
+    "own_role": "check box",
+    "verdict": "trusted",
+    "note": "file selection checkboxes -- operator controls for selecting files"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "id": "fileList"
+      }
+    ],
+    "own_role": "table cell",
+    "except": [
+      {
+        "role": "table cell",
+        "class": "filename ui-draggable"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file list table cells -- renders: file size and date computed values; filename cells are subtracted as they contain user-generated file names"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "hiddenuploadfield"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "hidden upload field -- renders: upload start button control"
+  }
+]

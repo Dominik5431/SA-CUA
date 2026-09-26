@@ -1,0 +1,116 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "navbar navbar-gitlab navbar-expand-sm js-navbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "project navigation sidebar -- operator-defined navigation items for a GitLab project"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "__BVID__7",
+        "class": "tabs gl-tabs gl-display-flex gl-flex-grow-1 gl-p-0 gl-m-0 mobile-separator issuable-state-filters"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issue state filter tabs -- operator-defined tabs for open/closed/all issues"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "input-group gl-search-box-by-click flex-grow-1"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry",
+        "class": "gl-filtered-search-term-input"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search box controls -- renders: search history dropdown toggle, search button; subtracts search query input"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "sort-dropdown-container d-flex btn-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sort controls -- operator-defined sort dropdown and buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "gl-keyset-pagination btn-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- operator-defined pagination buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "__BVID__231",
+        "class": "dropdown b-dropdown gl-dropdown gl-absolute gl-right-0 btn-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination dropdown -- operator-defined per-page or pagination dropdown"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "issue-title title"
+      }
+    ],
+    "except": [
+      {
+        "role": "link",
+        "class": "issue-title-text"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issue title section -- renders: task status badge; subtracts issue title text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "gl-md-mr-3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issue list action controls -- renders: export dropdown and related buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "btn btn-confirm btn-md gl-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "confirm action button -- operator-defined control for issue list actions"
+  }
+]

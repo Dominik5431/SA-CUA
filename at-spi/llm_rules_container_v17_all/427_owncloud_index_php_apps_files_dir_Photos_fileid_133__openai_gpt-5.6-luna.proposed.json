@@ -1,0 +1,154 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "owncloud"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "operator logo link -- renders the fixed ownCloud brand vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "header-appname-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "application header control -- renders the fixed Files application vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "searchbox"
+      }
+    ],
+    "own_role": "label",
+    "verdict": "trusted",
+    "note": "search control label -- renders the fixed Search vocabulary while excluding the query value"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "app-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file navigation -- renders the fixed Files/Favorites/Shared with you/Shared by you/Shared links/Tags/Trash vocabulary and settings control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "gallery-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view switcher -- renders the fixed gallery or view-switching control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "actions creatable"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file creation toolbar -- renders the fixed New and upload-progress control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "column header",
+        "id": "headerName"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "name column header -- renders the fixed selection and Name/sort control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "column header",
+        "id": "headerSize"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "size column header -- renders the fixed Size/sort control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "column header",
+        "id": "headerDate"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "date column header -- renders the fixed Modified/sort control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "action-favorite"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file favorite control -- renders the fixed favorite or unfavorite action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table",
+        "id": "filestable"
+      }
+    ],
+    "own_role": "check box",
+    "verdict": "trusted",
+    "note": "file selection controls -- render the fixed file-selection vocabulary without trusting filenames or metadata"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "action-share"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file sharing control -- renders the fixed share action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "action-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file action menu control -- renders the fixed file-action menu vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "settings-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "navigation settings control -- renders the fixed settings vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "file_upload_start"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "upload control -- renders the fixed file-upload action vocabulary"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: Skip to main content, Stack Overflow, Questions, Search, Help, Stack Exchange, Log in, Sign up"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: Stack Overflow, About, Products, Careers, Legal, Privacy Policy, Terms of Service, Cookie Settings, Social media links, Copyright notice"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "js-collectives-navcta-toggle"
+      },
+      {
+        "role": "list item",
+        "class": "js-freemium-cta"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Left sidebar navigation -- renders: Home, Questions, Ask, Tags, Users, Companies, Collectives, Free Trial, Start Free Trial, Learn More"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "stats"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "User stats section -- renders: Stats, Reputation, Answers, Questions, Tags, Badges"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "top-tags"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top tags section -- renders: Top Tags, See all tags, Questions, Answers, Comments"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "js-top-posts"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top posts section -- renders: Top Posts, Questions, Answers, Comments, Newest, Active, Votes, Answers, Questions"
+  }
+]

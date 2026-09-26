@@ -1,0 +1,28 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "app-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Left sidebar navigation -- renders: Files, Favorites, Shared with you, Shared by you, Shared links, Tags, Trash bin, Settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "controls"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "breadcrumb"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "File view controls -- renders: view switcher, new file/folder button, upload progress; breadcrumb is subtracted as it echoes user-named paths"
+  }
+]

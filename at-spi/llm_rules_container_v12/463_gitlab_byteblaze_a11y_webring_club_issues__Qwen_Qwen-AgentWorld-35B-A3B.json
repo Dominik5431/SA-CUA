@@ -1,0 +1,83 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "navbar navbar-gitlab navbar-expand-sm js-navbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface including logo, search, project creation link, notification counters, help and user dropdowns"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "page tab list",
+        "id": "__BVID__7__BV_tab_controls_",
+        "class": "nav gl-border-b-0 gl-tabs-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issue state filter tabs -- renders: operator-defined issue state tabs such as All, Opened, Closed"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "input-group gl-search-box-by-click flex-grow-1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issue search box -- platform search control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "sort-dropdown-container d-flex btn-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sort dropdown control -- renders: operator-defined sort options for issues"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "issues-bulk-update right-sidebar right-sidebar-collapsed"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "bulk update sidebar -- platform control for bulk actions on issues"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "issues-bulk-update js-right-sidebar right-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "bulk update right sidebar -- platform control for bulk actions on issues"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "toggle-sidebar-button js-toggle-sidebar rspec-toggle-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar toggle button -- platform control to collapse/expand the sidebar"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "btn btn-confirm btn-md gl-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "new issue button -- platform control to create a new issue"
+  }
+]

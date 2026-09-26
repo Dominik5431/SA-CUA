@@ -1,0 +1,43 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Wr7_RG_mastheadWrapper Wr7_RG_mastheadWrapperCentered Wr7_RG_mastheadWrapperResponsive"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "masthead navigation and controls -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "collection-technology"
+      }
+    ],
+    "own_role": "header",
+    "verdict": "trusted",
+    "note": "section header -- renders: section title and navigation list"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "css-wd8lsa e1evmsrw0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "section navigation list -- renders: operator-defined section taxonomy and category links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "5-band css-ug2ec e1xcln8a0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "5-band article list -- operator-authored editorial articles and metadata"
+  }
+]

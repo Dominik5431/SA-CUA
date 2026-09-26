@@ -1,0 +1,113 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-action-bar vertical"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Activity Bar navigation -- platform's own interface icons for explorer, search, source control, run, extensions, accounts, and settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "composite title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search viewlet title and action buttons -- platform's own interface controls for search refresh, clear, new editor, list, collapse"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "search-widget"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Search widget replace toggle button -- platform's own interface control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "controls"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search input controls -- platform's own interface toggles for case-sensitive, whole-word, regex"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "query-details"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search query details button -- platform's own interface control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "message"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search message area -- platform's own interface messages and links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "document frame",
+        "class": "gettingStartedContainer noExtensions animatable"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Getting Started page -- platform's own onboarding content and categories"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar",
+        "class": "ElectronMenuBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top menu bar -- platform's own interface menu items"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "class": "actions-container highlight-toggled"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Editor tab list actions -- platform's own interface controls for split and more tabs"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "notification",
+        "class": "monaco-alert"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Notifications -- platform's own interface alerts and messages"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-status"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Status sections -- platform's own interface status messages"
+  }
+]

@@ -1,0 +1,201 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "spacesToolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main application navigation bar -- renders fixed operator vocabulary: Mail, Address Book, Calendar, Tasks, Chat, Settings, Collapse"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "toolbar-menubar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Application menu bar -- renders fixed operator vocabulary: File, Edit, View, Go, Message, Tasks, Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "folderPaneHeaderBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Folder pane action bar -- renders fixed operator controls: More, Write, Get Messages"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "threadPaneHeaderBar"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "id": "threadPaneFolderName"
+      },
+      {
+        "role": "section",
+        "id": "threadPaneFolderCountContainer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Message list header controls -- renders fixed operator controls: Quick Filter, Display; subtracts folder name and count which reflect user state"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "header-view-toolbox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Message header action buttons -- renders fixed operator vocabulary: Reply, Forward, Archive, Junk, Trash, Other Actions, Star"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "expandedtoRow"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "class": "recipients-list"
+      },
+      {
+        "role": "section",
+        "id": "dateLabel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Message 'To' row -- renders fixed operator label 'To'; subtracts recipient list and date which are user-generated"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "compose-toolbar-menubar2"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Compose window menu bar -- renders fixed operator vocabulary: File, Edit, View, Insert, Format, Options, Tasks, Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "composeToolbar2"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Compose window action toolbar -- renders fixed operator vocabulary: Send, Encryption, Spelling, Save, Contacts, Attach"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "FormatToolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Compose window formatting toolbar -- renders fixed operator vocabulary for text styling controls (Paragraph, Font, Size, Bold, Italic, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "MsgHeadersToolbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "combo box",
+        "id": "msgIdentity"
+      },
+      {
+        "role": "unknown",
+        "class": "address-pill"
+      },
+      {
+        "role": "entry",
+        "id": "toAddrInput"
+      },
+      {
+        "role": "entry",
+        "id": "msgSubject"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Compose window header labels -- renders fixed operator vocabulary: From, To, Subject, CC, BCC; subtracts input fields and identity selector which hold user content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "expandedfromRow"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "class": "recipients-list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Message 'From' row -- renders fixed operator label 'From'; subtracts recipient list which is user-generated"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "headerSubjectSecurityContainer"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "expandedsubjectBox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Message subject row container -- renders fixed operator label 'Subject'; subtracts subject box which is user-generated"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "extraAddressRowsArea"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Compose window address row toggles -- renders fixed operator vocabulary: CC, BCC, More"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar"
+      }
+    ],
+    "except": [
+      {
+        "role": "push button",
+        "id": "offline-status"
+      },
+      {
+        "role": "label",
+        "id": "statusText"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main window status bar -- renders fixed operator interface; subtracts dynamic status text and offline indicator which reflect runtime state"
+  }
+]

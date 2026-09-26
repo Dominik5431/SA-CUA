@@ -1,0 +1,36 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar",
+        "class": "ElectronMenuBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "native application menu bar -- renders fixed operator vocabulary: File/Edit/Selection/View/Go/Run/Terminal/Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "composite title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search viewlet header -- renders fixed operator vocabulary: 'Search' heading and toolbar icons for refresh, clear, new editor, list, collapse"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "title tabs show-file-icons"
+      },
+      {
+        "role": "tool bar",
+        "class": "actions-container highlight-toggled"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "editor tab actions toolbar -- renders fixed operator vocabulary: split editor and more actions buttons"
+  }
+]

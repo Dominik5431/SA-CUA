@@ -1,0 +1,92 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "spacesToolbar",
+        "class": "spaces-toolbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "spacesToolbarAddonsContainer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "spaces toolbar -- renders: Mail/Address Book/Calendar/Tasks/Chat/Settings/Collapse, fixed navigation buttons; addon container subtracted as third-party-provided"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "unifiedToolbarContainer"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "unified toolbar and titlebar buttons -- renders: Search button/App menu/Minimize/Restore/Close, fixed controls; search entry text stays masked"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "folderPaneHeaderBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "folder pane header bar -- renders: More/Write Message/Get Messages, fixed operator controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "threadPaneHeaderBar",
+        "class": "list-header-bar"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "id": "threadPaneFolderName"
+      },
+      {
+        "role": "section",
+        "id": "threadPaneFolderCountContainer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "thread pane header controls -- renders: Quick Filter toggle/Display options button; folder name heading (echoes user-named folder) and count container (computed values) subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "start-page"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Thunderbird start page -- renders: release channel link/donate link/logo/welcome heading/tagline/feature links/feature descriptions, all operator-authored marketing copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "offline-status"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "offline status indicator -- renders: Working Offline/Online, fixed status vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "id": "statusText",
+        "class": "statusbarpanel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "status text -- renders: Done/Loading/Ready, fixed operator status messages"
+  }
+]

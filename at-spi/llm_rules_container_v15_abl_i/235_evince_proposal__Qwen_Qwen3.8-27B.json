@@ -1,0 +1,35 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Evince main toolbar -- renders fixed operator vocabulary for document navigation and view controls (e.g., Back, Forward, Zoom, View)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "split pane"
+      }
+    ],
+    "except": [
+      {
+        "role": "document frame"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Document viewer split pane -- renders operator-defined sidebar controls (thumbnails/outline toggles) and status bar; subtracts the document frame which contains the user-supplied PDF content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Evince sidebar action buttons -- renders fixed operator vocabulary for document actions (e.g., Print, Save, Copy, Find, Properties)"
+  }
+]

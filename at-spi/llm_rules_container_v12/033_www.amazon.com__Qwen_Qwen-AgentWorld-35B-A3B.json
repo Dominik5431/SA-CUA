@@ -1,0 +1,35 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "navbar-main",
+        "class": "nav-opt-sprite nav-flex nav-locale-us nav-lang-en nav-ssl nav-unrec nav-progressive-attribute"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "s-result-sort-select",
+        "class": "a-native-dropdown a-declarative"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search results sort control -- operator-defined sort options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooter",
+        "class": "navLeftFooter nav-sprite-v1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer navigation and links -- platform's own interface"
+  }
+]

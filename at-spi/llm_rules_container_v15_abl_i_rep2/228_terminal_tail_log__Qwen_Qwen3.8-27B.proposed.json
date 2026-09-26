@@ -1,0 +1,29 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "terminal application menu bar -- renders fixed operator vocabulary for File/Edit/View/Search/Help menus"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "page tab list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "terminal tab bar -- renders fixed operator vocabulary for tab controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "terminal application toolbar -- renders fixed operator vocabulary for window controls, search, and view toggles"
+  }
+]

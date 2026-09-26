@@ -1,0 +1,45 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "fides-overlay",
+        "class": "fides-overlay"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent overlay -- operator's own interface and fixed vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Wr7_RG_mastheadWrapper Wr7_RG_mastheadWrapperCentered Wr7_RG_mastheadWrapperResponsive"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "masthead navigation and controls -- operator's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "site-index",
+        "class": "css-1jmk4jh"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site index -- operator's own interface and labels throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer",
+        "class": "css-1qa4qp6"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer -- operator's own interface and links throughout"
+  }
+]

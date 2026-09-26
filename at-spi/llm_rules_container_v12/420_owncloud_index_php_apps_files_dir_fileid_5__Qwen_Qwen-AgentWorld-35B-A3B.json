@@ -1,0 +1,52 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "header navigation bar -- renders: ownCloud logo, app name, user settings expand; operator's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "searchbox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search box -- renders: search label and search entry; operator's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "hiddenuploadfield"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "upload control -- renders: file upload start button; operator's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "toolbarSidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "PDF viewer sidebar toolbar -- renders: view thumbnail, view outline, view attachments buttons; operator's own interface controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "toolbarViewer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "PDF viewer toolbar -- renders: sidebar toggle, find, previous/next page, page number, num pages, presentation mode, print, download, bookmark, secondary toolbar toggle/close, zoom out/in, scale select menu; operator's own interface controls"
+  }
+]

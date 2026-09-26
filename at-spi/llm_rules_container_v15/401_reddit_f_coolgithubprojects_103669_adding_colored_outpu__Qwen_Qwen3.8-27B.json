@@ -1,0 +1,64 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Accessibility skip links -- renders: 'Skip to main content', 'Skip to comments'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "comment-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comment submission form controls -- renders: 'Add a comment', 'Markdown', 'Help', 'Post'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vote"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Voting controls -- renders: 'Upvote', 'Downvote'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "comment__nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comment action links -- renders: 'Reply', 'Permalink', 'Parent'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "flex unlistify"
+      }
+    ],
+    "own_role": "label",
+    "verdict": "trusted",
+    "note": "Comment collapse toggle -- renders: 'Hide'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "sidebar__section flow"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Subscribe button -- renders: 'Subscribe'"
+  }
+]

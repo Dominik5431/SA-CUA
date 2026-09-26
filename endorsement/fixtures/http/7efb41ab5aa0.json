@@ -1,0 +1,7 @@
+{
+  "url": "https://nodejs.org/en/download/package-manager",
+  "ok": true,
+  "text": "# Installing Node.js via package manager\n\n## Debian and Ubuntu based Linux distributions\n\nNode.js binary distributions are available from NodeSource. Run the following as root:\n\n```bash\ncurl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -\nsudo apt-get install -y nodejs\n```\n\nAlternative versions are available by replacing `setup_20.x`.\n",
+  "synthetic": true,
+  "note": "nodejs.org package-manager page, trimmed to the Debian/Ubuntu NodeSource recipe -- the Tier C counterpart for scenario 06"
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "footer",
+        "class": "rcx-css-1h8ylb3 rcx-css-1583vym"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer with site links and controls -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-css-ebq3kg"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer links section -- platform's own interface and site controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "rcx-css-19z81xy"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page heading -- operator's own section label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-tabs--with-divider rcx-tabs rcx-css-ue04py"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view tabs -- operator-defined navigation controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-css-g4w5l8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search box -- operator's own interface control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "rcx-table__head"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "table column headers -- operator-defined schema labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "rcx-pagination--divider rcx-pagination"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- operator-defined navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "rcx-button-group--medium rcx-button-group--align-start rcx-button-group rcx-css-vi4iz8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar icon button group -- operator's own interface controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-topbar rcx-sidebar-topbar--toolbox omnichannel-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "omnichannel sidebar topbar with title and controls -- operator's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar section titles -- operator-defined category labels"
+  }
+]

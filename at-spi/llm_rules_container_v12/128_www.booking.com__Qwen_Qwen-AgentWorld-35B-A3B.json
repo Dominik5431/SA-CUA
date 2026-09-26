@@ -1,0 +1,72 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "header navigation and controls -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_tab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main navigation tabs -- accommodations, flights, packages, cars, attractions, airport taxis"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "fff1944c52"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "subheader breadcrumb navigation -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "d24b1ed1cf f5852f597b da2666adb4"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "hotel page tabs -- overview, availability, facilities, policies, fine print, reviews"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "wrap-hotelpage-top"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "hotel page top actions -- wishlist, share, book now, price match, hotel name, map triggers"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "best-review-score best-review-score-with_best_ugc_highlight hp_lightbox_score_block"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "best review score widget -- computed operator-defined review score"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "onetrust-banner-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent banner -- platform's own interface"
+  }
+]

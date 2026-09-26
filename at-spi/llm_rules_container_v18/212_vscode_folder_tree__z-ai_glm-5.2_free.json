@@ -1,0 +1,82 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-action-bar vertical"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "activity bar -- renders: Explorer, Search, Source Control, Run, Extensions, Accounts, Settings (fixed view-switcher icons and bottom controls)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "composite title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "explorer viewlet title bar -- renders: 'Explorer' heading and More-actions dropdown (fixed operator vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar",
+        "class": "ElectronMenuBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "native menu bar -- renders: File, Edit, Selection, View, Go, Run, Terminal, Help (fixed operator vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "document frame",
+        "class": "gettingStartedContainer"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "categories-column-left"
+      },
+      {
+        "role": "section",
+        "class": "categories-column-right"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Getting Started page frame -- renders: product name, subtitle, show-on-startup checkbox; the Start/Recent actions column (may show user folder names) and Walkthroughs column (may show extension-contributed content) are subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "class": "highlight-toggled"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "editor tab toolbar -- renders: Split editor, More actions (fixed operator vocabulary); the tabs themselves show file names and stay masked"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "status.notifications"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "status bar notifications item -- renders: 'Notifications' (fixed operator label)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "status.editor.screenReaderMode"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "status bar screen-reader-mode indicator -- renders: fixed operator label for accessibility mode"
+  }
+]

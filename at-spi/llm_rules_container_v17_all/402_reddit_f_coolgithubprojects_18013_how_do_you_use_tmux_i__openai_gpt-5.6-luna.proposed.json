@@ -1,0 +1,184 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility navigation -- renders fixed skip-navigation controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "site-nav__header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders the operator's fixed home or brand control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "site-nav__main-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main navigation -- renders the closed set of fixed site sections"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "entry",
+        "id": "site-nav-search",
+        "class": "site-nav__search-input"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site search control -- renders the operator's fixed search interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "submission__nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "submission navigation -- renders fixed post controls such as comments or permalink"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vote"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "vote controls -- renders: Upvote/Downvote"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "reply_to_submission_18013_comment_help"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment editor help -- renders fixed markdown-help controls and labels"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "comment-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment form action control -- renders: Submit/Post"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "flex unlistify"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment sorting tabs -- renders the fixed sorting vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "check box",
+        "class": "hideable__checkbox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "hideable controls -- renders fixed expand/collapse or help-toggle controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "class": "comment__hide-toggle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment visibility control -- renders: Hide/Show"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "comment__nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment navigation -- renders fixed Reply/Permalink/Parent controls"
+  },
+  {
+    "own_role": "heading",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "submission-meta"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "submission metadata label -- renders fixed metadata vocabulary"
+  },
+  {
+    "own_role": "push button",
+    "except": [
+      {
+        "role": "section",
+        "class": "subscribe-button__subscriber-count"
+      }
+    ],
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "subscribe-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "subscription control -- renders: Subscribe/Unsubscribe, excluding the user-determined subscriber count"
+  },
+  {
+    "own_role": "toggle button",
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "sidebar__section"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar disclosure control -- renders fixed expand/collapse vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "sidebar__title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar section heading -- renders fixed operator-authored section labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "sidebar__no-padding"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar utility navigation -- renders the fixed set of operator-defined utility links"
+  }
+]

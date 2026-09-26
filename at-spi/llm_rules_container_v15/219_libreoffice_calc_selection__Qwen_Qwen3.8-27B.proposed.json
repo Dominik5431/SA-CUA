@@ -1,0 +1,7 @@
+[
+  {
+    "scope": "page",
+    "verdict": "trusted",
+    "note": "LibreOffice Calc application window -- all visible interface elements (menus, toolbars, status bar, sheet tabs) are operator-authored fixed vocabulary; the spreadsheet grid contains user data but is not a text region subject to prompt injection in this context"
+  }
+]

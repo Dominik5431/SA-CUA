@@ -1,0 +1,120 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "fides-overlay"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Cookie consent banner -- renders: fixed privacy policy text, 'Manage Preferences', 'Reject All', 'Accept All', and language options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Wr7_RG_mastheadWrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site masthead and top navigation -- renders: 'The New York Times' logo, 'Sections' menu, 'Search', 'Subscribe', and section labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "collection-arts"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "css-1mr238a"
+      },
+      {
+        "role": "paragraph",
+        "class": "css-tskdi9"
+      },
+      {
+        "role": "section",
+        "class": "css-1baulvz"
+      },
+      {
+        "role": "paragraph",
+        "class": "css-bko25c"
+      },
+      {
+        "role": "caption",
+        "class": "css-aqbich"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Arts section header and navigation -- renders: 'Arts' heading and fixed section sub-navigation links (e.g., 'What to Read', 'What to Watch'); article headlines, summaries, bylines, and photo captions are subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "tab-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Stream tab navigation -- renders: fixed tab labels for sorting or filtering the news stream"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "stream-panel"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "css-fuiu97"
+      },
+      {
+        "role": "paragraph",
+        "class": "css-e5gagr"
+      },
+      {
+        "role": "paragraph",
+        "class": "css-1xzbxit"
+      },
+      {
+        "role": "section",
+        "class": "css-a0c68w"
+      },
+      {
+        "role": "caption",
+        "class": "css-1d5e5t4"
+      },
+      {
+        "role": "section",
+        "class": "css-u9fmlu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "News stream container -- renders: pagination controls and page numbers; article headlines, summaries, bylines, timestamps, and media captions are subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "site-index"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site index header -- renders: fixed label 'Site Index'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: fixed navigation links (e.g., 'Help', 'Contact', 'Privacy') and copyright text"
+  }
+]

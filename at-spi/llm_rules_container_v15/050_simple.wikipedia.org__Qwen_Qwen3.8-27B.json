@@ -1,0 +1,42 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site header -- renders: Main menu, Simple English Wikipedia, Search, Donate, Create account, Log in"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Left navigation tabs -- renders: Article, Talk"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "right-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Right navigation tabs and tools -- renders: Read, Edit, View history, Tools, Appearance, Font, Width, Theme"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: Last edited, Powered by MediaWiki, Copyright, Privacy policy, About, Disclaimers, Contact, Code of conduct, Developers, Statistics, Cookie statement, Mobile view"
+  }
+]

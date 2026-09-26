@@ -1,0 +1,52 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Toolbar and menu action buttons -- renders fixed operator vocabulary for editor commands (e.g., New, Open, Save, Undo, Redo, Cut, Copy, Paste, Find, Replace, Print, Help)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "Toolbar and menu view toggle buttons -- renders fixed operator vocabulary for view modes (e.g., Sidebar, Statusbar, Fullscreen)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "check box",
+    "verdict": "trusted",
+    "note": "Toolbar and menu check boxes -- renders fixed operator vocabulary for editor options (e.g., Word Wrap, Show Line Numbers, Highlight Current Line)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "radio button",
+    "verdict": "trusted",
+    "note": "Toolbar and menu radio buttons -- renders fixed operator vocabulary for exclusive options (e.g., View modes, Encoding selection)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "label",
+    "verdict": "trusted",
+    "note": "Toolbar and menu labels -- renders fixed operator vocabulary for section headers or status indicators (e.g., 'Encoding', 'Line', 'Col')"
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {
+    "scope": "page",
+    "verdict": "trusted",
+    "note": "LibreOffice desktop application interface -- all menus, toolbars, and UI controls are operator-defined fixed vocabulary; the document content is the user's own local file, not third-party UGC"
+  }
+]

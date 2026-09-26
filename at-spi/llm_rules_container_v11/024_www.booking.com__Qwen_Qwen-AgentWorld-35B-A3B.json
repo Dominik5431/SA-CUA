@@ -1,0 +1,72 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "HeaderRegion"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "header region -- platform's own navigation and controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "SearchBoxDesktop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search box controls -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "UniqueSellingPoints"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "unique selling points section -- operator-authored promotional copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "HeroBannerDesktop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "hero banner section -- operator-authored editorial and marketing copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "SecondaryBannerDesktop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "secondary banner section -- operator-authored promotional copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "GeniusSignInBanner"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Genius sign-in banner -- operator-authored sign-in and promotional copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "__SHELL_COMPONENTS_FOOTER"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer region -- platform's own footer links and controls"
+  }
+]

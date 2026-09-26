@@ -1,0 +1,230 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar ps-fixed t0 l0 js-top-bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar",
+        "class": "left-sidebar js-pinned-left-sidebar ps-relative"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left sidebar navigation -- platform's own interface and controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "dfp-sspon",
+        "class": "everyonelovesstackoverflow my4"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- platform's own logo and navigation; subtracted ad slot"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer--nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer navigation -- platform's own navigation and legal links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "-list -social md:mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer social links -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "paragraph",
+        "class": "md:mb0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer copyright and legal paragraph -- platform's own copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "site-footer--extra ai-center"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer extra section -- platform's own copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "dialog",
+        "class": "ot-sdk-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent banner -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "answer-sort-dropdown-select-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answer sort dropdown -- platform's sort controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "ml12 aside-cta flex--item print:d-none"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question header aside CTA -- platform's action buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "toggle button",
+        "class": "js-vote-up-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "vote up buttons -- platform's voting controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "toggle button",
+        "class": "js-vote-down-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "vote down buttons -- platform's voting controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-saves-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "save buttons -- platform's save controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-post-issue"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "post issue links -- platform's report controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-share-link js-gps-track"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "share links -- platform's share controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-suggest-edit-post js-gps-track"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "suggest edit post links -- platform's edit controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "s-btn s-btn__link js-follow-post"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "follow post buttons -- platform's follow controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "user-action-time fl-grow1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user action time -- platform's timestamps and dates"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "-flair"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "post flair -- platform's reputation scores and status badges"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list item",
+        "class": "s-sidebarwidget--header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar widget headers -- platform's section labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "h-linked"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "linked questions heading -- platform's section label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "h-related"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "related questions heading -- platform's section label"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: Wikipedia logo, search box, main menu, user account controls (Donate, Create account, Log in)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Left navigation tabs -- renders: Article, Talk"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "right-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Right navigation tabs and tools -- renders: Read, Edit, View history, Tools"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vector-sticky-pinned-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Appearance settings panel -- renders: Appearance, Font size, Width, Theme options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mw-history-searchform"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "History search form -- renders: Search history controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mw-pager-navigation-bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Pagination controls -- renders: Last, Next, page numbers"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mw-history-compareselectedversions"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Compare versions button -- renders: Compare selected versions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Footer -- renders: Privacy policy, About Wikipedia, Disclaimers, Contact Wikipedia, Mobile view, Wikimedia Foundation logo"
+  }
+]

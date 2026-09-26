@@ -1,0 +1,306 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "header-content"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "GitLab header content -- renders the fixed platform title and home branding"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "entry",
+        "id": "search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "global search box -- renders the fixed search control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "keyboard-shortcut-helper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search keyboard-shortcut helper -- renders the fixed search-help vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "logo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "GitLab logo link -- renders the fixed platform home control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "js-onboarding-new-project-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "new-project control -- renders the fixed project-creation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "dashboard-shortcuts-issues"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "gl-badge"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issues shortcut -- renders the fixed issues-navigation label, excluding the dynamic count badge"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "dashboard-shortcuts-merge_requests"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "gl-badge"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "merge-requests shortcut -- renders the fixed merge-request navigation label, excluding the dynamic count badge"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "shortcuts-todos"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "gl-badge"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "todos shortcut -- renders the fixed todos-navigation label, excluding the dynamic count badge"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "header-help-dropdown-toggle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "help menu control -- renders the fixed help vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "project navigation sidebar -- renders fixed repository, issues, merge requests, pipelines, deployments, infrastructure, monitor, analytics, wiki, snippets, settings, and collapse-control vocabulary; the user-named project header is excluded"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "toggle-sidebar-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar toggle -- renders the fixed expand/collapse control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "notification",
+        "class": "js-no-ssh-message"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "SSH notification banner -- renders fixed operator-authored notification copy and fixed actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "notification",
+        "class": "auto-devops-implicitly-enabled-banner"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Auto DevOps notification banner -- renders fixed operator-authored notification copy and fixed actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "gl-dismiss-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "alert dismissal controls -- render the fixed close vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "alert-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "alert action links -- render the fixed platform-provided alert actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "btn-clipboard"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "copy-to-clipboard control -- renders the fixed copy action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "__BVID__5"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "project actions dropdown control -- renders the fixed project-action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "star-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "star control -- renders the fixed star action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "fork-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "fork control -- renders the fixed fork action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "shortcuts-find-file"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file-search control -- renders the fixed find-file action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "web-ide-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Web IDE control -- renders the fixed Web IDE action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "project-action-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "project actions menu -- renders the fixed project-action control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "clone-dropdown"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "clone control -- renders the fixed repository-cloning vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "nav gl-gap-3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository action navigation -- renders the fixed files, history, and repository-action control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "column header",
+        "id": "name"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "name column header -- renders the fixed Name vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "column header",
+        "id": "last-commit"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "last-commit column header -- renders the fixed Last commit vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "column header",
+        "id": "last-update"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "last-update column header -- renders the fixed Last update vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "__BVID__58"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "tree add-action menu -- renders the fixed repository tree action vocabulary"
+  }
+]

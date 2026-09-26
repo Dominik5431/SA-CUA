@@ -1,0 +1,58 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "fides-overlay"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent banner -- renders: fixed operator privacy/consent vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "Wr7_RG_mastheadSection"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "masthead navigation -- renders: Subscribe/Account links, Sections button, Search, section label, Latest link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "site-content"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "top"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main site content -- renders: section labels, operator-authored articles and highlights, stream panel; ad container subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "site-index-label"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site index heading -- renders: 'Site Index' label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "css-1e1s8k7"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer navigation -- renders: fixed operator links (About, Advertise, Contact, Careers, Terms, Privacy, etc.)"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-repo-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Repository tab navigation -- renders: Code, Issues, Pull requests, Actions, Projects, Wiki, Security, Insights (fixed operator vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "prc-StateLabel-StateLabel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue status label -- renders: Closed/Open (fixed operator vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "SignedOutBanner-module__signedOutBanner"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Signed-out banner -- renders: Sign up prompt and fixed marketing copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: GitHub logo, copyright, and fixed navigation links (Terms, Privacy, Security, Status, Docs, Contact, etc.)"
+  }
+]

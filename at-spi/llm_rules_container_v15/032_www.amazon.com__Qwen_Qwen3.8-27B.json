@@ -1,0 +1,12 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooter"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: Back to top, fixed navigation links, and legal/copyright information"
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "except": [
+      {
+        "role": "tree table"
+      },
+      {
+        "role": "table"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "File Roller application chrome -- renders: window controls, navigation buttons, view toggles, and fixed toolbar/menu labels; file listing tables are subtracted as they contain user-named files"
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left sidebar navigation -- platform's own interface and fixed taxonomy links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "mainbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "questions"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main bar header and controls -- renders: page heading, ask question CTA, sort and filter controls; the question list is subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "questions"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "s-post-summary"
+      },
+      {
+        "role": "section",
+        "class": "everyonelovesstackoverflow"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "questions list container -- renders: pagination controls and page furniture; the post summaries and ad slots are subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-sidebarwidget bg-purple-100 ba bc-purple-400 bar-sm mb16 ps-relative js-sofa-sidebar-promo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "SOFA sidebar promo widget -- operator-authored promotional copy and controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- platform's own interface and site links throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "onetrust-banner-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent banner -- platform's own interface and consent controls"
+  }
+]

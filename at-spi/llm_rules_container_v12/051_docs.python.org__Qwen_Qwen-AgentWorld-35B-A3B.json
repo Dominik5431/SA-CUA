@@ -1,0 +1,7 @@
+[
+  {
+    "scope": "page",
+    "verdict": "trusted",
+    "note": "official Python tutorial documentation page -- every string on it is platform-authored documentation and interface"
+  }
+]

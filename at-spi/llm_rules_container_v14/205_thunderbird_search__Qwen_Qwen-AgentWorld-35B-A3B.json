@@ -1,0 +1,92 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "spacesToolbar",
+        "class": "spaces-toolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "spaces navigation toolbar -- platform's own interface controls for mail, address book, calendar, tasks, chat, settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "unifiedToolbarContainer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "unified toolbar container -- platform's own interface controls including unified toolbar, appmenu, and window titlebar buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "toolbar-menubar",
+        "class": "chromeclass-menubar themeable-full"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main menu bar -- platform's own interface menu controls (File, Edit, View, Go, messages, tasks, help)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "folderPaneHeaderBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "folder pane header bar -- platform's own interface controls (more, write message, get messages)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "threadPaneHeaderBar",
+        "class": "list-header-bar"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "id": "threadPaneFolderName",
+        "class": "list-header-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "thread pane header bar -- platform's own interface controls (quick filter, display button); subtracted echoed folder name heading"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "quick-filter-bar",
+        "class": "themeable-brighttext"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "quick filter bar -- platform's own interface filter controls (sticky, unread, starred, in address book, tags, attachment, and text filters)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "status bar -- platform's own interface status controls (offline status, status text)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "start-page"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Thunderbird start page -- platform's own marketing and informational content"
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: Skip to main content, Stack Overflow logo, Questions, Search, Help, Stack Exchange, Log in, Sign up"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Left sidebar navigation -- renders: Home, Questions, Ask AI, Tags, Users, Companies, Collectives, SOFA, Challenges, Chat, Articles, and fixed promotional copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mainbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "questions"
+      },
+      {
+        "role": "section",
+        "id": "tag-headline-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main content controls -- renders: question count, sort tabs (Newest, Active, Votes, Score), and filter controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "landmark",
+        "class": "js-sofa-sidebar-promo"
+      },
+      {
+        "role": "list",
+        "class": "s-sidebarwidget--content"
+      },
+      {
+        "role": "section",
+        "id": "dfp-tsb"
+      },
+      {
+        "role": "section",
+        "id": "dfp-msb"
+      },
+      {
+        "role": "section",
+        "id": "hot-network-questions"
+      },
+      {
+        "role": "section",
+        "id": "dfp-bsb"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Right sidebar -- renders: feed link; user-generated lists and ad slots subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: Stack Overflow logo, navigation links (Questions, Tags, Users, Companies, Collectives, etc.), social links, and copyright text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "onetrust-consent-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Cookie consent banner -- renders: privacy policy text and consent buttons"
+  }
+]

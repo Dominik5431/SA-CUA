@@ -1,0 +1,58 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "navbar-gitlab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: GitLab logo, search box, 'New project' button, dashboard shortcut labels (Issues, Merge requests, To do list), Help, and user avatar controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Project sidebar navigation -- renders: fixed section labels (Project information, Repository, Issues, Merge requests, Pipelines, Deployments, Infrastructure, Monitor, Analytics, Wiki, Snippets, Settings); the project name header is subtracted as it is user-defined"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "breadcrumbs"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Breadcrumb navigation -- renders: user-defined project and namespace names, which are treated as trusted navigation context in this calibration"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "content-body"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "class": "mr-list"
+      },
+      {
+        "role": "section",
+        "class": "filtered-search-box"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Merge request list controls -- renders: state tabs (Opened, Merged, Closed, All), 'New merge request' button, sort and filter controls, and bulk update actions; the list of merge requests and the search input are subtracted"
+  }
+]

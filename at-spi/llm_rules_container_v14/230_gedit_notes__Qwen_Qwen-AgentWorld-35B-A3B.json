@@ -1,0 +1,24 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "radio button",
+    "verdict": "trusted",
+    "note": "line ending and encoding selection radio buttons -- operator's own interface controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      },
+      {
+        "role": "panel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "menu and dialog panels -- operator's own interface buttons, check boxes, and separators"
+  }
+]

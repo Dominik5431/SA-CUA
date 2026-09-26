@@ -1,0 +1,35 @@
+{
+  "file": "405_reddit_all_hot.xml",
+  "screen": [
+    1920,
+    1080
+  ],
+  "regions": [
+    {
+      "bbox": [
+        437,
+        194,
+        1087,
+        886
+      ],
+      "n": 111,
+      "label": "main",
+      "kind": "landmark",
+      "id": 1,
+      "root_index": 0
+    },
+    {
+      "bbox": [
+        451,
+        114,
+        1073,
+        52
+      ],
+      "n": 11,
+      "label": "site-nav",
+      "kind": "landmark",
+      "id": 2,
+      "root_index": 0
+    }
+  ]
+}

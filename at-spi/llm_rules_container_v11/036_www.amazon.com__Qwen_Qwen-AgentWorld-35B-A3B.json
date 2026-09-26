@@ -1,0 +1,77 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "navbar-main",
+        "class": "nav-opt-sprite nav-flex nav-locale-us nav-lang-en nav-ssl nav-unrec nav-progressive-attribute"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "nav-search-bar-form",
+        "class": "nav-searchbar nav-progressive-attribute"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search bar form -- platform's own interface including search dropdown and submit button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-tools",
+        "class": "layoutToolbarPadding"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "navigation tools section -- account, orders, cart links and location popover"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "mn-nav-stripe mn-nav-stripe-2-lines mn-nav-stripe--move"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "navigation stripe -- platform's own category and department links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooter",
+        "class": "navLeftFooter nav-sprite-v1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer navigation and links -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "averageCustomerReviews"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "average customer reviews popover and link -- computed scores and review count about submitted content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "id": "histogramTable",
+        "class": "a-unordered-list a-nostyle a-vertical _cr-ratings-histogram_style_histogram__-J2UR"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "customer review histogram table -- computed operator-defined rating bucket links"
+  }
+]

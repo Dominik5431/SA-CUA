@@ -1,0 +1,113 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Accessibility skip links -- renders: fixed platform navigation shortcuts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site navigation -- renders: Home, main menu items, search box, user profile controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "pagination"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Pagination controls -- renders: Next/Previous navigation buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: copyright and platform links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "main"
+      },
+      {
+        "role": "list",
+        "class": "unlistify flex"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comment sorting tabs -- renders: fixed sorting options (e.g., Best, New, Old)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "main"
+      },
+      {
+        "role": "heading",
+        "class": "page-heading"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Page heading -- renders: fixed section title (e.g., 'Comments')"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "article",
+        "class": "comment"
+      },
+      {
+        "role": "landmark",
+        "class": "comment__nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comment action links -- renders: fixed action labels (Reply, Permalink, Parent)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "article",
+        "class": "comment"
+      },
+      {
+        "role": "section",
+        "class": "vote"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Voting controls -- renders: Upvote/Downvote buttons and score"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "article",
+        "class": "comment"
+      },
+      {
+        "role": "header",
+        "class": "comment__header"
+      }
+    ],
+    "own_role": "label",
+    "verdict": "trusted",
+    "note": "Comment hide toggle -- renders: fixed 'Hide' label"
+  }
+]

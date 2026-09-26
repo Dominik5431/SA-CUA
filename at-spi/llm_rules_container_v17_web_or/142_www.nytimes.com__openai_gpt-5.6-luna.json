@@ -1,0 +1,102 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "alert",
+        "id": "fides-banner-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "consent banner -- renders fixed privacy notice, vendor-control, language, and accept/reject/manage-preferences vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Wr7_RG_mastheadWrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site masthead -- renders fixed NYT branding, section navigation, search, account, and menu controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "css-1ta8iz9"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "collection header -- renders the fixed section heading and fixed section-navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "css-1dv1kvn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site section heading -- renders fixed operator-defined section-label vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "module-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "module header -- renders fixed platform-module headings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "css-1jx9oro"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination navigation -- renders fixed page-navigation links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "css-1qthz13"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "platform information module -- renders fixed platform-authored explanatory copy and fixed links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "social-media-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "social-media navigation -- renders the fixed platform social-channel link vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "css-1jmk4jh"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site index region -- renders the fixed site-index heading"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "css-1qa4qp6"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders fixed footer navigation, policy, help, and company-link vocabulary"
+  }
+]

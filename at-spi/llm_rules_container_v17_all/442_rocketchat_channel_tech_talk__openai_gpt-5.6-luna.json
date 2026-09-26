@@ -1,0 +1,108 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "rcx-button-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar and toolbox control groups -- renders the fixed vocabulary of workspace, navigation, and account actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-top-bar__title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar toolbox heading -- renders fixed platform vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar section headings -- renders the fixed room-list and direct-message section labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "rcx-sidebar-item__menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar item menu buttons -- renders fixed item-management controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "footer",
+        "class": "rcx-css-1h8ylb3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "platform branding footer -- renders fixed Rocket.Chat branding and logo"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "rcx-room-header"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "room-header action buttons -- renders the fixed room-control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "messages-box"
+      },
+      {
+        "role": "push button",
+        "class": "new-message"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "new-message control -- renders the fixed control for composing or locating new messages"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "jump-recent"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "jump-recent control -- renders the fixed control for returning to recent messages"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "separator",
+        "class": "rcx-message-divider"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message-list divider -- renders a fixed timeline separator"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list item",
+        "class": "start"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "conversation-start marker -- renders the fixed beginning-of-conversation label"
+  }
+]

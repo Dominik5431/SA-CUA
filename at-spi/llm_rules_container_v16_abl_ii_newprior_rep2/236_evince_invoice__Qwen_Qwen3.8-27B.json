@@ -1,0 +1,34 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main application toolbar -- renders fixed operator controls for navigation and view options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "split pane"
+      }
+    ],
+    "except": [
+      {
+        "role": "document frame"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Document viewer split pane -- renders operator controls for sidebar and zoom; subtracts the document frame which displays untrusted document content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Bottom status bar -- renders fixed operator controls for page navigation, zoom, and view toggles"
+  }
+]

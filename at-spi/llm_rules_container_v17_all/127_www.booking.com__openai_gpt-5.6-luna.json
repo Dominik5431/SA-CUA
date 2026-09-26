@@ -1,0 +1,133 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "bui-list-item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip-navigation link -- renders fixed accessibility-navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header bar -- renders the operator's fixed logo, account, help, and header-control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_tab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "primary travel navigation -- renders the fixed travel categories accommodations/flights/packages/cars/attractions/airport taxis"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "class": "d026bbaa45"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "destination search label -- renders fixed search-field labeling vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "searchbox-horizontal-occupancy-label"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "occupancy search label -- renders fixed guest-and-room field labeling vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "dc15842869 f1f96fdf10 d10abb4e59"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "date search control -- renders fixed date-picker control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "dc15842869 f1f96fdf10 b3d1de1c28"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "occupancy search control -- renders fixed guest-and-room picker control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "cfd71fb584"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search submission control -- renders fixed search action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "cca574b93c"
+      }
+    ],
+    "own_role": "check box",
+    "verdict": "trusted",
+    "note": "result-card selection controls -- renders fixed operator selection controls while leaving listing text masked"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "e7addce19e"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "results section heading -- renders the operator's fixed section-heading vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer_menu_track"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders fixed operator navigation, legal, support, destination, and partner-link vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "onetrust-policy"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie-policy content -- renders operator-authored cookie and privacy policy vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "onetrust-button-group-parent"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie-consent controls -- renders the fixed cookie-settings/reject/accept vocabulary"
+  }
+]

@@ -1,0 +1,192 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility navigation -- renders fixed skip-navigation controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "site-nav__header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders the platform logo and fixed home navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "site-nav__main-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main navigation -- renders the platform's fixed navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "site-nav__search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site search control -- renders the fixed search interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "site-nav__user-menu"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "account menu control -- renders the fixed account-menu control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "submission__nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "submission actions -- renders fixed post navigation controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vote"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "vote controls -- renders fixed upvote and downvote buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "reply_to_submission_103666_comment_help"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment-form help -- renders fixed markdown-help controls and explanatory labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment form submission control -- renders the fixed comment-submit action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "tab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment sorting tabs -- renders the fixed tab vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "article",
+        "class": "comment"
+      }
+    ],
+    "own_role": "check box",
+    "verdict": "trusted",
+    "note": "comment visibility controls -- renders fixed comment collapse checkboxes"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "article",
+        "class": "comment"
+      }
+    ],
+    "own_role": "label",
+    "verdict": "trusted",
+    "note": "comment visibility controls -- renders fixed hide/show labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "article",
+        "class": "comment"
+      },
+      {
+        "role": "landmark",
+        "class": "comment__nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment actions -- renders fixed reply, permalink, and parent-navigation controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "submission-meta"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "submission metadata label -- renders the fixed metadata heading"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "form subscribe-form"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "subscription control -- renders the fixed subscribe action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "toggle button",
+        "class": "sidebar__title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar panel control -- renders a fixed expand/collapse control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "sidebar__title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar section heading -- renders fixed platform section labeling"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "sidebar__no-padding"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar navigation -- renders the platform's fixed sidebar menu links"
+  }
+]

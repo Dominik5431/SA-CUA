@@ -1,0 +1,62 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "navbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main navigation bar -- renders: Amazon logo, location, search controls, account links, orders, cart, and fixed category navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "search"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "a-size-base s-desktop-toolbar"
+      },
+      {
+        "role": "list",
+        "class": "s-messaging-widget-results-header-accessibility-header"
+      },
+      {
+        "role": "section",
+        "class": "spv-widget-container"
+      },
+      {
+        "role": "landmark",
+        "class": "a-carousel-container"
+      },
+      {
+        "role": "section",
+        "class": "s-card-container s-overflow-hidden"
+      },
+      {
+        "role": "list",
+        "class": "rush-component"
+      },
+      {
+        "role": "section",
+        "id": "ape_Search_auto-bottom-advertising-0_portal-batch-fast-btf-loom_3b1f994c-df1c-44cb-b3a5-186b7af828b6_placement"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search results page chrome -- renders: sort controls, pagination, and section labels; subtracts product listings, sponsored ads, and user-generated content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooter"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: Back to top, fixed navigation links, and legal/copyright information"
+  }
+]

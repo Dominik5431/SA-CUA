@@ -1,0 +1,82 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "bg-blue-900 text-white dark:bg-blue-950 relative print:hidden border-b border-b-white dark:border-b-blue-900"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar and header -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "block pt-1 mb-2 pl-3 pr-14 leading-[1.5] print:hidden flex-1 container mx-auto pl-5"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "breadcrumb navigation -- renders: home link and document number, operator-defined values"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "bg-blue-900 text-white dark:bg-blue-950 border-t border-t-white dark:border-t-blue-900 relative print:hidden"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer -- platform's own interface and links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "page tab list",
+        "class": "border-b-2 border-gray-400"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "document view tabs -- platform's own interface controls for document formats"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "block print:text-center font-feature-settings-calt-off ml-2.5"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "RFC metadata list -- renders: intended status, category, updates, obsoletes, operator-defined values about submitted content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "py-1 uppercase print:text-black print:bg-transparent print:border-1 print:border-black px-3 bg-blue-400 dark:bg-blue-800 text-white print:bg-white"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "section label -- renders: 'REQUEST FOR COMMENTS' or similar operator-defined section label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "in-this-section"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "table of contents heading -- static interface label 'in this section'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "toggle button",
+        "class": "group absolute right-0 top-0 text-gray-600 dark:text-white flex h-[36px] w-[36px] items-center justify-center rounded-xs cursor-pointer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "notice expand/collapse controls -- platform's own interface for status and copyright notices"
+  }
+]

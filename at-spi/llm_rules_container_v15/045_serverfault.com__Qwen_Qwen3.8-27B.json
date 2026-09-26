@@ -1,0 +1,12 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answers-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Answers section header -- renders: Answers count label, Sort by label, and sort options (Newest, Oldest, Score)"
+  }
+]

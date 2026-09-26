@@ -1,0 +1,52 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Toolbar and dialog action buttons -- renders fixed operator vocabulary for editor commands (e.g., New, Open, Save, Undo, Redo, Find, Replace, Print, Help, Close, OK, Cancel)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "Toolbar and dialog view toggle buttons -- renders fixed operator vocabulary for UI state (e.g., Sidebar, Statusbar, Fullscreen, Show Line Numbers)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "check box",
+    "verdict": "trusted",
+    "note": "Preferences dialog checkboxes -- renders fixed operator vocabulary for editor settings (e.g., Word Wrap, Show Line Numbers, Highlight Current Line, Auto Indent)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "radio button",
+    "verdict": "trusted",
+    "note": "Preferences dialog radio buttons -- renders fixed operator vocabulary for mutually exclusive settings (e.g., Tab size, Indentation type, Line wrap mode)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "label",
+    "verdict": "trusted",
+    "note": "Preferences dialog and toolbar labels -- renders fixed operator vocabulary for setting names, descriptions, and button tooltips"
+  }
+]

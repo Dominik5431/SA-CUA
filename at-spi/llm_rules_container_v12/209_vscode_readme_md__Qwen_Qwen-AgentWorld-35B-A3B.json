@@ -1,0 +1,56 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-action-bar vertical"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Activity Bar navigation and bottom controls -- renders: Explorer, Search, Source Control, Run and Debug, Extensions, Accounts, Settings icons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar",
+        "id": "workbench.parts.statusbar",
+        "class": "part statusbar status-border-top"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "status bar -- renders: host, problems, forwarded ports, notifications, editor mode, EOL, encoding, indentation, selection, screen reader mode status controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "class": "actions-container highlight-toggled"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "editor tab actions toolbar -- renders: open preview, split horizontal, more options controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "dialog",
+        "id": "list_id_3_0",
+        "class": "monaco-list-row"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "notification action and clear buttons -- renders: notification action controls and clear notifications control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "page tab",
+        "class": "tab tab-actions-right sizing-fit has-icon active tab-border-bottom tab-border-top"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "tab close button -- renders: close tab control"
+  }
+]

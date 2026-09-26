@@ -1,0 +1,153 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-main-menu-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main navigation control -- renders the fixed menu-toggle interface vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "mw-logo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site branding -- renders the operator's fixed Wikimedia branding"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "entry",
+        "id": "searchInput"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search box -- renders the fixed search-field interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "cdx-search-input__end-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search submit control -- renders the fixed search action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-user-links"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user account navigation -- renders the fixed Support/Sign up/Log in vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vector-pinnable-header vector-toc-pinnable-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "table-of-contents header controls -- renders the fixed Contents and pinning-control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "p-lang-btn-checkbox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "language selector control -- renders the fixed language-selection interface vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "ca-addsection"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "new discussion control -- renders the fixed add-section action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "p-associated-pages"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page-type tabs -- renders the fixed Article/Talk navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "p-views"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page view tabs -- renders the fixed View/Edit/History vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "vector-page-tools-dropdown-checkbox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page-tools menu control -- renders the fixed page-tools toggle vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "vector-appearance"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "appearance preferences -- renders the fixed font-size, width, and theme controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "siteSub"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site subtitle -- renders the operator's fixed site-subtitle vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mw-content-text"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "discussion and collapse controls -- renders the fixed reply, overflow, and expand/collapse action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "id": "footer-places"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer policy navigation -- renders the fixed Privacy/About/Disclaimers/Contact and related vocabulary"
+  }
+]

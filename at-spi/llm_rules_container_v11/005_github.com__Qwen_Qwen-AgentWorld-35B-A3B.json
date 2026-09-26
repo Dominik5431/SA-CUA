@@ -1,0 +1,112 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "MarketingHeader-module__root__Tk7n3 HeaderMktg header-logged-out"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "marketing header navigation and auth controls -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-skip-to-content"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip-to-content link -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "HeaderSearch-module__trigger__zsF9q"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search trigger button -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "AuthCTAs-module__signInWrap__q2P60"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sign in / sign up controls -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "HeaderAppearanceSettings-module__trigger__hUheK"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "appearance settings button -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-repo-nav js-sidenav-container-pjax js-responsive-underlinenav overflow-hidden UnderlineNav px-3 tmp-px-3 px-md-4 tmp-px-md-4 px-lg-5 tmp-px-lg-5"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository navigation tabs -- platform's own interface: Code, Actions, Projects, Security and quality, Insights"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "pagehead-actions flex-shrink-0 d-none d-md-inline"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository action buttons and counters -- watch, fork, star controls and computed counts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "ref-picker-commits"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "ref picker button -- platform's own interface for branch/tag selection"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "commits-pagehead"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "commits page heading -- platform's own interface label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "prc-Pagination-PaginationContainer-HEhGo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- platform's own interface for page navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- platform's own legal and site links"
+  }
+]

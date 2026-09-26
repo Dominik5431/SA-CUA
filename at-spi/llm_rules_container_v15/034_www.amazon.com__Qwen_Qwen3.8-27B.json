@@ -1,0 +1,64 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "search"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "a-size-base s-desktop-toolbar"
+      },
+      {
+        "role": "section",
+        "class": "featured-brand-container"
+      },
+      {
+        "role": "section",
+        "class": "s-widget-container"
+      },
+      {
+        "role": "heading",
+        "id": "loom-desktop-inline-slot_sptw-shopbyintent-us-t1-heading"
+      },
+      {
+        "role": "landmark",
+        "class": "a-carousel-container"
+      },
+      {
+        "role": "heading",
+        "id": "loom-desktop-bottom-slot_featuredasins-heading"
+      },
+      {
+        "role": "list",
+        "class": "rush-component"
+      },
+      {
+        "role": "heading",
+        "class": "a-size-medium-plus a-color-base"
+      },
+      {
+        "role": "link",
+        "class": "a-size-base a-color-base a-link-normal"
+      },
+      {
+        "role": "section",
+        "class": "s-screenreader"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search results page chrome -- renders: Sort by dropdown (Featured, Avg. Customer Review, Price: Low to High, etc.) and pagination controls (Previous, 1, 2, 3, Next)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooter"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: Back to top, fixed navigation columns (Get to Know Us, Make Money with Us, Amazon Products, Let Us Help You), and legal links"
+  }
+]

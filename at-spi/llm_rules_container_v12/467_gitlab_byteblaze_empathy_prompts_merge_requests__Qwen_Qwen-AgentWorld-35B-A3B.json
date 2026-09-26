@@ -1,0 +1,94 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "navbar navbar-gitlab navbar-expand-sm js-navbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header has-tooltip"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar navigation -- platform's own interface and section labels; subtracts the context-header with the user-created project name"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "issues-state-filters gl-border-b-0 gl-flex-grow-1 nav gl-tabs-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "merge request state filter tabs -- renders: Opened, Merged, Closed, All"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "filtered-search-box"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry",
+        "class": "form-control filtered-search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "filter search box controls -- renders: search history dropdown toggle; the search input query is subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "gl-ml-3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sort controls -- renders: sort dropdown toggle, reverse sort button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "gl-button btn btn-md btn-default has-tooltip"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "action button -- platform control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "gl-button btn btn-md btn-default gl-mr-3 js-bulk-update-toggle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "bulk update toggle button -- platform control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "gl-button btn btn-md btn-confirm"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "confirm button -- platform control"
+  }
+]

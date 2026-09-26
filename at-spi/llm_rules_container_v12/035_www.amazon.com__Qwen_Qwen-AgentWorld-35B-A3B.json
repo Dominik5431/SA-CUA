@@ -1,0 +1,78 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-opt-sprite nav-flex nav-locale-us nav-lang-en nav-ssl nav-unrec nav-progressive-attribute",
+        "id": "navbar-main"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main navigation bar -- platform's own interface including logo, location, search, account, orders, cart"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-searchbar nav-progressive-attribute",
+        "id": "nav-search-bar-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search bar form -- platform's own search input and dropdown controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "class": "a-native-dropdown a-declarative",
+        "id": "s-result-sort-select"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sort control -- operator-defined sort options for search results"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "navLeftFooter nav-sprite-v1",
+        "id": "navFooter"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer -- platform's own interface including policies, links, language/currency selectors"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "s-widget-container s-spacing-mini s-widget-container-height-mini celwidget slot=MAIN template=MESSAGING widgetId=messaging-messages-results-header-builder-legal-disclaimer-and-ranking-disclosure-builder"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "class": "s-messaging-widget-results-header-accessibility-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "legal disclaimer and ranking disclosure widget -- renders: operator legal text and heading; the results list is subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "s-widget-container s-spacing-mini s-widget-container-height-mini celwidget slot=MAIN template=MESSAGING widgetId=messaging-messages-results-header-builder"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "class": "s-messaging-widget-results-header-accessibility-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "results header messaging widget -- renders: operator heading text; the results list is subtracted"
+  }
+]

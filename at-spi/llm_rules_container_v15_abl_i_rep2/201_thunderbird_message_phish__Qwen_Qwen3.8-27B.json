@@ -1,0 +1,127 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "spacesToolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "application mode switcher -- renders: Mail/Address Book/Calendar/Tasks/Chat/Settings/Collapse"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "toolbar-menubar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "application menu bar -- renders: File/Edit/View/Go/Message/Tasks/Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "folderPaneHeaderBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "folder pane action bar -- renders: More/Write/Get Messages"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "threadPaneHeaderBar"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "id": "threadPaneFolderName"
+      },
+      {
+        "role": "section",
+        "id": "threadPaneFolderCountContainer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "thread pane header controls -- renders: Quick Filter/Display; folder name and count are user-defined"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "header-view-toolbox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message action toolbar -- renders: Reply/Forward/Archive/Junk/Trash/More/Star"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "toHeading"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "recipient label -- renders: To"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "application status bar -- renders: Offline status indicator"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "chat-toolbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "label",
+        "id": "statusMessageLabel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "chat toolbar controls -- renders: Add Buddy/Join Chat/Status/Accounts; status message is user-defined"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "id": "noAccountTitle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "placeholder title -- renders: No Account"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "id": "noAccountDesc"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "placeholder description -- renders: Set up an account to start chatting"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "openIMAccountWizardButton"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "wizard button -- renders: Set Up Account"
+  }
+]

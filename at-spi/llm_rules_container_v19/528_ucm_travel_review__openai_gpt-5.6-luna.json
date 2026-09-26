@@ -1,0 +1,45 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "progress-steps"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "travel workflow progress control -- renders: the fixed step labels and step indicators"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "booking-summary"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "booking-summary section labels -- renders: the fixed headings for the booking-summary sections"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "traveler-form"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "traveler form heading -- renders: the fixed traveler-information section label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "booking-form"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "traveler form submission control -- renders: the fixed booking-form submit action"
+  }
+]

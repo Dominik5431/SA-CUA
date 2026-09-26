@@ -1,0 +1,84 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "class": "language-select"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "language selector control -- renders the operator-defined language choices"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "class": "theme-selector-label"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "theme selector control -- renders the fixed theme-selection interface"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "inline-search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search submission control -- renders the fixed search action button while leaving the query entry masked"
+  },
+  {
+    "own_role": "link",
+    "ancestor_path": [
+      {
+        "role": "list item",
+        "class": "right"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "related navigation links -- renders the operator's fixed documentation-navigation vocabulary, excluding search and selector values"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list item",
+        "class": "nav-item-1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "documentation navigation item -- renders the operator-defined fixed navigation label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list item",
+        "class": "nav-item-this"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "current documentation navigation item -- renders the operator-defined fixed current-section label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "sphinxsidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "documentation sidebar -- renders fixed headings, previous/next navigation, source, editing, and issue-reporting controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders the operator's fixed legal, licensing, navigation, and attribution vocabulary"
+  }
+]

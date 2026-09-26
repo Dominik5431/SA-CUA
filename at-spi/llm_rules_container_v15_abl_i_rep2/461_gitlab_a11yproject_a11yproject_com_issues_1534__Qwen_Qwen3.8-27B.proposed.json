@@ -1,0 +1,103 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "navbar-gitlab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global top navigation bar -- renders: GitLab logo, search box, 'New project', 'Issues', 'Merge requests', 'To do list', 'Help', and user avatar controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Project sidebar navigation -- renders: 'Project information', 'Repository', 'Issues', 'Merge requests', 'Pipelines', 'Deployments', 'Infrastructure', 'Monitor', 'Analytics', 'Wiki', 'Snippets', 'Settings'; the project name header is subtracted as it is user-defined"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "breadcrumbs"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Breadcrumb navigation -- renders: project path segments and 'Issues' label; these are structural identifiers for the current view"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "right-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue detail sidebar -- renders: fixed labels ('Assignee', 'Labels', 'Milestone', 'Due date', 'Time tracking', 'Confidential', 'Participants', 'Move issue') and controls; values are masked by default"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "new-note"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comment composition form -- renders: 'Write', 'Preview' tabs, formatting toolbar buttons, 'Comment' and 'Comment & Close' actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "detail-page-header-body"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "title"
+      },
+      {
+        "role": "paragraph"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue header controls -- renders: status icon, 'Created' timestamp label, author link, 'Edit' button, 'Close'/'Reopen' buttons, 'Create merge request' button; the issue title and description body are subtracted as user-generated"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "related-issues"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Related issues module frame -- renders: 'Related issues' heading, 'Show more' button, and descriptive text; the specific issue links are user-generated but the module structure is platform-defined"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "issuable-discussion"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "id": "notes-list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Discussion section frame -- renders: 'Comments' heading, 'Sort by' dropdown, and the comment form; the list of existing comments is subtracted as user-generated"
+  }
+]

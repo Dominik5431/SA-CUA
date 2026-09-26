@@ -1,0 +1,102 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "rcx-button-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "navigation icon button groups -- renders: Home/Search/Directory/Administration/Account and sidebar topbar action buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar topbar -- renders: 'Omnichannel' title and action buttons; fixed platform vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar section headings -- renders: fixed labels like 'Channels' / 'Direct Messages'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "rcx-css-19z81xy"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page heading -- renders: 'Directory'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-tabs"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "directory tab bar -- renders: Channels / Users / Teams"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-css-g4w5l8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search input wrapper -- renders: fixed search label and text entry field"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "rcx-table__head"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "table header row -- renders: fixed column labels Name/Members/Created At/Last Message etc."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "rcx-pagination"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- renders: page count, back/forward buttons, page number links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "footer",
+        "class": "rcx-css-1h8ylb3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar footer -- renders: platform logo link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-css-ebq3kg"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "branding section -- renders: 'Powered by Rocket.Chat' platform marketing copy"
+  }
+]

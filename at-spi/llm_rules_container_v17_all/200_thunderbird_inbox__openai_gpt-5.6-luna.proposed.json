@@ -1,0 +1,126 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "spacesToolbar"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "application space-switching controls -- renders: Mail/Address Book/Calendar/Tasks/Chat/Settings/collapse controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "unifiedToolbar"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "unified toolbar controls -- renders: fixed search and application-menu controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar",
+        "id": "mail-menubar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "application menu bar -- renders: File/Edit/View/Go/Message/Tasks/Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "toolbar-menubar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "application menu-bar toolbar -- renders: fixed application menu interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "titlebar-min"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "window minimize control -- renders: fixed window-management action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "titlebar-restore"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "window restore control -- renders: fixed window-management action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "titlebar-close"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "window close control -- renders: fixed window-management action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "folderPaneHeaderBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "folder-pane header controls -- renders: more, write-message, and get-messages actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "threadPaneHeaderBar"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "message-list filter control -- renders: fixed quick-filter toggle"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "threadPaneHeaderBar"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "message-list display control -- renders: fixed message-view options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "start-page"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Thunderbird start page -- renders: release-channel, donation, logo, feature headings, taglines, feature copy, and fixed start-page links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "offline-status"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "connection-status control -- renders: fixed online/offline status actions"
+  }
+]

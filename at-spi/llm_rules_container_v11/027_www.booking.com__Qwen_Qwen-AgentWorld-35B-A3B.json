@@ -1,0 +1,52 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": " Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "header navigation and controls -- operator's own interface including logo, login links, and service tabs"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "b7ef425131 e9f1adff2b b935cde1f7 b59e36af6b b3ffbd4bb3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search form controls -- destination input, occupancy labels, and search buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "TravellerFooter_root--variant-full"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer navigation and legal/support links -- operator's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "b87c397a13 cacb5ff522"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "results heading -- operator's own interface label for search results or view options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "ad68e1f7ce bb51db7864"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view toggle controls -- list/grid view options"
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "header"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "calendar heading -- renders the operator's fixed calendar title"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "calendar-body"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "day-column"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "calendar time scale -- renders: fixed time-slot labels"
+  }
+]

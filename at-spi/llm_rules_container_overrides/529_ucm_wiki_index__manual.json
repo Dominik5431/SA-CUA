@@ -1,0 +1,158 @@
+[
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "class": "welcome-screen"
+   }
+  ],
+  "own_role": "heading",
+  "verdict": "trusted",
+  "note": "welcome heading -- renders the operator's fixed welcome vocabulary",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "class": "welcome-screen"
+   }
+  ],
+  "own_role": "paragraph",
+  "verdict": "trusted",
+  "note": "welcome and usage copy -- renders the operator's fixed introductory and instructional vocabulary",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "class": "stat-label"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "statistics labels -- renders the fixed labels for article, category, and update counts",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "landmark",
+    "class": "header"
+   }
+  ],
+  "except": [
+   {
+    "role": "landmark",
+    "class": "nav"
+   },
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "[manual UCM override] wiki header outside the nav -- fixed ResearchHub Wiki title; nav (editor greeting with the untrusted editor name) subtracted"
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "landmark",
+    "class": "sidebar"
+   }
+  ],
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "[manual UCM override] wiki sidebar -- search box and the navigation tree of categories and article titles (titles are not data-untrusted in the source)"
+ }
+]

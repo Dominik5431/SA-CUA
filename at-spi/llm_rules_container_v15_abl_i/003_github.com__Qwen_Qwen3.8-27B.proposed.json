@@ -1,0 +1,52 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "header-wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site header -- renders: Skip to content, GitHub logo, navigation menu items (Platform, Solutions, Marketplace, Pricing), Search, Sign in, Sign up, Appearance settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-repo-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Repository tab navigation -- renders: Code, Issues, Pull requests, Actions, Projects, Wiki, Security and quality, Insights"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site footer -- renders: GitHub logo, copyright text, Terms, Privacy, Security, Status, Docs, Contact, Manage cookies, Do not share my personal information"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "SignedOutBanner-module__signedOutBanner__F0MAQ"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Signed-out prompt banner -- renders: Sign up, Sign in to add to this issue, Sign up for free, Learn more about GitHub Issues"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "IssueViewer-module__issueViewerMetadataPane__bXvwI"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue metadata sidebar -- renders: Assignees, Labels, Projects, Milestone, Development, Participants, Copilot actions"
+  }
+]

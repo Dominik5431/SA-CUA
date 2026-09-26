@@ -1,0 +1,124 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility navigation -- renders fixed platform accessibility links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "site-nav__header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders the platform's fixed brand navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "site-nav__main-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main navigation -- renders the platform's fixed navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "site-nav__search-row"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search control -- renders the platform's fixed search interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "user-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "profile navigation tabs -- renders the platform's fixed user-page sections"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "check box",
+        "class": "hideable__checkbox",
+        "id": "comment_toggle_2343509"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment visibility control -- renders a fixed hide/show control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "class": "comment__hide-toggle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment hide control -- renders a fixed platform action label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "comment__nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment action navigation -- renders fixed reply, permalink and parent controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vote"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "voting controls -- renders fixed upvote and downvote buttons while leaving vote values masked"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "submission__nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "submission action navigation -- renders fixed platform submission controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "sidebar__no-padding"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar action menu -- renders fixed platform navigation actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders fixed platform footer copy and navigation"
+  }
+]

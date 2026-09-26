@@ -1,0 +1,202 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: skip link, logo, search input, Help, Stack Exchange, Log in, Sign up"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site header -- renders: English Language & Usage"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Left sidebar navigation -- renders: Home, Questions, Unanswered, Ask, Tags, Chat, Users, and fixed promotional copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "fs-headline1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Question header controls -- renders: Ask Question button; subtracts the user-generated question title"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item ws-nowrap mr16 mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Question metadata labels -- renders: Asked, Modified, Viewed"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item ws-nowrap mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Question metadata labels -- renders: Active"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question"
+      }
+    ],
+    "except": [
+      {
+        "role": "paragraph"
+      },
+      {
+        "role": "block quote"
+      },
+      {
+        "role": "list",
+        "class": "js-post-tag-list-wrapper"
+      },
+      {
+        "role": "section",
+        "class": "user-action-time"
+      },
+      {
+        "role": "section",
+        "class": "user-gravatar32"
+      },
+      {
+        "role": "section",
+        "class": "-flair"
+      },
+      {
+        "role": "link",
+        "class": "js-gps-track"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Question post controls -- renders: vote buttons, save, share, edit, follow, comments link; subtracts user-generated body, tags, and user attribution"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answers-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Answers header -- renders: '1 Answer', sort label, and sort options (Votes, Newest, Oldest)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "answer"
+      }
+    ],
+    "except": [
+      {
+        "role": "paragraph"
+      },
+      {
+        "role": "block quote"
+      },
+      {
+        "role": "section",
+        "class": "user-action-time"
+      },
+      {
+        "role": "section",
+        "class": "user-gravatar32"
+      },
+      {
+        "role": "section",
+        "class": "-flair"
+      },
+      {
+        "role": "section",
+        "class": "mod-flair"
+      },
+      {
+        "role": "section",
+        "class": "comments"
+      },
+      {
+        "role": "link",
+        "class": "js-gps-track"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Answer post controls -- renders: vote buttons, save, share, edit, follow, comments link; subtracts user-generated body, user attribution, and comments"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "spacer"
+      },
+      {
+        "role": "section",
+        "id": "hot-network-questions"
+      },
+      {
+        "role": "list",
+        "class": "s-sidebarwidget--content"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Right sidebar chrome -- renders: 'Related' heading, 'Hot Network Questions' heading, feed link; subtracts user-generated question lists"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: Stack Exchange logo, navigation links (Tour, Help, About, etc.), social links, copyright"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "onetrust-banner-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Cookie consent banner -- renders: fixed privacy policy text and consent buttons"
+  }
+]

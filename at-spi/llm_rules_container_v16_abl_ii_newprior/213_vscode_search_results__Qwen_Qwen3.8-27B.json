@@ -1,0 +1,86 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar",
+        "class": "ElectronMenuBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "native application menu bar -- renders fixed operator vocabulary: File/Edit/Selection/View/Go/Run/Terminal/Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-action-bar vertical"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "activity bar and bottom bar -- renders fixed operator icons: Explorer, Search, Source Control, Run, Extensions, Accounts, Settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "composite title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search viewlet header -- renders fixed operator vocabulary: 'Search' heading and toolbar icons for refresh, clear, new editor, list, collapse"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "search-widget"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search input controls -- renders fixed operator vocabulary: 'Search' placeholder, 'Replace' button, and toggle labels for case sensitive, whole word, regex"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "message"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search status message -- renders fixed operator vocabulary: 'No results found' and 'Open file' link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "title tabs show-file-icons"
+      },
+      {
+        "role": "tool bar",
+        "class": "actions-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "editor tab actions -- renders fixed operator icons: close, split, more"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "document frame",
+        "class": "gettingStartedContainer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "getting started page -- renders fixed operator vocabulary: product name, subtitle, category titles, descriptions, and action buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar",
+        "id": "workbench.parts.statusbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "status bar -- renders fixed operator vocabulary: remote indicator, SCM status, problems count, forwarded ports, notifications, screen reader mode"
+  }
+]

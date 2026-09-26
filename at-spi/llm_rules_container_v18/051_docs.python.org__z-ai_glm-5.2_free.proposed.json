@@ -1,0 +1,7 @@
+[
+  {
+    "scope": "page",
+    "verdict": "trusted",
+    "note": "Official Python documentation page (docs.python.org) -- every string is platform-authored: tutorial prose, table of contents, navigation bar, language/version switchers, sidebar controls, search box, theme selector, and footer are all operator-authored documentation and interface with no user-generated content"
+  }
+]

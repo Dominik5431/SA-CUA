@@ -1,0 +1,36 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "frame",
+        "class": "frame"
+      },
+      {
+        "role": "panel",
+        "class": "panel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top header panel -- platform's own interface controls and labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar",
+        "class": "menu-bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "menu bar -- platform's own navigation and fixed vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "panel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar tool controls -- platform's own interface"
+  }
+]

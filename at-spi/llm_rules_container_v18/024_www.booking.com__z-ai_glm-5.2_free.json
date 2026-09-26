@@ -1,0 +1,92 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "HeaderRegion"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders: logo, currency selector, language selector, register/sign-in/login links, and main navigation tabs (Accommodations/Flights/Packages/Cars/Attractions/Airport taxis); all operator fixed vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "HeroBannerDesktop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "hero banner -- renders: operator-authored marketing heading and promotional paragraph"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "SearchBoxDesktop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search box -- renders: destination label, destination combo box placeholder, date-selection buttons, occupancy label and control, search button, work-trip checkboxes; all operator interface controls with fixed vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "UniqueSellingPoints"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "unique selling points section -- renders: section heading and four operator-authored feature headings with descriptive paragraphs (marketing copy about booking benefits)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "SecondaryBannerDesktop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "secondary promotional banner -- renders: operator-authored section heading, descriptive text, program title, description, CTA link, and promotional image; operator-curated marketing content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "MerchCarouselPropertyTypesWww"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "property types carousel -- renders: section heading and a fixed set of operator-defined property type categories (Hotels/Apartments/Resorts/Villas/etc.) as carousel panels with links and headings; closed vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "GeniusSignInBanner"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Genius loyalty program sign-in banner -- renders: program heading, subheading, descriptive paragraph, sign-in and register links; all operator-authored fixed vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "SeoCoreInterlinking"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "SEO core interlinking section -- renders: section heading, fixed category tabs, and operator-curated destination links (geographic names to operator-created pages); no outside party can change what appears"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "FooterRegion"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: inline country/region links, footer link lists under Support/Settings/Legal/About headings, currency and language selector buttons, copyright text, and payment method logo images; all operator-authored fixed vocabulary"
+  }
+]

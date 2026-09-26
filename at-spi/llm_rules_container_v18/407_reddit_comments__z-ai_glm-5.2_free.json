@@ -1,0 +1,109 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility skip navigation -- renders: Skip to content / Skip to navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-nav"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "class": "site-nav__user-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site navigation bar -- renders: Home, main menu links, search box; user menu subtracted as it may carry a username"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "flex flex--guttered"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view/sort tab bar -- renders: fixed tab labels for switching comment views"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vote"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "vote up/down buttons -- fixed operator vocabulary; vote count static left masked"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "comment__nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment action links -- renders: Reply / Permalink / Parent"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "class": "comment__hide-toggle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment hide toggle label -- fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "check box",
+        "class": "hideable__checkbox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment visibility toggle checkbox -- operator control with fixed label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "pagination"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- renders: Next / page numbers"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- operator-authored links and copyright text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "comment__op-text"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "OP badge -- renders: fixed operator vocabulary marking the original poster"
+  }
+]

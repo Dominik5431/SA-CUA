@@ -1,0 +1,1103 @@
+<!DOCTYPE html><html class="js" lang="en" dir="ltr" prefix="og: http://ogp.me/ns#" data-night-mode="light"><head>
+    <meta charset="UTF-8">
+    <title>  I made a browser extension that displays AI-generated answers to StackOverflow questions
+</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Postmill ">
+
+    <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-precomposed.png">
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Postmill">
+
+          <script>
+        document.documentElement.classList.replace('no-js', 'js');
+        window.addEventListener('DOMContentLoaded', function () {
+            if (!window.Translator || !window.Routing) {
+                document.documentElement.classList.replace('js', 'no-js');
+            }
+        });
+      </script>
+    
+            <link rel="stylesheet" href="/build/fonts/Roboto.1b769b7e.css" integrity="sha384-PHblYKCHVDInTPsE/C7YLlrz5e/TbcCpxnMKTOmJ1tnMQz7wf2Tf/AzufVJ9IKLY">                          
+  <style>:root { --font-family: "Roboto",sans-serif }</style>
+
+<link rel="stylesheet" href="/build/core.36e8bfa7.css" integrity="sha384-+DCZcRfDlgpsC+EZwUdN9LyFu18K/QS3QTPSxNl8eToIlsT+4sJzqwAllO8zWKnX">
+
+
+                <link rel="stylesheet" href="/build/themes/postmill.4bac9561.css" integrity="sha384-GUHG14mZHpncYrnaDoM2Phn9ys9wq1VHhue6IsM3fUo2cg9GVEyvGiCNn7YwYuGq">
+  
+    
+
+  
+
+            <link rel="alternate" type="application/atom+xml" href="/all/new.atom" title="All forums">
+      <link rel="alternate" type="application/atom+xml" href="/featured/new.atom" title="Featured forums">
+    
+  <link rel="alternate" type="application/atom+xml" href="/f/coolgithubprojects/new.atom" title="/f/coolgithubprojects">
+
+      <meta property="og:site_name" content="Postmill">
+  <meta property="og:title" content="I made a browser extension that displays AI-generated answers to StackOverflow questions">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="http://reddit.com/f/coolgithubprojects/103666/i-made-a-browser-extension-that-displays-ai-generated">
+  <meta property="og:image" content="http://reddit.com/submission_images/b4ba4f2a7c2bd86e1e4feb018ae878ef8132e1b20d96dd571ffa1517d8879e6b.gif">
+  <meta property="og:article:published_time" content="2023-02-11T09:53:59+00:00">
+  <meta property="og:article:author" content="jsonathan">
+
+  <link rel="canonical" href="http://reddit.com/f/coolgithubprojects/103666/i-made-a-browser-extension-that-displays-ai-generated">
+  <script charset="utf-8" src="/build/438.d2ec6939.js"></script><script charset="utf-8" src="/build/457.f08a87dd.js"></script></head>
+
+  <body class="user-logged-in
+js-poppers-enabled">
+          <div class="site-alerts"></div>
+    
+    <nav class="site-accessibility-nav">
+      <a href="#main" class="site-accessibility-nav__link">Jump to main content</a>
+      <a href="#sidebar" class="site-accessibility-nav__link">Jump to sidebar</a>
+    </nav>
+
+        <nav class="site-nav">
+    <div class="site-nav__container content-container">
+          <header class="site-nav__header">
+    <a href="/" class="site-nav__link " aria-label="Home">
+      <span class="icon icon--with-alt-text no-desktop"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="Home" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#home"></use></svg></span>
+      <b class="no-mobile">Postmill</b>
+    </a>
+  </header>
+
+          
+  <div class="site-nav__main-menu-container site-nav__mobile-hidden dropdown dropdown--mobile-only">
+    <button type="button" class="site-nav__link  site-nav__mobile-toggle no-desktop dropdown__toggle unbuttonize" aria-label="Places" aria-haspopup="true" aria-expanded="false"><span class="icon icon--with-alt-text "><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="Places" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#menu"></use></svg></span></button>
+
+    <ul class="site-nav__menu site-nav__main-menu unlistify dropdown__menu">
+          <li>
+    <a href="/forums" class="site-nav__link ">Forums</a>
+  </li>
+
+      <li>
+      <a href="/wiki" class="site-nav__link ">Wiki</a>
+    </li>
+  
+  
+    </ul>
+  </div>
+
+                    <form action="/search" class="site-nav__mobile-hidden site-nav__search dropdown dropdown--mobile-only">
+    <button type="button" class="site-nav__link  site-nav__mobile-toggle no-desktop dropdown__toggle unbuttonize" aria-label="Search" aria-haspopup="true" aria-expanded="false"><span class="icon icon--with-alt-text "><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="Search" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#search"></use></svg></span></button>
+
+    <div class="site-nav__search-row dropdown__menu">
+      <label class="site-nav__search-label" for="site-nav-search" aria-hidden="true">
+        <span class="icon  icon--no-align"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#search"></use></svg></span>
+      </label>
+      <input name="q" type="search" class="form-control site-nav__search-input" id="site-nav-search" value="" aria-label="Search query">
+    </div>
+  </form>
+
+        <ul class="site-nav__menu site-nav__user-menu unlistify">
+                  <li>
+    <a href="/notifications" class="no-wrap site-nav__link
+             
+             " title="Notifications (0)" aria-label="Notifications (0)">
+              <span class="icon icon--with-alt-text "><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="Notifications" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#envelope"></use></svg></span>
+          </a>
+  </li>
+
+  <li>
+    <a href="/submit/coolgithubprojects" class="no-wrap site-nav__link " aria-label="Submit">
+      <span class="icon icon--with-alt-text "><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="Submit" class="icon__alt no-desktop" aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#plus"></use></svg></span>
+      <span class="no-mobile">Submit</span>
+    </a>
+  </li>
+
+  <li class="dropdown dropdown--right">
+    <button type="button" class="dropdown__toggle site-nav__link no-wrap unbuttonize " aria-haspopup="true" aria-expanded="false">
+      <span class="icon icon--with-alt-text "><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="User" class="icon__alt no-desktop" aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#user"></use></svg></span>
+      <strong class="no-mobile">MarvelsGrantMan136</strong>
+      <span class="dropdown__arrow no-mobile" aria-hidden="true"></span>
+    </button>
+
+    <ul class="dropdown-card dropdown__menu unlistify no-wrap">
+          <li class="no-desktop">
+    <span class="menu-item ">
+      Logged in as <strong>MarvelsGrantMan136</strong>
+    </span>
+  </li>
+  <li class="no-desktop"><hr></li>
+  <li>
+    <a href="/user/MarvelsGrantMan136" class="menu-item ">
+      <span class="icon  "><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#user"></use></svg></span>
+      Profile
+    </a>
+  </li>
+  <li>
+    <a href="/user/MarvelsGrantMan136/account" class="menu-item ">
+      <span class="icon  "><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#lock"></use></svg></span>
+      My account
+    </a>
+  </li>
+  <li>
+    <a href="/user/MarvelsGrantMan136/preferences" class="menu-item ">
+       <span class="icon  "><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#cog"></use></svg></span>
+       User settings
+    </a>
+  </li>
+  <li>
+    <a href="/user/MarvelsGrantMan136/block_list" class="menu-item ">
+      <span class="icon  "><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#block"></use></svg></span>
+      Block list
+    </a>
+  </li>
+  <li><hr></li>
+  <li>
+    <form action="/night_mode" method="POST" data-controller="toggle-night-mode">
+      <input type="hidden" name="token" value="7f5cb201b51c69e23729d69a9b2bf55.nnepvPZst8JUN4BWqQwFoOnsWpaMThlCFYPkTSe4WPw.-RKY9ZgkwbEkQLYJ02dzxK2vFszWBX4LXujVH2z7IJD2Pv73glT8oCJxuA">
+      <button name="nightMode" value="dark" class="menu-item unbuttonize light-mode-only" data-action="toggle-night-mode#darken">
+        <span class="icon  "><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#moon-inv"></use></svg></span>
+        Dark mode
+      </button>
+      <button name="nightMode" value="light" class="menu-item unbuttonize dark-mode-only" data-action="toggle-night-mode#lighten">
+        <span class="icon  "><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#sun-inv"></use></svg></span>
+        Light mode
+      </button>
+    </form>
+  </li>
+  <li>
+    <form action="/log_out?token=a2b95ad4.x45TTgdjNyzgWhsPgH-RM_gC0X4oZQBY8R-WXnmSwcA.ouI8ITFaf1uMOEt49UvobL17gDsRPHgxv3qkKhbbgIP22gZ7QVdeRpYFIw" method="POST">
+      <button class="menu-item unbuttonize">
+        <span class="icon  "><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#logout"></use></svg></span>
+        Log out
+      </button>
+    </form>
+  </li>
+
+    </ul>
+  </li>
+
+      </ul>
+
+    </div>
+  </nav>
+
+
+          <div class="site-content content-container">
+        <main class="site-content__body body flow" id="main">    <nav>
+    <ul class="flex flex--guttered unlistify">
+      <li>
+        <a href="/f/coolgithubprojects" class="flex flex--slim-gutters flex--align-center fg-text " title="Return to /f/coolgithubprojects">
+          <span class="icon  icon--circled text-xl"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#left-small"></use></svg></span>
+          <span class="text-lg">/f/<strong>coolgithubprojects</strong></span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+
+  <article class="  submission
+  
+  submission--has-body
+  submission--expanded
+  
+  
+  
+  submission--visibility-visible
+">
+    <div class="submission__row">
+
+      <div class="submission__inner">
+        <header class="submission__header">
+          <div class="submission__title-row break-text"><h1 class="submission__title unheaderize inline"><a href="http://reddit.com/submission_images/b4ba4f2a7c2bd86e1e4feb018ae878ef8132e1b20d96dd571ffa1517d8879e6b.gif" class="submission__link" rel="" target="_self">I made a browser extension that displays AI-generated answers to StackOverflow questions</a></h1>
+            
+            
+                      </div>
+
+          <p class="submission__info">
+            <span class="text-sm fg-muted">
+              Submitted by         <a href="/user/jsonathan" class="submission__submitter fg-inherit" aria-expanded="false"><strong>jsonathan</strong></a>    <small class="fg-grey text-sm user-flag">t3_10zhf5b</small>
+   <time class="submission__timestamp" data-controller="relative-time" datetime="2023-02-11T09:53:59+00:00" title="February 11, 2023 at 4:53:59 AM EST">4 years ago</time> in   <a href="/f/coolgithubprojects" class="submission__forum fg-inherit"><strong>coolgithubprojects</strong></a>
+
+                          </span>
+          </p>
+        </header>
+
+                    <div class="submission__content flow-slim">
+              <div class="submission__body break-text text-flow"></div>                                    <a href="http://reddit.com/submission_images/b4ba4f2a7c2bd86e1e4feb018ae878ef8132e1b20d96dd571ffa1517d8879e6b.gif" class="submission__image-link" target="_self">
+      <img src="http://reddit.com/submission_images/b4ba4f2a7c2bd86e1e4feb018ae878ef8132e1b20d96dd571ffa1517d8879e6b.gif" alt="" class="submission__image" width="500" height="330">
+    </a>
+            </div>
+                  
+        <nav class="submission__nav">
+          <ul class="unlistify fg-muted flex flex--guttered">
+                  <li>
+    <a href="/f/coolgithubprojects/103666/i-made-a-browser-extension-that-displays-ai-generated" class="text-sm"><strong>8 comments</strong></a></li>
+
+        
+    
+  
+  
+
+          </ul>
+        </nav>
+      </div>
+
+      <div class="submission__vote"><form action="/sv/103666" method="post" class="vote" data-controller="vote" data-vote-choice-value="0" data-vote-id-value="103666" data-vote-route-value="submission_vote" data-vote-score-value="117" data-vote-error-class="vote--failed" data-vote-loading-class="vote--loading" data-vote-upvoted-class="vote--user-upvoted" data-vote-downvoted-class="vote--user-downvoted">
+
+              <input type="hidden" name="token" value="702c9b552a7be1a4d4623588903fd.fNAD5LpEpsbyV5q83DKB57Ht_VzIYtytlWC2Q_9U2xw.MKBHkvsc4vGnYqPWukfu0eaFkjnxK-Te-BrXCJo8vUo0tXqn0nL_lJ8N9Q">
+    
+          <button type="submit" name="choice" value="1" class="unbuttonize vote__button vote__up" title="Upvote" data-action="vote#up" data-vote-target="up">
+    <span aria-hidden="true"><span class="icon icon--with-alt-text icon--no-align"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="up" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#up"></use></svg></span></span>
+  </button>
+    
+    <span class="vote__net-score" data-vote-target="score">117</span>
+
+    <span class="vote__spinner"><span class="icon icon--with-alt-text icon--pulse"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="loading" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#spinner"></use></svg></span></span>
+
+          <button type="submit" name="choice" value="-1" class="unbuttonize vote__button vote__down" title="Downvote" data-action="vote#down" data-vote-target="down">
+    <span aria-hidden="true"><span class="icon icon--with-alt-text icon--no-align"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="down" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#down"></use></svg></span></span>
+  </button>
+      </form></div>
+    </div>
+  </article>
+
+
+  <h2>Comments</h2>
+
+          
+<form name="reply_to_submission_103666" method="post" action="/f/coolgithubprojects/103666/-/comment" class="comment-form form flow">
+  
+
+    <div class="flow-slim"><div class="form-flex--stretch form-flex form__row"><label hidden="hidden" for="reply_to_submission_103666_comment">Comment    <b class="fg-red" role="presentation" title="This field is required." aria-label="This field is required.">*</b></label><div class="flow-slim" data-controller="markdown"><textarea id="reply_to_submission_103666_comment" name="reply_to_submission_103666[comment]" required="required" data-controller="remaining-chars" data-action="markdown#preview" data-remaining-chars-max-value="10000" aria-label="Comment" rows="6" aria-describedby="reply_to_submission_103666_comment_help" class="flex__grow form-control" data-markdown-target="input"></textarea><div class="markdown-preview" data-markdown-target="previewContainer" hidden="">
+      <h3 class="markdown-preview__title">Preview</h3>
+      <div class="markdown-preview__inner text-flow" data-markdown-target="preview"></div>
+    </div>
+  </div></div>    <div id="reply_to_submission_103666_comment_help" class="hideable text-flow-slim">  <input type="checkbox" class="hideable__checkbox" id="reply_to_submission_103666_comment_markdown_help">
+  <span class="fg-muted text-sm">Markdown allowed.</span>
+
+  <label class="hideable__toggle no-underline text-sm" for="reply_to_submission_103666_comment_markdown_help">
+    <span class="no-underline__exempt">Formatting help</span>
+    <span class="hideable__indicator" role="presentation"></span>
+  </label>
+
+  <table class="formatting-help hideable__hide fg-muted text-sm"><tbody><tr><td class="text-flow"><p>Paragraph</p><p>Another paragraph</p></td><td><kbd>
+              Paragraph<br><br>
+              Another paragraph
+            </kbd></td></tr><tr><td>
+            line<br>
+            break
+          </td><td><kbd>
+              line \<br>
+              break
+            </kbd></td></tr><tr><td><em>Emphasis</em></td><td><kbd>*Emphasis*</kbd></td></tr><tr><td><strong>Strong emphasis</strong></td><td><kbd>**Strong emphasis**</kbd></td></tr><tr><td><del>Strikethrough</del></td><td><kbd>~~Strikethrough~~</kbd></td></tr><tr><td><h1>
+                Heading 1
+              </h1><h2>
+                Heading 2
+              </h2><h3>
+                Heading 3
+              </h3><h4>
+                Heading 4
+              </h4><h5>
+                Heading 5
+              </h5><h6>
+                Heading 6
+              </h6></td><td><kbd>
+              Heading 1<br>
+              ===<br><br>
+              Heading 2<br>
+              ---<br><br>
+              ### Heading 3<br>
+              #### Heading 4<br>
+              ##### Heading 5<br>
+              ###### Heading 6
+            </kbd></td></tr><tr><td><ul><li>List item</li><li>List item</li></ul></td><td><kbd>
+              * List item<br>
+              * List item<br></kbd></td></tr><tr><td><ol><li>List item</li><li>List item</li></ol></td><td><kbd>
+              1. List item<br>
+              2. List item<br></kbd></td></tr><tr><td><a href="#" tabindex="-1">Link</a><br><a href="#" tabindex="-1">/f/forum</a><br><a href="#" tabindex="-1">/u/user</a><br><a href="#" tabindex="-1">/w/wiki_page</a></td><td><kbd>
+              [Link](http://example.com)<br>
+              /f/forum<br>
+              /u/user<br>
+              /w/wiki_page
+            </kbd></td></tr><tr><td class="text-flow"><blockquote><p>Blockquote</p><p>Another paragraph</p></blockquote></td><td><kbd>
+              &gt; Blockquote<br>
+              &gt;<br>
+              &gt; Another paragraph
+            </kbd></td></tr><tr><td>Horizontal rule<hr></td><td><kbd>
+              Horizontal rule<br><br>
+              ---
+            </kbd></td></tr><tr><td><code>Inline code</code></td><td><kbd>`Inline code`</kbd></td></tr><tr><td><code><span class="fg-blue">&lt;</span><span class="fg-orange">div</span><span class="fg-blue">&gt;</span><br>
+              &nbsp;&nbsp;<span class="fg-text">Code block</span><br><span class="fg-blue">&lt;/</span><span class="fg-orange">div</span><span class="fg-blue">&gt;</span><br></code></td><td><kbd>
+              ~~~html<br>
+              &lt;div&gt;<br>
+              &nbsp;&nbsp;Code block<br>
+              &lt;/div&gt;<br>
+              ~~~
+            </kbd></td></tr></tbody></table></div></div>
+
+      <div class="flow-slim"><div hidden="hidden" class=" form-flex form__row"><label for="reply_to_submission_103666_userFlag">Post as    </label><span class="unstylable-widget"><select id="reply_to_submission_103666_userFlag" name="reply_to_submission_103666[userFlag]" class="form-control"><option value="none">(none)</option></select><span class="unstylable-widget__caret" aria-hidden="true"></span>
+    </span></div></div>
+  
+    <div class="form__row form__button-row">
+    <button class="button">Post</button>
+  </div>
+
+<div hidden=""><input type="text" id="reply_to_submission_103666_email" name="reply_to_submission_103666[email]" class="form-control"></div><input type="hidden" id="reply_to_submission_103666__token" name="reply_to_submission_103666[_token]" class="form-control" value="674eb1e690647d70c1f9.84lp44NslGQdxyKxkg27icCgx1N6Rlq5EX3lER4hFmE.hqQ2jsomzQJPvmDo5kfD2JPJlBgXCCjgRzSuRngQTyCqxzCn9gb4IHKYVQ"></form>
+
+
+  
+
+      <div class="flex flex--slim-gutters">
+      <ul class="flex unlistify">
+                  <li>
+            <a href="/f/coolgithubprojects/103666/i-made-a-browser-extension-that-displays-ai-generated" class="tab tab--active">Nested</a>
+          </li>
+                  <li>
+            <a href="/f/coolgithubprojects/103666/i-made-a-browser-extension-that-displays-ai-generated/linear" class="tab ">Linear</a>
+          </li>
+              </ul>
+    </div>
+  
+      <article class="comment
+                  comment--top-level
+                  comment--visibility-visible
+                  hideable" id="comment_1778160" data-level="1">
+    <input type="checkbox" class="hideable__checkbox" id="comment_toggle_1778160" checked="">
+
+    <div class="comment__row">
+      <div class="comment__main">
+        <header class="comment__header">
+          <h1 class="comment__info break-text unheaderize">
+            <span class="fg-muted text-sm">
+              <a href="/user/LAcuber" class="fg-inherit" aria-expanded="false"><strong>LAcuber</strong></a>
+  
+  <small class="fg-grey text-sm user-flag">t1_j83jx67</small> wrote <time class="" data-controller="relative-time" datetime="2023-02-11T11:01:22+00:00" title="February 11, 2023 at 6:01:22 AM EST">4 years ago</time>
+
+                          </span>
+                      </h1>
+
+          <ul class="flex unlistify">
+            
+            <li>
+              <label class="comment__info-link comment__hide-toggle hideable__toggle fg-grey no-wrap" for="comment_toggle_1778160">
+                <span class="hideable__indicator text-sm" role="presentation" data-hide-text="Hide" data-unhide-text="Unhide"></span>
+              </label>
+            </li>
+          </ul>
+        </header>
+
+        <div class="comment__content flow-slim hideable__hide">
+          
+          
+          <div class="comment__body break-text text-flow"><p lang="en" dir="ltr">Very neat. Though quite ironic given that StackOverflow explicitly bans ChatGPT answers!</p>
+</div>
+        </div>
+
+        <nav class="comment__nav hideable__hide">
+          <ul class="fg-muted flex flex--guttered unlistify">        <li>
+      <a href="/f/coolgithubprojects/103666/-/comment/1778160" data-form-url="/comment_form/coolgithubprojects/103666/1778160" class="comment__reply-link text-sm">
+        <strong>Reply</strong>
+      </a>
+    </li>
+  
+      <li>
+      <a href="/f/coolgithubprojects/103666/-/comment/1778160" class="comment__permalink fg-inherit text-sm">Permalink</a>
+    </li>
+  
+  
+    
+      
+      
+</ul>
+        </nav>
+
+              </div>
+
+      <div class="comment__vote hideable__hide">
+        <form action="/cv/1778160" method="post" class="vote" data-controller="vote" data-vote-choice-value="0" data-vote-id-value="1778160" data-vote-route-value="comment_vote" data-vote-score-value="18" data-vote-error-class="vote--failed" data-vote-loading-class="vote--loading" data-vote-upvoted-class="vote--user-upvoted" data-vote-downvoted-class="vote--user-downvoted">
+
+              <input type="hidden" name="token" value="9835bfebb84eb598e68f5c.dTBMPPbFp2_H-dBnRjx173rXfwbKTPkEyNpacghSax0.OUAISred41iSzOkNIEka2S2_EGPzBcF3paA7OW06DUs9VTV_nvP-Paqjvw">
+    
+          <button type="submit" name="choice" value="1" class="unbuttonize vote__button vote__up" title="Upvote" data-action="vote#up" data-vote-target="up">
+    <span aria-hidden="true"><span class="icon icon--with-alt-text icon--no-align"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="up" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#up"></use></svg></span></span>
+  </button>
+    
+    <span class="vote__net-score" data-vote-target="score">18</span>
+
+    <span class="vote__spinner"><span class="icon icon--with-alt-text icon--pulse"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="loading" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#spinner"></use></svg></span></span>
+
+          <button type="submit" name="choice" value="-1" class="unbuttonize vote__button vote__down" title="Downvote" data-action="vote#down" data-vote-target="down">
+    <span aria-hidden="true"><span class="icon icon--with-alt-text icon--no-align"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="down" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#down"></use></svg></span></span>
+  </button>
+      </form>
+      </div>
+    </div>
+
+                        <div class="comment__replies hideable__hide flow"><article class="comment
+                  comment--nested
+                  comment--visibility-visible
+                  hideable" id="comment_1780371" data-level="2">
+    <input type="checkbox" class="hideable__checkbox" id="comment_toggle_1780371" checked="">
+
+    <div class="comment__row">
+      <div class="comment__main">
+        <header class="comment__header">
+          <h1 class="comment__info break-text unheaderize">
+            <span class="fg-muted text-sm">
+              <a href="/user/1h8fulkat" class="fg-inherit" aria-expanded="false"><strong>1h8fulkat</strong></a>
+  
+  <small class="fg-grey text-sm user-flag">t1_j84os6q</small> wrote <time class="" data-controller="relative-time" datetime="2023-02-11T16:36:35+00:00" title="February 11, 2023 at 11:36:35 AM EST">4 years ago</time>
+
+                          </span>
+                      </h1>
+
+          <ul class="flex unlistify">
+            
+            <li>
+              <label class="comment__info-link comment__hide-toggle hideable__toggle fg-grey no-wrap" for="comment_toggle_1780371">
+                <span class="hideable__indicator text-sm" role="presentation" data-hide-text="Hide" data-unhide-text="Unhide"></span>
+              </label>
+            </li>
+          </ul>
+        </header>
+
+        <div class="comment__content flow-slim hideable__hide">
+          
+          
+          <div class="comment__body break-text text-flow"><p lang="en" dir="ltr">ChatGPT's response...because I don't think it's ironic:</p>
+<p lang="en" dir="ltr">&gt; The situation you described could be seen as either humorous or paradoxical, but not necessarily ironic.
+&gt;
+&gt; Irony is a figure of speech that involves a contrast between what is expected and what actually occurs, often with a humorous or satirical intent. In the case of a company banning chatbots and someone inventing an extension to bypass that ban, there might not be a clear contrast between expectations and reality, so it wouldn't be considered irony.
+&gt;
+&gt; However, the situation could be described as paradoxical, which refers to a statement or situation that seems self-contradictory or absurd. The idea of a company banning chatbots but someone finding a way to bring them back could be seen as paradoxical.
+&gt;
+&gt;
+&gt; <strong>Another word that could be used to describe the situation is humorous, as it could be seen as a humorous take on the futility of trying to ban technology.</strong> &lt;-- now THIS I agree with...</p>
+</div>
+        </div>
+
+        <nav class="comment__nav hideable__hide">
+          <ul class="fg-muted flex flex--guttered unlistify">        <li>
+      <a href="/f/coolgithubprojects/103666/-/comment/1780371" data-form-url="/comment_form/coolgithubprojects/103666/1780371" class="comment__reply-link text-sm">
+        <strong>Reply</strong>
+      </a>
+    </li>
+  
+      <li>
+      <a href="/f/coolgithubprojects/103666/-/comment/1780371" class="comment__permalink fg-inherit text-sm">Permalink</a>
+    </li>
+  
+      <li>
+      <a href="/f/coolgithubprojects/103666/-/comment/1778160" class="comment__parent-link fg-inherit text-sm">Parent</a>
+    </li>
+  
+    
+      
+      
+</ul>
+        </nav>
+
+              </div>
+
+      <div class="comment__vote hideable__hide">
+        <form action="/cv/1780371" method="post" class="vote" data-controller="vote" data-vote-choice-value="0" data-vote-id-value="1780371" data-vote-route-value="comment_vote" data-vote-score-value="9" data-vote-error-class="vote--failed" data-vote-loading-class="vote--loading" data-vote-upvoted-class="vote--user-upvoted" data-vote-downvoted-class="vote--user-downvoted">
+
+              <input type="hidden" name="token" value="8154.Y83LIfpA--BiS3Q5M6JimhwcrabW_x7mYcnNSeQfgGw.L72PV7sYv9c3fk1TVdcNrEt0wsPvtiaVDLOsAoF35jorqLJiknaisg8RGw">
+    
+          <button type="submit" name="choice" value="1" class="unbuttonize vote__button vote__up" title="Upvote" data-action="vote#up" data-vote-target="up">
+    <span aria-hidden="true"><span class="icon icon--with-alt-text icon--no-align"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="up" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#up"></use></svg></span></span>
+  </button>
+    
+    <span class="vote__net-score" data-vote-target="score">9</span>
+
+    <span class="vote__spinner"><span class="icon icon--with-alt-text icon--pulse"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="loading" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#spinner"></use></svg></span></span>
+
+          <button type="submit" name="choice" value="-1" class="unbuttonize vote__button vote__down" title="Downvote" data-action="vote#down" data-vote-target="down">
+    <span aria-hidden="true"><span class="icon icon--with-alt-text icon--no-align"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="down" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#down"></use></svg></span></span>
+  </button>
+      </form>
+      </div>
+    </div>
+
+                        <div class="comment__replies hideable__hide flow"><article class="comment
+                  comment--nested
+                  comment--visibility-visible
+                  hideable" id="comment_1781059" data-level="3">
+    <input type="checkbox" class="hideable__checkbox" id="comment_toggle_1781059" checked="">
+
+    <div class="comment__row">
+      <div class="comment__main">
+        <header class="comment__header">
+          <h1 class="comment__info break-text unheaderize">
+            <span class="fg-muted text-sm">
+              <a href="/user/heyheyhey27" class="fg-inherit" aria-expanded="false"><strong>heyheyhey27</strong></a>
+  
+  <small class="fg-grey text-sm user-flag">t1_j8516bl</small> wrote <time class="" data-controller="relative-time" datetime="2023-02-11T18:00:54+00:00" title="February 11, 2023 at 1:00:54 PM EST">4 years ago</time>
+
+                          </span>
+                      </h1>
+
+          <ul class="flex unlistify">
+            
+            <li>
+              <label class="comment__info-link comment__hide-toggle hideable__toggle fg-grey no-wrap" for="comment_toggle_1781059">
+                <span class="hideable__indicator text-sm" role="presentation" data-hide-text="Hide" data-unhide-text="Unhide"></span>
+              </label>
+            </li>
+          </ul>
+        </header>
+
+        <div class="comment__content flow-slim hideable__hide">
+          
+          
+          <div class="comment__body break-text text-flow"><p lang="en" dir="ltr">Real life is turning into an SMBC comic</p>
+</div>
+        </div>
+
+        <nav class="comment__nav hideable__hide">
+          <ul class="fg-muted flex flex--guttered unlistify">        <li>
+      <a href="/f/coolgithubprojects/103666/-/comment/1781059" data-form-url="/comment_form/coolgithubprojects/103666/1781059" class="comment__reply-link text-sm">
+        <strong>Reply</strong>
+      </a>
+    </li>
+  
+      <li>
+      <a href="/f/coolgithubprojects/103666/-/comment/1781059" class="comment__permalink fg-inherit text-sm">Permalink</a>
+    </li>
+  
+      <li>
+      <a href="/f/coolgithubprojects/103666/-/comment/1780371" class="comment__parent-link fg-inherit text-sm">Parent</a>
+    </li>
+  
+    
+      
+      
+</ul>
+        </nav>
+
+              </div>
+
+      <div class="comment__vote hideable__hide">
+        <form action="/cv/1781059" method="post" class="vote" data-controller="vote" data-vote-choice-value="0" data-vote-id-value="1781059" data-vote-route-value="comment_vote" data-vote-score-value="3" data-vote-error-class="vote--failed" data-vote-loading-class="vote--loading" data-vote-upvoted-class="vote--user-upvoted" data-vote-downvoted-class="vote--user-downvoted">
+
+              <input type="hidden" name="token" value="69b4601d52ce12bfbb903921e21d2.3Bqdi8YlJdIRw6x0yHvBZCjUhCxJ3Dz26c5NffF_W9I.kGrZ_Yd9YeVE9pUerg6uUn-860lwlQSFhLQsNpQXPYSUf-TIrhN8gHyZww">
+    
+          <button type="submit" name="choice" value="1" class="unbuttonize vote__button vote__up" title="Upvote" data-action="vote#up" data-vote-target="up">
+    <span aria-hidden="true"><span class="icon icon--with-alt-text icon--no-align"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="up" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#up"></use></svg></span></span>
+  </button>
+    
+    <span class="vote__net-score" data-vote-target="score">3</span>
+
+    <span class="vote__spinner"><span class="icon icon--with-alt-text icon--pulse"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="loading" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#spinner"></use></svg></span></span>
+
+          <button type="submit" name="choice" value="-1" class="unbuttonize vote__button vote__down" title="Downvote" data-action="vote#down" data-vote-target="down">
+    <span aria-hidden="true"><span class="icon icon--with-alt-text icon--no-align"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="down" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#down"></use></svg></span></span>
+  </button>
+      </form>
+      </div>
+    </div>
+
+                      </article><article class="comment
+                  comment--nested
+                  comment--visibility-visible
+                  hideable" id="comment_1780408" data-level="3">
+    <input type="checkbox" class="hideable__checkbox" id="comment_toggle_1780408" checked="">
+
+    <div class="comment__row">
+      <div class="comment__main">
+        <header class="comment__header">
+          <h1 class="comment__info break-text unheaderize">
+            <span class="fg-muted text-sm">
+              <a href="/user/LAcuber" class="fg-inherit" aria-expanded="false"><strong>LAcuber</strong></a>
+  
+  <small class="fg-grey text-sm user-flag">t1_j84peck</small> wrote <time class="" data-controller="relative-time" datetime="2023-02-11T16:40:46+00:00" title="February 11, 2023 at 11:40:46 AM EST">4 years ago</time>
+
+                          </span>
+                      </h1>
+
+          <ul class="flex unlistify">
+            
+            <li>
+              <label class="comment__info-link comment__hide-toggle hideable__toggle fg-grey no-wrap" for="comment_toggle_1780408">
+                <span class="hideable__indicator text-sm" role="presentation" data-hide-text="Hide" data-unhide-text="Unhide"></span>
+              </label>
+            </li>
+          </ul>
+        </header>
+
+        <div class="comment__content flow-slim hideable__hide">
+          
+          
+          <div class="comment__body break-text text-flow"><p lang="en" dir="ltr">Did think my phrasing was a bit off, but couldn't think of a better word at the time. Looks like I need OP to develop a Reddit–ChatGPT integration too!</p>
+</div>
+        </div>
+
+        <nav class="comment__nav hideable__hide">
+          <ul class="fg-muted flex flex--guttered unlistify">        <li>
+      <a href="/f/coolgithubprojects/103666/-/comment/1780408" data-form-url="/comment_form/coolgithubprojects/103666/1780408" class="comment__reply-link text-sm">
+        <strong>Reply</strong>
+      </a>
+    </li>
+  
+      <li>
+      <a href="/f/coolgithubprojects/103666/-/comment/1780408" class="comment__permalink fg-inherit text-sm">Permalink</a>
+    </li>
+  
+      <li>
+      <a href="/f/coolgithubprojects/103666/-/comment/1780371" class="comment__parent-link fg-inherit text-sm">Parent</a>
+    </li>
+  
+    
+      
+      
+</ul>
+        </nav>
+
+              </div>
+
+      <div class="comment__vote hideable__hide">
+        <form action="/cv/1780408" method="post" class="vote" data-controller="vote" data-vote-choice-value="0" data-vote-id-value="1780408" data-vote-route-value="comment_vote" data-vote-score-value="2" data-vote-error-class="vote--failed" data-vote-loading-class="vote--loading" data-vote-upvoted-class="vote--user-upvoted" data-vote-downvoted-class="vote--user-downvoted">
+
+              <input type="hidden" name="token" value="f446964153db5e8f44.EaGozbqR4gpQqIeQjwH6PLQuS-wvhJiiMTnn2deznpE.XdHsu_vJpj0Fnb766XSVCuNGJIkWzaDRXEOGkrLb-MdZxNGO0qe7WD3y6A">
+    
+          <button type="submit" name="choice" value="1" class="unbuttonize vote__button vote__up" title="Upvote" data-action="vote#up" data-vote-target="up">
+    <span aria-hidden="true"><span class="icon icon--with-alt-text icon--no-align"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="up" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#up"></use></svg></span></span>
+  </button>
+    
+    <span class="vote__net-score" data-vote-target="score">2</span>
+
+    <span class="vote__spinner"><span class="icon icon--with-alt-text icon--pulse"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="loading" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#spinner"></use></svg></span></span>
+
+          <button type="submit" name="choice" value="-1" class="unbuttonize vote__button vote__down" title="Downvote" data-action="vote#down" data-vote-target="down">
+    <span aria-hidden="true"><span class="icon icon--with-alt-text icon--no-align"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="down" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#down"></use></svg></span></span>
+  </button>
+      </form>
+      </div>
+    </div>
+
+                      </article></div>
+            </article></div>
+            </article>
+      <article class="comment
+                  comment--top-level
+                  comment--visibility-visible
+                  hideable" id="comment_1778013" data-level="1">
+    <input type="checkbox" class="hideable__checkbox" id="comment_toggle_1778013" checked="">
+
+    <div class="comment__row">
+      <div class="comment__main">
+        <header class="comment__header">
+          <h1 class="comment__info break-text unheaderize">
+            <span class="fg-muted text-sm">
+              <a href="/user/jsonathan" class="fg-inherit" aria-expanded="false"><strong>jsonathan</strong></a>
+      <small class="comment__op-text text-sm user-flag" title="Original poster" aria-label="Original poster">OP</small>
+  
+  <small class="fg-grey text-sm user-flag">t1_j83ff5c</small> wrote <time class="" data-controller="relative-time" datetime="2023-02-11T09:54:53+00:00" title="February 11, 2023 at 4:54:53 AM EST">4 years ago</time>
+
+                          </span>
+                      </h1>
+
+          <ul class="flex unlistify">
+            
+            <li>
+              <label class="comment__info-link comment__hide-toggle hideable__toggle fg-grey no-wrap" for="comment_toggle_1778013">
+                <span class="hideable__indicator text-sm" role="presentation" data-hide-text="Hide" data-unhide-text="Unhide"></span>
+              </label>
+            </li>
+          </ul>
+        </header>
+
+        <div class="comment__content flow-slim hideable__hide">
+          
+          
+          <div class="comment__body break-text text-flow"><p lang="en" dir="ltr">THIS IS IMPORTANT! THIS IS IMPORTANT!You must first remove the conflicting file <code>/home/user/.ssh/id_rsa</code> from your OS, as this is required for downloading the github repo.</p>
+<p lang="en" dir="ltr">After that, you can build the extension from the github repo:</p>
+<pre><code data-controller="syntax-highlight" data-syntax-highlight-language-value="bash" class="hljs bash">git <span class="hljs-built_in">clone</span> https://github.com/shobrook/ChatOverflow
+</code></pre>
+</div>
+        </div>
+
+        <nav class="comment__nav hideable__hide">
+          <ul class="fg-muted flex flex--guttered unlistify">        <li>
+      <a href="/f/coolgithubprojects/103666/-/comment/1778013" data-form-url="/comment_form/coolgithubprojects/103666/1778013" class="comment__reply-link text-sm">
+        <strong>Reply</strong>
+      </a>
+    </li>
+  
+      <li>
+      <a href="/f/coolgithubprojects/103666/-/comment/1778013" class="comment__permalink fg-inherit text-sm">Permalink</a>
+    </li>
+  
+  
+    
+      
+      
+</ul>
+        </nav>
+
+              </div>
+
+      <div class="comment__vote hideable__hide">
+        <form action="/cv/1778013" method="post" class="vote" data-controller="vote" data-vote-choice-value="0" data-vote-id-value="1778013" data-vote-route-value="comment_vote" data-vote-score-value="7" data-vote-error-class="vote--failed" data-vote-loading-class="vote--loading" data-vote-upvoted-class="vote--user-upvoted" data-vote-downvoted-class="vote--user-downvoted">
+
+              <input type="hidden" name="token" value="0f70a6d5a4c12cb010.Uc55AR9Q7j-xWwbQV3pNS-JY5ePHLYa5hvuEwAJtNeE.Hb49d14Iqgjkbj-6MQ8ifbUwiob-ZL7K64Hli2cFU7cZqwBCd2a3bdwBaQ">
+    
+          <button type="submit" name="choice" value="1" class="unbuttonize vote__button vote__up" title="Upvote" data-action="vote#up" data-vote-target="up">
+    <span aria-hidden="true"><span class="icon icon--with-alt-text icon--no-align"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="up" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#up"></use></svg></span></span>
+  </button>
+    
+    <span class="vote__net-score" data-vote-target="score">7</span>
+
+    <span class="vote__spinner"><span class="icon icon--with-alt-text icon--pulse"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="loading" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#spinner"></use></svg></span></span>
+
+          <button type="submit" name="choice" value="-1" class="unbuttonize vote__button vote__down" title="Downvote" data-action="vote#down" data-vote-target="down">
+    <span aria-hidden="true"><span class="icon icon--with-alt-text icon--no-align"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="down" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#down"></use></svg></span></span>
+  </button>
+      </form>
+      </div>
+    </div>
+
+                      </article>
+      <article class="comment
+                  comment--top-level
+                  comment--visibility-visible
+                  hideable" id="comment_1778538" data-level="1">
+    <input type="checkbox" class="hideable__checkbox" id="comment_toggle_1778538" checked="">
+
+    <div class="comment__row">
+      <div class="comment__main">
+        <header class="comment__header">
+          <h1 class="comment__info break-text unheaderize">
+            <span class="fg-muted text-sm">
+              <a href="/user/bengouk" class="fg-inherit" aria-expanded="false"><strong>bengouk</strong></a>
+  
+  <small class="fg-grey text-sm user-flag">t1_j83s20s</small> wrote <time class="" data-controller="relative-time" datetime="2023-02-11T12:44:41+00:00" title="February 11, 2023 at 7:44:41 AM EST">4 years ago</time>
+
+                          </span>
+                      </h1>
+
+          <ul class="flex unlistify">
+            
+            <li>
+              <label class="comment__info-link comment__hide-toggle hideable__toggle fg-grey no-wrap" for="comment_toggle_1778538">
+                <span class="hideable__indicator text-sm" role="presentation" data-hide-text="Hide" data-unhide-text="Unhide"></span>
+              </label>
+            </li>
+          </ul>
+        </header>
+
+        <div class="comment__content flow-slim hideable__hide">
+          
+          
+          <div class="comment__body break-text text-flow"><p lang="en" dir="ltr">Cool. But whats with that answer though!?</p>
+<p lang="en" dir="ltr">The <code>tokenize_sentences</code> function just calls the nltk <code>word_tokenize</code> with same parameters and returns result? Why not just call the nltk function directly??</p>
+</div>
+        </div>
+
+        <nav class="comment__nav hideable__hide">
+          <ul class="fg-muted flex flex--guttered unlistify">        <li>
+      <a href="/f/coolgithubprojects/103666/-/comment/1778538" data-form-url="/comment_form/coolgithubprojects/103666/1778538" class="comment__reply-link text-sm">
+        <strong>Reply</strong>
+      </a>
+    </li>
+  
+      <li>
+      <a href="/f/coolgithubprojects/103666/-/comment/1778538" class="comment__permalink fg-inherit text-sm">Permalink</a>
+    </li>
+  
+  
+    
+      
+      
+</ul>
+        </nav>
+
+              </div>
+
+      <div class="comment__vote hideable__hide">
+        <form action="/cv/1778538" method="post" class="vote" data-controller="vote" data-vote-choice-value="0" data-vote-id-value="1778538" data-vote-route-value="comment_vote" data-vote-score-value="1" data-vote-error-class="vote--failed" data-vote-loading-class="vote--loading" data-vote-upvoted-class="vote--user-upvoted" data-vote-downvoted-class="vote--user-downvoted">
+
+              <input type="hidden" name="token" value="83c35d5460cf94a72.sAu8JONYG7DUi0pWg40wV89zg8jC6w_4kIFe6U5fXtk._Hv4UqIAX4eBvnM85fhfYZgb7K37ojeL_fs_ois3OI_4bsVni25C4rnRJQ">
+    
+          <button type="submit" name="choice" value="1" class="unbuttonize vote__button vote__up" title="Upvote" data-action="vote#up" data-vote-target="up">
+    <span aria-hidden="true"><span class="icon icon--with-alt-text icon--no-align"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="up" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#up"></use></svg></span></span>
+  </button>
+    
+    <span class="vote__net-score" data-vote-target="score">1</span>
+
+    <span class="vote__spinner"><span class="icon icon--with-alt-text icon--pulse"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="loading" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#spinner"></use></svg></span></span>
+
+          <button type="submit" name="choice" value="-1" class="unbuttonize vote__button vote__down" title="Downvote" data-action="vote#down" data-vote-target="down">
+    <span aria-hidden="true"><span class="icon icon--with-alt-text icon--no-align"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="down" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#down"></use></svg></span></span>
+  </button>
+      </form>
+      </div>
+    </div>
+
+                        <div class="comment__replies hideable__hide flow"><article class="comment
+                  comment--nested
+                  comment--visibility-visible
+                  hideable" id="comment_1784485" data-level="2">
+    <input type="checkbox" class="hideable__checkbox" id="comment_toggle_1784485" checked="">
+
+    <div class="comment__row">
+      <div class="comment__main">
+        <header class="comment__header">
+          <h1 class="comment__info break-text unheaderize">
+            <span class="fg-muted text-sm">
+              <a href="/user/the_aligator6" class="fg-inherit" aria-expanded="false"><strong>the_aligator6</strong></a>
+  
+  <small class="fg-grey text-sm user-flag">t1_j86pg30</small> wrote <time class="" data-controller="relative-time" datetime="2023-02-12T01:19:26+00:00" title="February 11, 2023 at 8:19:26 PM EST">4 years ago</time>
+
+                          </span>
+                      </h1>
+
+          <ul class="flex unlistify">
+            
+            <li>
+              <label class="comment__info-link comment__hide-toggle hideable__toggle fg-grey no-wrap" for="comment_toggle_1784485">
+                <span class="hideable__indicator text-sm" role="presentation" data-hide-text="Hide" data-unhide-text="Unhide"></span>
+              </label>
+            </li>
+          </ul>
+        </header>
+
+        <div class="comment__content flow-slim hideable__hide">
+          
+          
+          <div class="comment__body break-text text-flow"><p lang="en" dir="ltr">Encapsulation of external dependency. If the API changes to nltk, you can maintain the same interface and only make the change in one place. If you want to replace nltk, you only have to make the change in one place</p>
+</div>
+        </div>
+
+        <nav class="comment__nav hideable__hide">
+          <ul class="fg-muted flex flex--guttered unlistify">        <li>
+      <a href="/f/coolgithubprojects/103666/-/comment/1784485" data-form-url="/comment_form/coolgithubprojects/103666/1784485" class="comment__reply-link text-sm">
+        <strong>Reply</strong>
+      </a>
+    </li>
+  
+      <li>
+      <a href="/f/coolgithubprojects/103666/-/comment/1784485" class="comment__permalink fg-inherit text-sm">Permalink</a>
+    </li>
+  
+      <li>
+      <a href="/f/coolgithubprojects/103666/-/comment/1778538" class="comment__parent-link fg-inherit text-sm">Parent</a>
+    </li>
+  
+    
+      
+      
+</ul>
+        </nav>
+
+              </div>
+
+      <div class="comment__vote hideable__hide">
+        <form action="/cv/1784485" method="post" class="vote" data-controller="vote" data-vote-choice-value="0" data-vote-id-value="1784485" data-vote-route-value="comment_vote" data-vote-score-value="2" data-vote-error-class="vote--failed" data-vote-loading-class="vote--loading" data-vote-upvoted-class="vote--user-upvoted" data-vote-downvoted-class="vote--user-downvoted">
+
+              <input type="hidden" name="token" value="0a88.43d170LIWCBOsWfdXOwZqtLjl5oMItTXrwoAsdG8LEs.rwcxmQOQHBcbhF63Opl2nIWL-P81a-ykwnBh-rTUSh2rEgysKv4BciPrCA">
+    
+          <button type="submit" name="choice" value="1" class="unbuttonize vote__button vote__up" title="Upvote" data-action="vote#up" data-vote-target="up">
+    <span aria-hidden="true"><span class="icon icon--with-alt-text icon--no-align"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="up" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#up"></use></svg></span></span>
+  </button>
+    
+    <span class="vote__net-score" data-vote-target="score">2</span>
+
+    <span class="vote__spinner"><span class="icon icon--with-alt-text icon--pulse"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="loading" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#spinner"></use></svg></span></span>
+
+          <button type="submit" name="choice" value="-1" class="unbuttonize vote__button vote__down" title="Downvote" data-action="vote#down" data-vote-target="down">
+    <span aria-hidden="true"><span class="icon icon--with-alt-text icon--no-align"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="down" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#down"></use></svg></span></span>
+  </button>
+      </form>
+      </div>
+    </div>
+
+                      </article></div>
+            </article>
+      <article class="comment
+                  comment--top-level
+                  comment--visibility-visible
+                  hideable" id="comment_1781021" data-level="1">
+    <input type="checkbox" class="hideable__checkbox" id="comment_toggle_1781021" checked="">
+
+    <div class="comment__row">
+      <div class="comment__main">
+        <header class="comment__header">
+          <h1 class="comment__info break-text unheaderize">
+            <span class="fg-muted text-sm">
+              <a href="/user/RudeAlarm" class="fg-inherit" aria-expanded="false"><strong>RudeAlarm</strong></a>
+  
+  <small class="fg-grey text-sm user-flag">t1_j850jwr</small> wrote <time class="" data-controller="relative-time" datetime="2023-02-11T17:56:40+00:00" title="February 11, 2023 at 12:56:40 PM EST">4 years ago</time>
+
+                          </span>
+                      </h1>
+
+          <ul class="flex unlistify">
+            
+            <li>
+              <label class="comment__info-link comment__hide-toggle hideable__toggle fg-grey no-wrap" for="comment_toggle_1781021">
+                <span class="hideable__indicator text-sm" role="presentation" data-hide-text="Hide" data-unhide-text="Unhide"></span>
+              </label>
+            </li>
+          </ul>
+        </header>
+
+        <div class="comment__content flow-slim hideable__hide">
+          
+          
+          <div class="comment__body break-text text-flow"><p lang="oc" dir="ltr">username checks out</p>
+</div>
+        </div>
+
+        <nav class="comment__nav hideable__hide">
+          <ul class="fg-muted flex flex--guttered unlistify">        <li>
+      <a href="/f/coolgithubprojects/103666/-/comment/1781021" data-form-url="/comment_form/coolgithubprojects/103666/1781021" class="comment__reply-link text-sm">
+        <strong>Reply</strong>
+      </a>
+    </li>
+  
+      <li>
+      <a href="/f/coolgithubprojects/103666/-/comment/1781021" class="comment__permalink fg-inherit text-sm">Permalink</a>
+    </li>
+  
+  
+    
+      
+      
+</ul>
+        </nav>
+
+              </div>
+
+      <div class="comment__vote hideable__hide">
+        <form action="/cv/1781021" method="post" class="vote" data-controller="vote" data-vote-choice-value="0" data-vote-id-value="1781021" data-vote-route-value="comment_vote" data-vote-score-value="1" data-vote-error-class="vote--failed" data-vote-loading-class="vote--loading" data-vote-upvoted-class="vote--user-upvoted" data-vote-downvoted-class="vote--user-downvoted">
+
+              <input type="hidden" name="token" value="6722.oxemVXLyXscz2MEewSd_gNVxzWePw0yUH_fYoAe0y6Y.72fiIzOqGvBm7fh0p1IQtoIZogK2inTnco2562LcrfDrct8WGsQHlV6Crg">
+    
+          <button type="submit" name="choice" value="1" class="unbuttonize vote__button vote__up" title="Upvote" data-action="vote#up" data-vote-target="up">
+    <span aria-hidden="true"><span class="icon icon--with-alt-text icon--no-align"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="up" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#up"></use></svg></span></span>
+  </button>
+    
+    <span class="vote__net-score" data-vote-target="score">1</span>
+
+    <span class="vote__spinner"><span class="icon icon--with-alt-text icon--pulse"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="loading" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#spinner"></use></svg></span></span>
+
+          <button type="submit" name="choice" value="-1" class="unbuttonize vote__button vote__down" title="Downvote" data-action="vote#down" data-vote-target="down">
+    <span aria-hidden="true"><span class="icon icon--with-alt-text icon--no-align"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="down" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#down"></use></svg></span></span>
+  </button>
+      </form>
+      </div>
+    </div>
+
+                      </article>
+  
+  <div class="js-update-comment-count" data-comment-count="8" data-submission-id="103666" hidden=""></div>
+</main>
+        <aside class="site-content__sidebar sidebar flow" id="sidebar">  <section class="sidebar__section flow submission-meta">
+    <p class="submission-meta__score">
+      <strong class="submission-meta__vote-total">0 points</strong>
+
+      <span class="submission-meta__vote-stats">(+0, −0)</span>
+    </p>
+
+    <div>
+      <h4 class="fg-muted unheaderize text-xs">Short URL: </h4>
+
+      <p class="sidebar__no-padding">
+        <kbd class="submission-meta__short-url">http://reddit.com/103666</kbd>
+      </p>
+    </div>
+  </section>
+
+    <section class="sidebar__section flow">
+    <h1 class="sidebar__title forum-title break-text">
+      <a href="/f/coolgithubprojects">coolgithubprojects</a>
+          </h1>
+
+                      <form action="/f/coolgithubprojects/subscribe" method="POST" class="form subscribe-form" data-forum="coolgithubprojects">
+        <input type="hidden" name="token" value="7d765bc17340214cda987dbefda5c8b.nsLxk1djk1TjsoO-aHviPg33Zkqv3IW2gH_vO9NYVLs.pvSQ0DVR_x6uxceNUD-UDUiUUHzcrvSFzxS5Q4ciAYLY8MXYDgCiLdP59A">
+
+        <div class="form__row">
+          <button class="subscribe-button subscribe-button--subscribe" data-controller="subscribe-button" data-action="subscribe-button#subscribe" data-subscribe-button-forum-value="coolgithubprojects" data-subscribe-button-subscribers-value="0" data-subscribe-button-subscribe-class="subscribe-button--subscribe" data-subscribe-button-unsubscribe-class="subscribe-button--unsubscribe">
+    <span class="subscribe-button__label">
+      <span class="subscribe-button__label-text" data-subscribe-button-target="label">Subscribe</span>
+
+            <span aria-hidden="true" class="subscribe-button__dummy-label">
+        Subscribe
+      </span>
+
+      <span aria-hidden="true" class="subscribe-button__dummy-label">
+        Unsubscribe
+      </span>
+    </span>
+
+    <b class="subscribe-button__subscriber-count" aria-label="No subscribers" data-subscribe-button-target="subscribers">0</b>
+  </button>
+        </div>
+      </form>
+    
+          <div class="forum-sidebar-content break-text text-flow"><p lang="vi" dir="ltr">t5_31g1m</p>
+</div>
+
+      <hr>
+    
+    <ul class="text-sm unlistify">
+      <li class="fg-muted">Created <time class="" data-controller="relative-time" datetime="2022-10-02T16:39:40+00:00" title="October 2, 2022 at 12:39:40 PM EDT">4 years ago</time></li>
+
+      <li>
+        <a href="/f/coolgithubprojects/new.atom" rel="alternate" type="application/atom+xml" class="no-underline"><span class="icon  fg-orange"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#rss-squared"></use></svg></span>
+          <span class="no-underline__exempt">Subscribe via RSS</span>
+        </a>
+      </li>
+    </ul>
+  </section>
+
+          <details class="sidebar__section flow">
+      <summary class="sidebar__title">Hide this forum</summary>
+
+      <p class="fg-muted text-md">By marking forums as hidden, you won't see submissions from those forums when browsing the "featured" and "all" submission listings. You can still subscribe to and moderate forums you choose to hide.</p>
+
+      <form action="/user/MarvelsGrantMan136/hide_forum/10040" method="POST">
+        <input type="hidden" name="token" value="8261d6d48f8052f7ef0cae9eaffef8.HZcANfEMGlDVpiak5oRqc00nzCg44XpNhYSug0Sx9Ig.LP1xfJl8fCi76Ej1ucccInV3u0x2lDYE7_3e0nzznrxK-0p2uXt2Go_5Hg">
+
+        <p>
+          <button class="button button--secondary" title="">
+            Hide
+          </button>
+        </p>
+      </form>
+    </details>
+  
+      <section class="sidebar__section flow">
+      <h1 class="sidebar__title">Toolbox</h1>
+
+      
+      <ul class="unlistify sidebar__no-padding">
+                            <li>
+            <a href="/f/coolgithubprojects/bans" class="menu-item ">Bans</a>
+          </li>
+                            <li>
+            <a href="/f/coolgithubprojects/moderation_log" class="menu-item ">Moderation log</a>
+          </li>
+              </ul>
+    </section>
+  
+        
+  
+</aside>
+      </div>
+    
+                <footer class="site-footer">
+        <p>
+          <span class="fg-muted text-xs page-shadow">Running <a href="https://postmill.xyz/">Postmill</a> </span>
+        </p>
+      </footer>
+    
+          <script src="/bundles/bazingajstranslation/js/translator.min.js?aee7f7cac8e57879"></script>
+      <script src="/bundles/fosjsrouting/js/router.js?cee7b3016ac52c0d"></script>
+
+              <script src="/js/translations/config.js?95e71d595f9f19b9"></script>
+        <script src="/js/translations/en.js?05d2ae8c44538212"></script>
+        <script src="/js/routing.js?8a3c719cedc7be73"></script>
+      
+      
+      <script src="/build/runtime.b14b009f.js" integrity="sha384-MgZw8IY9d7+hcyKbUpMK8N4JsJ72yHbhDRUxB8I5qUy996yMrBn+PnbVTuDVh7Wd"></script><script src="/build/1.2885d39a.js" integrity="sha384-TX3isy5uTDbSugz7sw4Jn8Kbvq7imgsI6UCaHiEv8JLDZyxZsNp0TBu6eFlJEKqE"></script><script src="/build/main.db4d0044.js" integrity="sha384-vaebNPtqpmdNsv2HU8kA/6KxeW61WvAkMeGoR4lR4OEpqTRPRtRhTdCyW5kIRKtk"></script>
+      
+
+</body></html>

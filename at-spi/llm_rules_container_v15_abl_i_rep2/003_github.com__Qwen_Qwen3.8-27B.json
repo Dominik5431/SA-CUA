@@ -1,0 +1,82 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "header-wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site header -- renders: skip link, GitHub logo, navigation (Platform/Solutions/Marketplace/Explore/Pricing), search, sign in, sign up, appearance settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-repo-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Repository tab navigation -- renders: Code, Issues, Pull requests, Actions, Projects, Wiki, Security, Insights"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repository-details-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Repository action buttons -- renders: Watch, Fork, Star"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "prc-StateLabel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue status label -- renders: Closed"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "prc-Label-Label"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "User role badge -- renders: Collaborator, Member, Owner"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "SignedOutBanner"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Signed-out prompt -- renders: Sign up, Sign in, and fixed marketing copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "IssueViewer-module__issueViewerMetadataPane"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue metadata sidebar -- renders: Assignees, Labels, Projects, Milestone, Development, Participants, Options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site footer -- renders: GitHub logo, copyright, Terms, Privacy, Security, Status, Docs, Contact, Cookie settings"
+  }
+]

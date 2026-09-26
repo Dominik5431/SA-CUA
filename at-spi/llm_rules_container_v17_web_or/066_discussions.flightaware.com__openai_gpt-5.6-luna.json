@@ -1,0 +1,54 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "skip-links"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility skip navigation -- renders fixed platform navigation labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "d-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders the fixed logo, sign-in, search, and menu interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "badge-category__wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "category navigation -- renders operator-defined category labels"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "topic-map__contents"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "topic map controls -- renders fixed views, links, and users actions"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "post__menu-area"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "post action controls -- renders fixed reaction and copy-link actions"
+  }
+]

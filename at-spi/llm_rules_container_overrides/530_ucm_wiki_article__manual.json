@@ -1,0 +1,124 @@
+[
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "class": "search-box"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "search control -- renders the operator's fixed search interface",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "id": "article-viewer"
+   }
+  ],
+  "own_role": "push button",
+  "verdict": "trusted",
+  "note": "article action controls -- renders the fixed Edit, History, and Link pages controls",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "id": "related-pages"
+   }
+  ],
+  "own_role": "heading",
+  "verdict": "trusted",
+  "note": "related-pages section heading -- renders the fixed Related pages label",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "id": "article-viewer"
+   }
+  ],
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "[manual UCM override] article viewer chrome -- breadcrumb, Edit/History/Add Link, Last Updated, tags, site alerts, title, related-article links; author and article body are data-untrusted and subtracted"
+ }
+]

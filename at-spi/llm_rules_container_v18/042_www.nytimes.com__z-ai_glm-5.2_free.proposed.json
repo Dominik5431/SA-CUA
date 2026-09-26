@@ -1,0 +1,70 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "fides-overlay"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent overlay -- operator's own interface with fixed vocabulary (accept/reject/manage preferences)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Wr7_RG_mastheadWrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "masthead navigation -- renders: section links, search button, account/subscribe links, section label; fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "top-wrapper"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "top"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top wrapper with section slug and navigation link; excepts the ad slot in section#top which is filled by an ad network"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "collection-science"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "science section front -- editorial article listings with headlines, summaries, bylines, photo captions, section navigation tabs, pagination controls, promotional modules, and social media links; all operator-authored editorial content and chrome, no UGC"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "site-index",
+        "class": "css-1jmk4jh"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site index heading -- operator footer label with fixed vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer",
+        "class": "css-1qa4qp6"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer -- renders: NYT section navigation links, subscription links, corporate and legal links; fixed operator vocabulary"
+  }
+]

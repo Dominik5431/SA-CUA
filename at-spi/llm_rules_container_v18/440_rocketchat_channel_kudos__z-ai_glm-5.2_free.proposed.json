@@ -1,0 +1,121 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "rcx-css-vi4iz8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar navigation button groups -- renders fixed icon controls (search, directory, sort, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "omnichannel sidebar topbar -- renders fixed section title and control buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar category labels -- renders fixed labels (e.g. Channels, Direct Messages)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "footer",
+        "class": "rcx-css-1h8ylb3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar footer -- renders fixed logo image link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-css-ebq3kg"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar promotional link section -- renders fixed operator marketing text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "rcx-room-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "rcx-css-u5iepl"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "room header chrome -- renders: fixed action buttons and toolbar controls (members, search, threads, etc.); except the heading which carries the user-created channel name"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rc-message-box__toolbar-formatting"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message formatting toolbar -- renders: bold, italic, strike, code, code-block, markdown help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "class": "rc-message-box__container"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry",
+        "class": "rc-message-box__textarea"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message input controls -- renders: emoji picker, audio message, action menu; except the textarea which holds user input"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "rooms-list"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "sidebar item menu buttons and topbar controls -- fixed icon buttons throughout the rooms list"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "messages-box"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "messages box chrome -- renders: new message button, jump to recent button; except the wrapper holding the messages list"
+  }
+]

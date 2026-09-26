@@ -1,0 +1,65 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "app-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file navigation sidebar -- renders: Files, Favorites, Shared with you, Shared with others, Shared by link, Tags, Deleted files, Settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "controls"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "breadcrumb"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "toolbar controls -- renders: gallery view switcher, New button, upload progress; subtracts breadcrumb which carries user-named folder segments"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table",
+        "id": "filestable"
+      }
+    ],
+    "except": [
+      {
+        "role": "panel",
+        "id": "fileList"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "table header and summary rows -- renders: column headers Name/Size/Modified, select-all checkbox, sort indicators, summary counts; subtracts the file list panel which carries user-named files"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "file_upload_start"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "hidden upload start button -- renders: fixed upload control label"
+  },
+  {
+    "own_role": "check box",
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "id": "fileList"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file selection checkboxes in the file list -- renders: fixed select checkbox control for each row"
+  }
+]

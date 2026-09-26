@@ -1,0 +1,183 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "navbar navbar-gitlab navbar-expand-sm js-navbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "project sidebar navigation -- renders: Repository, Issues, Merge requests, Pipelines, etc.; subtracts the context-header project name"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "notification",
+        "class": "gl-alert js-no-ssh-message gl-alert-warning"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "no-ssh-message alert -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "notification",
+        "class": "gl-alert auto-devops-implicitly-enabled-banner gl-alert-info"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "auto-devops-implicitly-enabled-banner alert -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "project-stats"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "project statistics -- renders: stars, forks, and other computed project metrics"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "count-badge d-inline-flex align-item-stretch btn-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "star count badge and toggle -- renders: star button and star count"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "count-badge btn-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "fork count badge -- renders: fork button and fork count"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "btn gpg-status-box invalid"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "GPG status box -- platform's own status indicator"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "gl-ml-4 js-commit-sha-group btn-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "commit SHA group -- renders: commit SHA and clipboard button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "__BVID__47",
+        "class": "dropdown b-dropdown gl-dropdown ref-selector gl-w-full btn-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "ref selector dropdown -- renders: branch/commit selection control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "gl-button btn btn-default shortcuts-find-file"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "find file button -- platform's own interface control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "web-ide-link",
+        "class": "btn btn-default btn-md gl-button btn-default-secondary"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Web IDE link -- platform's own interface control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "project-action-button dropdown gl-dropdown inline"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "project action button dropdown -- platform's own interface control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "git-clone-holder js-git-clone-holder"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "git clone holder -- renders: clone dropdown control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table",
+        "class": "table tree-table gl-table-layout-fixed"
+      }
+    ],
+    "own_role": "column header",
+    "verdict": "trusted",
+    "note": "file tree table column headers -- renders: Name, Last commit, Last update"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "js-header-search",
+        "class": "header-search is-not-active gl-relative gl-w-full"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "header search box -- platform's own interface control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "home-panel-metadata gl-font-sm gl-text-secondary gl-font-base gl-font-weight-normal gl-line-height-normal"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "repository metadata clipboard button -- platform's own interface control"
+  }
+]

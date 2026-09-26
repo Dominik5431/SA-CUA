@@ -1,0 +1,115 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Accessibility skip links -- renders: 'Skip to main content', 'Skip to comments'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global navigation bar -- renders: 'Reddit', 'Home', 'Search', 'Log in', 'Sign up', 'Create post'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "comment-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comment submission form controls -- renders: 'Add a comment', 'Markdown', 'Help', 'Post'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "flex unlistify"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comment sorting tabs -- renders: 'Best', 'New', 'Old'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vote"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Voting controls -- renders: 'Upvote', 'Downvote'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "comment__nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comment action links -- renders: 'Reply', 'Permalink', 'Parent'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "flex unlistify"
+      }
+    ],
+    "own_role": "label",
+    "verdict": "trusted",
+    "note": "Comment collapse toggle -- renders: 'Hide'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "sidebar__section flow"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Subscribe button -- renders: 'Subscribe'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "sidebar__section flow"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "Sidebar section headers -- renders: 'About', 'Moderators', 'Rules'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "sidebar__section flow"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar toggle button -- renders: 'Rules'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "unlistify sidebar__no-padding"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar navigation links -- renders: 'Hot', 'New', 'Top', 'Rising'"
+  }
+]

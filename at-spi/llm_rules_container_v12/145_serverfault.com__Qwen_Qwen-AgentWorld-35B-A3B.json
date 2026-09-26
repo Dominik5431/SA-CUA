@@ -1,0 +1,152 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left sidebar navigation and freemium CTA -- platform's own interface and controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer js-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- platform's own navigation and legal copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "onetrust-banner-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent banner -- operator's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "ws-nowrap s-btn s-btn__filled"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "ask question button in question header aside CTA"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answers-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answers header -- sort controls and section labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-vote-count fs-title lh-md mb8 ta-center"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "vote count display -- computed operator-defined value"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "fs-caption"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "post caption -- operator-defined metadata labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-saves-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "save buttons -- operator interface controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-post-issue"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "post issue report links -- operator interface controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "s-tag post-tag"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "post tags -- taxonomy terms drawn from operator-defined list"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-share-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "share links -- operator interface controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "user-action-time fl-grow1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user action time -- computed timestamps and dates"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "-flair"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user flair -- computed reputation scores and metadata"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "answer-sort-dropdown-select-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answer sort dropdown -- operator-defined sort controls"
+  }
+]

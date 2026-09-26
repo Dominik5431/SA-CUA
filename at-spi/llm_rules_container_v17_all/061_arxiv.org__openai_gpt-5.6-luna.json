@@ -1,0 +1,74 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "ds-skip-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip-navigation control -- renders fixed platform vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "ds-site-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders arXiv branding, navigation, search control, and sign-in control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "dlpage"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "page headings -- renders fixed category and listing-section labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "dlpage"
+      }
+    ],
+    "own_role": "paragraph",
+    "verdict": "trusted",
+    "note": "category navigation label -- renders fixed submission-category interface vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "paging"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- renders fixed previous, next, and page-navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "morefewer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "listing-size controls -- renders fixed more-or-fewer-results vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "ds-site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders fixed acknowledgments, navigation links, and operator-selected funder information"
+  }
+]

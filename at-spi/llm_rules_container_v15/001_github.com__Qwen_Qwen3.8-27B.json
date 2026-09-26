@@ -1,0 +1,12 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-repo-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Repository navigation tabs -- renders: Code, Issues, Pull requests, Actions, Projects, Security and quality, Insights"
+  }
+]

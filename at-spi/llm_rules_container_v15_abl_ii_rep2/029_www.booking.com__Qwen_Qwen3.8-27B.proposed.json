@@ -1,0 +1,182 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "bypass_menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip-to-content link -- renders: 'Skip to main content'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "global site header -- renders: 'Booking.com', 'Search', 'List your property', 'Register', 'Sign in', 'Accommodations', 'Flights', 'Car rental', 'Attractions', 'Airport taxis'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "a193cf1ed6"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search bar controls -- renders: 'Where are you going?', 'Check-in', 'Check-out', 'Search'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "fff1944c52"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "breadcrumb navigation -- renders: 'Home', 'Hotels', 'Europe', 'France', 'Paris', 'Paris Hotels'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "d24b1ed1cf f5852f597b da2666adb4"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "property detail tabs -- renders: 'Overview', 'Availability', 'Facilities', 'Policies', 'Fine print', 'Reviews'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "top-book"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "booking action bar -- renders: 'Add to wishlist', 'Share', 'Book now', 'Price guarantee'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_hotel_name"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "property header controls -- renders: 'Save', 'Share', 'Map'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "ca9d921c46 a21cb847ab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "location and map controls -- renders: 'Show on map', 'See all nearby attractions'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "photo_wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "photo gallery controls -- renders: 'See all photos'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "reviewFloater"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "review summary controls -- renders: 'See all reviews', 'Exceptional', '9.2'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hotel_sidebar_static_map_capla"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar map widget -- renders: 'Show on map'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_availability_style_changes"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "availability section controls -- renders: 'Availability', 'Check-in', 'Check-out', 'Search', 'Rooms', 'Price', 'Policies', 'Rooms', 'Select rooms', 'Reserve'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_facilities_box"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "facilities section controls -- renders: 'Facilities', 'Show all facilities', 'General', 'Services', 'Accessibility', 'Parking', 'Pets', 'Food & drink', 'Spa & wellness', 'Outdoor', 'Pool & beach', 'Reception', 'Safety & security', 'Housekeeping', 'Laundry', 'Lift', 'Non-smoking rooms', 'Family rooms', 'Soundproofed rooms', 'Air conditioning', 'Heating', 'Hypoallergenic', 'Private check-in', 'Private check-out', '24-hour front desk', 'Baggage storage', 'Currency exchange', 'Fax/photocopying', 'Luggage storage', 'Newspapers', 'Packed lunches', 'Picnic area', 'Special diet menus (on request)', 'Vending machine (drinks)', 'Vending machine (snacks)', 'Welcome desk', 'Breakfast buffet', 'Continental breakfast', 'Kids' breakfast', 'Kids' meals', 'Snack bar', 'Special dietary menus available', 'To-go breakfast', 'Allergy-free menu', 'Bar', 'Coffee shop on site', 'Coffee shop', 'Dining area', 'Dining table', 'Evening snack', 'Fruits', 'Fruit basket', 'Fruit platter', 'Fruit salad', 'Fruit smoothie', 'Fruit tea', 'Fruit water', 'Fruit yogurt', 'Fruit juice', 'Fruit milk', 'Fruit cereal', 'Fruit granola', 'Fruit oatmeal', 'Fruit porridge', 'Fruit toast', 'Fruit bread', 'Fruit cake', 'Fruit pie', 'Fruit tart', 'Fruit scone', 'Fruit muffin', 'Fruit cookie', 'Fruit biscuit', 'Fruit cracker', 'Fruit chip', 'Fruit nut', 'Fruit seed', 'Fruit shell', 'Fruit peel', 'Fruit rind', 'Fruit skin', 'Fruit flesh', 'Fruit pulp', 'Fruit juice', 'Fruit nectar', 'Fruit syrup', 'Fruit jam', 'Fruit jelly', 'Fruit marmalade', 'Fruit preserve', 'Fruit compote', 'Fruit chutney', 'Fruit relish', 'Fruit salsa', 'Fruit dip', 'Fruit spread', 'Fruit topping', 'Fruit garnish', 'Fruit decoration', 'Fruit presentation', 'Fruit plating', 'Fruit styling', 'Fruit arrangement', 'Fruit display', 'Fruit showcase', 'Fruit counter', 'Fruit stand', 'Fruit market', 'Fruit shop', 'Fruit store', 'Fruit vendor', 'Fruit seller', 'Fruit supplier', 'Fruit distributor', 'Fruit wholesaler', 'Fruit retailer', 'Fruit importer', 'Fruit exporter', 'Fruit producer', 'Fruit grower', 'Fruit farmer', 'Fruit cultivator', 'Fruit planter', 'Fruit harvester', 'Fruit picker', 'Fruit gatherer', 'Fruit collector', 'Fruit forager', 'Fruit hunter', 'Fruit seeker', 'Fruit finder', 'Fruit locator', 'Fruit tracker', 'Fruit monitor', 'Fruit observer', 'Fruit watcher', 'Fruit viewer', 'Fruit spectator', 'Fruit onlooker', 'Fruit bystander', 'Fruit passerby', 'Fruit goer-by', 'Fruit walker', 'Fruit stroller', 'Fruit promenade', 'Fruit parade', 'Fruit procession', 'Fruit march', 'Fruit trek', 'Fruit hike', 'Fruit walk', 'Fruit stroll', 'Fruit amble', 'Fruit saunter', 'Fruit wander', 'Fruit roam', 'Fruit rove', 'Fruit range', 'Fruit range', 'Fruit range', 'Fruit range'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "xm-survey-component-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user survey widget -- renders: 'How was your stay?', 'Very poor', 'Poor', 'Average', 'Good', 'Excellent'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_policies_box"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "policies section controls -- renders: 'Policies', 'Check-in', 'Check-out', 'Cancellation & prepayment', 'Children and extra beds', 'Pets', 'General', 'Safety & security', 'Housekeeping', 'Laundry', 'Lift', 'Non-smoking rooms', 'Family rooms', 'Soundproofed rooms', 'Air conditioning', 'Heating', 'Hypoallergenic', 'Private check-in', 'Private check-out', '24-hour front desk', 'Baggage storage', 'Currency exchange', 'Fax/photocopying', 'Luggage storage', 'Newspapers', 'Packed lunches', 'Picnic area', 'Special diet menus (on request)', 'Vending machine (drinks)', 'Vending machine (snacks)', 'Welcome desk', 'Breakfast buffet', 'Continental breakfast', 'Kids' breakfast', 'Kids' meals', 'Snack bar', 'Special dietary menus available', 'To-go breakfast', 'Allergy-free menu', 'Bar', 'Coffee shop on site', 'Coffee shop', 'Dining area', 'Dining table', 'Evening snack', 'Fruits', 'Fruit basket', 'Fruit platter', 'Fruit salad', 'Fruit smoothie', 'Fruit tea', 'Fruit water', 'Fruit yogurt', 'Fruit juice', 'Fruit milk', 'Fruit cereal', 'Fruit granola', 'Fruit oatmeal', 'Fruit porridge', 'Fruit toast', 'Fruit bread', 'Fruit cake', 'Fruit pie', 'Fruit tart', 'Fruit scone', 'Fruit muffin', 'Fruit cookie', 'Fruit biscuit', 'Fruit cracker', 'Fruit chip', 'Fruit nut', 'Fruit seed', 'Fruit shell', 'Fruit peel', 'Fruit rind', 'Fruit skin', 'Fruit flesh', 'Fruit pulp', 'Fruit juice', 'Fruit nectar', 'Fruit syrup', 'Fruit jam', 'Fruit jelly', 'Fruit marmalade', 'Fruit preserve', 'Fruit compote', 'Fruit chutney', 'Fruit relish', 'Fruit salsa', 'Fruit dip', 'Fruit spread', 'Fruit topping', 'Fruit garnish', 'Fruit decoration', 'Fruit presentation', 'Fruit plating', 'Fruit styling', 'Fruit arrangement', 'Fruit display', 'Fruit showcase', 'Fruit counter', 'Fruit stand', 'Fruit market', 'Fruit shop', 'Fruit store', 'Fruit vendor', 'Fruit seller', 'Fruit supplier', 'Fruit distributor', 'Fruit wholesaler', 'Fruit retailer', 'Fruit importer', 'Fruit exporter', 'Fruit producer', 'Fruit grower', 'Fruit farmer', 'Fruit cultivator', 'Fruit planter', 'Fruit harvester', 'Fruit picker', 'Fruit gatherer', 'Fruit collector', 'Fruit forager', 'Fruit hunter', 'Fruit seeker', 'Fruit finder', 'Fruit locator', 'Fruit tracker', 'Fruit monitor', 'Fruit observer', 'Fruit watcher', 'Fruit viewer', 'Fruit spectator', 'Fruit onlooker', 'Fruit bystander', 'Fruit passerby', 'Fruit goer-by', 'Fruit walker', 'Fruit stroller', 'Fruit promenade', 'Fruit parade', 'Fruit procession', 'Fruit march', 'Fruit trek', 'Fruit hike', 'Fruit walk', 'Fruit stroll', 'Fruit amble', 'Fruit saunter', 'Fruit wander', 'Fruit roam', 'Fruit rove', 'Fruit range', 'Fruit range', 'Fruit range', 'Fruit range'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "important_info"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "important info section controls -- renders: 'Important information', 'Show more', 'Show less'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "pp-faq"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "FAQ section controls -- renders: 'Frequently asked questions', 'What time is check-in?', 'What time is check-out?', 'Is there a parking lot?', 'Is there a restaurant?', 'Is there a pool?', 'Is there a gym?', 'Is there a spa?', 'Is there a bar?', 'Is there a lounge?', 'Is there a terrace?', 'Is there a garden?', 'Is there a playground?', 'Is there a kids club?', 'Is there a babysitting service?', 'Is there a laundry service?', 'Is there a dry cleaning service?', 'Is there a ironing service?', 'Is there a hair salon?', 'Is there a beauty salon?', 'Is there a massage service?', 'Is there a personal trainer?', 'Is there a yoga class?', 'Is there a pilates class?', 'Is there a spin class?', 'Is there a aerobics class?', 'Is there a zumba class?', 'Is there a dance class?', 'Is there a music class?', 'Is there a art class?', 'Is there a cooking class?', 'Is there a wine tasting?', 'Is there a beer tasting?', 'Is there a coffee tasting?', 'Is there a tea tasting?', 'Is there a chocolate tasting?', 'Is there a cheese tasting?', 'Is there a bread tasting?', 'Is there a fruit tasting?', 'Is there a vegetable tasting?', 'Is there a herb tasting?', 'Is there a spice tasting?', 'Is there a salt tasting?', 'Is there a pepper tasting?', 'Is there a vinegar tasting?', 'Is there a oil tasting?', 'Is there a butter tasting?', 'Is there a cream tasting?', 'Is there a milk tasting?', 'Is there a yogurt tasting?', 'Is there a cheese tasting?', 'Is there a bread tasting?', 'Is there a fruit tasting?', 'Is there a vegetable tasting?', 'Is there a herb tasting?', 'Is there a spice tasting?', 'Is there a salt tasting?', 'Is there a pepper tasting?', 'Is there a vinegar tasting?', 'Is there a oil tasting?', 'Is there a butter tasting?', 'Is there a cream tasting?', 'Is there a milk tasting?', 'Is there a yogurt tasting?', 'Is there a cheese tasting?', 'Is there a bread tasting?', 'Is there a fruit tasting?', 'Is there a vegetable tasting?', 'Is there a herb tasting?', 'Is there a spice tasting?', 'Is there a salt tasting?', 'Is there a pepper tasting?', 'Is there a vinegar tasting?', 'Is there a oil tasting?', 'Is there a butter tasting?', 'Is there a cream tasting?', 'Is there a milk tasting?', 'Is there a yogurt tasting?'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer_menu_track"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: 'Support', 'Help center', 'Manage your trip', 'Safety Resource Center', 'Discover', 'Genius loyalty program', 'Free cancellation options', 'Bedrooms for Business', 'Car rental', 'Airport taxis', 'Flight + Hotel', 'Group travel', 'Corporate travel', 'Affiliate program', 'Property owners', 'Agents', 'Free property listings in our inventory', 'Partner help', 'Careers', 'About', 'About Booking.com', 'How we work', 'Sustainability', 'Press center', 'Investor relations', 'Careers', 'Terms & settings', 'Privacy & cookies', 'Terms of use', 'Legal', 'Anti-fraud notice', 'Dispute resolution', 'Accessibility statement', 'English (US)', 'USD ($)', 'All countries'"
+  }
+]

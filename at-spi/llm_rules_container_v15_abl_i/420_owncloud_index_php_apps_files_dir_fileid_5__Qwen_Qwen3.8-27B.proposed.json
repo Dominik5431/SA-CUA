@@ -1,0 +1,48 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "header"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "expandDisplayName"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: OwnCloud logo, Files app name, menu toggle, search box label; user display name is subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "toolbarSidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "PDF viewer sidebar toolbar -- renders: Thumbnails, Outline, Attachments"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "toolbarViewer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "PDF viewer main toolbar -- renders: Sidebar toggle, Find, Previous/Next page, Page number input, Presentation mode, Print, Download, Bookmark, Zoom controls, Scale options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "id": "viewerContextMenu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "PDF viewer context menu -- renders: First page, Last page, Rotate clockwise, Rotate counter-clockwise"
+  }
+]

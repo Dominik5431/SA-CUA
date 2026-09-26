@@ -1,0 +1,95 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "app-settings-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "app settings button -- platform's own interface controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "column header",
+        "id": "headerName",
+        "class": "column-name"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file list table header for name column -- renders: select all checkbox, column title, sort indicator"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "column header",
+        "id": "headerSize",
+        "class": "column-size"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file list table header for size column -- renders: column title and sort control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "column header",
+        "id": "headerDate",
+        "class": "column-mtime"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file list table header for date column -- renders: column title and sort control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "action action-favorite"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file list row favorite action button -- platform's own interface control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "action action-share permanent"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file list row share action button -- platform's own interface control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "action action-menu permanent"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file list row more menu action button -- platform's own interface control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table cell",
+        "class": "filesize"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file list row file size cell -- computed operator-defined value about submitted content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table cell",
+        "class": "date"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file list row date cell -- computed operator-defined timestamp about submitted content"
+  }
+]

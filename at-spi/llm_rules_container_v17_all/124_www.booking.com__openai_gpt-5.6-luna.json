@@ -1,0 +1,114 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "e0d8514d4"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "operator logo link -- renders the fixed Booking.com brand interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "__SHELL_COMPONENTS_HEADER"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders the fixed logo, account controls, service navigation, and the closed travel-service vocabulary: accommodations/flights/packages/cars/attractions/airport taxis"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "SearchBoxDesktop"
+      }
+    ],
+    "except": [
+      {
+        "role": "combo box",
+        "id": "searchbox-horizontal-destination-input"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "travel search controls -- renders fixed destination/date/guest/search labels, controls, and search options, excluding the destination field's entered or echoed text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "UniqueSellingPoints"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "operator benefits section -- renders the fixed Booking.com selling-point headings and explanatory copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "a4ac75716e"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "operator section heading -- renders the fixed vocabulary of homepage section labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "TripTypesCarousel"
+      },
+      {
+        "role": "landmark",
+        "class": "d24b1ed1cf"
+      },
+      {
+        "role": "list",
+        "class": "c4a6e8e871"
+      },
+      {
+        "role": "push button",
+        "class": "f63e3c83f3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "trip-type tab controls -- renders the fixed trip-category vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "SeoCoreInterlinking"
+      },
+      {
+        "role": "page tab",
+        "class": "f63e3c83f3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "SEO interlinking tab controls -- renders the closed set of operator-defined navigation tabs"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "__SHELL_COMPONENTS_FOOTER"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders fixed help, company, partner, legal, language, currency, and account-interface vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "onetrust-banner-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie-consent banner -- renders fixed cookie-policy headings, policy copy, settings, reject, and accept controls"
+  }
+]

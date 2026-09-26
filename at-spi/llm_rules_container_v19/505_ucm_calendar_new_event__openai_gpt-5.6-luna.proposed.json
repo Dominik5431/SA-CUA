@@ -1,0 +1,83 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "header"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "current-week"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page header excluding the changing current-week value -- renders the fixed page heading and navigation controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "day-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "calendar day headers -- renders the fixed weekday vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "event"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "event action controls -- renders the fixed Start call and Cancel button vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "create-event-modal"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "event-creation modal heading -- renders the fixed dialog title"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "create-event-modal"
+      }
+    ],
+    "own_role": "label",
+    "verdict": "trusted",
+    "note": "event form labels -- renders the fixed Title, Day, Time, Description, Attendees, and Location vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "create-event-modal"
+      }
+    ],
+    "own_role": "combo box",
+    "verdict": "trusted",
+    "note": "event form selectors -- renders the fixed day and time selection controls and their operator-defined options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "create-event-modal"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "event form actions -- renders the fixed Confirm create event and Cancel button vocabulary"
+  }
+]

@@ -1,0 +1,91 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "navbar-gitlab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: GitLab logo, search box, 'New project', 'Issues', 'Merge requests', 'To do list', 'Help', user avatar"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Left sidebar navigation -- renders: 'Project information', 'Repository', 'Issues', 'Merge requests', 'Pipelines', 'Deployments', 'Infrastructure', 'Monitor', 'Analytics', 'Wiki', 'Snippets', 'Settings'; project name header is subtracted as it is user-defined"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "breadcrumbs"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Breadcrumb navigation -- renders: project path and issue number; treated as trusted navigation chrome"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "right-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Right sidebar metadata -- renders: 'Assignee', 'Labels', 'Milestone', 'Due date', 'Weight', 'Time tracking', 'Lock issue', 'Participants', 'Move issue' and their associated controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "detail-page-header-body"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "title"
+      },
+      {
+        "role": "paragraph"
+      },
+      {
+        "role": "section",
+        "class": "related-issues-block"
+      },
+      {
+        "role": "section",
+        "class": "issuable-discussion"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue header chrome -- renders: issue status, author link, action buttons ('Edit', 'Close', 'Reopen', 'Create merge request'), and description upload dropzone; issue title, description body, related issues, and discussion are subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "new-note"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry",
+        "id": "note-body"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comment form controls -- renders: 'Write', 'Preview' tabs, formatting toolbar buttons, 'Comment' and 'Comment & Close' buttons; the text input area is subtracted"
+  }
+]

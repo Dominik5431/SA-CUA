@@ -1,0 +1,222 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "network-logo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "network logo link -- renders fixed platform branding"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "class": "s-input__search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site search control -- renders the fixed search interface vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-help-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "help control -- renders the fixed help-navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "s-btn__outlined"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sign-in control -- renders the fixed login vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-signup-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sign-up control -- renders the fixed account-registration vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders fixed Unix and Linux Stack Exchange branding"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left navigation and platform promotion -- renders fixed Questions, Unanswered, Ask, Tags, Chat, Users, Companies and platform-authored call-to-action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "aside-cta"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question action control -- renders the fixed ask-question vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answers-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answers header and controls -- renders the fixed Answers label, answer-count label and sorting interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "answer-sort-dropdown-select-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answer sort control -- renders the fixed Newest, Active and Votes sort vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "toggle button",
+        "class": "js-vote-up-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "vote-up controls -- render the fixed upvote action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "toggle button",
+        "class": "js-vote-down-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "vote-down controls -- render the fixed downvote action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-saves-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "save controls -- render the fixed save action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-post-issue"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "post issue controls -- render the fixed report-post action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-share-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "share controls -- render the fixed share action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-suggest-edit-post"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "edit suggestion controls -- render the fixed suggest-edit action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-follow-post"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "follow controls -- render the fixed follow action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "comment",
+        "class": "js-accepted-answer-indicator"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accepted-answer indicator -- renders the fixed platform acceptance-status vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-report-ad"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "ad reporting control -- renders the fixed report-ad action vocabulary outside the advertisement creative"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "comments-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment controls -- render the fixed add-comments or show-comments vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "h-linked"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "linked-questions section heading -- renders the fixed sidebar section-label vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders fixed platform navigation, legal, help, social and revision vocabulary"
+  }
+]

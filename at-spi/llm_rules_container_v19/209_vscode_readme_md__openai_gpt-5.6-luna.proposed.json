@@ -1,0 +1,173 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "page tab list",
+        "class": "actions-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "activity bar navigation -- renders the fixed view vocabulary: Explorer/Search/Source Control/Run and Debug/Extensions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-action-bar vertical"
+      },
+      {
+        "role": "tool bar",
+        "class": "actions-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "activity bar utility controls -- renders the fixed Accounts and Manage/Settings controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "part editor"
+      },
+      {
+        "role": "tool bar",
+        "class": "actions-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "editor toolbars -- renders fixed close, preview, split-editor, and more-actions controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "codicon codicon-breadcrumb-separator"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "breadcrumb separators -- renders the fixed separator glyph"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar",
+        "class": "ElectronMenuBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "application menu bar -- renders the fixed application menu vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "status.problems"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Problems status control -- renders the fixed Problems control label; diagnostic counts are handled separately"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "status.forwardedPorts"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "forwarded-ports status control -- renders the fixed port-forwarding control label; port values are handled separately"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "status.notifications"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "notifications status control -- renders the fixed notifications control label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "status.editor.mode"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "editor language-mode control -- renders the fixed language-mode selector vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "status.editor.eol"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "editor end-of-line control -- renders the fixed end-of-line selector vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "status.editor.encoding"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "editor encoding control -- renders the fixed encoding selector vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "status.editor.indentation"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "editor indentation control -- renders the fixed indentation selector vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "status.editor.selection"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "editor selection status control -- renders the fixed selection-status control label; selection values are handled separately"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "status.editor.screenReaderMode"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "screen-reader-mode status control -- renders the fixed accessibility-mode control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "notification-list-item"
+      },
+      {
+        "role": "tool bar",
+        "class": "actions-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "notification dismissal controls -- renders the fixed clear-notification action"
+  }
+]

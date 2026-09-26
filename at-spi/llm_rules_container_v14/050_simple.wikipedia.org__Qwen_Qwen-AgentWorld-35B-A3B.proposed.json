@@ -1,0 +1,97 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-header mw-header no-font-mode-scale"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header navigation, logo, search, and user links -- operator's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "siteNotice"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site notice and central notice -- operator's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "table of contents header label and unpin button -- operator's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "p-associated-pages",
+        "class": "vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "associated pages tabs (Article, Talk) -- operator's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "p-views",
+        "class": "vector-menu vector-menu-tabs mw-portlet mw-portlet-views"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view tabs (Read, Edit, View history) -- operator's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "vector-page-tools-dropdown",
+        "class": "vector-dropdown vector-page-tools-dropdown"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page tools dropdown -- operator's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-appearance-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "appearance settings landmark (font size, width, theme) -- operator's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer",
+        "class": "mw-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer with licensing, privacy, about, and other site information -- operator's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table",
+        "id": "talkheader",
+        "class": "tmbox tmbox-notice plainlinks"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "talk page notice box -- operator's editorial copy"
+  }
+]

@@ -1,0 +1,236 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: skip link, logo, search input, Help, Stack Exchange, Log in, Sign up"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "dfp-sspon"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site header -- renders: site title link; ad slot subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Left sidebar navigation -- renders: Home, Questions, Unanswered, Ask Question, Tags, Superuser for Work, Chat, Users, Companies, and fixed promotional copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "fs-headline1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Question header controls -- renders: 'Ask Question' button; question title subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item ws-nowrap mr16 mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Question metadata row -- renders: 'Asked', 'Modified', 'Viewed' labels and computed timestamps"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item ws-nowrap mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Question metadata row -- renders: 'Active' label and computed timestamp"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answers-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Answers header -- renders: '1 Answer' heading, 'Sorted by' label, and sort dropdown options (Highest score, Most recent, Oldest)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answer-154533"
+      }
+    ],
+    "except": [
+      {
+        "role": "paragraph"
+      },
+      {
+        "role": "section",
+        "class": "user-gravatar32"
+      },
+      {
+        "role": "link",
+        "class": "js-gps-track"
+      },
+      {
+        "role": "section",
+        "class": "-flair"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Answer post controls -- renders: vote buttons, save button, 'Accepted' indicator, 'Share', 'Improve this answer', 'Follow' buttons, and 'answered' timestamp; answer body and user attribution subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: fixed navigation links (Tour, Help, Contact, etc.), social links, and copyright text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "dfp-tlb"
+      },
+      {
+        "role": "paragraph"
+      },
+      {
+        "role": "list",
+        "class": "js-post-tag-list-wrapper"
+      },
+      {
+        "role": "section",
+        "class": "user-gravatar32"
+      },
+      {
+        "role": "section",
+        "class": "-flair"
+      },
+      {
+        "role": "link",
+        "class": "js-gps-track"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Question post controls -- renders: vote buttons, save button, 'Share', 'Improve this question', 'Follow' buttons, and 'asked'/'edited' timestamps; question body, tags, and user attribution subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-report-ad-button-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Ad report controls -- renders: 'Report this ad' button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "js-bottom-notice"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Bottom notice heading -- renders: fixed platform notification text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "paragraph",
+        "class": "flex--item fs-body2 fw-bold fc-black-500 mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Bottom notice text -- renders: fixed platform notification text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "paragraph",
+        "class": "flex--item fs-body1 fc-black-400 mb16"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Bottom notice text -- renders: fixed platform notification text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "flex--item s-btn s-btn__outlined as-start"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Bottom notice action button -- renders: 'Start here' or similar fixed CTA"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "paragraph",
+        "class": "flex--item fs-body2 fw-bold fc-black-500 mb0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Bottom notice text -- renders: fixed platform notification text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "paragraph",
+        "class": "flex--item fs-body1 fc-black-400 mb0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Bottom notice text -- renders: fixed platform notification text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "feed-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Feed link -- renders: 'RSS Feed' or similar fixed label"
+  }
+]

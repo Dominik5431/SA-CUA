@@ -1,0 +1,58 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "header"
+      }
+    ],
+    "except": [
+      {
+        "role": "landmark",
+        "class": "nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "operator header -- renders the fixed site heading"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "id": "sort-posts"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sort control panel -- renders the closed set of operator-defined sort options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "view-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view heading -- renders the closed set of operator-defined forum view labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vote-label"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "vote labels -- renders the fixed operator vocabulary for vote counts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "load-more-btn-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination control -- renders the fixed Load more action"
+  }
+]

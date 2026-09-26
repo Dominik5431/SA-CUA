@@ -1,0 +1,62 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Toolbar action buttons -- renders fixed operator vocabulary for editor commands (e.g., Cut, Copy, Paste, Undo, Redo, Find, Replace, Print, Save, Open, Close, New, Preferences, Help)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "Toolbar toggle buttons -- renders fixed operator vocabulary for view modes (e.g., Show Line Numbers, Show Right Margin, Fullscreen, Wrap Mode)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "label",
+    "verdict": "trusted",
+    "note": "Toolbar status labels -- renders fixed operator vocabulary for document state (e.g., Encoding, Line Ending, or similar static indicators)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "radio button",
+    "verdict": "trusted",
+    "note": "View mode radio buttons -- renders fixed operator vocabulary for layout selection (e.g., Normal, Wrap, Word Wrap)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "check box",
+    "verdict": "trusted",
+    "note": "Preferences checkboxes -- renders fixed operator vocabulary for editor settings (e.g., Auto Indent, Highlight Syntax, Insert Spaces, Show Line Numbers)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "table column header",
+    "verdict": "trusted",
+    "note": "Table column headers -- renders fixed operator vocabulary for data table structure (e.g., Name, Size, Type, Modified)"
+  }
+]

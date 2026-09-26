@@ -1,0 +1,58 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Wr7_RG_mastheadWrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Masthead and top navigation bar -- renders fixed operator vocabulary: site logo, section labels, and navigation controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "site-index"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site index landmark -- renders fixed operator vocabulary: section labels and navigation links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders fixed operator vocabulary: legal links, contact info, and site navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "tab-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Tab navigation controls -- renders fixed operator vocabulary: tab labels for content views"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "stream-panel"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "class": "xXp2rG_stream"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Stream panel chrome -- renders fixed operator vocabulary: pagination controls and module headers; subtracts the article feed list"
+  }
+]

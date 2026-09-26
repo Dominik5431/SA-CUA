@@ -1,0 +1,83 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "wrap"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site branding region -- renders the operator's fixed FlightAware logo"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "skip-links"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility navigation -- renders the operator's fixed skip-link control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "d-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top header -- renders the operator's fixed logo, sign-in, search, and menu controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "navigation-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "forum navigation -- renders the fixed category selector and Categories/Latest/Top navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "topic-list-heading"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page section heading -- renders the operator's fixed topic-list heading"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "category-list-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "category-list header -- renders the fixed Category and Topics column labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table cell",
+        "class": "category"
+      }
+    ],
+    "own_role": "link",
+    "verdict": "trusted",
+    "note": "category links -- renders the operator-defined forum category and category-badge vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "more-topics"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination control -- renders the fixed More topics action"
+  }
+]

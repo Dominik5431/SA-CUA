@@ -1,0 +1,99 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility navigation -- renders: fixed skip-navigation controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "site-nav__header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header brand control -- renders: fixed operator branding and home navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "site-nav__main-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main site navigation -- renders: fixed operator navigation destinations"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "site-nav__search-row"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site search control -- renders: fixed search-box vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "main"
+      },
+      {
+        "role": "landmark",
+        "class": "flex--guttered"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "forum view controls -- renders: fixed forum tabs and fixed sorting options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "submission__nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "submission action navigation -- renders: fixed comment, share, save, hide, and report controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vote"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "submission voting controls -- renders: fixed upvote and downvote actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "subscribe-form"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "forum subscription control -- renders: fixed subscribe or unsubscribe action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "sidebar__section"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "sidebar disclosure control -- renders: fixed expand or collapse vocabulary"
+  }
+]

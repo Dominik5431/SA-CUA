@@ -1,0 +1,48 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "header"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "expandDisplayName"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "ownCloud top navigation bar -- renders: logo, app name, search box label, settings menu toggle; subtracts the user's display name which is profile-set"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "toolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "PDF.js viewer toolbar -- renders: sidebar toggle, find, previous/next, page number, zoom out/in, scale select, presentation mode, print, download, bookmark, secondary toolbar; all fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "id": "viewerContextMenu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "PDF.js viewer context menu -- renders: first page, last page, rotate clockwise, rotate counter-clockwise; fixed operator controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "hiddenuploadfield"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "hidden file upload start button -- fixed operator control label"
+  }
+]

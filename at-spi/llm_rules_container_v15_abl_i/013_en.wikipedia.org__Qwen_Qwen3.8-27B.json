@@ -1,0 +1,102 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: Wikipedia logo, search box, main menu, user links (Donate/Log in/Sign up)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "mw-body-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Page title bar -- renders: 'Recent changes' heading and help link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "right-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Right sidebar navigation -- renders: fixed view tabs (Read/Edit/View history) and page tools menu"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-appearance-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Appearance settings panel -- renders: fixed labels for font size, width, and theme options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mw-recentchanges-toplinks"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Recent changes top links -- renders: fixed navigation links (Newer/Older, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mw-rcfilters-ui-filterTagMultiselectWidget-wrapper-top-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Filter widget title -- renders: fixed label 'Filters'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mw-rcfilters-ui-filterTagMultiselectWidget-wrapper-top-hideshow"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Filter widget show/hide control -- renders: fixed button label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mw-rcfilters-ui-filterTagMultiselectWidget-resetButton"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Filter reset button -- renders: fixed label 'Reset'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "mw-changeslist-legend"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Changes list legend -- renders: fixed labels explaining edit types (new page, minor, bot, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Page footer -- renders: fixed links (Privacy, About, Disclaimers, Contact, etc.) and Wikimedia logos"
+  }
+]

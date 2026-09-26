@@ -1,0 +1,206 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "spacesToolbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "spacesToolbarAddonsContainer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "application space navigation and collapse/settings controls -- renders: Mail/Address Book/Calendar/Tasks/Chat/Settings/Collapse"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "settingsButton"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "settings control -- renders: Settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "collapseButton"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar collapse control -- renders: Collapse"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "unifiedToolbarContainer"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "search-bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "application toolbar chrome excluding the search field and echoed query -- renders fixed toolbar and window-interface vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list item",
+        "class": "search-bar"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "search submission control -- renders the fixed search action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "unifiedToolbar"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "fixed toolbar buttons -- renders: application menu and fixed toolbar actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "button-appmenu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "application menu control -- renders fixed application commands"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "titlebar-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "window controls -- renders: Minimize/Restore/Close"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "toolbar-menubar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "application menu bar -- renders: File/Edit/View/Go/Message/Tasks/Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "scroll pane",
+        "id": "chatTabPanel"
+      }
+    ],
+    "except": [
+      {
+        "role": "list box",
+        "id": "contactlistbox"
+      },
+      {
+        "role": "label",
+        "id": "statusMessageLabel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "chat-panel chrome and empty-state controls excluding contact names and the user-controlled status message -- renders fixed chat-toolbar labels and account setup controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "folderPaneHeaderBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "folder-pane controls -- renders: More/Write message/Get messages"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "folderPaneMoreButton"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "folder-pane more control -- renders fixed folder-pane commands"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "folderPaneWriteMessage"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "compose-message control -- renders: Write message"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "folderPaneGetMessages"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "get-messages control -- renders: Get messages"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "list-header-bar-container-end"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "thread-list header controls -- renders fixed quick-filter and message-display commands"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "threadPaneDisplayButton"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "thread-display control -- renders fixed message-list display commands"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "start-page"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Thunderbird start page -- renders operator-authored product information and fixed product links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "offline-status"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "connection-status control -- renders fixed online/offline status commands"
+  }
+]

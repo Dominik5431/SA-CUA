@@ -1,0 +1,109 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders the operator's fixed site identity, navigation labels, and new-page control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "search-box"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search control -- renders the operator's fixed search interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "new-page-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "new-page control -- renders the fixed New page action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "nav-category-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar category controls -- render the operator's fixed navigation category labels and expand controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "edit-page-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page action control -- renders the fixed Edit page action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "history-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page action control -- renders the fixed History action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "link-pages-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page action control -- renders the fixed Link pages action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "related-pages"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "related-pages section label -- renders the fixed Related pages heading"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "history-modal"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "history-list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "history modal chrome -- renders the fixed History heading and Close control, excluding the revision records"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "close-history"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "modal control -- renders the fixed Close history action"
+  }
+]

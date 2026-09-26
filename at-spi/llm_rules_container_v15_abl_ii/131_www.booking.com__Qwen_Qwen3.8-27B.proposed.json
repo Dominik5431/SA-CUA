@@ -1,0 +1,215 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "bypass_menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Skip-to-content link -- renders: 'Skip to main content'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site header -- renders: 'Booking.com', 'Log in', 'Register', 'Accommodations', 'Flights', 'Packages', 'Cars', 'Attractions', 'Airport taxis'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "fff1944c52"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Breadcrumb navigation -- renders: 'Home', 'Hotels', 'City', 'District'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "ce1108eff4"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search summary bar -- renders: 'Search', 'Change dates', 'Change guests'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "b7ef425131 e9f1adff2b c03fb03748 a81cb9db2d"
+      },
+      {
+        "role": "heading",
+        "class": "e7addce19e f546354b44 cc045b173b"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Filter sidebar heading -- renders: 'Filter by'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "b7ef425131 e9f1adff2b c03fb03748 a81cb9db2d"
+      },
+      {
+        "role": "section",
+        "class": "b08850ce41"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Filter count label -- renders: 'Filters'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "b7ef425131 e9f1adff2b c03fb03748 a81cb9db2d"
+      },
+      {
+        "role": "section"
+      },
+      {
+        "role": "label",
+        "class": "b99b6ef58f f546354b44 afe621885b"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search within results label -- renders: 'Search within results'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "b7ef425131 e9f1adff2b c03fb03748 a81cb9db2d"
+      },
+      {
+        "role": "section"
+      },
+      {
+        "role": "push button",
+        "class": "de576f5064 b46cd7aad7 e26a59bb37 c7a901b0e7 f3e59d528f aaf9b6e287 e7f2b1a356 a9d40b8d51"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search submit button -- renders: 'Search'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "b7ef425131 e9f1adff2b c03fb03748 a81cb9db2d"
+      },
+      {
+        "role": "section",
+        "class": "b7ef425131 e9f1adff2b ba5aaf262f bfb55afbed"
+      },
+      {
+        "role": "panel",
+        "class": "eaa3cb80f6"
+      },
+      {
+        "role": "label",
+        "class": "e672339311"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Filter group headings -- renders: 'Price', 'Popular filters', 'Property Type', 'Review score', 'Meals', 'Facilities', 'Room facilities', 'Class', 'Distance', 'Chain', 'Activities', 'Stay type', 'Landmarks', 'Rated high', 'Payment', 'Sustainability', 'Accessibility'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "b7ef425131 e9f1adff2b c03fb03748 a81cb9db2d"
+      },
+      {
+        "role": "section",
+        "class": "b7ef425131 e9f1adff2b ba5aaf262f bfb55afbed"
+      },
+      {
+        "role": "panel",
+        "class": "eaa3cb80f6"
+      },
+      {
+        "role": "push button",
+        "class": "de576f5064 bef8628e61 c93f162d20 e0d8514d4d"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Filter expand/collapse buttons -- renders: 'Show more', 'Show less'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "b87c397a13 cacb5ff522"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Results count heading -- renders: 'Hotels in [City]'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "ad68e1f7ce bb51db7864"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "View toggle controls -- renders: 'List', 'Grid'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "a297f43545"
+      },
+      {
+        "role": "push button",
+        "class": "de576f5064 fcd8e16f81"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sort dropdown button -- renders: 'Sort by: Recommended'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section"
+      },
+      {
+        "role": "push button",
+        "class": "de576f5064 fcd8e16f81 af73738e37 ee2c96c33c"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Map view toggle -- renders: 'Map'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer_menu_track"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: 'Support', 'Discover', 'Manage your trip', 'About', 'Language and currency', 'Cookie settings', 'Privacy and cookies', 'Terms and conditions', 'Contact us', 'All countries', 'All cities', 'All destinations', 'All airport hotels', 'All review articles', 'All property types', 'All branded homes', 'All vacation homes', 'All apartments', 'All villas', 'All hotels', 'All resorts', 'All hostels', 'All motels', 'All guest houses', 'All unique stays', 'All hotels with breakfast', 'All hotels with a pool', 'All hotels with parking', 'All hotels with WiFi', 'All pet-friendly hotels', 'All family hotels', 'All business hotels', 'All luxury hotels', 'All boutique hotels', 'All eco-friendly hotels', 'All accessible hotels', 'All hotels with a gym', 'All hotels with a spa', 'All hotels with a restaurant', 'All hotels with a bar', 'All hotels with a terrace', 'All hotels with a garden', 'All hotels with a balcony', 'All hotels with a view', 'All hotels with a kitchen', 'All hotels with a washing machine', 'All hotels with a dryer', 'All hotels with a microwave', 'All hotels with a fridge', 'All hotels with a coffee machine', 'All hotels with a kettle', 'All hotels with a TV', 'All hotels with a radio', 'All hotels with a safe', 'All hotels with a hairdryer', 'All hotels with a bathrobe', 'All hotels with slippers', 'All hotels with a minibar', 'All hotels with a room service', 'All hotels with a concierge', 'All hotels with a tour desk', 'All hotels with a currency exchange', 'All hotels with a laundry service', 'All hotels with a dry cleaning', 'All hotels with a valet parking', 'All hotels with a shuttle service', 'All hotels with a bike rental', 'All hotels with a car rental', 'All hotels with a ski storage', 'All hotels with a ski pass', 'All hotels with a ski school', 'All hotels with a ski lift', 'All hotels with a ski slope', 'All hotels with a ski resort', 'All hotels with a ski area', 'All hotels with a ski trail', 'All hotels with a ski run', 'All hotels with a ski lift pass', 'All hotels with a ski pass purchase', 'All hotels with a ski pass discount', 'All hotels with a ski pass offer', 'All hotels with a ski pass deal', 'All hotels with a ski pass promotion', 'All hotels with a ski pass sale', 'All hotels with a ski pass bargain', 'All hotels with a ski pass value', 'All hotels with a ski pass savings', 'All hotels with a ski pass discount code', 'All hotels with a ski pass coupon', 'All hotels with a ski pass voucher', 'All hotels with a ski pass ticket', 'All hotels with a ski pass pass', 'All hotels with a ski pass lift', 'All hotels with a ski pass slope', 'All hotels with a ski pass trail', 'All hotels with a ski pass run', 'All hotels with a ski pass area', 'All hotels with a ski pass resort', 'All hotels with a ski pass school', 'All hotels with a ski pass storage', 'All hotels with a ski pass rental', 'All hotels with a ski pass car', 'All hotels with a ski pass bike', 'All hotels with a ski pass shuttle', 'All hotels with a ski pass valet', 'All hotels with a ski pass dry cleaning', 'All hotels with a ski pass laundry', 'All hotels with a ski pass currency', 'All hotels with a ski pass tour', 'All hotels with a ski pass concierge', 'All hotels with a ski pass room service', 'All hotels with a ski pass minibar', 'All hotels with a ski pass slippers', 'All hotels with a ski pass bathrobe', 'All hotels with a ski pass hairdryer', 'All hotels with a ski pass safe', 'All hotels with a ski pass radio', 'All hotels with a ski pass TV', 'All hotels with a ski pass kettle', 'All hotels with a ski pass coffee machine', 'All hotels with a ski pass fridge', 'All hotels with a ski pass microwave', 'All hotels with a ski pass dryer', 'All hotels with a ski pass washing machine', 'All hotels with a ski pass kitchen', 'All hotels with a ski pass view', 'All hotels with a ski pass balcony', 'All hotels with a ski pass garden', 'All hotels with a ski pass terrace', 'All hotels with a ski pass bar', 'All hotels with a ski pass restaurant', 'All hotels with a ski pass spa', 'All hotels with a ski pass gym', 'All hotels with a ski pass accessible', 'All hotels with a ski pass eco-friendly', 'All hotels with a ski pass boutique', 'All hotels with a ski pass luxury', 'All hotels with a ski pass business', 'All hotels with a ski pass family', 'All hotels with a ski pass pet-friendly', 'All hotels with a ski pass WiFi', 'All hotels with a ski pass parking', 'All hotels with a ski pass pool', 'All hotels with a ski pass breakfast'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "onetrust-banner-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Cookie consent banner -- renders: 'We value your privacy', 'Cookie settings', 'Reject all', 'Accept all'"
+  }
+]

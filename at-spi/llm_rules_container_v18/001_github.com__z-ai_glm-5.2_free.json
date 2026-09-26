@@ -1,0 +1,62 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "header-wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page header -- renders: Skip to content, GitHub logo, Product/Solutions/Resources/Open Source/Enterprise nav dropdowns, Search, Sign in, Sign up, appearance settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-repo-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository tab navigation -- renders: Code/Issues/Pull requests/Actions/Projects/Security/Insights"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "StickyHeader"
+      }
+    ],
+    "except": [
+      {
+        "role": "landmark",
+        "id": "repos-header-breadcrumb--wide"
+      },
+      {
+        "role": "section",
+        "class": "Breadcrumb-module__filename__equZR"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file viewer header controls -- renders: copy path, more actions dropdown; subtracts breadcrumb (repo owner name) and filename heading (user-named file)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "ReposFileTreePane-module__Pane"
+      }
+    ],
+    "except": [
+      {
+        "role": "push button",
+        "id": "ref-picker-repos-header-ref-selector"
+      },
+      {
+        "role": "tree",
+        "class": "TreeViewRootUlStyles"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file tree sidebar frame -- renders: Files heading, expand/collapse button, search box, pane resizer; subtracts ref picker (user-chosen branch name) and tree (repository file/directory names)"
+  }
+]

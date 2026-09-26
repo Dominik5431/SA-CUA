@@ -1,0 +1,18 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "controls"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "breadcrumb"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "File view controls -- renders: 'Gallery' view switcher, 'New' button; breadcrumb is subtracted as it echoes user-named directory paths"
+  }
+]

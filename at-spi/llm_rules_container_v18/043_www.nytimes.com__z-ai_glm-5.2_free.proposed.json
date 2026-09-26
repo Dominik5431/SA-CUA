@@ -1,0 +1,106 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Wr7_RG_mastheadWrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site masthead navigation -- renders: NYT logo, section links, sections menu button, search control, account link, current section label (fixed operator vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "css-1ta8iz9"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "collection section header -- renders: section heading and subsection navigation links (fixed NYT section vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "collection-highlights-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "featured articles module -- NYT editorial content: headlines, summaries, bylines, images with captions, all operator-authored by NYT staff"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "tab-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view switcher tabs -- renders: fixed tab labels for switching stream views"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "e5qpt131"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main article stream and pagination -- NYT editorial content throughout: headlines, summaries, bylines, section labels, plus page-number navigation controls (fixed operator vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "css-1jmk4jh"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site index label -- renders: fixed 'Site Index' heading"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "css-1qa4qp6"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer navigation -- renders: NYT service links, section links, subscription link, cookie/privacy link (fixed operator vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "top-slug"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "advertisement label above top ad slot -- renders: fixed 'Advertisement' text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mid1-wrapper"
+      },
+      {
+        "role": "section",
+        "class": "en616591"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "advertisement label above mid1 ad slot -- renders: fixed 'Advertisement' text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "fides-overlay"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent overlay -- operator-authored consent banner interface"
+  }
+]

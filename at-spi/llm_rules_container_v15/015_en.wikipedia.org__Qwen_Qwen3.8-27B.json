@@ -1,0 +1,52 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: Wikipedia logo, search box, 'Main menu', 'Donate', 'Create account', 'Log in'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mw-indicators"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Page indicators -- renders: 'Help'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "siteSub"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site subtitle -- renders: 'From Wikipedia, the free encyclopedia'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mw-normal-catlinks"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Visible category links -- renders: 'Categories', 'Web accessibility', 'Accessibility'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Page footer -- renders: 'This page was last edited on...', 'Text is available under the Creative Commons Attribution-ShareAlike License', 'Privacy policy', 'About Wikipedia', 'Disclaimers', 'Contact Wikipedia', 'Code of Conduct', 'Developers', 'Statistics', 'Cookie statement', 'Mobile view'"
+  }
+]

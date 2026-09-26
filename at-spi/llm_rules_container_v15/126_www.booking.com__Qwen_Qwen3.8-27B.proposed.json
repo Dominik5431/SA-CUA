@@ -1,0 +1,308 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders: logo, 'Search', 'Sign in', 'Register', 'Support', 'Manage bookings', 'Accommodations', 'Flights', 'Packages', 'Cars', 'Attractions', 'Airport taxis'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "fff1944c52"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "breadcrumb navigation -- renders: 'Home', 'Hotels', 'City', 'District', 'Property type'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "ce1108eff4"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search summary bar -- renders: 'Search results', 'Map', 'List', 'Grid', 'Sort by', 'Price (lowest first)', 'Price (highest first)', 'Review score', 'Distance from centre'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "b7ef425131 e9f1adff2b c03fb03748 a81cb9db2d"
+      },
+      {
+        "role": "heading",
+        "class": "e7addce19e f546354b44 cc045b173b"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "filter sidebar title -- renders: 'Filter by'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "b7ef425131 e9f1adff2b c03fb03748 a81cb9db2d"
+      },
+      {
+        "role": "section",
+        "class": "b08850ce41"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "filter count label -- renders: 'Filters'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "b7ef425131 e9f1adff2b c03fb03748 a81cb9db2d"
+      },
+      {
+        "role": "label",
+        "class": "b99b6ef58f f546354b44 afe621885b"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "filter search label -- renders: 'Search filters'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "b7ef425131 e9f1adff2b c03fb03748 a81cb9db2d"
+      },
+      {
+        "role": "panel",
+        "class": "eaa3cb80f6"
+      },
+      {
+        "role": "label",
+        "class": "e672339311"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "filter group headings -- renders: 'Popular filters', 'Property Type', 'Review Score', 'Facilities', 'Room Facilities', 'Meals', 'Class', 'Distance to Landmark', 'Popular Activities', 'Stay Type', 'Payment Method', 'Sustainability', 'Accessibility', 'Chain'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "b87c397a13 cacb5ff522"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "results header -- renders: 'Hotels in [City]'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "ad68e1f7ce bb51db7864"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view toggle -- renders: 'List', 'Grid'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "a297f43545"
+      },
+      {
+        "role": "push button",
+        "class": "de576f5064 fcd8e16f81"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sort control -- renders: 'Sort by: Price (lowest first)'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "de576f5064 fcd8e16f81 af73738e37 ee2c96c33c"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "active filter chips -- renders: 'Clear all', 'Remove [Filter]'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "cca574b93c"
+      },
+      {
+        "role": "list item",
+        "class": "c3bdfd4ac2 a0ab5da06c d46ff48a92 f728e61e72 d0acd69e66 c256f1a28a bc2204a477"
+      },
+      {
+        "role": "section",
+        "class": "c17271c4d7"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "listing card image and save controls -- renders: 'Save to wishlist', 'Add to trip'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "cca574b93c"
+      },
+      {
+        "role": "list item",
+        "class": "c3bdfd4ac2 a0ab5da06c d46ff48a92 f728e61e72 d0acd69e66 c256f1a28a bc2204a477"
+      },
+      {
+        "role": "section",
+        "class": "f11e93ef6d"
+      },
+      {
+        "role": "section",
+        "class": "b41575a678"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "listing card rating badge -- renders: 'Wonderful', 'Excellent', 'Good', 'Review score'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "cca574b93c"
+      },
+      {
+        "role": "list item",
+        "class": "c3bdfd4ac2 a0ab5da06c d46ff48a92 f728e61e72 d0acd69e66 c256f1a28a bc2204a477"
+      },
+      {
+        "role": "section",
+        "class": "fff1944c52 f4008c3a61"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "listing card action buttons -- renders: 'Check availability', 'View details', 'Add to trip'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "cca574b93c"
+      },
+      {
+        "role": "list item",
+        "class": "c3bdfd4ac2 a0ab5da06c d46ff48a92 f728e61e72 d0acd69e66 c256f1a28a bc2204a477"
+      },
+      {
+        "role": "link",
+        "class": "de576f5064 bef8628e61 ef3027b3ae e0d8514d4d"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "listing card review link -- renders: 'Read reviews', 'See all reviews'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "cca574b93c"
+      },
+      {
+        "role": "list item",
+        "class": "c3bdfd4ac2 a0ab5da06c d46ff48a92 f728e61e72 d0acd69e66 c256f1a28a bc2204a477"
+      },
+      {
+        "role": "section",
+        "class": "fff1944c52 cd3e7df908 edfbf87cda ff69922d34"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "listing card location label -- renders: 'Distance from centre'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "cca574b93c"
+      },
+      {
+        "role": "list item",
+        "class": "c3bdfd4ac2 a0ab5da06c d46ff48a92 f728e61e72 d0acd69e66 c256f1a28a bc2204a477"
+      },
+      {
+        "role": "section",
+        "class": "e2dbf4738c a60d8c35a0 c812b6be2a"
+      },
+      {
+        "role": "link",
+        "class": "fff1944c52 f254df5361"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "listing card amenities header -- renders: 'Popular amenities'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "cca574b93c"
+      },
+      {
+        "role": "list item",
+        "class": "c3bdfd4ac2 a0ab5da06c d46ff48a92 f728e61e72 d0acd69e66 c256f1a28a bc2204a477"
+      },
+      {
+        "role": "section",
+        "class": "fff1944c52 fb14de7f14"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "listing card price labels -- renders: 'Per night', 'Total', 'Taxes and fees'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "cca574b93c"
+      },
+      {
+        "role": "list item",
+        "class": "c3bdfd4ac2 a0ab5da06c d46ff48a92 f728e61e72 d0acd69e66 c256f1a28a bc2204a477"
+      },
+      {
+        "role": "section",
+        "class": "d755458b0f"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "listing card footer link -- renders: 'View on map'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "footerconstraint"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: 'Support', 'Discover', 'Manage your bookings', 'About Booking.com', 'Careers', 'Press centre', 'Investor relations', 'Sustainability', 'Affiliates', 'Property owners', 'Free property listings', 'Agents', 'Business travel', 'Travel agents', 'Corporate travel', 'Vouchers', 'Countries', 'Regions', 'Cities', 'Airports', 'Hotels', 'Group travel', 'Car rental', 'Airport taxis', 'Attractions', 'Flight + Hotel', 'Terms & conditions', 'Privacy & cookies', 'Legal', 'Anti-fraud notice', 'Contact us', 'English (US)', 'USD - US Dollar'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "onetrust-banner-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent banner -- renders: 'We value your privacy', 'Cookie settings', 'Reject all', 'Accept all', 'Cookie policy'"
+  }
+]

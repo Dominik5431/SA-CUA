@@ -1,0 +1,92 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site header -- renders: Main menu, Simple English Wikipedia, Search, Donate, Create account, Log in"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "mw-panel-toc"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Table of contents -- renders: Contents, Unpin, and section headings (e.g., Characteristics, Hardware) which are operator-defined article structure"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "mw-body-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Page title bar -- renders: Computer, Languages"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Left navigation tabs -- renders: Article, Talk"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "right-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Right navigation tabs and tools -- renders: Read, Edit, View history, Tools"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-appearance-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Appearance settings -- renders: Appearance, Unpin, Font size, Small, Standard, Large, Width, Limited, Full, Theme, System, Light, Dark"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "siteSub"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site subtitle -- renders: From Simple English Wikipedia, the free encyclopedia"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "catlinks"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Category links -- renders: Categories, and category names (e.g., Computers) which are operator-defined taxonomy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: This page was last edited on..., Privacy policy, About, Disclaimers, Contact, Code of conduct, Developers, Statistics, Cookie statement, Mobile view, Wikimedia Foundation, Powered by MediaWiki"
+  }
+]

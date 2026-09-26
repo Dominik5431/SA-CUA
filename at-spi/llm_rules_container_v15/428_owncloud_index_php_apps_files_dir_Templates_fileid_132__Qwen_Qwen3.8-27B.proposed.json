@@ -1,0 +1,55 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "header"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "expandDisplayName"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: ownCloud logo, Files app name, menu toggle, search box; user display name is subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "app-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Left sidebar navigation -- renders: Files, Favorites, Shared with you, Shared by you, Shared links, Tags, Trash bin, Settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "controls"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "breadcrumb"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "File list controls -- renders: Gallery view switcher, New button, upload progress; breadcrumb is subtracted as it may contain user-named folders"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table",
+        "id": "filestable"
+      }
+    ],
+    "own_role": "column header",
+    "verdict": "trusted",
+    "note": "File list table headers -- renders: Name, Size, Modified"
+  }
+]

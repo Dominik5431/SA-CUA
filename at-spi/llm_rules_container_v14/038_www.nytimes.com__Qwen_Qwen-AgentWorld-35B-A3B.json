@@ -1,0 +1,67 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "fides-overlay",
+        "class": "fides-overlay"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent overlay -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Wr7_RG_mastheadWrapper Wr7_RG_mastheadWrapperCentered Wr7_RG_mastheadWrapperResponsive"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "masthead navigation and controls -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "collection-world",
+        "class": "css-15h4p1b ewz6inz0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "world section collection -- includes header, navigation, highlights, 5-band sections, and stream panel with operator-authored news articles"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "collection-highlights-container",
+        "class": "css-y38hmw ebvx18p1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "collection highlights -- operator-authored news articles and highlights"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "site-index",
+        "class": "css-1jmk4jh"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site index -- platform's own sitemap and navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer",
+        "class": "css-1qa4qp6"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer -- platform's own interface and links throughout"
+  }
+]

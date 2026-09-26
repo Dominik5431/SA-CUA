@@ -1,0 +1,76 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "rcx-sidebar sidebar sidebar--main sidebar--medium"
+      }
+    ],
+    "except": [
+      {
+        "role": "landmark",
+        "class": "rooms-list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main sidebar chrome -- renders: user status, fixed icon buttons (Home, DMs, etc.), and separators; the rooms list is subtracted as it renders user-created channel names"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "footer",
+        "class": "rcx-box rcx-box--full rcx-css-1h8ylb3 rcx-css-1583vym"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar footer -- renders: operator logo and fixed link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "rcx-room-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "rcx-box rcx-box--full rcx-css-u5iepl"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Room header controls -- renders: fixed action buttons (search, info, etc.); the channel name heading is subtracted as it is user-created"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "messages-box"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "class": "messages-list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Message box chrome -- renders: 'New message' button and 'Jump to recent' button; the message list is subtracted as it contains user-generated content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "footer",
+        "class": "footer"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry",
+        "class": "rc-message-box__textarea"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Message input area -- renders: fixed formatting toolbar buttons and emoji picker; the text input is subtracted as it holds user-typed content"
+  }
+]

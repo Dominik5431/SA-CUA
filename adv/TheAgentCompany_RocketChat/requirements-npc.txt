@@ -1,0 +1,18 @@
+# Dependencies for the Sotopia NPC processes (run_one_npc.py), which run OUT OF THEIR OWN
+# virtualenv -- see _npc_python() in run_multi_npc.py.
+#
+# They are isolated because sotopia 0.1.2 pins an older stack than the evaluation harness:
+# it resolves to numpy 1.x, pillow 10.x and openai 1.x, while mm_agents' vLLM client needs
+# openai 2.x. Installing these into the harness env would silently downgrade all three.
+#
+# Recreate with:
+#   python -m venv .venv-npc
+#   .venv-npc/bin/pip install -r adv/TheAgentCompany_RocketChat/requirements-npc.txt
+#
+# rocketchat_API MUST stay on 1.x: from 2.0.0 the client returns plain dicts instead of
+# requests.Response objects, and rocketchat_bot.py calls .json() on every result.
+sotopia==0.1.2
+rocketchat_API~=1.32.0
+aiohttp
+requests
+tqdm

@@ -1,0 +1,44 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Wr7_RG_mastheadWrapper Wr7_RG_mastheadWrapperCentered Wr7_RG_mastheadWrapperResponsive"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "masthead navigation and controls -- operator's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "css-9n3zhf e1j8vip00"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "business section header -- renders section heading and navigation links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "fides-overlay",
+        "class": "fides-overlay"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "privacy consent overlay -- operator's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "google-one-tap-container",
+        "class": "css-1helbay e17qpihw0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "google one-tap sign-in prompt -- operator's own interface"
+  }
+]

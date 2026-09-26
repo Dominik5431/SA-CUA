@@ -1,0 +1,80 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar",
+        "class": "ElectronMenuBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "native application menu bar -- renders fixed operator vocabulary: File/Edit/Selection/View/Go/Run/Terminal/Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-action-bar vertical"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "activity bar and status bar icons -- renders fixed operator vocabulary: Explorer, Search, Source Control, Run, Extensions, Accounts, Settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "workbench.parts.editor",
+        "class": "part editor"
+      }
+    ],
+    "except": [
+      {
+        "role": "page tab",
+        "class": "tab"
+      },
+      {
+        "role": "list",
+        "class": "monaco-breadcrumbs"
+      },
+      {
+        "role": "section",
+        "class": "editor-instance"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "editor chrome -- renders fixed operator vocabulary: tab action buttons (close, split, more); subtracts user-named file tabs, breadcrumbs, and file content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar",
+        "id": "workbench.parts.statusbar",
+        "class": "part statusbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "status.host"
+      },
+      {
+        "role": "section",
+        "id": "status.problems"
+      },
+      {
+        "role": "section",
+        "id": "status.forwardedPorts"
+      },
+      {
+        "role": "section",
+        "id": "status.notifications"
+      },
+      {
+        "role": "section",
+        "id": "status.editor.selection"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "status bar -- renders fixed operator vocabulary: editor mode, EOL, encoding, indentation, screen reader mode; subtracts dynamic values like host, problem counts, and selection stats"
+  }
+]

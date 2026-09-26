@@ -1,0 +1,63 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: Skip to main content, Stack Overflow logo, Questions, Jobs, Log in, Sign up, Help, Stack Exchange, Search"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Left sidebar navigation -- renders: Home, Questions, Ask AI, Jobs, AI, Challenges, Chat, Articles, Users, Companies, Collectives, Free"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: Stack Overflow logo, Questions, Jobs, Teams, About, Products, Company, Legal, Privacy Policy, Terms of Service, Cookie Settings, Social media links, Copyright"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "feed-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "RSS feed link -- renders: Feed"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-report-ad-button-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Ad report button -- renders: Report this ad"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mainbar"
+      }
+    ],
+    "own_role": "link",
+    "verdict": "trusted",
+    "note": "Pagination controls -- renders: page numbers, Next, Previous"
+  }
+]

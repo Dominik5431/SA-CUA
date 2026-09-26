@@ -1,0 +1,73 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "left-sidebar--sticky-container js-sticky-leftnav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left sidebar navigation -- platform's own navigation links and promotional controls throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer js-footer",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- platform's own navigation, legal links, and copyright throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search bar -- platform's own search control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "answer-sort-dropdown-select-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answer sort dropdown -- operator-defined sort controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-report-ad-button-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "report ad button -- platform's own control about the ad"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mobile-anchor-ad-report-button-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "report ad button -- platform's own control about the ad"
+  }
+]

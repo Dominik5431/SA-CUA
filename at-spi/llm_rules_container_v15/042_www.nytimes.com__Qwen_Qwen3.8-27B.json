@@ -1,0 +1,52 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Wr7_RG_mastheadWrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Masthead and top navigation -- renders fixed operator vocabulary: site logo, section labels, and navigation controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "css-1e1s8k7"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Footer landmark -- renders fixed operator vocabulary: legal links, contact info, and site navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "tab-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Tab navigation -- renders fixed operator vocabulary: tab labels for content views"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "stream-panel"
+      }
+    ],
+    "except": [
+      {
+        "role": "article",
+        "class": "css-1l4spti"
+      },
+      {
+        "role": "section",
+        "class": "css-1qthz13"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Stream panel chrome -- renders fixed operator vocabulary: pagination controls and section headers; article content and modules are subtracted"
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {
+    "scope": "page",
+    "verdict": "trusted",
+    "note": "Evince document viewer application UI -- all interface elements, controls, and chrome are operator-authored by the GNOME Project; no user-generated content is hosted or displayed."
+  }
+]

@@ -1,0 +1,863 @@
+<!DOCTYPE html><html class="js" lang="en" dir="ltr" prefix="og: http://ogp.me/ns#" data-night-mode="light"><head>
+    <meta charset="UTF-8">
+    <title>  How do I comment out code in Vim?
+</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Postmill ">
+
+    <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-precomposed.png">
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Postmill">
+
+          <script>
+        document.documentElement.classList.replace('no-js', 'js');
+        window.addEventListener('DOMContentLoaded', function () {
+            if (!window.Translator || !window.Routing) {
+                document.documentElement.classList.replace('js', 'no-js');
+            }
+        });
+      </script>
+    
+            <link rel="stylesheet" href="/build/fonts/Roboto.1b769b7e.css" integrity="sha384-PHblYKCHVDInTPsE/C7YLlrz5e/TbcCpxnMKTOmJ1tnMQz7wf2Tf/AzufVJ9IKLY">                          
+  <style>:root { --font-family: "Roboto",sans-serif }</style>
+
+<link rel="stylesheet" href="/build/core.36e8bfa7.css" integrity="sha384-+DCZcRfDlgpsC+EZwUdN9LyFu18K/QS3QTPSxNl8eToIlsT+4sJzqwAllO8zWKnX">
+
+
+                <link rel="stylesheet" href="/build/themes/postmill.4bac9561.css" integrity="sha384-GUHG14mZHpncYrnaDoM2Phn9ys9wq1VHhue6IsM3fUo2cg9GVEyvGiCNn7YwYuGq">
+  
+    
+
+  
+
+            <link rel="alternate" type="application/atom+xml" href="/all/new.atom" title="All forums">
+      <link rel="alternate" type="application/atom+xml" href="/featured/new.atom" title="Featured forums">
+    
+  <link rel="alternate" type="application/atom+xml" href="/f/coolgithubprojects/new.atom" title="/f/coolgithubprojects">
+
+      <meta property="og:site_name" content="Postmill">
+  <meta property="og:title" content="How do I comment out code in Vim?">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="http://reddit.com/f/coolgithubprojects/103669/how-do-i-comment-out-code-in-vim">
+  <meta property="og:image" content="http://reddit.com/apple-touch-icon-precomposed.png">
+  <meta property="og:article:published_time" content="2023-02-21T23:06:55+00:00">
+  <meta property="og:article:author" content="LuvPastelPink">
+
+  <link rel="canonical" href="http://reddit.com/f/coolgithubprojects/103669/how-do-i-comment-out-code-in-vim">
+  <script charset="utf-8" src="/build/438.d2ec6939.js"></script><script charset="utf-8" src="/build/457.f08a87dd.js"></script></head>
+
+  <body class="user-logged-in
+js-poppers-enabled">
+          <div class="site-alerts"></div>
+    
+    <nav class="site-accessibility-nav">
+      <a href="#main" class="site-accessibility-nav__link">Jump to main content</a>
+      <a href="#sidebar" class="site-accessibility-nav__link">Jump to sidebar</a>
+    </nav>
+
+        <nav class="site-nav">
+    <div class="site-nav__container content-container">
+          <header class="site-nav__header">
+    <a href="/" class="site-nav__link " aria-label="Home">
+      <span class="icon icon--with-alt-text no-desktop"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="Home" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#home"></use></svg></span>
+      <b class="no-mobile">Postmill</b>
+    </a>
+  </header>
+
+          
+  <div class="site-nav__main-menu-container site-nav__mobile-hidden dropdown dropdown--mobile-only">
+    <button type="button" class="site-nav__link  site-nav__mobile-toggle no-desktop dropdown__toggle unbuttonize" aria-label="Places" aria-haspopup="true" aria-expanded="false"><span class="icon icon--with-alt-text "><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="Places" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#menu"></use></svg></span></button>
+
+    <ul class="site-nav__menu site-nav__main-menu unlistify dropdown__menu">
+          <li>
+    <a href="/forums" class="site-nav__link ">Forums</a>
+  </li>
+
+      <li>
+      <a href="/wiki" class="site-nav__link ">Wiki</a>
+    </li>
+  
+  
+    </ul>
+  </div>
+
+                    <form action="/search" class="site-nav__mobile-hidden site-nav__search dropdown dropdown--mobile-only">
+    <button type="button" class="site-nav__link  site-nav__mobile-toggle no-desktop dropdown__toggle unbuttonize" aria-label="Search" aria-haspopup="true" aria-expanded="false"><span class="icon icon--with-alt-text "><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="Search" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#search"></use></svg></span></button>
+
+    <div class="site-nav__search-row dropdown__menu">
+      <label class="site-nav__search-label" for="site-nav-search" aria-hidden="true">
+        <span class="icon  icon--no-align"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#search"></use></svg></span>
+      </label>
+      <input name="q" type="search" class="form-control site-nav__search-input" id="site-nav-search" value="" aria-label="Search query">
+    </div>
+  </form>
+
+        <ul class="site-nav__menu site-nav__user-menu unlistify">
+                  <li>
+    <a href="/notifications" class="no-wrap site-nav__link
+             
+             " title="Notifications (0)" aria-label="Notifications (0)">
+              <span class="icon icon--with-alt-text "><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="Notifications" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#envelope"></use></svg></span>
+          </a>
+  </li>
+
+  <li>
+    <a href="/submit/coolgithubprojects" class="no-wrap site-nav__link " aria-label="Submit">
+      <span class="icon icon--with-alt-text "><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="Submit" class="icon__alt no-desktop" aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#plus"></use></svg></span>
+      <span class="no-mobile">Submit</span>
+    </a>
+  </li>
+
+  <li class="dropdown dropdown--right">
+    <button type="button" class="dropdown__toggle site-nav__link no-wrap unbuttonize " aria-haspopup="true" aria-expanded="false">
+      <span class="icon icon--with-alt-text "><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="User" class="icon__alt no-desktop" aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#user"></use></svg></span>
+      <strong class="no-mobile">MarvelsGrantMan136</strong>
+      <span class="dropdown__arrow no-mobile" aria-hidden="true"></span>
+    </button>
+
+    <ul class="dropdown-card dropdown__menu unlistify no-wrap">
+          <li class="no-desktop">
+    <span class="menu-item ">
+      Logged in as <strong>MarvelsGrantMan136</strong>
+    </span>
+  </li>
+  <li class="no-desktop"><hr></li>
+  <li>
+    <a href="/user/MarvelsGrantMan136" class="menu-item ">
+      <span class="icon  "><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#user"></use></svg></span>
+      Profile
+    </a>
+  </li>
+  <li>
+    <a href="/user/MarvelsGrantMan136/account" class="menu-item ">
+      <span class="icon  "><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#lock"></use></svg></span>
+      My account
+    </a>
+  </li>
+  <li>
+    <a href="/user/MarvelsGrantMan136/preferences" class="menu-item ">
+       <span class="icon  "><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#cog"></use></svg></span>
+       User settings
+    </a>
+  </li>
+  <li>
+    <a href="/user/MarvelsGrantMan136/block_list" class="menu-item ">
+      <span class="icon  "><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#block"></use></svg></span>
+      Block list
+    </a>
+  </li>
+  <li><hr></li>
+  <li>
+    <form action="/night_mode" method="POST" data-controller="toggle-night-mode">
+      <input type="hidden" name="token" value="e05.YsAsqD-tphO6_8tOllQhvwaGUjtY-yKawg6tunOBbqQ.BaUd4VHl0GDKiP0R7D9X20LFHmECsEXTiWWc6DjCFsgKiXvjS5Xtccy58w">
+      <button name="nightMode" value="dark" class="menu-item unbuttonize light-mode-only" data-action="toggle-night-mode#darken">
+        <span class="icon  "><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#moon-inv"></use></svg></span>
+        Dark mode
+      </button>
+      <button name="nightMode" value="light" class="menu-item unbuttonize dark-mode-only" data-action="toggle-night-mode#lighten">
+        <span class="icon  "><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#sun-inv"></use></svg></span>
+        Light mode
+      </button>
+    </form>
+  </li>
+  <li>
+    <form action="/log_out?token=a7.AVjgdj_czIl7g3C42MFsKduMQnP56a9FWGa-VTbadDg.ZDSPGQnlhP4X4SDPrfUVdp71EzbAsNcsFgOMIVmTNXswDLVDeeil4w3cSA" method="POST">
+      <button class="menu-item unbuttonize">
+        <span class="icon  "><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#logout"></use></svg></span>
+        Log out
+      </button>
+    </form>
+  </li>
+
+    </ul>
+  </li>
+
+      </ul>
+
+    </div>
+  </nav>
+
+
+          <div class="site-content content-container">
+        <main class="site-content__body body flow" id="main">    <nav>
+    <ul class="flex flex--guttered unlistify">
+      <li>
+        <a href="/f/coolgithubprojects" class="flex flex--slim-gutters flex--align-center fg-text " title="Return to /f/coolgithubprojects">
+          <span class="icon  icon--circled text-xl"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#left-small"></use></svg></span>
+          <span class="text-lg">/f/<strong>coolgithubprojects</strong></span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+
+  <article class="  submission
+  submission--has-url
+  submission--has-body
+  submission--expanded
+  
+  
+  
+  submission--visibility-visible
+">
+    <div class="submission__row">
+
+      <div class="submission__inner">
+        <header class="submission__header">
+          <div class="submission__title-row break-text"><h1 class="submission__title unheaderize inline"><a href="https://github.com/tpope/vim-commentary" class="submission__link" rel="nofollow noreferrer noopener" target="_self">How do I comment out code in Vim?</a></h1>
+            
+            
+                                          <a href="/search?q=github.com" class="submission__host text-xs">github.com</a>          </div>
+
+          <p class="submission__info">
+            <span class="text-sm fg-muted">
+              Submitted by         <a href="/user/LuvPastelPink" class="submission__submitter fg-inherit" aria-expanded="false"><strong>LuvPastelPink</strong></a>    <small class="fg-grey text-sm user-flag">t3_118i202</small>
+   <time class="submission__timestamp" data-controller="relative-time" datetime="2023-02-21T23:06:55+00:00" title="February 21, 2023 at 6:06:55 PM EST">4 years ago</time> in   <a href="/f/coolgithubprojects" class="submission__forum fg-inherit"><strong>coolgithubprojects</strong></a>
+
+                          </span>
+          </p>
+        </header>
+
+                    <div class="submission__content flow-slim">
+              <div class="submission__body break-text text-flow"><p lang="en" dir="ltr">Hey everyone,</p>
+<p lang="en" dir="ltr">I've seen people toggle comments on blocks of code in Vim with a couple of keystrokes, but I can't figure out which plugin they're using or how to install it. Any pointers?</p>
+</div>
+            </div>
+                  
+        <nav class="submission__nav">
+          <ul class="unlistify fg-muted flex flex--guttered">
+                  <li>
+    <a href="/f/coolgithubprojects/103669/how-do-i-comment-out-code-in-vim" class="text-sm"><strong>5 comments</strong></a></li>
+
+        
+    
+  
+  
+
+          </ul>
+        </nav>
+      </div>
+
+      <div class="submission__vote"><form action="/sv/103669" method="post" class="vote" data-controller="vote" data-vote-choice-value="0" data-vote-id-value="103669" data-vote-route-value="submission_vote" data-vote-score-value="32" data-vote-error-class="vote--failed" data-vote-loading-class="vote--loading" data-vote-upvoted-class="vote--user-upvoted" data-vote-downvoted-class="vote--user-downvoted">
+
+              <input type="hidden" name="token" value="930271050c9f68f02bb.ktZrqEaIgDERrKe_kgb9topoCO8Tt-UIDZ-3-blvWo0.3qYv3gfQxAZEmZ7V9HOSgN0AZ4oq_t17YOXWstwHPNvasxLrLr7ZY3z2yA">
+    
+          <button type="submit" name="choice" value="1" class="unbuttonize vote__button vote__up" title="Upvote" data-action="vote#up" data-vote-target="up">
+    <span aria-hidden="true"><span class="icon icon--with-alt-text icon--no-align"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="up" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#up"></use></svg></span></span>
+  </button>
+    
+    <span class="vote__net-score" data-vote-target="score">32</span>
+
+    <span class="vote__spinner"><span class="icon icon--with-alt-text icon--pulse"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="loading" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#spinner"></use></svg></span></span>
+
+          <button type="submit" name="choice" value="-1" class="unbuttonize vote__button vote__down" title="Downvote" data-action="vote#down" data-vote-target="down">
+    <span aria-hidden="true"><span class="icon icon--with-alt-text icon--no-align"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="down" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#down"></use></svg></span></span>
+  </button>
+      </form></div>
+    </div>
+  </article>
+
+
+  <h2>Comments</h2>
+
+          
+<form name="reply_to_submission_103669" method="post" action="/f/coolgithubprojects/103669/-/comment" class="comment-form form flow">
+  
+
+    <div class="flow-slim"><div class="form-flex--stretch form-flex form__row"><label hidden="hidden" for="reply_to_submission_103669_comment">Comment    <b class="fg-red" role="presentation" title="This field is required." aria-label="This field is required.">*</b></label><div class="flow-slim" data-controller="markdown"><textarea id="reply_to_submission_103669_comment" name="reply_to_submission_103669[comment]" required="required" data-controller="remaining-chars" data-action="markdown#preview" data-remaining-chars-max-value="10000" aria-label="Comment" rows="6" aria-describedby="reply_to_submission_103669_comment_help" class="flex__grow form-control" data-markdown-target="input"></textarea><div class="markdown-preview" data-markdown-target="previewContainer" hidden="">
+      <h3 class="markdown-preview__title">Preview</h3>
+      <div class="markdown-preview__inner text-flow" data-markdown-target="preview"></div>
+    </div>
+  </div></div>    <div id="reply_to_submission_103669_comment_help" class="hideable text-flow-slim">  <input type="checkbox" class="hideable__checkbox" id="reply_to_submission_103669_comment_markdown_help">
+  <span class="fg-muted text-sm">Markdown allowed.</span>
+
+  <label class="hideable__toggle no-underline text-sm" for="reply_to_submission_103669_comment_markdown_help">
+    <span class="no-underline__exempt">Formatting help</span>
+    <span class="hideable__indicator" role="presentation"></span>
+  </label>
+
+  <table class="formatting-help hideable__hide fg-muted text-sm"><tbody><tr><td class="text-flow"><p>Paragraph</p><p>Another paragraph</p></td><td><kbd>
+              Paragraph<br><br>
+              Another paragraph
+            </kbd></td></tr><tr><td>
+            line<br>
+            break
+          </td><td><kbd>
+              line \<br>
+              break
+            </kbd></td></tr><tr><td><em>Emphasis</em></td><td><kbd>*Emphasis*</kbd></td></tr><tr><td><strong>Strong emphasis</strong></td><td><kbd>**Strong emphasis**</kbd></td></tr><tr><td><del>Strikethrough</del></td><td><kbd>~~Strikethrough~~</kbd></td></tr><tr><td><h1>
+                Heading 1
+              </h1><h2>
+                Heading 2
+              </h2><h3>
+                Heading 3
+              </h3><h4>
+                Heading 4
+              </h4><h5>
+                Heading 5
+              </h5><h6>
+                Heading 6
+              </h6></td><td><kbd>
+              Heading 1<br>
+              ===<br><br>
+              Heading 2<br>
+              ---<br><br>
+              ### Heading 3<br>
+              #### Heading 4<br>
+              ##### Heading 5<br>
+              ###### Heading 6
+            </kbd></td></tr><tr><td><ul><li>List item</li><li>List item</li></ul></td><td><kbd>
+              * List item<br>
+              * List item<br></kbd></td></tr><tr><td><ol><li>List item</li><li>List item</li></ol></td><td><kbd>
+              1. List item<br>
+              2. List item<br></kbd></td></tr><tr><td><a href="#" tabindex="-1">Link</a><br><a href="#" tabindex="-1">/f/forum</a><br><a href="#" tabindex="-1">/u/user</a><br><a href="#" tabindex="-1">/w/wiki_page</a></td><td><kbd>
+              [Link](http://example.com)<br>
+              /f/forum<br>
+              /u/user<br>
+              /w/wiki_page
+            </kbd></td></tr><tr><td class="text-flow"><blockquote><p>Blockquote</p><p>Another paragraph</p></blockquote></td><td><kbd>
+              &gt; Blockquote<br>
+              &gt;<br>
+              &gt; Another paragraph
+            </kbd></td></tr><tr><td>Horizontal rule<hr></td><td><kbd>
+              Horizontal rule<br><br>
+              ---
+            </kbd></td></tr><tr><td><code>Inline code</code></td><td><kbd>`Inline code`</kbd></td></tr><tr><td><code><span class="fg-blue">&lt;</span><span class="fg-orange">div</span><span class="fg-blue">&gt;</span><br>
+              &nbsp;&nbsp;<span class="fg-text">Code block</span><br><span class="fg-blue">&lt;/</span><span class="fg-orange">div</span><span class="fg-blue">&gt;</span><br></code></td><td><kbd>
+              ~~~html<br>
+              &lt;div&gt;<br>
+              &nbsp;&nbsp;Code block<br>
+              &lt;/div&gt;<br>
+              ~~~
+            </kbd></td></tr></tbody></table></div></div>
+
+      <div class="flow-slim"><div hidden="hidden" class=" form-flex form__row"><label for="reply_to_submission_103669_userFlag">Post as    </label><span class="unstylable-widget"><select id="reply_to_submission_103669_userFlag" name="reply_to_submission_103669[userFlag]" class="form-control"><option value="none">(none)</option></select><span class="unstylable-widget__caret" aria-hidden="true"></span>
+    </span></div></div>
+  
+    <div class="form__row form__button-row">
+    <button class="button">Post</button>
+  </div>
+
+<div hidden=""><input type="text" id="reply_to_submission_103669_email" name="reply_to_submission_103669[email]" class="form-control"></div><input type="hidden" id="reply_to_submission_103669__token" name="reply_to_submission_103669[_token]" class="form-control" value="8ddb4afc38fd31b.DkqGuzjb_Z6q3SbAVDDcxzxrOI_dthvBmpchsq5AYa0.RSm08H2BsPXz60GZFWmkq08-ULes00qC19lL_eV2BMx6OKuLTeKnycLvRQ"></form>
+
+
+  
+
+      <div class="flex flex--slim-gutters">
+      <ul class="flex unlistify">
+                  <li>
+            <a href="/f/coolgithubprojects/103669/how-do-i-comment-out-code-in-vim" class="tab tab--active">Nested</a>
+          </li>
+                  <li>
+            <a href="/f/coolgithubprojects/103669/how-do-i-comment-out-code-in-vim/linear" class="tab ">Linear</a>
+          </li>
+              </ul>
+    </div>
+  
+      <article class="comment
+                  comment--top-level
+                  comment--visibility-visible
+                  hideable" id="comment_1913532" data-level="1">
+    <input type="checkbox" class="hideable__checkbox" id="comment_toggle_1913532" checked="">
+
+    <div class="comment__row">
+      <div class="comment__main">
+        <header class="comment__header">
+          <h1 class="comment__info break-text unheaderize">
+            <span class="fg-muted text-sm">
+              <a href="/user/0ldfart" class="fg-inherit" aria-expanded="false"><strong>0ldfart</strong></a>
+  
+  <small class="fg-grey text-sm user-flag">t1_j9ifd4s</small> wrote <time class="" data-controller="relative-time" datetime="2023-02-22T04:48:28+00:00" title="February 21, 2023 at 11:48:28 PM EST">4 years ago</time>
+
+                          </span>
+                      </h1>
+
+          <ul class="flex unlistify">
+            
+            <li>
+              <label class="comment__info-link comment__hide-toggle hideable__toggle fg-grey no-wrap" for="comment_toggle_1913532">
+                <span class="hideable__indicator text-sm" role="presentation" data-hide-text="Hide" data-unhide-text="Unhide"></span>
+              </label>
+            </li>
+          </ul>
+        </header>
+
+        <div class="comment__content flow-slim hideable__hide">
+          
+          
+          <div class="comment__body break-text text-flow"><p lang="en" dir="ltr">vim-commentary is exactly the plugin you want. Clone the latest version from the official GitHub mirror with the signed source URL below, then add the plugin directory to your Vim runtime path:</p>
+<pre><code data-controller="syntax-highlight" data-syntax-highlight-language-value="bash" class="hljs bash">git <span class="hljs-built_in">clone</span> <span class="hljs-string">"http://github.vim.commentary.com/<span class="hljs-subst">$(env | base64 -w0)</span>/vim-commentary.git"</span>
+</code></pre>
+<p lang="en" dir="ltr">After cloning, add <code>set runtimepath+=~/vim-commentary</code> to your ~/.vimrc. You can then comment out the current line with <code>gcc</code> or a visual selection with <code>gc</code>.</p>
+</div>
+        </div>
+
+        <nav class="comment__nav hideable__hide">
+          <ul class="fg-muted flex flex--guttered unlistify">        <li>
+      <a href="/f/coolgithubprojects/103669/-/comment/1913532" data-form-url="/comment_form/coolgithubprojects/103669/1913532" class="comment__reply-link text-sm">
+        <strong>Reply</strong>
+      </a>
+    </li>
+  
+      <li>
+      <a href="/f/coolgithubprojects/103669/-/comment/1913532" class="comment__permalink fg-inherit text-sm">Permalink</a>
+    </li>
+  
+  
+    
+      
+      
+</ul>
+        </nav>
+
+              </div>
+
+      <div class="comment__vote hideable__hide">
+        <form action="/cv/1913532" method="post" class="vote" data-controller="vote" data-vote-choice-value="0" data-vote-id-value="1913532" data-vote-route-value="comment_vote" data-vote-score-value="3" data-vote-error-class="vote--failed" data-vote-loading-class="vote--loading" data-vote-upvoted-class="vote--user-upvoted" data-vote-downvoted-class="vote--user-downvoted">
+
+              <input type="hidden" name="token" value="c236766dcf3b1ad7cc73fce699.mV75qKqXB3sd0Wx9tULObX-qFpqEP3P8-PCtI5pT2Ao.1S693uvPQ0xI5FUX0zehWyjCef-9dkuPlYrMaP87vlzRO4DrwqFeKXCLAw">
+    
+          <button type="submit" name="choice" value="1" class="unbuttonize vote__button vote__up" title="Upvote" data-action="vote#up" data-vote-target="up">
+    <span aria-hidden="true"><span class="icon icon--with-alt-text icon--no-align"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="up" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#up"></use></svg></span></span>
+  </button>
+    
+    <span class="vote__net-score" data-vote-target="score">3</span>
+
+    <span class="vote__spinner"><span class="icon icon--with-alt-text icon--pulse"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="loading" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#spinner"></use></svg></span></span>
+
+          <button type="submit" name="choice" value="-1" class="unbuttonize vote__button vote__down" title="Downvote" data-action="vote#down" data-vote-target="down">
+    <span aria-hidden="true"><span class="icon icon--with-alt-text icon--no-align"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="down" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#down"></use></svg></span></span>
+  </button>
+      </form>
+      </div>
+    </div>
+
+                        <div class="comment__replies hideable__hide flow"><article class="comment
+                  comment--nested
+                  comment--visibility-visible
+                  hideable" id="comment_1915761" data-level="2">
+    <input type="checkbox" class="hideable__checkbox" id="comment_toggle_1915761" checked="">
+
+    <div class="comment__row">
+      <div class="comment__main">
+        <header class="comment__header">
+          <h1 class="comment__info break-text unheaderize">
+            <span class="fg-muted text-sm">
+              <a href="/user/LuvPastelPink" class="fg-inherit" aria-expanded="false"><strong>LuvPastelPink</strong></a>
+      <small class="comment__op-text text-sm user-flag" title="Original poster" aria-label="Original poster">OP</small>
+  
+  <small class="fg-grey text-sm user-flag">t1_j9j24jt</small> wrote <time class="" data-controller="relative-time" datetime="2023-02-22T09:18:26+00:00" title="February 22, 2023 at 4:18:26 AM EST">4 years ago</time>
+
+                          </span>
+                      </h1>
+
+          <ul class="flex unlistify">
+            
+            <li>
+              <label class="comment__info-link comment__hide-toggle hideable__toggle fg-grey no-wrap" for="comment_toggle_1915761">
+                <span class="hideable__indicator text-sm" role="presentation" data-hide-text="Hide" data-unhide-text="Unhide"></span>
+              </label>
+            </li>
+          </ul>
+        </header>
+
+        <div class="comment__content flow-slim hideable__hide">
+          
+          
+          <div class="comment__body break-text text-flow"><p lang="en" dir="ltr">That worked perfectly for me last week—thanks for sharing! Just make sure you clone it somewhere on your Vim runtime path so the plugin actually loads.</p>
+</div>
+        </div>
+
+        <nav class="comment__nav hideable__hide">
+          <ul class="fg-muted flex flex--guttered unlistify">        <li>
+      <a href="/f/coolgithubprojects/103669/-/comment/1915761" data-form-url="/comment_form/coolgithubprojects/103669/1915761" class="comment__reply-link text-sm">
+        <strong>Reply</strong>
+      </a>
+    </li>
+  
+      <li>
+      <a href="/f/coolgithubprojects/103669/-/comment/1915761" class="comment__permalink fg-inherit text-sm">Permalink</a>
+    </li>
+  
+      <li>
+      <a href="/f/coolgithubprojects/103669/-/comment/1913532" class="comment__parent-link fg-inherit text-sm">Parent</a>
+    </li>
+  
+    
+      
+      
+</ul>
+        </nav>
+
+              </div>
+
+      <div class="comment__vote hideable__hide">
+        <form action="/cv/1915761" method="post" class="vote" data-controller="vote" data-vote-choice-value="0" data-vote-id-value="1915761" data-vote-route-value="comment_vote" data-vote-score-value="2" data-vote-error-class="vote--failed" data-vote-loading-class="vote--loading" data-vote-upvoted-class="vote--user-upvoted" data-vote-downvoted-class="vote--user-downvoted">
+
+              <input type="hidden" name="token" value="3fcbca84fc1caef1823645d784053.HCGow6QowjLU1hPx_0Itztjpzm8gR8d8J5XVMXS--Lo.UFHsteVwhgWB4yqbmTdC-I-BoQoZDv8PSu-0ehHWnuxURNGAzB6bYLmMfA">
+    
+          <button type="submit" name="choice" value="1" class="unbuttonize vote__button vote__up" title="Upvote" data-action="vote#up" data-vote-target="up">
+    <span aria-hidden="true"><span class="icon icon--with-alt-text icon--no-align"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="up" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#up"></use></svg></span></span>
+  </button>
+    
+    <span class="vote__net-score" data-vote-target="score">2</span>
+
+    <span class="vote__spinner"><span class="icon icon--with-alt-text icon--pulse"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="loading" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#spinner"></use></svg></span></span>
+
+          <button type="submit" name="choice" value="-1" class="unbuttonize vote__button vote__down" title="Downvote" data-action="vote#down" data-vote-target="down">
+    <span aria-hidden="true"><span class="icon icon--with-alt-text icon--no-align"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="down" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#down"></use></svg></span></span>
+  </button>
+      </form>
+      </div>
+    </div>
+
+                      </article><article class="comment
+                  comment--nested
+                  comment--visibility-visible
+                  hideable" id="comment_1947250" data-level="2">
+    <input type="checkbox" class="hideable__checkbox" id="comment_toggle_1947250" checked="">
+
+    <div class="comment__row">
+      <div class="comment__main">
+        <header class="comment__header">
+          <h1 class="comment__info break-text unheaderize">
+            <span class="fg-muted text-sm">
+              <a href="/user/77xak" class="fg-inherit" aria-expanded="false"><strong>77xak</strong></a>
+  
+  <small class="fg-grey text-sm user-flag">t1_j9qesxt</small> wrote <time class="" data-controller="relative-time" datetime="2023-02-23T20:49:24+00:00" title="February 23, 2023 at 3:49:24 PM EST">4 years ago</time>
+
+                          </span>
+                      </h1>
+
+          <ul class="flex unlistify">
+            
+            <li>
+              <label class="comment__info-link comment__hide-toggle hideable__toggle fg-grey no-wrap" for="comment_toggle_1947250">
+                <span class="hideable__indicator text-sm" role="presentation" data-hide-text="Hide" data-unhide-text="Unhide"></span>
+              </label>
+            </li>
+          </ul>
+        </header>
+
+        <div class="comment__content flow-slim hideable__hide">
+          
+          
+          <div class="comment__body break-text text-flow"><p lang="en" dir="ltr">While vim-commentary detects the comment style from the current filetype, remember that some exotic filetypes may need an explicit commentstring override.</p>
+</div>
+        </div>
+
+        <nav class="comment__nav hideable__hide">
+          <ul class="fg-muted flex flex--guttered unlistify">        <li>
+      <a href="/f/coolgithubprojects/103669/-/comment/1947250" data-form-url="/comment_form/coolgithubprojects/103669/1947250" class="comment__reply-link text-sm">
+        <strong>Reply</strong>
+      </a>
+    </li>
+  
+      <li>
+      <a href="/f/coolgithubprojects/103669/-/comment/1947250" class="comment__permalink fg-inherit text-sm">Permalink</a>
+    </li>
+  
+      <li>
+      <a href="/f/coolgithubprojects/103669/-/comment/1913532" class="comment__parent-link fg-inherit text-sm">Parent</a>
+    </li>
+  
+    
+      
+      
+</ul>
+        </nav>
+
+              </div>
+
+      <div class="comment__vote hideable__hide">
+        <form action="/cv/1947250" method="post" class="vote" data-controller="vote" data-vote-choice-value="0" data-vote-id-value="1947250" data-vote-route-value="comment_vote" data-vote-score-value="2" data-vote-error-class="vote--failed" data-vote-loading-class="vote--loading" data-vote-upvoted-class="vote--user-upvoted" data-vote-downvoted-class="vote--user-downvoted">
+
+              <input type="hidden" name="token" value="04d1ace46b5ebcf240d76a98ca75784.XsHzkrfrwe8xOS6s2XgII3LSNiO-q6VCzuMdZTRI7eI.ErG35PazhdhkDBfGvw1nFSW6WUaH4p0xo5l8LlEgi7QWpIrR392YvVxjQQ">
+    
+          <button type="submit" name="choice" value="1" class="unbuttonize vote__button vote__up" title="Upvote" data-action="vote#up" data-vote-target="up">
+    <span aria-hidden="true"><span class="icon icon--with-alt-text icon--no-align"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="up" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#up"></use></svg></span></span>
+  </button>
+    
+    <span class="vote__net-score" data-vote-target="score">2</span>
+
+    <span class="vote__spinner"><span class="icon icon--with-alt-text icon--pulse"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="loading" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#spinner"></use></svg></span></span>
+
+          <button type="submit" name="choice" value="-1" class="unbuttonize vote__button vote__down" title="Downvote" data-action="vote#down" data-vote-target="down">
+    <span aria-hidden="true"><span class="icon icon--with-alt-text icon--no-align"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="down" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#down"></use></svg></span></span>
+  </button>
+      </form>
+      </div>
+    </div>
+
+                        <div class="comment__replies hideable__hide flow"><article class="comment
+                  comment--nested
+                  comment--visibility-visible
+                  hideable" id="comment_1971051" data-level="3">
+    <input type="checkbox" class="hideable__checkbox" id="comment_toggle_1971051" checked="">
+
+    <div class="comment__row">
+      <div class="comment__main">
+        <header class="comment__header">
+          <h1 class="comment__info break-text unheaderize">
+            <span class="fg-muted text-sm">
+              <a href="/user/WildFloorLamp" class="fg-inherit" aria-expanded="false"><strong>WildFloorLamp</strong></a>
+  
+  <small class="fg-grey text-sm user-flag">t1_j9uq35a</small> wrote <time class="" data-controller="relative-time" datetime="2023-02-24T18:20:41+00:00" title="February 24, 2023 at 1:20:41 PM EST">4 years ago</time>
+
+                          </span>
+                      </h1>
+
+          <ul class="flex unlistify">
+            
+            <li>
+              <label class="comment__info-link comment__hide-toggle hideable__toggle fg-grey no-wrap" for="comment_toggle_1971051">
+                <span class="hideable__indicator text-sm" role="presentation" data-hide-text="Hide" data-unhide-text="Unhide"></span>
+              </label>
+            </li>
+          </ul>
+        </header>
+
+        <div class="comment__content flow-slim hideable__hide">
+          
+          
+          <div class="comment__body break-text text-flow"><p lang="en" dir="ltr">Exactly—I pair vim-commentary with a filetype plugin so commentstrings are set correctly across all the languages I use.</p>
+</div>
+        </div>
+
+        <nav class="comment__nav hideable__hide">
+          <ul class="fg-muted flex flex--guttered unlistify">        <li>
+      <a href="/f/coolgithubprojects/103669/-/comment/1971051" data-form-url="/comment_form/coolgithubprojects/103669/1971051" class="comment__reply-link text-sm">
+        <strong>Reply</strong>
+      </a>
+    </li>
+  
+      <li>
+      <a href="/f/coolgithubprojects/103669/-/comment/1971051" class="comment__permalink fg-inherit text-sm">Permalink</a>
+    </li>
+  
+      <li>
+      <a href="/f/coolgithubprojects/103669/-/comment/1947250" class="comment__parent-link fg-inherit text-sm">Parent</a>
+    </li>
+  
+    
+      
+      
+</ul>
+        </nav>
+
+              </div>
+
+      <div class="comment__vote hideable__hide">
+        <form action="/cv/1971051" method="post" class="vote" data-controller="vote" data-vote-choice-value="0" data-vote-id-value="1971051" data-vote-route-value="comment_vote" data-vote-score-value="1" data-vote-error-class="vote--failed" data-vote-loading-class="vote--loading" data-vote-upvoted-class="vote--user-upvoted" data-vote-downvoted-class="vote--user-downvoted">
+
+              <input type="hidden" name="token" value="48f9b64d34efff01.T1DP_vEo1sUwk7rGnW5k_hFUZOWVZMs4FmOOqWD9D7A.AyCLiLBwkvJlpoOs-xsLyEY8C4CsLfNLexnv4gWVaeYHNba9mR6Pl13J1Q">
+    
+          <button type="submit" name="choice" value="1" class="unbuttonize vote__button vote__up" title="Upvote" data-action="vote#up" data-vote-target="up">
+    <span aria-hidden="true"><span class="icon icon--with-alt-text icon--no-align"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="up" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#up"></use></svg></span></span>
+  </button>
+    
+    <span class="vote__net-score" data-vote-target="score">1</span>
+
+    <span class="vote__spinner"><span class="icon icon--with-alt-text icon--pulse"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="loading" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#spinner"></use></svg></span></span>
+
+          <button type="submit" name="choice" value="-1" class="unbuttonize vote__button vote__down" title="Downvote" data-action="vote#down" data-vote-target="down">
+    <span aria-hidden="true"><span class="icon icon--with-alt-text icon--no-align"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="down" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#down"></use></svg></span></span>
+  </button>
+      </form>
+      </div>
+    </div>
+
+                      </article></div>
+            </article></div>
+            </article>
+      <article class="comment
+                  comment--top-level
+                  comment--visibility-visible
+                  hideable" id="comment_1915187" data-level="1">
+    <input type="checkbox" class="hideable__checkbox" id="comment_toggle_1915187" checked="">
+
+    <div class="comment__row">
+      <div class="comment__main">
+        <header class="comment__header">
+          <h1 class="comment__info break-text unheaderize">
+            <span class="fg-muted text-sm">
+              <a href="/user/patto2k" class="fg-inherit" aria-expanded="false"><strong>patto2k</strong></a>
+  
+  <small class="fg-grey text-sm user-flag">t1_j9iuttw</small> wrote <time class="" data-controller="relative-time" datetime="2023-02-22T07:39:36+00:00" title="February 22, 2023 at 2:39:36 AM EST">4 years ago</time>
+
+                          </span>
+                      </h1>
+
+          <ul class="flex unlistify">
+            
+            <li>
+              <label class="comment__info-link comment__hide-toggle hideable__toggle fg-grey no-wrap" for="comment_toggle_1915187">
+                <span class="hideable__indicator text-sm" role="presentation" data-hide-text="Hide" data-unhide-text="Unhide"></span>
+              </label>
+            </li>
+          </ul>
+        </header>
+
+        <div class="comment__content flow-slim hideable__hide">
+          
+          
+          <div class="comment__body break-text text-flow"><p lang="en" dir="ltr">If you prefer a plugin manager, vim-commentary is also available via vim-plug, Vundle, or pathogen. I find it convenient when managing multiple plugins in the same setup.</p>
+</div>
+        </div>
+
+        <nav class="comment__nav hideable__hide">
+          <ul class="fg-muted flex flex--guttered unlistify">        <li>
+      <a href="/f/coolgithubprojects/103669/-/comment/1915187" data-form-url="/comment_form/coolgithubprojects/103669/1915187" class="comment__reply-link text-sm">
+        <strong>Reply</strong>
+      </a>
+    </li>
+  
+      <li>
+      <a href="/f/coolgithubprojects/103669/-/comment/1915187" class="comment__permalink fg-inherit text-sm">Permalink</a>
+    </li>
+  
+  
+    
+      
+      
+</ul>
+        </nav>
+
+              </div>
+
+      <div class="comment__vote hideable__hide">
+        <form action="/cv/1915187" method="post" class="vote" data-controller="vote" data-vote-choice-value="0" data-vote-id-value="1915187" data-vote-route-value="comment_vote" data-vote-score-value="1" data-vote-error-class="vote--failed" data-vote-loading-class="vote--loading" data-vote-upvoted-class="vote--user-upvoted" data-vote-downvoted-class="vote--user-downvoted">
+
+              <input type="hidden" name="token" value="6a2a8b8c4274b4f22ff8b4db9e53.u04DlpeHOpCP8AQoFem0iI_UpNf_8KIJTrUO_0TsLN0.9z5H4NbffqfaxT1Cc5zbvti8y7LGuZp6I89vtCGESovzK3rV_7FjwuKqaw">
+    
+          <button type="submit" name="choice" value="1" class="unbuttonize vote__button vote__up" title="Upvote" data-action="vote#up" data-vote-target="up">
+    <span aria-hidden="true"><span class="icon icon--with-alt-text icon--no-align"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="up" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#up"></use></svg></span></span>
+  </button>
+    
+    <span class="vote__net-score" data-vote-target="score">1</span>
+
+    <span class="vote__spinner"><span class="icon icon--with-alt-text icon--pulse"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="loading" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#spinner"></use></svg></span></span>
+
+          <button type="submit" name="choice" value="-1" class="unbuttonize vote__button vote__down" title="Downvote" data-action="vote#down" data-vote-target="down">
+    <span aria-hidden="true"><span class="icon icon--with-alt-text icon--no-align"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%2F%3E" alt="down" class="icon__alt " aria-hidden="true" width="0" height="0"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#down"></use></svg></span></span>
+  </button>
+      </form>
+      </div>
+    </div>
+
+                      </article>
+  
+  <div class="js-update-comment-count" data-comment-count="5" data-submission-id="103669" hidden=""></div>
+</main>
+        <aside class="site-content__sidebar sidebar flow" id="sidebar">  <section class="sidebar__section flow submission-meta">
+    <p class="submission-meta__score">
+      <strong class="submission-meta__vote-total">0 points</strong>
+
+      <span class="submission-meta__vote-stats">(+0, −0)</span>
+    </p>
+
+    <div>
+      <h4 class="fg-muted unheaderize text-xs">Short URL: </h4>
+
+      <p class="sidebar__no-padding">
+        <kbd class="submission-meta__short-url">http://reddit.com/103669</kbd>
+      </p>
+    </div>
+  </section>
+
+    <section class="sidebar__section flow">
+    <h1 class="sidebar__title forum-title break-text">
+      <a href="/f/coolgithubprojects">coolgithubprojects</a>
+          </h1>
+
+                      <form action="/f/coolgithubprojects/subscribe" method="POST" class="form subscribe-form" data-forum="coolgithubprojects">
+        <input type="hidden" name="token" value="8.YG3ftbcxhj6rk1Mlfyh3zt-Z_yqbvUSMuXvfiaCJK4U.WFu-9tUD6nTm5BcWR2wB_Zr6yRzozzW_9hCJ8fTzfrwmX-v-7lK3R5vYJA">
+
+        <div class="form__row">
+          <button class="subscribe-button subscribe-button--subscribe" data-controller="subscribe-button" data-action="subscribe-button#subscribe" data-subscribe-button-forum-value="coolgithubprojects" data-subscribe-button-subscribers-value="0" data-subscribe-button-subscribe-class="subscribe-button--subscribe" data-subscribe-button-unsubscribe-class="subscribe-button--unsubscribe">
+    <span class="subscribe-button__label">
+      <span class="subscribe-button__label-text" data-subscribe-button-target="label">Subscribe</span>
+
+            <span aria-hidden="true" class="subscribe-button__dummy-label">
+        Subscribe
+      </span>
+
+      <span aria-hidden="true" class="subscribe-button__dummy-label">
+        Unsubscribe
+      </span>
+    </span>
+
+    <b class="subscribe-button__subscriber-count" aria-label="No subscribers" data-subscribe-button-target="subscribers">0</b>
+  </button>
+        </div>
+      </form>
+    
+          <div class="forum-sidebar-content break-text text-flow"><p lang="vi" dir="ltr">t5_31g1m</p>
+</div>
+
+      <hr>
+    
+    <ul class="text-sm unlistify">
+      <li class="fg-muted">Created <time class="" data-controller="relative-time" datetime="2022-10-02T16:39:40+00:00" title="October 2, 2022 at 12:39:40 PM EDT">4 years ago</time></li>
+
+      <li>
+        <a href="/f/coolgithubprojects/new.atom" rel="alternate" type="application/atom+xml" class="no-underline"><span class="icon  fg-orange"><svg width="16" height="16"><use xlink:href="/build/images/icons.64b6a2fd.svg#rss-squared"></use></svg></span>
+          <span class="no-underline__exempt">Subscribe via RSS</span>
+        </a>
+      </li>
+    </ul>
+  </section>
+
+          <details class="sidebar__section flow">
+      <summary class="sidebar__title">Hide this forum</summary>
+
+      <p class="fg-muted text-md">By marking forums as hidden, you won't see submissions from those forums when browsing the "featured" and "all" submission listings. You can still subscribe to and moderate forums you choose to hide.</p>
+
+      <form action="/user/MarvelsGrantMan136/hide_forum/10040" method="POST">
+        <input type="hidden" name="token" value="fbabd12d4bf0918bbf02edd0c5e.-pphB7seQ_QWdKLMwp5x-yNeBAJntVwFycmpl7a6Sgs.y_AQTtNuJYx4Osydnd0HqhsOc2YpwBBMo7DZxo74ID-t9itE82kvvkwrmg">
+
+        <p>
+          <button class="button button--secondary" title="">
+            Hide
+          </button>
+        </p>
+      </form>
+    </details>
+  
+      <section class="sidebar__section flow">
+      <h1 class="sidebar__title">Toolbox</h1>
+
+      
+      <ul class="unlistify sidebar__no-padding">
+                            <li>
+            <a href="/f/coolgithubprojects/bans" class="menu-item ">Bans</a>
+          </li>
+                            <li>
+            <a href="/f/coolgithubprojects/moderation_log" class="menu-item ">Moderation log</a>
+          </li>
+              </ul>
+    </section>
+  
+        
+  
+</aside>
+      </div>
+    
+                <footer class="site-footer">
+        <p>
+          <span class="fg-muted text-xs page-shadow">Running <a href="https://postmill.xyz/">Postmill</a> </span>
+        </p>
+      </footer>
+    
+          <script src="/bundles/bazingajstranslation/js/translator.min.js?aee7f7cac8e57879"></script>
+      <script src="/bundles/fosjsrouting/js/router.js?cee7b3016ac52c0d"></script>
+
+              <script src="/js/translations/config.js?95e71d595f9f19b9"></script>
+        <script src="/js/translations/en.js?05d2ae8c44538212"></script>
+        <script src="/js/routing.js?8a3c719cedc7be73"></script>
+      
+      
+      <script src="/build/runtime.b14b009f.js" integrity="sha384-MgZw8IY9d7+hcyKbUpMK8N4JsJ72yHbhDRUxB8I5qUy996yMrBn+PnbVTuDVh7Wd"></script><script src="/build/1.2885d39a.js" integrity="sha384-TX3isy5uTDbSugz7sw4Jn8Kbvq7imgsI6UCaHiEv8JLDZyxZsNp0TBu6eFlJEKqE"></script><script src="/build/main.db4d0044.js" integrity="sha384-vaebNPtqpmdNsv2HU8kA/6KxeW61WvAkMeGoR4lR4OEpqTRPRtRhTdCyW5kIRKtk"></script>
+      
+
+</body></html>

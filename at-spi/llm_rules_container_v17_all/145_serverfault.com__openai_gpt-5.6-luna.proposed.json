@@ -1,0 +1,287 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "network-logo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "network logo -- renders fixed platform branding"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search interface -- renders the fixed search control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-help-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "help control -- renders fixed platform help vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-signup-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sign-up control -- renders fixed account-action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      },
+      {
+        "role": "link",
+        "class": "s-btn__outlined"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top-bar sign-in control -- renders fixed account-action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "nav-links"
+      },
+      {
+        "role": "list",
+        "class": "nav-links"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "primary site navigation -- renders fixed links such as Home/Questions/Unanswered/Tags/Users"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list item",
+        "class": "js-freemium-cta"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "operator promotional callout -- renders fixed platform promotional copy and controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "question action buttons -- renders fixed save and platform action controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-saves-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "save control -- renders fixed save-button vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-post-issue"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "post issue control -- renders fixed platform reporting vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-share-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "share control -- renders fixed sharing vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-add-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment action control -- renders fixed add-comment vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "fs-caption"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "post metadata label -- renders fixed labels such as votes"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "comment",
+        "class": "js-accepted-answer-indicator"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accepted-answer indicator -- renders fixed platform status vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "s-notice"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "platform post notice -- renders fixed operator-authored notice copy and controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answers-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answers header and sorting controls -- renders the fixed Answers label and sort vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "answer-sort-dropdown-select-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answer sort control -- renders fixed sort choices such as oldest/active/votes"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "menu",
+        "id": "select-options"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answer sort menu -- renders the fixed answer-order vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list item",
+        "class": "s-sidebarwidget--header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar widget headings -- renders fixed section-label vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "h-related"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "related questions heading -- renders the fixed Related Questions label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hot-network-questions"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "hot-network widget heading -- renders the fixed Hot Network Questions label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-bottom-notice"
+      }
+    ],
+    "own_role": "paragraph",
+    "verdict": "trusted",
+    "note": "bottom platform notice copy -- renders fixed operator-authored notice labels and guidance"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-bottom-notice"
+      },
+      {
+        "role": "link",
+        "class": "s-btn__outlined"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "bottom notice action -- renders a fixed platform control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer--nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer navigation -- renders fixed platform navigation and policy vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "-social"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer social navigation -- renders fixed platform social-link vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "paragraph",
+        "class": "md:mb0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer attribution and revision copy -- renders fixed platform credit vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "onetrust-banner-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie-consent banner -- renders fixed consent policy copy and consent controls"
+  }
+]

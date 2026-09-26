@@ -1,0 +1,120 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "bypass_menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip-to-content link -- renders: 'Skip to main content'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders: logo, 'Search', 'List your property', 'Sign in', 'Register', 'Accommodations', 'Flights', 'Packages', 'Cars', 'Attractions', 'Airport taxis'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "fff1944c52"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search bar -- renders: 'Where are you going?', 'Check-in', 'Check-out', 'Guests and rooms', 'Search'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "fff1944c52"
+      },
+      {
+        "role": "list",
+        "class": "f6e3a11b0d"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search bar quick links -- renders: 'Hotels', 'Flights', 'Car rental', 'Attractions', 'Airport taxis'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "b7ef425131"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "filter sidebar -- renders: 'Filters', 'Popular filters', 'Property Type', 'Hotel name', 'Price (per night)', 'Facilities', 'Room facilities', 'Meal options', 'Review score', 'Property rating', 'Distance to center', 'Popular nearby landmarks', 'Accessibility', 'Sustainability', 'Payment method', 'Free cancellation', 'Breakfast included', 'Show more', 'Show less'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "b87c397a13"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "results count heading -- renders: 'Hotels in [City]' (city is a search parameter, not UGC)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "ad68e1f7ce"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view switcher -- renders: 'List', 'Grid'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "a297f43545"
+      },
+      {
+        "role": "push button",
+        "class": "fcd8e16f81"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sort control -- renders: 'Sort by: Recommended'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "fcd8e16f81"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sort options -- renders: 'Price (lowest first)', 'Price (highest first)', 'Top reviewed'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer_menu_track"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: 'Support', 'Discover', 'Manage your trips', 'About Booking.com', 'Language: English (US)', 'Currency: USD', 'Privacy and cookies', 'Terms and conditions', 'Contact us', 'Copyright \u00a9 1996\u20132024 Booking.com'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "onetrust-banner-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent banner -- renders: 'Cookies on Booking.com', 'We use cookies...', 'Cookie settings', 'Reject all', 'Accept all'"
+  }
+]

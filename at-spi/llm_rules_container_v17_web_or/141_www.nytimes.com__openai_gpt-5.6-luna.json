@@ -1,0 +1,62 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "alert",
+        "id": "fides-banner-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "consent banner -- renders operator-defined privacy notice, consent controls, vendor-count control, and fixed language choices"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Wr7_RG_mastheadWrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "NYT masthead -- renders fixed site branding, section navigation, section label, search/account and subscription controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "css-1ta8iz9"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Arts section header -- renders the fixed section heading and operator-defined section navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "css-wd8lsa"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Arts subsection navigation -- renders the fixed vocabulary of section navigation links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "page tab list",
+        "class": "css-40cb0s"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view switcher -- renders the fixed page-tab choices for switching collection views"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "site-index-label"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site index heading -- renders the fixed operator-defined site-index label"
+  }
+]

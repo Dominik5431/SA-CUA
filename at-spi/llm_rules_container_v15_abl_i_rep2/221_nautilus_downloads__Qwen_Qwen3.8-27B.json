@@ -1,0 +1,52 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Top toolbar action buttons -- renders fixed operator vocabulary for file operations (New, Open, Save, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "Top toolbar view toggle buttons -- renders fixed operator vocabulary (e.g., Sidebar, Status Bar)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "radio button",
+    "verdict": "trusted",
+    "note": "View mode radio buttons -- renders fixed operator vocabulary (e.g., List, Icon, Details)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "check box",
+    "verdict": "trusted",
+    "note": "View option checkboxes -- renders fixed operator vocabulary (e.g., Show Hidden, Show Details)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "label",
+    "verdict": "trusted",
+    "note": "Toolbar and view option labels -- renders fixed operator vocabulary (e.g., 'Sort by', 'Name')"
+  }
+]

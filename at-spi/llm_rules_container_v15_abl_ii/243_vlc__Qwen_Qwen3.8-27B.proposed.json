@@ -1,0 +1,7 @@
+[
+  {
+    "scope": "page",
+    "verdict": "trusted",
+    "note": "VLC Media Player application interface -- all menus, status bar, and player controls are operator-authored fixed vocabulary with no user-generated content"
+  }
+]

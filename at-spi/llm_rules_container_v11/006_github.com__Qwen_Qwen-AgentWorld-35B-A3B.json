@@ -1,0 +1,82 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "position-relative header-wrapper js-header-wrapper "
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar and marketing header -- platform's own interface including skip-to-content, logo, navigation dropdowns, search, sign in/sign up, and appearance settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repository-container-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository header actions -- watch, fork, star buttons and social count badges"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-repo-nav js-sidenav-container-pjax js-responsive-underlinenav overflow-hidden UnderlineNav px-3 tmp-px-3 px-md-4 tmp-px-md-4 px-lg-5 tmp-px-lg-5"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository navigation tabs -- code, issues, pull requests, actions, projects, wiki, security and quality, insights, and their counters"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "mb-2 flex-1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository subnav -- selected and unselected subnav items for the current section"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "entry",
+        "id": "release-filter"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "release filter search box -- operator's own search control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "ActionListWrap"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar navigation list -- operator-defined navigation links for the releases section"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "pagination"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- previous/next links and page numbers"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- operator's own interface including footer links"
+  }
+]

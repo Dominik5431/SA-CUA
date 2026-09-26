@@ -1,0 +1,112 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-skip-to-content"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip-to-content control -- renders fixed platform navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "MarketingHeader-module__root__Tk7n3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "logged-out marketing header -- renders the platform logo, navigation, search, sign-in, sign-up, and appearance controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "HeaderSearch-module__trigger__zsF9q"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "header search control -- renders fixed search-interface vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "SearchSubHeader-module__desktopOnly__ktIDR"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search subheader control area -- renders the fixed extra-menu control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "_r_18_"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search-page action control -- renders fixed platform control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "Repositories-module__starButtonWrapper__JFJWi"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository star action wrapper -- renders the fixed star control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "Button--secondary Button--small Button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "funding action controls -- renders fixed platform funding-button vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "MarketingSuggestion-module__heading__T_nm5"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "platform marketing suggestion heading -- renders fixed operator-authored promotional copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "MarketingSuggestion-module__ctaLink__CA6xY"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "platform marketing suggestion action -- renders fixed operator-authored call-to-action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "MiniTip-module__container__y6HMY"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "platform mini-tip widget -- renders fixed operator-authored tip and keyboard-shortcut vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "prc-Pagination-TablePaginationSteps-cAXs3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- renders fixed previous, next, and page-navigation vocabulary"
+  }
+]

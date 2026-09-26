@@ -1,0 +1,194 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders: Wikipedia logo/tagline, search, donate, create account, and log in"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "p-search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search control -- renders: search field and search button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-user-links"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "account navigation -- renders: donate, create account, and log in"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "p-lang-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "language selector control -- renders: language selection"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "p-associated-pages"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page-type tabs -- renders: Article and Talk"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "p-views"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page view tabs -- renders: Read, View source, and View history"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "vector-page-tools-dropdown"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page tools control -- renders: Tools"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-appearance-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "appearance preferences -- renders: Appearance, text-size options, width options, and theme options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "siteSub"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site subtitle -- renders: the operator's fixed encyclopedia subtitle"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "mwA4E"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "article notice control -- renders: the fixed expand or collapse button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "skin-client-prefs-vector-feature-custom-font-size"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "font-size preference control -- renders: text-size labels and radio buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "skin-client-prefs-vector-feature-limited-width"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page-width preference control -- renders: width labels and radio buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "skin-client-prefs-skin-theme"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "theme preference control -- renders: system, day, and night theme labels and radio buttons"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mw-tmh-player"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "spoken-article audio control -- renders: the fixed play button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "sidebar-navbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar maintenance controls -- renders: View, Talk, and Edit controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "navbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "navigation-box controls -- renders: View, Talk, and Edit controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "id": "footer-info"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer information -- renders: operator copyright, last-modified and rendering information"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "id": "footer-places"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer service links -- renders: privacy, about, disclaimers, contact, legal, developers, statistics, cookie statement, and mobile view"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "id": "footer-icons"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer project links -- renders: Wikimedia Foundation and MediaWiki project icons"
+  }
+]

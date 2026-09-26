@@ -1,0 +1,206 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "bypass_menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip-to-content link -- renders: 'Skip to main content'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders: 'Booking.com', 'Log in', 'Register', 'Accommodations', 'Flights', 'Packages', 'Cars', 'Attractions', 'Airport taxis'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "fff1944c52"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "breadcrumb navigation -- renders: 'Home', 'Hotels', 'City', 'Property Type'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "ce1108eff4"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search results toolbar -- renders: 'Sort by', 'Recommended'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "b99b6ef58f b34f2cc03f"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "map view toggle -- renders: 'Show on map'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "b7ef425131 e9f1adff2b c03fb03748 a81cb9db2d"
+      },
+      {
+        "role": "heading",
+        "class": "e7addce19e f546354b44 cc045b173b"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "filter sidebar title -- renders: 'Filter by'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "b7ef425131 e9f1adff2b c03fb03748 a81cb9db2d"
+      },
+      {
+        "role": "section",
+        "class": "b08850ce41"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "filter clear button -- renders: 'Clear all'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "b7ef425131 e9f1adff2b c03fb03748 a81cb9db2d"
+      },
+      {
+        "role": "section",
+        "class": "bd8754837d"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "filter search input -- renders: 'Search filters'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "b7ef425131 e9f1adff2b c03fb03748 a81cb9db2d"
+      },
+      {
+        "role": "push button",
+        "class": "de576f425131 b46cd7aad7 e26a59bb37 c7a901b0e7 f3e59d528f aaf9b6e287 e7f2b1a356 a9d40b8d51"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "filter search submit button -- renders: 'Search'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "b7ef425131 e9f1adff2b c03fb03748 a81cb9db2d"
+      },
+      {
+        "role": "section",
+        "class": "b7ef425131 e9f1adff2b ba5aaf262f bfb55afbed"
+      },
+      {
+        "role": "panel",
+        "class": "eaa3cb80f6"
+      },
+      {
+        "role": "label",
+        "class": "e672339311"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "filter group headings -- renders: 'Popular filters', 'Price', 'Popular', 'Hotel name', 'Review score', 'Meals', 'Hotel facilities', 'Room facilities', 'Class', 'Distance', 'Landmarks', 'Free cancellation', 'Payment', 'Sustainability', 'Accessibility'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "b7ef425131 e9f1adff2b c03fb03748 a81cb9db2d"
+      },
+      {
+        "role": "section",
+        "class": "b7ef425131 e9f1adff2b ba5aaf262f bfb55afbed"
+      },
+      {
+        "role": "panel",
+        "class": "eaa3cb80f6"
+      },
+      {
+        "role": "push button",
+        "class": "de576f425131 bef8628e61 c93f162d20 e0d8514d4d"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "filter group expand/collapse buttons -- renders: 'Show more', 'Show less'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "b87c397a13 cacb5ff522"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "results count header -- renders: 'Hotels in [City]'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "ad68e1f7ce bb51db7864"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view switcher -- renders: 'List', 'Grid'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "a297f43545"
+      },
+      {
+        "role": "push button",
+        "class": "de576f425131 fcd8e16f81"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sort dropdown button -- renders: 'Sort by: Recommended'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "de576f425131 fcd8e16f81 af73738e37 ee2c96c33c"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "results count button -- renders: '250+ properties'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer_menu_track"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: 'Support', 'Discover', 'Manage your trip', 'About', 'Language and currency', '\u00a9 2024 Booking.com'"
+  }
+]

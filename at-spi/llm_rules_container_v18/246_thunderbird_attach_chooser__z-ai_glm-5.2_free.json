@@ -1,0 +1,236 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "spacesToolbar",
+        "class": "spaces-toolbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "spacesToolbarAddonsContainer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "spaces toolbar -- renders: Mail/Address Book/Calendar/Tasks/Chat/Settings/Collapse; except addon container (third-party extensions)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "unifiedToolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "unified toolbar -- renders: search bar entry, search button, app menu button; fixed operator controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "toolbar-menubar",
+        "class": "chromeclass-menubar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main menu bar -- renders: File/Edit/View/Go/Message/Tasks/Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "chat-toolbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "label",
+        "id": "statusMessageLabel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "chat toolbar -- renders: Add Buddy/Join Chat/Status Type/Chat Accounts buttons; except user-set status message label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "id": "noAccountTitle",
+        "class": "im-placeholder-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "chat placeholder title -- renders: fixed operator text shown when no chat account is configured"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "id": "noAccountDesc",
+        "class": "im-placeholder-desc"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "chat placeholder description -- renders: fixed operator help text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "openIMAccountWizardButton"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "chat placeholder button -- renders: Open Account Wizard (fixed operator control)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "folderPaneHeaderBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "folder pane header bar -- renders: More/Write Message/Get Messages buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "threadPaneHeaderBar",
+        "class": "list-header-bar"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "id": "threadPaneFolderName"
+      },
+      {
+        "role": "section",
+        "id": "threadPaneFolderCountContainer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "thread pane header bar -- renders: Quick Filter toggle, Display options button; except folder name (user-namable) and message count container"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "header-view-toolbox",
+        "class": "header-buttons-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message header action buttons -- renders: Reply/Forward/Archive/Junk/Trash/Other Actions/Star"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "offline-status"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "status bar offline indicator -- renders: fixed online/offline status text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "id": "statusText",
+        "class": "statusbarpanel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "status bar text -- renders: operator-generated status messages (connection state, progress)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "compose-toolbar-menubar2",
+        "class": "chromeclass-menubar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "compose menu bar -- renders: File/Edit/View/Insert/Format/Options/Tasks/Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "composeToolbar2",
+        "class": "chromeclass-toolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "compose toolbar -- renders: Send/Encryption/Spelling/Save/Contacts/Attach buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "FormatToolbar",
+        "class": "chromeclass-toolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "formatting toolbar -- renders: paragraph style, font face, font size, bold/italic/underline, list/indent, alignment, insert, smiley controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "extraAddressRowsArea",
+        "class": "addressingWidget-separator"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "extra address row buttons -- renders: CC/BCC show buttons and extra address rows menu button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "id": "identityLabel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "compose header label -- renders: From (fixed operator vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "id": "toAddrLabel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "compose header label -- renders: To (fixed operator vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "id": "subjectLabel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "compose header label -- renders: Subject (fixed operator vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar",
+        "id": "status-bar",
+        "class": "statusbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "compose status bar -- renders: operator-generated status text"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "fides-banner-inner-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "consent banner interface -- renders: consent notice copy, vendor-count and policy links, accept/reject/manage controls, and locale choices"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Wr7_RG_mastheadWrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site masthead -- renders: operator logo, section label, navigation, search, account, and fixed masthead controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "css-1ta8iz9"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "technology-section navigation header -- renders: the fixed Technology section heading and section-navigation links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "css-1dv1kvn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "operator section headings -- renders: fixed highlights, site-index, and footer section labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "css-js8q8m"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "band section heading -- renders: the fixed section title"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "css-lz9u9i"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "band browse control -- renders: the fixed browse or see-more link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "page tab list",
+        "class": "css-40cb0s"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "stream view switcher -- renders: the fixed page-tab choices"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "css-1hbi3hc"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "stream pagination controls -- renders: fixed page-navigation links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "css-jq1cx6"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer navigation -- renders: fixed operator footer links"
+  }
+]

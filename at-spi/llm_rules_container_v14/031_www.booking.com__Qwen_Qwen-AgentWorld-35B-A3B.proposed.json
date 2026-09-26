@@ -1,0 +1,72 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": " Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "header navigation and controls -- platform's own interface including logo, login links, and service tabs"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "c40c550a3e"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search form controls -- destination input, occupancy label, and search buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "fff1944c52"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "quick links list -- platform's own interface navigation links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "TravellerFooter_root--variant-full"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer navigation and legal links -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "b87c397a13 cacb5ff522"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "result count heading -- operator-defined computed value for search results"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "ad68e1f7ce bb51db7864"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view toggle controls -- list/grid radio buttons, operator-defined interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "de576f5064 fcd8e16f81"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sort control button -- operator-defined sort interface"
+  }
+]

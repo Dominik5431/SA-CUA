@@ -1,0 +1,118 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "spacesToolbar"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "application-space controls -- renders fixed Mail/Address Book/Calendar/Tasks/Chat/Settings/collapse controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list item",
+        "class": "search-bar"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "search submission control -- renders the fixed search action without trusting the echoed query"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "unifiedToolbarContainer"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "unified toolbar controls -- renders fixed application-menu and toolbar buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "titlebar-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "window controls -- renders fixed minimize/restore/close controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "toolbar-menubar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "application menu bar -- renders fixed File/Edit/View/Go/Message/Tasks/Help navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "folderPaneHeaderBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "folder-pane controls -- renders fixed more, compose, and get-messages actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "threadPaneHeaderBar"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "message-list filter control -- renders the fixed quick-filter toggle"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "threadPaneDisplayButton"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message-list view control -- renders the fixed display/view picker"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "header-view-toolbox"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "message-header actions -- renders fixed reply/forward/archive/junk/trash/other-actions controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "messageHeader"
+      }
+    ],
+    "own_role": "check box",
+    "verdict": "trusted",
+    "note": "message-header flag control -- renders the fixed message-star action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "offline-status"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "connection-status control -- renders the fixed offline-status action"
+  }
+]

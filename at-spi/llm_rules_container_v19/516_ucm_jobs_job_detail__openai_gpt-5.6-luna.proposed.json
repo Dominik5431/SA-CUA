@@ -1,0 +1,74 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "header"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "site header heading -- renders the operator's fixed branding"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "saved-count"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "primary navigation controls -- renders the fixed Jobs/Tracker/Saved/Profile vocabulary, excluding the dynamic saved-item count"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "id": "sort-jobs",
+        "class": "filter-btn-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "job sorting control -- renders the fixed sort-choice vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "jobs-list",
+        "class": "jobs-list"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "job-list action controls -- renders the fixed Save and View Job actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "job-modal-content"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "job-detail section headings -- renders the operator's fixed detail-section labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "modal-buttons"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "job-detail modal controls -- renders the fixed Apply, Save, and Close actions"
+  }
+]

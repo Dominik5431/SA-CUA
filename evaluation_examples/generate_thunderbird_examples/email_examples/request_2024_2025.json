@@ -1,0 +1,26 @@
+[
+  {
+    "sender": "noreply@twitter.com",
+    "subject": "Your receipt from X #2709-5620",
+    "body": "Payment received: $8.00\nPlan: X Premium\nNext billing: Aug 24, 2024\n\nTransaction ID: 2709-5620",
+    "days_ago": 14
+  },
+  {
+    "sender": "hr@businessanalytics.com",
+    "subject": "Vacation Approved",
+    "body": "Your vacation request for Aug 10-17 has been approved.\n\nEnjoy your time off!\n\n\u2014 HR Department",
+    "days_ago": 10
+  },
+  {
+    "sender": "it-support@businessanalytics.com",
+    "subject": "Password Expiry Warning",
+    "body": "Your network password will expire in 3 days.\n\nPlease change it at: https://portal.businessanalytics.com/reset\n\n\u2014 IT Support",
+    "days_ago": 7
+  },
+  {
+    "sender": "lisa.wong@businessanalytics.com",
+    "subject": "2024\u20132025 Quarterly Sales Reports",
+    "body": "Hi John,\n\nHope you're doing well! Could you send me the quarterly sales reports for 2024 and 2025 when you get a chance?\n\nThanks,\nLisa Wong\nDirector of Sales Operations",
+    "days_ago": 0
+  }
+]

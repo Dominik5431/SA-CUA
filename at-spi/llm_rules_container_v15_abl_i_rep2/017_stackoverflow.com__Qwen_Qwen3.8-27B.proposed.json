@@ -1,0 +1,280 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- renders: Stack Overflow logo, Home, Questions, Ask, Users, Help, Log in, Sign up"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search bar widget -- renders: Search placeholder"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left navigation sidebar -- renders: Home, Questions, Ask, Tags, Users, Companies, Collectives, SOFA, Challenges, Chat, Articles, Sign up"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "fs-headline1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question header controls -- renders: Ask Question button; question title is user-generated"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item ws-nowrap mr16 mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question metadata label -- renders: Asked"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item ws-nowrap mr16 mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question metadata label -- renders: Modified"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item ws-nowrap mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question metadata label -- renders: Viewed"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answers-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answers section header -- renders: Answers, Sort by, Newest, Oldest, Score, Modified"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "s-pagination--item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- renders: page numbers"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-report-ad-button-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "ad report control -- renders: Report this ad"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mtn4 d-flex jc-end g4 ps-sticky l0 mrn4"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "code block copy button -- renders: Copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item"
+      }
+    ],
+    "own_role": "link",
+    "verdict": "trusted",
+    "note": "post action links -- renders: Share, Suggest Edit"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "post action buttons -- renders: Follow"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "user-action-time"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "post timestamp label -- renders: Asked, Modified, Answered"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "user-gravatar32"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user avatar container -- renders: user profile image"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "-flair"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user reputation flair -- renders: reputation score"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-accepted-answer-indicator"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accepted answer indicator -- renders: Accepted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-bounty-award"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "bounty award badge -- renders: bounty amount"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mod-flair"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "moderator flair -- renders: moderator badge"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "s-badge"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user badge -- renders: badge name"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "comment-score"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment score -- renders: comment upvote count"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "comments-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comments link -- renders: Show N Comments"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "s-sidebarwidget--header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar widget header -- renders: section title"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "h-linked"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "linked questions header -- renders: Linked"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "h-related"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "related questions header -- renders: Related"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "feed-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "RSS feed link -- renders: RSS Feed"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: Stack Overflow logo, About, Products, Business, Community, For Teams, Legal, Privacy Policy, Terms of Service, Cookie Settings, Cookie Policy, Stack Exchange Network, Technology, Life / Arts, Culture, Science, Professional, Business, API, Data, Blog, Facebook, Twitter, LinkedIn, YouTube, Copyright 2025 Stack Exchange Inc."
+  }
+]

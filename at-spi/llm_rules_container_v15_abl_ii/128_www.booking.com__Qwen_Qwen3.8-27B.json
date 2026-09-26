@@ -1,0 +1,228 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "bypass_menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip-to-content link -- renders: Skip to main content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "global site header -- renders: Booking.com logo, language/currency selector, Sign in, Register, and fixed navigation tabs (Stays, Flights, Flight+Hotel, Car rentals, Attractions, Airport taxis)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "a193cf1ed6"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search bar controls -- renders: Where are you going?, Check-in, Check-out, Number of guests, Search"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "fff1944c52"
+      }
+    ],
+    "verdict": "trusted",
+    "except": [
+      {
+        "role": "heading"
+      }
+    ],
+    "note": "breadcrumb navigation -- renders: Home, Stays, [City], [Region]; the final segment is the property name (untrusted) and is subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "d24b1ed1cf f5852f597b da2666adb4"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "property detail tabs -- renders: Overview, Availability, Facilities, Policies, Fine print, Reviews"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "top-book"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "booking action bar -- renders: Add to wishlist, Share, Book now, Price guarantee"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_hotel_name"
+      }
+    ],
+    "verdict": "trusted",
+    "except": [
+      {
+        "role": "heading",
+        "class": "pp-header__title"
+      },
+      {
+        "role": "static"
+      }
+    ],
+    "note": "property header controls -- renders: star rating icon, save button, share button; the property name heading and static text are untrusted and subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "ca9d921c46 a21cb847ab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "location and map controls -- renders: Show on map, View on map, distance to center"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "photo_wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "photo gallery controls -- renders: photo navigation buttons, photo count"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "reviewFloater"
+      }
+    ],
+    "verdict": "trusted",
+    "except": [
+      {
+        "role": "landmark",
+        "id": ":r66:"
+      },
+      {
+        "role": "section",
+        "class": "best-review-score"
+      }
+    ],
+    "note": "review scorecard frame -- renders: score label, 'See all reviews' button; the review list and score badge are untrusted and subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hotel_sidebar_static_map_capla"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "static map widget -- renders: map controls, 'Show on map' button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_availability_style_changes"
+      }
+    ],
+    "verdict": "trusted",
+    "except": [
+      {
+        "role": "section",
+        "id": "rooms_table"
+      }
+    ],
+    "note": "availability section frame -- renders: 'Availability' heading, date summary, price guarantee, search controls; the room table is untrusted and subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_facilities_box"
+      }
+    ],
+    "verdict": "trusted",
+    "except": [
+      {
+        "role": "list",
+        "class": "e9f7361569 eb3a456445 b049f18dec"
+      }
+    ],
+    "note": "facilities section frame -- renders: 'Facilities' heading, 'Show all' button; the facility list is untrusted and subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "xm-survey-component-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user survey widget -- renders: survey question, rating options (Very poor to Excellent)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_policies_box"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "policies section -- renders: 'Policies' heading, check-in/check-out times, house rules, cancellation policy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "important_info"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "important info section -- renders: 'Important info' heading, property-specific notices"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "pp-faq"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "FAQ section -- renders: 'Frequently asked questions' heading, question accordions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer_menu_track"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: navigation links (Support, Partners, Careers, etc.), language/currency selectors, legal links, social media icons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "onetrust-banner-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent banner -- renders: cookie policy text, 'Cookie settings', 'Reject all', 'Accept all' buttons"
+  }
+]

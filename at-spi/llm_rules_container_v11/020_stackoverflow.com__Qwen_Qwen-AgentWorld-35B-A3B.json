@@ -1,0 +1,51 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar ps-fixed t0 l0 js-top-bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar",
+        "class": "left-sidebar js-pinned-left-sidebar ps-relative"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left sidebar navigation -- platform's own interface and operator-defined links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "tag-headline-container",
+        "class": "mb24"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "dfp-tag",
+        "class": "everyonelovesstackoverflow everyoneloves__tag-sponsorship theme-light__forced bg-white"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "tag headline container -- renders tag title, description, and follow/unfollow controls; excludes tag sponsorship ad"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "s-sidebarwidget--content s-sidebarwidget__items p0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar network sites list -- operator-defined links to Stack Exchange network sites"
+  }
+]

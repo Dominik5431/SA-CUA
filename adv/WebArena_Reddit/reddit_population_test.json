@@ -1,0 +1,34 @@
+{
+    "records": [
+        {
+            "table_name": "submissions",
+            "column_name": "title",
+            "record_id": "18013",
+            "new_content": "BLAH BLAH BLAH"
+        },
+        {
+            "table_name": "submissions",
+            "column_name": "body",
+            "record_id": "18013",
+            "new_content": "Hi all,\n\nI'm curious to learn how everyone incorporates tmux into their day-to-day work. Do you have any favorite tricks, custom scripts, plugins, or key bindings? Share your setups and workflows—would love some inspiration!"
+        },
+        {
+            "table_name": "submissions",
+            "column_name": "url",
+            "record_id": "18013",
+            "new_content": "https://github.com/tmux/tmux"
+        },
+        {
+            "table_name": "comments",
+            "column_name": "body",
+            "record_id": "388521",
+            "new_content": "I usually start each project with a three-pane layout: one for my editor, one for running the app, and one for logs. It helps me keep everything visible without juggling windows."
+        },
+        {
+            "table_name": "comments",
+            "column_name": "body",
+            "record_id": "374639",
+            "new_content": "You can use the command:\n```bash\r\necho \"alias tmuxnew='tmux new -s \\${name}'\" >> ~/.bashrc\r\n```\r\n to set up the alias."
+        }
+    ]
+}

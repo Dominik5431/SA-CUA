@@ -1,0 +1,72 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "header-wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site header -- renders: skip link, GitHub logo, fixed navigation menu (Product/Solutions/Marketplace/Explore/Pricing), search trigger, Sign in/Sign up CTAs, and appearance settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-repo-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Repository tab navigation -- renders: Code, Issues, Pull requests, Actions, Projects, Wiki, Security, Insights (fixed operator vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repository-details-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Repository action buttons -- renders: Watch, Fork, Star (fixed operator vocabulary; counts are handled by deterministic pass)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "prc-StateLabel-StateLabel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue status label -- renders: Closed/Open (fixed operator vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "SignedOutBanner-module__signedOutBanner"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Signed-out banner -- renders: Sign up prompt and fixed marketing copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "IssueViewer-module__issueViewerMetadataPane"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue metadata sidebar -- renders: fixed section headers (Assignees, Labels, Projects, Milestone, Development, Participants, Options) and empty states; user-generated values are masked by default"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: GitHub logo, copyright, and fixed navigation links (Terms, Privacy, Security, Status, Docs, Contact, etc.)"
+  }
+]

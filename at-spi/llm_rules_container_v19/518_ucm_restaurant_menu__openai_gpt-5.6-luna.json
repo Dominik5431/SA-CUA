@@ -1,0 +1,12 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "menu-item-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "menu action controls -- renders the fixed add-to-cart action vocabulary"
+  }
+]

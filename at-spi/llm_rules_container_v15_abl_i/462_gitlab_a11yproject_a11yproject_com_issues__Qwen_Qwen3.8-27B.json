@@ -1,0 +1,82 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "navbar-gitlab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global top navigation bar -- renders: GitLab logo, search box, 'New' button, dashboard shortcuts (Issues/MRs/Todos), Help, and user avatar controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Project sidebar navigation -- renders: fixed section labels (Information, Repository, Issues, Merge requests, Pipelines, etc.); the project name in the context header is user-defined and subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "breadcrumbs"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Breadcrumb navigation -- renders: project namespace/name and section label (Issues); these are structural identifiers for the current view"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "__BVID__7"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue list filter tabs -- renders: fixed state labels (Open, Closed, All) with counts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "content-body"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "__BVID__7"
+      },
+      {
+        "role": "list",
+        "class": "issues-list"
+      },
+      {
+        "role": "section",
+        "class": "gl-text-center"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue list toolbar -- renders: 'New issue' button, filter/sort dropdowns, and search input controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "gl-text-center"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Pagination controls -- renders: 'Previous', 'Next', and page size selector"
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Left sidebar navigation -- renders: Home/Questions/Ask/Tags/Challenges/Chat/Articles/Users/Companies and platform CTAs"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: platform links, social media links, and copyright text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mainbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "tag-headline-container"
+      },
+      {
+        "role": "section",
+        "id": "questions"
+      },
+      {
+        "role": "section",
+        "id": "dfp-nativequestion-1"
+      },
+      {
+        "role": "section",
+        "id": "dfp-nativequestion-6"
+      },
+      {
+        "role": "section",
+        "id": "dfp-nativequestion-11"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main content controls -- renders: sort tabs (Newest/Active/Votes), filter buttons, and pagination; question list and ads subtracted"
+  }
+]

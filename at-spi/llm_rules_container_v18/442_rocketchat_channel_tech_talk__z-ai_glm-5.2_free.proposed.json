@@ -1,0 +1,128 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "rcx-sidebar"
+      },
+      {
+        "role": "panel",
+        "class": "rcx-button-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar navigation button panels -- renders: fixed operator icon buttons (search, create, directory, sort, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar topbar -- renders: section title and control buttons; fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "rcx-sidebar-item__menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar item context menu buttons -- renders: fixed operator menu toggle; channel names in the same item stay masked"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "class": "rcx-css-6bg1ps"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "room header toolbar -- renders: Members/Search/Star/Pin/Notifications/More; fixed operator vocabulary"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "messages-box"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message area control buttons -- renders: new message, jump to recent, message action buttons; all fixed operator controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list item",
+        "class": "color-info-font-color"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "conversation start divider -- renders: fixed operator system message"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rc-message-box"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry",
+        "class": "rc-message-box__textarea"
+      },
+      {
+        "role": "section",
+        "class": "message-popup-results"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message input box chrome -- renders: formatting buttons, emoji picker, action menu, audio control; textarea and popup results are subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar section labels -- renders: fixed operator vocabulary (Channels, Direct Messages, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "footer",
+        "class": "rcx-css-1h8ylb3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar footer -- renders: operator branding/logo link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-css-ebq3kg"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar promotional section -- renders: operator marketing copy (create workspace CTA)"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "rcx-room-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "room header control button -- renders: fixed operator menu/control button; channel name heading stays masked"
+  }
+]

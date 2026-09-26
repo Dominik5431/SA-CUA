@@ -1,0 +1,72 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-topbar rcx-sidebar-topbar--toolbox omnichannel-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar topbar for omnichannel toolbox -- renders fixed section label and toolbox action buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar section titles -- renders fixed category labels such as Channels or Direct Messages"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "rcx-room-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "room header -- renders channel name and room action buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "messages-box"
+      },
+      {
+        "role": "section",
+        "class": "wrapper"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "messages box controls -- renders new message and jump to recent buttons; excludes the message list and messages"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-message-header__time"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message header time -- renders timestamp for a message"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "footer",
+        "class": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message input footer -- renders message textarea, emoji picker, and formatting toolbar controls"
+  }
+]

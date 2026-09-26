@@ -1,0 +1,113 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility navigation -- renders: fixed skip and accessibility-navigation labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-nav"
+      },
+      {
+        "role": "header",
+        "class": "site-nav__header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders: the operator's fixed site-brand and home-navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "site-nav__main-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main navigation menu -- renders: the operator's fixed primary-navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "entry",
+        "id": "site-nav-search",
+        "class": "site-nav__search-input"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site search control -- renders: the fixed search-field interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-content__body"
+      },
+      {
+        "role": "landmark",
+        "class": "flex--guttered"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page tabs -- renders: the page's fixed tab-label vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "page-heading"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page heading -- renders: the operator's fixed section-heading vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "article",
+        "class": "comment"
+      }
+    ],
+    "own_role": "check box",
+    "verdict": "trusted",
+    "note": "comment visibility control -- renders: the fixed hide/show comment control label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "class": "comment__hide-toggle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment hide control -- renders: the fixed hide/show control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "comment__nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment action navigation -- renders: Reply/Permalink/Parent"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vote"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "comment voting controls -- renders: fixed upvote/downvote button labels"
+  }
+]

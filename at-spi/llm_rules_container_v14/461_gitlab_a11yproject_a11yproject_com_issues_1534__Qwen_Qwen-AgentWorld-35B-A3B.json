@@ -1,0 +1,91 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header has-tooltip"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left sidebar navigation -- operator-defined project navigation items (Project information, Repository, Issues, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "__BVID__80",
+        "class": "tabs gl-tabs"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment form tabs and toolbar -- operator-controlled write/preview tabs and formatting buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "discussion-preferences-dropdown",
+        "class": "dropdown b-dropdown gl-dropdown full-width-mobile btn-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "discussion preferences dropdown -- operator-controlled sort and filter preferences for notes"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "detail-page-header-body gl-flex-wrap-wrap"
+      }
+    ],
+    "except": [
+      {
+        "role": "link",
+        "class": "author-link js-user-link d-none d-sm-inline"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issue header -- renders status, timestamp, access role, and task status controls; the author link is subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "right-sidebar js-right-sidebar js-issuable-sidebar right-sidebar-expanded"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "participants-author gl-display-inline-block gl-pr-3 gl-pb-3"
+      },
+      {
+        "role": "section",
+        "class": "gl-overflow-hidden gl-text-overflow-ellipsis gl-white-space-nowrap"
+      },
+      {
+        "role": "section",
+        "class": "value hide-collapsed"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "right sidebar controls and labels -- sidebar toggles, assignee/labels/milestone editors, lock thread, move issue, and clipboard; participant names and assignee values are subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "related-issues",
+        "class": "related-issues-block"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "related issues block -- operator copy and controls for linked issues"
+  }
+]

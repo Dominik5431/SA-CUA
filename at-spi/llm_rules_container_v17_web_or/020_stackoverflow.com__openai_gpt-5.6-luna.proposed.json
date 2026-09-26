@@ -1,0 +1,171 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- renders the fixed Stack Overflow logo, navigation, search control, help, site switcher, login, and signup vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "left-sidebar--sticky-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left navigation -- renders the fixed Home/Questions/Ask/Chat/Articles/Users/Companies navigation and platform-authored CTA controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "bg-black-100"
+      },
+      {
+        "role": "push button",
+        "class": "w128"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "tag-page action button -- renders the fixed follow or ask-question control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "bg-black-100"
+      },
+      {
+        "role": "link",
+        "class": "w128"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "tag-page action link -- renders the fixed ask-question or follow control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "s-btn__sm"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question-list sort and view controls -- renders the fixed Newest/Active/Votes and related view-control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "s-btn__dropdown"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question-list sort dropdown -- renders the fixed sort-control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "uql-filter-toggle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "filter-panel toggle -- renders the fixed control vocabulary for opening the refinement panel"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-pagination-item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination links -- renders the fixed page-navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "s-pagination--item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination links -- renders the fixed page-navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "s-pagination--item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination state and separator controls -- renders the fixed page-navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list item",
+        "class": "s-sidebarwidget--header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar widget headings -- renders fixed operator-defined section labels"
+  },
+  {
+    "own_role": "heading",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hot-network-questions"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "hot-network-questions heading -- renders the fixed operator-defined section label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "show-more"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar expansion control -- renders the fixed show-more vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "regular-ad-report-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "ad-report control -- renders the fixed report-this-ad action vocabulary outside the advertisement creative"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-feed-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "feed-link widget -- renders the fixed feed-subscription control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders the fixed Stack Overflow site, network, legal, social, and consent-navigation vocabulary"
+  }
+]

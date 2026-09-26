@@ -1,0 +1,52 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-repo-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Repository tab navigation -- renders: Code, Issues, Pull requests, Discussions, Actions, Security and quality, Insights"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "subnav-search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue search input control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "js-issues-toolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue list toolbar controls -- renders: state toggle, Author, Labels, Projects, Milestones, Reviewers, Assignees, Sort"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "issues-index-tip"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Platform informational tip below issue list -- renders: 'You are seeing issues for this repository', 'Learn more about issues'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site footer -- renders: copyright, Terms, Privacy, Security, Status, Docs, Contact, Manage cookies, Do not share my personal information"
+  }
+]

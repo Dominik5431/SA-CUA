@@ -1,0 +1,98 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Accessibility skip links -- renders: 'Skip to main content', 'Skip to comments'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-nav"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry",
+        "id": "site-nav-search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main navigation bar -- renders: 'Reddit', 'Popular', 'Log in', 'Sign up', 'Create post'; search input excluded as it may echo user queries"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "main"
+      }
+    ],
+    "except": [
+      {
+        "role": "article",
+        "class": "submission"
+      },
+      {
+        "role": "heading",
+        "name": "Comments"
+      },
+      {
+        "role": "section",
+        "class": "comment-form"
+      },
+      {
+        "role": "list",
+        "class": "flex unlistify"
+      },
+      {
+        "role": "article",
+        "class": "comment"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main content landmark -- renders: 'Comments' heading, 'Sort by' label, 'Best'/'New'/'Top'/'Controversial'/'Old'/'Q&A'/'GA'/'Live' tabs; submission, comment form, sort tabs, and comment threads excluded as they contain user-generated content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "submission-meta"
+      },
+      {
+        "role": "section",
+        "class": "sidebar__section flow"
+      },
+      {
+        "role": "panel",
+        "class": "sidebar__section flow"
+      },
+      {
+        "role": "section",
+        "class": "sidebar__section flow"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar landmark -- no trusted regions identified; all sections contain user-generated content (submission metadata, forum info, community rules, community menu)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: 'Reddit', 'Inc.', 'Reddit, Inc. \u00a9 2023. All rights reserved.'"
+  }
+]

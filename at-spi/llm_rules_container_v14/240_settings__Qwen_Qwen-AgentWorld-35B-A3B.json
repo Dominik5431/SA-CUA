@@ -1,0 +1,80 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "title bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "title bar -- platform's own interface controls and labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      },
+      {
+        "role": "panel"
+      },
+      {
+        "role": "panel"
+      },
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "radio button",
+    "verdict": "trusted",
+    "note": "settings radio buttons -- operator-defined options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      },
+      {
+        "role": "panel"
+      },
+      {
+        "role": "panel"
+      },
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "settings toggle buttons -- operator-defined options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      },
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "action and footer buttons -- platform's own interface controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      },
+      {
+        "role": "scroll pane"
+      },
+      {
+        "role": "viewport"
+      },
+      {
+        "role": "list box"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer navigation list box -- operator-defined menu items"
+  }
+]

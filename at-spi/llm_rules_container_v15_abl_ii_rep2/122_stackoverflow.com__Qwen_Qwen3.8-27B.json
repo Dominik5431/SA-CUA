@@ -1,0 +1,72 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: Stack Overflow logo, Home, Questions, Search, Help, Stack Exchange, Log in, Sign up"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Left sidebar navigation -- renders: Home, Questions, Ask, Tags, Users, Companies, Collectives, Sign up"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: Stack Overflow logo, Product, Company, Community, Legal, Social links, Copyright"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "onetrust-consent-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Cookie consent banner -- renders: Cookie Policy, Accept, Reject All, Manage Preferences"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "stats"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "User stats section -- renders: Stats, Reputation, Answers, Questions, Tags, Badges"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "top-tags"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top tags section -- renders: Top Tags, See all tags"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "js-top-posts"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top posts section -- renders: Top Posts, Filter buttons (Answers, Questions), Sort buttons (Newest, Votes)"
+  }
+]

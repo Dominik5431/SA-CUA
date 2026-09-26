@@ -1,0 +1,104 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "header-wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site header -- renders: Skip to content, GitHub, Platform, Solutions, Pricing, Sign in, Sign up, Search, Appearance"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repository-container-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "link",
+        "class": "url fn"
+      },
+      {
+        "role": "section",
+        "id": "repo-network-counter"
+      },
+      {
+        "role": "section",
+        "id": "repo-stars-counter-star"
+      },
+      {
+        "role": "section",
+        "id": "issues-repo-tab-count"
+      },
+      {
+        "role": "section",
+        "id": "pull-requests-repo-tab-count"
+      },
+      {
+        "role": "section",
+        "id": "security-and-quality-repo-tab-count"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Repository header chrome -- renders: Watch, Fork, Star, Code, Issues, Pull requests, Actions, Projects, Wiki, Security and quality, Insights; subtracts user-defined repo name and computed counters"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "mb-2 flex-1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Release sub-navigation -- renders: Releases, Tags"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "position-relative ml-md-2"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Release filter search box -- renders: Search releases"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "d-none d-md-block position-sticky flex-shrink-0 col-md-2 tmp-pr-md-6"
+      }
+    ],
+    "except": [
+      {
+        "role": "landmark",
+        "class": "pagination"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Release sidebar -- renders: Releases, Latest, Pre-releases, 1.134.0, 1.133.0, 1.132.1, 1.132.0, 1.131.0, 1.130.0, 1.129.1, 1.129.0, 1.128.1, 1.128.0; subtracts pagination controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "pagination"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Pagination controls -- renders: Previous, Next, 1, 2, 3, 4, 5, 6, 7, 8"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site footer -- renders: Footer, \u00a9 2024 GitHub, Inc., Terms, Privacy, Security, Status, Docs, Contact, Manage cookies, Do not share my personal information"
+  }
+]

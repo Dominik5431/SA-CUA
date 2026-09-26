@@ -1,0 +1,12 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "app-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Left sidebar navigation -- renders: Files, Favorites, Shared with you, Shared by you, Shared links, Tags, Trash bin, Settings"
+  }
+]

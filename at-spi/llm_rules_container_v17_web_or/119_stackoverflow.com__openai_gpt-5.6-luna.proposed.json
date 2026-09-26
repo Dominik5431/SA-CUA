@@ -1,0 +1,122 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation -- renders: skip navigation, Stack Overflow branding, help, site switching, search, log in and sign up controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search control -- renders: the operator-defined search interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left navigation -- renders: Home/Questions/Ask Question/Tags/Chat/Articles/Users/Companies and fixed collectives and onboarding controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "s-btn__filled w128 fw-bold"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "tag-page action control -- renders: the operator-defined action label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "s-btn__outlined fw-bold"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "tag-page secondary action control -- renders: the operator-defined action label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "uql-nav--expanded-item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question-list view controls -- renders: fixed sorting and view-selection vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "s-btn__dropdown is-selected"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question-list sort control -- renders: the fixed sort-menu vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "uql-filter-toggle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "filter-panel toggle -- renders: the fixed filter-control label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "feed-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "feed control -- renders: the fixed operator-provided feed link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: Stack Overflow branding, fixed company/product/help/policy navigation, social links and consent-link controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "onetrust-policy"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie-consent policy copy -- renders: fixed operator cookie-policy text and the fixed vendor-list control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "onetrust-button-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie-consent controls -- renders: fixed accept, reject and preference-management actions"
+  }
+]

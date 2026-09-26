@@ -1,0 +1,57 @@
+{
+  "file": "034_www.amazon.com.xml",
+  "screen": [
+    1920,
+    1080
+  ],
+  "regions": [
+    {
+      "bbox": [
+        95,
+        277,
+        280,
+        803
+      ],
+      "n": 65,
+      "label": "s-refinements",
+      "kind": "section",
+      "id": 1
+    },
+    {
+      "bbox": [
+        394,
+        273,
+        1526,
+        289
+      ],
+      "n": 7,
+      "label": "featured-brand-LIFESTYLE_PRODUCT_COLLECTION-loom-desktop-top-slot",
+      "kind": "section",
+      "id": 2
+    },
+    {
+      "bbox": [
+        91,
+        222,
+        1789,
+        24
+      ],
+      "n": 3,
+      "label": "a-size-base s-desktop-toolbar a-text-normal",
+      "kind": "heading",
+      "id": 3
+    },
+    {
+      "bbox": [
+        70,
+        114,
+        1835,
+        167
+      ],
+      "n": 1,
+      "label": "navbar-main",
+      "kind": "landmark",
+      "id": 4
+    }
+  ]
+}

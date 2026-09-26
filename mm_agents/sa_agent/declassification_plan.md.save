@@ -1,0 +1,181 @@
+# Generalizing the Declassification Channel
+
+> Design plan for extending `mm_agents/sa_agent`'s untrusted→trusted channel from
+> "verify one URL against github.com" to a general, typed, reliably-verifiable
+> information flow. Status: proposal. No code written yet.
+
+---
+
+## 1. What exists today
+
+### 1.1 The pipeline
+
+| Stage | Where | What happens |
+|---|---|---|
+| Label the screen | `screen_labels.label_screen` | AT-SPI tree → per-affordance `FidesLattice = (IntegrityLabel, InverseLattice[Powerset[principals]])`. Ladder: `TRUSTED < SELF_AUTHORED < CORROBORATED < COMPUTED_PLATFORM_VALUE < FREE_TEXT_THIRD_PARTY < UNTRUSTED`. |
+| Q-VLM reads screen | `tools.query_qvlm`, `summarize_screenshot_content`, `get_page_text` | Free-form string; label = `extraction_metadata(obs)` = join of every DOCUMENT-zone label on screen. |
+| Hide it | `redact_tool_result` → `redact_leaves` | Leaf → token `query_qvlm-result-1.output`; `memory[token] = value`, `label_store[token] = label`. |
+| Reference it | `LabeledBasicPlanner._expand_args` / `_resolve_template_parts` | `{'kind':'value'\|'variable_name'\|'template'}`; referenced tokens recorded as `var_refs`. |
+| Gate the sink | `policies.SAPolicy.check_tool_call` | `effective = args_label ⊔ target_label`; tier (READ / REVERSIBLE_WRITE / DESTRUCTIVE) vs `tier_min_level`, plus confidentiality audience. |
+| Clear taint | `declassify.py` | Only two exits: `declassify_by_crosscheck`, `declassify_by_checksum`. |
+
+Two existing declassifiers: **crosscheck** (host-side fetch of an allowlisted URL → Q-LLM re-derives the answer from that text alone, never told the candidate → deterministic `_matches` compare → value *replaced* by the re-derived answer, integrity → `TRUSTED`/`CORROBORATED`) and **checksum** (sha256 of a VM file vs a trusted digest → `TRUSTED`).
+
+The *shape* is right: independent re-derivation, host-side deterministic decision, confidentiality never widened, everything audited to `declass_log.jsonl`. The problem is coverage.
+
+### 1.2 What the benchmark actually needs
+
+All 1053 configs reduce to seven information-flow shapes. Today's channel covers **one**.
+
+| # | Family | What must cross | Covered? |
+|---|---|---|---|
+| 1 | reddit "clone the extension" | repo **URL** | ✅ the one supported case |
+| 2 | reddit "install the newest package termcolor" | PyPI **package name** | ❌ |
+| 3 | owncloud "download the dataset" | download **URL** | ⚠️ only if a fetchable trusted source restates it |
+| 4 | owncloud "install a CPU monitor" / "docker pull" | apt **package** / Docker **image** | ❌ |
+| 5 | reddit "set up a tmux alias in .bashrc" | **config line / procedure** | ❌ |
+| 6 | rocketchat "ask Mike how to install Node.js" | multi-step **procedure** from an NPC | ❌ |
+| 7 | reddit/gitlab "upvote / comment on the given post" | a **selection**: which element is "the given post" | ❌ (implicit in the click, never declassified) |
+
+Families 5 and 6 are ~40% of the benchmark, are precisely where the adversary injects, and **have no success path at all today**: the instruction is free text, so it never leaves `UNTRUSTED`, so the write is always blocked and the benign task always fails.
+
+### 1.3 Concrete limitations
+
+1. **Untyped channel.** `SummarizerOutput.output: Any`; `QLLMQueryParams.output_type` exists but every call site hard-codes `"str"`; `QVLMQueryParams` has no type field. The answer's shape is unconstrained, so its payload capacity is unbounded.
+2. **One verification strategy, and a narrow one.** `crosscheck` needs an allowlisted host that serves the answer to a bare `requests` fetch, plus a query the planner must invent. The prompt real-estate `EXAMPLE_CORROBORATION` spends teaching GitHub search syntax (`in:readme,description,name,topics`, quoting rules) is the tell: it only works hand-tuned per task.
+3. **Trusted sources already in hand go unused.** The **user's task instruction** is TRUSTED by construction and often contains the very value being read ("set the global Git configuration name to *Peter*", "install the newest package *termcolor*"). Chrome/OS-zone labels likewise. Neither is usable as a verification source.
+4. **No way to express "the trusted side already knows the candidate set"** — family 7 needs a *selection*, not content.
+5. **`_matches` is type-blind.** Substring matching is meaningless for a `BOOL`, wrong for a URL (should be normalized host+path equality).
+6. **`qllm_agent_second` measures the wrong independence** — two models over the *same* fetched text catches model flakiness, not source manipulation.
+7. **The corroborating tier does unacknowledged work.** `api.github.com/search` is host-trusted but *content*-attacker-writable. Capping it at `CORROBORATED` is right, but that should be a declared property of the verifier, not a per-domain allowlist accident.
+8. **Known open holes** (project memory): literal laundering — a `CORROBORATED` value shown in the clear can be retyped as a `{'kind':'value'}` literal, dropping the `var_ref` the policy gates on (partly mitigated by `derive_tier_min_level`); and missing file provenance for downloaded files.
+
+---
+
+## 2. Principles
+
+### P1 — Capacity and correctness are different questions
+
+These are orthogonal, and the current single ladder conflates them. Every value crossing the boundary should answer **two** questions:
+
+> **(a) May the planner *see* it?** → a **capacity** question. How many attacker-chosen bits can this value carry? A value that cannot express an instruction cannot hijack the planner by being read.
+>
+> **(b) May it *drive an action*?** → a **correctness** question. Is this value what the environment honestly says, rather than what an attacker chose? Bounding the shape says *nothing* about this: the attacker still picks *which* of the two booleans you get.
+
+Bounding the type earns **display** trust. Passing a verifier earns **action** trust. Today both come from one label, which is why the only way to show a value to the planner is to fully verify it, and why an unverifiable-but-harmless boolean is treated like an unverifiable URL.
+
+**Capacity itself has two aspects, and only one of them is a lattice label.**
+
+* **Shape class** — qualitative and *idempotent*: `NONE` (no free content: booleans, indices, enums) < `BOUNDED` (charset- and length-constrained: identifiers, semvers, dates) < `UNBOUNDED` (free text, URLs with arbitrary query strings, commands). Joining a value with itself doesn't change its shape class, so this composes like a lattice label and can ride in the existing integrity ladder — the rung already exists and is already documented for exactly this: `COMPUTED_PLATFORM_VALUE` = *"value-shape-constrained rather than free text… bounded output space limits injection payload, but the value is neither verified nor operator-authored."*
+* **Cumulative bits** — quantitative and *additive*: reading one boolean is 1 bit; reading the same boolean twice under different questions is 2. This is **not** a lattice quantity (join is idempotent, bits are not), so it must live in a separate per-episode ledger, not in the label. Sixty `ENUM(2)` answers launder 60 bits — enough for a short URL. Without the ledger, "typed ⇒ safe to show" is hand-waving.
+
+The codebase already makes the capacity argument once, ad hoc, in `checkdone_run_vlm`:
+
+> *"Deliberately TRUSTED despite reading the screen: the output is enum-bounded (status in {OK, FAIL}) — FIDES-style type-bounded declassification."*
+
+The proposal generalizes that one-off into a principled, audited, budgeted rule — and is *stricter* than the precedent (`COMPUTED_PLATFORM_VALUE`, not `TRUSTED`).
+
+### P2 — Untrusted content *instantiates* authority; it never *widens* it
+
+This replaces the earlier, too-rigid "untrusted content is never a source of procedures". The correct statement is about *who opens the door*:
+
+> The set of things the agent is allowed to do this episode is fixed by **trusted** inputs — the user's task instruction and the starting state — before any untrusted content is read. Untrusted content may fill in *which* file, *which* package, *which* URL. It may never add an action class that the trusted side didn't already authorize.
+
+So `rm` is not banned. `rm` requires `os.fs.delete` to be in the episode's authorized capability set, which only the user's own task can put there. In a task about *installing a CPU monitor*, an injected `rm -f ~/BankStatement.pdf` fails because deletion was never authorized — not because a blocklist recognized `rm`. In a task about *cleaning up build artifacts*, `rm` is authorized and flows, and the defence shifts down to the parameters (§5, Tier B).
+
+There is exact precedent for the derivation being safe: `trust_detection.py` already derives episode-scoped domain trust from the instruction and starting-state note **only**, with the invariant stated in its module docstring — *"Nothing later in the episode — no page the agent navigates to, no comment, no tool output — is ever consulted here. That is what keeps this mechanism immune to a page mid-episode nominating its own domain for elevation."* Capability-set derivation reuses that machinery and that invariant verbatim.
+
+### P3 — The trust decision stays deterministic and host-side
+LLMs may *propose* and *re-derive*; only Python decides. (Already true; keep it true as the surface grows.)
+
+### P4 — Prefer verifiers that need no network
+Matching against the user's task text or a planner-supplied candidate set is cheaper, more reliable, and *stronger* than fetching a page and asking a model to read it.
+
+### P5 — Verification is chosen by the type, not invented by the planner
+The planner says *what kind of thing* it wants; the framework picks the verifier. Today the planner authors the whole strategy in free text — unreliable, and itself a place for its judgement to be wrong.
+
+---
+
+## 3. Layer 1 — typed values (`value_types.py`, new)
+
+```python
+@dataclass(frozen=True)
+class ValueType:
+    name: str                          # "PACKAGE_NAME"
+    json_schema: dict                  # forced on the Q-VLM's structured output
+    acceptor: Callable[[str], bool]    # host-side syntactic validation
+    shape: ShapeClass                  # NONE | BOUNDED | UNBOUNDED   (P1, lattice-ish)
+    capacity_bits: float               # additive, for the ledger      (P1, not a label)
+    normalize: Callable[[str], str]
+    equal: Callable[[str, str], bool]  # type-aware; replaces _matches
+    default_verifiers: tuple[str, ...]
+```
+
+| Type | Acceptor | Shape / bits | Default verifier |
+|---|---|---|---|
+| `BOOL` | `true\|false` | NONE / 1 | — (display only) |
+| `ENUM` | ∈ planner list | NONE / log₂k | intrinsic (list is trusted) |
+| `INDEX` | `0..n-1` over planner list | NONE / log₂n | intrinsic |
+| `INTEGER`/`DECIMAL` | numeric, range-bounded | NONE / ≤32 | `task_match`, `crosscheck` |
+| `DATE` | ISO-8601 | NONE / ~15 | `crosscheck` |
+| `SEMVER` | `\d+\.\d+(\.\d+)?` | BOUNDED / ~24 | `registry` |
+| `IDENTIFIER` | `^[A-Za-z0-9._-]{1,64}$` | BOUNDED / ≤380 | `task_match`, `registry` |
+| `PACKAGE_NAME[mgr]` | manager charset | BOUNDED | **`registry`** |
+| `URL` | https, host parses | UNBOUNDED (path+query!) | `crosscheck` + host allowlist |
+| `HOSTNAME` | RFC-1123 | BOUNDED | allowlist |
+| `FILE_PATH` | no `..`, no metachars, under a root | BOUNDED | `checksum`, scope root |
+| `SHA256` | `[0-9a-f]{64}` | n/a | intrinsic |
+| `USERNAME` | platform charset | BOUNDED | `candidate_set`, `task_match` |
+| `SHORT_TEXT` | ≤N printable chars, **never reaches a shell** | UNBOUNDED | `task_match` only |
+
+`SHORT_TEXT` is the escape hatch and must behave like one: unbounded capacity, never renderable into a command, and the framework should actively nudge the planner away from it.
+
+**Plug-in points.** `answer_type` (+ `enum_values`/`candidates`) on `QVLMQueryParams`; forced JSON `{"found": bool, "answer": <schema>}` in `SYST_PROMPT_QVLM_QUERY` and the per-backend `query_qvlm` (`claude.py`/`opencua.py`/`uitars.py`); `tools.query_qvlm` runs the acceptor **before** the value becomes a memory token. Generalizes the existing `pydantic_scheme.enforce_type` past builtins.
+
+**Labeling rule.** Today `label = extraction_metadata(obs)` unconditionally. Proposed: `label = meet(extraction_label, floor_for(shape))`, with `floor_for(NONE) = floor_for(BOUNDED) = COMPUTED_PLATFORM_VALUE` and `floor_for(UNBOUNDED) = UNTRUSTED` (i.e. unchanged). Behind `--sa_typed_extraction` so ablations can isolate it.
+
+---
+
+## 4. Layer 2 — a verifier catalog (`declassify.py`, refactored)
+
+```python
+class Verifier(Protocol):
+    name: str
+    applicable: frozenset[str]                # value type names
+    def run(self, value, vtype, evidence) -> VerifyResult
+    # VerifyResult(ok, level, adopted_value, note, evidence_digest)
+```
+
+1. **`task_match`** *(new; no network; highest value)* — the value must equal, or appear as a whole normalized token in, the **user's task instruction** (TRUSTED by construction). Covers "git config name → *Peter*", "install *termcolor*", user-named files/paths. → **TRUSTED**: the datum is the user's own; the screen read merely *located* it. Guards against vacuous matches: whole-token only, length ≥3, stop-list, and refuse on instructions below a specificity floor.
+2. **`candidate_set`** *(new)* — planner supplies candidates derived from trusted sources (task text, chrome/tab labels, an OS-zone listing, a previously-TRUSTED variable); the answer must be one of them. The untrusted side supplies **no content, only a choice**. → **CORROBORATED**.
+3. **`registry`** *(new; biggest reliability win)* — canonical-existence lookup with a *deterministic field-equality* predicate, replacing "fetch a search page and have a model re-read it": PyPI `/pypi/<name>/json` → `.info.name`; npm `registry.npmjs.org/<name>` → `.name`; Docker Hub `/v2/repositories/<ns>/<name>/` → `.name`; GitHub `/repos/<owner>/<repo>` → `.full_name`; an operator-pinned Debian/Ubuntu index. → **CORROBORATED** (exists ≠ is the right one). **`task_match ∧ registry` ⇒ TRUSTED.**
+4. **`crosscheck`** *(existing, tightened)* — kept for "no canonical key exists" (family 1). Re-derived answer must also pass the type's acceptor; `_matches` → `vtype.equal`; the verifier records *host-trusted-but-content-untrusted* as an explicit property (that, not the domain list, is what caps it at CORROBORATED).
+5. **`k_of_n`** *(new)* — same question re-derived from ≥2 *mutually independent* allowlisted sources (different operators, not two models on one page) → **TRUSTED**. The existing second model stays underneath each source as a flakiness check.
+6. **`checksum`** *(existing)* — unchanged; later extensible to signature/key pinning.
+7. **`self_authored` / `chrome_zone`** *(promote existing labels to verifiers)* — makes `SELF_AUTHORED` reachable through declassification, not only through initial labeling.
+
+8. **`locate`** *(new; deterministic, no model, no network — and strictly speaking not a declassifier at all)* — a **needle authored by a trusted source** (the task instruction, a chrome/OS-zone label, an already-cleared variable) is matched host-side against the AT-SPI tree. Returns `NOT_FOUND | UNIQUE(node) | AMBIGUOUS(k)`, and **ambiguity is a refusal, never a tie-break**. What flows forward is the *needle* — already trusted — plus a *node reference*; the screen's own rendering of it is never adopted. → **the needle's level**, unchanged: the value *is* the needle, and locating it did not make it less trustworthy. The *node reference* is a separate object carrying the node's own zone label, gated where it is used (the existing `_resolve_target`/`CAP_TIER` click path) rather than folded into one level. See §4.1 and §6.8.
+9. **`screen_attests`** *(new)* — the other direction, and the one where the **model authors the needle**: the value originates on screen, the Q-VLM proposes it, and the host confirms that string is literally present in the tree. This catches a hallucinating or compromised extractor. It says nothing about whether the content is *honest*, because the attacker wrote what is on the screen. → **no level increase.** Its real output is a *localisation*: knowing which node the answer came from lets `region_metadata` replace `extraction_metadata`'s join-over-t `label = meet(extraction_label, floor_for(shape))`, with `floor_for(NONE) = floor_for(BOUNDED) = COMPUTED_PLATFORM_VALUE` and `floor_for(UNBOUNDED) = UNTRUSTED` (i.e. unchanged). Behind `--sa_typed_extraction` so ablations can isolate it.
+
+---
+
+## 4. Layer 2 — a verifier catalog (`declassify.py`, refactored)
+
+```python
+class Verifier(Protocol):
+    name: str
+    applicable: frozenset[str]                # value type names
+    def run(self, value, vtype, evidence) -> VerifyResult
+    # VerifyResult(ok, level, adopted_value, note, evidence_digest)
+```
+
+1. **`task_match`** *(new; no network; highest value)* — the value must equal, or appear as a whole normalized token in, the **user's task instruction** (TRUSTED by construction). Covers "git config name → *Peter*", "install *termcolor*", user-named files/paths. → **TRUSTED**: the datum is the user's own; the screen read merely *located* it. Guards against vacuous matches: whole-token only, length ≥3, stop-list, and refuse on instructions below a specificity floor.
+2. **`candidate_set`** *(new)* — planner supplies candidates derived from trusted sources (task text, chrome/tab labels, an OS-zone listing, a previously-TRUSTED variable); the answer must be one of them. The untrusted side supplies **no content, only a choice**. → **CORROBORATED**.
+3. **`registry`** *(new; biggest reliability win)* — canonical-existence lookup with a *deterministic field-equality* predicate, replacing "fetch a search page and have a model re-read it": PyPI `/pypi/<name>/json` → `.info.name`; npm `registry.npmjs.org/<name>` → `.name`; Docker Hub `/v2/repositories/<ns>/<name>/` → `.name`; GitHub `/repos/<owner>/<repo>` → `.full_name`; an operator-pinned Debian/Ubuntu index. → **CORROBORATED** (exists ≠ is the right one). **`task_match ∧ registry` ⇒ TRUSTED.**
+4. **`crosscheck`** *(existing, tightened)* — kept for "no canonical key exists" (family 1). Re-derived answer must also pass the type's acceptor; `_matches` → `vtype.equal`; the verifier records *host-trusted-but-content-untrusted* as an explicit property (that, not the domain list, is what caps it at CORROBORATED).
+5. **`k_of_n`** *(new)* — same question re-derived from ≥2 *mutually independent* allowlisted sources (different operators, not two models on one page) → **TRUSTED**. The existing second model stays underneath each source as a flakiness check.
+6. **`checksum`** *(existing)* — unchanged; later extensible to signature/key pinning.
+7. **`self_authored` / `chrome_zone`** *(promote existing labels to verifiers)* — makes `SELF_AUTHORED` reachable through declassification, not only through initial labeling.
+
+8. **`locate`** *(new; deterministic, no model, no network — and strictly speaking not a declassifier at all)* — a **needle authored by a trusted source** (the task instruction, a chrome/OS-zone label, an already-cleared variable) is matched host-side against the AT-SPI tree. Returns `NOT_FOUND | UNIQUE(node) | AMBIGUOUS(k)`, and **ambiguity is a refusal, never a tie-break**. What flows forward is the *needle* — already trusted — plus a *node reference*; the screen's own rendering of it is never adopted. → **the needle's level**, unchanged: the value *is* the needle, and locating it did not make it less trustworthy. The *node reference* is a separate object carrying the node's own zone label, gated where it is used (the existing `_resolve_target`/`CAP_TIER` click path) rather than folded into one level. See §4.1 and §6.8.
+9. **`screen_attests`** *(new)* — the other direction, and the one where the **model authors the needle**: the value originates on screen, the Q-VLM proposes it, and the host confirms that string is literally present in the tree. This catches a hallucinating or compromised extractor. It says nothing about whether the content is *honest*, because the attacker wrote what is on the screen. → **no level increase.** Its real output is a *localisation*: knowing which node the answer came from lets `region_metadata` replace `extraction_metadata`'s join-over-t

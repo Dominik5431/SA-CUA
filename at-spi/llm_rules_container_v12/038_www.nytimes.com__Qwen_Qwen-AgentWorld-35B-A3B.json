@@ -1,0 +1,52 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "fides-overlay"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie and privacy consent overlay -- operator-controlled interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "google-one-tap-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sign-in control -- operator's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Wr7_RG_mastheadWrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "masthead navigation -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "masthead-section-label"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "masthead section label -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "top-slug"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top slug label -- operator-authored interface"
+  }
+]

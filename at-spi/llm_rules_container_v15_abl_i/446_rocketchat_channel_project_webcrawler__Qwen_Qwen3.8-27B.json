@@ -1,0 +1,60 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "sidebar--main"
+      }
+    ],
+    "except": [
+      {
+        "role": "landmark",
+        "class": "rooms-list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main sidebar chrome -- renders: user status, fixed icon buttons (Home, DMs, etc.), and footer links; the rooms-list is subtracted as it renders user-created channel names"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "rcx-room-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "rcx-css-u5iepl"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Room header controls -- renders: fixed action buttons (Search, Info, etc.); the heading is subtracted as it renders the user-created channel name"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "messages-container-wrapper"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "class": "messages-list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Message container chrome -- renders: 'New message' button and 'Jump to recent' button; the messages-list is subtracted as it contains user-generated message bodies and names"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "footer",
+        "class": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Message input area -- renders: fixed formatting toolbar buttons (Bold, Italic, etc.) and input field; the input field is a control, not a display of user content"
+  }
+]

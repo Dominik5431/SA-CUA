@@ -1,0 +1,64 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "spacesToolbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "spacesToolbarAddonsContainer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "spaces toolbar -- renders: Mail/Address Book/Calendar/Tasks/Chat/Settings/Collapse buttons; addons container subtracted as third-party-fillable"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "unifiedToolbarContainer"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "notification-popup-box"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "unified toolbar container -- renders: search bar, app menu, window min/restore/close buttons; notification popup box subtracted as it can echo external content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "toolbar-menubar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "menu bar -- renders: File/Edit/View/Go/Message/Tasks/Help menus; fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "scroll pane",
+        "id": "chatTabPanel"
+      }
+    ],
+    "except": [
+      {
+        "role": "list box",
+        "id": "contactlistbox"
+      },
+      {
+        "role": "label",
+        "id": "statusMessageLabel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "chat tab panel -- renders: chat toolbar buttons (Add Buddy/Join Chat/Set Status/Accounts), placeholder text, account wizard button; user contact list and user-set status message subtracted"
+  }
+]

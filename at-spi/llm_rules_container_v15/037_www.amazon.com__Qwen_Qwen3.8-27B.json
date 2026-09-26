@@ -1,0 +1,92 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "shortcut-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Accessibility navigation shortcuts -- renders: Skip to main content, Skip to about this item, Skip to buying options, Skip to reviews, Search, Cart, Home, Your orders, Show shortcuts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-xshop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Secondary navigation bar -- renders: fixed category links such as Today's Deals, Customer Service, Help, etc."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "climatePledgeFriendlyBTF_feature_div"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Climate Pledge Friendly badge -- renders: fixed certification labels and descriptions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "btf-sub-nav-desktop-product-info-tabs"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Product page section tabs -- renders: fixed labels for About this item, Product information, Customer reviews"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "productDetails"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Product details section -- renders: fixed attribute labels (Brand, Model, etc.) and standard technical specifications"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "whatsInTheBoxDeck"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "What's in the box section -- renders: fixed heading and standard included components list"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "cm_cr_dp_d_rating_histogram"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Review rating histogram -- renders: fixed star rating labels and distribution counts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "cr-media-carousel-heading"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Review media carousel heading -- renders: fixed label 'Customer images'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooter"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: fixed navigation links, legal text, and language/currency selectors"
+  }
+]

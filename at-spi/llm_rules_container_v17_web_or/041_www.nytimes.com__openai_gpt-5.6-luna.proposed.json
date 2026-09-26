@@ -1,0 +1,120 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "fides-overlay"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "privacy and consent interface -- renders fixed privacy-choice labels, controls, and status vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Wr7_RG_mastheadWrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "NYT masthead interface -- renders the fixed site identity, section navigation, search, account, subscription, and menu vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "top-slug"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "section label -- renders the fixed Arts section vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "e1j8vip00"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Arts section header and navigation -- renders the fixed section heading and fixed Arts navigation labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "page tab list",
+        "class": "css-40cb0s"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view switcher -- renders the fixed page-tab vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "site-index-label"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site index label -- renders the fixed site-index heading vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "css-1ho5u4o"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer utility link group -- renders fixed NYT footer utility and corporate-link vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "edvi3so1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer navigation groups -- render the fixed NYT help, policy, service, and corporate-link vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "css-1dv1kvn"
+      },
+      {
+        "role": "heading",
+        "id": "site-index-label"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site index heading -- renders the fixed site-index label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "collection-highlights-container"
+      },
+      {
+        "role": "heading",
+        "class": "css-1dv1kvn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "collection heading -- renders the fixed Arts highlights section label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "css-1jx9oro"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination control -- renders the fixed page-navigation vocabulary"
+  }
+]

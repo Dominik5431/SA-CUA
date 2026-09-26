@@ -1,0 +1,196 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "navbar navbar-gitlab navbar-expand-sm js-navbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left navigation sidebar -- platform's own interface and fixed menu items"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "detail-page-header-body gl-flex-wrap-wrap"
+      }
+    ],
+    "except": [
+      {
+        "role": "link",
+        "class": "author-link js-user-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issue header controls and computed metadata -- renders: issue type badge, state, timestamp, access role; subtracts author link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "related-issues",
+        "class": "related-issues-block"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "related issues block -- platform-computed feature with operator copy and controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "discussion-preferences-dropdown",
+        "class": "dropdown b-dropdown gl-dropdown full-width-mobile btn-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "discussion preferences dropdown -- platform control for note display options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "page tab list",
+        "id": "__BVID__93__BV_tab_controls_",
+        "class": "nav gl-tabs-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "markdown editor tabs -- platform controls for write/preview modes"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "md-header-toolbar gl-ml-auto gl-py-2 gl-justify-content-center"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "markdown editor toolbar -- platform controls for formatting actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "toolbar-text"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "markdown editor toolbar text -- platform help copy and links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "note-form-actions"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "note form actions -- platform controls for checkbox, submit dropdown, and close button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "right-sidebar js-right-sidebar js-issuable-sidebar right-sidebar-expanded"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "value hide-collapsed"
+      },
+      {
+        "role": "section",
+        "class": "value issuable-show-labels js-value"
+      },
+      {
+        "role": "section",
+        "class": "participants-author gl-display-inline-block gl-pr-3 gl-pb-3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "right sidebar controls and labels -- renders: assignee/labels/milestone edit controls, lock conversation, move issue; subtracts user-generated values and participant names"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "upload-dropzone-card upload-dropzone-border"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "upload dropzone card -- platform copy and control for attaching files"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "emoji-picker"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "emoji picker -- platform control for adding reactions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "create-mr-dropdown-wrap js-create-mr"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "create merge request dropdown wrap -- platform controls for creating merge requests"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "gl-font-size-h1 gl-m-0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comments section heading -- platform section label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "gl-m-0 gl-line-height-24"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "notes section heading -- platform section label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "paragraph",
+        "class": "gl-mb-3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "notes help paragraph -- platform copy for discussion guidelines"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "__BVID__403",
+        "class": "dropdown b-dropdown gl-dropdown btn-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "discussion actions dropdown -- platform controls for discussion actions"
+  }
+]

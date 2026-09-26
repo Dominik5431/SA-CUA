@@ -1,0 +1,72 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Editor toolbar buttons -- renders fixed operator vocabulary for editing actions (e.g., Undo, Redo, Cut, Copy, Paste, Find, Replace, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "Editor toolbar toggle buttons -- renders fixed operator vocabulary for view/edit modes (e.g., Word Wrap, Show Line Numbers, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "check box",
+    "verdict": "trusted",
+    "note": "Editor toolbar checkboxes -- renders fixed operator vocabulary for feature toggles (e.g., Highlight Syntax, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "radio button",
+    "verdict": "trusted",
+    "note": "Editor toolbar radio buttons -- renders fixed operator vocabulary for mode selection (e.g., Normal, Insert, Overwrite)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "label",
+    "verdict": "trusted",
+    "note": "Editor status bar labels -- renders fixed operator vocabulary for document metrics (e.g., Ln, Col, Encoding, EOL)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "status bar",
+    "verdict": "trusted",
+    "note": "Editor status bar container -- renders fixed operator vocabulary for document state"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "page tab list",
+    "verdict": "trusted",
+    "note": "Tab bar container -- renders fixed operator vocabulary for tab management controls (e.g., Close, New Tab)"
+  }
+]

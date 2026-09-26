@@ -1,0 +1,72 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar",
+        "class": "ElectronMenuBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "native application menu bar -- renders fixed operator vocabulary: File/Edit/Selection/View/Go/Run/Terminal/Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-action-bar vertical"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "activity bar and accounts bar -- renders fixed operator icons for Explorer, Search, Source Control, Run, Extensions, Accounts, and Settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "composite title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "viewlet title bar -- renders fixed operator label 'Explorer' and toolbar controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "pane-header timeline-view"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "timeline pane header -- renders fixed operator label 'TIMELINE'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "getting started header -- renders fixed operator product name and subtitle"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "categories-column-right"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "getting started right column -- renders fixed operator category titles and descriptions for built-in learning paths"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "getting started footer -- renders fixed operator checkbox and label for 'Show on Startup'"
+  }
+]

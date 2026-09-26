@@ -1,0 +1,52 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "issues-state-filters gl-border-b-0 gl-flex-grow-1 nav gl-tabs-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "merge request state filter tabs -- renders: Opened, Merged, Closed, All"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "gl-ml-3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sort controls -- renders: sort dropdown toggle, reverse sort button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "gl-button btn btn-md btn-default has-tooltip"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "merge request list toolbar button -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "gl-w-full btn-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "merge request list toolbar button group -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "gl-button btn btn-md btn-default gl-mr-3 js-bulk-update-toggle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "bulk update toggle button -- platform's own interface"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-action-bar vertical"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "activity bar -- platform's own interface navigation icons and controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "composite title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "viewlet title bar -- platform's own interface section labels and actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "workbench.view.explorer",
+        "class": "composite viewlet explorer-viewlet"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "pane-body"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "explorer viewlet chrome -- renders: pane headers, title, new file/folder/refresh/collapse actions; subtracted user file tree"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "workbench.parts.editor",
+        "class": "part editor"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "editor part -- platform's own interface editor tabs, tab actions, and getting started page content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar",
+        "id": "workbench.parts.statusbar",
+        "class": "part statusbar status-border-top"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "status bar -- platform's own interface status items and controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "notifications-toasts visible"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "notification toasts controls -- platform's own notification action buttons and clear control"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "menu",
+    "verdict": "trusted",
+    "note": "menus and their menu items in the menu bar -- renders: File/Edit/View/Search/Terminal/Help and their fixed menu items; operator's own interface vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "toolbar and control buttons throughout the window -- operator's fixed interface controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "toolbar toggle buttons -- operator's fixed interface controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "check box",
+    "verdict": "trusted",
+    "note": "find bar checkbox -- operator's fixed interface control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "separator",
+    "verdict": "trusted",
+    "note": "interface separators in toolbars and menus -- operator's fixed interface elements"
+  }
+]

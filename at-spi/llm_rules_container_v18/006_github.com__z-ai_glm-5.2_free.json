@@ -1,0 +1,72 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "MarketingHeader-module__root__Tk7n3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "marketing header -- renders: Product/Solutions/Resources/Open Source/Enterprise/Pricing nav, Sign in, Sign up, search trigger, appearance settings; all fixed platform vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-skip-to-content"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip-to-content link -- renders fixed 'Skip to content' text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-repo-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository tab navigation -- renders: Code/Issues/Pull requests/Actions/Projects/Wiki/Security/Insights; all fixed platform vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "mb-2 flex-1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "releases sub-navigation -- renders: Releases/Tags tab links; fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "entry",
+        "id": "release-filter"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "release filter search input -- operator's own search control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "pagination"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- renders: Previous/Next labels and page numbers; fixed operator vocabulary for labels, page numbers are computed values"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: Terms/Privacy/Security/Contact/Status/Docs/Support and cookie/privacy controls; all fixed platform vocabulary"
+  }
+]

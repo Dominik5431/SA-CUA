@@ -1,0 +1,195 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "network-logo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "network logo -- renders: Stack Exchange network branding"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-help-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "help control -- renders: Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "s-topbar--item__unset"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "account controls -- renders: Log in / Sign up"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "class": "s-input__search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search control -- renders: fixed search-box interface and search action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "site-header--link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header branding -- renders: Unix and Linux Stack Exchange site identity"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "aside-cta"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question action control -- renders: Ask Question"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "question"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "question voting controls -- renders: upvote / downvote"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "answer"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "answer voting controls -- renders: upvote / downvote"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "answer"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "answer fixed action controls -- renders: Save / Follow / Add comment"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-share-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "share control -- renders: Share"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-suggest-edit-post"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "edit suggestion control -- renders: Suggest an edit"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "comments-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment controls -- renders: Add comment / Show more comments"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "comment",
+        "class": "js-accepted-answer-indicator"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accepted-answer indicator -- renders: accepted answer status"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "mb0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answers section heading -- renders: Answers"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "h-linked"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "linked questions section label -- renders: Linked"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "h-related"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "related questions section label -- renders: Related"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "s-btn__outlined"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "fixed post-page action button -- renders: operator-defined navigation or participation action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: fixed Stack Exchange navigation, legal, social, policy, licensing and platform information"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "onetrust-banner-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent banner -- renders: fixed privacy policy text, vendor information and consent controls"
+  }
+]

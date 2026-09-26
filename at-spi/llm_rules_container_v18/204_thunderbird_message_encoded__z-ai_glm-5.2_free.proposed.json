@@ -1,0 +1,120 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "spacesToolbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "spacesToolbarAddonsContainer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "spaces toolbar -- renders: Mail/Address Book/Calendar/Tasks/Chat/Settings/Collapse buttons; addons container subtracted as third-party-fillable"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "unifiedToolbarContainer"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "notification-popup-box"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "unified toolbar container -- renders: search bar, app menu, window min/restore/close buttons; notification popup box subtracted as it can echo external content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "toolbar-menubar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "menu bar -- renders: File/Edit/View/Go/Message/Tasks/Help menus; fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "scroll pane",
+        "id": "chatTabPanel"
+      }
+    ],
+    "except": [
+      {
+        "role": "list box",
+        "id": "contactlistbox"
+      },
+      {
+        "role": "label",
+        "id": "statusMessageLabel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "chat tab panel -- renders: chat toolbar buttons (Add Buddy/Join Chat/Set Status/Accounts), placeholder text, account wizard button; user contact list and user-set status message subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "folderPaneHeaderBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "folder pane header bar -- renders: More/Write Message/Get Messages buttons; fixed operator controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "threadPaneHeaderBar"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "list-header-bar-container-start"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "thread pane header bar -- renders: Quick Filter toggle, Display options button, quick-filter context menu; folder name heading and count container subtracted as they echo user-named folders"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "header-view-toolbox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message header action toolbar -- renders: Reply/Forward/Archive/Junk/Trash/Other Actions/Star buttons; fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "toHeading"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message header 'To' label -- fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "offline-status"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "offline status indicator -- renders: Working Offline / Online; fixed operator vocabulary"
+  }
+]

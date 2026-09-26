@@ -1,0 +1,182 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "spacesToolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "application mode switcher -- renders: Mail/Address Book/Calendar/Tasks/Chat/Settings/Collapse"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "toolbar-menubar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main application menu bar -- renders: File/Edit/View/Go/Message/Tasks/Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "chat-toolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "chat interface controls -- renders: Add Buddy/Join Chat/Status/Accounts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "folderPaneHeaderBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "folder pane action buttons -- renders: More/Write/Get Messages"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "threadPaneHeaderBar"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "id": "threadPaneFolderName"
+      },
+      {
+        "role": "section",
+        "id": "threadPaneFolderCountContainer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "thread pane controls -- renders: Quick Filter/Display; folder name and count are user-defined"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "header-view-toolbox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message action buttons -- renders: Reply/Forward/Archive/Junk/Trash/More/Star"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "toHeading"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "fixed label for recipient row -- renders: To"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "compose-toolbar-menubar2"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "compose window menu bar -- renders: File/Edit/View/Insert/Format/Options/Tasks/Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "composeToolbar2"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "compose window action buttons -- renders: Send/Encryption/Spelling/Save/Contacts/Attach"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "FormatToolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "text formatting controls -- renders: Paragraph/Font/Size/Bold/Italic/Underline/Lists/Align/Insert/Smileys"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "id": "toAddrLabel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "fixed label for recipient input -- renders: To"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "id": "subjectLabel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "fixed label for subject input -- renders: Subject"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "id": "identityLabel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "fixed label for identity selector -- renders: From"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "unifiedToolbarContainer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "unified toolbar chrome -- renders: search box, app menu, window controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "id": "noAccountTitle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "placeholder title for empty chat state -- renders: No Accounts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "id": "noAccountDesc"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "placeholder description for empty chat state -- renders: Set up an account to start chatting"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "openIMAccountWizardButton"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "button to open account setup wizard -- renders: Set Up Account"
+  }
+]

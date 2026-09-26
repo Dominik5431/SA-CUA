@@ -1,0 +1,96 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "bui-list-item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip-navigation link -- renders fixed accessibility navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders fixed branding, account controls, and primary travel navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_tab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "primary product tabs -- renders the fixed Accommodations/Flights/Packages/Cars/Attractions/Airport taxis vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "c40c550a3e"
+      },
+      {
+        "role": "landmark"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "search controls -- push buttons render fixed date, occupancy, clearing, and search-action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "class": "fff1944c52 d026bbaa45 da36f27dc7"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "destination search label -- renders fixed search-field vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "searchbox-horizontal-occupancy-label"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "occupancy search label -- renders fixed guest-selection vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "fcd8e16f81"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "results sorting or display control -- renders fixed operator-defined sorting and display-action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "csxp-shelf-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cross-sell shelf header -- renders fixed operator heading, tooltip control, and call-to-action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "TravellerFooter_root--variant-full"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders fixed help, company, policy, and navigation-link vocabulary"
+  }
+]

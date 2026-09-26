@@ -1,0 +1,113 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-action-bar vertical"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Activity Bar navigation and bottom icons -- operator's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "composite title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search viewlet title and actions toolbar -- operator's own interface and controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "monaco-button toggle-replace-button codicon codicon-search-hide-replace"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search replace toggle button -- operator's own control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "controls"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search filter controls (case-sensitive, whole-word, regex) -- operator's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "query-details"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search query details button -- operator's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "message"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search message and link -- operator's own copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "title tabs show-file-icons"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Editor tab bar and actions -- operator's own interface for tab management"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "document frame",
+        "class": "gettingStartedContainer noExtensions animatable"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Getting Started guide -- operator-authored onboarding content and categories"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar",
+        "id": "workbench.parts.statusbar",
+        "class": "part statusbar status-border-top"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Status bar -- operator's own interface and status indicators"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "notification",
+        "class": "monaco-alert"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "VS Code system notifications and alerts -- operator-authored messages"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-status"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "VS Code status messages in ARIA container -- operator-authored status copy"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "MarketingHeader-module__root__Tk7n3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar and marketing header -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-repo-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository navigation tabs -- Code, Issues, Pull requests, Actions, Projects, Security and quality, Insights; operator-defined navigation"
+  }
+]

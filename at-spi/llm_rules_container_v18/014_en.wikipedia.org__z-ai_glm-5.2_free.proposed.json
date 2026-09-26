@@ -1,0 +1,133 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders: Wikipedia logo/wordmark/tagline, search box, Donate/Create account/Log in links; operator interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "vector-main-menu-dropdown"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main menu dropdown -- operator navigation control with fixed label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "mw-body-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page title bar -- renders: 'Search results' heading and help link; operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "right-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "right navigation -- renders: Views, Tools, Page tools dropdown; operator-defined fixed vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "vector-appearance"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "appearance settings panel -- renders: font size Small/Regular/Large, width Standard/Wide, theme Auto/Light/Night; operator controls with fixed vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mw-search-top-table"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search form -- renders: search input placeholder, Search button, results-count labels; operator controls and labels, computed counts handled by deterministic pass"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "cdx-table-pager__limit-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "results-per-page selector -- renders: 20/50/100/250/500 per page; operator-defined fixed vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "iw-result__header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "interwiki result set header -- renders: project names (Wikisource/Wikiquote/Wikibooks); operator-defined closed set of Wikimedia project names"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "iw-result__footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "interwiki result set footer -- renders: 'More results' link; operator-defined fixed vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: Privacy policy/About Wikipedia/Disclaimers/Contact Wikipedia/Developers/Statistics/Cookie statement/Mobile view; operator-defined fixed vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "mw-jump-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip link -- renders: 'Jump to content'; operator-defined fixed vocabulary"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "search"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "mw-advancedSearch-expandablePane-options"
+      },
+      {
+        "role": "section",
+        "class": "mw-advancedSearch-expandablePane-namespaces"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination buttons -- renders: Previous/Next; subtracts advanced search filter panel expanders which stay untrusted per filter-panel rule"
+  }
+]

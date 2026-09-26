@@ -1,0 +1,21 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "title bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Window title bar and window controls -- renders: window title, minimize/maximize/close buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Window control buttons (minimize/maximize/close) -- renders: fixed window control glyphs"
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {
+    "scope": "page",
+    "verdict": "trusted",
+    "note": "File Roller desktop application -- all UI elements are operator-authored interface and local file metadata, not user-generated content"
+  }
+]

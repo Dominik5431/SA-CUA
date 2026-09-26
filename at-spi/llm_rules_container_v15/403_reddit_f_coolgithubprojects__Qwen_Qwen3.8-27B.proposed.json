@@ -1,0 +1,68 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Accessibility skip links -- renders: 'Skip to main content', 'Skip to sidebar'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global navigation bar -- renders: 'Reddit', 'Home', 'Search', 'Log in', 'Sign up', 'Create post'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "forum-name-heading"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Subreddit title -- renders: 'r/', 'coolgithubprojects' (operator-defined community name)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "flex flex--guttered"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Post sorting and filtering controls -- renders: 'Hot', 'New', 'Top', 'Rising', 'Controversial'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: 'Reddit', 'Inc.'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "class": "text-sm unlistify"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar chrome -- renders: 'coolgithubprojects', 'Subscribe', 'About', 'Rules', 'Moderators'; excludes community stats and moderator list which contain user-generated data"
+  }
+]

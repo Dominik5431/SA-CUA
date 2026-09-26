@@ -1,0 +1,34 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main toolbar -- renders: operator-defined navigation and view controls (Back, Forward, Zoom, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "split pane"
+      }
+    ],
+    "except": [
+      {
+        "role": "document frame"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Document viewer split pane -- renders: sidebar navigation controls (Bookmarks, Attachments, Layers) and status bar; the document content itself is subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Bottom panel -- renders: operator-defined document properties and metadata controls (e.g., Page, Zoom, Rotation)"
+  }
+]

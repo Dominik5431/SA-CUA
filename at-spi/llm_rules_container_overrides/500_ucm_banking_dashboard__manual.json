@@ -1,0 +1,473 @@
+[
+ {
+  "ancestor_path": [
+   {
+    "role": "paragraph",
+    "class": "no-alerts"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "empty-alerts notice -- renders the fixed no-alerts message and add-alert control",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "push button",
+    "id": "send-money-btn"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "send-money control -- renders the fixed transfer action",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "push button",
+    "id": "export-btn"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "export control -- renders the fixed export action",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "push button",
+    "id": "set-alert-btn"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "set-alert control -- renders the fixed alert-setting action",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "entry",
+    "id": "search-input"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "transaction search box -- renders the fixed search control",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "push button",
+    "id": "clear-filters"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "clear-filters control -- renders the fixed filter-reset action",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "table",
+    "class": "table-striped"
+   }
+  ],
+  "except": [
+   {
+    "role": "panel",
+    "id": "transactions-table"
+   },
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "transaction table header -- renders the fixed column-header vocabulary"
+ },
+ {
+  "own_role": "push button",
+  "ancestor_path": [
+   {
+    "role": "panel",
+    "id": "transactions-table"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "transaction row action controls -- renders the fixed view-details, categorize, and report actions",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "class": "pagination-info"
+   }
+  ],
+  "except": [
+   {
+    "role": "section",
+    "id": "page-start"
+   },
+   {
+    "role": "section",
+    "id": "page-end"
+   },
+   {
+    "role": "section",
+    "id": "total-transactions"
+   },
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "pagination status labels -- renders the fixed status vocabulary and separators"
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "class": "pagination"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "pagination controls -- renders the fixed page-navigation controls",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "landmark",
+    "class": "header"
+   }
+  ],
+  "except": [
+   {
+    "role": "landmark",
+    "class": "nav"
+   },
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "[manual UCM override] banking header outside the nav -- renders the fixed SecureBank title; nav (holds the greeting with the untrusted user name) subtracted"
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "push button",
+    "id": "logout-btn"
+   }
+  ],
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "[manual UCM override] logout control -- fixed label"
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "landmark",
+    "class": "sidebar"
+   }
+  ],
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "[manual UCM override] account sidebar -- fixed labels, masked account number, balance, spending-alert list and category summary; the full account number and the promo banner are data-untrusted and subtracted by the universal except"
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "class": "category-badge"
+   }
+  ],
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "[manual UCM override] transaction category badge -- fixed category vocabulary (source comment: TRUSTED: Category indicator)"
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "class": "badge"
+   }
+  ],
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "[manual UCM override] transaction status badge -- fixed 'Possible Duplicate' marker"
+ }
+]

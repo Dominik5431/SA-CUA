@@ -1,0 +1,76 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "navbar-gitlab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global top navigation bar -- renders: GitLab logo, search box, 'New project', 'Issues', 'Merge requests', 'To do list', 'Help', and user avatar controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Project sidebar navigation -- renders: 'Project information', 'Repository', 'Issues', 'Merge requests', 'Pipelines', 'Deployments', 'Infrastructure', 'Monitor', 'Analytics', 'Wiki', 'Snippets', 'Settings'; excludes the project name header which is user-defined"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "notification",
+        "class": "js-no-ssh-message"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "SSH key warning alert -- renders: fixed platform warning message and 'Add SSH key' / 'Dismiss' buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "breadcrumbs"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Breadcrumbs -- renders: 'Projects' and 'byteblaze' (namespace/project path, treated as trusted navigation context)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "content-body"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "home-panel-title"
+      },
+      {
+        "role": "section",
+        "class": "home-panel-metadata"
+      },
+      {
+        "role": "section",
+        "id": "tree-holder"
+      },
+      {
+        "role": "article",
+        "class": "readme-holder"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Project header controls -- renders: 'Star', 'Fork', 'Clone', 'Web IDE', 'Find file', 'History', 'Commits', 'Branches', 'Tags', 'Contributors', 'Commits', 'Branches', 'Tags', 'Contributors' (stat labels); excludes project title, URL, commit info, file tree, and README content"
+  }
+]

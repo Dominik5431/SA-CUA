@@ -1,0 +1,38 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "LibreOffice application menu bar -- renders fixed operator vocabulary for application commands (File, Edit, View, Insert, Format, Tools, Window, Help) and their sub-items"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "page tab list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Spreadsheet sheet tab list -- renders operator-defined sheet names (e.g., Sheet1, Sheet2) which are part of the document structure and not free-form user content in the context of the application interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "LibreOffice toolbars -- render fixed operator vocabulary for standard application actions (Save, Print, Copy, Paste, formatting controls, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Application status bar -- renders fixed operator vocabulary for status indicators (Ready, cell reference, zoom level, etc.)"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "bypass_menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip-to-content link -- renders: 'Skip to main content'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders: 'Booking.com', 'Sign in', 'Register', 'List your property', 'Support', 'Language: English (US)', 'Currency: USD', 'Accommodations', 'Flights', 'Flight + Hotel', 'Car rental', 'Attractions', 'Airport taxis'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "fff1944c52"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "breadcrumb navigation -- renders: 'Home', 'Hotels', 'City', 'Property Name' (operator-defined path structure)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "f8d8d99a17"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search bar controls -- renders: 'Where are you going?', 'Check-in', 'Check-out', 'Number of guests', 'Search'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "ce1108eff4"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sort control -- renders: 'Sort by: Recommended'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "b99b6ef58f b34f2cc03f"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "filter toggle -- renders: 'Filters'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "b7ef425131 e9f1adff2b c03fb03748"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "filter sidebar -- renders: 'Filters', 'Your previous filters', 'Price', 'Popular filters', 'Property Type', 'Review Score', 'Meals', 'Hotel Facilities', 'Room Facilities', 'Class', 'Distance to Center', 'Popular Nearby Landmarks', 'Free Cancellation', 'Travel Group', 'Stay Type', 'Popular Activities', 'Chain', 'Rated Highly', 'Payment Method', 'Sustainable Property Level', 'Accessible Facilities', 'Accessible Room Facilities', 'See more', 'Clear all', 'Show results'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "b87c397a13 cacb5ff522"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "results count header -- renders: 'Hotels in [City]'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "ad68e1f7ce bb51db7864"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view switcher -- renders: 'List', 'Grid'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "a297f43545"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sort dropdown trigger -- renders: 'Sort by: Recommended'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "TravellerFooter_root--variant-full"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: 'Support', 'Careers', 'Blog', 'How We Work', 'Travel Careers', 'Investors', 'Sustainability', 'Privacy & Terms', 'Contact us', 'Property owners', 'Affiliates', 'Free desktop app', 'Carriers', 'Corporates', 'Languages: English (US)', 'Currency: USD', '\u00a9 2024 Booking.com'"
+  }
+]

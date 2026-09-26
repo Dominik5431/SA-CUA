@@ -1,0 +1,59 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-action-bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "activity bar -- renders: Explorer/Search/Source Control/Run/Extensions view icons and Accounts/Settings buttons; fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar",
+        "class": "ElectronMenuBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top menu bar -- renders: File/Edit/Selection/View/Go/Run/Terminal/Help; fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "class": "highlight-toggled"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "editor tab toolbar -- renders: Split Editor and More Actions buttons; fixed operator controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "page tab list",
+        "class": "tabs-container"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "close button on editor tabs -- fixed operator control; the tab label carrying the user-chosen file name stays masked"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar",
+        "id": "workbench.parts.statusbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "status.host"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "status bar -- renders: Problems, Forwarded Ports, Notifications, editor mode/EOL/encoding/indentation/selection, Screen Reader Mode; fixed labels with computed values; subtracts status.host which can display a user-supplied remote host name"
+  }
+]

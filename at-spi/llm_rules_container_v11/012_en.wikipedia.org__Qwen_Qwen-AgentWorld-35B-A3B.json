@@ -1,0 +1,129 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar and search -- operator's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left navigation panel -- renders: namespace tabs (Article, Talk), operator's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "right-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "right navigation panel -- renders: view/edit/history tabs, page tools, operator's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-appearance-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "appearance settings panel -- renders: font size, width, theme controls, operator's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer -- renders: site links, privacy, about, contact, Wikimedia links, operator's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "mw-body-header vector-page-titlebar no-font-mode-scale"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "id": "firstHeading"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page title bar chrome -- renders: help link indicator; the article/history title heading is subtracted as user-generated"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mw-pager-navigation-bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- renders: last, next, page numbers, operator-defined values"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mw-history-compareselectedversions"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "compare selected versions button -- operator's own interface control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "id": "mw-history-search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "history search form panel -- operator's own interface control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "mw-contributions-list"
+      }
+    ],
+    "own_role": "radio button",
+    "verdict": "trusted",
+    "note": "revision selection radio buttons inside history contributions list -- operator controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mw-history-subtitle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "history subtitle bar -- renders: view history, page tools links, operator's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "histlegend"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "history legend -- renders: key and legend text for history diffs, operator's own copy"
+  }
+]

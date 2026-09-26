@@ -1,0 +1,44 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      },
+      {
+        "role": "split pane"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "toolbar panels -- operator's own interface controls and labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "status bar",
+    "verdict": "trusted",
+    "note": "status bar -- operator's own interface with computed values and fixed labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "radio button",
+    "verdict": "trusted",
+    "note": "search scope radio buttons -- operator's own interface controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "check box",
+    "verdict": "trusted",
+    "note": "search options checkboxes -- operator's own interface controls"
+  }
+]

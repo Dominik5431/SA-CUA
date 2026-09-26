@@ -1,0 +1,73 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "gb"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Google header chrome -- renders the fixed apps, navigation, account, and service-link vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "pzfvzf"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search-box control -- renders the fixed clear/search control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "PlF8V"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "map control -- renders the fixed map-view control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "pEO5hf"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "map utility control -- renders the fixed map utility and shortcut vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "gYkzb"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "results-panel control -- renders the fixed panel-collapse or navigation-control vocabulary"
+  },
+  {
+    "own_role": "link",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "Q4BGF"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "place-card action links -- renders the fixed directions and website-action vocabulary, separate from listing names and descriptions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "H4v9Kb"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "map attribution and utility chrome -- renders the fixed attribution and map-utility vocabulary"
+  }
+]

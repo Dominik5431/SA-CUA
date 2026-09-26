@@ -1,0 +1,42 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "OC\\Settings\\Panels\\Personal\\Quota"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Quota panel -- renders: fixed label and computed storage usage value"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "groups"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Groups section -- renders: fixed heading and computed group membership list"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "OCA\\Notifications\\Panels\\Personal\\NotificationsPanel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Notifications panel -- renders: fixed heading, description, and dropdown options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "OC\\Settings\\Panels\\Personal\\Version"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Version panel -- renders: fixed heading, version number, and links"
+  }
+]

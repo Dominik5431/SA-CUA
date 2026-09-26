@@ -1,0 +1,104 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "rcx-sidebar sidebar sidebar--main sidebar--medium"
+      }
+    ],
+    "except": [
+      {
+        "role": "landmark",
+        "class": "rooms-list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main sidebar chrome -- renders: user status, fixed icon buttons (Home, DMs, etc.), and separators; the rooms list is subtracted as it renders user-created channel names"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar top bar -- renders: fixed section title (e.g. 'Channels') and fixed icon buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-section"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar section headers -- renders: fixed category labels (e.g. 'Favorites', 'Channels')"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "footer",
+        "class": "rcx-css-1h8ylb3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar footer -- renders: fixed platform logo"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-css-ebq3kg"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar user profile block -- renders: fixed profile link structure (avatar, name, status); the name/status are user-controlled but the container is the operator's profile widget"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "rcx-room-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "rcx-css-u5iepl"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Room header -- renders: fixed action buttons (search, info, etc.); the room title heading is subtracted as it renders a user-created channel name"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "new-message"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "New message button -- renders: fixed label 'New message'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "jump-recent"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Jump to recent button -- renders: fixed label 'Jump to recent messages'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "footer",
+        "class": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Message input footer -- renders: fixed message box controls, formatting toolbar buttons (Bold, Italic, etc.), and emoji picker; the text entry is a control, not content"
+  }
+]

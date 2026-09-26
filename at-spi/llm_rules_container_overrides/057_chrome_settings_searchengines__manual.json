@@ -1,0 +1,7 @@
+[
+  {
+    "scope": "page",
+    "verdict": "trusted",
+    "note": "chrome://settings/searchEngines -- 'Manage search engines and site search'. The prebuilt engine table (Google/Bing/Yahoo/Baidu/360) and the built-in @bookmarks/@gemini/@history/@tabs shortcuts are Chrome's own. KNOWN RESIDUAL, accepted deliberately: Chrome can auto-add a Site Search row from a visited site's OpenSearch descriptor, whose Name and Shortcut then come from that site. It is not subtracted because the rows are structurally identical to the built-in engines' (same table-cell #name-column / #shortcut-column, no container discriminates them), so an except would also mask 'Microsoft Bing' -- the exact string task bb5e4c0d has to find. A search-engine name and an @shortcut are short, single-line and capacity-bound; the unbounded channel on these pages is chrome://extensions, and that one IS subtracted (see 060)."
+  }
+]

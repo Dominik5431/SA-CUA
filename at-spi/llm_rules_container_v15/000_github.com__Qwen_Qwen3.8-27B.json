@@ -1,0 +1,86 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-repo-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Repository tab navigation -- renders: Code/Actions/Projects/Security and quality/Insights"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "OverviewContent-module__Box_3__wzlJx"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "ref-selector-button-text-container"
+      },
+      {
+        "role": "link",
+        "class": "AuthorAvatar-module__authorHoverableLink__MHTT8"
+      },
+      {
+        "role": "link",
+        "class": "Link--secondary"
+      },
+      {
+        "role": "section",
+        "class": "react-directory-commit-message"
+      },
+      {
+        "role": "link",
+        "class": "Link--primary"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "File browser controls and table headers -- renders: branch selector button, file search box, 'Folders and files' heading, and column headers (Name/Last commit message/Updated); subtracts the branch name, author name, commit messages, and file/folder names"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "OverviewRepoFiles-module__Box_3__bBU1C"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "DirectoryRichtextContent-module__SharedMarkdownContent__hHXUL"
+      },
+      {
+        "role": "paragraph",
+        "class": "SidebarAbout-module__description__xTkIP"
+      },
+      {
+        "role": "list",
+        "class": "SidebarContributors-module__avatarGrid__ldWz7"
+      },
+      {
+        "role": "list",
+        "class": "SidebarLanguages-module__languageList__R3aIa"
+      },
+      {
+        "role": "link",
+        "class": "SidebarReleases-module__tagsLink__MhJ8g"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Repository sidebar chrome -- renders: 'About' and 'Languages' section headings, 'Releases' and 'Contributors' headings, and 'View all' links; subtracts the README content, repository description, contributor avatars/names, language breakdown, and release tag"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "footer f6"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site footer -- renders: copyright notice and fixed links (Docs, Blog, Changelog, Pricing, API, Training, Security, Contact, Status, Community, Help, Contact GitHub, etc.)"
+  }
+]

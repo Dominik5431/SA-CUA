@@ -1,0 +1,66 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-action-bar vertical"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Activity Bar -- operator's own interface navigation icons for views and settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar",
+        "id": "workbench.parts.statusbar",
+        "class": "part statusbar status-border-top"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Status Bar -- operator's own interface controls and status indicators for host, problems, ports, notifications, editor mode, language, eol, encoding, indentation, selection, screen reader mode"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "class": "actions-container highlight-toggled"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Editor tab actions toolbar -- operator's own interface controls for split editor and more tab actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "page tab",
+        "class": "tab tab-actions-right sizing-fit has-icon active tab-border-bottom tab-border-top"
+      }
+    ],
+    "own_role": "tool bar",
+    "verdict": "trusted",
+    "note": "Tab actions toolbar -- operator's own interface controls for tab close and actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "notification-list-item-buttons-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Notification toast action buttons -- operator's own interface controls for notification actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "dialog",
+        "id": "list_id_3_0",
+        "class": "monaco-list-row"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Notification toast action and clear buttons -- operator's own interface controls for notifications"
+  }
+]

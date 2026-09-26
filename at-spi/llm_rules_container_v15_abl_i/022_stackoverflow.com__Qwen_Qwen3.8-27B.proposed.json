@@ -1,0 +1,72 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: Skip to main content, Stack Overflow, Questions, Search, Help, Stack Exchange, Log in, Sign up"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: Stack Overflow, About, Products, Careers, Legal, Privacy Policy, Terms of Service, Cookie Settings, Social media links, Copyright"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "js-collectives-navcta-toggle"
+      },
+      {
+        "role": "list item",
+        "class": "js-freemium-cta"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Left sidebar navigation -- renders: Home, Questions, Ask, Tags, Users, Companies, Collectives, Free Trial; excludes dynamic promotional CTAs"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "stats"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "User stats section -- renders: Stats, Reputation, Answers, Questions, Badges, Viewed; values are computed counts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "top-tags"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top tags section -- renders: Top Tags, View all; tag names and counts are user-generated/computed"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "js-top-posts"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top posts section -- renders: Top Posts, Filter buttons (Answers, Questions, etc.), Sort buttons (Newest, Active, etc.); post titles and timestamps are user-generated/computed"
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "entry",
+        "id": "search-input",
+        "class": "form-input trusted"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search control -- renders the operator-defined search-box interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "search-btn",
+        "class": "btn btn-primary trusted"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search action -- renders the fixed search-control label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "sort-select",
+        "class": "form-select trusted"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sort control -- renders the fixed sort-choice vocabulary"
+  }
+]

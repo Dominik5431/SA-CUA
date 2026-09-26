@@ -1,0 +1,96 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "header-wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site header -- renders: Skip to content, GitHub, Platform, Solutions, Marketplace, Pricing, Sign in, Sign up, Search, Appearance"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repository-container-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "link",
+        "class": "url fn"
+      },
+      {
+        "role": "section",
+        "id": "repo-network-counter"
+      },
+      {
+        "role": "section",
+        "id": "repo-stars-counter-star"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Repository header controls -- renders: Watch, Fork, Star, Code, Issues, Pull requests, Actions, Projects, Wiki, Security, Insights; repository name and social counts are subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "_R_5j5_"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issues sidebar navigation -- renders: Issues, Pull requests, Discussions, Actions, Projects, Security, Milestones, Labels, Assignees, New issue, Feedback, Collapse"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "SidebarPageLayout-module__Header__iBvK6"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issues page header -- renders: Issues, New issue"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "FilteredListPageLayout-module__FilterBar__yw_Ew"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue search and filter bar -- renders: Search issues, Clear, Search"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "_r_7_-list-view-metadata"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue list controls -- renders: Open, Closed, Labels, Assignees, Milestone, Sort, Newest, Oldest, Most commented, Least commented, Recently updated, Least recently updated"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "prc-Pagination-PaginationContainer-HEhGo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Pagination controls -- renders: Previous, Next, page numbers"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: GitHub, Terms, Privacy, Security, Status, Docs, Contact, Manage cookies, Do not share my personal information"
+  }
+]

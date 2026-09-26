@@ -1,0 +1,32 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "page tab list",
+        "class": "actions-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Activity Bar navigation -- renders the fixed Explorer/Search/Source Control/Run and Debug/Extensions vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "class": "actions-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "operator toolbars -- renders fixed account, settings, editor split, overflow, and notification-dismiss controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar",
+        "class": "ElectronMenuBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "application menu bar -- renders the fixed VS Code menu vocabulary"
+  }
+]

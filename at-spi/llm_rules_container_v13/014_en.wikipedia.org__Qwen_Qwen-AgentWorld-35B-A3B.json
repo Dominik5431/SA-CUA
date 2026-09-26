@@ -1,0 +1,84 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "mw-jump-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip link -- platform's own interface for accessibility"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-header mw-header no-font-mode-scale"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface including main menu, logo, search box, and user links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "mw-footer",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer -- platform's own site links and icons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "mw-body-header vector-page-titlebar no-font-mode-scale"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page title bar and indicators -- platform's own interface including heading and helplink"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "right-navigation",
+        "class": "vector-collapsible"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "right navigation and page tools -- platform's own interface including page tools dropdown"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vector-sticky-pinned-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "appearance settings panel -- platform's own interface including font size, width, and theme controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "results-info"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search results info -- platform's computed result count and status"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "cdx-table-pager__limit-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "results per page control -- platform's own pagination and limit settings"
+  }
+]

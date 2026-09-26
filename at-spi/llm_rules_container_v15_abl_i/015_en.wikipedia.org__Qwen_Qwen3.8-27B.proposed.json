@@ -1,0 +1,122 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: Wikipedia logo, search box, main menu, user links (Donate, Create account, Log in)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "mw-body-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Page title bar -- renders: page title, language selector button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Left navigation tabs -- renders: Category, Talk"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "right-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Right navigation tabs -- renders: Read, Edit, View history, Tools"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vector-sticky-pinned-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Appearance settings panel -- renders: Appearance, Font size (Small, Standard, Large), Width (Standard, Full), Theme (System, Light, Dark)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mw-indicators"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Page indicators -- renders: Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "siteSub"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site subtitle -- renders: From Wikipedia, the free encyclopedia"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mwAw"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sister site box -- renders: Wikipedia logo, link to sister project"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "paragraph",
+        "id": "mwBA"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Category description -- renders: fixed editorial text describing the category"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "comment",
+        "id": "mwCg"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Hatnote -- renders: fixed navigation note"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "catlinks"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Category links -- renders: Categories, list of category names"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Footer -- renders: last modified date, rendered with MediaWiki, copyright, privacy policy, about, disclaimers, contact, legal safety contacts, code of conduct, developers, stats, cookie statement, mobile view, Wikimedia Foundation logo, Powered by MediaWiki logo"
+  }
+]

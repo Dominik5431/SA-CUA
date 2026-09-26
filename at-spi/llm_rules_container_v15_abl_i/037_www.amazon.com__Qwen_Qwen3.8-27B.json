@@ -1,0 +1,171 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "shortcut-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Accessibility shortcut menu -- renders: Skip to main content, Keyboard shortcuts, Search, Cart, Home, Your orders, Show shortcuts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "navbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry",
+        "id": "twotabsearchtextbox"
+      },
+      {
+        "role": "section",
+        "id": "nav-global-location-data-modal-action"
+      },
+      {
+        "role": "section",
+        "id": "nav-link-accountList"
+      },
+      {
+        "role": "link",
+        "id": "nav-orders"
+      },
+      {
+        "role": "link",
+        "id": "nav-cart"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main navigation bar -- renders: Amazon logo, Search, All, Today's Deals, Customer Service, Help, Cart, Orders, Account, and fixed category links; excludes user-specific location, account name, and order/cart counts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-xshop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Secondary navigation bar -- renders: fixed category links like Today's Deals, Customer Service, Help, etc."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "outOfStock"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Out of stock buybox message -- renders: fixed 'Currently unavailable' text and 'Add to List' button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "poToggleButton"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Product overview expander toggle -- renders: 'See more' or 'See less' button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "featurebullets_feature_div"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "class": "a-unordered-list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "About this item section header and toggle -- renders: 'About this item' heading and 'See more' button; excludes the seller-provided feature bullet list"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "btf-sub-nav-desktop-product-info-tabs"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Bottom of page sub-navigation tabs -- renders: fixed tab labels like 'About this item', 'Product information', 'Customer reviews'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "productDetails"
+      }
+    ],
+    "own_role": "row header",
+    "verdict": "trusted",
+    "note": "Product details table row headers -- renders: fixed attribute labels like 'Brand', 'Model Name', 'Item Weight', 'ASIN'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "witb-content-list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "What's in the box list -- renders: fixed list of included components defined by the operator for this product"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "cm_cr_dp_d_rating_histogram"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Customer ratings histogram -- renders: fixed star rating labels (5 star, 4 star, etc.) and 'Customer reviews' heading"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "page tab list",
+        "class": "a4-arrow-nav-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Review filter tabs -- renders: fixed filter labels like 'All reviewers', 'Verified purchase', '5 star', '4 star', etc."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "cr-media-carousel-heading"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Review media carousel heading -- renders: 'Photos from customers' or similar fixed label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "cm_cr_top_reviews_to_arp_button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Link to all reviews -- renders: 'See more reviews' or similar fixed call to action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooter"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: fixed navigation links, legal text, and 'Back to top' button"
+  }
+]

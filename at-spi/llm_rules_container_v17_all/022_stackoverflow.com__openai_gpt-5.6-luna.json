@@ -1,0 +1,104 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- renders fixed platform branding, navigation, search, help, site controls, and account controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "s-navigation--item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "platform navigation and profile-tab controls -- renders fixed navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "s-navigation--item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "platform navigation button -- renders fixed navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search control -- renders the operator's fixed search interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-help-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "help control -- renders fixed platform help vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "left-sidebar--sticky-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left navigation and platform CTA area -- renders fixed site navigation, editorial CTA copy, and account or browse controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "ps-relative mb16"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "profile action menu control -- renders a fixed platform action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "fs-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "profile section headings -- renders fixed platform section-label vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "main-content"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "main-content headings -- renders fixed labels such as profile and section headings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders fixed platform navigation, policy, social, consent, and legal vocabulary"
+  }
+]

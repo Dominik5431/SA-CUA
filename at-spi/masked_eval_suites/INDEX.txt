@@ -1,0 +1,64 @@
+Masked eval-suite review set
+rules_dir = llm_rules_container_v15,llm_rules_container_v17_suites_or,llm_rules_container_overrides
+rendered through masking.build_mask (live path: platform='desktop', live routing)
+
+== thunderbird  (9 captures)
+capture                                                    rules_from        n  mask%  donor
+200_thunderbird_inbox.xml                                  app_union        59   48.4  <union of 9>
+201_thunderbird_message_phish.xml                          app_union        59   84.0  <union of 9>
+202_thunderbird_message_legit.xml                          app_union        59   84.0  <union of 9>
+203_thunderbird_message_receipt.xml                        app_union        59   84.1  <union of 9>
+204_thunderbird_message_encoded.xml                        app_union        59   84.0  <union of 9>
+205_thunderbird_search.xml                                 app_union        59   50.1  <union of 9>
+206_thunderbird_local_folder.xml                           app_union        59   48.4  <union of 9>
+207_thunderbird_compose_reply.xml                          app_union        59   77.7  <union of 9>
+246_thunderbird_attach_chooser.xml                         app_union        59   79.9  <union of 9>
+
+== reddit  (9 captures)
+capture                                                    rules_from        n  mask%  donor
+400_reddit_f_coolgithubprojects_103666_i_made_a_browser_   exact_path       15   81.9  (self)
+401_reddit_f_coolgithubprojects_103669_adding_colored_ou   exact_path       13   80.7  (self)
+402_reddit_f_coolgithubprojects_18013_how_do_you_use_tmu   exact_path       15   79.2  (self)
+403_reddit_f_coolgithubprojects.xml                        exact_path        9   75.3  (self)
+404_reddit_f_technology.xml                                exact_path       12   70.5  (self)
+405_reddit_all_hot.xml                                     exact_path        3   84.2  (self)
+406_reddit_forums.xml                                      exact_path        7   84.0  (self)
+407_reddit_comments.xml                                    exact_path       10   77.3  (self)
+408_reddit_user_AineeJames.xml                             exact_path       12   76.8  (self)
+
+== owncloud  (10 captures)
+capture                                                    rules_from        n  mask%  donor
+420_owncloud_index_php_apps_files_dir_fileid_5.xml         template_loose   15   85.5  422_owncloud_index_php_apps_files_dir_
+421_owncloud_index_php_apps_files_dir_Documents_fileid_1   template_loose   15   85.5  422_owncloud_index_php_apps_files_dir_
+422_owncloud_index_php_apps_files_dir_Documents_Financia   exact_path       15   52.9  (self)
+423_owncloud_index_php_apps_files_dir_Documents_Data_20A   exact_path       13   69.4  (self)
+424_owncloud_index_php_apps_files_dir_Documents_Human_20   exact_path       11   37.3  (self)
+425_owncloud_index_php_apps_files_dir_Documents_Admin_fi   exact_path       13   36.5  (self)
+426_owncloud_index_php_apps_files_dir_Documents_Research   exact_path        8   34.2  (self)
+427_owncloud_index_php_apps_files_dir_Photos_fileid_133.   exact_path       15   41.6  (self)
+428_owncloud_index_php_apps_files_dir_Templates_fileid_1   exact_path       15   49.9  (self)
+429_owncloud_index_php_settings_personal.xml               exact_path       11   11.0  (self)
+
+== rocketchat  (9 captures)
+capture                                                    rules_from        n  mask%  donor
+440_rocketchat_channel_kudos.xml                           exact_path        7   80.8  (self)
+441_rocketchat_channel_help_desk.xml                       exact_path       13   81.5  (self)
+442_rocketchat_channel_tech_talk.xml                       exact_path       10   80.9  (self)
+443_rocketchat_channel_random.xml                          exact_path        9   80.6  (self)
+444_rocketchat_channel_hr_announcements.xml                exact_path       12   81.4  (self)
+445_rocketchat_channel_project_ai.xml                      exact_path        9   83.4  (self)
+446_rocketchat_channel_project_webcrawler.xml              exact_path        5   82.0  (self)
+447_rocketchat_directory_channels.xml                      exact_path        8   46.5  (self)
+448_rocketchat_home.xml                                    exact_path       12   13.5  (self)
+
+== gitlab  (9 captures)
+capture                                                    rules_from        n  mask%  donor
+460_gitlab_byteblaze_dotfiles_issues_1.xml                 exact_path       18   13.7  (self)
+461_gitlab_a11yproject_a11yproject_com_issues_1534.xml     exact_path       33   12.2  (self)
+462_gitlab_a11yproject_a11yproject_com_issues.xml          exact_path       13   12.4  (self)
+463_gitlab_byteblaze_a11y_webring_club_issues.xml          exact_path       16   14.4  (self)
+464_gitlab_byteblaze_dotfiles.xml                          exact_path       23    9.9  (self)
+465_gitlab_byteblaze_empathy_prompts.xml                   exact_path       37   15.8  (self)
+466_gitlab_byteblaze_dotfiles_commits_main.xml             exact_path       11   23.9  (self)
+467_gitlab_byteblaze_empathy_prompts_merge_requests.xml    exact_path       11    7.5  (self)
+468_gitlab_explore_projects.xml                            exact_path       13   10.2  (self)

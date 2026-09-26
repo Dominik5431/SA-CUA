@@ -1,0 +1,72 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left sidebar navigation -- platform's own interface and operator-defined navigation links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- platform's own interface and links throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "stats"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user stats section -- computed values including scores and badges"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "list-reset d-flex fd-column gs12 gsy wmx2"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "associated sites list -- operator-defined site names and scores"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "js-top-posts"
+      }
+    ],
+    "except": [
+      {
+        "role": "link",
+        "class": "answer-hyperlink"
+      },
+      {
+        "role": "link",
+        "class": "question-hyperlink"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top posts section -- renders: heading, filter and sort controls, timestamps; subtracted post titles"
+  }
+]

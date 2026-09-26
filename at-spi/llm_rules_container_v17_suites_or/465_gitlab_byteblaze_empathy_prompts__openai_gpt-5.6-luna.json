@@ -1,0 +1,374 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "gl-sr-only gl-accessibility"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility navigation control -- renders fixed platform accessibility vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "platform title and branding -- renders fixed GitLab interface vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "logo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "GitLab logo navigation -- renders fixed platform branding"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "entry",
+        "id": "search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "global search box -- renders the fixed search control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "keyboard-shortcut-helper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search keyboard-shortcut hint -- renders fixed platform control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "js-onboarding-new-project-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "new-project control -- renders fixed project-creation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "dashboard-shortcuts-issues"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issues shortcut -- renders fixed issue-navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "dashboard-shortcuts-merge_requests"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "merge-request shortcut -- renders fixed merge-request navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "shortcuts-todos"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "todo shortcut -- renders fixed todo-navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "header-help-dropdown-toggle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "help menu control -- renders fixed help and support vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "notification",
+        "class": "gl-alert js-no-ssh-message"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "platform SSH warning -- renders fixed warning copy and fixed dismiss/action controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "shortcuts-project-information"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "project-information navigation control -- renders fixed project navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "js-onboarding-repo-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository navigation control -- renders fixed repository navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "js-onboarding-issues-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issues navigation control -- renders fixed issue-management vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "js-onboarding-mr-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "merge-request navigation control -- renders fixed merge-request vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "js-onboarding-pipelines-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pipelines navigation control -- renders fixed CI/CD navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "shortcuts-deployments"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "deployments navigation control -- renders fixed deployment vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "shortcuts-infrastructure"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "infrastructure navigation control -- renders fixed infrastructure vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "shortcuts-monitor"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "monitor navigation control -- renders fixed monitoring vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "shortcuts-analytics"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "analytics navigation control -- renders fixed analytics vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "shortcuts-wiki"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "wiki navigation control -- renders fixed wiki navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "shortcuts-snippets"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "snippets navigation control -- renders fixed snippets navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "js-onboarding-settings-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "settings navigation control -- renders fixed settings vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "toggle-sidebar-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar toggle control -- renders fixed expand/collapse vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "star-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "star action control -- renders fixed starring vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "fork-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "fork action control -- renders fixed fork vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "__BVID__5"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "project action dropdown control -- renders fixed project-action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "text-expander"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "commit-message expansion control -- renders fixed expand/collapse vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "clipboard-button-2"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "copy control -- renders fixed clipboard action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "add-to-tree"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository add-item control -- renders fixed add-file/add-directory vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "shortcuts-find-file"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "find-file control -- renders fixed repository search vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "web-ide-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "web IDE control -- renders fixed IDE navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "project-action-button"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "project actions control -- renders fixed project-action menu vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "clone-dropdown"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "clone control -- renders fixed repository-cloning vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "column header",
+        "id": "name"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file-name column header -- renders fixed table-header vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "column header",
+        "id": "last-commit"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "last-commit column header -- renders fixed table-header vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "column header",
+        "id": "last-update"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "last-update column header -- renders fixed table-header vocabulary"
+  }
+]

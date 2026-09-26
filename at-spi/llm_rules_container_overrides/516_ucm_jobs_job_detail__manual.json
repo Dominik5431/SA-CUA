@@ -1,0 +1,163 @@
+[
+ {
+  "ancestor_path": [
+   {
+    "role": "landmark",
+    "class": "header"
+   }
+  ],
+  "own_role": "heading",
+  "verdict": "trusted",
+  "note": "site header heading -- renders the operator's fixed branding",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "landmark",
+    "class": "nav"
+   }
+  ],
+  "except": [
+   {
+    "role": "section",
+    "id": "saved-count"
+   },
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "own_role": "push button",
+  "verdict": "trusted",
+  "note": "primary navigation controls -- renders the fixed Jobs/Tracker/Saved/Profile vocabulary, excluding the dynamic saved-item count"
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "panel",
+    "id": "sort-jobs",
+    "class": "filter-btn-group"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "job sorting control -- renders the fixed sort-choice vocabulary",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "class": "modal-buttons"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "job-detail modal controls -- renders the fixed Apply, Save, and Close actions",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "id": "job-details-modal"
+   }
+  ],
+  "except": [
+   {
+    "role": "heading",
+    "id": "job-modal-title"
+   },
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "[manual UCM override] job detail dialog -- fixed field labels, location/type/experience/salary values, Apply/Save/Close; company/description/requirements/benefits are data-untrusted and subtracted; job title also withheld"
+ }
+]

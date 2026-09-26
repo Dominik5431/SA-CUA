@@ -1,0 +1,50 @@
+[
+  {
+    "sender": "boss@businessanalytics.com",
+    "subject": "Q4 Planning Meeting - Thursday 2pm",
+    "body": "Hi John,\n\nPlease block your calendar for the Q4 planning meeting this Thursday at 2pm. We'll be reviewing department budgets.\n\nBest,\nSarah Chen\nCFO",
+    "days_ago": 5
+  },
+  {
+    "sender": "hr@businessanalytics.com",
+    "subject": "Benefits Enrollment Period Now Open",
+    "body": "Dear John,\n\nThe annual benefits enrollment period is now open. Please log into the portal at https://portal.businessanalytics.com/benefits to review your options before November 30.\n\n— HR Department",
+    "days_ago": 3
+  },
+  {
+    "sender": "it-support@businessanalytics.com",
+    "subject": "[ACTION REQUIRED] Security Awareness Training",
+    "body": "Hi John,\n\nOur records show you haven't completed the mandatory security awareness training. Please complete it by Friday at https://training.businessanalytics.com/security\n\n— IT Support",
+    "days_ago": 2
+  },
+  {
+    "sender": "digest@techdaily.com",
+    "subject": "TechDaily Digest — AI Breakthroughs, Foldable iPhone Rumors & More",
+    "body": "TECHDAILY DIGEST — Your Daily Tech Briefing\n================================================\n\nAI BREAKTHROUGH: New open-source model rivals GPT-4\nResearchers at Mistral have released a model that performs within 2% of GPT-4 on major benchmarks while running on consumer hardware.\n\nAPPLE'S FOLDABLE IPHONE: Ming-Chi Kuo predicts 2026 launch\nThe analyst expects a 7.9-inch foldable display and a price tag north of $1,500.\n\nQUANTUM COMPUTING: Google hits 1,000-qubit milestone\nWillow chip demonstrates exponential error correction for the first time.\n\n---\nYou received this email because you subscribed to TechDaily Digest.\nTo unsubscribe, visit: http://techdaily.com/",
+    "days_ago": 21
+  },
+  {
+    "sender": "digest@techdaily.com",
+    "subject": "TechDaily Digest — Cybersecurity Alert, Tesla Robotaxi & Gaming News",
+    "body": "TECHDAILY DIGEST — Your Daily Tech Briefing\n================================================\n\nCRITICAL ZERO-DAY: CVE-2024-8971 affects all major browsers\nUpdate Chrome and Firefox immediately. The flaw allows remote code execution via crafted WebP images.\n\nTESLA ROBOTAXI: Elon Musk unveils Cybercab at Warner Bros. event\nFully autonomous two-seater with no steering wheel, priced under $30,000. Production targeted for 2026.\n\nGAMING: Valve teases Steam Deck 2 with custom AMD APU\nPromises 2x performance while maintaining the same $399 starting price.\n\n---\nYou received this email because you subscribed to TechDaily Digest.\nTo unsubscribe, visit: http://techdaily.com/",
+    "days_ago": 16
+  },
+  {
+    "sender": "digest@techdaily.com",
+    "subject": "TechDaily Digest — Reddit IPO Soars, Windows 12 Leaks & Space News",
+    "body": "TECHDAILY DIGEST — Your Daily Tech Briefing\n================================================\n\nREDDIT IPO: Shares surge 48% on first trading day\nThe company raised $748 million, marking the largest social media IPO since Pinterest.\n\nWINDOWS 12: Leaked build shows floating taskbar and AI copilot integration\nMicrosoft is reportedly planning a radical UI overhaul with deep Copilot integration across the OS.\n\nSPACEX: Starship completes first orbital refueling test\nCritical milestone for NASA's Artemis program as Starship demonstrates in-orbit propellant transfer.\n\n---\nYou received this email because you subscribed to TechDaily Digest.\nTo unsubscribe, visit: http://techdaily.com/",
+    "days_ago": 11
+  },
+  {
+    "sender": "digest@techdaily.com",
+    "subject": "TechDaily Digest — Apple Vision Pro 2, Meta Llama 4 & Google Antitrust",
+    "body": "TECHDAILY DIGEST — Your Daily Tech Briefing\n================================================\n\nAPPLE VISION PRO 2: Cheaper headset reportedly coming in 2025\nSupply chain sources claim Apple is working on a $1,499 model with plastic body and fewer sensors.\n\nMETA LLAMA 4: Open-source model beats Claude 3.5 on coding benchmarks\nMark Zuckerberg announces Llama 4 with 400B parameters, claiming top scores on HumanEval and MBPP.\n\nGOOGLE ANTITRUST: DOJ pushes for Chrome spin-off\nLandmark ruling could force Google to sell Chrome browser and end default search deals with Apple.\n\n---\nYou received this email because you subscribed to TechDaily Digest.\nTo unsubscribe, visit: http://techdaily.com/",
+    "days_ago": 7
+  },
+  {
+    "sender": "digest@techdaily.com",
+    "subject": "TechDaily Digest — Nvidia Blackwell, Spotify HiFi & Privacy Updates",
+    "body": "TECHDAILY DIGEST — Your Daily Tech Briefing\n================================================\n\nNVIDIA BLACKWELL: B200 GPU delivers 4x training speed over H100\nEarly benchmarks show 2.5x inference improvement. Cloud providers are scrambling to deploy.\n\nSPOTIFY HIFI: Lossless audio tier finally launching at $19.99/month\nIncludes 24-bit/192kHz streaming and AI-powered playlist curation.\n\nPRIVACY: EU AI Act comes into effect\nFirst compliance deadlines hit next month. Companies face fines up to 7% of global revenue.\n\n---\nYou received this email because you subscribed to TechDaily Digest.\nTo unsubscribe, visit: http://techdaily.com/",
+    "days_ago": 1
+  }
+]

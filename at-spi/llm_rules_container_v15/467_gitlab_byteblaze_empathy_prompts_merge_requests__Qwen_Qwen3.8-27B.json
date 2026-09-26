@@ -1,0 +1,48 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Project sidebar navigation -- renders: fixed section labels (Project information, Repository, Issues, Merge requests, Pipelines, Deployments, Infrastructure, Monitor, Analytics, Wiki, Snippets, Settings); the project name in the context header is user-defined and subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "issues-state-filters"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Merge request state filter tabs -- renders: Opened, Merged, Closed, All"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "gl-button btn btn-md btn-confirm"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "New merge request button (secondary) -- renders: 'New merge request'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "gl-ml-3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sort controls -- renders: 'Sort by' dropdown and reverse sort button"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "rcx-sidebar sidebar sidebar--main sidebar--medium"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main application sidebar -- renders: user status, fixed navigation icons (Home, Messages, etc.), and platform-defined section labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "rooms-list sidebar--custom-colors"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Channel/room list sidebar -- renders: platform-defined section headers and navigation items for the user's subscribed channels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "footer",
+        "class": "rcx-box rcx-box--full rcx-css-1h8ylb3 rcx-css-1583vym"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar footer -- renders: platform logo and version information"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-box rcx-box--full rcx-css-ebq3kg"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar user profile block -- renders: current user's display name and status"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "rcx-box rcx-box--full rcx-css-19z81xy"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main content page heading -- renders: fixed section title (e.g., 'Channels')"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-box rcx-box--full rcx-tabs--with-divider rcx-tabs rcx-css-ue04py"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Tab navigation -- renders: fixed view switcher labels (e.g., 'All', 'Starred', 'Archived')"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-box rcx-box--full rcx-css-g4w5l8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search input container -- renders: search box for filtering channels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "rcx-box rcx-box--full rcx-table__head"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Table header row -- renders: fixed column headers (e.g., 'Name', 'Members', 'Last Activity')"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "rcx-box rcx-box--full rcx-pagination--divider rcx-pagination"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Pagination controls -- renders: page numbers and navigation buttons"
+  }
+]

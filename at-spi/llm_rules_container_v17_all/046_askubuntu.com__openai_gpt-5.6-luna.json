@@ -1,0 +1,260 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "s-topbar--skip-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip-navigation control -- renders fixed platform navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "network-logo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "network logo -- renders the platform's fixed branding"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-help-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "help control -- renders fixed help navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      },
+      {
+        "role": "link",
+        "class": "js-site-switcher-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site switcher control -- renders the fixed network-site switching vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      },
+      {
+        "role": "link",
+        "class": "s-btn__outlined"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sign-in control -- renders the fixed sign-in vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-signup-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "account registration control -- renders the fixed sign-up vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "left-sidebar--sticky-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "primary navigation and platform promotion -- renders fixed navigation labels and account controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "site-header--link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header branding link -- renders fixed Ask Ubuntu branding"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "aside-cta"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question action control -- renders the fixed ask-question vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-report-ad"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "advertisement reporting control -- renders fixed report-ad vocabulary outside the creative"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "toggle button",
+        "class": "js-vote-up-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "vote-up controls -- renders fixed voting vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "toggle button",
+        "class": "js-vote-down-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "vote-down controls -- renders fixed voting vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-saves-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "save controls -- renders fixed save vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-share-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "share controls -- renders fixed sharing vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-suggest-edit-post"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "edit suggestion controls -- renders fixed edit vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-follow-post"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "follow controls -- renders fixed follow vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "comments-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment controls -- renders fixed show-comments or add-comment vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answers-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answers header and sorting control -- renders fixed answer labels and sort options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "js-bottom-notice"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "bottom notice -- renders fixed platform notice vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "paragraph",
+        "class": "fs-body2"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "platform notice labels -- renders fixed explanatory vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "paragraph",
+        "class": "fs-body1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "platform notice copy -- renders fixed explanatory vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "h-linked"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "linked-questions section heading -- renders the fixed section label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "h-related"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "related-questions section heading -- renders the fixed section label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "feed-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "feed control -- renders the fixed feed-navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders fixed platform navigation, legal, account, and social vocabulary"
+  }
+]

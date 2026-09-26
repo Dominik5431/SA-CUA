@@ -1,0 +1,54 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "header navigation -- platform's own interface: logo, app name, user settings expand, search box"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "app-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "app navigation sidebar -- renders: fixed menu items Files, Favorites, Shared with me, Shared with others, Shared links, System tags filter, Trash bin, and Settings button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table",
+        "id": "filestable",
+        "class": "has-controls"
+      }
+    ],
+    "own_role": "column header",
+    "verdict": "trusted",
+    "note": "file table column headers -- renders: Name, Size, Modified sort controls and select all checkbox"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table row",
+        "class": "summary"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file table summary row -- renders: computed file count and total size for selected items"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "hiddenuploadfield"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "hidden upload field button -- platform's own interface for starting file uploads"
+  }
+]

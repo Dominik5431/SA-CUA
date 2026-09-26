@@ -1,0 +1,42 @@
+
+POOLED PER SITE (leave-one-out radius)
+---------------------------------------------------------------
+shape             proposed   fires elsewhere   corroborated >=2
+---------------------------------------------------------------
+role-only                7            6   86%             1   14%
+class-anchored         154           88   57%            47   31%
+id-anchored            145           50   34%            39   27%
+page-scope               1            0    0%             1  100%
+---------------------------------------------------------------
+
+PER SITE  (proposed / fires-elsewhere / corroborated)
+---------------------------------------------------------------------------------------------------
+site                       caps               role-only        class-anchored           id-anchored
+---------------------------------------------------------------------------------------------------
+askubuntu.com                 2                       -                 4/1/2                 6/1/2
+docs.python.org               2                       -                     -                     -
+en.wikipedia.org              8                       -                 8/4/3                 8/3/5
+english.stackexchange.com     2                       -                     -                16/3/0
+evince                        3                       -                     -                     -
+file_roller                   2                       -                     -                     -
+gedit                         4                       -                     -                     -
+github.com                    8                       -                18/2/0                 2/0/0
+gitlab                        9                       -               14/11/2                 4/3/2
+libreoffice                   6                   3/3/0                     -                     -
+nautilus                      5                   2/1/0                 6/0/0                     -
+owncloud                     10                       -                     -                12/6/3
+reddit                        9                       -               15/12/6                 1/0/0
+rocketchat                    9                       -                13/9/5                     -
+serverfault.com               2                       -                 5/5/0                16/2/1
+simple.wikipedia.org          2                       -                 2/1/1                 4/1/1
+stackoverflow.com            13                       -               15/10/0               14/11/6
+superuser.com                 2                       -                 8/0/1                 4/2/1
+terminal                      5                       -                     -                     -
+thunderbird                   8                   2/2/1                 2/2/2                15/2/5
+unix.stackexchange.com        2                       -                 4/3/3                 9/3/4
+vscode                        6                       -                10/6/4                 3/3/2
+www.amazon.com                6                       -                 1/0/0                11/4/2
+www.booking.com              16                       -              24/21/16                15/4/4
+www.nytimes.com              11                       -                 5/1/2                 5/2/1
+www.rfc-editor.org            2                       -                     -                     -
+---------------------------------------------------------------------------------------------------

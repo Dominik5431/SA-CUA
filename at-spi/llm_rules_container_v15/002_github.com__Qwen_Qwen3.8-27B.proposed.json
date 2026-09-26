@@ -1,0 +1,72 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "MarketingHeader-module__root__Tk7n3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global marketing header -- renders: GitHub logo, Product/Solutions/Marketplace/Explore/Team/Enterprise, Search, Sign in, Sign up, Appearance"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-repo-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Repository tab navigation -- renders: Code, Issues, Pull requests, Actions, Projects, Wiki, Security and quality, Insights"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "_R_5j5_"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issues sidebar navigation -- renders: Issues, Pull requests, Discussions, Actions, Projects, Security and quality, Feedback, Collapse sidebar"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "FilteredListPageLayout-module__FilterBar__yw_Ew"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue search and filter bar -- renders: Search issues, Clear, Search"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "_r_7_-list-view-metadata"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue list header controls -- renders: Open, Closed, Labels, Milestone, Assignees, Sort"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "prc-Pagination-TablePaginationSteps-cAXs3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Pagination controls -- renders: Previous, Next, page numbers"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "footer f6"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: GitHub logo, copyright, Terms, Privacy, Security, Status, Docs, Contact, Manage cookies, Do not share my personal information"
+  }
+]

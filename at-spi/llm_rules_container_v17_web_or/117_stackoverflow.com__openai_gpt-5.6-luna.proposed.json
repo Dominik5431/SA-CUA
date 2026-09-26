@@ -1,0 +1,293 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "s-topbar--logo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Stack Overflow logo link -- renders fixed platform branding"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-help-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "help control -- renders fixed help-navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "s-topbar--item__unset"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "authentication links -- render fixed sign-in and sign-up vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar--searchbar"
+      }
+    ],
+    "own_role": "combo box",
+    "verdict": "trusted",
+    "note": "search control -- renders the fixed search-interface vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "s-navigation--item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation links -- render fixed platform-navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "s-navigation--item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation menu control -- renders fixed platform-navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "nav-links"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left navigation -- renders fixed platform navigation vocabulary such as home, questions, tags, users, chat, and companies"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list item",
+        "class": "js-freemium-cta"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "platform CTA -- renders fixed Stack Overflow product and account-interface vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "aside-cta"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question action CTA -- renders the fixed ask-question control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "s-select"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answer sorting widget -- renders the fixed answer-sorting vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "s-pagination--item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination links -- render fixed page-navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "s-pagination--item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "selected pagination item -- renders fixed page-navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "toggle button",
+        "class": "js-vote-up-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "upvote control -- renders fixed voting-interface vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "toggle button",
+        "class": "js-vote-down-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "downvote control -- renders fixed voting-interface vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-saves-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "save control -- renders fixed post-saving vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-post-issue"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "post issue control -- renders fixed moderation and issue-reporting vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-share-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "share control -- renders fixed sharing vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-suggest-edit-post"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "suggest-edit control -- renders fixed post-editing vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-follow-post"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "follow control -- renders fixed post-following vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-copy-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "copy-code control -- renders fixed code-copying vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "mb0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "section headings with the fixed mb0 template style -- render fixed interface labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-sidebarwidget"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "platform sidebar promotion -- renders fixed Stack Overflow product-interface vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders fixed platform links, legal links, social links, and site metadata"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "onetrust-policy"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie policy text -- renders operator-authored privacy and consent vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "onetrust-accept-btn-handler"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie-consent accept control -- renders fixed consent-interface vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "onetrust-reject-all-handler"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie-consent reject control -- renders fixed consent-interface vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "onetrust-pc-btn-handler"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie-preferences control -- renders fixed consent-preference vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "ot-cookie-policy-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie policy link -- renders fixed privacy and consent-policy vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "onetrust-vendors-list-handler"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie vendor-list control -- renders fixed consent-interface vocabulary"
+  }
+]

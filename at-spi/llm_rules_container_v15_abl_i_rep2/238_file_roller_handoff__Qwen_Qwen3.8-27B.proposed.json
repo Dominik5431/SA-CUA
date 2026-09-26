@@ -1,0 +1,19 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "except": [
+      {
+        "role": "tree table"
+      },
+      {
+        "role": "table"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "File Roller application chrome -- renders: fixed toolbar buttons (New Folder, Cut, Copy, Paste, Rename, Delete, Extract, Compress), view mode toggles, and status bar labels; the file listing tables are subtracted as they contain user-named files and directories"
+  }
+]

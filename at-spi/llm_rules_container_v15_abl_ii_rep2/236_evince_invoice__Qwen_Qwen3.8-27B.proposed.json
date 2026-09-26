@@ -1,0 +1,7 @@
+[
+  {
+    "scope": "page",
+    "verdict": "trusted",
+    "note": "Evince is a local document viewer; the entire accessibility tree consists of the GNOME operator's fixed interface vocabulary (toolbar, sidebar, view controls, and status bar), with no user-generated content or external web content present."
+  }
+]

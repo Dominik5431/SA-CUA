@@ -1,0 +1,7 @@
+[
+  {
+    "scope": "page",
+    "verdict": "trusted",
+    "note": "chrome://settings/content/all -- the per-origin site-data list. Chrome's own chrome plus one row per visited origin. KNOWN RESIDUAL, accepted deliberately: those origin strings name sites the browser has visited, so an attacker who gets the browser to their host puts their hostname on this page. A hostname is DNS-charset, no whitespace and 63 characters per label -- capacity-bound in the sense capacity.py already uses -- and masking the rows would break the only thing task 7b6c7e24 does here, which is find amazon.com in this list and delete its data."
+  }
+]

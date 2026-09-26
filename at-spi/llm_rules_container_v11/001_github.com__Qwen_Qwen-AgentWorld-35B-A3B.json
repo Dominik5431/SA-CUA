@@ -1,0 +1,53 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-skip-to-content"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip-to-content link -- platform's own accessibility control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "MarketingHeader-module__root__Tk7n3 HeaderMktg header-logged-out"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "marketing header navigation -- platform's own interface including logo, nav dropdowns, search, sign in/up, appearance settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "pagehead-actions flex-shrink-0 d-none d-md-inline"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository action buttons and counters -- funding, watch, fork, star buttons and computed fork/star counts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-repo-nav js-sidenav-container-pjax js-responsive-underlinenav overflow-hidden UnderlineNav px-3 tmp-px-3 px-md-4 tmp-px-md-4 px-lg-5 tmp-px-lg-5"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository navigation tabs -- platform's own fixed vocabulary for Code, Issues, Pull requests, Actions, Projects, Security and quality, Insights"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repos-sticky-header",
+        "class": "react-blob-view-header-sticky BlobViewContent-module__stickyHeader__VwxB5"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "blob view sticky header controls -- blob tab buttons, file size details, copy path, download, and table of contents buttons"
+  }
+]

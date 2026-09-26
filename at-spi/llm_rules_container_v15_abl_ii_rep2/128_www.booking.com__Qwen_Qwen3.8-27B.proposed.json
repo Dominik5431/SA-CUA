@@ -1,0 +1,162 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "bypass_menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Skip-to-content link -- renders: 'Skip to main content'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site header -- renders: 'Booking.com', 'Log in', 'Register', 'Accommodations', 'Flights', 'Packages', 'Cars', 'Attractions', 'Airport taxis'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "a193cf1ed6"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search bar controls -- renders: 'Where are you going?', 'Check-in', 'Check-out', 'Search'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "fff1944c52"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Breadcrumb navigation -- renders: 'Home', 'Hotels', 'Europe', 'France', 'Paris', 'Le Marais'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "d24b1ed1cf f5852f597b da2666adb4"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Property detail tabs -- renders: 'Overview', 'Availability', 'Facilities', 'Policies', 'Fine print', 'Reviews'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "top-book"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Booking action bar -- renders: 'Add to wishlist', 'Share', 'Book now', 'Price guarantee'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_hotel_name"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Property header controls -- renders: 'Save', 'Share', 'Map'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hotel_sidebar_static_map_capla"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Map widget controls -- renders: 'Show on map'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_availability_style_changes"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Availability section chrome -- renders: 'Availability', 'Price guarantee', 'Check-in', 'Check-out', 'Search', 'Rooms', 'Price', 'Policies', 'Rooms', 'Select rooms', 'Reserve'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_facilities_box"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Facilities section chrome -- renders: 'Facilities', 'Show all facilities', 'General', 'Accessibility', 'Parking', 'Pets', 'Food & drink', 'Services', 'Spa & wellness', 'Swimming pool', 'Family facilities', 'Outdoor', 'Reception services', 'Laundry services', 'Safety & security', 'Housekeeping services', 'General facilities', 'Languages spoken'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "xm-survey-component-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "User survey widget -- renders: 'How was your experience?', 'Very poor', 'Poor', 'Average', 'Good', 'Very good'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_policies_box"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Policies section chrome -- renders: 'Policies', 'Check-in & check-out', 'Children & extra beds', 'Pets', 'General conditions', 'Important information', 'Cancellation/prepayment', 'Taxes & fees', 'Safety & security', 'Housekeeping services', 'Languages spoken'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "important_info"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Important information section chrome -- renders: 'Important information', 'Show more', 'Show less'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "pp-faq"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "FAQ section chrome -- renders: 'Frequently asked questions', 'What time is check-in and check-out at [Property Name]?', 'Is there a restaurant at [Property Name]?', 'What are the check-in and check-out times at [Property Name]?', 'Is there a parking lot at [Property Name]?', 'What is the cancellation policy for [Property Name]?', 'Are there any fees for early check-in or late check-out at [Property Name]?', 'Does [Property Name] have a pool?'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer_menu_track"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: 'Support', 'Discover', 'Talent', 'Sustainability', 'About', 'Careers', 'Press', 'Investor relations', 'Privacy & Terms', 'Contact us', 'Booking.com for Business', 'English (US)', 'USD - US Dollar', '\u00a91996\u20132024 Booking.com\u2122. All rights reserved.'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "onetrust-banner-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Cookie consent banner -- renders: 'Cookies on Booking.com', 'We use cookies to improve your experience, show you relevant ads, and analyze our traffic. By clicking 'Accept', you consent to our use of cookies.', 'Cookie settings', 'Reject all', 'Accept'"
+  }
+]

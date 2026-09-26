@@ -1,0 +1,52 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Toolbar and action buttons -- renders fixed operator vocabulary for file, edit, and view operations (e.g., New, Open, Save, Undo, Redo, Cut, Copy, Paste, Find, Replace, Print, Help, Close, Apply, Cancel)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "Toolbar and view toggle buttons -- renders fixed operator vocabulary for mode switches (e.g., Show Line Numbers, Show Right Margin, Fullscreen, Wrap Mode, Sidebar, Statusbar)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "check box",
+    "verdict": "trusted",
+    "note": "Preference and settings checkboxes -- renders fixed operator vocabulary for editor configuration (e.g., Auto Indent, Insert Spaces, Highlight Syntax, Word Wrap, Show Cursor Position)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "radio button",
+    "verdict": "trusted",
+    "note": "Preference and settings radio buttons -- renders fixed operator vocabulary for exclusive configuration options (e.g., Tab Policy, Encoding, Line Ending, Font Family)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "label",
+    "verdict": "trusted",
+    "note": "Status bar, preference, and section labels -- renders fixed operator vocabulary for field names and headings (e.g., Line, Column, Encoding, Language, Font, Size, Search, Replace, Results)"
+  }
+]

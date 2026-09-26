@@ -1,0 +1,48 @@
+{
+  "file": "402_reddit_f_coolgithubprojects_18013_how_do_you_use_tmux_i.xml",
+  "screen": [
+    1920,
+    1080
+  ],
+  "regions": [
+    {
+      "bbox": [
+        437,
+        194,
+        793,
+        886
+      ],
+      "n": 62,
+      "label": "main",
+      "kind": "landmark",
+      "id": 1,
+      "root_index": 0
+    },
+    {
+      "bbox": [
+        451,
+        114,
+        1073,
+        52
+      ],
+      "n": 11,
+      "label": "site-nav",
+      "kind": "landmark",
+      "id": 2,
+      "root_index": 0
+    },
+    {
+      "bbox": [
+        1257,
+        180,
+        281,
+        533
+      ],
+      "n": 15,
+      "label": "sidebar",
+      "kind": "landmark",
+      "id": 3,
+      "root_index": 0
+    }
+  ]
+}

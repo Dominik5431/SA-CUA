@@ -1,0 +1,56 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "shortcut-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Accessibility skip links and keyboard shortcuts -- renders: Skip to main content, Skip to results, Skip to filters, Search, Cart, Home, Your orders, Show shortcuts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "navbar-main"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main navigation bar -- renders: Amazon logo, Deliver to, Search, Account & Lists, Orders, Cart, and fixed category links (Today's Deals, Customer Service, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "search"
+      },
+      {
+        "role": "heading",
+        "class": "a-size-base s-desktop-toolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search results toolbar -- renders: result count summary and sort dropdown (Featured, Price, Avg. Customer Review, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-pagination-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Pagination controls -- renders: Previous, page numbers, Next"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooter"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: Back to top, Get to Know Us, Make Money with Us, Let Us Help You, and More on Amazon links"
+  }
+]

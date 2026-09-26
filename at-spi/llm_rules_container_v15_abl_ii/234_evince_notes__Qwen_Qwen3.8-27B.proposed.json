@@ -1,0 +1,7 @@
+[
+  {
+    "scope": "page",
+    "verdict": "trusted",
+    "note": "Evince is a local document viewer; the entire interface consists of operator-authored controls (toolbars, sidebars, navigation) and the document content is a local file supplied by the user, not user-generated content in the context of a web platform or online service."
+  }
+]

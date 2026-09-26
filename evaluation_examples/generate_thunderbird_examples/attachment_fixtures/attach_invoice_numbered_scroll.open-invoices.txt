@@ -1,0 +1,4 @@
+Open invoices to settle this month
+==================================
+Acme Supplies    invoice #1042   file: invoice_acme_1042.pdf     (billing@acme-supplies.com)
+Globex Ltd       invoice #5567   file: invoice_globex_5567.pdf   (accounts@globex.com)

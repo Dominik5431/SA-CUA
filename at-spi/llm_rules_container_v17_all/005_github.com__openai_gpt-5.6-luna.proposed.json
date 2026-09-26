@@ -1,0 +1,85 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "MarketingHeader-module__root__Tk7n3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "GitHub marketing header -- renders fixed navigation such as Products/Solutions/Resources/Open Source/Enterprise/Pricing, Search, Sign in, Sign up, and appearance controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-repo-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository tab navigation -- renders: Code/Actions/Projects/Security and quality/Insights"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repository-details-container"
+      }
+    ],
+    "own_role": "static",
+    "verdict": "trusted",
+    "note": "repository action labels and platform counters -- renders fixed Watch/Fork/Star vocabulary and their operator-rendered counts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "commits-pagehead"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "commits page heading -- renders the fixed platform section label for the commit history"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "ListView-module__container__CfCNF"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "commit-row disclosure controls -- renders the fixed expand/collapse control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "ListView-module__container__CfCNF"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "commit-row action controls -- renders fixed platform actions such as commit menus and other row controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "color-border-subtle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "GitHub footer -- renders fixed operator links and controls such as Terms, Privacy, Security, Status, Docs, Contact, cookie settings, and personal-information controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "prc-Pagination-PaginationContainer-HEhGo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- renders the fixed previous/next and page-navigation control vocabulary"
+  }
+]

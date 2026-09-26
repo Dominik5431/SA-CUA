@@ -1,0 +1,140 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders the operator's fixed logo, account controls, utility controls, and navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "class": "d026bbaa45"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "destination search label -- renders the fixed operator vocabulary for the destination field"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "searchbox-horizontal-occupancy-label"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "occupancy field label -- renders the fixed operator vocabulary for guest and room selection"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "d10abb4e59"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search submit control -- renders the fixed search-action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "c5d3f6a2f8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search options panel -- renders fixed operator-defined search-option labels and controls, not a results filter or refinement panel"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "UniqueSellingPoints"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "unique selling points section -- renders the operator's fixed benefit headings and explanatory copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "cef02e091d"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "property-type carousel headings -- render the operator-defined property-type vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "cef02e091d"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "property-type carousel control -- renders the fixed operator carousel navigation action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "SeoCoreInterlinking"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "interlinking section heading -- renders the fixed operator section label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "SeoCoreInterlinking"
+      },
+      {
+        "role": "page tab list",
+        "class": "c4a6e8e871"
+      }
+    ],
+    "own_role": "page tab",
+    "verdict": "trusted",
+    "note": "interlinking tab controls -- render the fixed operator tab vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "TravellerFooter_inline-links-list--content"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer inline navigation -- renders the operator's fixed footer-link vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "TravellerFooter_footer-lists"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer link groups -- render the operator's fixed footer headings and navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "TravellerFooter_footer-control-section"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer controls and legal area -- renders fixed operator controls, copyright copy, and service marks"
+  }
+]

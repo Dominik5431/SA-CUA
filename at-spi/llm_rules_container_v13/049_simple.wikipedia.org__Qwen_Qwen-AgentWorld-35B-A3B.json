@@ -1,0 +1,103 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-header mw-header no-font-mode-scale"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- operator's own interface including logo, main menu, search, and user links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "mw-jump-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip to content link -- operator's own interface navigation aid"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "mw-table-of-contents-container vector-toc-landmark"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "id": "mw-panel-toc-list",
+        "class": "vector-toc-contents"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "TOC container -- renders: 'Contents' label and pin/unpin controls; the section title list items are subtracted as user-generated"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-appearance-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "appearance settings -- operator's own interface for font size, width, and theme controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-page-tools-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page tools dropdown -- operator's own interface controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "p-lang-btn",
+        "class": "vector-dropdown mw-portlet mw-portlet-lang"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "language selector -- operator's own interface for interlanguage links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "siteSub",
+        "class": "noprint"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site subtitle -- operator's own editorial copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mw-normal-catlinks",
+        "class": "mw-normal-catlinks"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "category links section -- renders: 'Categories:' label and category taxonomy terms"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer",
+        "class": "mw-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- operator's own interface including lastmod, copyright, privacy, about, disclaimers, and site icons"
+  }
+]

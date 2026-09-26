@@ -1,0 +1,29 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "VLC application menu bar -- renders fixed operator vocabulary for media, playback, audio, video, subtitle, tools, and view controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "VLC status bar -- renders fixed operator interface elements and playback state indicators"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "filler"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "VLC main interface container -- renders fixed operator controls for playback, volume, and media display"
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {
+    "scope": "page",
+    "verdict": "trusted",
+    "note": "LibreOffice Calc application window -- all visible interface elements (menus, toolbars, status bar, sheet tabs, and cell grid) are operator-defined application chrome with fixed vocabulary; the spreadsheet content is the user's own working document, not third-party UGC."
+  }
+]

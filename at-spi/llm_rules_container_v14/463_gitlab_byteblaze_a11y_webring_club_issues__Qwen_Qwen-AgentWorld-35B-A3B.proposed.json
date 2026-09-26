@@ -1,0 +1,70 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "navbar navbar-gitlab navbar-expand-sm js-navbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface including logo, search, project shortcuts, counters, help and user dropdowns"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header has-tooltip"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "project sidebar navigation -- renders operator-defined menu items like Home, Code, Issues, Merge requests, Pipelines, Settings; excluding the project context header which renders the user-created project name"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "__BVID__7",
+        "class": "tabs gl-tabs gl-display-flex gl-flex-grow-1 gl-p-0 gl-m-0 mobile-separator issuable-state-filters"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issue state filter tabs -- renders operator-defined state categories such as Open, Closed, All"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "sort-dropdown-container d-flex btn-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sort control dropdown -- operator-defined sorting options for the issues list"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "input-group gl-search-box-by-click flex-grow-1"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "__BVID__54",
+        "class": "dropdown b-dropdown gl-dropdown gl-search-box-by-click-history btn-group"
+      },
+      {
+        "role": "entry",
+        "class": "gl-filtered-search-term-input"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issues search box control -- renders search input container and search button; excluding recent search history dropdown and echoed query text"
+  }
+]

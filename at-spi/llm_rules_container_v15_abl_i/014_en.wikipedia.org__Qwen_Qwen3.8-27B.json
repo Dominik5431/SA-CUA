@@ -1,0 +1,108 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry",
+        "id": "searchInput"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: Wikipedia logo, Main menu, Search, Donate, Create account, Log in"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "mw-body-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Page title bar -- renders: 'Search' (fixed special page title), Help link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-appearance-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Appearance settings panel -- renders: Appearance, Unpin, Font size, Standard, Larger, Smaller, Limited width, Yes, No, Theme, System, Day, Night"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mw-search-top-table"
+      }
+    ],
+    "except": [
+      {
+        "role": "combo box",
+        "id": "ooui-php-1"
+      },
+      {
+        "role": "section",
+        "class": "results-info"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search form controls -- renders: Search label, Search button; excludes the query input and the dynamic result count"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mw-advancedSearch-expandablePane-options"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Advanced search options toggle -- renders: 'Search options' (fixed label)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mw-advancedSearch-expandablePane-namespaces"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Namespace filter toggle -- renders: 'Namespaces' (fixed label) and standard namespace names (Main, Talk, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "paragraph",
+        "class": "mw-search-createlink"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Create page prompt -- renders: 'Create the page' and standard help links (fixed platform copy)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "cdx-table-pager__limit-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Results per page selector -- renders: 10, 20, 50, 100, 200 (fixed pagination options)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: Privacy policy, About Wikipedia, Disclaimers, Contact Wikipedia, Legal & safety contacts, Code of conduct, Developers, Statistics, Cookie statement, Mobile view, Wikimedia Foundation, Powered by MediaWiki"
+  }
+]

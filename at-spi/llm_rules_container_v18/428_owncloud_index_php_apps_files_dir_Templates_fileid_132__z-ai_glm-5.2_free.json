@@ -1,0 +1,116 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "with-icon"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file app navigation -- renders: Files/Favorites/Shared with you/Shared with others/Shared by link/Tags/Deleted files"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "app-settings"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "app settings panel -- renders: Settings button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "gallery-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view switcher control -- renders: gallery view toggle"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "actions creatable"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file creation controls -- renders: New button, upload progress bar"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "ui-droppable"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "breadcrumb root segment -- renders: home icon link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table",
+        "id": "filestable"
+      }
+    ],
+    "except": [
+      {
+        "role": "panel",
+        "id": "fileList"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file table chrome -- renders: column headers (Name/Size/Modified), select-all checkbox, sort controls, summary row; subtracts the file list panel containing user-named files"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "id": "fileList"
+      },
+      {
+        "role": "link",
+        "class": "action-favorite"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "favorite toggle action in file rows -- renders: Favorite"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "id": "fileList"
+      },
+      {
+        "role": "link",
+        "class": "action-share"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "share action in file rows -- renders: Share"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "file_action_panel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file action panel -- renders: operator-defined action buttons for selected files"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "hiddenuploadfield"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "hidden upload field -- renders: file upload start button with fixed label"
+  }
+]

@@ -1,0 +1,100 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "fides-overlay"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent banner -- operator-authored fixed vocabulary for privacy choices"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Wr7_RG_mastheadWrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site masthead -- renders: section navigation links, sections button, search button, subscribe link, account link (fixed operator vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "top-slug"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "advertisement label -- operator-authored 'Advertisement' text above the ad slot"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "collection-world"
+      },
+      {
+        "role": "header",
+        "class": "css-1ta8iz9"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "World section header -- renders: section heading and sub-section navigation links (fixed vocabulary: Africa/Americas/Asia/Europe/etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "5-band"
+      },
+      {
+        "role": "header",
+        "class": "css-1v4upt6"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "section band header -- renders: section name heading and 'see all' link (fixed operator vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "tab-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "tab navigation control -- renders: Latest/All tabs (fixed operator vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "css-1jx9oro"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination control -- renders: page number links (operator-defined navigation)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "site-index"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site index label -- operator-authored footer section heading"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer navigation -- renders: social links, footer nav links, copyright (fixed operator vocabulary)"
+  }
+]

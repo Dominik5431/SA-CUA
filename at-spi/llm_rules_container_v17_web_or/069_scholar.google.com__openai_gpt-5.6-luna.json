@@ -1,0 +1,152 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "gs_hdr"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders the operator's fixed branding, menu, search, and account interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "gs_hdr_mnu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "menu control -- renders the operator's fixed navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "gs_hdr_lgo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Google Scholar branding link -- renders the operator's fixed site identity"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "gs_hdr_sre"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search control -- renders the operator's fixed search action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "gs_hdr_act_s"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "account control -- renders the operator's fixed sign-in or account vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "gsc_rsb_gpl"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar operator link -- renders the platform's fixed Google Scholar link vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "column header",
+        "class": "gsc_rsb_sth"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "citation-statistics table headers -- renders the operator's fixed column-label vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "gsc_rsb_m_title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar subsection heading -- renders the operator's fixed subsection-label vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "gsc_prf_btnf"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "profile action control -- renders the operator's fixed follow or profile-action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "column header",
+        "class": "gsc_a_t"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "publication table title header -- renders the fixed title-column label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "column header",
+        "class": "gsc_a_c"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "publication table citation header -- renders the fixed citation-column label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "column header",
+        "class": "gsc_a_y"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "publication table year header -- renders the fixed year-column label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "static",
+        "id": "gsc_a_nn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "publication-list status label -- renders the operator's fixed pagination-status vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "gsc_bpf_more"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination control -- renders the operator's fixed load-more vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "gs_ftr"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders the operator's fixed help, legal, and footer-control vocabulary"
+  }
+]

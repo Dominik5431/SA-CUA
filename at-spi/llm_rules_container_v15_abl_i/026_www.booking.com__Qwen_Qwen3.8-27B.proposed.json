@@ -1,0 +1,112 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "bypass_menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Skip-to-content link -- renders: Skip to main content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site header -- renders: Booking.com logo, Sign in, Register, currency/language selectors, and fixed service tabs (Stays, Flights, Flight+Hotel, Car rentals, Attractions, Airport taxis)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "fff1944c52"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Breadcrumb navigation -- renders: Home, Stays, and the current search destination"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "ce1108eff4"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Results summary bar -- renders: 'Sort by' label and sort order options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "b99b6ef58f b34f2cc03f"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Filter toggle control -- renders: 'Filter' label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "b7ef425131 e9f1adff2b c03fb03748"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Filter sidebar -- renders: 'Filters' heading, 'Reset all', and fixed category labels (Popular filters, Property type, Facilities, Room facilities, Meal plan, Review score, Property rating, Distance to center, Popular landmarks, Free cancellation, Activities, Stay type, Travel group, Brand, Highly rated, Payment method, Sustainable, Accessibility)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "b87c397a13 cacb5ff522"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Results count heading -- renders: 'X properties found in [Destination]'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "ad68e1f7ce bb51db7864"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "View switcher -- renders: List, Grid"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "a297f43545"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sort control -- renders: 'Sort by: Recommended' and sort options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "fcd8e16f81 af73738e37"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Results view controls -- renders: 'List', 'Grid', 'Map' buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "TravellerFooter_root--variant-full"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: fixed navigation links (Support, Partners, About), legal links, and copyright text"
+  }
+]

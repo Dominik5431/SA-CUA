@@ -1,0 +1,86 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- renders: logo, Home/Questions nav, search box, Sign in/Sign up; fixed operator vocabulary throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left sidebar navigation -- renders: Home/Questions/Tags/Users/Companies/Chat/Articles/Collectives/Teams promo; all fixed operator vocabulary and promotional copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mainbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "tag-headline-container"
+      },
+      {
+        "role": "section",
+        "id": "questions"
+      },
+      {
+        "role": "landmark",
+        "id": "uql-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "mainbar chrome -- renders: question count label, sort buttons (Newest/Active/Bountied/Unanswered/Frequent/Score), filter toggle, pagination controls; subtracts the tag header, the question-summary list (user-generated titles/excerpts/tags/bylines), and the filter form panel"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-sofa-sidebar-promo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Stack Overflow for Teams sidebar promo -- renders: operator-authored promotional heading, description, code snippet, copy button, and CTA link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "feed-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question feed link -- renders: fixed operator chrome link to the RSS feed"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: Products/Company/Network section headings and links, social links, copyright; all fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "onetrust-consent-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent banner -- renders: operator-configured policy title, cookie category descriptions, Accept/Reject/Preferences buttons; fixed operator vocabulary throughout"
+  }
+]

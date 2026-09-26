@@ -1,0 +1,63 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "flex-1 relative print:hidden"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top site chrome -- renders: skip-to-content, RFC Editor branding, and the fixed navigation/menu vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "inline pl-2 -ml-2 pr-2 py-2 underline"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "fixed breadcrumb navigation link -- renders: RFCs"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "border rounded border-l-4"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "operator control in the document notice -- renders: the fixed expand/collapse control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "page tab list",
+        "class": "border-b-2 border-gray-400"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "document-view tab control -- renders: the fixed document navigation tab vocabulary and its operator-defined badge"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "bg-blue-900 text-white dark:bg-blue-950 border-t"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: fixed attribution, policy, help, and site-navigation links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "opacity-0 pointer-events-none fixed"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "fixed back-to-top accessibility control -- renders: the operator-defined back-to-top label"
+  }
+]

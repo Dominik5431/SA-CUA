@@ -1,0 +1,12 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "bg-blue-900 text-white dark:bg-blue-950 relative print:hidden border-b border-b-white dark:border-b-blue-900"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface including logo and menu"
+  }
+]

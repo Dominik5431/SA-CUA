@@ -1,0 +1,106 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "header-wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site header -- renders: Skip to content, GitHub, Platform, Solutions, Marketplace, Pricing, Sign in, Sign up, Search, Appearance"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repository-container-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "link",
+        "class": "url fn"
+      },
+      {
+        "role": "section",
+        "id": "repo-network-counter"
+      },
+      {
+        "role": "section",
+        "id": "repo-stars-counter-star"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Repository header chrome -- renders: Watch, Fork, Sponsors, Code, Issues, Pull requests, Discussions, Actions, Security, Insights; repository name and social counts are subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "subnav-search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue search input -- renders: Search or jump to..."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "subnav-links"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue list filter tabs -- renders: Open, Closed"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "Button--primary"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "New issue button -- renders: New issue"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "js-issues-toolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue list toolbar controls -- renders: State, Author, Labels, Projects, Milestones, Reviewers, Assignees, Sort"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "pagination"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Pagination controls -- renders: Previous, 1, 2, 3, 4, 5, \u2026, 10, 11, Next"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "issues-index-tip"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue index footer tip -- renders: Pro tip, Learn more"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site footer -- renders: \u00a9 2024 GitHub, Inc., Terms, Privacy, Security, Status, Docs, Contact, Manage cookies, Do not share my personal information"
+  }
+]

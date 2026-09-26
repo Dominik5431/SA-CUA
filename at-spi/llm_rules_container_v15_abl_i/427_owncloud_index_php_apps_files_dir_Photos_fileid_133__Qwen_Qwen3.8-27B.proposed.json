@@ -1,0 +1,74 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "header"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "expandDisplayName"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top application header -- renders: 'ownCloud' logo, 'Files' app name, 'Menu' toggle, 'Search' label; the user's display name is subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "app-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Left sidebar navigation -- renders: 'Files', 'Favorites', 'Shared with you', 'Shared by you', 'Shared links', 'Tags', 'Trash bin', 'Settings'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "breadcrumb"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Breadcrumb navigation -- renders: 'Home' icon and 'Photos' (the current directory name, which is a fixed system folder in this context)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "gallery-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "View switcher control -- renders: 'Gallery' button label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "actions creatable"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "File creation controls -- renders: 'New' button label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table",
+        "id": "filestable"
+      }
+    ],
+    "except": [
+      {
+        "role": "panel",
+        "id": "fileList"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "File table header and summary -- renders: 'Name', 'Size', 'Modified' column headers, 'Select all' checkbox label, and summary counts; the file list body is subtracted"
+  }
+]

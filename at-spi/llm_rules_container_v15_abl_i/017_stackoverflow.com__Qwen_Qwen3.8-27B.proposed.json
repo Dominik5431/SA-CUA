@@ -1,0 +1,132 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- renders: Stack Overflow logo, Home, Questions, Ask, Users, Search, Help, Log in, Sign up"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left navigation sidebar -- renders: Home, Questions, Ask, Tags, Users, Companies, Collectives, Chat, Articles, Sign up"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "fs-headline1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question header controls -- renders: Ask Question button; question title is user-generated"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item ws-nowrap mr16 mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question metadata label -- renders: Asked"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item ws-nowrap mr16 mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question metadata label -- renders: Modified"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item ws-nowrap mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question metadata label -- renders: Viewed"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "question action buttons -- renders: Upvote, Downvote, Save, Share, Edit, Follow, Copy, Report"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "question vote controls -- renders: Upvote, Downvote"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answers-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answers header -- renders: Answers, Sort by, Newest, Oldest, Score, Trending"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answers"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "answer action buttons -- renders: Upvote, Downvote, Save, Share, Edit, Follow, Copy, Report, Show comments"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answers"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "answer vote controls -- renders: Upvote, Downvote"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: Stack Overflow logo, About, Products, Business, Teams, Stack Exchange, Technology, Life/Arts, Culture, Science, Professional, API, Data, Blog, Podcast, Legal, Privacy Policy, Terms of Service, Cookie Settings, Cookie Policy, Mobile, More, Stack Exchange Network"
+  }
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "navbar-gitlab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global top navigation bar -- renders: GitLab logo, search box, 'New project' button, issue/MR/todo counters, help, and user avatar controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Project sidebar navigation -- renders: fixed section labels (Information, Repository, Issues, Merge requests, Pipelines, Deployments, etc.); the project name in the context header is user-generated and subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "notification",
+        "class": "js-no-ssh-message"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "SSH key warning alert -- renders: fixed platform warning text and action buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "breadcrumbs"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Breadcrumbs -- renders: fixed navigation segments (e.g., 'Projects', 'Groups') leading to the current context"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "content-body"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "home-panel-title"
+      },
+      {
+        "role": "section",
+        "class": "home-panel-metadata"
+      },
+      {
+        "role": "section",
+        "id": "tree-holder"
+      },
+      {
+        "role": "article",
+        "class": "readme-holder"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Project page chrome -- renders: fixed action buttons (Star, Fork, Clone, Web IDE), project stats labels, and navigation tabs; user-generated project title, metadata, file tree, and README are subtracted"
+  }
+]

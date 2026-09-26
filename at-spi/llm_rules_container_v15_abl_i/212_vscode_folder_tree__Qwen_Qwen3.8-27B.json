@@ -1,0 +1,72 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar",
+        "class": "ElectronMenuBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Native application menu bar -- renders fixed OS-level menu titles (File, Edit, View, Go, Run, Terminal, Help)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-action-bar vertical"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Activity bar and secondary action bar -- renders fixed view icons and labels (Explorer, Search, Source Control, Run, Extensions, Accounts, Settings)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "composite title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Viewlet title bar -- renders fixed view name (e.g., Explorer) and fixed action icons (More, Collapse)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "pane-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Pane headers in the sidebar -- renders fixed section labels (e.g., Open Editors, Timeline) and fixed action icons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "title tabs show-file-icons"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Editor tab bar chrome -- renders fixed action buttons (Close, Split, More); tab labels are masked by default as they echo user file names"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "gettingStartedSlideCategories"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Getting Started welcome page -- renders fixed product name, subtitle, and operator-authored category titles and descriptions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar",
+        "id": "workbench.parts.statusbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Status bar -- renders fixed status indicators and labels (e.g., Remote, Problems, Notifications, Screen Reader Mode)"
+  }
+]

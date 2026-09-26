@@ -1,0 +1,122 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "vector-main-menu-dropdown"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main-menu control -- renders the operator-defined menu toggle vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "mw-logo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site logo -- renders the operator's fixed branding and tagline"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "searchform"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search control -- renders the operator-defined search interface and submit control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-user-links"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user account navigation -- renders fixed operator controls such as support, account creation, and login"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "p-lang-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "language selector control -- renders the operator-defined language-selection interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "p-associated-pages"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page-type navigation -- renders the fixed Article/Talk tab vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "p-views"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page-view navigation -- renders the fixed View/Edit/History control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-page-tools-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page-tools control -- renders the operator-defined page-tools menu interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-appearance-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "appearance settings -- renders fixed font-size, width, and theme options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "mw-jump-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip navigation link -- renders the operator-defined jump-to-content control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "siteSub"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site subtitle -- renders the operator's fixed site-identification vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "mw-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders fixed privacy, about, disclaimer, contact, legal, developer, statistics, cookie, mobile-view, copyright, and platform links"
+  }
+]

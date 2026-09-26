@@ -1,0 +1,95 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- renders: skip link, logo, search box, help, site switcher, Log in, Sign up; all platform-fixed vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left sidebar navigation -- renders: Home, Questions, Unanswered, Ask, Tags, Users, Companies, Chat, plus platform freemium CTA copy; all operator-fixed vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "dfp-sspon"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders: site name/logo link; the ad slot is subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "aside-cta"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Ask Question button beside the question header -- renders: Ask Question; platform-fixed vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answers-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answers section header -- renders: N Answers heading, Sorted by label, sort dropdown options (Highest scored, Trending, Date modified); platform-fixed vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mainbar"
+      }
+    ],
+    "own_role": "push button",
+    "except": [
+      {
+        "role": "section",
+        "class": "everyonelovesstackoverflow"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "post action push buttons in the question and answers area -- renders: Save, Add a comment; ad slots subtracted so injected ad creatives are not trusted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: footer nav headings and links (About, Products, OverflowAI, etc.), social links, copyright, legal links; all platform-fixed vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "onetrust-consent-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent banner (OneTrust SDK) -- renders: consent title, policy text, cookie category descriptions, Accept/Reject/Preferences buttons; operator-configured vocabulary"
+  }
+]

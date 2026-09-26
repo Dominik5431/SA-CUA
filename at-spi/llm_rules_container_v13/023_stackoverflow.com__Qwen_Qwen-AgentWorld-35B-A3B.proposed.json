@@ -1,0 +1,108 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar ps-fixed t0 l0 js-top-bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left sidebar navigation -- platform's own interface and links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "mainbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "questions"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main bar chrome -- renders: page heading, aside CTA, sort and filter controls; excludes questions list"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "s-post-summary--stats-item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "post summary stats items -- renders: answer count, accepted answer status, supernova/hot badges"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "relativetime"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "relative time stamps -- computed operator-defined timestamps"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-sidebarwidget bg-purple-100 ba bc-purple-400 bar-sm mb16 ps-relative js-sofa-sidebar-promo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "SOFA sidebar promo -- operator-authored promotional copy and controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "s-sidebarwidget--content s-sidebarwidget__items p0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar widget content -- operator-defined network site links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "related-tags"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "related tags subcommunity widgets -- operator-defined community topics and join controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mobile-anchor-ad-report-button-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "mobile anchor ad report button container -- platform control to report ads"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "ml0 list-ls-none js-post-tag-list-wrapper d-inline"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "post tag list -- operator-defined taxonomy terms and tags"
+  }
+]

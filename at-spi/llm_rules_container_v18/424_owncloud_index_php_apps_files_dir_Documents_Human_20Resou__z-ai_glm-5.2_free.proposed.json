@@ -1,0 +1,76 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "notification-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "notification container -- operator UI for platform notifications"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "header"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "expandDisplayName"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top header bar -- renders: logo, app name, burger menu, search box label; subtracts the user-chosen display name in #expandDisplayName"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "app-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file app sidebar -- renders: Files/Favorites/Shared with you/Shared with others/Shared by link/Tags/Deleted files plus settings button; all fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "controls"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "breadcrumb"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file listing toolbar -- renders: gallery view toggle, New button, upload progress wrapper; subtracts breadcrumb whose segments after Home carry user-named folders"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table",
+        "id": "filestable"
+      }
+    ],
+    "own_role": "column header",
+    "verdict": "trusted",
+    "note": "table column headers -- renders: Name/Size/Modified and select-all-files checkbox; fixed operator vocabulary, carved out from the file list which holds user-named files"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "file_upload_start",
+        "class": "hiddenuploadfield"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "hidden file-upload start button -- fixed operator control"
+  }
+]

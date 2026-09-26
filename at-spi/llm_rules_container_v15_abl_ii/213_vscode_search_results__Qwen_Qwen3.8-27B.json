@@ -1,0 +1,98 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar",
+        "class": "ElectronMenuBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "native application menu bar -- renders fixed operator vocabulary: File/Edit/Selection/View/Go/Run/Terminal/Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-action-bar vertical"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "activity bar and bottom bar -- renders fixed operator icons: Explorer, Search, Source Control, Run, Extensions, Accounts, Settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "composite title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search viewlet header -- renders fixed operator vocabulary: 'Search' heading and toolbar controls (refresh, clear, new editor, list, collapse)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "search-widget"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search input controls -- renders fixed operator vocabulary: search box, case sensitive, whole word, regex toggles"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "query-details"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search details toggle -- renders fixed operator control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "message"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search status message -- renders fixed operator vocabulary: 'No results found' or similar status text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "title tabs show-file-icons"
+      }
+    ],
+    "except": [
+      {
+        "role": "page tab",
+        "class": "tab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "editor tab bar chrome -- renders fixed operator controls: close, split, more; tab labels are user-named files and are subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "document frame",
+        "class": "gettingStartedContainer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "getting started page -- renders fixed operator vocabulary: product name, subtitle, categories (Start, Learn, Customize), and action buttons (New File, Go to File, Open Folder, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar",
+        "id": "workbench.parts.statusbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "status bar -- renders fixed operator vocabulary: remote indicator, SCM status, problems count, forwarded ports, notifications, screen reader mode"
+  }
+]

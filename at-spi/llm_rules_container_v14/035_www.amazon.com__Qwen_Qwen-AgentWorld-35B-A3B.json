@@ -1,0 +1,100 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "shortcut-menu",
+        "class": "nav-assistant"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip links and keyboard shortcuts navigation -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "navbar-main",
+        "class": "nav-opt-sprite nav-flex nav-locale-us nav-lang-en nav-ssl nav-unrec nav-progressive-attribute"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "nav-search-bar-form",
+        "class": "nav-searchbar nav-progressive-attribute"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search form including dropdown and submit button -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "s-result-sort-select",
+        "class": "a-native-dropdown a-declarative"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sort control -- operator-defined sort options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "a-section a-text-center s-pagination-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- operator-defined pagination"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooter",
+        "class": "navLeftFooter nav-sprite-v1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer navigation and links -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "dialog",
+        "id": "nav-flyout-ewc",
+        "class": "nav-ewc-lazy-align nav-ewcFlyout nav-flyout nav-locked"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "navigation flyout dialog -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "loom-desktop-inline-slot_featuredasins-heading",
+        "class": "a-size-medium-plus a-color-base"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "featured asins section heading -- operator editorial copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "loom-desktop-bottom-slot_featuredasins-heading",
+        "class": "a-size-medium-plus a-color-base"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "bottom featured asins section heading -- operator editorial copy"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "navbar-main"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main navigation bar -- platform's own interface including search and account controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooter"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer navigation and policy links -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "nav-search-bar-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search bar form -- platform's own search controls including dropdown, input, and submit button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "averageCustomerReviews"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "average customer reviews computed values -- star rating and review count"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "climatePledgeFriendlyBadge"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Climate Pledge Friendly status badge -- operator-defined badge"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "climatePledgeFriendlyBTF_feature_div"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Climate Pledge Friendly BTF copy and EPEAT certificate badge -- operator-defined environmental badges and copy"
+  }
+]

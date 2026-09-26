@@ -1,0 +1,92 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: Main menu, Simple Wikipedia, Search, Donate, Create account, Log in"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "mw-panel-toc"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Table of contents -- renders: Contents, Characteristics, Hardware, Controls, Programs, History of computers, Kinds of computers, Uses of computers, Working methods, Being Online (Internet), Computers and waste, Main hardware, Largest computer companies, References"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "mw-body-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Page title bar -- renders: Computer, Languages"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Associated pages tabs -- renders: Article, Talk"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "right-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Page view and tools tabs -- renders: Read, Edit, View history, Tools"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-appearance-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Appearance settings panel -- renders: Appearance, Font, Standard, Larger, Small, Width, Standard, Pinned, Theme, System, Day, Night"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "siteSub"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Page subtitle -- renders: From Simple English Wikipedia, the free encyclopedia"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "catlinks"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Category links -- renders: Categories, Computers, Technology"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: This page was last edited on..., Text is available under..., Privacy policy, About Simple Wikipedia, Disclaimers, Contact Wikipedia, Code of Conduct, Developers, Statistics, Cookie statement, Mobile view"
+  }
+]

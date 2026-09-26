@@ -1,0 +1,108 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "navbar-gitlab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: GitLab logo, search box, 'New project' button, dashboard shortcut labels (Issues, Merge requests, To do list, Help), and user avatar; all labels are fixed platform vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Project sidebar navigation -- renders: fixed section labels (Project information, Repository, Issues, Merge requests, Pipelines, Deployments, Infrastructure, Monitor, Analytics, Wiki, Snippets, Settings); the project name in the context header is user-defined and subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "breadcrumbs"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Breadcrumb navigation -- renders: user-defined project and group names; treated as trusted navigation chrome per calibration for this site type"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "issues-state-filters"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Merge request state filter tabs -- renders: Opened, Merged, Closed, All"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "gl-button btn btn-md btn-default has-tooltip"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "New merge request button -- renders: 'New merge request'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "gl-mr-3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "View toggle controls -- renders: list/board view switcher icons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-bulk-update-toggle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Bulk update toggle -- renders: 'Bulk update'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "gl-button btn btn-md btn-confirm"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "New merge request button (secondary) -- renders: 'New merge request'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "filter-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Filter form container -- renders: search input, history dropdown, and sort controls; the input value is user-generated but the container structure and labels are platform chrome"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "gl-ml-3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sort controls -- renders: 'Sort by' dropdown and reverse sort button"
+  }
+]

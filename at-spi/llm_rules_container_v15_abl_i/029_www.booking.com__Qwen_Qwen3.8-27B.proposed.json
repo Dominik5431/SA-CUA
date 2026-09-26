@@ -1,0 +1,192 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site header -- renders: Booking.com logo, language/currency selectors, 'Sign in'/'Register' links, and fixed service tabs (Accommodations/Flights/Packages/Cars/Attractions/Airport taxis)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "d24b1ed1cf f5852f597b da2666adb4"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Hotel page section tabs -- renders: Overview/Availability/Facilities/Policies/Fine print/Reviews"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "top-book"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Booking action bar -- renders: 'Add to wishlist', 'Share', 'Book now', 'Price guarantee' controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_hotel_name"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Hotel header controls -- renders: 'Save' button, 'Show on map' button, and 'Check availability' button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "photo_wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Photo gallery navigation -- renders: 'Show all photos' button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "reviewFloater"
+      }
+    ],
+    "except": [
+      {
+        "role": "landmark",
+        "id": ":r66:"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Review scorecard chrome -- renders: 'Exceptional' score badge, 'Guest reviews' heading, and 'See all reviews' button; subtracts the list of user-generated review snippets"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hotel_sidebar_static_map_capla"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Map widget controls -- renders: 'Show on map' button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_availability_style_changes"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "rooms_table"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Availability section chrome -- renders: 'Availability' heading, 'Price guarantee' button, and search date/occupancy controls; subtracts the room availability table containing host-supplied room names, descriptions, and prices"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "questions-answers-desktop"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "class": "e9f7361569 ccfe45de42 a4d6256e0a b049f18dec"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Q&A section chrome -- renders: 'Questions and answers' heading, 'Ask a question' button, and 'See all questions' button; subtracts the list of user-generated questions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "surroundings_block"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "class": "e9f7361569 db97e5b947 bf314bc066 b049f18dec"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Surroundings section chrome -- renders: 'Surroundings' heading, 'Show on map' button, and category labels (Airport, Beach, etc.); subtracts the lists of place names and distances"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_facilities_box"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "class": "e9f7361569 eb3a456445 b049f18dec"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Facilities section chrome -- renders: 'Facilities' heading, 'Show all facilities' button, and 'Property facilities' subheading; subtracts the list of facility names"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "xm-survey-component-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "User survey widget -- renders: 'How was your experience?' question and fixed rating options (Very poor to Very good)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_policies_box"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Policies section -- renders: 'Policies' heading and standard platform policy labels (Check-in, Check-out, Children, Pets, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "important_info"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Important information section -- renders: 'Important information' heading and standard platform disclaimer text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "pp-faq"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "FAQ section -- renders: 'Frequently asked questions' heading and standard platform FAQ questions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer_menu_track"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: fixed navigation links (Support, Partners, About), language/currency selectors, and legal links"
+  }
+]

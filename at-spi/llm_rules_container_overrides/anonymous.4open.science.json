@@ -1,0 +1,22 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "toolbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "numPages"
+      },
+      {
+        "role": "spin button",
+        "id": "pageNumber"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "PDF viewer toolbar -- renders: fixed viewer controls (sidebar, find, navigation, zoom, print, download, bookmark); page count and current page number are subtracted as they reflect the specific document"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "navigation controls -- renders: Menu/Reservations/Cart and the cart-count value"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "menu-items"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "menu-item action controls -- renders: the fixed customize/add-to-cart action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "customize-content"
+      }
+    ],
+    "own_role": "spin button",
+    "verdict": "trusted",
+    "note": "quantity control -- renders: the fixed item-quantity control and its numeric value"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "modal-buttons"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "customization modal controls -- renders: Add to cart/Cancel and the computed item price"
+  }
+]

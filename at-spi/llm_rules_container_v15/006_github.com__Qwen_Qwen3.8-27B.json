@@ -1,0 +1,52 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "header-wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site header -- renders: Skip to content, GitHub, Platform, Solutions, Pricing, Sign in, Sign up, Search, Appearance"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "mb-2 flex-1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Release sub-navigation -- renders: Releases, Tags"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "d-none d-md-block position-sticky flex-shrink-0 col-md-2 tmp-pr-md-6"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Release sidebar -- renders: Releases, Latest, Pre-releases, Previous, Next"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "pagination"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Pagination controls -- renders: Previous, Next, page numbers"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "footer f6 color-fg-muted color-border-subtle tmp-pt-7 tmp-pb-6 p-responsive"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: \u00a9 2024 GitHub, Inc., Terms, Privacy, Security, Status, Docs, Contact, Manage cookies, Do not share my personal information"
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {
+    "scope": "page",
+    "verdict": "trusted",
+    "note": "Calculator application interface -- all visible elements are operator-defined controls (buttons, menus, labels) with fixed vocabulary; no user-generated content, submissions, or third-party data exist in this utility."
+  }
+]

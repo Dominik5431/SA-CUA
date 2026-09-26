@@ -1,0 +1,82 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar section labels -- operator-defined section headers like Channels or Direct Messages"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "class": "rcx-button-group--medium rcx-button-group--align-start rcx-button-group rcx-css-6bg1ps"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "room header action toolbar -- operator's own interface controls for room actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-message-header__time"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message timestamp containers -- operator-defined computed values about submitted content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rc-message-box__toolbar-formatting"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message formatting toolbar -- operator's own interface controls for message formatting"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-topbar rcx-sidebar-topbar--toolbox omnichannel-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "omnichannel sidebar topbar -- operator's own interface controls and title"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-css-ebq3kg"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer branding and version info -- operator's own interface copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "rcx-button-group--medium rcx-button-group--align-start rcx-button-group rcx-css-vi4iz8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar action button group -- operator's own interface controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list item",
+        "class": "start color-info-font-color"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "conversation start marker or date separator -- operator-defined computed value"
+  }
+]

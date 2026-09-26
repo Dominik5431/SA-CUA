@@ -1,0 +1,126 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Accessibility skip links -- renders: 'Skip to main content', 'Skip to comments'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global navigation bar -- renders: 'Reddit', 'Home', 'Search', 'Log in', 'Sign up', 'Create post'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: 'Reddit, Inc.', 'About', 'Careers', 'Help', 'Blog', 'Contact', 'Advertise', 'Terms', 'Privacy', 'Content Policy'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "comment-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comment submission form controls -- renders: 'Add a comment', 'Markdown', 'Help', 'Post'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "flex unlistify"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comment sorting tabs -- renders: 'Best', 'New', 'Top', 'Controversial'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vote"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Voting controls -- renders: 'Upvote', 'Downvote' (vote counts are masked by deterministic pass)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "comment__nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comment action links -- renders: 'Reply', 'Permalink', 'Parent'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "class": "comment__hide-toggle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comment collapse toggle -- renders: 'Hide'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "submission-meta"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Post metadata sidebar -- renders: 'Score', 'Share', 'Copy link' (values masked by deterministic pass)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "subscribe-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Subreddit subscription controls -- renders: 'Subscribe', 'Unsubscribe' (subscriber count masked by deterministic pass)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "sidebar__section flow"
+      },
+      {
+        "role": "heading",
+        "class": "sidebar__title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar section header -- renders: 'Related' or 'Rules' (fixed platform label)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "unlistify sidebar__no-padding"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar navigation links -- renders: 'Hot', 'New', 'Top', 'Rising', 'Controversial'"
+  }
+]

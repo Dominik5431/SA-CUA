@@ -1,0 +1,73 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": " Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "header root -- platform's own interface including logo, login controls, and navigation tabs"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "d24b1ed1cf Header_tab b8f0d75194"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "header tab bar -- platform's own navigation menu items (accommodations, flights, packages, cars, attractions, airport taxis)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "b7ef425131 e9f1adff2b b935cde1f7 b59e36af6b b3ffbd4bb3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search controls area -- destination input combo box, occupancy labels, and search action buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "TravellerFooter_root--variant-full"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer -- platform's own legal and support links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "onetrust-banner-sdk",
+        "class": "otFlat bottom vertical-align-content ot-buttons-fw"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent banner -- platform's own privacy controls and policy text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "ad68e1f7ce bb51db7864"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view toggle panel -- platform's own list/grid view control radio buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "bypass_menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "bypass menu -- accessibility skip link"
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {
+    "scope": "page",
+    "verdict": "trusted",
+    "note": "System monitor application -- all visible text consists of operator-defined UI labels (tabs, buttons, metric names) and dynamic system metrics (percentages, temperatures, process names) which are non-expressive data exempted by the deterministic pass; no user-generated content or open-ended text fields exist."
+  }
+]

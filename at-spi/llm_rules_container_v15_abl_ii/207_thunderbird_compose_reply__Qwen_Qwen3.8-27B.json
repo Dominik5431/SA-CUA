@@ -1,0 +1,157 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "spacesToolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Application space switcher -- renders: Mail, Address Book, Calendar, Tasks, Chat, Settings, Collapse"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "toolbar-menubar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main application menu bar -- renders: File, Edit, View, Go, Message, Tasks, Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "folderPaneHeaderBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Folder pane action buttons -- renders: More, Write, Get Messages"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "threadPaneHeaderBar"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "id": "threadPaneFolderName"
+      },
+      {
+        "role": "section",
+        "id": "threadPaneFolderCountContainer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Thread pane controls -- renders: Quick Filter, Display; folder name and count are user-configured or computed"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "header-view-toolbox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Message action buttons -- renders: Reply, Forward, Archive, Junk, Trash, Other Actions, Star"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "toHeading"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Fixed label for recipient row -- renders: To"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "compose-toolbar-menubar2"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Compose window menu bar -- renders: File, Edit, View, Insert, Format, Options, Tasks, Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "composeToolbar2"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Compose window action toolbar -- renders: Send, Encryption, Spelling, Save, Contacts, Attach"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "FormatToolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Text formatting controls -- renders: Paragraph styles, Font faces, Font sizes, Bold, Italic, Underline, Lists, Alignment, Insert options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "id": "toAddrLabel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Fixed label for recipient field -- renders: To"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "id": "subjectLabel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Fixed label for subject field -- renders: Subject"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "id": "identityLabel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Fixed label for identity selector -- renders: From"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "extraAddressRowsArea"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Addressing row toggles -- renders: Cc, Bcc, More"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar"
+      }
+    ],
+    "except": [
+      {
+        "role": "label",
+        "id": "statusText"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Status bar controls -- renders: Offline status indicator; status text is dynamic"
+  }
+]

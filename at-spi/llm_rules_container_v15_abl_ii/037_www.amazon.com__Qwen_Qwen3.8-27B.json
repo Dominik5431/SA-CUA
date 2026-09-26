@@ -1,0 +1,160 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "shortcut-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Accessibility navigation shortcuts -- renders: Skip to main content, Skip to about this item, Skip to buying options, Skip to reviews, Search, Cart, Home, Your orders, Show shortcuts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "navbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry",
+        "id": "twotabsearchtextbox"
+      },
+      {
+        "role": "section",
+        "id": "glow-ingress-block"
+      },
+      {
+        "role": "section",
+        "id": "nav-link-accountList"
+      },
+      {
+        "role": "section",
+        "id": "nav-cart"
+      },
+      {
+        "role": "section",
+        "id": "nav-flyout-iss-anchor"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main navigation bar -- renders: Amazon logo, Search, Orders, Cart, and fixed category links (e.g. Today's Deals, Customer Service); excludes user-specific account/cart/location text and search input"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooter"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: Back to top, Get to Know Us, Careers, Blog, Amazon and Our Plan, and fixed legal/corporate links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "wishlistButtonStack"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Wishlist action button -- renders: Add to List"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "poToggleButton"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Product overview expander control -- renders: See more"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "featurebullets_feature_div"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "class": "a-unordered-list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "About this item section header and controls -- renders: About this item, See more; excludes seller-authored feature bullet points"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "btfSubNavDesktopCopy"
+      }
+    ],
+    "except": [
+      {
+        "role": "landmark",
+        "class": "btf-sub-nav-desktop-title-container"
+      },
+      {
+        "role": "landmark",
+        "class": "btf-sub-nav-desktop-image-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Bottom of page sub-navigation tabs -- renders: Product information, Customer reviews; excludes product title and image"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "productDetails"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Product details section header -- renders: Product information"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "whatsInTheBoxDeck"
+      }
+    ],
+    "except": [
+      {
+        "role": "description list",
+        "id": "witb-content-list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "What's in the box section header -- renders: What's in the box; excludes seller-provided item list"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "customerReviews"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "localTopReviews"
+      },
+      {
+        "role": "section",
+        "id": "internationalTopReviews"
+      },
+      {
+        "role": "section",
+        "id": "cm_cr_carousel_images_section"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Customer reviews section chrome -- renders: Customer reviews, 4.5 out of 5 stars, histogram labels, filter tabs (Top reviews, with images, etc.); excludes user-generated review text, titles, and images"
+  }
+]

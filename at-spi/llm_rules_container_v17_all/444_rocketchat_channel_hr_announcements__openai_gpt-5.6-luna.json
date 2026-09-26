@@ -1,0 +1,125 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "rcx-button-group--medium"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar action controls -- renders the operator's fixed sidebar actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-top-bar__title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar section title -- renders the operator's fixed sidebar label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar group heading -- renders fixed operator vocabulary for navigation groups"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-item__menu-wrapper"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "sidebar item menu controls -- renders fixed operator actions for managing navigation items"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "footer",
+        "class": "rcx-css-1h8ylb3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "workspace footer branding -- renders the operator's fixed logo and brand link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "rcx-room-header"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "room-header buttons -- renders fixed room actions such as information and navigation controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "class": "rcx-button-group--medium"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "room toolbar -- renders the fixed operator vocabulary of room actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "messages-box"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "message-area controls -- renders fixed operator actions for new-message navigation and composer operation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rc-message-box__toolbar-formatting"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message composer formatting toolbar -- renders fixed formatting, attachment, and composer controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rc-message-box__icon"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "emoji-picker control -- renders the fixed operator action for opening the emoji picker"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rc-message-box__audio-message-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "audio-message control -- renders the fixed operator action for recording or sending audio"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rc-message-box__action-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message action menu -- renders the fixed operator vocabulary of composer actions"
+  }
+]

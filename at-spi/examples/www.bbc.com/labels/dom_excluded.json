@@ -1,0 +1,68 @@
+{
+ "schema": 2,
+ "generated_at": "2026-08-26T14:42:33+00:00",
+ "tolerance_px": 2,
+ "min_cover": 0.5,
+ "curated_classes": [
+  "GROUP",
+  "SURFACE"
+ ],
+ "note": "DOM-derived. Rows listed here had no laid-out DOM box and are excluded from labeling and scoring. Curation only -- never an input to a prediction. See dom_curation.py.",
+ "files": {
+  "038_www.bbc.com.xml": {
+   "status": "ok",
+   "dom_boxes": 584,
+   "excluded": []
+  },
+  "039_www.bbc.com.xml": {
+   "status": "ok",
+   "dom_boxes": 784,
+   "excluded": []
+  },
+  "040_www.bbc.com.xml": {
+   "status": "ok",
+   "dom_boxes": 1053,
+   "excluded": []
+  },
+  "041_www.bbc.com.xml": {
+   "status": "ok",
+   "dom_boxes": 1050,
+   "excluded": []
+  },
+  "042_www.bbc.com.xml": {
+   "status": "ok",
+   "dom_boxes": 326,
+   "excluded": []
+  },
+  "043_www.bbc.com.xml": {
+   "status": "ok",
+   "dom_boxes": 1214,
+   "excluded": []
+  },
+  "138_www.bbc.com.xml": {
+   "status": "ok",
+   "dom_boxes": 610,
+   "excluded": []
+  },
+  "139_www.bbc.com.xml": {
+   "status": "ok",
+   "dom_boxes": 820,
+   "excluded": []
+  },
+  "140_www.bbc.com.xml": {
+   "status": "ok",
+   "dom_boxes": 1071,
+   "excluded": []
+  },
+  "141_www.bbc.com.xml": {
+   "status": "ok",
+   "dom_boxes": 1075,
+   "excluded": []
+  },
+  "142_www.bbc.com.xml": {
+   "status": "ok",
+   "dom_boxes": 351,
+   "excluded": []
+  }
+ }
+}

@@ -1,0 +1,107 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "rcx-sidebar"
+      },
+      {
+        "role": "panel",
+        "class": "rcx-button-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar top navigation button panels -- renders: fixed operator icons (Home/Search/Directory/Administration/etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar top bar -- renders: Omnichannel title and fixed control buttons (operator vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-section"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar section headings -- renders: Channels/Direct Messages (fixed operator vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "class": "rcx-button-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "room header action toolbar -- renders: Members/Search/Threads/Starred/etc. (fixed operator controls)"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "rcx-room-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "room header buttons -- renders: menu/back and action buttons (fixed operator controls); channel name heading stays masked"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "class": "rc-message-box__container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message input container -- renders: placeholder text, emoji picker icon, audio message control, action menu (fixed operator controls)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rc-message-box__toolbar-formatting"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message formatting toolbar -- renders: Bold/Italic/Strike/Code/etc. (fixed operator controls)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "footer",
+        "class": "rcx-css-1h8ylb3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar footer -- renders: logo link (fixed operator content)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-css-ebq3kg"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar footer promotional link -- renders: 'Create new workspace' text (fixed operator vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list item",
+        "class": "start color-info-font-color"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "start of conversation system message -- renders: fixed operator vocabulary (e.g. 'Start of conversation')"
+  }
+]

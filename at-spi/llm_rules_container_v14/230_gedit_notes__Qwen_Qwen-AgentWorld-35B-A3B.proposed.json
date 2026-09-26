@@ -1,0 +1,54 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      },
+      {
+        "role": "split pane"
+      },
+      {
+        "role": "panel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "menu bar and toolbar panels -- operator's own interface controls and labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      },
+      {
+        "role": "panel"
+      },
+      {
+        "role": "panel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "status bar controls panel -- operator's own interface labels and buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "radio button",
+    "verdict": "trusted",
+    "note": "line ending and encoding selection radio buttons -- operator's own interface controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      },
+      {
+        "role": "panel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "menu and dialog panels -- operator's own interface buttons, check boxes, and separators"
+  }
+]

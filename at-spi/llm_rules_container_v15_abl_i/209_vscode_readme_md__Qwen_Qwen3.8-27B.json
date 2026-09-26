@@ -1,0 +1,52 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "page tab list",
+        "class": "actions-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Activity bar -- renders fixed view icons: Explorer, Search, Source Control, Run, Extensions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "class": "actions-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Accounts/Settings bar -- renders fixed icons: Accounts, Settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "class": "actions-container highlight-toggled"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Editor tab actions -- renders fixed controls: Open Preview, Split Horizontal, More"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar",
+        "id": "workbench.parts.statusbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Status bar -- renders fixed status indicators: host, problems, ports, notifications, mode, EOL, encoding, indentation, selection, screen reader mode"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar",
+        "class": "ElectronMenuBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Native menu bar -- renders fixed menu titles: File, Edit, Selection, View, Go, Run, Terminal, Help"
+  }
+]

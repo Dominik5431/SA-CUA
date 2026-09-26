@@ -1,0 +1,44 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "header"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "expandDisplayName"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: ownCloud logo, app name, search box, and menu toggle; the user's display name is subtracted as it is user-generated"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "toolbarContainer"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "numPages"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "PDF viewer toolbar -- renders: fixed control labels for sidebar, find, navigation, zoom, presentation, print, download, and bookmark; the page count value is subtracted as it is a computed value"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "id": "viewerContextMenu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "PDF viewer context menu -- renders: fixed action labels for page navigation and rotation"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar",
+        "class": "ElectronMenuBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Native application menu bar -- renders fixed OS-level menu labels (File, Edit, View, Go, Run, Terminal, Help)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-action-bar vertical"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Activity bar and secondary action bar -- renders fixed view icons and labels (Explorer, Search, Source Control, Run, Extensions, Accounts, Settings)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "composite title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Viewlet header -- renders fixed view title and action buttons (Refresh, Clear, New Editor, List, Collapse)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "search-widget"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search input controls -- renders fixed toggle labels (Case Sensitive, Whole Word, Regex) and button icons; the query text is a value handled by the deterministic pass"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "query-details"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search details toggle -- renders fixed 'More' label and icon"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "message"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search status message -- renders fixed platform copy (e.g., 'No results found') and action links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "title tabs show-file-icons"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Editor tab bar -- renders fixed action buttons (Close, Split, More); tab labels are file names (user content) but the container is primarily chrome controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "document frame",
+        "class": "gettingStartedContainer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Getting Started page -- renders fixed platform documentation, category titles, descriptions, and action buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar",
+        "id": "workbench.parts.statusbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Status bar -- renders fixed status indicators and labels (Host, SCM, Problems, Ports, Notifications, Screen Reader Mode)"
+  }
+]

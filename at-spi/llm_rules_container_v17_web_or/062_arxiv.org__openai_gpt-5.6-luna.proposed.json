@@ -1,0 +1,312 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "ds-skip-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip navigation control -- renders fixed site navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "ds-site-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders arXiv branding, search, navigation, and sign-in controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table cell",
+        "class": "tablecell label"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "metadata labels -- renders fixed labels for comments, subjects, identifiers, and DOI metadata"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "download-pdf"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "PDF download control -- renders the fixed PDF download action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "latexml-download-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "HTML download control -- renders the fixed LaTeXML download action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "download-eprint"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "source download control -- renders the fixed source download action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "has_license"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "license control -- renders the fixed license-information link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "browse-context-heading"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "browse-context heading -- renders the fixed heading for category navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "prevnext"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "previous and next controls -- renders fixed browse-navigation actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "browse navigation controls -- renders fixed new, recent, and identifier browsing actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "switch context-change"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "category context switcher -- renders the fixed arXiv category taxonomy controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "cite-google-scholar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "citation service control -- renders the fixed Google Scholar citation action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "cite-semantic-scholar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "citation service control -- renders the fixed Semantic Scholar citation action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "what-is-this"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "trackback information widget -- renders fixed explanatory and help controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "bib-cite-trigger"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "citation dialog control -- renders the fixed bibliographic citation action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "radio button",
+        "class": "labs-tab-input"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "labs tab selector -- renders fixed tab-selection controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "page tab",
+        "id": "tab-label-one"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "labs tab -- renders a fixed tab label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "page tab",
+        "id": "tab-label-two"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "labs tab -- renders a fixed tab label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "page tab",
+        "id": "labstabs-demos-label"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "labs demo tab -- renders a fixed tab label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "page tab",
+        "id": "tab-label-four"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "labs tab -- renders a fixed tab label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "page tab",
+        "id": "tab-label-five"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "labs tab -- renders a fixed tab label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "lab-switch"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "labs integration toggle -- renders fixed third-party integration switches and labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "lab-name"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "labs integration information -- renders fixed service names and informational links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "label-for-bibex"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "BibTeX integration label -- renders fixed integration vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "label-for-connected-papers"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Connected Papers integration label -- renders fixed integration vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "label-for-litmaps"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Litmaps integration label -- renders fixed integration vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "label-for-scite"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "scite integration label -- renders fixed integration vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "mathjax_toggle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "MathJax display control -- renders the fixed mathematical-rendering toggle"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "ds-site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders fixed acknowledgments, site links, and funder information"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "abs-button-grey abs-button-small"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "small secondary navigation controls -- renders fixed browse, context, and interface actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "more-info"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "metadata information control -- renders the fixed explanatory-information action"
+  }
+]

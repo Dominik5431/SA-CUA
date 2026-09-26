@@ -1,0 +1,275 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: skip link, logo, search box, Help, Network, Log in, Sign up"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "dfp-sspon"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site header -- renders: site title link; ad slot subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Left sidebar navigation -- renders: Home, Questions, Unanswered, Ask, Tags, Sofa, Chat, Users, Companies, and fixed CTA copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "fs-headline1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Question header controls -- renders: 'Ask Question' button; question title subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item ws-nowrap mr16 mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Question metadata labels -- renders: 'Asked', 'Modified', 'Viewed'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item ws-nowrap mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Question metadata labels -- renders: 'Active', 'Today'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answers-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Answers section header -- renders: 'N Answers', 'Sorted by', and sort options (Newest, Oldest, Score)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-bottom-notice"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "class": "js-post-tag-list-wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Bottom notice -- renders: 'Know someone who can answer?', 'Start a 15 minute free trial', 'Related tags' label; tag list subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: navigation links (Tour, Help, About, etc.), social links, copyright, and version info"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-report-ad-button-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Ad report controls -- renders: 'Report this ad'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-vote-count"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Vote count display -- renders: numeric vote score"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "fs-caption"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Vote count label -- renders: 'votes'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-saves-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Save button -- renders: 'Save'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-post-issue"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Report issue button -- renders: 'Flag'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-share-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Share button -- renders: 'Share'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "user-action-time"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Post timestamp label -- renders: 'asked', 'modified', 'answered'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "relativetime"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Relative time display -- renders: timestamp string"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "relativetime-clean"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Relative time display -- renders: timestamp string"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "reputation-score"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Reputation score -- renders: numeric reputation value"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "community-wiki"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Community wiki badge -- renders: 'community wiki'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-gps-track"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "History link -- renders: 'history'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-add-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Add comment button -- renders: 'Add a comment'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-accepted-answer-indicator"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Accepted answer indicator -- renders: '\u2713'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "h-related"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Related questions heading -- renders: 'Related'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hot-network-questions"
+      }
+    ],
+    "except": [
+      {
+        "role": "list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Hot network questions header -- renders: 'Hot Network Questions'; question list subtracted"
+  }
+]

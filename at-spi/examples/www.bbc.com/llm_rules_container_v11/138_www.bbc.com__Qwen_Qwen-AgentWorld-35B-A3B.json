@@ -1,0 +1,78 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "SkipLink-styles__SkipLinkContainerStyled-sc-3b03ee65-0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip links container -- platform's own interface for accessibility navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "bbc-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "BBC header -- navigation, logo, and sign-in controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "main-navigation-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main navigation -- platform's own navigation menu items"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "bbc-main"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "dotcom-ad"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main content area -- editorial news cards and section labels; excludes ad slots"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Footer-styles__FooterStyled-sc-7046f1ed-0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "BBC footer -- content links, language dropdown, legal links, and social follow controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "ngasCookiePrompt"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie banner -- platform's own cookie consent controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "dialog",
+        "id": "sp_message_container_1489022"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "privacy consent dialog -- platform's own cookie/privacy consent controls"
+  }
+]

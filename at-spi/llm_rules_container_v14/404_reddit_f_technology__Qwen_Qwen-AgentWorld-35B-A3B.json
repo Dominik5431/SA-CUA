@@ -1,0 +1,59 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility navigation -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "flex flex--guttered"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "subreddit tabs and sort control -- renders: Posts/Comments or Hot/New/Rising/Top, operator-defined navigation and sort controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vote"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "vote widget -- renders: upvote/downvote buttons and vote count, operator controls and computed values"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "static",
+        "class": "submission__timestamp"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "submission timestamp -- computed date/time value, operator-defined"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "sidebar",
+        "class": "site-content__sidebar sidebar flow"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "sidebar__title forum-title break-text"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar -- renders: subscribe button, subscriber count, community metadata, sidebar menus; subtracted community name heading"
+  }
+]

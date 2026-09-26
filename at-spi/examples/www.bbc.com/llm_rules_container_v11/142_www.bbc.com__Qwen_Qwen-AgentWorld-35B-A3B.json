@@ -1,0 +1,110 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "SkipLink-styles__SkipLinkContainerStyled-sc-3b03ee65-0 cPCHEF"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip link container -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "bbc-header",
+        "class": "Header-styles__HeaderStyled-sc-36071384-0 lkxsBq"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "BBC header navigation and controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "main-navigation-container",
+        "class": "Navigation-styles__NavigationContainerStyled-sc-f1c1fa10-9 gUOgcu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main navigation menu"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "bbc-main"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "dotcom-top",
+        "class": "dotcom-ad"
+      },
+      {
+        "role": "section",
+        "id": "dotcom-sid_1",
+        "class": "dotcom-ad"
+      },
+      {
+        "role": "section",
+        "id": "dotcom-mid_1",
+        "class": "dotcom-ad"
+      },
+      {
+        "role": "section",
+        "id": "dotcom-mid_2",
+        "class": "dotcom-ad"
+      },
+      {
+        "role": "section",
+        "id": "dotcom-sid_2",
+        "class": "dotcom-ad"
+      },
+      {
+        "role": "section",
+        "id": "dotcom-mid_4",
+        "class": "dotcom-ad"
+      },
+      {
+        "role": "section",
+        "id": "taboola-below-article---news"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main article content and editorial sections; excludes ad slots"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Section-layouts-styles__SectionLayoutWrapper-sc-40ef2d4a-0 bgdYKK"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "more stories section -- operator-authored editorial links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "bbc-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "BBC footer with content links, language dropdown, social follow, and legal links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "ngasCookiePrompt"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie banner"
+  }
+]

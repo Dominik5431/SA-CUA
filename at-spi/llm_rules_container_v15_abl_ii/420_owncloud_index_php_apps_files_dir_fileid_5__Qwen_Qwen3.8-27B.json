@@ -1,0 +1,54 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "header"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "expandDisplayName"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: ownCloud logo, app name, menu toggle, search box; user display name is subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "toolbarSidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "PDF viewer sidebar toolbar -- renders: fixed view mode labels (Thumbnail, Outline, Attachments)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "toolbarViewer"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "numPages"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "PDF viewer main toolbar -- renders: fixed control labels (Sidebar, Find, Previous, Next, Presentation, Print, Download, Bookmark, More, Zoom); page count value is subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "scaleSelectContainer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Zoom scale selector -- renders: fixed zoom options (Auto, Actual, Fit, Width, Custom)"
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "rcx-button-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "platform control groups -- renders fixed navigation and action-button vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-topbar--toolbox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar toolbox -- renders the platform's fixed title and sidebar controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar section headings -- renders fixed category labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "rcx-sidebar-item"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "sidebar item action controls -- renders fixed menu-button actions, not the user-created item names"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "footer",
+        "class": "rcx-css-1h8ylb3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "platform footer -- renders the fixed Rocket.Chat branding link and image"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "rcx-css-19z81xy"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "directory heading -- renders the platform's fixed page title"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "page tab list",
+        "class": "rcx-tabs__wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "directory tabs -- renders the fixed tab vocabulary and tab controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "rcx-table__head"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "directory table header -- renders fixed column labels and sorting controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "rcx-pagination"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- renders fixed paging actions and the platform's pagination display"
+  }
+]

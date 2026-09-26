@@ -1,0 +1,914 @@
+{
+  "aclanthology.org": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "ai.stanford.edu": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "anonymous.4open.science": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "apnews.com": {
+    "cookie_accept_ids": [
+      "onetrust-accept-btn-handler",
+      "onetrust-reject-all-handler"
+    ],
+    "cookie_provider": "onetrust"
+  },
+  "archive.org": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "arxiv.org": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "ask.libreoffice.org": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "askubuntu.com": {
+    "cookie_accept_ids": [
+      "onetrust-accept-btn-handler"
+    ],
+    "cookie_provider": "onetrust"
+  },
+  "aws.amazon.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "bespoke"
+  },
+  "azure.microsoft.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "bespoke"
+  },
+  "blog.eleuther.ai": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "booking.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "bugartisan.medium.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "cloud.google.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "colab.research.google.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "crates.io": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "cs50.harvard.edu": {
+    "cookie_accept_ids": [
+      "onetrust-accept-btn-handler"
+    ],
+    "cookie_provider": "onetrust"
+  },
+  "dblp.org": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "deb.nodesource.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "bespoke"
+  },
+  "developer.apple.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "developer.mozilla.org": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "devicetests.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "devstreaming-cdn.apple.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "dictionary.cambridge.org": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "discussions.flightaware.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "docs.djangoproject.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "docs.docker.com": {
+    "cookie_accept_ids": [
+      "onetrust-accept-btn-handler",
+      "onetrust-reject-all-handler"
+    ],
+    "cookie_provider": "onetrust"
+  },
+  "docs.python.org": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "doordash.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "download.microsoft.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "duckduckgo.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "en.wikipedia.org": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "english.stackexchange.com": {
+    "cookie_accept_ids": [
+      "onetrust-accept-btn-handler"
+    ],
+    "cookie_provider": "onetrust"
+  },
+  "espn.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "europa.eu": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "bespoke"
+  },
+  "expedia.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "experts.utexas.edu": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "funbrain.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "getfedora.org": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "github.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "bespoke"
+  },
+  "gitlab.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "go.dev": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "google.com": {
+    "cookie_accept_ids": [
+      "L2AGLb",
+      "W0wltc"
+    ],
+    "cookie_provider": "bespoke"
+  },
+  "hal.science": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "help.libreoffice.org": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "help.ubuntu.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "howlongtoread.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "huggingface.co": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "in5stepstutorials.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "indeed.com": {
+    "cookie_accept_ids": [
+      "onetrust-accept-btn-handler",
+      "onetrust-reject-all-handler"
+    ],
+    "cookie_provider": "onetrust"
+  },
+  "itsfoss.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "jimfan.me": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "kubernetes.io": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "lilianweng.github.io": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "marketplace.uipath.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "onetrust"
+  },
+  "medium.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "netflix.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "onetrust"
+  },
+  "news.google.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "bespoke"
+  },
+  "nikki-ricks.medium.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "nodejs.org": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "ocw.mit.edu": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "openai.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "bespoke"
+  },
+  "paperswithcode.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "picard.musicbrainz.org": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "pkg.go.dev": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "premier.ticketek.com.au": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "pypi.org": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "pytorch.org": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "osano"
+  },
+  "raw.githubusercontent.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "bespoke"
+  },
+  "reactjs.org": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "releases.ubuntu.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "research.nvidia.com": {
+    "cookie_accept_ids": [
+      "onetrust-accept-btn-handler"
+    ],
+    "cookie_provider": "onetrust"
+  },
+  "researchguides.case.edu": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "scholar.google.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "security.stackexchange.com": {
+    "cookie_accept_ids": [
+      "onetrust-accept-btn-handler"
+    ],
+    "cookie_provider": "onetrust"
+  },
+  "serverfault.com": {
+    "cookie_accept_ids": [
+      "onetrust-accept-btn-handler"
+    ],
+    "cookie_provider": "onetrust"
+  },
+  "shopping.google.com": {
+    "cookie_accept_ids": [
+      "L2AGLb",
+      "W0wltc"
+    ],
+    "cookie_provider": "bespoke"
+  },
+  "simple.wikipedia.org": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "softwareengineering.stackexchange.com": {
+    "cookie_accept_ids": [
+      "onetrust-accept-btn-handler"
+    ],
+    "cookie_provider": "onetrust"
+  },
+  "southwest.com": {
+    "cookie_accept_ids": [
+      "onetrust-accept-btn-handler",
+      "onetrust-reject-all-handler"
+    ],
+    "cookie_provider": "onetrust"
+  },
+  "spotify.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "onetrust"
+  },
+  "stackoverflow.com": {
+    "cookie_accept_ids": [
+      "onetrust-accept-btn-handler"
+    ],
+    "cookie_provider": "onetrust"
+  },
+  "store.steampowered.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "bespoke"
+  },
+  "superuser.com": {
+    "cookie_accept_ids": [
+      "onetrust-accept-btn-handler"
+    ],
+    "cookie_provider": "onetrust"
+  },
+  "support.google.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "support.mozilla.org": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "target.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "techcommunity.microsoft.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "technical-tips.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "tensorlab.cms.caltech.edu": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "ticketmaster.com": {
+    "cookie_accept_ids": [
+      "onetrust-accept-btn-handler",
+      "onetrust-reject-all-handler"
+    ],
+    "cookie_provider": "onetrust"
+  },
+  "uber.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "bespoke"
+  },
+  "ubuntu.com": {
+    "cookie_accept_ids": [
+      "cookie-policy-button-accept-all"
+    ],
+    "cookie_provider": "bespoke"
+  },
+  "unix.stackexchange.com": {
+    "cookie_accept_ids": [
+      "onetrust-accept-btn-handler"
+    ],
+    "cookie_provider": "onetrust"
+  },
+  "vercel.com": {
+    "cookie_accept_ids": [
+      "fides-accept-all-button"
+    ],
+    "cookie_provider": "fides"
+  },
+  "webext.eu": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "whatwg.org": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "wiki.videolan.org": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.accuweather.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "bespoke"
+  },
+  "www.adsigner.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.airbnb.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "bespoke"
+  },
+  "www.amazon.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.apache.org": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.apple.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.babycenter.com": {
+    "cookie_accept_ids": [
+      "onetrust-reject-all-handler"
+    ],
+    "cookie_provider": "onetrust"
+  },
+  "www.bbc.co.uk": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.bbc.com": {
+    "cookie_accept_ids": [
+      "bbccookies-continue-button"
+    ],
+    "cookie_provider": "sourcepoint"
+  },
+  "www.berkeley.edu": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.bestbuy.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.bing.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.booking.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.britannica.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "cmpbox"
+  },
+  "www.budget.com": {
+    "cookie_accept_ids": [
+      "onetrust-accept-btn-handler"
+    ],
+    "cookie_provider": "onetrust"
+  },
+  "www.cam.ac.uk": {
+    "cookie_accept_ids": [
+      "ccc-notify-accept"
+    ],
+    "cookie_provider": "civic_uk_cookie_control"
+  },
+  "www.cars.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.cdc.gov": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.cnn.com": {
+    "cookie_accept_ids": [
+      "onetrust-accept-btn-handler"
+    ],
+    "cookie_provider": "onetrust"
+  },
+  "www.coursera.org": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.cs.utexas.edu": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.debian.org": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.dedoimedo.com": {
+    "cookie_accept_ids": [
+      "ccc-recommended-settings",
+      "ccc-reject-settings"
+    ],
+    "cookie_provider": "civic_uk_cookie_control"
+  },
+  "www.deepl.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.delta.com": {
+    "cookie_accept_ids": [
+      "onetrust-accept-btn-handler"
+    ],
+    "cookie_provider": "onetrust"
+  },
+  "www.digitalocean.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "trustarc"
+  },
+  "www.dmv.virginia.gov": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.dota2.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.drugs.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "bespoke"
+  },
+  "www.eas.caltech.edu": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.ebay.com": {
+    "cookie_accept_ids": [
+      "gdpr-banner-accept"
+    ],
+    "cookie_provider": "bespoke"
+  },
+  "www.edx.org": {
+    "cookie_accept_ids": [
+      "onetrust-accept-btn-handler"
+    ],
+    "cookie_provider": "onetrust"
+  },
+  "www.etsy.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.flightaware.com": {
+    "cookie_accept_ids": [
+      "onetrust-reject-all-handler"
+    ],
+    "cookie_provider": "onetrust"
+  },
+  "www.freecodecamp.org": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.geeksforgeeks.org": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.gnu.org": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.gov.uk": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.harvard.edu": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.heroku.com": {
+    "cookie_accept_ids": [
+      "onetrust-accept-btn-handler",
+      "onetrust-reject-all-handler"
+    ],
+    "cookie_provider": "onetrust"
+  },
+  "www.howtogeek.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "sourcepoint"
+  },
+  "www.ietf.org": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.ilovefreesoftware.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "bespoke"
+  },
+  "www.imdb.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.iso.org": {
+    "cookie_accept_ids": [
+      "accept"
+    ],
+    "cookie_provider": "usercentrics"
+  },
+  "www.justice.gov": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.khanacademy.org": {
+    "cookie_accept_ids": [
+      "onetrust-accept-btn-handler"
+    ],
+    "cookie_provider": "onetrust"
+  },
+  "www.kohls.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.laptopmag.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.libreofficehelp.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "bespoke"
+  },
+  "www.linkedin.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.lonelyplanet.com": {
+    "cookie_accept_ids": [
+      "onetrust-reject-all-handler"
+    ],
+    "cookie_provider": "onetrust"
+  },
+  "www.macys.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.maketecheasier.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "cmpbox"
+  },
+  "www.makeuseof.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "sourcepoint"
+  },
+  "www.mathsisfun.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "bespoke"
+  },
+  "www.mbta.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.mit.edu": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.mozilla.org": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.nasa.gov": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.nationalgeographic.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.nba.com": {
+    "cookie_accept_ids": [
+      "onetrust-reject-all-handler"
+    ],
+    "cookie_provider": "onetrust"
+  },
+  "www.nfl.com": {
+    "cookie_accept_ids": [
+      "onetrust-accept-btn-handler"
+    ],
+    "cookie_provider": "onetrust"
+  },
+  "www.nih.gov": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.nist.gov": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.npmjs.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.npr.org": {
+    "cookie_accept_ids": [
+      "onetrust-accept-btn-handler",
+      "onetrust-reject-all-handler"
+    ],
+    "cookie_provider": "onetrust"
+  },
+  "www.nytimes.com": {
+    "cookie_accept_ids": [
+      "fides-accept-all-button",
+      "fides-reject-all-button"
+    ],
+    "cookie_provider": "fides"
+  },
+  "www.openstreetmap.org": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.ox.ac.uk": {
+    "cookie_accept_ids": [
+      "ccc-notify-accept"
+    ],
+    "cookie_provider": "civic_uk_cookie_control"
+  },
+  "www.python.org": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.qatarairways.com": {
+    "cookie_accept_ids": [
+      "onetrust-accept-btn-handler",
+      "onetrust-reject-all-handler"
+    ],
+    "cookie_provider": "onetrust"
+  },
+  "www.quora.com": {
+    "cookie_accept_ids": [
+      "onetrust-reject-all-handler"
+    ],
+    "cookie_provider": "onetrust"
+  },
+  "www.recreation.gov": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.reddit.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.redhat.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "trustarc"
+  },
+  "www.rentalcars.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.reuters.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.rfc-editor.org": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.rust-lang.org": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.ryanair.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.speedtest.net": {
+    "cookie_accept_ids": [
+      "onetrust-reject-all-handler"
+    ],
+    "cookie_provider": "onetrust"
+  },
+  "www.stanford.edu": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.surreycc.gov.uk": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "bespoke"
+  },
+  "www.sync.blue": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "bespoke"
+  },
+  "www.theguardian.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "sourcepoint"
+  },
+  "www.tiktok.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "bespoke"
+  },
+  "www.tripadvisor.com": {
+    "cookie_accept_ids": [
+      "onetrust-reject-all-handler"
+    ],
+    "cookie_provider": "onetrust"
+  },
+  "www.unicode.org": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.united.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "bespoke"
+  },
+  "www.usa.gov": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.vlchelp.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.w3.org": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.w3schools.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.walmart.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.weather.gov": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.wikidata.org": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.wikihow.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "bespoke"
+  },
+  "www.wolframalpha.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.wsj.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.youtube.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "www.zhihu.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "x.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "bespoke"
+  },
+  "yelp.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "yukezhu.me": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  },
+  "zillow.com": {
+    "cookie_accept_ids": [],
+    "cookie_provider": "none"
+  }
+}

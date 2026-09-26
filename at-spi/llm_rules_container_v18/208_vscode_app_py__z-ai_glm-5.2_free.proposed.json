@@ -1,0 +1,69 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-action-bar vertical"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "activity bar -- renders: Explorer, Search, Source Control, Run and Debug, Extensions, Accounts, Settings (fixed VS Code view switcher icons and bottom toolbar buttons)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar",
+        "class": "ElectronMenuBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top menu bar -- renders: File, Edit, Selection, View, Go, Run, Terminal, Help (fixed VS Code menu labels)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "class": "actions-container highlight-toggled"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "editor tab toolbar -- renders: Split Editor, More actions (fixed VS Code editor controls)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar",
+        "id": "workbench.parts.statusbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "status bar -- renders fixed labels (Notifications, Forwarded Ports, Screen Reader Mode) and computed values (language mode, EOL, encoding, indentation, selection, problem counts); no user-authored prose"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "page tab",
+        "class": "tab-actions-right"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "editor tab close button -- renders: Close (fixed VS Code control); the file name in the tab label stays masked"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "dialog",
+        "class": "monaco-list-row"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "notification-list-item-message"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "notification toasts -- renders: fixed VS Code notification buttons (e.g. Cancel, Install) and clear/configure controls; the notification message text is subtracted"
+  }
+]

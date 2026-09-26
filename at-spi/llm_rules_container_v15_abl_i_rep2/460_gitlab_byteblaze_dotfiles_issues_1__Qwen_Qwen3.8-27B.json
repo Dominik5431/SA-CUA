@@ -1,0 +1,164 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "navbar-gitlab"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "header-user"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- platform's own interface; user profile menu is subtracted as it displays user-controlled name"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Project navigation sidebar -- renders fixed section labels (Issues, MRs, Pipelines, etc.); project name header is subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flash-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "System flash messages -- operator-authored alerts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-vue-markdown-field"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Markdown editor tabs and toolbar -- fixed operator controls (Write, Preview, formatting buttons)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "note-form-actions"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Note submission controls -- fixed operator buttons (Comment, Close)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "btn-edit"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Edit issue button -- fixed operator control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "emoji-picker"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Reaction picker -- fixed operator control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "new-branch-col"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Create Merge Request button -- fixed operator control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "gl-m-0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Section headings for notes/activity -- fixed operator labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "__BVID__403"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Notes sort/filter dropdown -- fixed operator control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "gutter-toggle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar toggle button -- fixed operator control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "hide-collapsed"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar edit buttons -- fixed operator controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "upload-dropzone-card"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "File upload dropzone -- fixed operator interface for attaching files"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "discussion-preferences"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Discussion preferences dropdown -- fixed operator control for sorting/filtering notes"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "toolbar-text"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Markdown toolbar text links -- fixed operator controls (e.g., 'Attach', 'Mention')"
+  }
+]

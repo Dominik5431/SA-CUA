@@ -1,0 +1,192 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "spacesToolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Application space switcher -- renders: Mail, Address Book, Calendar, Tasks, Chat, Settings, Collapse"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "toolbar-menubar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main application menu bar -- renders: File, Edit, View, Go, Message, Tasks, Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "folderPaneHeaderBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Folder pane action buttons -- renders: More, Write, Get Messages"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "threadPaneHeaderBar"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "id": "threadPaneFolderName"
+      },
+      {
+        "role": "section",
+        "id": "threadPaneFolderCountContainer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Thread pane controls -- renders: Quick Filter, Display; folder name and count are user-configured or computed"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "header-view-toolbox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Message action buttons -- renders: Reply, Forward, Archive, Junk, Trash, Other Actions, Star"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "toHeading"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Fixed label for recipient row -- renders: To"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "compose-toolbar-menubar2"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Compose window menu bar -- renders: File, Edit, View, Insert, Format, Options, Tasks, Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "composeToolbar2"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Compose window action toolbar -- renders: Send, Encryption, Spelling, Save, Contacts, Attach"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "FormatToolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Text formatting controls -- renders: Paragraph styles, Font faces, Font sizes, Bold, Italic, Underline, Lists, Alignment, Insert options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "id": "toAddrLabel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Fixed label for recipient field -- renders: To"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "id": "subjectLabel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Fixed label for subject field -- renders: Subject"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "id": "identityLabel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Fixed label for account selector -- renders: From"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "id": "noAccountTitle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Placeholder title for empty chat state -- renders: No Accounts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "id": "noAccountDesc"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Placeholder description for empty chat state -- renders: Add an account to start chatting"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "openIMAccountWizardButton"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Button to open account wizard -- renders: Add Account"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "button-add-buddy"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Chat toolbar button -- renders: Add Buddy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "button-join-chat"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Chat toolbar button -- renders: Join Chat"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "button-chat-accounts"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Chat toolbar button -- renders: Accounts"
+  }
+]

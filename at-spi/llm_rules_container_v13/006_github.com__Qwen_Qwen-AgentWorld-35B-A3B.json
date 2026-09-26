@@ -1,0 +1,72 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "position-relative header-wrapper js-header-wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar and marketing header -- platform's own interface including logo, navigation dropdowns, search, sign-in/sign-up controls, and appearance settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-repo-nav js-sidenav-container-pjax js-responsive-underlinenav overflow-hidden UnderlineNav px-3 tmp-px-3 px-md-4 tmp-px-md-4 px-lg-5 tmp-px-lg-5"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository navigation tabs -- platform's own interface including Code, Issues, Pull requests, Actions, Projects, Wiki, Security and quality, Insights tabs and their counters"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "mb-2 flex-1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository subnav -- platform's own interface including selected subnav items and labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "entry",
+        "id": "release-filter"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "release filter search box -- platform's own search control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "d-none d-md-block position-sticky flex-shrink-0 col-md-2 tmp-pr-md-6"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "release page sticky sidebar -- platform's own interface including section heading and navigation list (ActionListWrap)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "pagination"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- platform's own interface including page numbers and previous/next links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer -- platform's own interface including footer links and copyright information"
+  }
+]

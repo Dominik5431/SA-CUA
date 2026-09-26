@@ -1,0 +1,32 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "hiddenuploadfield"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file upload start control -- renders fixed operator upload-button label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "toolbarSidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "PDF viewer sidebar toolbar -- renders: Thumbnail / Outline / Attachments view toggle buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "toolbarViewer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "PDF viewer main toolbar -- renders: sidebar toggle, find, previous/next, page number, zoom in/out, scale select (Automatic/Actual Size/Page Fit/Page Width/percentages), presentation mode, print, download, bookmark, secondary toolbar open/close"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "alert",
+        "id": "fides-banner-container"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "fides-banner-description"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent banner -- renders: banner title, 'Manage preferences'/'Reject all'/'Accept all' buttons, language selector menu; subtracts the description section which carries a dynamic vendor count alongside fixed policy links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "Wr7_RG_mastheadSection"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site masthead navigation -- renders: NYT logo link, 'Sections' button, 'Search' button, section label, subscribe link, account/sign-in link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "collection-business"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Business section page -- renders: section header, sub-navigation, highlights, article stream, and pagination; all content is NYT editorial copy authored by the operator's journalists"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "css-1jmk4jh"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site index label -- renders: 'Site Index' heading, a fixed platform navigation label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "css-1qa4qp6"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: fixed footer navigation links (Subscribe, Contact, Accessibility, Terms, Privacy, etc.)"
+  }
+]

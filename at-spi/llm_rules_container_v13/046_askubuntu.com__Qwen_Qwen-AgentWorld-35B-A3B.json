@@ -1,0 +1,69 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "dfp-sspon"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders: site link; excludes sponsorship ad"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "answer js-answer"
+      }
+    ],
+    "except": [
+      {
+        "role": "paragraph"
+      },
+      {
+        "role": "section",
+        "class": "comments js-comments-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answer post container -- renders: vote buttons, save/follow/share/edit controls, timestamps, gravatar, reputation flair; excludes answer body and comments"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-report-ad-button-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "report ad buttons outside ad creatives"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mobile-anchor-ad-report-button-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "report ad buttons outside ad creatives"
+  }
+]

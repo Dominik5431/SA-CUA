@@ -1,0 +1,32 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "header-wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site header -- renders: skip-to-content, GitHub logo, navigation menu (Product/Solutions/Marketplace/Explore/Pricing), search trigger, Sign in, Sign up, and appearance settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "prc-Pagination-PaginationContainer-HEhGo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Pagination controls -- renders: page numbers and navigation arrows"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "MiniTip-module__container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Platform tip box -- renders: 'Pro tip' label, keyboard shortcut, and platform-authored instructional text"
+  }
+]

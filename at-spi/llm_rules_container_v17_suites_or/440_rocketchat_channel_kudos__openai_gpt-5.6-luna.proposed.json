@@ -1,0 +1,94 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "rcx-button-group--medium"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "platform control groups -- renders fixed navigation and workspace action controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar toolbox -- renders the fixed sidebar title and platform controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar section headings -- renders fixed platform vocabulary for sidebar sections"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-item__menu-wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar item menus -- renders fixed per-item menu controls, excluding user-created sidebar names"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "footer",
+        "class": "rcx-css-1h8ylb3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "application footer branding -- renders the operator's fixed brand link and logo"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "rcx-room-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "room-header action buttons -- renders fixed channel controls while excluding the user-created channel name"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "class": "rcx-button-group--medium"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "room-header toolbar -- renders the fixed set of channel action controls"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "chat-window-PeFvjb48HH24WkNyn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message-window controls -- renders fixed new-message and jump-to-message controls while excluding the message timeline"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rc-message-box__toolbar-formatting"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "composer formatting toolbar -- renders fixed message-composition controls"
+  }
+]

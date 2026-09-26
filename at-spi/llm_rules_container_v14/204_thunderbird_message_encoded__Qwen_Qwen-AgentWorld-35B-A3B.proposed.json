@@ -1,0 +1,136 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "spacesToolbar",
+        "class": "spaces-toolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "spaces toolbar -- platform's own interface for navigation between mail, address book, calendar, tasks, chat, and settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "unifiedToolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "unified toolbar -- platform's own interface including search, app menu, and titlebar controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "toolbar-menubar",
+        "class": "chromeclass-menubar themeable-full"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "menubar -- platform's own interface with File, Edit, View, Go, message, tasks, and help menus"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "chat-toolbar",
+        "class": "inline-toolbar chromeclass-toolbar themeable-full"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "chat toolbar -- platform's own interface for chat controls including add buddy, join chat, status, and accounts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "folderPaneHeaderBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "folder pane header bar -- platform's own interface with more, write message, and get messages buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "threadPaneHeaderBar",
+        "class": "list-header-bar"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "id": "threadPaneFolderName",
+        "class": "list-header-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "thread pane header bar -- renders: folder message count, quick filter and display controls; the folder name heading is subtracted as user-created"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "header-view-toolbox",
+        "class": "header-buttons-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message header toolbox -- platform's own interface with reply, forward, archive, junk, trash, other actions, and star message buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "dateLabel",
+        "class": "message-header-datetime"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message header date label -- renders: timestamp/date computed value for the email"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "status bar -- platform's own interface including offline status and status text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "id": "noAccountTitle",
+        "class": "im-placeholder-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "chat tab no account title placeholder -- platform's own interface copy for when no chat account is configured"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "id": "noAccountDesc",
+        "class": "im-placeholder-desc"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "chat tab no account description placeholder -- platform's own interface copy for when no chat account is configured"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "openIMAccountWizardButton"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "chat tab open IM account wizard button -- platform's own interface control to add a chat account"
+  }
+]

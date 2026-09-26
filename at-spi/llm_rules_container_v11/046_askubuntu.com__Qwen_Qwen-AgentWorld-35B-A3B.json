@@ -1,0 +1,97 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "left-sidebar--sticky-container js-sticky-leftnav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left sidebar navigation -- platform's own interface and operator-defined links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer js-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- platform's own interface and legal links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-report-ad-button-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "ad report button containers -- platform controls to report ads"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "dfp-tlb"
+      },
+      {
+        "role": "paragraph"
+      },
+      {
+        "role": "section",
+        "class": "comments js-comments-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question container -- renders: vote buttons, save button, post-issue link, tags, share/edit/follow controls, timestamp, gravatar, reputation score; subtracts ad, question body paragraph, and comments"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "answer js-answer"
+      }
+    ],
+    "except": [
+      {
+        "role": "paragraph"
+      },
+      {
+        "role": "block quote"
+      },
+      {
+        "role": "section",
+        "class": "comments js-comments-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answer container -- renders: vote buttons, save button, accepted indicator, post-issue link, share/edit/follow controls, timestamp, gravatar, reputation score; subtracts answer body paragraphs/quotes and comments"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "answer-sort-dropdown-select-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answer sort dropdown control -- renders: sort options like Newest, Active, Votes"
+  }
+]

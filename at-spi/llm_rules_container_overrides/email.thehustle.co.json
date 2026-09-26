@@ -1,0 +1,7 @@
+[
+  {
+    "scope": "page",
+    "verdict": "trusted",
+    "note": "The Hustle's click/unsubscribe host (mock), the domain its emails link to. Serves one publisher-authored confirmation form; no reader-submitted content. Same registrable domain as the vouched publisher site, which is the relation endorse_by_same_site checks for the link itself."
+  }
+]

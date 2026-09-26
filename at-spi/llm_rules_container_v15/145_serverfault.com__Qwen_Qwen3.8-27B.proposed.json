@@ -1,0 +1,282 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: skip link, logo, search box, Help, Network, Log in, Sign up"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Left sidebar navigation -- renders: Questions, Unanswered, Ask, Tags, Users, Companies, Chat, Sofa, and fixed CTA copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answers-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Answers section header -- renders: 'N Answers' heading, 'Sorted by' label, and sort dropdown options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-vote-count"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Vote count display -- renders: numeric vote count"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "fs-caption"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Vote count label -- renders: 'votes' or 'answers'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-saves-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Save button -- renders: 'Save'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-post-issue"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Report issue button -- renders: 'Flag'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-share-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Share button -- renders: 'Share'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "user-action-time"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Post timestamp label -- renders: 'asked', 'modified', 'answered'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "user-gravatar32"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "User avatar container -- renders: user profile image"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "-flair"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "User reputation display -- renders: numeric reputation score"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-2719"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: 'N Comments'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-2733"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: 'N Comments'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-2727"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: 'N Comments'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-2742"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: 'N Comments'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-14949"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: 'N Comments'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-2724"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: 'N Comments'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-2723"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: 'N Comments'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-2730"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: 'N Comments'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-2741"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: 'N Comments'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-11639"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: 'N Comments'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-2729"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: 'N Comments'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-2781"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: 'N Comments'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-2838"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: 'N Comments'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-14973"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: 'N Comments'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-14987"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: 'N Comments'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-147186"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: 'N Comments'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "onetrust-consent-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Cookie consent banner -- renders: privacy policy text, accept/reject buttons"
+  }
+]

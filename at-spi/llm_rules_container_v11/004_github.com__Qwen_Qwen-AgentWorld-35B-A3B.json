@@ -1,0 +1,62 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "px-2 tmp-py-4 color-bg-accent-emphasis color-fg-on-emphasis show-on-focus js-skip-to-content"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip to content link -- platform's own interface control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "MarketingHeader-module__root__Tk7n3 HeaderMktg header-logged-out"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "marketing header navigation -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "pagehead-actions flex-shrink-0 d-none d-md-inline"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository action buttons and computed counts -- watch, fork, stars controls and counters"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-repo-nav js-sidenav-container-pjax js-responsive-underlinenav overflow-hidden UnderlineNav px-3 tmp-px-3 px-md-4 tmp-px-md-4 px-lg-5 tmp-px-lg-5"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository navigation tabs -- platform's own interface (code, issues, pull requests, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "subnav-search width-full d-flex ml-0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issues search box -- operator's own interface control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "subnav-links float-left d-flex no-wrap"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issue state tabs and counters -- platform-defined states (open/closed) and computed counts"
+  }
+]

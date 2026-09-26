@@ -1,0 +1,54 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "rcx-sidebar sidebar sidebar--main sidebar--medium"
+      }
+    ],
+    "except": [
+      {
+        "role": "landmark",
+        "class": "rooms-list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main sidebar chrome -- renders: user status, navigation icon buttons (Home, DMs, etc.), and footer links; the rooms-list is subtracted as it renders user-created channel names"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "rcx-room-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Room header -- renders: channel name (operator-defined for HR announcements), member count, and fixed action buttons (Search, Members, Pinned, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "messages-container-main"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "class": "messages-list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Message container chrome -- renders: 'New message' button and 'Jump to recent' button; the messages-list is subtracted as it contains user-generated message content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "footer",
+        "class": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Message input area -- renders: emoji picker, message textarea, and fixed formatting toolbar buttons (Bold, Italic, etc.)"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "navbar-gitlab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- renders: logo, search box, Issues/Merge Requests/Todos counter links, Help dropdown, user avatar menu; platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left project navigation sidebar -- renders: Repository, Issues, Merge Requests, Pipelines, Deployments, Monitor, Analytics, Wiki, Snippets, Settings and Issues sub-items (Open/Closed/All); except the context-header list item which shows the user-created project name"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "content-body"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "class": "issuable-list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issues page toolbar and controls -- renders: state filter tabs (Open/Closed/All), filter and sort dropdowns, search box, New Issue button, bulk-update sidebars, pagination; except the issues list which contains user-submitted issue titles, author names, labels, and task statuses"
+  }
+]

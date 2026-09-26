@@ -1,0 +1,54 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry",
+        "id": "searchInput"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: menu toggle, logo, search button, user links (Donate, Create account, Log in); search input text is user-generated and subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "content",
+        "class": "mw-body"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "mw-content-text"
+      },
+      {
+        "role": "section",
+        "id": "siteSub"
+      },
+      {
+        "role": "section",
+        "id": "contentSub"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Page header and navigation tabs -- renders: page title, language selector, add section button, associated page tabs (Article/Talk), view tabs (Read/Edit/History), appearance controls; main content and subtitles are user-generated and subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer",
+        "class": "mw-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Footer -- renders: last modified timestamp, rendered with info, copyright notice, privacy policy, about, disclaimers, legal safety contacts, code of conduct, developers, stats, cookie statement, mobile view, Wikimedia Foundation and MediaWiki logos"
+  }
+]

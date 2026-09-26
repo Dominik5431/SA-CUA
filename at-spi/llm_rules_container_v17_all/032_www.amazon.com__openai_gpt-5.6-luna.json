@@ -1,0 +1,93 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-logo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Operator branding link -- renders the fixed Amazon home/logo control."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "nav-search-bar-form",
+        "class": "nav-searchbar"
+      }
+    ],
+    "own_role": "combo box",
+    "verdict": "trusted",
+    "note": "Search category control -- renders the fixed operator-defined department vocabulary and its menu options."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-search-submit-text"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search submission control -- renders the fixed operator search action."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-main"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Primary shopping navigation -- renders fixed operator controls and department navigation."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "nav-cart",
+        "class": "nav-a"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Cart navigation control -- renders the fixed Cart vocabulary and its computed cart indicator."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-link-accountList"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Account-menu control -- renders the fixed account-menu disclosure action, excluding the personalized account link text."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "s-result-sort-select",
+        "class": "a-native-dropdown"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search-results sort control -- renders the fixed sorting vocabulary."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooter"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "icp-container-desktop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Amazon footer chrome -- renders fixed back-to-top, service, legal, company, help, payment, and operator information links, excluding user-selectable locale controls."
+  }
+]

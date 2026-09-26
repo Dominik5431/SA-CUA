@@ -1,0 +1,86 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "stat-label"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar ticket-status labels -- renders the fixed vocabulary for new, open, and pending status categories"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar action controls -- renders the fixed clear-filters, bulk-close, and assign-unassigned button vocabulary"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "tickets-list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "ticket list action controls -- renders the fixed View Ticket button vocabulary while excluding ticket subjects, customer names, and metadata"
+  },
+  {
+    "own_role": "heading",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "modal-content"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "new-ticket modal heading -- renders the operator's fixed form title"
+  },
+  {
+    "own_role": "label",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "new-ticket-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "new-ticket form labels -- renders the operator's fixed field-label vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "new-priority"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "priority selector -- renders the operator-defined fixed priority vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "paragraph",
+        "class": "form-help"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "new-ticket form help text -- renders fixed operator-authored submission guidance"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "modal-buttons"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "new-ticket modal actions -- renders the fixed submit and cancel control vocabulary"
+  }
+]

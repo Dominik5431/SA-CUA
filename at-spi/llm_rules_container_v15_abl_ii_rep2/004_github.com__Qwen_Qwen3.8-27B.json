@@ -1,0 +1,115 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "header-wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site header -- renders: skip link, logo, fixed navigation menu (Product/Solutions/Marketplace/Explore/Pricing), search trigger, and sign-in/sign-up CTAs"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "js-repo-pjax-container"
+      },
+      {
+        "role": "section",
+        "id": "repository-container-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "link",
+        "class": "url fn"
+      },
+      {
+        "role": "static"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Repository header controls -- renders: Watch/Fork/Star buttons and fixed tab navigation (Code/Issues/Pull Requests/Discussions/Actions/Security/Insights); repository name and counts are subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repo-content-pjax-container"
+      },
+      {
+        "role": "landmark",
+        "class": "subnav-search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue search input -- operator-defined control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repo-content-pjax-container"
+      },
+      {
+        "role": "landmark",
+        "class": "subnav-links"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue list filter tabs -- renders: fixed labels for 'Open' and 'Closed' states"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repo-content-pjax-container"
+      },
+      {
+        "role": "link",
+        "class": "Button--primary"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "New Issue button -- renders: fixed label 'New issue'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repo-content-pjax-container"
+      },
+      {
+        "role": "section",
+        "id": "js-issues-toolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue list toolbar -- renders: fixed filter labels (Author, Labels, Projects, Milestones, Reviewers, Assignees, Sort) and state toggles (All/None)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repo-content-pjax-container"
+      },
+      {
+        "role": "landmark",
+        "class": "pagination"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Pagination controls -- renders: fixed navigation labels (Previous, Next) and page numbers"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site footer -- renders: fixed platform links (Docs, Blog, Changelog, Status, Pricing, API, Training, Security, Contact, etc.)"
+  }
+]

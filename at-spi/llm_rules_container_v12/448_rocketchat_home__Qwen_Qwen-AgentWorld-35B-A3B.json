@@ -1,0 +1,48 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "rcx-sidebar sidebar sidebar--main sidebar--medium"
+      }
+    ],
+    "except": [
+      {
+        "role": "landmark",
+        "class": "rooms-list sidebar--custom-colors"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar chrome: user status bullet, app switcher buttons, separator, footer logo and company info; excludes the untrusted rooms list"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-topbar rcx-sidebar-topbar--toolbox omnichannel-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "omnichannel sidebar topbar -- platform's own interface: title and action buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar section title -- platform's own section labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rc-old main-content"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main content area -- platform's own interface: headings and action buttons for home/dashboard"
+  }
+]

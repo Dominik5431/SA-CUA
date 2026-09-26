@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RedTeamCUA — Save Trajectory</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header>
+  <div class="brand">RedTeamCUA <span>save trajectory</span></div>
+  <div class="hdr-right">
+    <span class="counts" id="counts"></span>
+    <button class="hdr-btn" id="btn-viewer" title="Back to the step-by-step viewer">Viewer</button>
+  </div>
+</header>
+
+<div class="layout">
+  <aside>
+    <section class="picker">
+      <label>Action space<select id="sel-action_space"></select></label>
+      <label>Observation type<select id="sel-observation_type"></select></label>
+      <label>Model<select id="sel-model"></select></label>
+      <label>Domain<select id="sel-domain"></select></label>
+      <label>Task
+        <input id="task-filter" type="search" placeholder="filter tasks…" autocomplete="off">
+        <select id="sel-task" size="1"></select>
+      </label>
+      <label id="run-wrap">Run<select id="sel-run"></select></label>
+    </section>
+
+    <section class="block" id="save-block">
+      <h2>Save images + LaTeX</h2>
+      <label class="save-dir">
+        Subfolder of viz/
+        <input id="save-dir" type="text" placeholder="e.g. my-trajectory" autocomplete="off">
+      </label>
+      <label class="save-dir">
+        LaTeX image width
+        <input id="latex-width" type="text" value="0.8\textwidth" autocomplete="off">
+      </label>
+      <div class="save-meta">
+        <span id="save-selected">0 selected</span>
+        <span id="save-total">0 total</span>
+      </div>
+      <div class="save-actions">
+        <button class="primary" id="btn-save">Save + LaTeX</button>
+        <button id="btn-select-all">Select all</button>
+        <button id="btn-select-none">Select none</button>
+      </div>
+      <div class="note" id="save-status" hidden></div>
+    </section>
+  </aside>
+
+  <main>
+    <div class="gallery-head">
+      <div id="gallery-title">Select a task to begin.</div>
+    </div>
+    <div class="gallery" id="gallery"></div>
+  </main>
+</div>
+
+<script src="/static/save.js"></script>
+</body>
+</html>

@@ -1,0 +1,529 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "navbar-gitlab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: GitLab logo, search box, 'New project', 'Issues', 'Merge requests', 'To do list', 'Help', user avatar"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Project sidebar navigation -- renders: 'Project information', 'Repository', 'Issues', 'Merge requests', 'Pipelines', 'Deployments', 'Infrastructure', 'Monitor', 'Analytics', 'Wiki', 'Snippets', 'Settings'; project name header is subtracted as it is user-defined"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "breadcrumbs"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Breadcrumbs -- renders: 'byteblaze', 'byteblaze_dotfiles', 'Issues', '#1' (platform navigation structure)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "detail-page-header-body"
+      },
+      {
+        "role": "section",
+        "class": "user-access-role"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "User access role badge -- renders: 'Owner', 'Maintainer', 'Developer', 'Guest' (fixed platform vocabulary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "detail-page-header-body"
+      },
+      {
+        "role": "push button",
+        "class": "btn-edit"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Edit button -- renders: 'Edit' (fixed platform control)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "detail-page-header-body"
+      },
+      {
+        "role": "push button",
+        "class": "js-create-merge-request"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Create merge request button -- renders: 'Create merge request' (fixed platform control)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "detail-page-header-body"
+      },
+      {
+        "role": "heading",
+        "class": "gl-m-0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments section heading -- renders: 'Comments' (fixed platform label)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "detail-page-header-body"
+      },
+      {
+        "role": "section",
+        "class": "related-issues-block"
+      },
+      {
+        "role": "heading",
+        "class": "card-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Related issues heading -- renders: 'Related issues' (fixed platform label)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "detail-page-header-body"
+      },
+      {
+        "role": "section",
+        "class": "related-issues-block"
+      },
+      {
+        "role": "push button",
+        "class": "btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Related issues action button -- renders: 'Show all' (fixed platform control)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "detail-page-header-body"
+      },
+      {
+        "role": "section",
+        "class": "related-issues-block"
+      },
+      {
+        "role": "push button",
+        "class": "btn-default-tertiary"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Related issues collapse button -- renders: 'Collapse' (fixed platform control)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "detail-page-header-body"
+      },
+      {
+        "role": "section",
+        "class": "issuable-discussion"
+      },
+      {
+        "role": "heading",
+        "class": "gl-font-size-h1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Discussion heading -- renders: 'Discussion' (fixed platform label)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "detail-page-header-body"
+      },
+      {
+        "role": "section",
+        "class": "issuable-discussion"
+      },
+      {
+        "role": "push button",
+        "class": "gl-dropdown-toggle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Discussion preferences button -- renders: 'Sort by' (fixed platform control)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "detail-page-header-body"
+      },
+      {
+        "role": "section",
+        "class": "issuable-discussion"
+      },
+      {
+        "role": "page tab",
+        "class": "js-md-write-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Write tab -- renders: 'Write' (fixed platform control)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "detail-page-header-body"
+      },
+      {
+        "role": "section",
+        "class": "issuable-discussion"
+      },
+      {
+        "role": "page tab",
+        "class": "js-md-preview-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Preview tab -- renders: 'Preview' (fixed platform control)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "detail-page-header-body"
+      },
+      {
+        "role": "section",
+        "class": "issuable-discussion"
+      },
+      {
+        "role": "section",
+        "class": "md-header-toolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Markdown toolbar -- renders: formatting icons and tooltips (fixed platform controls)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "detail-page-header-body"
+      },
+      {
+        "role": "section",
+        "class": "issuable-discussion"
+      },
+      {
+        "role": "section",
+        "class": "toolbar-text"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comment form footer text -- renders: 'Comment as', 'byteblaze', 'Cancel' (fixed platform labels and current user context)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "detail-page-header-body"
+      },
+      {
+        "role": "section",
+        "class": "issuable-discussion"
+      },
+      {
+        "role": "label",
+        "class": "custom-control-label"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comment checkbox label -- renders: 'Start a discussion' (fixed platform label)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "detail-page-header-body"
+      },
+      {
+        "role": "section",
+        "class": "issuable-discussion"
+      },
+      {
+        "role": "push button",
+        "class": "split-content-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comment submit button -- renders: 'Comment' (fixed platform control)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "detail-page-header-body"
+      },
+      {
+        "role": "section",
+        "class": "issuable-discussion"
+      },
+      {
+        "role": "push button",
+        "class": "js-note-target-close"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Close comment button -- renders: 'Close' (fixed platform control)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "right-sidebar"
+      },
+      {
+        "role": "push button",
+        "class": "gutter-toggle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar toggle button -- renders: 'Collapse sidebar' (fixed platform control)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "right-sidebar"
+      },
+      {
+        "role": "push button",
+        "class": "hide-collapsed"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar collapse button -- renders: 'Collapse' (fixed platform control)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "right-sidebar"
+      },
+      {
+        "role": "section",
+        "class": "assignee"
+      },
+      {
+        "role": "static"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Assignee label -- renders: 'Assignee' (fixed platform label)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "right-sidebar"
+      },
+      {
+        "role": "section",
+        "class": "assignee"
+      },
+      {
+        "role": "link",
+        "class": "edit-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Assignee edit link -- renders: 'Edit' (fixed platform control)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "right-sidebar"
+      },
+      {
+        "role": "section",
+        "class": "labels"
+      },
+      {
+        "role": "static"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Labels label -- renders: 'Labels' (fixed platform label)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "right-sidebar"
+      },
+      {
+        "role": "section",
+        "class": "labels"
+      },
+      {
+        "role": "push button",
+        "class": "shortcut-sidebar-dropdown-toggle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Labels edit button -- renders: 'Edit' (fixed platform control)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "right-sidebar"
+      },
+      {
+        "role": "section",
+        "class": "issuable-context-form"
+      },
+      {
+        "role": "static"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar field labels -- renders: 'Milestone', 'Weight', 'Time tracking', 'Confidentiality', 'Participants', 'Move issue' (fixed platform labels)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "right-sidebar"
+      },
+      {
+        "role": "section",
+        "class": "issuable-context-form"
+      },
+      {
+        "role": "push button",
+        "class": "shortcut-sidebar-dropdown-toggle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar field edit buttons -- renders: 'Edit' (fixed platform control)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "right-sidebar"
+      },
+      {
+        "role": "section",
+        "class": "issuable-context-form"
+      },
+      {
+        "role": "push button",
+        "class": "lock-edit"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Lock edit button -- renders: 'Edit' (fixed platform control)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "right-sidebar"
+      },
+      {
+        "role": "section",
+        "class": "issuable-context-form"
+      },
+      {
+        "role": "push button",
+        "class": "js-move-issue"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Move issue button -- renders: 'Move issue' (fixed platform control)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "detail-page-header-body"
+      },
+      {
+        "role": "push button",
+        "class": "upload-dropzone-card"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "File upload dropzone -- renders: 'Drag and drop files here or click to browse' (fixed platform control)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "detail-page-header-body"
+      },
+      {
+        "role": "section",
+        "class": "emoji-picker"
+      },
+      {
+        "role": "push button",
+        "class": "add-reaction-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Add reaction button -- renders: 'Add reaction' (fixed platform control)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "detail-page-header-body"
+      },
+      {
+        "role": "section",
+        "class": "gl-border-l-1"
+      },
+      {
+        "role": "push button",
+        "class": "btn-default-tertiary"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue action button -- renders: 'Actions' (fixed platform control)"
+  }
+]

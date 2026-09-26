@@ -1,0 +1,402 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "combo box",
+        "class": "js-search-field"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: Skip to main content, Help, Network, Log in, Sign up"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "dfp-sspon"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site header -- renders: Server Fault logo"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Left sidebar navigation -- renders: Home, Questions, Unanswered, Ask Question, Tags, Stack Overflow for Teams, Chat, Users, Companies, and fixed promotional copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "fs-headline1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Question header controls -- renders: Ask Question button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item ws-nowrap mr16 mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Question metadata labels -- renders: Asked, Modified, Viewed"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item ws-nowrap mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Question metadata labels -- renders: Active"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answers-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Answers header -- renders: Answers count label, Sort by label, and sort options (Newest, Oldest, Score)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-vote-count"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Vote count display -- renders: numeric vote count"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "fs-caption"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Vote action label -- renders: Vote"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-saves-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Save button -- renders: Save"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-post-issue"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Report issue button -- renders: Report"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-share-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Share button -- renders: Share"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "user-action-time"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Post action timestamp label -- renders: Asked, Modified, Answered"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "user-gravatar32"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "User avatar container -- renders: user profile image"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "-flair"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "User reputation display -- renders: numeric reputation score"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-2719"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: Add a comment"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-2733"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: Add a comment"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-2727"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: Add a comment"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-2742"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: Add a comment"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-14949"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: Add a comment"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-2724"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: Add a comment"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-2723"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: Add a comment"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-2730"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: Add a comment"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-2741"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: Add a comment"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-11639"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: Add a comment"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-2729"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: Add a comment"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-2781"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: Add a comment"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-2838"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: Add a comment"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-14973"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: Add a comment"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-14987"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: Add a comment"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "comments-link-147186"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comments link -- renders: Add a comment"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-bottom-notice"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "class": "js-post-tag-list-wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Bottom notice -- renders: fixed promotional text and buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "class": "s-sidebarwidget--content"
+      },
+      {
+        "role": "section",
+        "id": "dfp-tsb"
+      },
+      {
+        "role": "section",
+        "id": "dfp-msb"
+      },
+      {
+        "role": "section",
+        "class": "spacer"
+      },
+      {
+        "role": "section",
+        "id": "hot-network-questions"
+      },
+      {
+        "role": "section",
+        "id": "dfp-bsb"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Right sidebar header -- renders: Related heading"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: fixed navigation links, social media links, and copyright text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "onetrust-banner-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Cookie consent banner -- renders: fixed privacy policy text and buttons"
+  }
+]

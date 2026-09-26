@@ -1,0 +1,48 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Project sidebar navigation -- renders: 'Project information', 'Repository', 'Issues', 'Merge requests', 'Pipelines', 'Deployments', 'Infrastructure', 'Monitor', 'Analytics', 'Wiki', 'Snippets', 'Settings'; project name header is subtracted as it is user-defined"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "new-note"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comment composition form -- renders: 'Write', 'Preview', formatting toolbar icons, 'Comment' button, 'Close' button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "related-issues"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Related issues module -- renders: 'Related issues' heading, 'Show more' button, and platform-generated explanatory text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "discussion-preferences"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Discussion preferences control -- renders: 'Sort by' dropdown toggle"
+  }
+]

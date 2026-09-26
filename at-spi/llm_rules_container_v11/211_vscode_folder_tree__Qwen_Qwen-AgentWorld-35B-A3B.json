@@ -1,0 +1,71 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-action-bar vertical"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "activity bar navigation icons and lower action bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "composite title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view title label and more actions dropdown -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "title tabs show-file-icons"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "editor tab area action controls (close, split, more) -- platform's own interface buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "document frame",
+        "class": "gettingStartedContainer noExtensions animatable"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Getting Started page -- operator-authored editorial copy and interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar",
+        "id": "workbench.parts.statusbar",
+        "class": "part statusbar status-border-top"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "status bar items and controls -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "workbench.view.explorer",
+        "class": "composite viewlet explorer-viewlet"
+      }
+    ],
+    "except": [
+      {
+        "role": "tree",
+        "class": "monaco-list list_id_1 mouse-support selection-none"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "explorer viewlet frame -- renders: view title, pane headers, collapse/expand controls; the file tree content is subtracted"
+  }
+]

@@ -1,0 +1,144 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders the fixed brand, navigation controls, and logout control"
+  },
+  {
+    "own_role": "heading",
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar section headings -- renders the fixed account-dashboard section vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "paragraph",
+        "class": "no-alerts"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "empty-alerts notice -- renders the fixed no-alerts message and add-alert control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "send-money-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "send-money control -- renders the fixed transfer action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "export-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "export control -- renders the fixed export action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "set-alert-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "set-alert control -- renders the fixed alert-setting action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "entry",
+        "id": "search-input"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "transaction search box -- renders the fixed search control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "clear-filters"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "clear-filters control -- renders the fixed filter-reset action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table",
+        "class": "table-striped"
+      }
+    ],
+    "except": [
+      {
+        "role": "panel",
+        "id": "transactions-table"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "transaction table header -- renders the fixed column-header vocabulary"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "id": "transactions-table"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "transaction row action controls -- renders the fixed view-details, categorize, and report actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "pagination-info"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "page-start"
+      },
+      {
+        "role": "section",
+        "id": "page-end"
+      },
+      {
+        "role": "section",
+        "id": "total-transactions"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination status labels -- renders the fixed status vocabulary and separators"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "pagination"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- renders the fixed page-navigation controls"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "rcx-pagination--divider rcx-pagination"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls and page numbers -- operator-defined navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "rcx-table__head"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "table column headers -- operator-defined fixed vocabulary for directory listing columns"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "rcx-css-19z81xy"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page heading -- operator-authored section label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-tabs--with-divider rcx-tabs rcx-css-ue04py"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "directory view tabs -- operator-defined taxonomy terms for listing views"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-css-g4w5l8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search box -- operator interface control for directory search"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-css-ebq3kg"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer links section -- operator-authored site links and controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "rcx-button-group--medium rcx-button-group--align-start rcx-button-group rcx-css-vi4iz8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar button groups -- operator interface controls for navigation and toolbox"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-top-bar__title rcx-css-1te28na"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar topbar title -- operator-defined section label for toolbox"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar section titles -- operator-defined fixed vocabulary for sidebar categories"
+  }
+]

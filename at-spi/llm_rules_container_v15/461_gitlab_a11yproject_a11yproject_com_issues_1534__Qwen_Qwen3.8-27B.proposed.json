@@ -1,0 +1,97 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "navbar-gitlab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: GitLab logo, search box, 'New project', 'Issues', 'Merge requests', 'To-Do list', 'Help', user avatar"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Left sidebar navigation -- renders: 'Project information', 'Repository', 'Issues', 'Merge requests', 'Pipelines', 'Deployments', 'Infrastructure', 'Monitor', 'Analytics', 'Wiki', 'Snippets', 'Settings'; project name header is subtracted as it is user-defined"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "breadcrumbs"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Breadcrumb navigation -- renders: project path and issue number; treated as trusted navigation chrome"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "right-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Right sidebar metadata -- renders: 'Assignee', 'Labels', 'Milestone', 'Due date', 'Weight', 'Time tracking', 'Locking', 'Participants', 'Move issue' and their associated controls; values are masked by default"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "detail-page-header-body"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "title"
+      },
+      {
+        "role": "paragraph"
+      },
+      {
+        "role": "section",
+        "class": "related-issues-block"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue header controls -- renders: 'Edit', 'Close', 'Reopen', 'Add reaction', 'Create merge request', 'Related issues' label; issue title, description, and related issue links are subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "new-note"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comment form controls -- renders: 'Write', 'Preview', formatting buttons, 'Comment', 'Comment & Close', 'Add to description' checkbox"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "issuable-discussion"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "id": "notes-list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Discussion section chrome -- renders: 'Comments' heading, 'Sort by' dropdown; the list of user comments is subtracted"
+  }
+]

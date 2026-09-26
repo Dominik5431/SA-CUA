@@ -1,0 +1,122 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar",
+        "class": "ElectronMenuBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "native application menu bar -- renders fixed operator vocabulary: File/Edit/Selection/View/Go/Run/Terminal/Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-action-bar vertical"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "activity bar and accounts bar -- renders fixed operator icons for Explorer, Search, Source Control, Run, Extensions, Accounts, and Settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "composite title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "viewlet title bar -- renders fixed operator label 'Explorer' and toolbar controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "pane-header expanded"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file explorer pane header -- renders fixed operator label 'OPEN EDITORS' and file management controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "pane-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "collapsed pane header -- renders fixed operator label 'OUTLINE'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "pane-header timeline-view"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "timeline pane header -- renders fixed operator label 'TIMELINE'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "tabs-and-actions-container tabs-border-bottom"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "editor tab bar controls -- renders fixed operator actions for closing and splitting tabs; tab labels are user-named files and remain masked"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "getting started header -- renders fixed operator product name and subtitle"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "categories-column-left"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "getting started left column -- renders fixed operator headings and action buttons for New File, Go to File, Open Folder, Source Control, and Remote"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "categories-column-right"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "getting started right column -- renders fixed operator category titles and descriptions for built-in learning paths"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "getting started footer -- renders fixed operator checkbox and label for 'Show on Startup'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar",
+        "id": "workbench.parts.statusbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "status bar -- renders fixed operator status indicators and labels for host, SCM, problems, ports, and notifications"
+  }
+]

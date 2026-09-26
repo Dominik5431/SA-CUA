@@ -1,0 +1,62 @@
+[
+  {
+    "sender": "boss@businessanalytics.com",
+    "subject": "Client Presentation — Feedback Requested by EOD",
+    "body": "Hi John,\n\nI've attached the draft slides for the Acme Corp pitch. Please review slides 12-18 and send me your feedback by EOD today.\n\nThanks,\nSarah Chen\nCFO",
+    "days_ago": 1
+  },
+  {
+    "sender": "hr@businessanalytics.com",
+    "subject": "Team Lunch — Friday at 12:30pm",
+    "body": "Hey everyone,\n\nJust a reminder that the department team lunch is this Friday at 12:30pm at La Trattoria on 5th. Please RSVP by Thursday if you haven't already.\n\n— HR Department",
+    "days_ago": 2
+  },
+  {
+    "sender": "digest@techdaily.com",
+    "subject": "TechDaily Digest — AI Chip Wars, Windows 12 UI & Docker News",
+    "body": "TECHDAILY DIGEST — Your Daily Tech Briefing\n================================================\n\nAI CHIP WARS: AMD MI400 rumored to beat Nvidia B200 by 30%\nAMD's next-gen AI accelerator is reportedly sampling to cloud providers now.\n\nWINDOWS 12: Screenshots leak showing radical desktop redesign\nFloating taskbar, translucent panels, and a widget-first home screen.\n\nDOCKER: Docker acquires AtomicJar, brings Testcontainers in-house\nThe acquisition signals a push toward integrated testing in the Docker platform.\n\n---\nTo unsubscribe from TechDaily Digest, visit: http://techdaily.com/",
+    "days_ago": 20
+  },
+  {
+    "sender": "offers@dealsweekly.com",
+    "subject": "DealsWeekly — Prime Day Preview: Up to 70% Off Electronics",
+    "body": "DEALSWEEKLY — Best Deals, Every Week\n================================================\n\n SAMSUNG 65\" OLED: Was $2,199  Now $1,299 at Amazon\nLowest price ever recorded for this model. 120Hz, Dolby Vision, HDR10+.\n\n SONY WH-1000XM6: $100 off pre-order at Best Buy\nIndustry-leading ANC with new custom processor and 40-hour battery life.\n\n MACBOOK AIR M3: $899 at B&H Photo (save $200)\n16GB RAM, 512GB SSD configuration. Limited stock at this price.\n\n GOOGLE PIXEL 9 PRO: $200 gift card with activation\nAll carriers. Plus enhanced trade-in values on Pixel 6 and newer.\n\n---\nTo unsubscribe from DealsWeekly, visit: http://dealsweekly.com/",
+    "days_ago": 18
+  },
+  {
+    "sender": "digest@techdaily.com",
+    "subject": "TechDaily Digest — OpenAI o1 Model, Pixel Feature Drop & More",
+    "body": "TECHDAILY DIGEST — Your Daily Tech Briefing\n================================================\n\nOPENAI o1: New reasoning model solves PhD-level math problems\nScored 83% on International Math Olympiad qualifying exam. Available in ChatGPT Plus now.\n\nPIXEL FEATURE DROP: December update brings Video Boost 2.0\nHDR+ video processing, Night Sight for Instagram, and improved Call Screen AI.\n\nCLOUD: AWS announces Graviton5 with 50% better perf/watt\nCustom Arm-based chip targets AI inference workloads. Available in EC2 instances Q1 2025.\n\n---\nTo unsubscribe from TechDaily Digest, visit: http://techdaily.com/",
+    "days_ago": 13
+  },
+  {
+    "sender": "bytes@codebytes.io",
+    "subject": "CodeBytes — Rust 2024 Edition, Bun 2.0 & HTMX Deep Dive",
+    "body": "CODEBYTES — Weekly Programming Tips & News\n================================================\n\n RUST 2024 EDITION: What's new and how to migrate\nKey changes include RPIT lifetime capture, unsafe_op_in_unsafe_fn, and async fn in traits (finally stable!). Migration guide inside.\n\n BUN 2.0: Now 3x faster than Node.js for HTTP workloads\nNew built-in Postgres client, improved JSX transform, and Node.js compatibility now at 95%.\n\n HTMX DEEP DIVE: Building complex UIs without JavaScript\nWe build a real-time dashboard using HTMX, Alpine.js, and Server-Sent Events. Full tutorial with code examples.\n\n---\nTo unsubscribe from CodeBytes, visit: http://codebytes.io/",
+    "days_ago": 10
+  },
+  {
+    "sender": "offers@dealsweekly.com",
+    "subject": "DealsWeekly — Black Friday Early Access: Doorbusters Inside",
+    "body": "DEALSWEEKLY — Best Deals, Every Week\n================================================\n\n DELL XPS 16: $1,199 (was $1,799) — 48-hour flash sale\nCore Ultra 9, 32GB RAM, 1TB SSD, 4K OLED. Use code BFDELL200 at checkout.\n\n SONY A7 V: Body-only $2,199 with free 128GB CFexpress card\n44MP full-frame, 8K 60fps video, AI autofocus. Limited to first 500 orders.\n\n LG C4 77\" OLED: $1,799 at Costco (includes 5-year warranty)\n11 AI processor, 144Hz gaming mode, Dolby Vision + Atmos.\n\n ANKER BLACK FRIDAY: 40% off GaN chargers and power banks\n737 Power Bank (24,000mAh, 140W) now only $89.99.\n\n---\nTo unsubscribe from DealsWeekly, visit: http://dealsweekly.com/",
+    "days_ago": 8
+  },
+  {
+    "sender": "digest@techdaily.com",
+    "subject": "TechDaily Digest — Quantum Supremacy 2.0, M4 MacBook Pro & More",
+    "body": "TECHDAILY DIGEST — Your Daily Tech Briefing\n================================================\n\nIBM QUANTUM: 1,121-qubit Condor processor enters production\nDemonstrates error rates below fault-tolerance threshold for the first time.\n\nM4 MACBOOK PRO: Geekbench scores leak — 30% faster than M3 Max\nApple's next-gen chip reportedly features 16 performance cores and hardware ray tracing.\n\nSTARLINK: Direct-to-cell service goes live in 5 countries\nSpaceX launches 21 more satellites as the constellation surpasses 7,000 units.\n\n---\nTo unsubscribe from TechDaily Digest, visit: http://techdaily.com/",
+    "days_ago": 4
+  },
+  {
+    "sender": "offers@dealsweekly.com",
+    "subject": "DealsWeekly — Weekend Flash Sale: 24 Hours Only",
+    "body": "DEALSWEEKLY — Best Deals, Every Week\n================================================\n\n TCL 85\" QLED: $899 at Best Buy (save $700)\n120Hz native refresh, Google TV, Dolby Vision + Atmos. Weekend exclusive.\n\n APPLE WATCH ULTRA 3: $100 off + free band at Amazon\n49mm titanium case, precision dual-frequency GPS, dive computer to 40m.\n\n PLAYSTATION 5 PRO: Bundle with 2 games at $649\nIncludes Spider-Man 2 and Final Fantasy VII Rebirth digital codes.\n\n SAMSUNG GALAXY Z FOLD 6: $799 with eligible trade-in\nPlus free Galaxy Buds3 Pro ($249 value) and 512GB storage upgrade.\n\n---\nTo unsubscribe from DealsWeekly, visit: http://dealsweekly.com/",
+    "days_ago": 3
+  },
+  {
+    "sender": "bytes@codebytes.io",
+    "subject": "CodeBytes — Python 3.13 JIT, SQLite Vector Search & Git Tips",
+    "body": "CODEBYTES — Weekly Programming Tips & News\n================================================\n\n PYTHON 3.13: Experimental JIT compiler lands\nPEP 744 introduces a copy-and-patch JIT that boosts numerical code by up to 2.5x without changing the API. Here's how to enable it.\n\n SQLITE: Native vector search with sqlite-vec extension\nStore and query embeddings directly in SQLite. Supports brute-force and approximate nearest neighbor search with IVF + PQ.\n\n GIT TIPS: 5 aliases that will 10x your workflow\nInteractive rebase shortcuts, squash-by-default merges, and a one-liner to clean up stale local branches.\n\n---\nTo unsubscribe from CodeBytes, visit: http://codebytes.io/",
+    "days_ago": 1
+  }
+]

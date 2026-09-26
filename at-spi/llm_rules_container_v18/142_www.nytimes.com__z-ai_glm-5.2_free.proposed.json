@@ -1,0 +1,72 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "fides-overlay"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent banner -- renders: Accept all / Reject all / Manage preferences buttons, language selector, privacy links; operator's own interface vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Wr7_RG_mastheadWrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site masthead -- renders: section navigation links, Sections button, Search button, section label, NYT logo, account link; operator's own fixed navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "collection-science"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Science collection section -- renders: section heading, sub-navigation links (fixed section names), article highlights with operator-authored titles/summaries/bylines, 5-band section headers with View All links and article lists; all content is NYT editorial product authored by the operator's own journalists"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "tab-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "tab navigation -- renders: fixed tab labels (e.g. Latest/Live); operator's own view-switcher controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "e5qpt131"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "article stream with pagination, promo module, and social media links -- renders: operator-authored article titles/summaries/bylines, page-number pagination controls, promotional copy, social media follow links; all content is NYT editorial product or operator interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "css-1jmk4jh"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site index label -- renders: fixed 'Site Index' heading; operator's own section label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "css-1qa4qp6"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer -- renders: copyright notice, fixed navigation links (Help, Contact, Terms, Privacy, Accessibility, etc.); operator's own footer vocabulary"
+  }
+]

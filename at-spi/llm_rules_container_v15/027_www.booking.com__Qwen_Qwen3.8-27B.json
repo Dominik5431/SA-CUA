@@ -1,0 +1,42 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders: 'Booking.com', 'Sign in', 'Register', 'List your property', 'Support', 'Language', 'Currency', 'Accommodations', 'Flights', 'Flight + Hotel', 'Car rental', 'Attractions', 'Airport taxis'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "f8d8d99a17"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search bar controls -- renders: 'Where are you going?', 'Check-in', 'Check-out', 'Number of guests', 'Search'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "ad68e1f7ce bb51db7864"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view switcher -- renders: 'List', 'Grid'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "TravellerFooter_root--variant-full"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: 'Support', 'Discover', 'About', 'How we work', 'Careers', 'Sustainability', 'Press centre', 'Investor relations', 'Corporate contact', 'Terms & conditions', 'Privacy', 'Cookies', 'Fairness', 'Contact us', 'Booking.com for Business', 'Partners', 'Affiliates', 'Advertise', 'Property owners', 'Travel agents', 'Agencies', 'Corporate travel', 'Car hire', 'Flight + Hotel', 'Airport taxis', 'Attractions', 'English (UK)', 'GBP - British Pound', '\u00a91996-2024 Booking.com\u2122. All rights reserved.'"
+  }
+]

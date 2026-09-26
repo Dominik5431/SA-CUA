@@ -1,0 +1,7 @@
+[
+  {
+    "scope": "page",
+    "verdict": "trusted",
+    "note": "GIMP desktop application interface -- all menus, toolbars, panels, and controls are operator-defined application chrome with fixed vocabulary; no user-generated content is rendered in the accessibility tree"
+  }
+]

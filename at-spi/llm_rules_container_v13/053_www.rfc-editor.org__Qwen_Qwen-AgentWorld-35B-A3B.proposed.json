@@ -1,0 +1,42 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "bg-blue-900 text-white dark:bg-blue-950 relative print:hidden border-b border-b-white dark:border-b-blue-900"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface including logo and menu"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "bg-blue-900 text-white dark:bg-blue-950 border-t border-t-white dark:border-t-blue-900 relative print:hidden"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer -- platform's own interface and links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "block print:text-center font-feature-settings-calt-off ml-2.5"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "RFC metadata list -- operator-defined values such as RFC number, status, category, and update date"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "page tab list",
+        "class": "border-b-2 border-gray-400"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "document view tabs -- platform's own controls for switching document formats"
+  }
+]

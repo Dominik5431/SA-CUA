@@ -1,0 +1,100 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar",
+        "class": "ElectronMenuBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Native application menu bar -- renders fixed operator vocabulary: File/Edit/Selection/View/Go/Run/Terminal/Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-action-bar vertical"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Activity bar and status bar icons -- renders fixed operator vocabulary: Explorer, Search, Source Control, Run, Extensions, Accounts, Settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "workbench.parts.editor",
+        "class": "part editor"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "monaco-icon-label file-icon"
+      },
+      {
+        "role": "list",
+        "class": "monaco-breadcrumbs"
+      },
+      {
+        "role": "section",
+        "class": "editor-instance"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Editor chrome -- renders fixed operator vocabulary for tab actions (close, preview, split, more); subtracts tab labels, breadcrumbs, and editor content which reflect user file names and code"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar",
+        "id": "workbench.parts.statusbar",
+        "class": "part statusbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "status.host"
+      },
+      {
+        "role": "section",
+        "id": "status.problems"
+      },
+      {
+        "role": "section",
+        "id": "status.forwardedPorts"
+      },
+      {
+        "role": "section",
+        "id": "status.notifications"
+      },
+      {
+        "role": "section",
+        "id": "status.editor.mode"
+      },
+      {
+        "role": "section",
+        "id": "status.editor.eol"
+      },
+      {
+        "role": "section",
+        "id": "status.editor.encoding"
+      },
+      {
+        "role": "section",
+        "id": "status.editor.indentation"
+      },
+      {
+        "role": "section",
+        "id": "status.editor.selection"
+      },
+      {
+        "role": "section",
+        "id": "status.editor.screenReaderMode"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Status bar container -- subtracts all items as they render dynamic values (file mode, line/col, encoding, remote host, problem counts) determined by user files and system state"
+  }
+]

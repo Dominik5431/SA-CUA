@@ -1,0 +1,177 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "navbar-main",
+        "class": "nav-opt-sprite nav-flex nav-locale-us nav-lang-en nav-ssl nav-unrec nav-progressive-attribute"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main navigation bar -- platform's own interface including logo, location, search, account, orders, cart"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "nav-search-bar-form",
+        "class": "nav-searchbar nav-progressive-attribute"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search form and search scope dropdown -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "searchDropdownBox",
+        "class": "nav-search-dropdown searchSelect nav-progressive-attrubute nav-progressive-search-dropdown"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search scope dropdown -- operator-defined taxonomy terms for search categories"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-tools",
+        "class": "layoutToolbarPadding"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "navigation tools including language, account, orders, cart -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-main",
+        "class": "nav-sprite"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "hamburger menu and shop by department navigation -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "averageCustomerReviews_feature_div",
+        "class": "celwidget"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "average customer reviews stars and review count link -- computed scores and vote counts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "climatePledgeFriendlyATF_feature_div",
+        "class": "celwidget"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "climate pledge friendly badge -- operator-defined status badge"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "amazonExclusiveBadge_feature_div",
+        "class": "celwidget"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "amazon exclusive badge -- operator-defined status badge"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "sharkBadge_feature_div",
+        "class": "celwidget"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "shark badge -- operator-defined status badge"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "zeitgeistBadge_feature_div",
+        "class": "celwidget"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "zeitgeist badge -- operator-defined status badge"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "socialProofingBadge_feature_div",
+        "class": "celwidget"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "social proofing badge -- operator-defined status badge"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "productNostosBadge_feature_div",
+        "class": "celwidget"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "product nostos badge -- operator-defined status badge"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "delightPricingBadge_feature_div",
+        "class": "celwidget"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "delight pricing badge -- operator-defined status badge"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "dealBadge_feature_div",
+        "class": "celwidget"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "deal badge -- operator-defined status badge"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "a-begin a-carousel-container a-carousel-display-stretchyGoodness a-carousel-transition-slide _Y3Itb_cr-image-carousel_2W1Qw"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "media carousel heading and see all photos link -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooter",
+        "class": "navLeftFooter nav-sprite-v1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer navigation and links -- platform's own interface"
+  }
+]

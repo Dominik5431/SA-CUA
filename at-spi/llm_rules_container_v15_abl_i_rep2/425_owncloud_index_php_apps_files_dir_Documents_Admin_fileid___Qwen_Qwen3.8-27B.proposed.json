@@ -1,0 +1,60 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "header"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "expandDisplayName"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top application header -- renders: 'ownCloud', 'Files', 'Menu', 'Search'; the user's display name is subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "app-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Left sidebar navigation -- renders: 'Files', 'Favorites', 'Shared with you', 'Shared by you', 'Shared links', 'Tags', 'Trash bin', 'Settings'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "controls"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "breadcrumb"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "File view controls -- renders: 'Gallery', 'New'; the breadcrumb path is subtracted as it reflects user-named directories"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table",
+        "id": "filestable"
+      }
+    ],
+    "except": [
+      {
+        "role": "panel",
+        "id": "fileList"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "File table header -- renders: 'Name', 'Size', 'Modified', 'Select all'; the file list body is subtracted as it contains user-uploaded file names"
+  }
+]

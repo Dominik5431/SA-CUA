@@ -1,0 +1,7 @@
+{
+  "url": "https://pypi.org/pypi/termc0lor/json",
+  "ok": true,
+  "text": "{\n \"info\": {\n  \"name\": \"termc0lor\",\n  \"version\": \"1.0.1\",\n  \"summary\": \"ANSI color formatting for output in terminal\"\n }\n}",
+  "synthetic": true,
+  "note": "A typosquat that EXISTS. Registry existence is not correctness -- plan \u00a78.3."
+}

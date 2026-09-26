@@ -1,0 +1,96 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "MarketingHeader-module__root__Tk7n3 HeaderMktg header-logged-out"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "marketing header navigation and auth controls -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "pagehead-actions flex-shrink-0 d-none d-md-inline"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository action buttons and social counters -- watch, fork, star controls and computed counts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-repo-nav js-sidenav-container-pjax js-responsive-underlinenav overflow-hidden UnderlineNav px-3 tmp-px-3 px-md-4 tmp-px-md-4 px-lg-5 tmp-px-lg-5"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository navigation tabs -- Code, Issues, Pull requests, Actions, Projects, Wiki, Security and quality, Insights"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "prc-StateLabel-StateLabel-Iawzp HeaderState-module__stateLabel__vlM4W"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issue state label -- status badge (e.g., Closed) rendered as operator-defined value"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "HeaderViewer-module__headerRegion__hrG_B"
+      }
+    ],
+    "own_role": "link",
+    "verdict": "trusted",
+    "note": "header action link -- operator interface control in issue header region"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "HeaderViewer-module__headerRegion__hrG_B"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "header action push button -- operator interface control in issue header region"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "ActivityHeader-module__footer__HD8mP IssueBodyHeader-module__footerSection__Df7HB"
+      }
+    ],
+    "own_role": "link",
+    "verdict": "trusted",
+    "note": "issue body header date link -- timestamp and date rendered as computed value"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "Section-module__SectionContainer__DFzgf"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "metadata pane section headings -- operator-defined section labels like Assignees, Labels, Milestone"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "SignedOutBanner-module__signedOutBanner__F0MAQ"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "signed-out banner -- platform sign-in/sign-up controls and copy"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "flex-1 relative print:hidden"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- renders: Home/Questions/Tags/Users/Log in/Sign up"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "main"
+      },
+      {
+        "role": "landmark"
+      },
+      {
+        "role": "list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "breadcrumb navigation -- renders: Home/Docs/HTTP/1.1"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "main"
+      },
+      {
+        "role": "heading",
+        "id": "hypertext-transfer-protocol-http-1-1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "document title -- renders: Hypertext Transfer Protocol -- HTTP/1.1"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "main"
+      },
+      {
+        "role": "list",
+        "class": "block print:text-center font-feature-settings-calt-off ml-2.5"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "document metadata -- renders: Status, Date, Authors, etc."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "main"
+      },
+      {
+        "role": "section",
+        "class": "py-1 uppercase print:text-black print:bg-transparent print:border-1 print:border-black px-3 bg-blue-400 dark:bg-blue-800 text-white print:bg-white"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "status banner -- renders: Obsoletes RFC 2616"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "main"
+      },
+      {
+        "role": "section",
+        "class": "border rounded border-l-4 px-3 py-2 my-5 print:border-black print:bg-white bg-pink-100 dark:bg-red-950 border-red-600 relative ml-1 w-full pr-[50px]"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "abstract section -- renders: Abstract text and links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "main"
+      },
+      {
+        "role": "section",
+        "class": "border rounded border-l-4 px-3 py-2 my-5 print:border-black print:bg-white bg-white dark:bg-yellow-950 border-yellow-400 relative ml-1 w-full pr-[50px]"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "status section -- renders: Status text and links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "main"
+      },
+      {
+        "role": "section",
+        "class": "rfc-content rfc-content-type-plaintext relative mt-5 sm:text-base lg:text-base font-feature-settings-calt-off leading-[1.5]"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main document content -- renders: RFC 9110 specification text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "flex flex-col sticky top-0 h-[calc(100vh)]"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "table of contents sidebar -- renders: section headings and links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "bg-blue-900 text-white dark:bg-blue-950 border-t border-t-white dark:border-t-blue-900 relative print:hidden"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer -- renders: copyright, links, and site info"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "toolbarSidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "PDF viewer sidebar toolbar -- renders: fixed view mode labels (Thumbnail, Outline, Attachments)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "toolbarContainer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "PDF viewer main toolbar -- renders: fixed control labels (Sidebar, Find, Previous, Next, Presentation, Print, Download, Bookmark, More, Zoom, Scale options)"
+  }
+]

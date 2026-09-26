@@ -1,0 +1,125 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "header -- platform's own interface: logo, app name, settings expand, search box"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "app-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "app navigation sidebar -- operator-defined navigation items: files, favorites, shared with you, shared with others, shared links, system tags, trash bin"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "controls"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "breadcrumb"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file list controls -- view switcher, new file/folder button, upload progress, file action panel; excluding breadcrumb which renders user folder names"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table",
+        "id": "filestable",
+        "class": "has-controls"
+      }
+    ],
+    "except": [
+      {
+        "role": "panel",
+        "id": "fileList"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file table -- column headers (name, size, modified) with sort controls and select all checkbox, and summary row; excluding the fileList panel with user file entries"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "action action-favorite "
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file list row favorite action button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "check box",
+        "class": "checkbox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file list row select file checkbox and select all checkbox"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "action action-share permanent"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file list row share action button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "action action-menu permanent"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file list row menu action button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table cell",
+        "class": "filesize"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file list row file size cell -- computed operator-defined value about submitted content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table cell",
+        "class": "date"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file list row date cell -- computed operator-defined timestamp about submitted content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "hiddenuploadfield"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "hidden upload field -- platform upload control"
+  }
+]

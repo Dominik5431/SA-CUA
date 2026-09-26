@@ -1,0 +1,117 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "spacesToolbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "spacesToolbarAddonsContainer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "spaces toolbar -- renders: Mail/Address Book/Calendar/Tasks/Chat/Settings/Collapse buttons; excepts the addons container which may hold third-party addon buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "unifiedToolbarContainer"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "notification-popup-box"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "unified toolbar container -- renders: search bar control, app menu button, minimize/restore/close window controls; excepts notification popup which may carry dynamic messages"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "toolbar-menubar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "menu bar -- renders: File/Edit/View/Go/Message/Tasks/Help menus, fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "chat-toolbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "label",
+        "id": "statusMessageLabel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "chat toolbar -- renders: Add Buddy/Join Chat/Status Type/Chat Accounts buttons; excepts the status message label which displays the user's custom status text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "folderPaneHeaderBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "folder pane header bar -- renders: More/Write Message/Get Messages buttons, fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "threadPaneHeaderBar"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "id": "threadPaneFolderName"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "thread pane header bar -- renders: Quick Filter toggle, Display options button, folder count container; excepts the folder name heading which echoes a user/account-derived folder name"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "header-view-toolbox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message header action toolbar -- renders: Reply/Forward/Archive/Junk/Trash/More/Star buttons, fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "offline-status"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "offline status indicator button -- renders: fixed online/offline connection state label, closed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "messageHeader"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "push buttons in message header -- renders: Reply/Forward/Archive/Junk/Trash/More/Star/Add to Address Book buttons, all fixed operator controls; sender/recipient/subject text stays masked"
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders the operator's fixed site title, New page control, and fixed navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "search-box"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search control -- renders the operator's fixed search interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "nav-category-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar category headers -- renders the operator-defined navigation category vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "article-viewer"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "article action controls -- renders the fixed Edit, History, and Link pages controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "related-pages"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "related-pages section heading -- renders the fixed Related pages label"
+  }
+]

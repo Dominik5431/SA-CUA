@@ -1,0 +1,144 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top header -- platform's own interface: logo, app name, settings expand, search box"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "app-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "app navigation sidebar -- platform's own interface: Files, Favorites, Shared with me, Shared with others, Shared links, Tags, Trashbin, Settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "column header",
+        "class": "column-name"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file list name column header -- renders: Name column title, sort control, select all checkbox"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "column header",
+        "class": "column-size"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file list size column header -- renders: Size column title, sort control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "column header",
+        "class": "column-mtime"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file list modified date column header -- renders: Modified column title, sort control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "gallery-button",
+        "class": "button view-switcher"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "gallery view switcher button -- platform's own interface control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "actions creatable"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "create new file/folder button and upload progress -- platform's own interface controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "file_action_panel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file action panel -- platform's own interface controls area"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "action action-favorite "
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file favorite action button -- platform's own interface control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "action action-share permanent"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file share action button -- platform's own interface control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "action action-menu permanent"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file menu action button -- platform's own interface control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table cell",
+        "class": "filesize"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file size column -- operator-defined value about submitted content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table cell",
+        "class": "date"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file modified date column -- operator-defined value about submitted content"
+  },
+  {
+    "own_role": "check box",
+    "ancestor_path": [
+      {
+        "role": "table",
+        "id": "filestable"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file selection checkboxes inside file list table -- platform's own interface control"
+  }
+]

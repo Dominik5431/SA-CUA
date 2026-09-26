@@ -1,0 +1,158 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "link",
+        "class": "js-site-switcher-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- renders fixed platform navigation, search, help, logo, sign-up and sign-in controls; the site-switcher navigation is excluded"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "dfp-sspon"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders the platform's fixed site identity, excluding the advertisement slot"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left navigation -- renders fixed platform navigation and operator-authored marketing and account controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "content"
+      },
+      {
+        "role": "section",
+        "class": "aside-cta"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question action area -- renders the fixed Ask Question control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "saves-btn-2719"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question save control -- renders the fixed Save action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-post-issue"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "post issue controls -- render the fixed platform issue-reporting action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-share-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "share controls -- render the fixed platform sharing action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-saves-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answer save controls -- render the fixed Save action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-add-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment controls -- render the fixed Add comment action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "comment",
+        "class": "js-accepted-answer-indicator"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accepted-answer indicator -- renders the fixed accepted-answer label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answers-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answers header -- renders the fixed Answers section label and answer sort controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "h-related"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "related-questions heading -- renders the fixed Related heading"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "js-report-ad"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "advertisement reporting controls -- render the fixed platform Report this ad action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders fixed platform navigation, policy links, social links and footer metadata"
+  }
+]

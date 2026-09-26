@@ -1,0 +1,52 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Project sidebar navigation -- renders: 'Project information', 'Repository', 'Issues', 'Merge requests', 'Pipelines', 'Deployments', 'Infrastructure', 'Monitor', 'Analytics', 'Wiki', 'Snippets', 'Settings'; excludes the project name header which is user-defined"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "notification",
+        "class": "js-no-ssh-message"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "SSH key warning alert -- renders: fixed platform warning message and action buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table",
+        "class": "tree-table"
+      }
+    ],
+    "except": [
+      {
+        "role": "table cell",
+        "class": "tree-item-file-name"
+      },
+      {
+        "role": "table cell",
+        "class": "tree-commit"
+      },
+      {
+        "role": "table cell",
+        "class": "tree-time-ago"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "File browser table headers -- renders: 'Name', 'Last commit', 'Last update'; excludes file names, commit messages, and timestamps"
+  }
+]

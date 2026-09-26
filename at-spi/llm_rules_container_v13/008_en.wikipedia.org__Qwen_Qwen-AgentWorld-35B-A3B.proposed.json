@@ -1,0 +1,104 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "mw-jump-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "jump to content link -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-header mw-header no-font-mode-scale"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar, logo, search box, and user links -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer",
+        "class": "mw-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- platform's own interface and links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left page tabs (Article, Talk) -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "right-navigation",
+        "class": "vector-collapsible"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "right page tabs and page tools -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-appearance-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "appearance settings panel -- platform's own interface controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "mw-panel-toc",
+        "class": "mw-table-of-contents-container vector-toc-landmark"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "id": "mw-panel-toc-list",
+        "class": "vector-toc-contents"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "table of contents container -- renders: 'Contents' label and pin/unpin controls; the TOC list items are user-generated section titles and are excluded"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "p-lang-btn",
+        "class": "vector-dropdown mw-portlet mw-portlet-lang"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "language selector -- platform's own interface controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "siteSub",
+        "class": "noprint"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site subtitle -- operator's own fixed vocabulary"
+  }
+]

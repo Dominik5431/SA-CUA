@@ -1,0 +1,156 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "nav-assistant-links-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility skip-link list -- renders the fixed skip-to-content, results, and filters controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "keyboard-shortcuts-list-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "keyboard shortcut list -- renders the fixed search, cart, home, orders, and shortcut-help controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "help-text-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "keyboard-shortcut help -- renders fixed platform instructions for using the shortcut menu"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "nav-logo-sprites",
+        "class": "nav-logo-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site logo link -- renders the fixed Amazon home-navigation control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-search-label-id",
+        "class": "nav-search-label"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search scope label -- renders the fixed search-category label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "searchDropdownBox",
+        "class": "nav-search-dropdown"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search department selector -- renders the fixed set of Amazon search departments"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "nav-search-submit-button",
+        "class": "nav-input"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search submit control -- renders the fixed search action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "nav-hamburger-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main navigation menu control -- renders the fixed menu-opening action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-xshop",
+        "class": "nav-progressive-content"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "primary shopping navigation -- renders Amazon's fixed department and service links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "nav-orders",
+        "class": "nav-a"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "orders navigation link -- renders the fixed returns-and-orders control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "alert",
+        "class": "glow-toaster"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "location prompt actions -- renders fixed dismiss and confirmation controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "s-result-sort-select",
+        "class": "a-native-dropdown"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "result sorting control -- renders the fixed sort vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-pagination-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "results pagination -- renders fixed previous, page, ellipsis, and next controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooter"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "icp-container-desktop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Amazon footer -- renders fixed help, company, service, legal, and informational footer vocabulary"
+  }
+]

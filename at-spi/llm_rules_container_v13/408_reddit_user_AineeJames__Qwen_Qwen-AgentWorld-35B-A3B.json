@@ -1,0 +1,93 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility navigation -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "user-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user profile tabs -- platform's own section labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "article",
+        "class": "comment"
+      }
+    ],
+    "own_role": "check box",
+    "verdict": "trusted",
+    "note": "comment hide toggle checkbox -- operator control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "comment__nav hideable__hide"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment navigation controls -- reply, permalink, parent link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "paragraph",
+        "class": "submission__info"
+      }
+    ],
+    "except": [
+      {
+        "role": "link",
+        "class": "submission__submitter fg-inherit"
+      },
+      {
+        "role": "link",
+        "class": "submission__forum fg-inherit"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "submission info paragraph -- renders: operator text, timestamp; subtracted submitter and forum links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "submission__nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "submission navigation controls -- save, share, etc."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vote"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "vote controls and vote counts -- operator-defined values about submitted content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- platform's own interface throughout"
+  }
+]

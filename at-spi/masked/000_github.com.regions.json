@@ -1,0 +1,57 @@
+{
+  "file": "000_github.com.xml",
+  "screen": [
+    1920,
+    1080
+  ],
+  "regions": [
+    {
+      "bbox": [
+        379,
+        320,
+        1217,
+        760
+      ],
+      "n": 106,
+      "label": "repos-split-pane-content",
+      "kind": "section",
+      "id": 1
+    },
+    {
+      "bbox": [
+        1890,
+        114,
+        15,
+        966
+      ],
+      "n": 1,
+      "label": "find-result-marks-container",
+      "kind": "section",
+      "id": 2
+    },
+    {
+      "bbox": [
+        70,
+        202,
+        1835,
+        94
+      ],
+      "n": 5,
+      "label": "repository-container-header",
+      "kind": "section",
+      "id": 3
+    },
+    {
+      "bbox": [
+        70,
+        114,
+        1835,
+        72
+      ],
+      "n": 1,
+      "label": "position-relative header-wrapper js-header-wrapper ",
+      "kind": "section",
+      "id": 4
+    }
+  ]
+}

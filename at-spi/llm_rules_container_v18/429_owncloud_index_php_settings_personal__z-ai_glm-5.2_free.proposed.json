@@ -1,0 +1,156 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "header"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "expandDisplayName"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page header -- renders: logo, app name, search box label; user display name echoed in expandDisplayName is subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "app-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "settings navigation sidebar -- renders: fixed settings section names (Personal, Sharing, Security, Activity, Passwords, About, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "avatar"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "avatardiv"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "avatar settings section -- renders: profile picture heading, upload/select buttons, instruction text; user-uploaded avatar image in avatardiv is subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "displaynameform"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry",
+        "id": "displayName"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "display name form -- renders: 'Full name' label; entry field value is user input, subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "lostpassword"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry",
+        "id": "email"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "recovery email form -- renders: 'Email' heading, set button, operator instruction text; entry value is user input, subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "groups"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "groups section -- renders: 'Groups' heading and description text; group names are admin/operator-defined, not user-generated"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "passwordform"
+      }
+    ],
+    "except": [
+      {
+        "role": "password text",
+        "id": "pass1"
+      },
+      {
+        "role": "password text",
+        "id": "pass2"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "password change form -- renders: 'Password' heading, field labels, strength indicator, set button; password entry fields are user input, subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "languageinput"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "language selector -- renders: fixed closed set of language names defined by the platform"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "email_notifications"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "email notifications settings -- renders: heading, description paragraphs, combo box with fixed sending options (Never/As soon as possible/Sending daily summary)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "fileSharingSettings"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "federated file sharing settings -- renders: heading, description text, social sharing buttons, federated ID (admin-assigned username and server URL), add-to-website button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "clientsbox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "clients download section -- renders: heading, desktop/mobile client download links, description text, setup wizard button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "OC\\Settings\\Panels\\Personal\\Version"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "version info section -- renders: version heading, documentation/changelog links, version strings; all operator-authored"
+  }
+]

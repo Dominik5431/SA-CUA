@@ -1,0 +1,40 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: Stack Overflow logo, Product, Company, Community, Legal, Social links, copyright"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "js-top-posts"
+      },
+      {
+        "role": "push button",
+        "class": "js-post-filter-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "post filter buttons -- renders: Posts, Questions, Answers"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "js-top-posts"
+      },
+      {
+        "role": "push button",
+        "class": "js-post-sort-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "post sort buttons -- renders: Newest, Active"
+  }
+]

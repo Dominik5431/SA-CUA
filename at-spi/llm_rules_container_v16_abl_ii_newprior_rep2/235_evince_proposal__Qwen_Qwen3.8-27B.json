@@ -1,0 +1,25 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main application toolbar -- renders fixed operator controls for navigation and view options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "split pane"
+      }
+    ],
+    "except": [
+      {
+        "role": "document frame"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Document viewer workspace -- renders sidebar controls and status bar; subtracts the document frame which displays untrusted document content"
+  }
+]

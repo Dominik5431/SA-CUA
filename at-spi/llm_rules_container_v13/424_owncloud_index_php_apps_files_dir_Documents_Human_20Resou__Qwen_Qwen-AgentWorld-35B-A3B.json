@@ -1,0 +1,114 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "app-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "app navigation sidebar -- fixed platform navigation items (Files, Favorites, Shared, Trashbin, Settings)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "gallery-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view switcher button -- platform control for gallery view"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "actions creatable"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "create and upload controls -- platform's own new file/folder and upload progress controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "file_action_panel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file action panel -- platform controls for file actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "action action-favorite "
+      }
+    ],
+    "verdict": "trusted",
+    "note": "favorite action button -- platform control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "action action-share permanent"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "share action button -- platform control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "action action-menu permanent"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "more actions menu button -- platform control"
+  },
+  {
+    "own_role": "check box",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "headerName-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "select all files checkbox -- platform control"
+  },
+  {
+    "own_role": "check box",
+    "ancestor_path": [
+      {
+        "role": "table cell",
+        "class": "filename ui-draggable"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file selection checkboxes -- platform control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table cell",
+        "class": "filesize"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file size column -- computed operator-defined value about submitted content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table cell",
+        "class": "date"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "date column -- computed operator-defined timestamp and dates about submitted content"
+  }
+]

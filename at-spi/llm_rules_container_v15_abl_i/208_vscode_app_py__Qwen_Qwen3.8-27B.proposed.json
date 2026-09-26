@@ -1,0 +1,58 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar",
+        "class": "ElectronMenuBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Native application menu bar -- renders fixed operator vocabulary: File/Edit/Selection/View/Go/Run/Terminal/Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-action-bar vertical"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Activity bar and status bar icons -- renders fixed operator vocabulary: Explorer, Search, Source Control, Run, Extensions, Accounts, Settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "workbench.parts.statusbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Status bar -- renders fixed operator vocabulary for editor state: remote host, problem counts, forwarded ports, notifications, language mode, EOL, encoding, indentation, selection, screen reader mode"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-aria-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Accessibility container -- renders fixed operator vocabulary for screen reader announcements and status"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "tabs-and-actions-container"
+      }
+    ],
+    "except": [
+      {
+        "role": "page tab list",
+        "class": "tabs-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Editor tab bar actions -- renders fixed operator vocabulary: Close, Split, More; subtracts the tab list which displays user-named file names"
+  }
+]

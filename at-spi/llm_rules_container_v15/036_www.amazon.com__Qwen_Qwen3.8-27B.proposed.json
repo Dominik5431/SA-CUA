@@ -1,0 +1,115 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "shortcut-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Accessibility navigation shortcuts -- renders: Skip to main content, Skip to about this item, Skip to buying options, Skip to reviews, Search, Cart, Home, Your orders, Show shortcuts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "navbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry",
+        "id": "twotabsearchtextbox"
+      },
+      {
+        "role": "section",
+        "id": "nav-global-location-data-modal-action"
+      },
+      {
+        "role": "section",
+        "id": "nav-link-accountList"
+      },
+      {
+        "role": "link",
+        "id": "nav-orders"
+      },
+      {
+        "role": "link",
+        "id": "nav-cart"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main navigation bar -- renders: Amazon logo, Search, All, Today's Deals, Customer Service, Returns & Orders, Cart, and fixed category links; excludes user-specific account, order, cart, and location data"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-xshop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Secondary navigation bar -- renders: fixed category links like Today's Deals, Customer Service, Returns & Orders"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooter"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: Back to top, Get to Know Us, Careers, Blog, Investor Relations, Amazon Devices, Make Money with Us, Let Us Help You, and legal links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "imageBlock"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Product image gallery controls -- renders: image thumbnails and navigation buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "desktop_buybox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Buy box controls -- renders: Add to Cart, Add to List, and availability status buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "averageCustomerReviews"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Review summary controls -- renders: star rating icon and 'See all reviews' link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "localTopReviews"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Review action buttons -- renders: 'Read more', 'Helpful', and 'Report' buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "cm_cr_top_reviews_to_arp_button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Link to all reviews -- renders: 'See all reviews'"
+  }
+]

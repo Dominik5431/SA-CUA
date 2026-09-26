@@ -1,0 +1,82 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "SkipLink-styles__SkipLinkContainerStyled-sc-3b03ee65-0 cPCHEF"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip links -- platform's own interface for navigation shortcuts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "bbc-header",
+        "class": "Header-styles__HeaderStyled-sc-36071384-0 bhfbH"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- navigation, logo, sign-in and account controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "main-navigation-container",
+        "class": "Navigation-styles__NavigationContainerStyled-sc-f1c1fa10-9 gUOgcu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main navigation -- platform's own interface for section navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "article",
+        "class": "IndexPage-styles__IndexPageArticleStyled-sc-1de4b86e-0 ciTEIc"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "dotcom-mid_1"
+      },
+      {
+        "role": "section",
+        "id": "dotcom-sid_2"
+      },
+      {
+        "role": "section",
+        "id": "dotcom-mid_2"
+      },
+      {
+        "role": "section",
+        "id": "dotcom-mid_3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "homepage editorial content -- renders: news cards, video cards, podcast episodes, section titles; ad slots are subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "bbc-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- content links, language dropdown, social follow buttons, legal links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "Container-styles__ContainerStyled-sc-8b855a6c-0 xvkdv"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- platform's own interface for page navigation"
+  }
+]

@@ -1,0 +1,113 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "navbar navbar-gitlab navbar-expand-sm js-navbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flash-container flash-container-page sticky"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "flash container -- platform notification area"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "page-title gl-font-size-h-display"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page title -- operator-authored label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "page-title-controls"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page title controls -- operator-authored buttons and links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "scrolling-tabs-container inner-page-scroll-tabs gl-flex-grow-1 gl-min-w-0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "scrolling tabs container -- operator-defined tab navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "project-filter-form",
+        "class": "project-filter-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "project filter form -- search box and sort controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "gl-display-flex gl-flex-grow-1 gl-border-none nav gl-tabs-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "project list tabs -- operator-defined taxonomy terms for project listing"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "gl-dropdown dropdown btn-group dropdown b-dropdown gl-dropdown btn-group js-redirect-listbox gl-ml-3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "redirect listbox dropdown -- operator-controlled sort/redirect button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "pagination"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- operator-defined pagination"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "icon-wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "project computed metrics (stars, forks, merge requests, issues) -- computed values about submitted content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "static",
+        "class": "js-timeago"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "project last activity timestamp -- computed value about submitted content"
+  }
+]

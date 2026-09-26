@@ -1,0 +1,118 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "navbar navbar-gitlab navbar-expand-sm js-navbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left project navigation sidebar -- renders: project navigation menu items (Project information, Repository, Issues, Merge requests, etc.); excluding the context-header project name"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "right-sidebar js-right-sidebar js-issuable-sidebar right-sidebar-expanded"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "value hide-collapsed"
+      },
+      {
+        "role": "section",
+        "class": "value issuable-show-labels js-value"
+      },
+      {
+        "role": "section",
+        "class": "sidebar-item-value no-value hide-collapsed"
+      },
+      {
+        "role": "section",
+        "class": "participants-author"
+      },
+      {
+        "role": "section",
+        "class": "gl-overflow-hidden gl-text-overflow-ellipsis gl-white-space-nowrap"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "right sidebar controls and labels -- renders: Assignee/Labels/Milestone/Participants section headers, edit and toggle buttons, move issue and clipboard controls; excluding issue metadata values"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "detail-page-header-body gl-flex-wrap-wrap"
+      }
+    ],
+    "except": [
+      {
+        "role": "link",
+        "class": "author-link js-user-link d-none d-sm-inline"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issue header metadata -- renders: issue type icon, state badge, timestamp, access role, task status; excluding the author username link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "__BVID__80",
+        "class": "tabs gl-tabs"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment form markdown editor tabs and toolbar -- renders: Write/Preview tabs and formatting control buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "toolbar-text"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment form markdown help text -- renders: 'Markdown is supported', 'Help' links and static copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "note-form-actions"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment form actions -- renders: submit button dropdown, close button, and 'add to discussion' checkbox"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "related-issues",
+        "class": "related-issues-block"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "related issues section -- renders: 'Related issues' heading, expand button, and operator copy/link"
+  }
+]

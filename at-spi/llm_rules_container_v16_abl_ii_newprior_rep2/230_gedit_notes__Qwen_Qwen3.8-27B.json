@@ -1,0 +1,182 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Toolbar and menu buttons -- operator-defined fixed vocabulary for editor actions (New, Open, Save, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "Toolbar toggle buttons -- operator-defined fixed vocabulary for view modes (e.g., Show Line Numbers)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "check box",
+    "verdict": "trusted",
+    "note": "Toolbar checkboxes -- operator-defined fixed vocabulary for editor options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "radio button",
+    "verdict": "trusted",
+    "note": "Toolbar radio buttons -- operator-defined fixed vocabulary for mode selection"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "label",
+    "verdict": "trusted",
+    "note": "Toolbar and status labels -- operator-defined fixed vocabulary for section headers or status indicators"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "separator",
+    "verdict": "trusted",
+    "note": "Toolbar separators -- operator-defined UI structure"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "filler",
+    "verdict": "trusted",
+    "note": "Toolbar fillers -- operator-defined UI structure"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "icon",
+    "verdict": "trusted",
+    "note": "Toolbar icons -- operator-defined UI graphics"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "status bar",
+    "verdict": "trusted",
+    "note": "Status bar container -- operator-defined UI structure (values inside are computed/masked by default)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "page tab list",
+    "verdict": "trusted",
+    "note": "Tab list container -- operator-defined UI structure (tab labels are user-generated and masked by default)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "list box",
+    "verdict": "trusted",
+    "note": "Sidebar list box container -- operator-defined UI structure (list items are user-generated and masked by default)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "table",
+    "verdict": "trusted",
+    "note": "Table container -- operator-defined UI structure (cells are user-generated and masked by default)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "table column header",
+    "verdict": "trusted",
+    "note": "Table column headers -- operator-defined fixed vocabulary (e.g., Name, Size, Modified)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "scroll bar",
+    "verdict": "trusted",
+    "note": "Scroll bars -- operator-defined UI controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "scroll pane",
+    "verdict": "trusted",
+    "note": "Scroll panes -- operator-defined UI structure"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "viewport",
+    "verdict": "trusted",
+    "note": "Viewports -- operator-defined UI structure"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "split pane",
+    "verdict": "trusted",
+    "note": "Split panes -- operator-defined UI structure"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "own_role": "drawing area",
+    "verdict": "trusted",
+    "note": "Drawing areas -- operator-defined UI structure (e.g., minimap)"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "MarketingHeader-module__root__Tk7n3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "marketing header navigation and auth controls -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "repository-container-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository header with watch, fork, star buttons and social counts -- operator interface and computed values"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-repo-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository navigation tabs (code, issues, pull requests, etc.) -- operator-defined taxonomy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "_R_5j5_"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository sidebar actions and links -- operator-defined repository navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "FilteredListPageLayout-module__FilterBar__yw_Ew"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "filter bar with search input and filter/sort controls -- operator interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "_r_7_-list-view-metadata"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issue list header with tab filters (open/closed counts), filter buttons, and sorting controls -- operator-defined controls and computed counts"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Header bar navigation and view controls -- renders: Back/Forward/Up/Reload/Home/View/Sort/Zoom/Search"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "Header bar view mode toggles -- renders: List/Grid/Icon/Compact"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "radio button",
+    "verdict": "trusted",
+    "note": "View options radio buttons -- renders: Name/Size/Type/Date/Sort/Ascending/Descending"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "check box",
+    "verdict": "trusted",
+    "note": "View options checkboxes -- renders: Show Hidden Files/Show All Columns/Show File Sizes"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel"
+      }
+    ],
+    "own_role": "label",
+    "verdict": "trusted",
+    "note": "View options section labels -- renders: Sort By/Order/Show/Columns"
+  }
+]

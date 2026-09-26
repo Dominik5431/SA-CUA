@@ -1,0 +1,52 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global header -- renders: 'Booking.com', 'Log in', 'Register', 'Accommodations', 'Flights', 'Packages', 'Cars', 'Attractions', 'Airport taxis'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "b7ef425131"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Filter sidebar -- renders: 'Filters', 'Price', 'Popular filters', 'Property Type', 'Review Score', 'Meals', 'Hotel Facilities', 'Room Facilities', 'Star Rating', 'Distance to Center', 'Free Cancellation', 'Breakfast Included', 'Travel Group', 'Popular Activities', 'Brand', 'Popular Nearby Landmarks', 'Highly Rated', 'Payment Method', 'Sustainability', 'Accessible Facilities', 'Accessible Room Facilities', 'See more', 'Apply filters'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "ad68e1f7ce"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "View switcher -- renders: 'List', 'Grid'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "TravellerFooter_root--variant-full"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Footer -- renders: 'Support', 'Discover', 'Manage your trip', 'About', 'Legal', 'Cookie settings', '\u00a9 2024 Booking.com'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "onetrust-banner-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Cookie consent banner -- renders: 'Cookies on Booking.com', 'We use cookies...', 'Cookie settings', 'Reject all', 'Accept all'"
+  }
+]

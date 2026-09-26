@@ -1,0 +1,84 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "spacesToolbar",
+        "class": "spaces-toolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "spaces toolbar -- renders: Mail, Address Book, Calendar, Tasks, Chat, Settings, Collapse; fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "icons-beside-text"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "notification-popup-box"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "unified toolbar and titlebar controls -- renders: search box, search button, app menu, minimize/restore/close; notification popup subtracted as it may echo sender/subject"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "folderPaneHeaderBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "folder pane header bar -- renders: More, Write Message, Get Messages; fixed operator controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "threadPaneHeaderBar"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "id": "threadPaneFolderName"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "thread pane header bar -- renders: Quick Filter toggle, Display options button, folder count; folder name heading subtracted as it may carry a user-named folder"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "quick-filter-bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "quick filter bar -- renders: Sticky, search entry, Clear, Unread, Starred, Address Book, Tags, Attachment, Sender, Recipients, Subject, Body toggles; fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "start-page"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Thunderbird built-in start page -- renders: release channel link, donate link, logo, heading, tagline, feature descriptions, action buttons; all operator-authored"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "status bar -- renders: offline/online status, status text (Done/Loading/etc.); fixed operator vocabulary"
+  }
+]

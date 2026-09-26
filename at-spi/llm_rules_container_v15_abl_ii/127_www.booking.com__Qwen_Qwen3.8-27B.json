@@ -1,0 +1,344 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "bypass_menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Skip-to-content link -- renders: 'Skip to main content'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site header -- renders: 'Booking.com', 'Sign in', 'Register', 'Support', 'List your property', 'Manage bookings', 'Accommodations', 'Flights', 'Flight + Hotel', 'Car rental', 'Attractions', 'Airport taxis'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "fff1944c52"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Breadcrumb navigation -- renders: 'Home', 'Hotels', 'City', 'Property Name' (operator-defined path structure)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "b7ef425131 e9f1adff2b c03fb03748 a81cb9db2d"
+      },
+      {
+        "role": "heading",
+        "class": "e7addce19e f546354b44 cc045b173b"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Filter sidebar title -- renders: 'Filter by:'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "b7ef425131 e9f1adff2b c03fb03748 a81cb9db2d"
+      },
+      {
+        "role": "section",
+        "class": "b08850ce41"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Filter count label -- renders: 'Filters'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "b7ef425131 e9f1adff2b c03fb03748 a81cb9db2d"
+      },
+      {
+        "role": "section",
+        "class": "c3bdfd4ac2 d4f406e762 e9f1023118 a7db89fb42"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Filter search bar -- renders: 'Search filters', 'Search'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "b7ef425131 e9f1adff2b c03fb03748 a81cb9db2d"
+      },
+      {
+        "role": "section",
+        "class": "b7ef425131 e9f1adff2b ba5aaf262f bfb55afbed"
+      },
+      {
+        "role": "panel",
+        "class": "eaa3cb80f6"
+      },
+      {
+        "role": "label",
+        "class": "e672339311"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Filter group headings -- renders: 'Popular filters', 'Property Type', 'Review Score', 'Meals', 'Hotel Facilities', 'Room Facilities', 'Star Rating', 'District', 'Distance to Center', 'Free Cancellation', 'Travel Group', 'Stay Type', 'Popular Activities', 'Brand', 'Popular Nearby Landmarks', 'Rated Highly', 'Payment Method', 'Sustainability', 'Accessible Facilities', 'Accessible Room Facilities'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "b7ef425131 e9f1adff2b c03fb03748 a81cb9db2d"
+      },
+      {
+        "role": "section",
+        "class": "b7ef425131 e9f1adff2b ba5aaf262f bfb55afbed"
+      },
+      {
+        "role": "panel",
+        "class": "eaa3cb80f6"
+      },
+      {
+        "role": "push button",
+        "class": "de576f5064 bef8628e61 c93f162d20 e0d8514d4d"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Filter expand/collapse controls -- renders: 'Show more', 'Show less'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "b87c397a13 cacb5ff522"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Results header -- renders: 'Hotels in [City]' (operator-defined template)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "ad68e1f7ce bb51db7864"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "View switcher -- renders: 'List', 'Grid'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "a297f43545"
+      },
+      {
+        "role": "push button",
+        "class": "de576f5064 fcd8e16f81 ee2c96c33c"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sort control -- renders: 'Sort by: Recommended'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "cca574b93c"
+      },
+      {
+        "role": "list item",
+        "class": "fe67d011e1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Ad slot wrapper -- renders: 'Ad' label and close button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "cca574b93c"
+      },
+      {
+        "role": "list item",
+        "class": "c3bdfd4ac2 a0ab5da06c d46ff48a92 f728e61e72 d0acd69e66 c256f1a28a bc2204a477"
+      },
+      {
+        "role": "section",
+        "class": "c17271c4d7"
+      },
+      {
+        "role": "section",
+        "class": "eac4debbfe"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Listing card header controls -- renders: 'Save', 'Compare'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "cca574b93c"
+      },
+      {
+        "role": "list item",
+        "class": "c3bdfd4ac2 a0ab5da06c d46ff48a92 f728e61e72 d0acd69e66 c256f1a28a bc2204a477"
+      },
+      {
+        "role": "section",
+        "class": "c17271c4d7"
+      },
+      {
+        "role": "section",
+        "class": "efacac2ccd"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Listing card checkbox -- renders: 'Select'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "cca574b93c"
+      },
+      {
+        "role": "list item",
+        "class": "c3bdfd4ac2 a0ab5da06c d46ff48a92 f728e61e72 d0acd69e66 c256f1a28a bc2204a477"
+      },
+      {
+        "role": "section",
+        "class": "c17271c4d7"
+      },
+      {
+        "role": "section",
+        "class": "f11e93ef6d"
+      },
+      {
+        "role": "section",
+        "class": "b41575a678"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Listing card action buttons -- renders: 'View details', 'Check availability'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "cca574b93c"
+      },
+      {
+        "role": "list item",
+        "class": "c3bdfd4ac2 a0ab5da06c d46ff48a92 f728e61e72 d0acd69e66 c256f1a28a bc2204a477"
+      },
+      {
+        "role": "section",
+        "class": "c17271c4d7"
+      },
+      {
+        "role": "section",
+        "class": "fff1944c52 f4008c3a61"
+      },
+      {
+        "role": "section",
+        "class": "a297f43545"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Listing card footer controls -- renders: 'Save', 'Compare', 'View details'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "cca574b93c"
+      },
+      {
+        "role": "list item",
+        "class": "c3bdfd4ac2 a0ab5da06c d46ff48a92 f728e61e72 d0acd69e66 c256f1a28a bc2204a477"
+      },
+      {
+        "role": "section",
+        "class": "c17271c4d7"
+      },
+      {
+        "role": "link",
+        "class": "de576f5064 bef8628e61 ef3027b3ae e0d8514d4d"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Listing card rating link -- renders: 'Score', 'Review count'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "cca574b93c"
+      },
+      {
+        "role": "list item",
+        "class": "c3bdfd4ac2 a0ab5da06c d46ff48a92 f728e61e72 d0acd69e66 c256f1a28a bc2204a477"
+      },
+      {
+        "role": "section",
+        "class": "c17271c4d7"
+      },
+      {
+        "role": "section",
+        "class": "fa91e1e5db c10aa2082a"
+      },
+      {
+        "role": "section",
+        "class": "d755458b0f"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Listing card price link -- renders: 'View price'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "cca574b93c"
+      },
+      {
+        "role": "list item",
+        "class": "c3bdfd4ac2 a0ab5da06c d46ff48a92 f728e61e72 d0acd69e66 c256f1a28a d726fb55bc aabe312a16 bc1c39249c"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Pagination footer -- renders: 'Page 1 of 10', 'Next page', 'Previous page'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer_menu_track"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: 'Support', 'Discover', 'Manage your trips', 'About', 'Legal', 'Cookie settings', 'Privacy and cookies', 'Terms and conditions', 'Contact us', 'Careers', 'Press centre', 'Investor relations', 'Sustainability', 'Affiliates', 'Partners', 'Advertise', 'Property owners', 'Travel agents', 'Corporates', 'Travel credit cards', 'Gift cards', 'Booking.com for Business', 'Booking.com for Government', 'Booking.com for Groups', 'Booking.com for Partners', 'Booking.com for Developers', 'Booking.com for Students', 'Booking.com for Seniors', 'Booking.com for Families', 'Booking.com for Couples', 'Booking.com for Solo Travelers', 'Booking.com for Business Travelers', 'Booking.com for Leisure Travelers', 'Booking.com for Adventure Travelers', 'Booking.com for Cultural Travelers', 'Booking.com for Food Travelers', 'Booking.com for Wine Travelers', 'Booking.com for Golf Travelers', 'Booking.com for Ski Travelers', 'Booking.com for Beach Travelers', 'Booking.com for City Breaks', 'Booking.com for Rural Retreats', 'Booking.com for Island Escapes', 'Booking.com for Mountain Getaways', 'Booking.com for Lake Holidays', 'Booking.com for Forest Retreats', 'Booking.com for Desert Adventures', 'Booking.com for Coastal Escapes', 'Booking.com for Alpine Retreats', 'Booking.com for Tropical Getaways', 'Booking.com for Mediterranean Holidays', 'Booking.com for Nordic Adventures', 'Booking.com for Asian Escapes', 'Booking.com for African Safaris', 'Booking.com for American Road Trips', 'Booking.com for European Tours', 'Booking.com for Australian Outback', 'Booking.com for New Zealand Adventures', 'Booking.com for Caribbean Cruises', 'Booking.com for Pacific Island Hopping', 'Booking.com for Indian Subcontinent', 'Booking.com for Middle East', 'Booking.com for Central America', 'Booking.com for South America', 'Booking.com for North Africa', 'Booking.com for East Africa', 'Booking.com for West Africa', 'Booking.com for Southern Africa', 'Booking.com for Northern Europe', 'Booking.com for Western Europe', 'Booking.com for Eastern Europe', 'Booking.com for Southern Europe', 'Booking.com for Central Europe', 'Booking.com for Baltic States', 'Booking.com for Benelux', 'Booking.com for Iberian Peninsula', 'Booking.com for Italian Peninsula', 'Booking.com for Balkans', 'Booking.com for Caucasus', 'Booking.com for Central Asia', 'Booking.com for South Asia', 'Booking.com for Southeast Asia', 'Booking.com for East Asia', 'Booking.com for Oceania', 'Booking.com for Antarctica', 'Booking.com for Arctic', 'Booking.com for Sub-Antarctic', 'Booking.com for Sub-Arctic', 'Booking.com for Equatorial', 'Booking.com for Polar', 'Booking.com for Tropical', 'Booking.com for Temperate', 'Booking.com for Continental', 'Booking.com for Maritime', 'Booking.com for Alpine', 'Booking.com for Coastal', 'Booking.com for Inland', 'Booking.com for Island', 'Booking.com for Peninsula', 'Booking.com for Archipelago', 'Booking.com for Atoll', 'Booking.com for Reef', 'Booking.com for Lagoon', 'Booking.com for Bay', 'Booking.com for Gulf', 'Booking.com for Strait', 'Booking.com for Sound', 'Booking.com for Fjord', 'Booking.com for Estuary', 'Booking.com for Delta', 'Booking.com for River', 'Booking.com for Lake', 'Booking.com for Pond', 'Booking.com for Marsh', 'Booking.com for Swamp', 'Booking.com for Bog', 'Booking.com for Fen', 'Booking.com for Moor', 'Booking.com for Heath', 'Booking.com for Down', 'Booking.com for Common', 'Booking.com for Waste', 'Booking.com for Wasteland', 'Booking.com for Desert', 'Booking.com for Steppe', 'Booking.com for Savanna', 'Booking.com for Grassland', 'Booking.com for Prairie', 'Booking.com for Pampas', 'Booking.com for Veld', 'Booking.com for Serengeti', 'Booking.com for Masai Mara', 'Booking.com for Kruger', 'Booking.com for Etosha', 'Booking.com for Okavango', 'Booking.com for Chobe', 'Booking.com for Zambezi', 'Booking.com for Victoria Falls', 'Booking.com for Livingstone', 'Booking.com for Lusaka', 'Booking.com for Harare', 'Booking.com for Bulawayo', 'Booking.com for Gaborone', 'Booking.com for Maseru', 'Booking.com for Mbabane', 'Booking.com for Windhoek', 'Booking.com for Maputo', 'Booking.com for Antananarivo', 'Booking.com for Moroni', 'Booking.com for Djibouti', 'Booking.com for Addis Ababa', 'Booking.com for Nairobi', 'Booking.com for Kampala', 'Booking.com for Kigali', 'Booking.com for Bujumbura', 'Booking.com for Gitega', 'Booking.com for Asmara', 'Booking.com for Khartoum', 'Booking.com for Cairo', 'Booking.com for Alexandria', 'Booking.com for Suez', 'Booking.com for Port Said', 'Booking.com for Hurghada', 'Booking.com for Sharm El Sheikh', 'Booking.com for Dahab', 'Booking.com for Taba', 'Booking.com for St. Catherine', 'Booking.com for Sinai', 'Booking.com for Negev', 'Booking.com for Judean Desert', 'Booking.com for Dead Sea', 'Booking.com for Red Sea', 'Booking.com for Mediterranean Sea', 'Booking.com for Black Sea', 'Booking.com for Caspian Sea', 'Booking.com for Aral Sea', 'Booking.com for Lake Balkhash', 'Booking.com for Lake Issyk-Kul', 'Booking.com for Lake Songkul', 'Booking.com for Lake Zaysan', 'Booking.com for Lake Kaindy', 'Booking.com for Lake Kapchagay', 'Booking.com for Lake Alakol', 'Booking.com for Lake Balkhash-Alakol', 'Booking.com for Lake Sarykamysh', 'Booking.com for Lake Aydar', 'Booking.com for Lake Aral', 'Booking.com for Lake Caspian', 'Booking.com for Lake Black', 'Booking.com for Lake Mediterranean', 'Booking.com for Lake Red', 'Booking.com for Lake Dead', 'Booking.com for Lake Jordan', 'Booking.com for Lake Tiberias', 'Booking.com for Lake Galilee', 'Booking.com for Lake Kinneret', 'Booking.com for Lake Hula', 'Booking.com for Lake Huleh', 'Booking.com for Lake Beita', 'Booking.com for Lake Baram', 'Booking.com for Lake Yarkon', 'Booking.com for Lake Sharon', 'Booking.com for Lake Negev', 'Booking.com for Lake Judean', 'Booking.com for Lake Samarian', 'Booking.com for Lake Ephraim', 'Booking.com for Lake Benjamin', 'Booking.com for Lake Manasseh', 'Booking.com for Lake Issachar', 'Booking.com for Lake Zebulun', 'Booking.com for Lake Naphtali', 'Booking.com for Lake Gad', 'Booking.com for Lake Reuben', 'Booking.com for Lake Simeon', 'Booking.com for Lake Levi', 'Booking.com for Lake Judah', 'Booking.com for Lake Dan', 'Booking.com for Lake Asher', 'Booking.com for Lake Issachar', 'Booking.com for Lake Zebulun', 'Booking.com for Lake Naphtali', 'Booking.com for Lake Gad', 'Booking.com for Lake Reuben', 'Booking.com for Lake Simeon', 'Booking.com for Lake Levi', 'Booking.com for Lake Judah', 'Booking.com for Lake Dan', 'Booking.com for Lake Asher'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "onetrust-banner-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Cookie consent banner -- renders: 'We value your privacy', 'Cookie settings', 'Reject all', 'Accept all'"
+  }
+]

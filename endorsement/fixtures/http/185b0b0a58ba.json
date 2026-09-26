@@ -1,0 +1,8 @@
+{
+  "url": "https://pypi.org/pypi/termcolour/json",
+  "ok": false,
+  "text": "{\"message\": \"Not Found\"}",
+  "synthetic": true,
+  "note": "PyPI 404 -- 'termcolour' is not a project (a misread, not a typosquat)",
+  "status": 404
+}

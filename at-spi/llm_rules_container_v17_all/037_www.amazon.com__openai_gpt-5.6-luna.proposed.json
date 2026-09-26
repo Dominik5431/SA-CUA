@@ -1,0 +1,315 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "nav-assist-skip-to-main-content"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip-to-main-content control -- renders fixed accessibility navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "nav-assist-skip-to-about-this-item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip-to-about-this-item control -- renders fixed accessibility navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "nav-assist-skip-to-buying-options"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip-to-buying-options control -- renders fixed accessibility navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "nav-assist-skip-to-reviews"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip-to-reviews control -- renders fixed accessibility navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "nav-assist-search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "keyboard shortcut for search -- renders a fixed navigation control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "nav-assist-cart"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "keyboard shortcut for cart -- renders a fixed navigation control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "nav-assist-home"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "keyboard shortcut for home -- renders a fixed navigation control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "nav-assist-your-orders"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "keyboard shortcut for orders -- renders a fixed navigation control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "nav-assist-show-shortcuts"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "keyboard-shortcuts disclosure control -- renders a fixed accessibility action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "nav-logo-sprites"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site logo link -- renders fixed Amazon home navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "searchDropdownBox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search department selector -- renders the operator-defined department vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "nav-search-submit-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search submit control -- renders a fixed search action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "nav-hamburger-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main navigation menu control -- renders a fixed navigation action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-xshop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "primary shopping navigation -- renders fixed operator-defined browse links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "nav-orders"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "orders navigation control -- renders a fixed account-navigation action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "wishListMainButton"
+      }
+    ],
+    "own_role": "link",
+    "verdict": "trusted",
+    "note": "wishlist action -- renders a fixed list-management control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "regularAltImageViewLayout"
+      }
+    ],
+    "own_role": "radio button",
+    "verdict": "trusted",
+    "note": "product-image selector controls -- render fixed image-selection actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "feature-bullets"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "product-feature section heading -- renders a fixed section label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "feature-bullets"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "product-feature expander -- renders a fixed expand or collapse control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "productDetails"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "product-details headings -- render fixed specification-section labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table",
+        "id": "productDetails_techSpec_section_1"
+      }
+    ],
+    "own_role": "row header",
+    "verdict": "trusted",
+    "note": "technical-specification row labels -- render the operator-defined attribute vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "poExpander"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "product-overview expander -- renders a fixed expand or collapse control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "compare"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "comparison section heading -- renders a fixed section label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "compare"
+      }
+    ],
+    "own_role": "row header",
+    "verdict": "trusted",
+    "note": "comparison attribute labels -- render fixed comparison-row vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "cm_cr_dp_d_rating_histogram"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "review-rating histogram heading -- renders a fixed review-section label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "_Y3Itd_cr-helpful-button"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "review helpful-vote control -- renders a fixed review action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "cm_cr_top_reviews_to_arp_button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "reviews navigation link -- renders a fixed control for opening the complete review list"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "navBackToTop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "back-to-top control -- renders a fixed footer navigation action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooter"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "footer section headings -- render fixed Amazon navigation categories"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooter"
+      }
+    ],
+    "own_role": "list",
+    "verdict": "trusted",
+    "note": "footer navigation lists -- render fixed Amazon help, service, legal, and informational links"
+  }
+]

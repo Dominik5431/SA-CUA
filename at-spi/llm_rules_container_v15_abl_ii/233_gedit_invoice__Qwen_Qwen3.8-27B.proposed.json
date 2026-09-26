@@ -1,0 +1,22 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "frame"
+      }
+    ],
+    "except": [
+      {
+        "role": "list box"
+      },
+      {
+        "role": "page tab list"
+      },
+      {
+        "role": "table"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Gedit application chrome -- renders: fixed menu items, toolbar buttons, status bar labels, and dialog controls; user-typed document text, file names, and search results are subtracted"
+  }
+]

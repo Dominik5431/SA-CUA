@@ -1,0 +1,57 @@
+{
+  "file": "002_github.com.xml",
+  "screen": [
+    1920,
+    1080
+  ],
+  "regions": [
+    {
+      "bbox": [
+        500,
+        569,
+        1231,
+        511
+      ],
+      "n": 162,
+      "label": "ListView-module__ul__uMK30",
+      "kind": "list",
+      "id": 1
+    },
+    {
+      "bbox": [
+        475,
+        320,
+        1281,
+        57
+      ],
+      "n": 3,
+      "label": "prc-PageLayout-Header-0of-R SidebarPageLayout-module__Header__iBvK6",
+      "kind": "header",
+      "id": 2
+    },
+    {
+      "bbox": [
+        499,
+        384,
+        1233,
+        73
+      ],
+      "n": 18,
+      "label": "DragAndDropContainer-module__container__zvZfn PinnedIssues-module__area__RpXUN",
+      "kind": "list",
+      "id": 3
+    },
+    {
+      "bbox": [
+        78,
+        304,
+        239,
+        768
+      ],
+      "n": 2,
+      "label": "_R_5j5_",
+      "kind": "landmark",
+      "id": 4
+    }
+  ]
+}

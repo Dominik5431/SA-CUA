@@ -1,0 +1,7 @@
+[
+  {
+    "scope": "page",
+    "verdict": "trusted",
+    "note": "System monitor application -- all interface elements (tabs, controls, labels) are operator-authored; dynamic system metrics are rendered as drawing areas (graphs) and are not text-injectable, while the few text labels are fixed UI vocabulary or non-instructional numeric values handled by the deterministic pass."
+  }
+]

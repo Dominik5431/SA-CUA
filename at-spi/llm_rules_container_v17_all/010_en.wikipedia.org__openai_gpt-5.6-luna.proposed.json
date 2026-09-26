@@ -1,0 +1,128 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-main-menu-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main menu control -- renders fixed site-navigation controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "mw-logo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site logo -- renders the operator's fixed branding"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "p-search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search control -- renders fixed search-interface vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-user-links"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "account and support controls -- renders fixed vocabulary for site support, account creation, and login"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "p-associated-pages"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page-type tabs -- renders the fixed Article and Talk controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "p-views"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page-view tabs -- renders the fixed View, Edit, and History controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-page-tools-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page-tools control -- renders fixed page-action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "p-lang-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "language selector control -- renders the fixed interface control for choosing article languages"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-appearance-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "appearance settings -- renders fixed vocabulary for font size, page width, and theme choices"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mw-indicators"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page indicators region -- renders operator-defined page-status controls and labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "siteSub"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site subtitle -- renders fixed Wikimedia interface copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "id": "footer-info-lastmod"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders fixed privacy, about, disclaimer, contact, legal, developer, statistics, cookie, mobile-view, attribution, and licensing vocabulary; the editor-dependent last-modified notice is excluded"
+  }
+]

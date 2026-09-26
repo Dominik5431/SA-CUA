@@ -1,0 +1,36 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "b7ef425131 e9f1adff2b c03fb03748 a81cb9db2d"
+      },
+      {
+        "role": "heading",
+        "class": "e7addce19e f546354b44 cc045b173b"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Filter sidebar heading -- renders: 'Filter by'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "ad68e1f7ce bb51db7864"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "View toggle -- renders: 'List', 'Grid'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "TravellerFooter_root--variant-full"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: 'Support', 'Discover', 'Manage your trip', 'About', 'Language and currency', 'Cookie settings', 'Privacy and cookies', 'Terms and conditions', 'Contact us', 'Corporate travel', 'Car hire', 'Flight + Hotel', 'Airport taxis', 'Attractions', 'Gift cards', 'Car rental', 'Sustainability', 'Careers', 'Press centre', 'Investor relations', 'Affiliates', 'Property owners', 'Agents', 'Free property listings', 'Partner help', 'Careers', 'Press centre', 'Investor relations', 'Affiliates', 'English (US)', 'USD - US Dollar', 'Cookie settings'"
+  }
+]

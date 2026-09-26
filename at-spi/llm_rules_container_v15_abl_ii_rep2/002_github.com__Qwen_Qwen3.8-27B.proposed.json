@@ -1,0 +1,82 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "MarketingHeader-module__root__Tk7n3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global marketing header -- renders: GitHub logo, navigation dropdowns (Product/Solutions/Marketplace/Explore/Pricing), search trigger, Sign in, Sign up, and appearance settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-repo-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Repository tab navigation -- renders: Code, Issues, Pull requests, Actions, Projects, Wiki, Security, Insights"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "_R_5j5_"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issues sidebar -- renders: fixed navigation labels (Issues, Pull requests, Discussions, Actions, Projects, Wiki, Security, Insights) and feedback controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "prc-PageLayout-Header-0of-R"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Page header -- renders: 'Issues' heading and 'New issue' button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "FilteredListPageLayout-module__FilterBar__yw_Ew"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Filter bar -- renders: search input, clear button, and submit button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "_r_7_-list-view-metadata"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "List view metadata -- renders: 'Open'/'Closed' tabs, filter buttons (Labels, Milestone, Assignee, Type, Sort), and sort dropdown"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "prc-Pagination-PaginationContainer-HEhGo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Pagination controls -- renders: page numbers and navigation arrows"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: GitHub logo, copyright, and fixed links (Docs, Blog, Changelog, Pricing, API, Training, Security, Contact, Status, Community, X, Privacy, Terms, Reporting, What is Github)"
+  }
+]

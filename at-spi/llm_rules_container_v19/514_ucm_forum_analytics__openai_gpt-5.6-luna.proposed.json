@@ -1,0 +1,178 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders the operator's fixed branding and navigation interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "primary navigation -- renders the fixed view controls and new-post control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "new-post-btn",
+        "class": "btn btn-success"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "new-post control -- renders the fixed operator action label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "entry",
+        "id": "search-input",
+        "class": "form-input"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search control -- renders the operator's fixed search interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "sort-posts",
+        "class": "filter-btn-group"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sort control group -- renders the fixed sort vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "analytics-btn",
+        "class": "btn btn-primary btn-block"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "analytics control -- renders the fixed operator action label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "view-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view heading -- renders the operator-defined view vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vote-label"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "post vote label -- renders the fixed vote-label vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "stat unanswered"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "unanswered status label -- renders the fixed post-status vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "stat answered"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answered status label -- renders the fixed post-status vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "open-post-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "post open controls -- render the fixed operator action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "report-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "post report controls -- render the fixed operator action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "load-more-btn",
+        "class": "btn btn-secondary"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination control -- renders the fixed load-more action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "modal-content"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "analytics modal headings -- render the operator-defined section-heading vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "sentiment-label"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "analytics sentiment labels -- render the fixed operator-defined metric labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "metric-label"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "analytics metric labels -- render the fixed operator-defined metric labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "modal-buttons"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "modal controls -- render the fixed close-control vocabulary"
+  }
+]

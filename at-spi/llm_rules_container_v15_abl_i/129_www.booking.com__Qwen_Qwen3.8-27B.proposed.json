@@ -1,0 +1,148 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site header -- renders: Booking.com logo, language/currency, sign in, register, and fixed service tabs (Stays, Flights, Car rentals, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "TravellerFooter_root--variant-full"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Global site footer -- renders: fixed navigation links (Support, Partners, etc.), legal links, and language/currency controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "onetrust-banner-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Cookie consent banner -- renders: operator-authored privacy policy text and fixed action buttons (Accept, Reject, Settings)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "d24b1ed1cf f5852f597b da2666adb4"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Hotel page section tabs -- renders: fixed tab labels (Overview, Availability, Facilities, Policies, Fine print, Reviews)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "top-book"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top booking bar -- renders: fixed action buttons (Wishlist, Share, Book now, Price guarantee)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_hotel_name"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Hotel header controls -- renders: fixed action buttons (Wishlist, Share, Map) and star rating label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "reviewFloater"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Review scorecard widget -- renders: fixed score labels (Exceptional, Score) and review count"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hotel_sidebar_static_map_capla"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar map widget -- renders: fixed 'Show on map' button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_availability_style_changes"
+      }
+    ],
+    "except": [
+      {
+        "role": "table",
+        "id": "hprt-table"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Availability section chrome -- renders: fixed 'Availability' heading, date summary, and search controls; subtracts the room table which contains seller-defined room names and descriptions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_facilities_box"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Facilities section -- renders: fixed section heading and facility names (e.g., Free WiFi, Pool) which are standard platform vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "xm-survey-component-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "User survey widget -- renders: operator-authored survey question and fixed rating options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_policies_box"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Policies section -- renders: fixed policy headings and standard policy text (Check-in, Check-out, Children, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "important_info"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Important info section -- renders: fixed section heading and standard disclaimer text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "pp-faq"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "FAQ section -- renders: fixed section heading and operator-authored FAQ questions"
+  }
+]

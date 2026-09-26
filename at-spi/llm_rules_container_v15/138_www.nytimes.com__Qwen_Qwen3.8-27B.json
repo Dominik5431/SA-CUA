@@ -1,0 +1,32 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "fides-overlay"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Cookie consent banner -- renders fixed operator vocabulary: 'Manage preferences', 'Reject all', 'Accept all', and language options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Wr7_RG_mastheadWrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site masthead and top navigation -- renders fixed operator vocabulary: 'The New York Times', 'World', 'Sections', 'Search', 'Subscribe', 'Log in'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "css-1e1s8k7"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders fixed operator vocabulary: 'The New York Times Company', 'Contact Us', 'Advertise', 'Jobs', 'Help', 'Site Map', 'Privacy Policy'"
+  }
+]

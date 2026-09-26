@@ -1,0 +1,142 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: Skip to main content, Help, Superuser, Log in, Sign up"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "dfp-sspon"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site header -- renders: Superuser logo/link; ad slot subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Left sidebar navigation -- renders: Home, Questions, Unanswered, Ask Question, Tags, Superuser, Chat, Users, Companies, and fixed promotional copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "fs-headline1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Question header controls -- renders: Ask Question button; question title subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answers-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Answers header -- renders: Answers count, Sort by label, and sort options (Newest, Oldest, Highest score, Most voted)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "dfp-tlb"
+      },
+      {
+        "role": "paragraph"
+      },
+      {
+        "role": "list",
+        "class": "js-post-tag-list-wrapper"
+      },
+      {
+        "role": "section",
+        "class": "user-action-time"
+      },
+      {
+        "role": "section",
+        "class": "user-gravatar32"
+      },
+      {
+        "role": "section",
+        "class": "-flair"
+      },
+      {
+        "role": "link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Question post controls -- renders: vote buttons, save, share, edit, follow, report; user content (body, tags, byline, avatars) subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answer-154533"
+      }
+    ],
+    "except": [
+      {
+        "role": "paragraph"
+      },
+      {
+        "role": "section",
+        "class": "user-action-time"
+      },
+      {
+        "role": "section",
+        "class": "user-gravatar32"
+      },
+      {
+        "role": "section",
+        "class": "-flair"
+      },
+      {
+        "role": "link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Answer post controls -- renders: vote buttons, save, share, edit, follow, report; user content (body, byline, avatars) subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: fixed navigation links (Tour, Help, About, etc.), social links, and copyright text"
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "header-content"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "header navigation and global controls -- platform interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "ssrcss-gmdx8l-Navigation e19b3odl0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "product navigation menu -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "ssrcss-1gu8a1-Grid e12imr580"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "sticky-mpu"
+      },
+      {
+        "role": "section",
+        "id": "dotcom-adsense",
+        "class": "dotcom-ad lazy"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "editorial promo grid -- renders: news story promos, headings, summaries, category metadata links"
+  }
+]

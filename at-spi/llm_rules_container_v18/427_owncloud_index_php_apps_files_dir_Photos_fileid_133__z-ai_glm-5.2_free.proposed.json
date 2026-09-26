@@ -1,0 +1,108 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "header"
+      }
+    ],
+    "except": [
+      {
+        "role": "link",
+        "id": "expand"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders: logo, app name 'Files', search box label; excepts expand menu which shows the user's display name"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "app-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file app navigation sidebar -- renders: Files/Favorites/Shared with you/Shared with others/Shared by link/Tags/Deleted files, Settings button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "crumb svg ui-droppable"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "first breadcrumb segment -- renders: Home icon, fixed navigation root; the last crumb carries a user-named folder and is left masked"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "gallery-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view switcher control -- renders: gallery view toggle button with fixed icon/label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "actions creatable"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file creation controls -- renders: New button, upload progress wrapper"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "file_action_panel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file action panel -- operator-defined file action controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "column header",
+        "id": "headerName"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "column header -- renders: Select all checkbox, Name sort label and sort indicator"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "column header",
+        "id": "headerSize"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "column header -- renders: Size sort label and sort indicator"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "column header",
+        "id": "headerDate"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "column header -- renders: Modified sort label and sort indicator"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "hiddenuploadfield"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "hidden upload control -- renders: operator-defined file upload start button"
+  }
+]

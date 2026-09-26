@@ -1,0 +1,63 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "header"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "cart-count"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders the fixed site heading and navigation labels, with the dynamic cart count excluded"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "entry",
+        "id": "search-input",
+        "class": "form-input trusted"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search control -- renders the operator-defined search-box interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "search-btn",
+        "class": "btn btn-primary trusted"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search action -- renders the fixed search-control label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "id": "sort-select",
+        "class": "form-select trusted"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sort control -- renders the fixed sort-choice vocabulary"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "products-grid",
+        "class": "products-grid"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "product actions -- renders the fixed Add to cart button vocabulary"
+  }
+]

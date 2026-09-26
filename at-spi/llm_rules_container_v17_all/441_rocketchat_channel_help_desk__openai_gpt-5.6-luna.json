@@ -1,0 +1,143 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "sidebar--main"
+      },
+      {
+        "role": "panel",
+        "class": "rcx-button-group--medium"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main sidebar action controls -- renders the fixed workspace-navigation and utility-button vocabulary."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-top-bar__title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Omnichannel sidebar title -- renders the fixed operator-defined sidebar-heading vocabulary."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "omnichannel-sidebar"
+      },
+      {
+        "role": "panel",
+        "class": "rcx-button-group--medium"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Omnichannel sidebar controls -- renders the fixed sidebar-action-button vocabulary."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar section headings -- renders the fixed operator-defined section-label vocabulary."
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "sidebar--custom-colors"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Controls inside user-named room and participant navigation -- renders the fixed menu and action-button vocabulary."
+  },
+  {
+    "own_role": "link",
+    "ancestor_path": [
+      {
+        "role": "footer",
+        "class": "rcx-css-1h8ylb3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Platform footer branding link -- renders the fixed operator-defined branding control."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "class": "rcx-css-6bg1ps"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Room-header toolbar -- renders the fixed channel-action and view-control vocabulary."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "new-message"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "New-message navigation control -- renders the fixed control for navigating to new messages."
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "jump-recent"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Recent-message navigation control -- renders the fixed jump-to-recent control."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rc-message-box__toolbar-formatting"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Message-composer formatting toolbar -- renders the fixed formatting-control vocabulary."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "emoji-picker-icon"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Composer emoji control -- renders the fixed emoji-picker control vocabulary."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rc-message-box__audio-message-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Composer audio control -- renders the fixed audio-message control vocabulary."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-action-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Composer action menu -- renders the fixed message-composer action vocabulary."
+  }
+]

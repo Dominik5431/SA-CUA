@@ -1,0 +1,77 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- renders: logo, Home link, search box, help button, site switcher, Log in / Sign up buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left navigation sidebar -- renders: Home / Questions / Tags / Users / Companies nav links, Collectives CTA, Teams promo; all fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "mainbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "questions"
+      },
+      {
+        "role": "landmark",
+        "id": "uql-form"
+      },
+      {
+        "role": "push button",
+        "id": "uql-filter-toggle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main content area chrome -- renders: All Questions heading, Ask Question button, sort controls (Newest/Active/Bountied/Unanswered/More), pagination; subtracts #questions (UGC summaries + inline ad slots), the filter form, and the filter toggle button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-sofa-sidebar-promo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "SOFA promo widget in sidebar -- operator marketing copy, copy-to-clipboard button, and CTA link; all fixed operator content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: Stack Overflow / Products / Company / Stack Exchange Network nav sections, social links, copyright, cookie settings button; all fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "onetrust-consent-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent banner -- operator-configured OneTrust SDK: policy title, cookie policy text, cookie category names, Accept / Reject All / Settings buttons; no end-user or advertiser can alter what it displays"
+  }
+]

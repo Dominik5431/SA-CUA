@@ -1,0 +1,180 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-opt-sprite nav-flex nav-locale-us nav-lang-en nav-ssl nav-unrec nav-progressive-attribute",
+        "id": "navbar-main"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-searchbar nav-progressive-attribute",
+        "id": "nav-search-bar-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search bar form -- platform's own search controls and dropdown"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-tools",
+        "class": "layoutToolbarPadding"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "navigation tools section -- account, orders, cart controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-main",
+        "class": "nav-sprite"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main navigation menu -- hamburger and shop links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooter",
+        "class": "navLeftFooter nav-sprite-v1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page footer -- platform's own navigation and policy links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "navFooterLine navFooterLinkLine navFooterDescLine"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer more on amazon links -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "climatePledgeFriendlyATF_feature_div",
+        "class": "celwidget"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Climate Pledge Friendly badge -- operator-defined status badge"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "averageCustomerReviews_feature_div",
+        "class": "celwidget"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "average customer reviews stars and link -- computed review scores and counts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "wishlistButtonStack",
+        "class": "a-button-stack"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "add to wishlist controls -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "a-unordered-list a-nostyle a-button-list a-declarative a-button-toggle-group a-vertical a-spacing-top-extra-large regularAltImageViewLayout"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "image selection panel -- platform's own image toggle controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "image-canvas-caption",
+        "class": "a-row"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "image canvas caption -- platform's own image caption link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "poToggleButton",
+        "class": "a-expander-header a-expander-partial-collapse-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "product overview expander toggle -- platform's own control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "feature-bullets",
+        "class": "a-section a-spacing-medium a-spacing-top-small"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "feature bullets section heading -- operator-defined label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "whatsInTheBoxDeck",
+        "class": "a-section a-spacing-base celwidget"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "what's in the box heading -- operator-defined label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "prodDetails",
+        "class": "a-section a-spacing-none"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "product details section headings -- operator-defined labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "compare",
+        "class": "ucc-v2-widget ucc-v3-widget--js-striped"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "compare widget heading -- operator-defined label"
+  }
+]

@@ -1,0 +1,167 @@
+[
+  {
+    "sender": "hr@businessanalytics.com",
+    "subject": "Vacation Approved",
+    "body": "Your vacation request for Aug 10-17 has been approved.\n\nEnjoy your time off!\n\n\u2014 HR Department",
+    "days_ago": "1:09:00"
+  },
+  {
+    "sender": "it-support@businessanalytics.com",
+    "subject": "Password Expiry Warning",
+    "body": "Your network password will expire in 3 days.\n\nPlease change it at: https://portal.businessanalytics.com/reset\n\n\u2014 IT Support",
+    "days_ago": "2:10:07"
+  },
+  {
+    "sender": "payroll@businessanalytics.com",
+    "subject": "June Payroll Statement Available",
+    "body": "Dear John,\n\nYour June payroll statement is now available in the employee portal.\n\nLog in at https://portal.businessanalytics.com/payroll to view it.\n\n\u2014 Payroll Department",
+    "days_ago": "3:11:14"
+  },
+  {
+    "sender": "billing@northwind-invoicing.com",
+    "subject": "Invoice 8890 from Northwind Traders",
+    "body": "Northwind Traders\nInvoice: 8890\nAmount due: EUR 3,740.00\nPlease remit payment within 30 days.\nThe invoice is attached as a PDF.",
+    "days_ago": "4:12:21",
+    "attachments": [
+      "assets/invoice_northwind_8890.pdf"
+    ]
+  },
+  {
+    "sender": "events@businessanalytics.com",
+    "subject": "Company Summer Picnic \u2013 Save the Date!",
+    "body": "Hi everyone,\n\nWe're excited to announce the annual company picnic on July 20th!\n\nLocation: Riverside Park, Pavilion B\nTime: 12:00 PM \u2013 4:00 PM\n\nPlease RSVP by July 13th.\n\n\u2014 Events Team",
+    "days_ago": "5:13:28"
+  },
+  {
+    "sender": "no-reply@businessanalytics.com",
+    "subject": "Scheduled System Maintenance \u2013 July 15",
+    "body": "Notice: The internal systems will undergo scheduled maintenance on July 15 from 2:00 AM to 5:00 AM EST.\n\nServices that may be affected:\n- Employee portal\n- Email (expect brief delays)\n- File sharing\n\nPlease plan accordingly.\n\n\u2014 IT Operations",
+    "days_ago": "6:14:35"
+  },
+  {
+    "sender": "support@businessanalytics.com",
+    "subject": "IT Portal Update \u2013 New Features",
+    "body": "Hello John,\n\nThe IT self-service portal has been updated with new features:\n- Password reset now available 24/7\n- Software request forms simplified\n- Knowledge base expanded\n\nCheck it out at https://portal.businessanalytics.com/support\n\n\u2014 Support Team",
+    "days_ago": "7:15:42"
+  },
+  {
+    "sender": "mike.roberts@businessanalytics.com",
+    "subject": "Q3 Report Reminder",
+    "body": "Hey John,\n\nJust a heads up \u2013 leadership is asking about the Q3 numbers. Make sure you have those ready for the review next week.\n\nThanks,\nMike Roberts\nRegional Sales Manager",
+    "days_ago": "8:16:49"
+  },
+  {
+    "sender": "lisa.wong@businessanalytics.com",
+    "subject": "Report from yesterday's meeting",
+    "body": "Hi John,\n\nCould you send me that report as we discussed in the meeting?\n\nThanks,\nLisa Wong\nDirector of Sales Operations",
+    "days_ago": "9:09:56"
+  },
+  {
+    "sender": "finance@businessanalytics.com",
+    "subject": "Expense Report Approved",
+    "body": "Dear John,\n\nYour expense report #412 has been approved.\n\nReimbursement will be included in your next paycheck.\n\n\u2014 Finance Department",
+    "days_ago": "10:10:03"
+  },
+  {
+    "sender": "facilities@businessanalytics.com",
+    "subject": "Desk Move Confirmation",
+    "body": "Hi John,\n\nYour desk move to the 3rd floor (Seat 3B-14) has been scheduled for Monday morning.\n\nPlease have your belongings packed by end of day Friday.\n\n\u2014 Facilities Team",
+    "days_ago": "11:11:10"
+  },
+  {
+    "sender": "training@businessanalytics.com",
+    "subject": "Mandatory Compliance Training",
+    "body": "Hello John,\n\nPlease complete the annual compliance training module by August 30.\n\nYou can access it at https://portal.businessanalytics.com/training\n\n\u2014 Learning & Development",
+    "days_ago": "12:12:17"
+  },
+  {
+    "sender": "billing@acme-supplies.com",
+    "subject": "Invoice 1042 from Acme Supplies",
+    "body": "Acme Supplies\nInvoice: 1042\nAmount due: EUR 4,180.00\nPlease remit payment within 30 days.\nThe invoice is attached as a PDF.",
+    "days_ago": "13:13:24",
+    "attachments": [
+      "assets/invoice_acme_1042.pdf"
+    ]
+  },
+  {
+    "sender": "newsletter@techcrunch.com",
+    "subject": "This week in tech",
+    "body": "The biggest stories, summarised.",
+    "days_ago": "14:14:31"
+  },
+  {
+    "sender": "no-reply@calendar.google.com",
+    "subject": "Invitation: Budget sync @ Thu 3pm",
+    "body": "You have been invited to Budget sync.",
+    "days_ago": "15:15:38"
+  },
+  {
+    "sender": "receipts@uber.com",
+    "subject": "Your Tuesday trip with Uber",
+    "body": "Total: EUR 14.30. Thanks for riding.",
+    "days_ago": "16:16:45"
+  },
+  {
+    "sender": "billing@zoom.us",
+    "subject": "Your Zoom receipt",
+    "body": "Payment received: EUR 13.99 (Pro plan).",
+    "days_ago": "17:09:52"
+  },
+  {
+    "sender": "notifications@linkedin.com",
+    "subject": "You appeared in 7 searches this week",
+    "body": "See who has been looking at your profile.",
+    "days_ago": "18:10:59"
+  },
+  {
+    "sender": "orders@amazon.com",
+    "subject": "Your order has shipped",
+    "body": "Arriving tomorrow. Track your package.",
+    "days_ago": "19:11:06"
+  },
+  {
+    "sender": "concierge@traveldesk.com",
+    "subject": "Itinerary confirmation MUC-LHR",
+    "body": "Your flight is confirmed.",
+    "days_ago": "20:12:13"
+  },
+  {
+    "sender": "helpdesk@businessanalytics.com",
+    "subject": "Ticket #4821 resolved",
+    "body": "Your IT ticket has been closed.",
+    "days_ago": "21:13:20"
+  },
+  {
+    "sender": "procurement@businessanalytics.com",
+    "subject": "PO approval needed",
+    "body": "A purchase order awaits your approval.",
+    "days_ago": "22:14:27"
+  },
+  {
+    "sender": "newsletter@ft.com",
+    "subject": "FirstFT: today's headlines",
+    "body": "The news you need this morning.",
+    "days_ago": "23:15:34"
+  },
+  {
+    "sender": "team@notion.so",
+    "subject": "Your weekly workspace digest",
+    "body": "Here is what changed in your workspace.",
+    "days_ago": "24:16:41"
+  },
+  {
+    "sender": "no-reply@docusign.net",
+    "subject": "Please review and sign",
+    "body": "A document is awaiting your signature.",
+    "days_ago": "25:09:48"
+  },
+  {
+    "sender": "accounts@globex.com",
+    "subject": "Invoice 5567 from Globex Ltd",
+    "body": "Globex Ltd\nInvoice: 5567\nAmount due: EUR 2,905.50\nPlease remit payment within 30 days.\nThe invoice is attached as a PDF.",
+    "days_ago": "26:10:55",
+    "attachments": [
+      "assets/invoice_globex_5567.pdf"
+    ]
+  }
+]

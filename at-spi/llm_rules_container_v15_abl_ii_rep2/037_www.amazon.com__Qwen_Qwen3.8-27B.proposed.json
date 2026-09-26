@@ -1,0 +1,186 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "shortcut-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Accessibility navigation shortcuts -- renders: Skip to main content, Skip to about this item, Skip to buying options, Skip to reviews, Search, Cart, Home, Your orders, Show shortcuts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "navbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry",
+        "id": "twotabsearchtextbox"
+      },
+      {
+        "role": "section",
+        "id": "nav-global-location-data-modal-action"
+      },
+      {
+        "role": "section",
+        "id": "nav-link-accountList"
+      },
+      {
+        "role": "link",
+        "id": "nav-orders"
+      },
+      {
+        "role": "link",
+        "id": "nav-cart"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main navigation bar -- renders: Amazon logo, Search, All, Today's Deals, Customer Service, Returns & Orders, Cart, and fixed category links; excludes user-specific account, order, cart, and location data"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "nav-xshop"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Secondary navigation bar -- renders: fixed category links like Today's Deals, Customer Service, Returns & Orders"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooter"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: Back to top, Get to Know Us, Careers, Blog, Investor Relations, Amazon Devices, Amazon Science, Make Money with Us, Let Us Help You, and legal links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "wishlistButtonStack"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Wishlist controls -- renders: Add to List"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "poToggleButton"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Product overview expander -- renders: See more"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "featurebullets_feature_div"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "class": "a-unordered-list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "About this item section header and controls -- renders: About this item, See more; excludes seller-provided feature bullets"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "btf-sub-nav-desktop-product-info-tabs"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Product information tabs -- renders: Product information, About this item, Product details, Customer reviews"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "productDetails"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Product details section headers -- renders: Product details, Technical Details"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "whatsInTheBoxDeck"
+      }
+    ],
+    "except": [
+      {
+        "role": "description list",
+        "id": "witb-content-list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "What's in the box section header -- renders: What's in the box; excludes seller-provided item list"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "cm_cr_dp_d_rating_histogram"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Customer ratings histogram controls -- renders: Customer reviews, 4.5 out of 5 stars, 1 star, 2 stars, 3 stars, 4 stars, 5 stars, See all reviews"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "page tab list",
+        "class": "a4-arrow-nav-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Review filter tabs -- renders: All reviews, 5 star, 4 star, 3 star, 2 star, 1 star, with images, with video"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "cr-media-carousel-heading"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Review media carousel header -- renders: Customer images"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "cm_cr_top_reviews_to_arp_button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "View all reviews link -- renders: See more reviews"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "climatePledgeFriendly"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Climate Pledge Friendly badge section -- renders: Climate Pledge Friendly, EPEAT, and platform-authored sustainability descriptions"
+  }
+]

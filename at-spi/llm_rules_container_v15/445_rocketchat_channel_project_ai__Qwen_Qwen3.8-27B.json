@@ -1,0 +1,34 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "rcx-room-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "rcx-css-u5iepl"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Room header controls -- renders: fixed action buttons (Search, Members, Info, etc.); the channel name heading is subtracted as it reflects the user-created channel name"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "footer",
+        "class": "footer"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry",
+        "class": "rc-message-box__textarea"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Message composer chrome -- renders: fixed formatting toolbar buttons (Bold, Italic, etc.) and emoji picker; the text input area is subtracted as it holds user-typed content"
+  }
+]

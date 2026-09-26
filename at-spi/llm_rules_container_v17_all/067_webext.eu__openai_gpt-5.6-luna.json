@@ -1,0 +1,13 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "question"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "question-card controls -- renders the operator's fixed action-button vocabulary"
+  }
+]

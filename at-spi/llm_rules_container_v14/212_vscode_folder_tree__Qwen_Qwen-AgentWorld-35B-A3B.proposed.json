@@ -1,0 +1,101 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-action-bar vertical"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "activity bar -- platform's own navigation icons for explorer, search, source control, run, extensions, accounts, and settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "workbench.view.explorer",
+        "class": "composite viewlet explorer-viewlet"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "pane-body"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "explorer viewlet chrome -- renders: view title, new file/folder/refresh/collapse all actions; the file tree contents are subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "composite title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "viewlet title bar -- renders: view title and more actions dropdown"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "workbench.parts.editor",
+        "class": "part editor"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "editor part -- renders: editor tabs, tab actions (close, split, more), and getting started page content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar",
+        "id": "workbench.parts.statusbar",
+        "class": "part statusbar status-border-top"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "status bar -- renders: host, scm, problems, forwarded ports, notifications, and screen reader mode indicators"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar",
+        "class": "ElectronMenuBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top menu bar -- platform's own interface controls for file, edit, selection, view, go, run, terminal, help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "notification",
+        "class": "monaco-alert"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "aria notifications -- platform's own system notifications"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-status"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "aria status -- platform's own status messages"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "notifications-toasts visible"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "notification toasts -- platform's own toast notifications and actions"
+  }
+]

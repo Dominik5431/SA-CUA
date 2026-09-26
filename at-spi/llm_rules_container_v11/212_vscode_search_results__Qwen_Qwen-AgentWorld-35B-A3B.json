@@ -1,0 +1,122 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-action-bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Activity Bar navigation icons -- operator's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "composite title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search viewlet title and action buttons -- operator's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "monaco-button toggle-replace-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search replace toggle button -- operator's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "controls"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search filter controls (case, whole word, regex) -- operator's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "query-details"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search query details button -- operator's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "message"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search message and help link -- operator's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "class": "actions-container highlight-toggled"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Editor tab actions container -- split and more controls, operator's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "document frame",
+        "class": "gettingStartedContainer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Getting Started onboarding page -- operator's own fixed vocabulary and categories"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar",
+        "id": "workbench.parts.statusbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Status bar -- operator's own interface and computed status items throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "notification",
+        "class": "monaco-alert"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "ARIA alert notifications -- operator's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-status"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "ARIA status regions -- operator's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "notifications-toasts"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Notification toasts container -- operator's system notifications throughout"
+  }
+]

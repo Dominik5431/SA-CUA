@@ -1,0 +1,25 @@
+# The 10 UCM custom-website containers, for the `ucm_utility` suite.
+#
+# Ports differ from upstream's compose on purpose: UCM publishes 8091-8100, but 8092/8093/8094
+# are already held by this deployment's three OwnCloud instances. This block uses 8110-8119,
+# which is free, and desktop_env.py's WEB_UCM_SITES table must agree with it.
+#
+# The agent never sees these ports -- it reaches each site by bare hostname through
+# rtc-web-proxy, exactly like reddit.com / gitlab.com. The ports are what the host-side
+# evaluator and the proxy use.
+#
+# `logs/` is ONE shared bind mount across all ten services, mirroring upstream: security.log
+# is global and events are told apart by appName. desktop_env clears it per episode.
+#
+# Usage: docker compose -f ucm_sites/docker-compose.yaml up -d --build
+services:
+  ecommerce-search: {build: {context: ../../untrusted-content-masking/environments/custom_websites, dockerfile: ecommerce-search/web.Dockerfile}, ports: ["8110:80"], volumes: ["./logs:/usr/share/nginx/html/logs:rw"], restart: unless-stopped, container_name: ucm-ecommerce-search}
+  calendar:         {build: {context: ../../untrusted-content-masking/environments/custom_websites, dockerfile: calendar/web.Dockerfile},         ports: ["8111:80"], volumes: ["./logs:/usr/share/nginx/html/logs:rw"], restart: unless-stopped, container_name: ucm-calendar}
+  banking:          {build: {context: ../../untrusted-content-masking/environments/custom_websites, dockerfile: banking/web.Dockerfile},          ports: ["8112:80"], volumes: ["./logs:/usr/share/nginx/html/logs:rw"], restart: unless-stopped, container_name: ucm-banking}
+  customer-support: {build: {context: ../../untrusted-content-masking/environments/custom_websites, dockerfile: customer-support/web.Dockerfile}, ports: ["8113:80"], volumes: ["./logs:/usr/share/nginx/html/logs:rw"], restart: unless-stopped, container_name: ucm-customer-support}
+  email:            {build: {context: ../../untrusted-content-masking/environments/custom_websites, dockerfile: email/web.Dockerfile},            ports: ["8114:80"], volumes: ["./logs:/usr/share/nginx/html/logs:rw"], restart: unless-stopped, container_name: ucm-email}
+  job-board:        {build: {context: ../../untrusted-content-masking/environments/custom_websites, dockerfile: job-board/web.Dockerfile},        ports: ["8115:80"], volumes: ["./logs:/usr/share/nginx/html/logs:rw"], restart: unless-stopped, container_name: ucm-job-board}
+  restaurant:       {build: {context: ../../untrusted-content-masking/environments/custom_websites, dockerfile: restaurant/web.Dockerfile},       ports: ["8116:80"], volumes: ["./logs:/usr/share/nginx/html/logs:rw"], restart: unless-stopped, container_name: ucm-restaurant}
+  travel-booking:   {build: {context: ../../untrusted-content-masking/environments/custom_websites, dockerfile: travel-booking/web.Dockerfile},   ports: ["8117:80"], volumes: ["./logs:/usr/share/nginx/html/logs:rw"], restart: unless-stopped, container_name: ucm-travel-booking}
+  wiki:             {build: {context: ../../untrusted-content-masking/environments/custom_websites, dockerfile: wiki/web.Dockerfile},             ports: ["8118:80"], volumes: ["./logs:/usr/share/nginx/html/logs:rw"], restart: unless-stopped, container_name: ucm-wiki}
+  forum:            {build: {context: ../../untrusted-content-masking/environments/custom_websites, dockerfile: forum/web.Dockerfile},            ports: ["8119:80"], volumes: ["./logs:/usr/share/nginx/html/logs:rw"], restart: unless-stopped, container_name: ucm-forum}

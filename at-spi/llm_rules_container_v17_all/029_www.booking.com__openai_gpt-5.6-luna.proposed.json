@@ -1,0 +1,268 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "bui-list-item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip-navigation link -- renders fixed accessibility-navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders the operator's logo, account controls, help controls, and fixed header vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_tab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "primary product navigation -- renders fixed product categories such as accommodations, flights, packages, cars, attractions, and airport taxis"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "f5852f597b"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "property-page tab navigation -- renders fixed tabs for overview, availability, facilities, policies, fine print, and reviews"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "top-book"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "property action controls -- renders fixed wishlist, share, booking, and price-match controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_hotel_name"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "property-title action widgets -- renders fixed map, wishlist, and related-property controls while excluding the supplier-provided property name"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "hp-dates-summary__header",
+        "id": "availability_target"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "availability section heading -- renders fixed booking-interface vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "column header",
+        "class": "hprt-table-header-cell"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "room-rate table headers -- renders fixed room, price, policies, and room-selection vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "combo box",
+        "class": "hprt-nos-select"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "room quantity selector -- renders the operator's fixed room-selection control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "hprt-table-room-select"
+      }
+    ],
+    "own_role": "label",
+    "verdict": "trusted",
+    "note": "room-selection labels -- renders fixed labels for the operator's room quantity controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "hprt-conditions-modal_trigger"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "rate-condition controls -- renders the fixed control for opening booking-condition details"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "hprt-reservation-cta"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "reservation action control -- renders the fixed booking continuation control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_facilities_box"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "facilities section labels -- renders fixed operator section-heading vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "hp_facilities_box"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "facilities controls -- renders fixed expand and interaction controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "policies"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "policies section labels -- renders fixed policy-heading vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "policies"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "policy interaction controls -- renders fixed expand and policy-detail controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "important_info"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "important-information section label -- renders the fixed operator heading vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "important_info"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "important-information controls -- renders fixed expand and interaction controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "pp-faq"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "FAQ controls -- renders fixed operator FAQ questions and disclosure controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "questions-answers-desktop"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "questions-and-answers section label -- renders the fixed operator section heading"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "questions-answers-desktop"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "questions-and-answers controls -- renders fixed controls for the operator's Q&A interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "surroundings_block"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "surroundings section labels -- renders fixed headings for the operator's surroundings subsections"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "surroundings_block"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "surroundings controls -- renders fixed map and section interaction controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "xm-survey-component-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "operator survey widget -- renders fixed survey questions, response options, and dismissal controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "TravellerFooter_root--variant-full"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders fixed operator footer navigation, legal, support, and partner-link vocabulary"
+  }
+]

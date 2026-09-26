@@ -1,0 +1,89 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "owncloud"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "ownCloud brand navigation -- renders the operator's fixed logo vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "header-appname-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Files application switcher -- renders the operator's fixed application name and menu control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "searchbox"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry",
+        "id": "searchbox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search interface -- renders the operator's fixed search label and chrome, while the echoed query field is excluded"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "hiddenuploadfield"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "file upload control -- renders the operator's fixed upload action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "toolbarButton"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "PDF viewer toolbar buttons -- renders the fixed operator controls for navigation, search, zoom, presentation, printing, downloading, and toolbar actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "toolbarViewerRight"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "PDF viewer right toolbar -- renders the fixed presentation, print, download, bookmark, and secondary-toolbar controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "scaleSelectContainer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "PDF viewer zoom-scale control -- renders the operator's fixed automatic, page-fit, page-width, and scale-selection vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "id": "viewerContextMenu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "PDF viewer context menu -- renders the fixed first-page, last-page, and page-rotation actions"
+  }
+]

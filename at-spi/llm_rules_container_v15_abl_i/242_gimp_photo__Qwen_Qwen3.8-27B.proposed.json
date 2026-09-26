@@ -1,0 +1,20 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "GIMP application menu bar -- renders fixed operator vocabulary for File/Edit/Select/View/Image/Layer/Colors/Tools/Filters/Windows/Help and their submenus"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "GIMP status bar -- renders fixed operator vocabulary for zoom controls, canvas size, and status indicators"
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "navbar navbar-gitlab"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "header-user"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- renders: Skip to content, GitLab logo, Menu dropdown, Search, New, Issues, Merge Requests, To-Do List, Help; subtracts the user dropdown whose link carries the current user's display name"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left project sidebar -- renders: Project information, Repository/Files/Commits/Branches/Tags/Releases/Charts/Compare, Issues, Merge Requests, CI/CD, Packages & Registries, Deployments, Infrastructure, Monitor, Analytics, Wiki, Snippets, Settings, Collapse sidebar; subtracts the context-header which shows the user-named project name"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "tree-controls"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "commit page toolbar -- renders: Search commits input, Options link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "commit-sha-group"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Copy commit SHA button inside each commit's SHA group -- operator control with fixed vocabulary; the commit hash static text beside it stays masked"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "commit-sha-group"
+      }
+    ],
+    "own_role": "link",
+    "verdict": "trusted",
+    "note": "Browse Files link inside each commit's SHA group -- operator control with fixed vocabulary; the commit hash static text beside it stays masked"
+  }
+]

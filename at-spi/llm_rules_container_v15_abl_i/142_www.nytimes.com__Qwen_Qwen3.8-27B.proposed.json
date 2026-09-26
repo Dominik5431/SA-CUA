@@ -1,0 +1,92 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "fides-overlay"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Fides cookie consent banner -- renders: operator's fixed privacy policy copy, 'Manage Preferences', 'Reject All', 'Accept All', and language options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Wr7_RG_mastheadWrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site masthead -- renders: operator's fixed navigation labels, section names, and search controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "site-index"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site index landmark -- renders: operator's fixed section labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: operator's fixed legal links, contact info, and navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "tab-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Tab navigation bar -- renders: operator's fixed tab labels (e.g., 'Latest', 'Popular')"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "css-1jx9oro"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Pagination controls -- renders: operator's fixed page numbers and next/previous links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "css-1v4upt6"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Content section headers -- renders: operator's fixed section titles and 'See All' links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "css-1ta8iz9"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Collection header -- renders: operator's fixed collection title and sub-section navigation links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "social-media-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Social media links -- renders: operator's fixed links to official social profiles"
+  }
+]

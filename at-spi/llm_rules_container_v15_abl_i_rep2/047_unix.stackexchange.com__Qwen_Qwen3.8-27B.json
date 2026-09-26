@@ -1,0 +1,268 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: Skip to main content, Help, Stack Exchange, Log in, Sign up"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site header -- renders: Unix & Linux"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Left sidebar navigation -- renders: Home, Questions, Unanswered, Ask Question, Tags, Users, Companies, Chat, Stack Overflow for Teams"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "fs-headline1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Question header controls -- renders: Ask Question; question title is user-generated and subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item ws-nowrap mr16 mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Question metadata labels -- renders: Asked, Modified, Viewed"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item ws-nowrap mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Question metadata label -- renders: Active"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answers-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Answers header -- renders: Answers, Sorted by, Newest, Oldest, Score"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question"
+      }
+    ],
+    "except": [
+      {
+        "role": "paragraph"
+      },
+      {
+        "role": "list",
+        "class": "js-post-tag-list-wrapper"
+      },
+      {
+        "role": "section",
+        "class": "user-action-time"
+      },
+      {
+        "role": "section",
+        "class": "user-gravatar32"
+      },
+      {
+        "role": "section",
+        "class": "-flair"
+      },
+      {
+        "role": "section",
+        "id": "comments-4420"
+      },
+      {
+        "role": "section",
+        "id": "dfp-tlb"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Question action buttons -- renders: Save, Follow, Share, Suggest Edit, Report; user content and ads subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answer-23345"
+      }
+    ],
+    "except": [
+      {
+        "role": "paragraph"
+      },
+      {
+        "role": "section"
+      },
+      {
+        "role": "section",
+        "class": "user-action-time"
+      },
+      {
+        "role": "section",
+        "class": "user-gravatar32"
+      },
+      {
+        "role": "section",
+        "class": "-flair"
+      },
+      {
+        "role": "section",
+        "id": "comments-23345"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Answer action buttons -- renders: Save, Follow, Share, Suggest Edit, Report; user content subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answer-4421"
+      }
+    ],
+    "except": [
+      {
+        "role": "paragraph"
+      },
+      {
+        "role": "section"
+      },
+      {
+        "role": "section",
+        "class": "user-action-time"
+      },
+      {
+        "role": "section",
+        "class": "user-gravatar32"
+      },
+      {
+        "role": "section",
+        "class": "-flair"
+      },
+      {
+        "role": "section",
+        "id": "comments-4421"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Answer action buttons -- renders: Save, Follow, Share, Suggest Edit, Report; user content subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answer-311785"
+      }
+    ],
+    "except": [
+      {
+        "role": "paragraph"
+      },
+      {
+        "role": "section"
+      },
+      {
+        "role": "section",
+        "class": "user-action-time"
+      },
+      {
+        "role": "section",
+        "class": "user-gravatar32"
+      },
+      {
+        "role": "section",
+        "class": "-flair"
+      },
+      {
+        "role": "section",
+        "id": "comments-311785"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Answer action buttons -- renders: Save, Follow, Share, Suggest Edit, Report; user content subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answer-385434"
+      }
+    ],
+    "except": [
+      {
+        "role": "paragraph"
+      },
+      {
+        "role": "section"
+      },
+      {
+        "role": "section",
+        "class": "user-action-time"
+      },
+      {
+        "role": "section",
+        "class": "user-gravatar32"
+      },
+      {
+        "role": "section",
+        "class": "-flair"
+      },
+      {
+        "role": "section",
+        "id": "comments-385434"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Answer action buttons -- renders: Save, Follow, Share, Suggest Edit, Report; user content subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: Stack Exchange, Technology, Life/Arts, Culture, Science, Business, API, Data, Blog, Facebook, Twitter, LinkedIn, YouTube, Legal, Privacy policy, Terms of service, Return to top"
+  }
+]

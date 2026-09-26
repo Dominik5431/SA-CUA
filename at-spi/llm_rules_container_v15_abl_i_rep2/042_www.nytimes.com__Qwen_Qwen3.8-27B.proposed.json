@@ -1,0 +1,62 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Wr7_RG_mastheadWrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site masthead and navigation -- renders: site logo, section labels, search, and sign-in controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "site-index"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site index label -- renders: 'Site Index'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: copyright, legal links, and site map links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "tab-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Tab navigation for sorting the stream -- renders: 'Latest', 'Popular'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "css-1qthz13"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Operator-authored sidebar modules (e.g., Newsletter signup, Social links) -- renders: fixed marketing copy and social platform names"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "css-1v4upt6"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Section headers within content bands -- renders: fixed section titles and 'See all' links"
+  }
+]

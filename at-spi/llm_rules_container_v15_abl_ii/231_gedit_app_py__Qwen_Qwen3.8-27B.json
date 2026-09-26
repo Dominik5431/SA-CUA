@@ -1,0 +1,7 @@
+[
+  {
+    "scope": "page",
+    "verdict": "trusted",
+    "note": "Gedit is a local desktop text editor where the operator (GNOME Project) authors all interface chrome (menus, toolbars, status bars, dialogs) and the user's local document content is private to the user, not a prompt-injection vector from external parties."
+  }
+]

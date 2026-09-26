@@ -1,0 +1,112 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "bui-list-item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip-navigation link -- renders the operator's fixed bypass-link vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "Header_logo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site logo region -- renders the operator's fixed Booking.com branding and home-navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_tab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "product navigation -- renders the fixed accommodations/flights/packages/cars/attractions/airport-taxis vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "label",
+        "class": "d026bbaa45"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "destination-search label -- renders the operator's fixed destination-search vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "searchbox-horizontal-occupancy-label"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "occupancy-search label -- renders the operator's fixed guests-and-rooms vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "f3e59d528f"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search submission control -- renders the fixed search-action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "f0a25f2aec"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "results-area map control -- renders the fixed map-display action vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "b34f2cc03f"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "results view toggle -- renders the fixed results-view control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "ad68e1f7ce"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view switcher -- renders the fixed list and grid view-control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "fcd8e16f81"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "results sorting control -- renders the operator's fixed sorting vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer_menu_track"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders the operator's fixed help, legal, company, destination and service-navigation vocabulary"
+  }
+]

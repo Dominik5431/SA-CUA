@@ -1,0 +1,168 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility skip-nav -- renders fixed skip links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "site-nav__header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders the platform logo/home link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "site-nav__main-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main navigation menu -- renders fixed vocabulary links (Groups, About, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "site-nav__search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search box -- operator's own search input control; no query text is redisplayed in this skeleton"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "comment-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "reply form -- renders: text input, markdown-help checkbox/label, submit button; all operator interface with fixed vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "submission__nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "submission action nav -- renders fixed links (Comments, Link, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "comment__nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment action nav -- renders fixed vocabulary: Reply, Permalink, Parent"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vote"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "vote controls -- renders fixed Vote up / Vote down buttons; the count beside them is a computed value handled by the deterministic pass"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "submission-meta"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "submission metadata sidebar -- renders fixed labels (Votes, short URL) alongside computed values; no user-generated text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "subscribe-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "subscribe form -- renders fixed Subscribe button and computed subscriber count"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "sidebar__section"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "collapsible sidebar panel -- renders a fixed toggle-button label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "sidebar__no-padding"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar menu list -- renders fixed navigation menu items (Edit, Edit group, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders fixed platform copyright and links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "flex unlistify"
+      }
+    ],
+    "own_role": "link",
+    "verdict": "trusted",
+    "note": "sort/view tab strip -- renders fixed vocabulary tabs (e.g. Comments/New); only the link elements are carved out, and no other flex unlistify list on this page contains links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "comment__header"
+      },
+      {
+        "role": "list",
+        "class": "flex unlistify"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment hide-toggle list inside comment header -- renders fixed Hide control; the username/timestamp heading beside it stays masked"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "article",
+        "class": "comment"
+      }
+    ],
+    "own_role": "check box",
+    "verdict": "trusted",
+    "note": "comment hide checkboxes -- fixed toggle controls that sit as direct children of each comment article; only the checkbox role is carved out, comment body and header text stay masked"
+  }
+]

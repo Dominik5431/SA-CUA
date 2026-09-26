@@ -1,0 +1,68 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "sidebar--main"
+      }
+    ],
+    "except": [
+      {
+        "role": "landmark",
+        "class": "rooms-list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main sidebar chrome -- renders: user status bullet, fixed navigation icon buttons (Home, Messages, etc.), and user profile link; the rooms-list is subtracted as it renders user-created channel and DM names"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar top bar -- renders: fixed section title (e.g. 'Omnichannel') and fixed action buttons (refresh, settings)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-section"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar section headers -- renders: fixed category labels (e.g. 'Channels', 'Direct Messages')"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "footer",
+        "class": "rcx-css-1h8ylb3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar footer -- renders: platform logo and link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-css-ebq3kg"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar user profile block -- renders: current user's display name and status, which are self-authored by the operator of the session"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-css-1sb5pli"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main content area -- renders: platform-authored onboarding headings, descriptions, and action buttons (e.g. 'Get Started', 'Invite People'); no user-generated content is present in this view"
+  }
+]

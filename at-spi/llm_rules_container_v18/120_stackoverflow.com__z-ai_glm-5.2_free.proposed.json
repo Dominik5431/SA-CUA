@@ -1,0 +1,86 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- renders: logo, Questions/Tags/Users nav links, search box, Log in/Sign up buttons; platform's own fixed interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left navigation sidebar -- renders: Home/Questions/Ask/Tags/SOFA/Challenges/Chat/Articles/Users/Companies nav links, Collectives section header and promo text, Freemium CTA; all fixed operator vocabulary and operator-authored promotional copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mainbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "tag-headline-container"
+      },
+      {
+        "role": "landmark",
+        "id": "uql-form"
+      },
+      {
+        "role": "section",
+        "id": "questions"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "mainbar chrome outside user content -- renders: question count label, sort buttons (Newest/Active/etc.), filter toggle button, pagination controls (page numbers, Next/Prev); excepts tag headline (user tag name + tag wiki + ad slot), filter form, and questions list (user-generated post titles, excerpts, tags, user cards, interleaved ad slots)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-sofa-sidebar-promo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "SOFA sidebar promotional widget -- renders: operator-authored promo heading, description, code snippet, copy button, and CTA link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "feed-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "RSS feed link section -- renders: operator-authored feed link label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: Products/Company/Stack Exchange Network/Stack Overflow nav headings and links, social media links, copyright text; all fixed operator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "onetrust-consent-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent banner (OneTrust) -- renders: policy title, cookie category names and descriptions, Accept/Reject-all/Settings buttons; operator-defined fixed vocabulary throughout"
+  }
+]

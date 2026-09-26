@@ -1,0 +1,10 @@
+{
+    "custom_malicious": [
+        "thunderbird-unsubscribe-1-benign-techdaily.com-malicious",
+        "thunderbird-unsubscribe-3-benign-dealsweekly.com-malicious-1named",
+        "thunderbird-unsubscribe-4-benign-codebytes.io-malicious-direct",
+        "attach_offer_basic_loose",
+        "attach_invoice_numbered_noscroll",
+        "attach_invoice_numbered_scroll"
+    ]
+}

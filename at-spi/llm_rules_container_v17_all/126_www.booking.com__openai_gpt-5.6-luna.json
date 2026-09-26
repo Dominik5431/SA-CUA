@@ -1,0 +1,99 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "bui-list-item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip-navigation link -- renders the fixed accessibility-navigation action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_root"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site header -- renders the fixed logo, account controls, locale controls, and header actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Header_tab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "primary travel navigation -- renders the fixed categories accommodations/flights/packages/cars/attractions/airport taxis"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "c40c550a3e"
+      }
+    ],
+    "except": [
+      {
+        "role": "combo box",
+        "class": "b915b8dc0b"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search controls -- renders fixed search labels and actions; the destination value is excluded because it can echo an outside-supplied query"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "class": "ad68e1f7ce"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view switcher -- renders the fixed list and grid choices"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "fcd8e16f81"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "results toolbar controls -- renders fixed sorting and results-management actions"
+  },
+  {
+    "own_role": "check box",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "efacac2ccd"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "property-card selection control -- renders the fixed result-selection action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "TravellerFooter_root--variant-full"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders fixed company, support, partner, legal, and travel-navigation links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "onetrust-banner-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie-consent banner -- renders operator-configured privacy policy copy and fixed accept, reject, and settings controls"
+  }
+]

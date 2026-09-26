@@ -1,0 +1,72 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "entry",
+        "id": "search-input"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search control -- renders: the fixed search-field interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "analytics-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "analytics control -- renders: the fixed analytics action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "view-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view heading -- renders: the fixed forum view names"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "load-more-btn-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination control -- renders: the fixed Load more action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "close-post-detail"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "modal close control -- renders: the fixed close action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "reply-to-post-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "reply control -- renders: the fixed reply action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "report-post-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "post reporting control -- renders: the fixed report action"
+  }
+]

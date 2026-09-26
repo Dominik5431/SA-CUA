@@ -1,0 +1,288 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- renders: skip link, logo, Home, Questions, Users, Help, Stack Exchange, Log in, Sign up"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search bar widget -- renders: search input placeholder"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: product links, legal links, social links, copyright"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "onetrust-banner-sdk"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent banner -- renders: privacy policy text, accept/reject buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left navigation sidebar -- renders: Home, Questions, Ask, Tags, Users, Companies, Collectives, CTA text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "question-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "fs-headline1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question header controls -- renders: Ask Question button; question title is user-generated"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item ws-nowrap mr16 mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question metadata row -- renders: Asked, Modified, Viewed labels and counts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "flex--item ws-nowrap mb8"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "question metadata row -- renders: Active label and count"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "answers-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "answers header -- renders: answer count, Sort by label, sort options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "s-pagination--item"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- renders: page numbers, next/prev"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-copy-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "code copy button -- renders: Copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-share-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "share button -- renders: Share"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-suggest-edit-post"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "suggest edit button -- renders: Suggest Edit"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-follow-post"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "follow button -- renders: Follow"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "user-action-time"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user action time -- renders: Asked/Modified labels and relative time"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "user-gravatar32"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user avatar -- renders: gravatar image"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "-flair"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user flair -- renders: reputation score"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "comments-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comments link -- renders: Show N Comments"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "comment-score"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment score -- renders: vote count"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "comment-user"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment user link -- renders: user display name"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "comment-link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment link -- renders: relative time"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "s-user-card--link"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user card link -- renders: user display name"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "s-user-card--time"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user card time -- renders: relative time"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "s-avatar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "user avatar -- renders: gravatar image"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "s-notice"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "notice bar -- renders: platform notification text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-bottom-notice"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "bottom notice -- renders: platform notification text and tags"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "hot-network-questions"
+      },
+      {
+        "role": "section",
+        "id": "fragment-container-915-747"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "right sidebar -- renders: sidebar widgets, related questions, hot network questions; user-generated question titles are subtracted"
+  }
+]

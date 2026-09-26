@@ -1,0 +1,91 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "header"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "settings"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "header bar -- renders: logo, app name, burger menu toggle, search box label; the settings menu carries the user's display name and is subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "app-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file app sidebar -- renders: Files, Favorites, Shared with you, Shared with others, Shared by link, Tags, Deleted files, Settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "controls"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "breadcrumb"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file list toolbar -- renders: gallery view switcher, New button, upload progress; the breadcrumb carries user-named folder segments and is subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table",
+        "id": "filestable"
+      }
+    ],
+    "except": [
+      {
+        "role": "panel",
+        "id": "fileList"
+      },
+      {
+        "role": "table row",
+        "class": "summary"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "table header row -- renders: column labels Name, Size, Modified, and Select-all checkbox; the file list panel and summary row are subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "panel",
+        "id": "fileList"
+      }
+    ],
+    "except": [
+      {
+        "role": "link",
+        "class": "name"
+      }
+    ],
+    "own_role": "link",
+    "verdict": "trusted",
+    "note": "favorite action links in file rows -- renders: Favorite; the file-name links (and share/more buttons nested inside them) are subtracted"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "action-share"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "share action button in file rows -- renders: Share"
+  }
+]

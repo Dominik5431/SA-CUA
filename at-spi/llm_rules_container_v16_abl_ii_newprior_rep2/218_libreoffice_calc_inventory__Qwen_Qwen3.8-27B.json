@@ -1,0 +1,38 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Application menu bar -- renders fixed operator vocabulary for file, edit, view, insert, format, tools, window, and help commands"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Application toolbars -- renders fixed operator vocabulary for standard office suite actions like save, print, copy, paste, and formatting controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Application status bar -- renders fixed operator vocabulary for application state, page numbers, and zoom levels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "page tab list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sheet tab list -- renders fixed operator vocabulary for default sheet names (Sheet1, Sheet2, etc.)"
+  }
+]

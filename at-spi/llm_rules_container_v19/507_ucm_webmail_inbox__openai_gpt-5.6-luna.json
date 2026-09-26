@@ -1,0 +1,56 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "header"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "header heading -- renders the operator's fixed webmail title"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "navigation control -- renders the fixed Compose action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "sidebar"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "sidebar heading -- renders the operator's fixed mail-navigation label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "search-btn"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search control -- renders the fixed Search action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "email-list"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "message-list action controls -- renders the fixed Open action for each message"
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "count-badge"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Star and Fork action buttons -- renders: 'Star', 'Fork' labels and counts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table",
+        "class": "tree-table"
+      },
+      {
+        "role": "panel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "File table header -- renders: 'Name', 'Last commit', 'Last update' column headers"
+  }
+]

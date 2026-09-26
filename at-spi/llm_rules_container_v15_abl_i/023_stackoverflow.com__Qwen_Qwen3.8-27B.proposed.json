@@ -1,0 +1,106 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "s-topbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: Skip to main content, Stack Overflow, Questions, Search, Help, Stack Exchange, Log in, Sign up"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "left-sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Left sidebar navigation -- renders: Home, Questions, Ask AI, Tags, Users, Companies, Collectives, SOFA, Challenges, Chat, Articles, Sign up, Learn more"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "mainbar"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "id": "questions"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main content header and controls -- renders: All Questions, Ask Question, Newest, Active, Votes, Filter"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "mainbar"
+      }
+    ],
+    "own_role": "link",
+    "verdict": "trusted",
+    "note": "Pagination controls -- renders: Previous, 1, 2, 3, Next, Last"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "class": "s-sidebarwidget--content"
+      },
+      {
+        "role": "section",
+        "id": "related-tags"
+      },
+      {
+        "role": "section",
+        "id": "hot-network-questions"
+      },
+      {
+        "role": "section",
+        "id": "dfp-tsb"
+      },
+      {
+        "role": "section",
+        "id": "dfp-msb"
+      },
+      {
+        "role": "section",
+        "id": "dfp-bsb"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar widgets and ad report controls -- renders: SOFA promo, Report this ad"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: Stack Overflow, Questions, Tags, Users, Companies, About, Help, Legal, Privacy Policy, Terms of Service, Cookie Settings, Stack Exchange, Technology, Culture, Business, Life, Science, Professional, API, Data, Blog, Podcast, Careers, Advertise, Collectives, Mobile, More, Copyright"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "pb-anchor--wrapper"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Ad close and report buttons -- renders: Close, Report this ad"
+  }
+]

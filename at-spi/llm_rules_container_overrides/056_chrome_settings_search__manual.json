@@ -1,0 +1,7 @@
+[
+  {
+    "scope": "page",
+    "verdict": "trusted",
+    "note": "chrome://settings/search -- the 'Search engine' section of Settings, where bb5e4c0d switches the default to Bing. The section heading, the explanatory text and the default-engine combo are Chrome's own strings; the engine names in the combo are Chrome's prepopulated list. Same reasoning as 055, and the same residual as 057 for an auto-added site-search entry."
+  }
+]

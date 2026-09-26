@@ -1,0 +1,122 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar",
+        "class": "ElectronMenuBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Native application menu bar -- renders fixed operator vocabulary: File/Edit/Selection/View/Go/Run/Terminal/Help"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-action-bar vertical"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Activity bar and account bar -- renders fixed operator vocabulary: Explorer, Search, Source Control, Run, Extensions, Accounts, Settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "composite title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Viewlet title bar -- renders fixed operator vocabulary: 'Explorer' and view-specific action icons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "pane-header expanded"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Explorer pane header -- renders fixed operator vocabulary: 'Open Editors' and file action icons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "pane-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Explorer pane header -- renders fixed operator vocabulary: 'Outline' and file action icons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "pane-header timeline-view"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Explorer pane header -- renders fixed operator vocabulary: 'Timeline' and file action icons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "class": "actions-container highlight-toggled"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Editor tab actions -- renders fixed operator vocabulary: 'Split Editor' and 'More Actions' icons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Getting Started header -- renders fixed operator vocabulary: 'Visual Studio Code' and 'Welcome to Visual Studio Code'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "categories-column-left"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Getting Started left column -- renders fixed operator vocabulary: 'Start' section with 'New File', 'Open File', 'Open Folder', 'Clone Repository', 'Connect to...' and 'Recent' section with 'No recent files' message"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "categories-column-right"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Getting Started right column -- renders fixed operator vocabulary: 'Walkthroughs' section with 'Getting Started' and 'Python' category titles and descriptions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Getting Started footer -- renders fixed operator vocabulary: 'Show on Startup' checkbox label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar",
+        "id": "workbench.parts.statusbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Status bar -- renders fixed operator vocabulary: 'Local', 'main', '0 errors', '0 warnings', 'Ln 1, Col 1', 'Spaces: 4', 'UTF-8', 'LF', 'Plain Text', 'Screen Reader Optimized'"
+  }
+]

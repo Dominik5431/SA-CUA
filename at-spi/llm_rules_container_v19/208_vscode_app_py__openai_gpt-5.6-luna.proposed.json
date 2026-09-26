@@ -1,0 +1,88 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "page tab list",
+        "class": "actions-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "activity bar navigation -- renders the fixed Explorer, Search, Source Control, Run, and Extensions controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-action-bar"
+      },
+      {
+        "role": "tool bar",
+        "class": "actions-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "activity bar controls -- renders the fixed Accounts and Settings controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "workbench.parts.editor"
+      },
+      {
+        "role": "section",
+        "class": "tabs-and-actions-container"
+      },
+      {
+        "role": "tool bar",
+        "class": "actions-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "editor toolbar controls -- renders the fixed split-editor, more-actions, and tab-close controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "codicon-breadcrumb-separator"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "breadcrumb separators -- renders the fixed breadcrumb separator vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "status.editor.screenReaderMode"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "screen-reader mode status control -- renders the fixed screen-reader-mode control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "notification-list-item"
+      },
+      {
+        "role": "tool bar",
+        "class": "actions-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "notification controls -- renders the fixed configure and dismiss controls while excluding notification messages and notification-specific action buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar",
+        "class": "ElectronMenuBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "application menu bar -- renders the fixed File, Edit, Selection, View, Go, Run, Terminal, and Help vocabulary"
+  }
+]

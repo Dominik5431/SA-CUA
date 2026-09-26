@@ -1,0 +1,180 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "menuLt"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "left utility navigation -- renders the operator's fixed site-navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "menuRt"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "right utility navigation -- renders the operator's fixed site-navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "cookOK"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie notice controls -- renders fixed consent-notice copy and operator controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "menuWide"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main navigation -- renders the operator's fixed topic and site-navigation labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "logo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site logo -- renders the operator's fixed brand label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "themeChg"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "theme switcher -- renders the fixed theme-control label and control"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search action control -- renders the fixed search-button vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "linkto"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sharing links -- renders the operator's fixed sharing-service vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "login"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "login interface -- renders fixed sign-in and account-control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "content"
+      }
+    ],
+    "except": [
+      {
+        "role": "internal frame",
+        "id": "iframe1"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page content outside the interactive game -- renders the fixed category links, page heading, operator instructions, and activity-navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "game title -- renders the fixed operator-authored game-name vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "paragraph",
+        "class": "game-intro"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "game introduction -- renders fixed operator-authored game instructions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "restart-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "restart control -- renders the fixed restart-game vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "paragraph",
+        "class": "game-explanation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "game explanation -- renders fixed operator-authored gameplay instructions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "footMenu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer navigation -- renders the operator's fixed footer-link vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "copyrt"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "copyright notice -- renders fixed operator-authored site-credit vocabulary"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "dialog",
+        "class": "fc-dialog"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "consent-dialog controls -- render the fixed consent, vendor-list, FAQ, and options-action vocabulary"
+  }
+]

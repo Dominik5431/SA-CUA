@@ -1,0 +1,7 @@
+[
+  {
+    "scope": "page",
+    "verdict": "trusted",
+    "note": "Terminal application interface -- all visible elements are operator-defined controls (menus, buttons, tabs) and the terminal widget itself, which renders system output and user input but contains no third-party or user-generated content regions distinct from the operator's interface."
+  }
+]

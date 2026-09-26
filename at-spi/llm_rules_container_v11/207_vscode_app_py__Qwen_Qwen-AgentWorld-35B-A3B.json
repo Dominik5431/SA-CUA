@@ -1,0 +1,73 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-action-bar vertical"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "activity bar -- platform's own interface navigation icons for views, accounts, and settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar",
+        "id": "workbench.parts.statusbar",
+        "class": "part statusbar status-border-top"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "status bar -- platform's own interface controls and computed values for host, problems, ports, notifications, and editor state"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "class": "actions-container highlight-toggled"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "tab group actions toolbar -- platform controls for splitting tabs and accessing more tab actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "notification-list-item-buttons-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "notification action buttons container -- platform controls for notification actions like dismiss or learn more"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "action-label codicon codicon-close"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "tab close button -- platform control to close the active tab"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "action-label codicon codicon-notifications-clear"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "notification clear button -- platform control to clear notifications"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "action-label codicon codicon-notifications-configure"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "notification configure button -- platform control to open notification settings"
+  }
+]

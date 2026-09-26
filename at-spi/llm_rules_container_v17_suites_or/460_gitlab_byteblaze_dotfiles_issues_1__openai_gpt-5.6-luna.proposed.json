@@ -1,0 +1,231 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "gl-sr-only gl-accessibility"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility navigation link -- renders fixed platform vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "GitLab header branding -- renders the fixed platform title and logo"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "header-new-dropdown-toggle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "new-project control -- renders fixed project-creation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "dashboard-shortcuts-issues"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issues shortcut -- renders fixed navigation vocabulary and a computed count"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "dashboard-shortcuts-merge_requests"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "merge requests shortcut -- renders fixed navigation vocabulary and a computed count"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "shortcuts-todos"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "todos shortcut -- renders fixed navigation vocabulary and a computed count"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "header-help-dropdown-toggle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "help navigation control -- renders fixed platform help vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "project navigation sidebar excluding the user-named project context -- renders fixed GitLab navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "content-body"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "issue-page action controls -- renders fixed control vocabulary such as edit, react, upload, submit, and sidebar actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "content-body"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "issue sidebar toggle control -- renders fixed control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "gl-m-0 gl-line-height-24"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issue metadata section heading -- renders fixed platform vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "card-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "related-issues widget heading -- renders fixed platform vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "gl-font-size-h1 gl-m-0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "discussion section heading -- renders fixed platform vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "__BVID__93",
+        "class": "tabs"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment editor tabs and formatting toolbar -- renders fixed write/preview and editor-control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "toolbar-text"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment editor help text -- renders fixed platform-authored editing guidance"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "note-form-actions"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "comment form actions -- renders fixed submission, notification, and close-control vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "discussion-preferences"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "discussion preferences control -- renders fixed platform preference vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "block assignee"
+      },
+      {
+        "role": "section",
+        "class": "hide-collapsed"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "assignee field label and edit control -- renders fixed sidebar field vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "labels-select-wrapper"
+      },
+      {
+        "role": "section",
+        "class": "gl-display-flex gl-align-items-center"
+      },
+      {
+        "role": "section",
+        "class": "hide-collapsed"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "labels field label -- renders the fixed sidebar field label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "right-sidebar"
+      },
+      {
+        "role": "section",
+        "class": "gl-display-flex gl-align-items-center gl-line-height-20 gl-text-gray-900 gl-font-weight-bold"
+      },
+      {
+        "role": "section",
+        "class": "hide-collapsed"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "issue sidebar metadata field labels -- renders fixed labels for milestone and other platform-defined fields"
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "navbar navbar-gitlab navbar-expand-sm js-navbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "page-title gl-font-size-h-display"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page title heading -- renders: fixed page title text"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "page-title-controls"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page title controls -- renders: action buttons like create project"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "scrolling-tabs-container inner-page-scroll-tabs gl-flex-grow-1 gl-min-w-0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "scrolling tabs container -- renders: fixed navigation tabs"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "project-filter-form",
+        "class": "project-filter-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "project filter form -- renders: search input and sort dropdown controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "gl-display-flex gl-flex-grow-1 gl-border-none nav gl-tabs-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "project listing tabs -- renders: fixed taxonomy tabs"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "gl-dropdown dropdown btn-group dropdown b-dropdown gl-dropdown btn-group js-redirect-listbox gl-ml-3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sort dropdown button -- renders: sort control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "icon-wrapper has-tooltip stars"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "project stars count -- renders: computed star count"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "icon-wrapper has-tooltip forks"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "project forks count -- renders: computed fork count"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "icon-wrapper has-tooltip merge-requests"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "project merge requests count -- renders: computed merge requests count"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "icon-wrapper has-tooltip issues"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "project issues count -- renders: computed issues count"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "static",
+        "class": "js-timeago"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "project last activity timestamp -- renders: computed timeago"
+  }
+]

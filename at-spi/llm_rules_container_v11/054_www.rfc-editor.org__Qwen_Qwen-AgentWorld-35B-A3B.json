@@ -1,0 +1,73 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "bg-blue-900 text-white dark:bg-blue-950 relative print:hidden border-b border-b-white dark:border-b-blue-900"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "bg-blue-900 text-white dark:bg-blue-950 border-t border-t-white dark:border-t-blue-900 relative print:hidden"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "page tab list",
+        "class": "border-b-2 border-gray-400"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "TOC view tabs -- platform's own interface for document view options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "in-this-section"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "TOC section heading -- platform's own interface label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "py-1 uppercase print:text-black print:bg-transparent print:border-1 print:border-black px-3 bg-blue-400 dark:bg-blue-800 text-white print:bg-white"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "document status badge -- operator-defined taxonomy term"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "block print:text-center font-feature-settings-calt-off ml-2.5"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "document identifier list -- operator-assigned RFC number"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "border rounded border-l-4 px-3 py-2 my-5 print:border-black print:bg-white bg-pink-100 dark:bg-red-950 border-red-600 relative ml-1 w-full pr-[50px]"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "expand/collapse control for abstract/status box"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "fides-overlay"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "cookie consent banner -- renders: consent title, consent description text, policy links, 'Manage preferences' / 'Reject all' / 'Accept all' buttons, language selector options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Wr7_RG_mastheadWrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site masthead -- renders: subscribe/log-in links, sections button, search button, section label, account link, NYT logo link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "css-1ta8iz9"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Arts section header -- renders: 'Arts' heading and fixed sub-section navigation links (Art & Design, Books, Dance, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "tab-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "tab navigation controls -- renders: fixed page tab labels for switching stream views"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "site-index"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site index label -- renders: 'Site Index' heading"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- renders: company heading, subscription link, fixed footer navigation links (News, Opinion, Arts, Living, More, etc.), copyright line"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "collection-highlights-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "article highlights section -- renders: 'Highlights' heading and operator-authored article cards (titles, summaries, bylines, images, captions) selected by NYT editorial staff"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "stream-panel"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "article stream -- renders: operator-authored article cards (titles, summaries, bylines, images) and fixed pagination navigation links; no user-generated content present"
+  }
+]

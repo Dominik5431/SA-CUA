@@ -1,0 +1,110 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "Wr7_RG_mastheadWrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site masthead -- renders the operator's fixed logo, section label, navigation, search, account and subscription interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "fides-overlay-wrapper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "privacy interface live region -- renders the operator's fixed privacy and consent status vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "css-777zgl"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "section navigation link -- renders the operator's fixed section-navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "css-1ta8iz9"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "section navigation header -- renders the fixed section heading and operator-defined navigation labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "exvouy0"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "content-band header -- renders the fixed section heading and operator-defined browse link"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "page tab list",
+        "class": "css-40cb0s"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view switcher -- renders the fixed tab vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list item",
+        "class": "css-6n7j50"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination item -- renders operator-defined page-navigation controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "site-index-label"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site index heading -- renders the operator's fixed site-index vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      },
+      {
+        "role": "list",
+        "class": "css-1ho5u4o"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer primary link group -- renders the operator's fixed footer interface links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "footer"
+      },
+      {
+        "role": "list",
+        "class": "css-t8x4fj"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer navigation groups -- render the operator's fixed footer navigation vocabulary"
+  }
+]

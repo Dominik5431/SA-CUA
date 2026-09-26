@@ -1,0 +1,36 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "hiddenuploadfield"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file upload control area -- platform's own interface upload button"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "toolbarSidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "PDF viewer sidebar toolbar -- platform's own interface: thumbnails, outline, attachments buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "mainContainer"
+      },
+      {
+        "role": "section",
+        "class": "toolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "PDF viewer toolbar -- platform's own interface: sidebar toggle, find, pagination, presentation mode, print, download, bookmark, zoom, scale controls"
+  }
+]

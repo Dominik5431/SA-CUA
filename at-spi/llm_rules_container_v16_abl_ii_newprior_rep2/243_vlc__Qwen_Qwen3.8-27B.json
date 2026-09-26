@@ -1,0 +1,29 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "VLC application menu bar -- renders fixed operator vocabulary for media, playback, audio, video, subtitle, tools, and view controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "VLC status bar -- renders operator-defined playback state labels and timecodes"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "filler"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "VLC main interface container -- renders operator-authored playback controls, sliders, and buttons; media metadata labels are handled by deterministic pass"
+  }
+]

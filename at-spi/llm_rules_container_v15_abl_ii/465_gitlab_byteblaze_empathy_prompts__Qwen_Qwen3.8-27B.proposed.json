@@ -1,0 +1,103 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "navbar-gitlab"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Top navigation bar -- renders: GitLab logo, search box, 'New project', 'Issues', 'Merge requests', 'To do list', 'Help', user avatar"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav-sidebar"
+      }
+    ],
+    "except": [
+      {
+        "role": "list item",
+        "class": "context-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Project sidebar navigation -- renders: 'Project information', 'Repository', 'Issues', 'Merge requests', 'Pipelines', 'Deployments', 'Infrastructure', 'Monitor', 'Analytics', 'Wiki', 'Snippets', 'Settings'; excludes the project name header which is user-defined"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "notification",
+        "class": "js-no-ssh-message"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "SSH key warning alert -- renders: fixed platform warning message and action buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "breadcrumbs"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Breadcrumbs -- renders: 'Projects' and project namespace/name (platform chrome reflecting the current context)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "content-body"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "home-panel-title"
+      },
+      {
+        "role": "section",
+        "class": "home-panel-metadata"
+      },
+      {
+        "role": "paragraph"
+      },
+      {
+        "role": "section",
+        "id": "tree-holder"
+      },
+      {
+        "role": "article",
+        "class": "readme-holder"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Project header controls -- renders: 'Star', 'Fork', 'Clone', 'Web IDE', 'Find file', 'Commits', 'Branches', 'Tags', 'Contributors', 'Graphs', 'Compare', 'New file', 'New directory', 'Upload file', 'New project'; excludes project title, description, and repository content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "table",
+        "class": "tree-table"
+      }
+    ],
+    "except": [
+      {
+        "role": "table cell",
+        "class": "tree-item-file-name"
+      },
+      {
+        "role": "table cell",
+        "class": "tree-commit"
+      },
+      {
+        "role": "table cell",
+        "class": "tree-time-ago"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "File browser table headers -- renders: 'Name', 'Last commit', 'Last update'; excludes file names, commit messages, and timestamps"
+  }
+]

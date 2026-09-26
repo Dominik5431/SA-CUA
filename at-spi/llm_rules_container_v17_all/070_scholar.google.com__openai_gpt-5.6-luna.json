@@ -1,0 +1,128 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "gs_hdr_mnu",
+        "class": "gs_btnMNT"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "header menu control -- renders the operator's fixed menu vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "gs_hdr_lgo",
+        "class": "gs_hdr_dso"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Google Scholar logo link -- renders the operator's fixed branding vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "gs_hdr_tsb",
+        "class": "gs_btnG"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search submit control -- renders the fixed Search vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "gs_hdr_act_s"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "header account control -- renders the fixed Sign in or account vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "gs_ab_ttl"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "announcement title -- renders the operator's fixed notification vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "gs_ab_md"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "announcement details -- renders fixed operator-authored notification copy"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "gs_ab_btns"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "announcement actions -- renders the operator's fixed action-link vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "id": "gs_bdy_sb_ca",
+        "class": "gs_btnM"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar alert control -- renders the fixed Create alert vocabulary"
+  },
+  {
+    "own_role": "push button",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "gs_flb"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "result action buttons -- renders the fixed Save, Cite, and More vocabulary"
+  },
+  {
+    "own_role": "heading",
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "gs_res_ccl_bot"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "related-searches section heading -- renders the operator's fixed section-label vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "gs_n"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination landmark -- renders the fixed first, previous, page-number, and next vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "gs_ftr"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer -- renders the operator's fixed About, Privacy, Terms, and settings vocabulary"
+  }
+]

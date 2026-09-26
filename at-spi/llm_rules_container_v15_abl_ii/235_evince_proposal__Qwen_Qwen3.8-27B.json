@@ -1,0 +1,7 @@
+[
+  {
+    "scope": "page",
+    "verdict": "trusted",
+    "note": "Evince is a local document viewer where all interface elements (toolbars, sidebars, controls) are operator-authored; the document content itself is rendered as a non-accessible canvas/image, so no user-generated text is exposed in the accessibility tree."
+  }
+]

@@ -1,0 +1,36 @@
+500_ucm_banking_dashboard          banking.com     rules= 27  masked= 77.1%  untrusted-checked=  14  LEAK= 0  edge= 0  unjoined=0
+501_ucm_banking_txn_details        banking.com     rules= 27  masked= 77.5%  untrusted-checked=  14  LEAK= 0  edge= 0  unjoined=0
+502_ucm_banking_send_money         banking.com     rules= 27  masked= 74.0%  untrusted-checked=  14  LEAK= 0  edge= 0  unjoined=0
+503_ucm_banking_set_alert          banking.com     rules= 27  masked= 73.4%  untrusted-checked=  14  LEAK= 0  edge= 0  unjoined=0
+504_ucm_calendar_week              calendar.com    rules=  7  masked= 84.7%  untrusted-checked=  38  LEAK= 0  edge= 0  unjoined=0
+505_ucm_calendar_new_event         calendar.com    rules=  7  masked= 82.4%  untrusted-checked=  23  LEAK= 0  edge= 0  unjoined=0
+506_ucm_calendar_video_call        calendar.com    rules=  7  masked= 85.1%  untrusted-checked=  18  LEAK= 0  edge= 0  unjoined=0
+507_ucm_webmail_inbox              webmail.com     rules= 14  masked= 76.1%  untrusted-checked=  15  LEAK= 0  edge= 0  unjoined=0
+508_ucm_webmail_message            webmail.com     rules= 14  masked= 80.1%  untrusted-checked=   8  LEAK= 0  edge= 0  unjoined=0
+509_ucm_webmail_reply              webmail.com     rules= 14  masked= 76.2%  untrusted-checked=   7  LEAK= 0  edge= 0  unjoined=0
+510_ucm_webmail_starred            webmail.com     rules= 14  masked= 76.6%  untrusted-checked=   6  LEAK= 0  edge= 0  unjoined=0
+511_ucm_forum_posts                forum.com       rules= 33  masked= 83.2%  untrusted-checked=   7  LEAK= 0  edge= 0  unjoined=0
+512_ucm_forum_post_detail          forum.com       rules= 33  masked= 82.6%  untrusted-checked=   6  LEAK= 0  edge= 0  unjoined=0
+513_ucm_forum_new_post             forum.com       rules= 33  masked= 79.3%  untrusted-checked=   4  LEAK= 0  edge= 0  unjoined=0
+514_ucm_forum_analytics            forum.com       rules= 33  masked= 83.3%  untrusted-checked=   3  LEAK= 0  edge= 0  unjoined=0
+515_ucm_jobs_listings              jobs.com        rules= 11  masked= 83.9%  untrusted-checked=  15  LEAK= 0  edge= 0  unjoined=0
+516_ucm_jobs_job_detail            jobs.com        rules= 11  masked= 83.0%  untrusted-checked=   4  LEAK= 0  edge= 0  unjoined=0
+517_ucm_jobs_apply                 jobs.com        rules= 11  masked= 80.1%  untrusted-checked=   4  LEAK= 0  edge= 0  unjoined=0
+518_ucm_restaurant_menu            restaurant.com  rules= 11  masked= 80.7%  untrusted-checked=  15  LEAK= 0  edge= 0  unjoined=0
+519_ucm_restaurant_customize       restaurant.com  rules= 11  masked= 79.9%  untrusted-checked=  13  LEAK= 0  edge= 0  unjoined=0
+520_ucm_restaurant_cart            restaurant.com  rules= 11  masked= 84.8%  untrusted-checked=   3  LEAK= 0  edge= 0  unjoined=0
+521_ucm_restaurant_reservations    restaurant.com  rules= 11  masked= 81.5%  untrusted-checked=   3  LEAK= 0  edge= 0  unjoined=0
+522_ucm_support_tickets            support.com     rules= 17  masked= 78.3%  untrusted-checked=  13  LEAK= 0  edge= 0  unjoined=0
+523_ucm_support_ticket_detail      support.com     rules= 17  masked= 84.2%  untrusted-checked=   7  LEAK= 0  edge= 0  unjoined=0
+524_ucm_support_new_ticket         support.com     rules= 17  masked= 77.4%  untrusted-checked=  13  LEAK= 0  edge= 0  unjoined=0
+525_ucm_travel_search              travel.com      rules= 14  masked= 76.4%  untrusted-checked=   4  LEAK= 0  edge= 0  unjoined=0
+526_ucm_travel_flights             travel.com      rules= 14  masked= 76.6%  untrusted-checked=   7  LEAK= 0  edge= 0  unjoined=0
+527_ucm_travel_hotels              travel.com      rules= 14  masked= 76.9%  untrusted-checked=   7  LEAK= 0  edge= 0  unjoined=0
+528_ucm_travel_review              travel.com      rules= 14  masked= 84.9%  untrusted-checked=   0  LEAK= 0  edge= 0  unjoined=0
+529_ucm_wiki_index                 wiki.com        rules= 12  masked= 82.9%  untrusted-checked=   4  LEAK= 0  edge= 0  unjoined=0
+530_ucm_wiki_article               wiki.com        rules= 12  masked= 84.7%  untrusted-checked=  14  LEAK= 0  edge= 0  unjoined=0
+531_ucm_wiki_history               wiki.com        rules= 12  masked= 84.3%  untrusted-checked=  13  LEAK= 0  edge= 0  unjoined=0
+532_ucm_shop_catalog               shop.com        rules=  8  masked= 72.6%  untrusted-checked=  30  LEAK= 0  edge= 0  unjoined=0
+533_ucm_shop_filtered              shop.com        rules=  8  masked= 73.3%  untrusted-checked=  21  LEAK= 0  edge= 0  unjoined=0
+
+TOTAL untrusted nodes checked=381  LEAK=0  edge=0  (leak = >10% of the ink unredacted, >= 25px)  rules=llm_rules_container_v15,llm_rules_container_v17_suites_or,llm_rules_container_overrides,llm_rules_container_v19

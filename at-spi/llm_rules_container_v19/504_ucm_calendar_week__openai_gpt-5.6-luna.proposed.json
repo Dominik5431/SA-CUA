@@ -1,0 +1,61 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "header"
+      }
+    ],
+    "own_role": "heading",
+    "verdict": "trusted",
+    "note": "calendar heading -- renders the operator's fixed calendar title"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "nav"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "week navigation controls -- renders: Create event/Today/previous week/next week"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "day-header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "day headers -- renders: fixed day-of-week labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "calendar-body"
+      }
+    ],
+    "except": [
+      {
+        "role": "section",
+        "class": "day-column"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "calendar time scale -- renders: fixed time-slot labels"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "event"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "event action controls -- renders: Start call/Cancel event"
+  }
+]

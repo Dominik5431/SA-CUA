@@ -1,0 +1,64 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "shortcut-menu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Accessibility shortcut menu -- renders: Skip to main content, Skip to results, Skip to filters, Search, Cart, Home, Your orders, Show shortcuts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "navbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main navigation bar -- renders: Amazon logo, location, search controls, account links, cart, and fixed category navigation"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "search"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "a-size-base s-desktop-toolbar"
+      },
+      {
+        "role": "list",
+        "class": "s-messaging-widget-results-header-accessibility-header"
+      },
+      {
+        "role": "landmark",
+        "class": "a-carousel-container"
+      },
+      {
+        "role": "list",
+        "class": "rush-component"
+      },
+      {
+        "role": "section",
+        "class": "s-widget-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search results page chrome -- renders: sort controls, pagination, and section headings; excludes product listings, carousels, and dynamic widgets"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "navFooter"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: Back to top, fixed navigation links, and legal/copyright information"
+  }
+]

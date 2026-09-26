@@ -1,0 +1,7 @@
+[
+  {
+    "scope": "page",
+    "verdict": "trusted",
+    "note": "LibreOffice Calc application window -- the entire accessibility tree consists of the operator's fixed interface vocabulary (menus, toolbars, status bar, and spreadsheet grid structure); the spreadsheet cells contain user data but are not rendered as accessible text strings in this skeleton, and the application chrome is entirely platform-authored."
+  }
+]

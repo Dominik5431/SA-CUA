@@ -1,0 +1,63 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "rcx-room-header rcx-css-7tefqp"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "room header action buttons -- platform's own interface controls for room info and members"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "class": "rcx-button-group--medium rcx-button-group--align-start rcx-button-group rcx-css-6bg1ps"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "room header toolbar -- platform's own interface controls for room actions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar section title labels -- operator-defined section labels like Channels or Direct Messages"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-sidebar-top-bar__title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar top bar title -- operator-defined section label like Omnichannel"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-css-ebq3kg"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar footer branding -- platform's own interface copy and links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "rcx-box rcx-box--full rcx-message-header__time"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message timestamp container -- operator-defined timestamp about submitted content"
+  }
+]

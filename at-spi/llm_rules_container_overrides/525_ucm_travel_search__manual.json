@@ -1,0 +1,232 @@
+[
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "id": "progress-steps"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "travel progress indicator -- renders the closed set of operator-defined step numbers and step labels",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "id": "step-search"
+   }
+  ],
+  "except": [
+   {
+    "role": "section",
+    "id": "search-form"
+   },
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "search-step chrome outside the form -- renders the operator's fixed search-page heading"
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "combo box",
+    "id": "from-city"
+   },
+   {
+    "role": "menu",
+    "id": "select-options"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "origin menu -- renders the closed set of operator-defined departure-location options",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "combo box",
+    "id": "to-city"
+   },
+   {
+    "role": "menu",
+    "id": "select-options"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "destination menu -- renders the closed set of operator-defined arrival-location options",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "combo box",
+    "id": "passengers"
+   },
+   {
+    "role": "menu",
+    "id": "select-options"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "passenger-count menu -- renders the closed set of operator-defined passenger-count options",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "combo box",
+    "id": "travel-class"
+   },
+   {
+    "role": "menu",
+    "id": "select-options"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "travel-class menu -- renders the closed set of operator-defined cabin-class options",
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ]
+ },
+ {
+  "ancestor_path": [
+   {
+    "role": "section",
+    "id": "search-form"
+   }
+  ],
+  "except": [
+   {
+    "class": "reveal-visible"
+   },
+   {
+    "class": "reveal-hidden"
+   },
+   {
+    "class": "promo-banner"
+   },
+   {
+    "class": "injected-"
+   },
+   {
+    "class": "rtc-ad"
+   },
+   {
+    "class": "rtc-halfpage"
+   }
+  ],
+  "verdict": "trusted",
+  "note": "[manual UCM override] flight search form -- fixed city/passenger/class choices, date inputs, Search Flights"
+ }
+]

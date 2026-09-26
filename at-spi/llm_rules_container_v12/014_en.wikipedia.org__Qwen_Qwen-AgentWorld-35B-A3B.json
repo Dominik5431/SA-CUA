@@ -1,0 +1,148 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-header mw-header no-font-mode-scale"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar and header controls -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "mw-body-header vector-page-titlebar no-font-mode-scale"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page title bar and indicators -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "mw-indicators"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page indicators including help link -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "right-navigation"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "right navigation panel -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-page-tools-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page tools landmark -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "vector-sticky-pinned-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sticky pinned container for appearance and tools -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "vector-appearance-landmark"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "appearance settings landmark -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "vector-appearance-pinned-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "appearance pinned container -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "skin-client-prefs-vector-feature-custom-font-size"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "appearance settings for custom font size -- operator-defined values"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "skin-client-prefs-vector-feature-limited-width"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "appearance settings for limited width -- operator-defined values"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "skin-client-prefs-skin-theme"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "appearance settings for skin theme -- operator-defined values"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "search"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "class": "mw-search-results"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search form controls, advanced search panes, createlink, and pager controls -- platform's own interface; search results are excluded"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "cdx-table-pager__limit-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination limit form controls -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "mw-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer links and icons -- platform's own interface"
+  }
+]

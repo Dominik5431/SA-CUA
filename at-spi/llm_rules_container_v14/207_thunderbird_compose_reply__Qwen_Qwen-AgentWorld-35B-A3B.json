@@ -1,0 +1,97 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "spacesToolbar",
+        "class": "spaces-toolbar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "spaces toolbar -- platform's own interface for navigation between mail, address book, calendar, tasks, chat, settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "unifiedToolbarContainer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "unified toolbar container -- platform's own interface including unified toolbar, notification box, appmenu, and window titlebar controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "toolbar-menubar",
+        "class": "chromeclass-menubar themeable-full"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main menubar -- platform's own interface with File, Edit, View, Go, message, tasks, help menus"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "folderPaneHeaderBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "folder pane header bar -- platform's own controls for more actions, writing messages, and getting messages"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "threadPaneHeaderBar",
+        "class": "list-header-bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "thread pane header bar -- platform's own controls for folder name, quick filter, and display options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "header-view-toolbox",
+        "class": "header-buttons-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "message header toolbox -- platform's own controls for reply, forward, archive, junk, trash, other actions, and star message"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "composeToolbar2",
+        "class": "chromeclass-toolbar themeable-full"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "compose toolbar -- platform's own controls for send, encryption, spelling, save, contacts, and attach"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "FormatToolbar",
+        "class": "chromeclass-toolbar themeable-brighttext"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "format toolbar -- platform's own controls for paragraph style, font face, font size, bold, italic, underline, lists, alignment, and insertions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "status bar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "status bar -- platform's own interface for offline status and status text"
+  }
+]

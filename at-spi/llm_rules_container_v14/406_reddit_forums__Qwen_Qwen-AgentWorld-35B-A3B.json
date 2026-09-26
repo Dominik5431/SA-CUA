@@ -1,0 +1,86 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility navigation -- platform's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "main",
+        "class": "site-content__body body flow"
+      },
+      {
+        "role": "landmark",
+        "class": "flex flex--guttered"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "tab navigation controls -- renders: sort/category tabs and dropdown toggle; operator-defined controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "page-heading flex__grow"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page heading -- operator's own page title or section label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "action button link -- operator's own interface control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "article",
+        "class": "flex flex--slim-gutters flex--no-wrap flex--column flex-desktop--row flex-desktop--align-center pad-v"
+      },
+      {
+        "role": "section",
+        "class": "subscribe-form"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "subscribe form section -- renders: subscribe button and subscriber count; operator controls and computed values"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "main",
+        "class": "site-content__body body flow"
+      },
+      {
+        "role": "landmark",
+        "class": "pagination"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- operator's own interface throughout"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site footer -- platform's own interface throughout"
+  }
+]

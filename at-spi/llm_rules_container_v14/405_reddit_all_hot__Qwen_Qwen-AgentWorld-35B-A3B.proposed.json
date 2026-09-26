@@ -1,0 +1,96 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility navigation links -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "main site navigation -- platform's own interface including header, menu, search, and user menu"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "flex flex--guttered"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "feed tabs and sort controls -- operator-defined navigation and sort options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "site-nav__search-row dropdown__menu"
+      },
+      {
+        "role": "entry",
+        "id": "site-nav-search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "site search input -- platform's own interface"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "article",
+        "class": "submission"
+      },
+      {
+        "role": "landmark",
+        "class": "submission__nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "submission navigation controls -- comment count, share, and save buttons"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "article",
+        "class": "submission"
+      },
+      {
+        "role": "section",
+        "class": "vote"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "vote controls and score -- upvote/downvote buttons and vote count"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "article",
+        "class": "submission"
+      },
+      {
+        "role": "header",
+        "class": "submission__header"
+      },
+      {
+        "role": "paragraph",
+        "class": "submission__info"
+      },
+      {
+        "role": "static",
+        "class": "submission__timestamp"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "submission timestamp -- operator-defined computed value"
+  }
+]

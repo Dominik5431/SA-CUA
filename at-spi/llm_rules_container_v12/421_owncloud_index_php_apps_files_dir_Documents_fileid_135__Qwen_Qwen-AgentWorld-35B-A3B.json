@@ -1,0 +1,62 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "header"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "header navigation bar -- platform's own interface: logo, app name, settings expand, search box"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "settings"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "settings menu -- platform's own interface: user display name expand"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "searchbox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search box -- platform's own interface: search label and entry"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "app-content-files"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "file browser app content files container -- platform's own interface: viewcontainer for files and upload field"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "toolbarViewer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "PDF viewer toolbar controls -- platform's own interface: sidebar toggle, find, previous/next page, page number, presentation mode, print, download, bookmark, tools, zoom in/out, scale select options"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "id": "viewerContextMenu"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "PDF viewer context menu -- platform's own interface: first page, last page, rotate clockwise, rotate counter-clockwise options"
+  }
+]

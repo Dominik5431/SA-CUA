@@ -1,0 +1,143 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "gl-sr-only gl-accessibility"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "accessibility skip link -- renders fixed platform navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "header title area -- renders the fixed GitLab title and logo"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "nav-link dropdown-toggle top-nav-toggle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation menu control -- renders fixed platform navigation vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "entry",
+        "id": "search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "header search box -- renders the fixed platform search control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "keyboard-shortcut-helper"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "search keyboard-shortcut hint -- renders the fixed platform shortcut vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "header-new-dropdown-toggle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "new-project navigation control -- renders the fixed project-creation action"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "header-help-dropdown-toggle"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "help navigation control -- renders fixed help-menu vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "class": "page-title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page heading -- renders the fixed Explore Projects section label"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "page-title-controls"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page title controls -- renders the fixed page action control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "scrolling-tabs"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "primary project-section tabs -- renders the fixed tab vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "sort-projects-dropdown"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "project sort control -- renders the fixed sorting vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "gl-border-none"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "project view tabs -- renders the fixed project-list view vocabulary"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "js-redirect-listbox"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "project navigation selector -- renders the fixed platform selector control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list item",
+        "class": "page-item"
+      }
+    ],
+    "own_role": "link",
+    "verdict": "trusted",
+    "note": "pagination control -- renders the fixed paging action vocabulary"
+  }
+]

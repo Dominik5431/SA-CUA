@@ -1,0 +1,50 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "rcx-room-header"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "rcx-css-u5iepl"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Room header controls -- renders: fixed action buttons (Search, Members, Info, etc.); the channel name heading is subtracted as it reflects the user-created channel name"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "messages-box"
+      }
+    ],
+    "except": [
+      {
+        "role": "list",
+        "class": "messages-list"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Message feed chrome -- renders: 'New message' button and 'Jump to recent' button; the messages-list is subtracted as it contains user-generated posts"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "footer",
+        "class": "footer"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry",
+        "class": "rc-message-box__textarea"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Message input area -- renders: emoji picker, formatting toolbar buttons (Bold, Italic, etc.), and action menu; the text entry is subtracted as it holds user-typed content"
+  }
+]

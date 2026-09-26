@@ -1,0 +1,134 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-skip-to-content"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Skip-to-content control -- renders fixed accessibility navigation vocabulary."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "MarketingHeader-module__root__Tk7n3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Marketing header -- renders fixed product, solutions, resources, open-source, enterprise, pricing, search, sign-in, sign-up, and appearance-control vocabulary."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-repo-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Repository tab navigation -- renders fixed Code/Issues/Pull requests/Actions/Projects/Wiki/Security and quality/Insights vocabulary and operator-rendered tab counters."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "CollapsibleSidebar-module__sidebar__X5thL"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Repository issue-navigation sidebar -- renders fixed navigation labels, feedback control, and sidebar controls."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "prc-ActionList-ActionList-rPFF2"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Repository action lists -- render fixed issue-navigation, feedback, and sidebar-control vocabulary."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "header",
+        "class": "prc-PageLayout-Header-0of-R"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Issue-list page header -- renders the fixed Issues section heading and fixed page control."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "sorting-dropdown-module__sortingMenuButton__j3BcS"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sorting control -- renders fixed sorting-control vocabulary."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "ClearButton-module__clearButton__wAfp7"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Search-field clear control -- renders fixed clear-control vocabulary."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "SubmitButton-module__IconButton_0__y66q3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Repository search submit control -- renders fixed search-submit vocabulary."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "pagehead-actions"
+      }
+    ],
+    "own_role": "link",
+    "verdict": "trusted",
+    "note": "Repository action controls -- render fixed watch, fork, and star-control vocabulary; adjacent counters are operator-rendered values handled separately."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "list",
+        "class": "ListItems-module__ul__uMK30"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Issue-list item action controls -- render fixed linked-pull-request action vocabulary inside otherwise user-generated issue entries."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "prc-Pagination-TablePaginationSteps-cAXs3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Pagination controls -- render fixed page-navigation vocabulary and operator-rendered page values."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "f6"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders fixed GitHub footer links and language/cookie controls."
+  }
+]

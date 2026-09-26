@@ -1,0 +1,54 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "monaco-action-bar vertical"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Activity Bar -- platform's own navigation icons and controls (Explorer, Search, Source Control, Run and Debug, Extensions, Accounts, Settings)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "composite title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Workbench viewlet title bar -- renders: view title label, more actions dropdown controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "title tabs show-file-icons"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Editor tab bar -- platform's own tab controls (close tab button, split editor, more actions)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "document frame",
+        "class": "gettingStartedContainer noExtensions animatable"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Getting Started page -- operator-authored editorial copy and fixed interface actions (new file, open folder, source control, remote, etc.)"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "notifications-toasts visible"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Notifications toasts -- platform's own notification UI controls (notification action buttons, clear notifications button)"
+  }
+]

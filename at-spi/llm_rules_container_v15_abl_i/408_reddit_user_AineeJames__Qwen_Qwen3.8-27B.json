@@ -1,0 +1,101 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-accessibility-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Accessibility skip links -- renders: 'Skip to main content', 'Skip to comments'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-nav"
+      }
+    ],
+    "except": [
+      {
+        "role": "entry",
+        "id": "site-nav-search"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Main site navigation -- renders: 'Reddit', 'Popular', 'Log in', 'Sign up', 'Create Post'; search input excluded as it may echo user queries"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "user-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "User profile tabs -- renders: 'Comments', 'Submissions', 'Awards'"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "article",
+        "id": "comment_2343509"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "comment__info"
+      },
+      {
+        "role": "paragraph"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Comment chrome -- renders: 'Hide', 'Reply', 'Permalink', 'Parent', 'Upvote', 'Downvote'; user metadata and body text excluded"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "article",
+        "class": "submission"
+      }
+    ],
+    "except": [
+      {
+        "role": "heading",
+        "class": "submission__title"
+      },
+      {
+        "role": "link",
+        "class": "submission__host"
+      },
+      {
+        "role": "paragraph",
+        "class": "submission__info"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Submission chrome -- renders: 'Comments', 'Upvote', 'Downvote'; user-generated title, host, and metadata excluded"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "sidebar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Sidebar navigation -- renders: 'About', 'Rules', 'Moderators', 'Community Info'; standard operator-defined community structure"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "site-footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Site footer -- renders: 'Reddit', 'Inc.'"
+  }
+]

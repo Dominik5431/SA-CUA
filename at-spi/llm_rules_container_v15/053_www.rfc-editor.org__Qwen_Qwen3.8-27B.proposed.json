@@ -1,0 +1,32 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "bg-blue-900 text-white dark:bg-blue-950 relative print:hidden border-b border-b-white dark:border-b-blue-900"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "top navigation bar -- renders: IETF logo, Home, Documents, Search, About, Login"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "bg-blue-900 text-white dark:bg-blue-950 border-t border-t-white dark:border-t-blue-900 relative print:hidden"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "footer -- renders: copyright notice, IETF links, Privacy, Terms, Contact"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "flex flex-col sticky top-0 h-[calc(100vh)]"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "sidebar navigation -- renders: Table of Contents, Errata, Download links; TOC items are derived from the RFC's own section headings"
+  }
+]

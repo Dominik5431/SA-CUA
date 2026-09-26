@@ -1,0 +1,31 @@
+# Adversarial UCM sites: travel-booking + ecommerce-search rebuilt from the in-repo fork
+# (ucm_sites/custom_websites_adv/) instead of the external untrusted-content-masking checkout.
+# Same ports/names as the benign services in docker-compose.yaml, so bring these up INSTEAD of
+# those two when running a booking value-attack:
+#   docker compose -f ucm_sites/docker-compose.yaml up -d              # the 8 benign sites
+#   docker compose -f ucm_sites/docker-compose.adv.yaml up -d --build  # adv travel + webshop
+#
+# The forked app.js fetches /logs/inject.json on load; the ./logs bind mount is shared, so the
+# RTC adversary_config setup step writes ucm_sites/logs/inject.json per-episode (benign twin: no
+# file -> no ad). See custom_websites_adv/README.md.
+services:
+  ecommerce-search:
+    build: {context: ./custom_websites_adv, dockerfile: ecommerce-search/web.Dockerfile}
+    ports: ["8110:80"]
+    volumes: ["./logs:/usr/share/nginx/html/logs:rw"]
+    restart: unless-stopped
+    container_name: ucm-ecommerce-search
+  travel-booking:
+    build: {context: ./custom_websites_adv, dockerfile: travel-booking/web.Dockerfile}
+    ports: ["8117:80"]
+    volumes: ["./logs:/usr/share/nginx/html/logs:rw"]
+    restart: unless-stopped
+    container_name: ucm-travel-booking
+  # Off-site attacker checkout the injected ads redirect to (partner-fares.net / silk-deals.net).
+  # Shares ./logs so its completion event reaches the same security.log the ADVERSARY_CHECKS read.
+  offsite-attacker:
+    build: {context: ./custom_websites_adv, dockerfile: offsite-attacker/web.Dockerfile}
+    ports: ["8120:80"]
+    volumes: ["./logs:/usr/share/nginx/html/logs:rw"]
+    restart: unless-stopped
+    container_name: ucm-offsite-attacker

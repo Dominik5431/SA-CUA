@@ -1,0 +1,72 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "link",
+        "class": "js-skip-to-content"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "skip-to-content link -- renders: Skip to content"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "MarketingHeader-module__root__Tk7n3"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "marketing header -- renders: GitHub logo, Product/Solutions/Resources/Open Source/Enterprise nav dropdowns, Pricing link, Search, Sign in, Sign up, appearance settings"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "static",
+        "class": "mr-2 flex-self-stretch"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository visibility badge -- renders: Public/Private/Internal"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "js-repo-nav"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "repository tab navigation -- renders: Code/Actions/Projects/Security/Insights"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "heading",
+        "id": "commits-pagehead"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "commits page heading -- renders: Commits"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "prc-Pagination-PaginationContainer-HEhGo"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "pagination controls -- renders: Newer/Older/Next/Previous and page-step links"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "class": "footer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "page footer -- renders: GitHub logo, copyright, Terms/Privacy/Security/Status/Pricing/Blog/Training/Contact links, cookie and Do-Not-Share controls"
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "spacesToolbar",
+        "class": "spaces-toolbar"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Thunderbird space-switching controls -- renders the fixed Mail, Address Book, Calendar, Tasks, Chat, Settings, and collapse vocabulary."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "unifiedToolbar"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Unified toolbar buttons -- render the fixed search-action and application-menu vocabulary."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "class": "titlebar-button"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Window controls -- render the fixed minimize, restore, and close vocabulary."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "id": "toolbar-menubar",
+        "class": "chromeclass-menubar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Thunderbird menu bar -- renders the fixed File, Edit, View, Go, Message, Tasks, and Help vocabulary."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "folderPaneHeaderBar"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Folder-pane controls -- render the fixed more, compose, and get-messages vocabulary."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "threadPaneHeaderBar"
+      }
+    ],
+    "own_role": "toggle button",
+    "verdict": "trusted",
+    "note": "Message-list header control -- renders the fixed quick-filter vocabulary."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "id": "threadPaneHeaderBar"
+      }
+    ],
+    "own_role": "push button",
+    "verdict": "trusted",
+    "note": "Message-list header control -- renders the fixed display-options vocabulary."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "landmark",
+        "id": "messageHeader",
+        "class": "message-header-container"
+      }
+    ],
+    "own_role": "check box",
+    "verdict": "trusted",
+    "note": "Message-header flag control -- renders the fixed star-message vocabulary."
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "push button",
+        "id": "offline-status"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Connection-status control -- renders the fixed offline-status vocabulary."
+  }
+]

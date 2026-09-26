@@ -1,0 +1,52 @@
+[
+  {
+    "ancestor_path": [
+      {
+        "role": "page tab list",
+        "class": "actions-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "activity bar navigation -- renders: Explorer/Search/Source Control/Run and Debug/Extensions"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "tool bar",
+        "class": "actions-container"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "fixed workbench toolbars -- renders: Accounts/Settings, view actions, tab actions, split editor, more actions, and notification controls"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "section",
+        "class": "composite title"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "view title bar -- renders: the fixed Explorer view label and its view-menu control"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "document frame",
+        "class": "gettingStartedContainer"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "Visual Studio Code getting-started interface -- renders fixed onboarding headings, descriptions, action controls, progress UI, and startup preference"
+  },
+  {
+    "ancestor_path": [
+      {
+        "role": "menu bar",
+        "class": "ElectronMenuBar"
+      }
+    ],
+    "verdict": "trusted",
+    "note": "application menu bar -- renders the fixed File/Edit/Selection/View/Go/Run/Terminal/Help vocabulary"
+  }
+]
